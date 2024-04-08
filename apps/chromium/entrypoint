@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start chromium
+chromium --no-sandbox --test-type "$@"

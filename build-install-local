@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# Input check
+if [[ -z ${1+x} ]]; then
+  echo "This script requires the name of the app folder you are trying to install"
+fi
+if [[ ! -d "apps/$1" ]]; then
+  echo "apps/$1 does not exist please create an app folder for this app"
+fi
+if [ "$EUID" -eq 0 ]; then 
+  echo "Do not run this script as root, instead make your user a member of the 'docker' group"
+  echo "sudo usermod -aG docker \$USER"
+  exit 1
+fi
+
+# Build folder and env setup
+cd apps/$1
+
+# Build image
+echo "building image"
+if echo "$(git remote -v)" | grep -q 'https'; then
+  GHREPO=$(git remote -v | awk -F'(hub.com/|.git)' '{print $3;exit}')
+else
+  GHREPO=$(git remote -v | awk -F'(hub.com:|.git)' '{print $4;exit}')
+fi
+GHREPO_FOLDER=$(echo "${GHREPO}"| sed 's|/|_|g')
+
+docker build --pull --build-arg REPO=${GHREPO} -t local-$1 .
+
+# Extract FS and add to install folder
+echo "extracting fs"
+rm -Rf $HOME/proot-apps/{ghcr.io_${GHREPO_FOLDER}_$1,tmp}
+mkdir -p $HOME/proot-apps/{ghcr.io_${GHREPO_FOLDER}_$1,tmp}
+cd $HOME/proot-apps/tmp
+docker save local-$1 > image.tar
+tar xf image.tar
+tar -xf $(ls -S blobs/sha256/* | head -1) -C $HOME/proot-apps/ghcr.io_${GHREPO_FOLDER}_$1
+cd ..
+rm -Rf tmp/
+
+
+echo "$1 installed as ghcr.io/${GHREPO}:$1"
+printf "\nTo install: \nproot-apps install ghcr.io/${GHREPO}:$1\n"

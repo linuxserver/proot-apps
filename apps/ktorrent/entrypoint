@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Ktorrent
+dbus-launch ktorrent "$@"

@@ -1,0 +1,34 @@
+FROM debian:bookworm-slim as rootfs
+
+ARG REPO
+
+# Install packages
+RUN \
+  echo "**** install packages ****" && \
+  apt-get update && \
+  apt-get install -y --no-install-recommends \
+    ca-certificates \
+    curl \
+    dbus-x11 \
+    desktop-file-utils \
+    fonts-noto \
+    netcat-openbsd && \
+  echo "**** setup xdg-open tunnel ****" && \
+  mkdir -p /usr/share/applications && \
+  curl -o \
+    /usr/share/applications/xdg-open.desktop -L \
+    "https://raw.githubusercontent.com/${REPO}/bins/xdg-open/xdg-open.desktop" && \
+  curl -o \
+    /usr/bin/xdg-open -L \
+    "https://raw.githubusercontent.com/${REPO}/bins/xdg-open/xdg-open" && \
+  chmod +x /usr/bin/xdg-open && \
+  update-desktop-database && \
+  echo "**** cleanup ****" && \
+  apt-get remove -y \
+    desktop-file-utils && \
+  apt-get autoclean && \
+  rm -rf \
+    /root/.cache \
+    /var/lib/apt/lists/* \
+    /var/tmp/* \
+    /tmp/*

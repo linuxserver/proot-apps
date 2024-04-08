@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Removing icon"
+rm -f $HOME/.local/share/icons/hicolor/scalable/apps/anydesk.png
+echo "Removing start menu entry"
+rm -f $HOME/.local/share/applications/anydesk-pa.desktop
+echo "Removing desktop shortcut"
+rm -f $HOME/Desktop/anydesk-pa.desktop

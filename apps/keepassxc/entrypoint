@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start KeePassXC
+dbus-launch keepassxc "$@"
