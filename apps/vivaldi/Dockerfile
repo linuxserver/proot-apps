@@ -11,7 +11,8 @@ RUN \
   ARCH=$(uname -m| sed 's/x86_64/amd64/g'| sed 's/aarch64/arm64/') && \
   VIVALDI_DEB=$(curl -sL https://repo.vivaldi.com/archive/deb/pool/main/ \
     | awk -F'(<a href="|">)' '/vivaldi-stable/ {print $2}' \
-    | grep ${ARCH}) && \
+    | grep ${ARCH} \
+    | tail -1) && \
   curl -o \
     /tmp/vivaldi.deb -L \
     "https://repo.vivaldi.com/archive/deb/pool/main/${VIVALDI_DEB}" && \

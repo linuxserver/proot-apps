@@ -1,12 +1,13 @@
 ARG REPO
-FROM ghcr.io/${REPO}:alpine-edge-av as rootfs
+FROM ghcr.io/${REPO}:alpine-319-av as rootfs
 ARG REPO
 
 # Install packages
 RUN \
   echo "**** install packages ****" && \
   apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing \
-    calibre \
+    calibre && \
+  apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community \
     speech-dispatcher && \
   echo "**** customize desktop file ****" && \
   sed -i \
