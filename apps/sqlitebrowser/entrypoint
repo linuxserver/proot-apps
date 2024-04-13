@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start SQLitebrowser
+dbus-launch sqlitebrowser "$@"

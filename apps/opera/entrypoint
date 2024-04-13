@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start opera
+dbus-launch opera --no-sandbox --test-type "$@"

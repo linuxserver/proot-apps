@@ -1,0 +1,19 @@
+#!/bin/bash
+
+## Desktop and icons install ##
+echo "Adding icon"
+mkdir -p $HOME/.local/share/icons/hicolor/scalable/apps/
+cp \
+  /usr/share/pixmaps/webcord.png \
+  $HOME/.local/share/icons/hicolor/scalable/apps/
+echo "Adding start menu entry"
+mkdir -p $HOME/.local/share/applications/
+cp \
+  /usr/share/applications/webcord-pa.desktop \
+  $HOME/.local/share/applications/
+echo "Adding desktop shortcut"
+mkdir -p $HOME/Desktop
+cp \
+  /usr/share/applications/webcord-pa.desktop \
+  $HOME/Desktop/
+chmod +x $HOME/Desktop/webcord-pa.desktop

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Postman
+/opt/Postman/app/Postman --no-sandbox "$@"

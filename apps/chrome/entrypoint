@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Chrome
+google-chrome --no-sandbox --test-type "$@"

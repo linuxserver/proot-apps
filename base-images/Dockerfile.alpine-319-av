@@ -1,0 +1,36 @@
+FROM alpine:3.19 as rootfs
+
+ARG REPO
+
+# Install packages
+RUN \
+  echo "**** install packages ****" && \
+  apk add --no-cache --upgrade --virtual=build-dependencies \
+    desktop-file-utils && \
+  apk add --no-cache \
+    bash \
+    curl \
+    dbus-x11 \
+    font-noto \
+    mesa-dri-gallium \
+    mesa-va-gallium \
+    netcat-openbsd \
+    pulseaudio \
+    xf86-video-amdgpu \
+    xf86-video-ati \
+    $(if [ $(uname -m) == "x86_64" ];then echo "xf86-video-intel";fi) && \
+  echo "**** setup xdg-open tunnel ****" && \
+  mkdir -p /usr/share/applications && \
+  curl -o \
+    /usr/share/applications/xdg-open.desktop -L \
+    "https://raw.githubusercontent.com/${REPO}/bins/xdg-open/xdg-open.desktop" && \
+  curl -o \
+    /usr/bin/xdg-open -L \
+    "https://raw.githubusercontent.com/${REPO}/bins/xdg-open/xdg-open" && \
+  chmod +x /usr/bin/xdg-open && \
+  update-desktop-database && \
+  echo "**** cleanup ****" && \
+  apk del --purge \
+    build-dependencies && \
+  rm -rf \
+    /tmp/*

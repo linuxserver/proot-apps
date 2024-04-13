@@ -1,0 +1,19 @@
+#!/bin/bash
+
+## Desktop and icons install ##
+echo "Adding icon"
+mkdir -p $HOME/.local/share/icons/hicolor/scalable/apps/
+cp \
+  /opt/Postman/app/resources/app/assets/icon.png \
+  $HOME/.local/share/icons/hicolor/scalable/apps/postman.png
+echo "Adding start menu entry"
+mkdir -p $HOME/.local/share/applications/
+cp \
+  /usr/share/applications/postman-pa.desktop \
+  $HOME/.local/share/applications/
+echo "Adding desktop shortcut"
+mkdir -p $HOME/Desktop
+cp \
+  /usr/share/applications/postman-pa.desktop \
+  $HOME/Desktop/
+chmod +x $HOME/Desktop/postman-pa.desktop

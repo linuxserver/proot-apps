@@ -1,0 +1,25 @@
+name: template-readme
+
+on:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: write
+jobs:
+  rupdate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
+      - uses: cuchi/jinja2-action@v1.2.2
+        with:
+          template: ci-scripts/README.template
+          output_file: README.md
+      - run: |
+          git config --global user.name 'README Bot'
+          git config --global user.email 'readme-bot@users.noreply.github.com'
+          git add README.md
+          git diff --quiet HEAD || git commit -m "Bot Updating README" && git push origin master

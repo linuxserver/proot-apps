@@ -1,0 +1,9 @@
+#!/bin/bash
+for APP in base calc draw impress math writer; do
+  echo "Removing icon $APP"
+  rm -f $HOME/.local/share/icons/hicolor/scalable/apps/libreoffice-${APP}.svg
+  echo "Removing start menu entry $APP"
+  rm -f $HOME/.local/share/applications/${APP}-pa.desktop
+  echo "Removing desktop shortcut $APP"
+  rm -f $HOME/Desktop/${APP}-pa.desktop
+done
