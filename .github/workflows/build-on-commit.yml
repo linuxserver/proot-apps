@@ -88,6 +88,8 @@ jobs:
             arch: linux/amd64,linux/arm64
           - name: earth
             arch: linux/amd64
+          - name: edge
+            arch: linux/amd64
           - name: filezilla
             arch: linux/amd64,linux/arm64
           - name: firefox
@@ -142,6 +144,8 @@ jobs:
             arch: linux/amd64,linux/arm64
           - name: shotcut
             arch: linux/amd64,linux/arm64
+          - name: signal
+            arch: linux/amd64
           - name: spotify
             arch: linux/amd64
           - name: sqlitebrowser

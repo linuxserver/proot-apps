@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Signal
+signal-desktop --no-sandbox "$@"

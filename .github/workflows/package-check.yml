@@ -37,6 +37,7 @@ jobs:
           - name: deluge
           - name: digikam
           - name: earth
+          - name: edge
           - name: filezilla
           - name: firefox
           - name: firefox-dev
@@ -64,6 +65,7 @@ jobs:
           - name: retroarch
           - name: shortwave
           - name: shotcut
+          - name: signal
           - name: spotify
           - name: sqlitebrowser
           - name: telegram
