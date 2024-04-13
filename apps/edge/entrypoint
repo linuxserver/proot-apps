@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# Start Edge
-microsoft-edge --no-sandbox --test-type "$@"

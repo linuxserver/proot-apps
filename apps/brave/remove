@@ -1,7 +1,0 @@
-#!/bin/bash
-echo "Removing icon"
-rm -f $HOME/.local/share/icons/hicolor/scalable/apps/brave-browser.png
-echo "Removing start menu entry"
-rm -f $HOME/.local/share/applications/brave-browser-pa.desktop
-echo "Removing desktop shortcut"
-rm -f $HOME/Desktop/brave-browser-pa.desktop

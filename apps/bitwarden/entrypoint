@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# Start BitWarden
-bitwarden --no-sandbox "$@"

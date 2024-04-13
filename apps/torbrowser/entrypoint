@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# Start Tor Browser
-torbrowser-launcher "$@"

@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# Start Obsidian
-/opt/obsidian/obsidian --no-sandbox "$@"

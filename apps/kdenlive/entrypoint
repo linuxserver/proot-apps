@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# Start Kdenlive
-dbus-launch kdenlive "$@"

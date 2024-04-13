@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "xdg-open "$@"" | nc -N -U /system.socket

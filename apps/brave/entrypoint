@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# Start brave
-brave-browser --no-sandbox --test-type "$@"

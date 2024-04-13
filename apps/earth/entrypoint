@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# Start Google Earth
-/opt/google/earth/pro/google-earth-pro "$@"

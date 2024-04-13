@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# Start VSCodium
-codium --no-sandbox "$@"

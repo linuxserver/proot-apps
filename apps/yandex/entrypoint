@@ -1,4 +1,0 @@
-#!/bin/bash
-
-# Start Yandex
-yandex-browser --no-sandbox --test-type "$@"
