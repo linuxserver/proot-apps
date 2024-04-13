@@ -29,7 +29,6 @@ echo 'export PATH="$HOME/.local/bin:$PATH"' >> $HOME/.bashrc
 ## Uninstall
 
 ```
-proot-apps remove all
 rm -f $HOME/.local/bin/{ncat,proot-apps,proot,jq}
 rm -Rf $HOME/proot-apps/
 ```
@@ -75,7 +74,8 @@ proot-apps update firefox
 | calibre | ghcr.io/linuxserver/proot-apps:calibre | amd64,arm64 | Calibre is a powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts.|
 | chrome | ghcr.io/linuxserver/proot-apps:chrome | amd64 | Chrome is the official web browser from Google, built to be fast, secure, and customizable.|
 | chromium | ghcr.io/linuxserver/proot-apps:chromium | amd64,arm64 | Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web. |
-| deluge | ghcr.io/linuxserver/proot-apps:deluge | amd64,arm64 | Deluge is a lightweight, Free Software, cross-platform BitTorrent client. |
+| deluge | ghcr.io/linuxserver/proot-apps:deluge | amd64,arm64 | Deluge is a lightweight, Free Software, cross-platform BitTorrent client.|
+| digikam | ghcr.io/linuxserver/proot-apps:digikam | amd64,arm64 | Professional Photo Management with the Power of Open Source.|
 | earth | ghcr.io/linuxserver/proot-apps:earth | amd64 | Google Earth Pro on desktop is free for users with advanced feature needs. Import and export GIS data, and go back in time with historical imagery.|
 | filezilla | ghcr.io/linuxserver/proot-apps:filezilla | amd64,arm64 | FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.|
 | firefox-dev | ghcr.io/linuxserver/proot-apps:firefox-dev | amd64,arm64 | The browser made for developers, all the latest developer tools in beta in addition to features like the Multi-line Console Editor and WebSocket Inspector. A separate profile and path so you can easily run it alongside Release or Beta Firefox. Preferences tailored for web developers: Browser and remote debugging are enabled by default, as are the dark theme and developer toolbar button.|
@@ -116,7 +116,7 @@ proot-apps update firefox
 
 # For Developers
 
-This repository was made to be cloned and forked with all of the build logic being templated to the repository owner and name. Simply forking this repository and enabling GitHub actions should be enough to get building using GitHub's builders. Also included in this repository is a nightly package check action, in order to use that you will need to set a [GitHub Secret](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions) for `PAT` for that bot to work as it needs basic write access to the repo to trigger downstream build actions. The build logic is currently configured to detect changes to the specific folders in `apps` to determine if they need to be built. To build a backlog of the images in this repo when forked removing the package_versions.txt from the apps you want to build and commiting that is likely the easiest approach. `find . -name package_versions.txt -exec git rm {} \;`
+This repository was made to be cloned and forked with all of the build logic being templated to the repository owner and name. Simply forking this repository and enabling GitHub actions should be enough to get building using GitHub's builders. Also included in this repository is a nightly package check action, in order to use that you will need to set a [GitHub Secret](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions) for `PAT` for that bot to work as it needs basic write access to the repo to trigger downstream build actions. The build logic is currently configured to detect changes to the specific folders in `apps` to determine if they need to be built. To build a backlog of the images in this repo when forked removing the package_versions.txt from the apps you want to build and commiting that is likely the easiest approach.
 
 When forking all readme updates should be made to the `ci-scripts/README.template` as this is the source file used to write out the readme linked to your forked repo.
 
