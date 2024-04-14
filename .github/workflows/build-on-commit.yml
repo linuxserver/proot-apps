@@ -127,6 +127,8 @@ jobs:
             arch: linux/amd64,linux/arm64
           - name: moonlight
             arch: linux/amd64,linux/arm64
+          - name: nextcloud
+            arch: linux/amd64
           - name: obs
             arch: linux/amd64
           - name: obsidian

@@ -55,6 +55,7 @@ jobs:
           - name: ktorrent
           - name: libreoffice
           - name: librewolf
+          - name: nextcloud
           - name: moonlight
           - name: obs
           - name: obsidian
