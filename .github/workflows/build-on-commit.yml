@@ -71,6 +71,8 @@ jobs:
             arch: linux/amd64,linux/arm64
           - name: audacity
             arch: linux/amd64
+          - name: beekeeperstudio
+            arch: linux/amd64,linux/arm64
           - name: bitwarden
             arch: linux/amd64
           - name: blender

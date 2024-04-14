@@ -28,6 +28,7 @@ jobs:
           - name: anydesk
           - name: ardour
           - name: audacity
+          - name: beekeeperstudio
           - name: bitwarden
           - name: blender
           - name: brave
