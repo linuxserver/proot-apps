@@ -44,6 +44,7 @@ jobs:
           - name: freecad
           - name: freetube
           - name: gimp
+          - name: handbrake
           - name: inkscape
           - name: kdenlive
           - name: keepassxc
