@@ -103,6 +103,8 @@ jobs:
             arch: linux/amd64,linux/arm64
           - name: gimp
             arch: linux/amd64,linux/arm64
+          - name: handbrake
+            arch: linux/amd64,linux/arm64
           - name: inkscape
             arch: linux/amd64,linux/arm64
           - name: kdenlive

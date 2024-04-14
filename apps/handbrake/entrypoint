@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start HandBrake
+handbrake-gtk "$@"
