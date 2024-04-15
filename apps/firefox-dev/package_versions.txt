@@ -83,7 +83,7 @@ hicolor-icon-theme         0.17-r2                  apk
 hwdata-pci                 0.381-r0                 apk           
 icu-data-en                74.2-r0                  apk           
 icu-libs                   74.2-r0                  apk           
-imath                      3.1.11-r0                apk           
+imath                      3.1.11-r1                apk           
 interpolate_name           0.2.4                    rust-crate    
 itertools                  0.10.5                   rust-crate    
 itertools                  0.12.0                   rust-crate    
@@ -162,11 +162,11 @@ libxkbcommon               1.7.0-r0                 apk
 libxml2                    2.12.6-r2                apk           
 libxrandr                  1.5.4-r1                 apk           
 libxrender                 0.9.11-r5                apk           
-libxscrnsaver              1.2.4-r2                 apk           
+libxscrnsaver              1.2.4-r3                 apk           
 libxshmfence               1.3.2-r6                 apk           
 libxtst                    1.2.4-r6                 apk           
 libxv                      1.0.12-r5                apk           
-libxvmc                    1.0.14-r0                apk           
+libxvmc                    1.0.14-r1                apk           
 libxxf86vm                 1.1.5-r6                 apk           
 linux-raw-sys              0.4.12                   rust-crate    
 llvm17-libs                17.0.6-r1                apk           
@@ -255,9 +255,9 @@ webrtc-audio-processing-1  1.3-r0                   apk
 x264-libs                  0.164_git20231001-r0     apk           
 x265-libs                  3.6-r0                   apk           
 xcb-util                   0.4.1-r3                 apk           
-xf86-video-amdgpu          23.0.0-r2                apk           
-xf86-video-ati             22.0.0-r2                apk           
-xf86-video-intel           2.99.917_git20221028-r6  apk           
+xf86-video-amdgpu          23.0.0-r3                apk           
+xf86-video-ati             22.0.0-r3                apk           
+xf86-video-intel           2.99.917_git20221028-r7  apk           
 xkeyboard-config           2.41-r0                  apk           
 xvidcore                   1.3.7-r2                 apk           
 xz-libs                    5.6.1-r3                 apk           

@@ -246,10 +246,10 @@ py3-six                    1.16.0-r8                apk
 py3-six-pyc                1.16.0-r8                apk           
 py3-wxpython               4.2.1-r1                 apk           
 py3-wxpython-pyc           4.2.1-r1                 apk           
-pyc                        3.11.8-r0                apk           
-python3                    3.11.8-r0                apk           
-python3-pyc                3.11.8-r0                apk           
-python3-pycache-pyc0       3.11.8-r0                apk           
+pyc                        3.11.9-r0                apk           
+python3                    3.11.9-r0                apk           
+python3-pyc                3.11.9-r0                apk           
+python3-pycache-pyc0       3.11.9-r0                apk           
 rayon                      1.8.0                    rust-crate    
 rayon-core                 1.12.0                   rust-crate    
 readline                   8.2.1-r2                 apk           

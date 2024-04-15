@@ -356,10 +356,10 @@ proc-macro2                   1.0.57                   rust-crate
 pulseaudio                    16.1-r11                 apk           
 pulseaudio-alsa               16.1-r11                 apk           
 purpose5                      5.112.0-r0               apk           
-pyc                           3.11.8-r0                apk           
-python3                       3.11.8-r0                apk           
-python3-pyc                   3.11.8-r0                apk           
-python3-pycache-pyc0          3.11.8-r0                apk           
+pyc                           3.11.9-r0                apk           
+python3                       3.11.9-r0                apk           
+python3-pyc                   3.11.9-r0                apk           
+python3-pycache-pyc0          3.11.9-r0                apk           
 qt5-qtbase                    5.15.10_git20230714-r2   apk           
 qt5-qtbase-x11                5.15.10_git20230714-r2   apk           
 qt5-qtdeclarative             5.15.10_git20230629-r0   apk           
