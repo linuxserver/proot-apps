@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ "$EUID" -ne 0 ]; then 
+  /usr/bin/dpkg-real --force-not-root "$@"
+else
+  /usr/bin/dpkg-real "$@"
+fi

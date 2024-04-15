@@ -36,4 +36,11 @@ RUN \
     /root/.cache \
     /var/lib/apt/lists/* \
     /var/tmp/* \
-    /tmp/*
+    /tmp/* && \
+  echo "**** wrap dpkg for user installs ****" && \
+  mv \
+    /usr/bin/dpkg \
+    /usr/bin/dpkg-real
+
+# add local files
+COPY /debian-root /
