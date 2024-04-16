@@ -8,7 +8,7 @@ base-files                      13                              deb
 base-passwd                     3.6.3                           deb       
 bash                            5.2.21                          binary    
 bash                            5.2.21-2                        deb       
-bsdutils                        1:2.40-5                        deb       
+bsdutils                        1:2.40-6                        deb       
 ca-certificates                 20240203                        deb       
 coreutils                       9.4-3.1                         deb       
 curl                            8.7.1-2                         deb       
@@ -80,7 +80,7 @@ libavformat60                   7:6.1.1-3+b1                    deb
 libavutil58                     7:6.1.1-3+b1                    deb       
 libbdplus0                      0.2.0-3                         deb       
 libblas3                        3.12.0-3                        deb       
-libblkid1                       2.40-5                          deb       
+libblkid1                       2.40-6                          deb       
 libbluray2                      1:1.3.4-1                       deb       
 libbrotli1                      1.1.0-2+b3                      deb       
 libbs2b0                        3.1.0+dfsg-8                    deb       
@@ -102,7 +102,7 @@ libcodec2-1.2                   1.2.0-2+b1                      deb
 libcolord2                      1.4.7-1+b1                      deb       
 libcom-err2                     1.47.0-2.4                      deb       
 libcrypt1                       1:4.4.36-4                      deb       
-libcryptsetup12                 2:2.7.2-1                       deb       
+libcryptsetup12                 2:2.7.2-2                       deb       
 libcups2t64                     2.4.7-1.2+b1                    deb       
 libcurl3t64-gnutls              8.7.1-2                         deb       
 libcurl4t64                     8.7.1-2                         deb       
@@ -132,7 +132,7 @@ libelf1t64                      0.191-1+b1                      deb
 libepoxy0                       1.5.10-1+b2                     deb       
 libexpat1                       2.6.2-1                         deb       
 libext2fs2t64                   1.47.0-2.4                      deb       
-libfdisk1                       2.40-5                          deb       
+libfdisk1                       2.40-6                          deb       
 libffi8                         3.4.6-1                         deb       
 libfftw3-double3                3.3.10-1+b2                     deb       
 libfftw3-single3                3.3.10-1+b2                     deb       
@@ -200,7 +200,7 @@ liblz4-1                        1.9.4-2                         deb
 liblzma5                        5.6.1+really5.4.5-1             deb       
 libmbedcrypto7t64               2.28.8-1                        deb       
 libmd0                          1.1.0-2                         deb       
-libmount1                       2.40-5                          deb       
+libmount1                       2.40-6                          deb       
 libmp3lame0                     3.100-6+b2                      deb       
 libmpg123-0t64                  1.32.6-3                        deb       
 libmysofa1                      1.3.2+dfsg-2                    deb       
@@ -262,7 +262,7 @@ libshine3                       3.1.1-2+b1                      deb
 libshout3                       2.4.6-1+b2                      deb       
 libslang2                       2.3.3-4                         deb       
 libsm6                          2:1.2.3-1                       deb       
-libsmartcols1                   2.40-5                          deb       
+libsmartcols1                   2.40-6                          deb       
 libsnappy1v5                    1.1.10-1+b1                     deb       
 libsndfile1                     1.2.2-1+b2                      deb       
 libsodium23                     1.0.18-1                        deb       
@@ -302,7 +302,7 @@ libudfread0                     1.1.2-1                         deb
 libunibreak5                    5.1-2                           deb       
 libunistring5                   1.2-1                           deb       
 libunwind8                      1.6.2-3                         deb       
-libuuid1                        2.40-5                          deb       
+libuuid1                        2.40-6                          deb       
 libv4l-0t64                     1.26.1-4+b1                     deb       
 libv4lconvert0t64               1.26.1-4+b1                     deb       
 libva-drm2                      2.20.0-2                        deb       
@@ -378,7 +378,7 @@ login                           1:4.13+dfsg1-4                  deb
 logsave                         1.47.0-2.4                      deb       
 mawk                            1.3.4.20240123-1                deb       
 mesa-va-drivers                 24.0.5-1                        deb       
-mount                           2.40-5                          deb       
+mount                           2.40-6                          deb       
 ncurses-base                    6.4+20240113-1                  deb       
 ncurses-bin                     6.4+20240113-1                  deb       
 netcat-openbsd                  1.226-1                         deb       
@@ -400,7 +400,7 @@ tar                             1.35+dfsg-3                     deb
 tzdata                          2024a-2                         deb       
 udev                            255.4-1+b1                      deb       
 usr-is-merged                   39                              deb       
-util-linux                      2.40-5                          deb       
+util-linux                      2.40-6                          deb       
 x11-common                      1:7.7+23                        deb       
 x11-xkb-utils                   7.7+8+b1                        deb       
 xkb-data                        2.41-2                          deb       
