@@ -235,7 +235,7 @@ signal-hook-registry       1.4.1                    rust-crate
 simd_helpers               0.1.0                    rust-crate    
 soxr                       0.1.3-r7                 apk           
 speexdsp                   1.2.1-r2                 apk           
-sqlite-libs                3.45.2-r0                apk           
+sqlite-libs                3.45.3-r0                apk           
 ssl_client                 1.36.1-r24               apk           
 syn                        2.0.48                   rust-crate    
 tdb-libs                   1.4.9-r1                 apk           

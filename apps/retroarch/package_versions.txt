@@ -161,7 +161,7 @@ libretro-daphne               0_git20210108-r1         apk
 libretro-database             1.15.0-r0                apk           
 libretro-desmume              0_git20220926-r0         apk           
 libretro-dinothawr            0_git20220401-r0         apk           
-libretro-dolphin              0_git20220407-r1         apk           
+libretro-dolphin              0_git20220407-r2         apk           
 libretro-dosbox               0_git20220718-r0         apk           
 libretro-fbneo                0_git20220416-r0         apk           
 libretro-fceumm               0_git20230107-r0         apk           

@@ -83,7 +83,7 @@ gst-plugins-base                1.22.8-r0                apk
 gstreamer                       1.22.8-r0                apk                           
 gtk+3.0                         3.24.41-r0               apk                           
 gtk-update-icon-cache           3.24.41-r0               apk                           
-gtk4.0                          4.12.4-r0                apk                           
+gtk4.0                          4.12.5-r0                apk                           
 harfbuzz                        8.3.0-r0                 apk                           
 harfbuzz-icu                    8.3.0-r0                 apk                           
 hicolor-icon-theme              0.17-r2                  apk                           

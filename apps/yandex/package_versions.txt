@@ -334,5 +334,5 @@ xserver-xorg-core               2:21.1.7-3+deb12u7              deb
 xserver-xorg-video-amdgpu       23.0.0-1                        deb       
 xserver-xorg-video-ati          1:19.1.0-3                      deb       
 xserver-xorg-video-radeon       1:19.1.0-3                      deb       
-yandex-browser-stable           24.1.1.940-1                    deb       
+yandex-browser-stable           24.1.5.794-1                    deb       
 zlib1g                          1:1.2.13.dfsg-1                 deb       
