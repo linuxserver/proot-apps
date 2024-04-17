@@ -78,6 +78,7 @@ proot-apps update firefox
 | chromium | ghcr.io/linuxserver/proot-apps:chromium | amd64,arm64 | Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web. |
 | deluge | ghcr.io/linuxserver/proot-apps:deluge | amd64,arm64 | Deluge is a lightweight, Free Software, cross-platform BitTorrent client.|
 | digikam | ghcr.io/linuxserver/proot-apps:digikam | amd64,arm64 | Professional Photo Management with the Power of Open Source.|
+| doublecmd | ghcr.io/linuxserver/proot-apps:doublecmd | amd64,arm64 | Double Commander is a free cross-platform open source file manager with two panels side by side (or one above the other). It is inspired by Total Commander and features some innovative new ideas.|
 | earth | ghcr.io/linuxserver/proot-apps:earth | amd64 | Google Earth Pro on desktop is free for users with advanced feature needs. Import and export GIS data, and go back in time with historical imagery.|
 | filezilla | ghcr.io/linuxserver/proot-apps:filezilla | amd64,arm64 | FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.|
 | firefox-dev | ghcr.io/linuxserver/proot-apps:firefox-dev | amd64,arm64 | The browser made for developers, all the latest developer tools in beta in addition to features like the Multi-line Console Editor and WebSocket Inspector. A separate profile and path so you can easily run it alongside Release or Beta Firefox. Preferences tailored for web developers: Browser and remote debugging are enabled by default, as are the dark theme and developer toolbar button.|
@@ -94,6 +95,7 @@ proot-apps update firefox
 | libreoffice | ghcr.io/linuxserver/proot-apps:libreoffice | amd64,arm64 | LibreOffice is a free and powerful office suite, and a successor to OpenOffice.org (commonly known as OpenOffice). Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity.|
 | librewolf | ghcr.io/linuxserver/proot-apps:librewolf | amd64,arm64 | This project is an independent fork of Firefox, with the primary goals of privacy security and user freedom. It is the community run successor to LibreFox.|
 | moonlight | ghcr.io/linuxserver/proot-apps:moonlight | amd64,arm64 | Moonlight allows you to play your PC games on almost any device, whether you're in another room or miles away from your gaming rig.|
+| mumble | ghcr.io/linuxserver/proot-apps:mumble | amd64,arm64 | Mumble is a free, open source, low latency, high quality voice chat application.|
 | nextcloud | ghcr.io/linuxserver/proot-apps:nextcloud | amd64 | The Nextcloud desktop client keeps photos and documents always up to date, enabling you to work like you always did.|
 | obs | ghcr.io/linuxserver/proot-apps:obs | amd64,arm64 | OBS Studio is a free and open-source, cross-platform screencasting and streaming app.|
 | obsidian | ghcr.io/linuxserver/proot-apps:obsidian | amd64 | Obsidian is a note-taking app that lets you create, link, and organize your notes on your device, with hundreds of plugins and themes to customize your workflow.|
@@ -117,6 +119,7 @@ proot-apps update firefox
 | webcord | ghcr.io/linuxserver/proot-apps:webcord | amd64,arm64 | WebCord can be summarized as a pack of security and privacy hardenings, Discord features reimplementations, Electron / Chromium / Discord bugs workarounds, stylesheets, internal pages and wrapped https://discord.com page, designed to conform with ToS as much as it is possible (or hide the changes that might violate it from Discord's eyes).|
 | yandex | ghcr.io/linuxserver/proot-apps:yandex | amd64 | Yandex Browser is a freeware web browser developed by the Russian technology corporation Yandex that uses the Blink web browser.|
 | zoom | ghcr.io/linuxserver/proot-apps:zoom | amd64 | Zoom is a proprietary videotelephony software program developed by Zoom Video Communications.|
+| zotero | ghcr.io/linuxserver/proot-apps:zotero | amd64 | Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.|
 
 # For Developers
 
