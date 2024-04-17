@@ -37,6 +37,7 @@ jobs:
           - name: chromium
           - name: deluge
           - name: digikam
+          - name: doublecmd
           - name: earth
           - name: edge
           - name: filezilla
@@ -57,6 +58,7 @@ jobs:
           - name: librewolf
           - name: nextcloud
           - name: moonlight
+          - name: mumble
           - name: obs
           - name: obsidian
           - name: onlyoffice
@@ -81,6 +83,7 @@ jobs:
           - name: webcord
           - name: yandex
           - name: zoom
+          - name: zotero
   pcommit:
     runs-on: ubuntu-latest
     if: success() || failure()

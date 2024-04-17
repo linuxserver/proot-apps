@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Double Commander
+/opt/doublecmd/doublecmd "$@"

@@ -1,5 +1,5 @@
 ARG REPO
-FROM ghcr.io/${REPO}:alpine-319-av as rootfs
+FROM ghcr.io/${REPO}:alpine-edge-av as rootfs
 ARG REPO
 
 # Install packages

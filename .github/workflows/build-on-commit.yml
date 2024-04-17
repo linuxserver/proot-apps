@@ -89,6 +89,8 @@ jobs:
             arch: linux/amd64,linux/arm64
           - name: digikam
             arch: linux/amd64,linux/arm64
+          - name: doublecmd
+            arch: linux/amd64,linux/arm64
           - name: earth
             arch: linux/amd64
           - name: edge
@@ -126,6 +128,8 @@ jobs:
           - name: librewolf
             arch: linux/amd64,linux/arm64
           - name: moonlight
+            arch: linux/amd64,linux/arm64
+          - name: mumble
             arch: linux/amd64,linux/arm64
           - name: nextcloud
             arch: linux/amd64
@@ -176,4 +180,6 @@ jobs:
           - name: yandex
             arch: linux/amd64
           - name: zoom
+            arch: linux/amd64
+          - name: zotero
             arch: linux/amd64
