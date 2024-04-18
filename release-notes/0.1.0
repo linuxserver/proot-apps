@@ -1,0 +1,7 @@
+What's new in this Version:
+
+* Initial functional logic for PRoot Apps
+* Initial documentation for users and developers
+* Initial dynamic forkable build logic including package tracking and daily updates
+* amd64 and arm64 support
+* Base application set

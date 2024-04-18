@@ -11,7 +11,6 @@ RUN \
     bash \
     curl \
     dbus-x11 \
-    font-noto \
     mesa-dri-gallium \
     mesa-va-gallium \
     netcat-openbsd \
