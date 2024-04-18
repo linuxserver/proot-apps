@@ -313,8 +313,12 @@ if [ "${TYPE}" == "run" ]; then
   elif [ -d "/var/run/pulse" ]; then
     PULSE_BIND="-b /var/run/pulse:/var/run/pulse"
   fi
+  # Fonts
+  if [ -d "/usr/share/fonts" ] && [ -d "/usr/share/fontconfig" ] && [ -d "/etc/fonts" ]; then
+    FONTS_BIND="-b /usr/share/fonts:/usr/share/fonts -b /usr/share/fontconfig:/usr/share/fontconfig -b /etc/fonts:/etc/fonts"
+  fi
   $HOME/.local/bin/proot \
-    ${PULSE_BIND} -n \
+    ${PULSE_BIND} ${FONTS_BIND} -n \
     -R $HOME/proot-apps/${IMAGE_FOLDER}/ \
     /entrypoint "${@:3}" &
   start_system_socket "$HOME/proot-apps/${IMAGE_FOLDER}/" $!
