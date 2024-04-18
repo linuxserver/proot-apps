@@ -58,6 +58,8 @@ jobs:
           - name: ktorrent
           - name: libreoffice
           - name: librewolf
+          - name: lmms
+          - name: lollypop
           - name: nextcloud
           - name: moonlight
           - name: mumble
@@ -83,6 +85,7 @@ jobs:
           - name: vlc
           - name: vscode
           - name: vscodium
+          - name: weather
           - name: webcord
           - name: yandex
           - name: zoom

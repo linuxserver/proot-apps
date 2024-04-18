@@ -131,6 +131,10 @@ jobs:
             arch: linux/amd64,linux/arm64
           - name: librewolf
             arch: linux/amd64,linux/arm64
+          - name: lmms
+            arch: linux/amd64,linux/arm64
+          - name: lollypop
+            arch: linux/amd64,linux/arm64
           - name: moonlight
             arch: linux/amd64,linux/arm64
           - name: mumble
@@ -180,6 +184,8 @@ jobs:
           - name: vscode
             arch: linux/amd64,linux/arm64
           - name: vscodium
+            arch: linux/amd64,linux/arm64
+          - name: weather
             arch: linux/amd64,linux/arm64
           - name: webcord
             arch: linux/amd64,linux/arm64
