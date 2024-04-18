@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start IntelliJ IDEA
+/opt/idea/bin/idea.sh "$@"

@@ -39,6 +39,7 @@ jobs:
           - name: digikam
           - name: doublecmd
           - name: earth
+          - name: eclipsejava
           - name: edge
           - name: filezilla
           - name: firefox
@@ -47,6 +48,7 @@ jobs:
           - name: freetube
           - name: gimp
           - name: handbrake
+          - name: idea
           - name: inkscape
           - name: kdenlive
           - name: keepassxc
@@ -65,6 +67,7 @@ jobs:
           - name: opera
           - name: parsec
           - name: postman
+          - name: pycharm
           - name: qbittorrent
           - name: remmina
           - name: retroarch

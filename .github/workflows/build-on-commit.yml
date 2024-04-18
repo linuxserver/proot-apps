@@ -93,6 +93,8 @@ jobs:
             arch: linux/amd64,linux/arm64
           - name: earth
             arch: linux/amd64
+          - name: eclipsejava
+            arch: linux/amd64,linux/arm64
           - name: edge
             arch: linux/amd64
           - name: filezilla
@@ -108,6 +110,8 @@ jobs:
           - name: gimp
             arch: linux/amd64,linux/arm64
           - name: handbrake
+            arch: linux/amd64,linux/arm64
+          - name: idea
             arch: linux/amd64,linux/arm64
           - name: inkscape
             arch: linux/amd64,linux/arm64
@@ -144,6 +148,8 @@ jobs:
           - name: parsec
             arch: linux/amd64
           - name: postman
+            arch: linux/amd64,linux/arm64
+          - name: pycharm
             arch: linux/amd64,linux/arm64
           - name: qbittorrent
             arch: linux/amd64,linux/arm64

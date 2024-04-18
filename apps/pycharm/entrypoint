@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start PyCharm
+/opt/pycharm/bin/pycharm.sh "$@"
