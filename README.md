@@ -96,6 +96,8 @@ proot-apps update firefox
 | krita | ghcr.io/linuxserver/proot-apps:krita | amd64,arm64 | Krita is a professional FREE and open source painting program. It is made by artists that want to see affordable art tools for everyone.|
 | libreoffice | ghcr.io/linuxserver/proot-apps:libreoffice | amd64,arm64 | LibreOffice is a free and powerful office suite, and a successor to OpenOffice.org (commonly known as OpenOffice). Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity.|
 | librewolf | ghcr.io/linuxserver/proot-apps:librewolf | amd64,arm64 | This project is an independent fork of Firefox, with the primary goals of privacy security and user freedom. It is the community run successor to LibreFox.|
+| lmms | ghcr.io/linuxserver/proot-apps:lmms | amd64,arm64 | LMMS is a free, open source, multiplatform digital audio workstation.|
+| lollypop | ghcr.io/linuxserver/proot-apps:lollypop | amd64,arm64 | Lollypop is a lightweight modern music player designed to work excellently on the GNOME desktop environment.|
 | moonlight | ghcr.io/linuxserver/proot-apps:moonlight | amd64,arm64 | Moonlight allows you to play your PC games on almost any device, whether you're in another room or miles away from your gaming rig.|
 | mumble | ghcr.io/linuxserver/proot-apps:mumble | amd64,arm64 | Mumble is a free, open source, low latency, high quality voice chat application.|
 | nextcloud | ghcr.io/linuxserver/proot-apps:nextcloud | amd64 | The Nextcloud desktop client keeps photos and documents always up to date, enabling you to work like you always did.|
@@ -120,6 +122,7 @@ proot-apps update firefox
 | vscode | ghcr.io/linuxserver/proot-apps:vscode | amd64,arm64 | Visual Studio Code is a source-code editor developed by Microsoft for Windows, Linux and macOS|
 | vscodium | ghcr.io/linuxserver/proot-apps:vscodium | amd64,arm64 | VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.|
 | webcord | ghcr.io/linuxserver/proot-apps:webcord | amd64,arm64 | WebCord can be summarized as a pack of security and privacy hardenings, Discord features reimplementations, Electron / Chromium / Discord bugs workarounds, stylesheets, internal pages and wrapped https://discord.com page, designed to conform with ToS as much as it is possible (or hide the changes that might violate it from Discord's eyes).|
+| weather | ghcr.io/linuxserver/proot-apps:weather | amd64,arm64 | A small application that allows you to monitor the current weather conditions for your city, or anywhere in the world.|
 | yandex | ghcr.io/linuxserver/proot-apps:yandex | amd64 | Yandex Browser is a freeware web browser developed by the Russian technology corporation Yandex that uses the Blink web browser.|
 | zoom | ghcr.io/linuxserver/proot-apps:zoom | amd64 | Zoom is a proprietary videotelephony software program developed by Zoom Video Communications.|
 | zotero | ghcr.io/linuxserver/proot-apps:zotero | amd64 | Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.|
