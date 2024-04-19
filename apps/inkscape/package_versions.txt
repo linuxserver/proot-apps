@@ -135,7 +135,7 @@ netcat-openbsd             1.226-r0               apk
 nettle                     3.9.1-r0               apk       
 nghttp2-libs               1.58.0-r0              apk       
 nspr                       4.35-r4                apk       
-nss                        3.98-r0                apk       
+nss                        3.99-r0                apk       
 numactl                    2.0.16-r4              apk       
 numpy                      1.25.2                 python    
 openblas                   0.3.25-r0              apk       

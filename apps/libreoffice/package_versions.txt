@@ -271,7 +271,7 @@ nettle                          3.9.1-r0                 apk
 nghttp2-libs                    1.58.0-r0                apk                           
 npth                            1.6-r4                   apk                           
 nspr                            4.35-r4                  apk                           
-nss                             3.98-r0                  apk                           
+nss                             3.99-r0                  apk                           
 officebean                                               java-archive                  
 openal-soft-libs                1.23.1-r0                apk                           
 openexr-libiex                  3.1.12-r0                apk                           

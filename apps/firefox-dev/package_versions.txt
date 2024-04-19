@@ -56,7 +56,7 @@ ffmpeg-libavcodec          6.1.1-r6                 apk
 ffmpeg-libavutil           6.1.1-r6                 apk           
 ffmpeg-libswresample       6.1.1-r6                 apk           
 fftw-single-libs           3.3.10-r5                apk           
-firefox-developer-edition  125.0_beta9-r0           apk           
+firefox-developer-edition  126.0_beta1-r0           apk           
 font-noto                  23.7.1-r0                apk           
 font-noto-common           23.7.1-r0                apk           
 font-noto-math             23.7.1-r0                apk           
@@ -101,7 +101,7 @@ libbsd                     0.12.2-r0                apk
 libbz2                     1.0.8-r6                 apk           
 libc                       0.2.152                  rust-crate    
 libcap2                    2.69-r1                  apk           
-libcrypto3                 3.3.0-r0                 apk           
+libcrypto3                 3.3.0-r1                 apk           
 libcurl                    8.7.1-r0                 apk           
 libdav1d                   1.4.1-r0                 apk           
 libdrm                     2.4.120-r0               apk           
