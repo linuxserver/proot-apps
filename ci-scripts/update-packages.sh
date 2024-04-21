@@ -4,7 +4,7 @@ set -e
 IMAGE=$1
 
 cd apps/$IMAGE
-docker build --build-arg REPO=${GITHUB_REPOSITORY} -t $IMAGE:latest .
+docker build --build-arg REPO=${GITHUB_REPOSITORY,,} -t $IMAGE:latest .
 docker run --rm \
   -v /var/run/docker.sock:/var/run/docker.sock:ro \
   -v $(pwd):/tmp \

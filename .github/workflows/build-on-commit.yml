@@ -23,8 +23,8 @@ jobs:
           docker buildx build --push
           --file Dockerfile.${{ matrix.name }}
           --platform linux/amd64,linux/arm64
-          --build-arg REPO=${GITHUB_REPOSITORY}
-          --tag ghcr.io/${GITHUB_REPOSITORY}:${{ matrix.name }} .
+          --build-arg REPO=${GITHUB_REPOSITORY,,}
+          --tag ghcr.io/${GITHUB_REPOSITORY,,}:${{ matrix.name }} .
     strategy:
       matrix:
         include:
@@ -59,8 +59,8 @@ jobs:
           cd apps/${{ matrix.name }}/ &&
           docker buildx build --push
           --platform ${{ matrix.arch }}
-          --build-arg REPO=${GITHUB_REPOSITORY}
-          --tag ghcr.io/${GITHUB_REPOSITORY}:${{ matrix.name }} .
+          --build-arg REPO=${GITHUB_REPOSITORY,,}
+          --tag ghcr.io/${GITHUB_REPOSITORY,,}:${{ matrix.name }} .
     strategy:
       fail-fast: false
       matrix:

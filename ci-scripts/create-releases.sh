@@ -2,8 +2,8 @@
 
 set -e
 
-GH_USER=$(echo ${GITHUB_REPOSITORY} | awk -F'/' '{print $1}')
-GH_REPO=$(echo ${GITHUB_REPOSITORY} | awk -F'/' '{print $2}')
+GH_USER=$(echo ${GITHUB_REPOSITORY,,} | awk -F'/' '{print $1}')
+GH_REPO=$(echo ${GITHUB_REPOSITORY,,} | awk -F'/' '{print $2}')
 
 for ARCH in amd64 arm64; do
 
