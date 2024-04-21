@@ -111,6 +111,12 @@ include:
     arch: linux/amd64,linux/arm64
     icon: gimp.svg
     description: "GIMP is a free and open-source raster graphics editor used for image manipulation (retouching) and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. It is extensible by means of plugins, and scriptable."
+  - name: gui
+    full_name: PRoot apps GUI
+    arch: linux/amd64,linux/arm64
+    icon: gui.svg
+    description: "PRoot Apps gui is a gtk helper app to install and remove supported PRoot Apps"
+    disabled: True
   - name: handbrake
     full_name: HandBrake
     arch: linux/amd64,linux/arm64

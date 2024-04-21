@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.0"
+   width="122.28001pt"
+   height="126.89pt"
+   id="svg2"
+   sodipodi:docname="Number_sign.svg"
+   inkscape:export-filename="proot.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="pt" />
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient26"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop26" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop27" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient24"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop24" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop25" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient24"
+       id="linearGradient25"
+       x1="35.337227"
+       y1="45.100475"
+       x2="40.821224"
+       y2="45.100475"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(10.13885,0,0,10.13885,-334.01946,-392.62636)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient26"
+       id="radialGradient27"
+       cx="43.491196"
+       cy="51.870037"
+       fx="43.491196"
+       fy="51.870037"
+       r="3.5699999"
+       gradientTransform="matrix(7.8679521,0,0,9.4415406,-256.55579,-366.87898)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       style="fill:#c5c5c5;fill-opacity:1;stroke-width:4.82249"
+       id="rect6"
+       width="141.62677"
+       height="141.62677"
+       x="1.4607191"
+       y="5.679523"
+       ry="17.250612" />
+    <text
+       xml:space="preserve"
+       style="font-size:94.4146px;fill:#000000;stroke:url(#radialGradient27);stroke-width:2.13467;stroke-dasharray:none"
+       x="55.18187"
+       y="156.56044"
+       id="text6"
+       transform="scale(1.1210475,0.89202287)"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         x="55.18187"
+         y="156.56044"
+         style="stroke:url(#radialGradient27);stroke-width:2.13467;stroke-dasharray:none">#</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:121.665px;fill:#000000;stroke:url(#linearGradient25);stroke-width:2.272;stroke-dasharray:none"
+       x="12.457722"
+       y="108.07542"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         x="12.457722"
+         y="108.07542"
+         style="stroke:url(#linearGradient25);stroke-width:2.272;stroke-dasharray:none">P</tspan></text>
+  </g>
+</svg>

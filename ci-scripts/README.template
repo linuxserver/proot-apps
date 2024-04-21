@@ -36,6 +36,16 @@ rm -Rf $HOME/proot-apps/
 
 ## Hello World
 
+### Graphical Installer
+
+Supported applications can be installed via a graphical installer by adding it:
+
+```
+proot-apps install gui
+```
+
+### Command Line
+
 To install your first app [Firefox](https://www.mozilla.org/firefox/) simply execute:
 
 ```
@@ -73,7 +83,7 @@ proot-apps update firefox
 
 This repository was made to be cloned and forked with all of the build logic being templated to the repository owner and name. Simply forking this repository and enabling GitHub actions should be enough to get building using GitHub's builders. Also included in this repository is a nightly package check action, in order to use that you will need to set a [GitHub Secret](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions) for `PAT` for that bot to work as it needs basic write access to the repo to trigger downstream build actions. The build logic is currently configured to detect changes to the specific folders in `apps` to determine if they need to be built. To build a backlog of the images in this repo when forked removing the package_versions.txt from the apps you want to build and commiting that is likely the easiest approach. `find . -name package_versions.txt -exec git rm {} \;`
 
-When forking all readme updates should be made to the `ci-scripts/README.template` as this is the source file used to write out the readme linked to your forked repo.
+When forking all readme updates should be made to the `ci-scripts/README.template` as this is the source file used to write out the readme linked to your forked repo. Also keep in mind all the logic in your forked proot-apps binary and gui installer will be linked to your repostiry and packages.
 
 ## Building local apps
 

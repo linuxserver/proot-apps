@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=PRoot Apps
+Exec=/bin/sh -c "$HOME/.local/bin/proot-apps run ghcr.io/linuxserver/proot-apps:gui %U"
+StartupNotify=true
+Terminal=false
+Icon=gui-pa
+Type=Application
+Categories=System;Utility;

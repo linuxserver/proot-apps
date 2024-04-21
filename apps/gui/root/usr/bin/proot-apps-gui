@@ -1,0 +1,209 @@
+#!/usr/bin/env python
+
+# Imports
+import sys
+import os
+import gi
+import platform
+import time
+import requests
+import yaml
+import threading
+gi.require_version('Gtk', '4.0')
+gi.require_version('Adw', '1')
+gi.require_version('Vte', '3.91')
+from gi.repository import Gtk, Adw, Vte, GLib, GdkPixbuf, Gdk
+
+# CSS
+style = '''
+.info {
+  font-size: 16px;
+}
+.installed-button {
+  background-color: #3bb78f;
+  background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+  border-radius: 5px;
+}
+.term {
+  border-radius: 5px;
+}
+'''
+
+# App Class
+class MainWindow(Gtk.ApplicationWindow):
+  
+  # On launch set globals and style
+  def __init__(self, *args, **kwargs):
+    global css
+    super().__init__(*args, **kwargs)
+    self.repo = 'linuxserver/proot-apps'
+    self.metaUrl = 'https://raw.githubusercontent.com/' + self.repo + '/master/metadata/'
+    self.appPath = os.environ['HOME'] + '/proot-apps/ghcr.io_' + self.repo.replace('/','_') + '_'
+    self.appData = None
+    self.logos = {}
+    self.css = Gtk.CssProvider()
+    self.css.load_from_data(style.encode('utf-8'))
+    Gtk.StyleContext.add_provider_for_display(Gdk.Display.get_default(), self.css, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
+    self.set_default_size(1024, 768)
+    self.set_title('PRoot Apps Installer')
+    self.header = Adw.HeaderBar()
+    self.set_titlebar(self.header)
+    loading = Gtk.Box() 
+    self.set_child(loading)
+    loadMain = threading.Thread(target=self.getAppData, name="LoadMain")
+    loadMain.start()
+
+  # Ingest external metadata
+  def getAppData(self):
+    try:
+      res = requests.get(self.metaUrl + 'metadata.yml', allow_redirects=True)
+      txt = res.content.decode("utf-8")
+      self.appData = yaml.safe_load(txt)
+      self.renderHome(None)
+    except Exception as e:
+      main = Gtk.Box()
+      text = Gtk.Label()
+      text.set_text(str(e))
+      main.append(text)
+      self.set_child(main)
+
+  # Render the landing page
+  def renderHome(self, button):
+    # Remove back button if exists
+    if button:
+      self.header.remove(button)
+    # Setup scrollable app grid
+    self.set_title('PRoot Apps Installer')
+    main = Gtk.ScrolledWindow()
+    appGrid = Gtk.FlowBox()
+    appGrid.set_valign(Gtk.Align.START)
+    appGrid.set_max_children_per_line(30)
+    appGrid.set_selection_mode(Gtk.SelectionMode.NONE)
+    main.set_child(appGrid)
+    self.set_child(main)
+    for app in self.appData['include']:
+      # Do not show disabled apps
+      if 'disabled' in app:
+        continue
+      # Do not show single arch on aarch64
+      if platform.machine() not in ("i386", "AMD64", "x86_64") and app['arch'] == 'linux/amd64':
+        continue
+      # Only download the logos once
+      if app['name'] in self.logos:
+        content = self.logos[app['name']]
+      else:
+        res = requests.get(self.metaUrl + 'img/' + app['icon'], allow_redirects=True)
+        content = res.content
+        self.logos[app['name']] = content
+      # Setup buttons and append to grid
+      loader = GdkPixbuf.PixbufLoader()
+      loader.write_bytes(GLib.Bytes.new(content))
+      loader.set_size(192,192)
+      loader.close()
+      pixBuf = loader.get_pixbuf()
+      logo = Gtk.Image.new_from_pixbuf(pixBuf)
+      logo.set_size_request(192, 192)
+      label = Gtk.Label()
+      label.set_text(app['full_name'])
+      bContent = Gtk.Box(orientation=Gtk.Orientation.VERTICAL,spacing=10)
+      # Indicate an app is installed
+      if os.path.exists(self.appPath + app['name']):
+        bContent.add_css_class('installed-button')
+      bContent.set_size_request(220, 220)
+      bContent.append(logo)
+      bContent.append(label)
+      button = Gtk.Button()
+      button.connect('clicked', self.renderApp, app)
+      button.set_child(bContent)
+      appGrid.append(button)
+
+  # Render the app screen
+  def renderApp(self, button, app):
+    self.set_title(app['full_name'])
+    back = Gtk.Button(label='Back')
+    self.header.pack_start(back)
+    # Setup appinfo containers
+    container = Gtk.Box(orientation=Gtk.Orientation.VERTICAL,spacing=5)
+    self.set_child(container)
+    appInfo = Gtk.Box(spacing=5)
+    container.append(appInfo)
+    logoContainer = Gtk.CenterBox(orientation=Gtk.Orientation.VERTICAL)
+    logoContainer.set_size_request(500, 250)
+    infoContainer = Gtk.Label()
+    infoContainer.set_wrap(True)
+    infoContainer.set_justify(Gtk.Justification.CENTER)
+    infoContainer.add_css_class('info')
+    infoContainer.set_size_request(500, 250)
+    appInfo.append(logoContainer)
+    appInfo.append(infoContainer)
+    # Add logo and info
+    content = self.logos[app['name']]
+    loader = GdkPixbuf.PixbufLoader()
+    loader.write_bytes(GLib.Bytes.new(content))
+    loader.set_size(192,192)
+    loader.close()
+    pixBuf = loader.get_pixbuf()
+    logo = Gtk.Image.new_from_pixbuf(pixBuf)
+    logo.set_size_request(192, 192)
+    logoContainer.set_center_widget(logo)
+    infoContainer.set_text(app['description'])
+    # Add action container for clicks and term
+    actionContainer = Gtk.CenterBox()
+    actionContainer.set_size_request(1000, 65)
+    container.append(actionContainer)
+    self.actionButtons(app, actionContainer)
+    back.connect('clicked', self.renderHome)
+  
+  # Run a proot-apps command
+  def prootRun(self, button, action, app, container):
+    term = Vte.Terminal()
+    term.set_size_request(200, 50)
+    term.add_css_class('term')
+    term.connect("child-exited", self.removeTerm, app, container)
+    container.set_center_widget(term)
+    term.spawn_async(
+      Vte.PtyFlags.DEFAULT, os.environ['HOME'],
+      [os.environ['HOME'] + '/.local/bin/proot-apps', action, app['name']],
+      None, GLib.SpawnFlags.DEFAULT, None, None, -1, None, None, None
+    )
+
+  # Post proot-apps run hook
+  def removeTerm(self, terminal, error, app, container):
+    # Leave the terminal up if something went wrong
+    if error:
+      pass
+    # Let the user see the result and render buttons
+    else:
+      time.sleep(2)
+      self.actionButtons(app, container)
+
+  # Setup the action buttons depending on if app is installed
+  def actionButtons(self, app, container):
+    installButton = Gtk.Button(label='Install ' + app['full_name'])
+    updateButton = Gtk.Button(label='Update ' + app['full_name'])
+    removeButton = Gtk.Button(label='Remove ' + app['full_name'])
+    installedButtons = Gtk.Box(spacing=5)
+    uninstalledButtons = Gtk.Box(spacing=5)
+    installedButtons.append(updateButton)
+    installedButtons.append(removeButton)
+    uninstalledButtons.append(installButton)
+    if os.path.exists(self.appPath + app['name']):
+      container.set_center_widget(installedButtons)
+    else:
+      container.set_center_widget(uninstalledButtons)
+    installButton.connect('clicked', self.prootRun, 'install', app, container)
+    updateButton.connect('clicked', self.prootRun, 'update', app, container)
+    removeButton.connect('clicked', self.prootRun, 'remove', app, container)
+
+# Run app
+class App(Adw.Application):
+  def __init__(self, **kwargs):
+    super().__init__(**kwargs)
+    self.connect('activate', self.on_activate)
+
+  def on_activate(self, app):
+    self.win = MainWindow(application=app)
+    self.win.present()
+
+app = App(application_id="ProotApps")
+app.run(sys.argv)

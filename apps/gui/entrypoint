@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start PRoot Apps GUI
+proot-apps-gui "$@"
