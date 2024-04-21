@@ -205,7 +205,7 @@ The most likely scenario would be mounting your repo into the users session read
 
 To achieve this if it is a Docker container just mount in with a bind and set the env: 
 
-``
+```
 -e PA_REPO_FOLDER=/mnt/apps
 -v /mnt/apps:/mnt/apps:ro
 ```
