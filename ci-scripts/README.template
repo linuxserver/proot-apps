@@ -14,7 +14,7 @@ PRoot Apps is a simple platform to install and use applications without any priv
 ```
 rm -f $HOME/.local/bin/{ncat,proot-apps,proot,jq}
 mkdir -p $HOME/.local/bin
-curl -L https://github.com/{{ env['GITHUB_REPOSITORY'] }}/releases/download/$(curl -sX GET "https://api.github.com/repos/{{ env['GITHUB_REPOSITORY'] }}/releases/latest" | awk '/tag_name/{print $4;exit}' FS='[""]')/proot-apps-$(uname -m).tar.gz | tar -xzf - -C $HOME/.local/bin/
+curl -L https://github.com/{{ env['GITHUB_REPOSITORY']|lower }}/releases/download/$(curl -sX GET "https://api.github.com/repos/{{ env['GITHUB_REPOSITORY']|lower }}/releases/latest" | awk '/tag_name/{print $4;exit}' FS='[""]')/proot-apps-$(uname -m).tar.gz | tar -xzf - -C $HOME/.local/bin/
 export PATH="$HOME/.local/bin:$PATH"
 ```
 
@@ -47,7 +47,7 @@ The files for Firefox will be installed to a folder in `$HOME/proot-apps/`, Desk
 These short named apps are available from the supported list below, but any app can be consumed from a Docker endpoint IE:
 
 ```
-proot-apps install ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:firefox
+proot-apps install ghcr.io/{{ env['GITHUB_REPOSITORY']|lower }}:firefox
 ```
 
 To remove the application:
@@ -66,66 +66,8 @@ proot-apps update firefox
 
 | Name | Full Endpoint | Arch | Description |
 | :----: | :----: | :----: |--- |
-| anydesk | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:anydesk | amd64 | AnyDesk ensures secure and reliable remote desktop connections for IT professionals and on-the-go individuals alike.|
-| ardour | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:ardour | amd64,arm64 | Ardour is an open source, collaborative effort of a worldwide team including musicians, programmers, and professional recording engineers.|
-| audacity | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:audacity | amd64 | Audacity is an easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source.|
-| beekeeperstudio | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:beekeeperstudio | amd64,arm64 | Use Beekeeper Studio to query and manage your relational databases, like MySQL, Postgres, SQLite, and SQL Server.|
-| bitwarden | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:bitwarden | amd64 | Bitwarden is a secure and free password manager for all of your devices.|
-| blender | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:blender | amd64,arm64 | Blender is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality, and computer games.|
-| brave | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:brave | amd64,arm64 | Brave is a free and open-source web browser developed by Brave Software, Inc. based on the Chromium web browser. Brave is a privacy-focused browser, which automatically blocks most advertisements and website trackers in its default settings.|
-| calibre | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:calibre | amd64,arm64 | Calibre is a powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts.|
-| chrome | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:chrome | amd64 | Chrome is the official web browser from Google, built to be fast, secure, and customizable.|
-| chromium | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:chromium | amd64,arm64 | Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web. |
-| deluge | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:deluge | amd64,arm64 | Deluge is a lightweight, Free Software, cross-platform BitTorrent client.|
-| digikam | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:digikam | amd64,arm64 | Professional Photo Management with the Power of Open Source.|
-| doublecmd | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:doublecmd | amd64,arm64 | Double Commander is a free cross-platform open source file manager with two panels side by side (or one above the other). It is inspired by Total Commander and features some innovative new ideas.|
-| earth | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:earth | amd64 | Google Earth Pro on desktop is free for users with advanced feature needs. Import and export GIS data, and go back in time with historical imagery.|
-| eclipsejava | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:eclipsejava | amd64,arm64 | Eclipse IDE, the essential tools for any Java developer, including a Java IDE, a Git client, XML Editor, Maven and Gradle integration.|
-| filezilla | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:filezilla | amd64,arm64 | FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.|
-| firefox-dev | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:firefox-dev | amd64,arm64 | The browser made for developers, all the latest developer tools in beta in addition to features like the Multi-line Console Editor and WebSocket Inspector. A separate profile and path so you can easily run it alongside Release or Beta Firefox. Preferences tailored for web developers: Browser and remote debugging are enabled by default, as are the dark theme and developer toolbar button.|
-| firefox | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:firefox | amd64,arm64 | Firefox Browser, also known as Mozilla Firefox or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards.|
-| freetube | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:freetube | amd64,arm64 | FreeTube is an open source desktop YouTube player built with privacy in mind.|
-| gimp | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:gimp | amd64,arm64 | GIMP is a free and open-source raster graphics editor used for image manipulation (retouching) and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. It is extensible by means of plugins, and scriptable.|
-| handbrake | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:handbrake | amd64,arm64 | HandBrake is an open-source, GPL-licensed, multiplatform, multithreaded video transcoder.|
-| idea | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:idea | amd64,arm64 | IntelliJ IDEA Community Edition is an Integrated Development Environment (IDE) for Java and Kotlin designed to maximize developer productivity.|
-| inkscape | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:inkscape | amd64,arm64 | Inkscape is professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers.|
-| kdenlive | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:kdenlive | amd64,arm64 | Kdenlive is a powerful free and open source cross-platform video editing program made by the KDE community. Feature rich and production ready.|
-| keepassxc | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:keepassxc | amd64,arm64 | KeePassXC is a modern, secure, and open-source password manager that stores and manages your most sensitive information.|
-| kicad | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:kicad | amd64,arm64 | KiCad - A Cross Platform and Open Source Electronics Design Automation Suite.|
-| kodi | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:kodi | amd64,arm64 | Kodi spawned from the love of media. It is media center and entertainment hub that brings all your digital media together into a beautiful and user friendly package. It is 100% free and open source, very customisable and runs on a wide variety of devices. It is supported by a dedicated team of volunteers and a huge community. |
-| krita | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:krita | amd64,arm64 | Krita is a professional FREE and open source painting program. It is made by artists that want to see affordable art tools for everyone.|
-| libreoffice | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:libreoffice | amd64,arm64 | LibreOffice is a free and powerful office suite, and a successor to OpenOffice.org (commonly known as OpenOffice). Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity.|
-| librewolf | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:librewolf | amd64,arm64 | This project is an independent fork of Firefox, with the primary goals of privacy security and user freedom. It is the community run successor to LibreFox.|
-| lmms | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:lmms | amd64,arm64 | LMMS is a free, open source, multiplatform digital audio workstation.|
-| lollypop | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:lollypop | amd64,arm64 | Lollypop is a lightweight modern music player designed to work excellently on the GNOME desktop environment.|
-| moonlight | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:moonlight | amd64,arm64 | Moonlight allows you to play your PC games on almost any device, whether you're in another room or miles away from your gaming rig.|
-| mumble | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:mumble | amd64,arm64 | Mumble is a free, open source, low latency, high quality voice chat application.|
-| nextcloud | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:nextcloud | amd64 | The Nextcloud desktop client keeps photos and documents always up to date, enabling you to work like you always did.|
-| obs | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:obs | amd64,arm64 | OBS Studio is a free and open-source, cross-platform screencasting and streaming app.|
-| obsidian | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:obsidian | amd64 | Obsidian is a note-taking app that lets you create, link, and organize your notes on your device, with hundreds of plugins and themes to customize your workflow.|
-| onlyoffice | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:onlyoffice | amd64 | Create, view and edit documents of any size and complexity. Work with most popular formats: DOCX, ODT, XLSX, ODS, CSV, PPTX, ODP, etc. Deal with multiple files within one and the same window thanks to the tab-based user interface.|
-| opera | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:opera | amd64 | Opera is a multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium, but distinguishes itself from other Chromium-based browsers (Chrome, Edge, etc.) through its user interface and other features.|
-| parsec | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:parsec | amd64 | Parsec is a remote desktop you'll actually love. Connect to work, games, or projects wherever you are, whenever you want.|
-| postman | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:postman | amd64,arm64 | Postman is an application that allows the testing of web APIs.|
-| pycharm | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:pycharm | amd64,arm64 | PyCharm Community Edition IDE is designed by programmers, for programmers, to provide all the tools you need for productive Python development.|
-| qbittorrent | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:qbittorrent | amd64,arm64 | The Qbittorrent project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library.|
-| remmina | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:remmina | amd64,arm64 | Remmina is a remote desktop client written in GTK, aiming to be useful for system administrators and travellers, who need to work with lots of remote computers in front of either large or tiny screens. Remmina supports multiple network protocols, in an integrated and consistent user interface.|
-| retroarch | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:retroarch | amd64,arm64 | RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications.|
-| shortwave | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:shortwave | amd64,arm64 | Shortwave is an internet radio player that provides access to a station database with over 30,000 stations. |
-| shotcut | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:shotcut | amd64,arm64 | Shotcut is a free, open source, cross-platform video editor.|
-| sqlitebrowser | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:sqlitebrowser | amd64,arm64 | DB Browser for SQLite is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.|
-| thunderbird | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:thunderbird | amd64,arm64 | Thunderbird is free and open-source email client software which also functions as a full personal information manager with a calendar and contactbook, as well as an RSS feed reader, chat client (IRC/XMPP/Matrix), and news client.|
-| telegram | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:telegram | amd64,arm64 | Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.|
-| torbrowser | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:torbrowser | amd64 | Tor is free and open-source software for enabling anonymous communication by directing Internet traffic through a free, worldwide, volunteer overlay network.|
-| vivaldi | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:vivaldi | amd64,arm64 | Vivaldi is a freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies.|
-| vlc | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:vlc | amd64,arm64 | VLC media player (previously the VideoLAN Client and commonly known as simply VLC) is a free and open-source, portable, cross-platform media player software and streaming media server developed by the VideoLAN project.|
-| vscode | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:vscode | amd64,arm64 | Visual Studio Code is a source-code editor developed by Microsoft for Windows, Linux and macOS|
-| vscodium | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:vscodium | amd64,arm64 | VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.|
-| webcord | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:webcord | amd64,arm64 | WebCord can be summarized as a pack of security and privacy hardenings, Discord features reimplementations, Electron / Chromium / Discord bugs workarounds, stylesheets, internal pages and wrapped https://discord.com page, designed to conform with ToS as much as it is possible (or hide the changes that might violate it from Discord's eyes).|
-| weather | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:weather | amd64,arm64 | A small application that allows you to monitor the current weather conditions for your city, or anywhere in the world.|
-| yandex | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:yandex | amd64 | Yandex Browser is a freeware web browser developed by the Russian technology corporation Yandex that uses the Blink web browser.|
-| zoom | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:zoom | amd64 | Zoom is a proprietary videotelephony software program developed by Zoom Video Communications.|
-| zotero | ghcr.io/{{ env['GITHUB_REPOSITORY'] }}:zotero | amd64 | Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.|
+{% for app in include %}{% if 'disabled' not in app %}| {{ app.name }} | ghcr.io/{{ env['GITHUB_REPOSITORY']|lower }}:{{ app.name }} | {{ app.arch }} | {{ app.description }}|
+{% endif %}{% endfor %}
 
 # For Developers
 
@@ -176,3 +118,19 @@ echo "xdg-open "$@"" | nc -N -U /system.socket
 This same wrapper concept can be used to wrap any other binary inside the jail that you would want to open up on the host and not inside of the PRoot runspace itself.
 
 One other concept to keep in mind is if you want it to work in the application you will need to install it in the build logic. The only storage space PRoot really has access to at runtime is the user's home directory. If the program needs GPU acceleration, you will need to install the drivers (amdgpu, dri gallium, etc). If the program needs language packs or fonts again you will need to install them. In general this approach is incredibly wasteful when it comes to disk space but without using more complex systems like OverlayFS or bubblewrap (user namespacing) it is necessary.
+
+## Adding a new app
+
+Three are three things needed for an app to work with all build and ingestion logic: 
+
+* A folder with a `Dockerfile` must be created in the `/apps/` directory named after the app name (this is what the user types to install the application)
+* Metadata for the application must be added to `/metadata/metadata.yml` file including:
+  - name - the app name also tied to the folder used previously, should be a single string all lowercase
+  - full_name - the display name for the application
+  - arch - what arches to build the application for
+  - icon - the icon name for the application
+  - description - a blurb explaining the application to the user
+  - (optional) disabled - this will only build and push the tag for the application, it will not be advertised in the readme or desktop application
+* A logo for the application placed in the `/metadata/img` folder of the repository, svg is preffered here, but can also use 192x192 pngs
+
+When adding new applications we highly encourage copying an existing application folder as a start to understand what files are needed. Most apps can simply be installed from a distribution's repository and then it is just housekeeping to ensure the desktop file and icon conform to PRoot apps standards.

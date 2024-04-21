@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="14.2875mm"
+   height="14.287508mm"
+   viewBox="0 0 14.2875 14.287508"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-71.966669,-81.227087)">
+    <rect
+       style="fill:#115c77;fill-opacity:1;stroke:#000000;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3833"
+       width="3.4395852"
+       height="13.758336"
+       x="72.231247"
+       y="81.491669"
+       inkscape:export-filename="/home/ddennedy/Documents/MeltyTech/Logo/shotcut-logo-16.png"
+       inkscape:export-xdpi="568.89001"
+       inkscape:export-ydpi="568.89001" />
+    <rect
+       y="81.491669"
+       x="76.729164"
+       height="13.758334"
+       width="9.2604132"
+       id="rect3835"
+       style="fill:#115c77;fill-opacity:1;stroke:#000000;stroke-width:0.529167;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="/home/ddennedy/Documents/MeltyTech/Logo/shotcut-logo-16.png"
+       inkscape:export-xdpi="568.89001"
+       inkscape:export-ydpi="568.89001" />
+    <path
+       style="fill:#115c77;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       d="m 85.460416,81.756249 v 13.229167 h 0.79375 V 81.756249 Z"
+       id="rect3868"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/ddennedy/Documents/MeltyTech/Logo/shotcut-logo-16.png"
+       inkscape:export-xdpi="568.89001"
+       inkscape:export-ydpi="568.89001" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3871"
+       d="m 71.966666,81.756249 v 13.229167 h 0.79375 V 81.756249 Z"
+       style="fill:#115c77;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       inkscape:export-filename="/home/ddennedy/Documents/MeltyTech/Logo/shotcut-logo-16.png"
+       inkscape:export-xdpi="568.89001"
+       inkscape:export-ydpi="568.89001" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:125%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="77.486076"
+       y="83.967255"
+       id="text887"
+       inkscape:export-xdpi="568.89001"
+       inkscape:export-ydpi="568.89001"><tspan
+         sodipodi:role="line"
+         id="tspan885"
+         x="77.486076"
+         y="83.967255"
+         style="font-size:2.29306px;stroke-width:0.264583px">Shotcut</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="128" height="128" id="svg11300" version="1.0" style="display:inline;enable-background:new" viewBox="0 0 128 128">
+  <title id="title4162">Adwaita Icon Template</title>
+  <defs id="defs3">
+    <linearGradient id="linearGradient963">
+      <stop style="stop-color:#eef4fc;stop-opacity:1" offset="0" id="stop959"/>
+      <stop style="stop-color:#ffffff;stop-opacity:1" offset="1" id="stop961"/>
+    </linearGradient>
+    <linearGradient id="linearGradient906">
+      <stop style="stop-color:#fdfacf;stop-opacity:1" offset="0" id="stop900"/>
+      <stop id="stop902" offset="0.40000001" style="stop-color:#f9f06b;stop-opacity:1"/>
+      <stop style="stop-color:#f6d32d;stop-opacity:1" offset="1" id="stop904"/>
+    </linearGradient>
+    <radialGradient xlink:href="#linearGradient906" id="radialGradient927" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.34700543,0,0,0.3422335,-33.50647,42.517937)" cx="280.9942" cy="488.84842" fx="280.9942" fy="488.84842" r="224"/>
+    <linearGradient xlink:href="#linearGradient963" id="linearGradient965" x1="85" y1="107.16245" x2="85" y2="86" gradientUnits="userSpaceOnUse" gradientTransform="translate(-6,176)"/>
+  </defs>
+  
+  <metadata id="metadata4">
+    
+  </metadata>
+  <g id="layer1" style="display:inline" transform="translate(0,-172)">
+    <g id="layer2" style="display:none">
+      <text xml:space="preserve" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.08791494px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.33264872;enable-background:new" x="7.9499588" y="148.65199" id="context"><tspan id="tspan2716" x="7.9499588" y="148.65199" style="stroke-width:0.33264872">apps</tspan></text>
+      <text id="text3021" y="157.23398" x="7.7533054" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.08791494px;line-height:125%;font-family:Cantarell;-inkscape-font-specification:'Cantarell, Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.33264872;enable-background:new" xml:space="preserve"><tspan y="157.23398" x="7.7533054" id="tspan3023" style="stroke-width:0.33264872">org.gnome.Weather</tspan></text>
+      <g style="display:inline;fill:#000000;enable-background:new" transform="matrix(7.9911709,0,0,8.0036407,-167.7909,-4846.0776)" id="g12027"/>
+      <rect style="display:inline;overflow:visible;visibility:visible;fill:#f0f0f0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.5;marker:none;enable-background:accumulate" id="rect13805" width="128" height="128" x="9.2651362e-08" y="172"/>
+      <g id="g883" style="fill:none;fill-opacity:0.25098039;stroke:#a579b3;stroke-opacity:1" transform="translate(-24,24)"/>
+      <g id="g900" style="fill:none;fill-opacity:0.25098039;stroke:#a579b3;stroke-opacity:1" transform="translate(-24,24)"/>
+      <g id="g1168" transform="matrix(0.25,0,0,0.25,6.9488522e-8,225)">
+        <rect ry="32" rx="32" y="-180" x="96" height="448" width="319.99979" id="rect1110" style="opacity:0.1;fill:#2864b0;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal"/>
+        <rect ry="32" rx="32" y="-164" x="48" height="416" width="416" id="rect1110-8" style="display:inline;opacity:0.1;fill:#2864b0;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;enable-background:new"/>
+        <rect ry="32" rx="32" y="-116" x="32" height="320" width="448" id="rect1110-8-9" style="display:inline;opacity:0.1;fill:#2864b0;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;enable-background:new"/>
+        <circle cx="256" cy="44" r="240" id="path1142" style="opacity:0.1;fill:#2864b0;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal"/>
+      </g>
+    </g>
+    <g id="layer9" style="display:inline">
+      <rect y="192" x="20" height="88" width="88" id="rect915" style="display:inline;opacity:1;vector-effect:none;fill:#f5c211;fill-opacity:1;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;enable-background:new"/>
+      <rect transform="rotate(135.00002)" y="-255.97269" x="77.781677" height="87.681244" width="87.681244" id="rect917" style="display:inline;opacity:1;vector-effect:none;fill:#f6d32d;fill-opacity:1;stroke:none;stroke-width:7.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;enable-background:new"/>
+      <ellipse cy="236.00003" cx="64.000015" id="circle921" style="display:inline;opacity:1;vector-effect:none;fill:url(#radialGradient927);fill-opacity:1;stroke:none;stroke-width:0.01129822px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none;paint-order:normal;enable-background:new" rx="47.999996" ry="47.999916"/>
+      <path style="display:inline;opacity:1;fill:#dceafa;fill-opacity:1;stroke:none;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1;stroke-opacity:1;enable-background:new" d="m 90,244 c -7.812106,0.009 -14.903479,4.56615 -18.158203,11.66797 C 69.72598,254.57717 67.38044,254.00511 65,254 57.109349,254.009 50.575536,260.12876 50.050781,268.00195 50.034111,268.00124 50.01667,268.001 50,268 c -4.099536,0 -7.618346,2.46971 -9.162109,6 H 40 v 4 c 0,5.52285 4.477153,10 10,10 h 56 a 11.999999,11.999999 0 0 0 12,-12 v -4 h -0.70703 a 11.999999,11.999999 0 0 0 -7.32813,-7.3125 c 0.0154,-0.22879 0.0276,-0.45831 0.0352,-0.6875 0,-11.04569 -8.95431,-20 -20,-20 z" id="path1781-3"/>
+      <path style="display:inline;opacity:1;fill:url(#linearGradient965);fill-opacity:1;stroke:none;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1;stroke-opacity:1;enable-background:new" d="m 90,240 c -7.812106,0.009 -14.903479,4.56615 -18.158203,11.66797 C 69.72598,250.57717 67.38044,250.00511 65,250 57.109349,250.009 50.575536,256.12876 50.050781,264.00195 50.034111,264.00124 50.01667,264.001 50,264 c -5.522847,0 -10,4.47715 -10,10 0,5.52285 4.477153,10 10,10 h 56 a 11.999999,11.999999 0 0 0 12,-12 11.999999,11.999999 0 0 0 -8.03516,-11.3125 c 0.0154,-0.22879 0.0276,-0.45831 0.0352,-0.6875 0,-11.04569 -8.95431,-20 -20,-20 z" id="path1781"/>
+    </g>
+  </g>
+</svg>

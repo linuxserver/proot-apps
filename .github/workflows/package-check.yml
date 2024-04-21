@@ -7,8 +7,21 @@ on:
 permissions:
   contents: write
 jobs:
+  meta:
+    name: Ingest Metadata
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-meta.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: set-meta
+        run: |
+          curl -o yq -L "https://github.com/mikefarah/yq/releases/download/v4.43.1/yq_linux_amd64"
+          chmod +x yq
+          echo "matrix=$(./yq -o=j -I=0 '.' metadata/metadata.yml)" >> $GITHUB_OUTPUT
   pupdate:
     runs-on: ubuntu-latest
+    needs: meta
     steps:
       - uses: actions/checkout@v4
         with:
@@ -23,73 +36,7 @@ jobs:
           retention-days: 1
     strategy:
       fail-fast: false
-      matrix:
-        include:
-          - name: anydesk
-          - name: ardour
-          - name: audacity
-          - name: beekeeperstudio
-          - name: bitwarden
-          - name: blender
-          - name: brave
-          - name: calibre
-          - name: chrome
-          - name: chromium
-          - name: deluge
-          - name: digikam
-          - name: doublecmd
-          - name: earth
-          - name: eclipsejava
-          - name: edge
-          - name: filezilla
-          - name: firefox
-          - name: firefox-dev
-          - name: freecad
-          - name: freetube
-          - name: gimp
-          - name: handbrake
-          - name: idea
-          - name: inkscape
-          - name: kdenlive
-          - name: keepassxc
-          - name: kicad
-          - name: kodi
-          - name: krita
-          - name: ktorrent
-          - name: libreoffice
-          - name: librewolf
-          - name: lmms
-          - name: lollypop
-          - name: nextcloud
-          - name: moonlight
-          - name: mumble
-          - name: obs
-          - name: obsidian
-          - name: onlyoffice
-          - name: opera
-          - name: parsec
-          - name: postman
-          - name: pycharm
-          - name: qbittorrent
-          - name: remmina
-          - name: retroarch
-          - name: shortwave
-          - name: shotcut
-          - name: signal
-          - name: spotify
-          - name: sqlitebrowser
-          - name: telegram
-          - name: thunderbird
-          - name: torbrowser
-          - name: vivaldi
-          - name: vlc
-          - name: vscode
-          - name: vscodium
-          - name: weather
-          - name: webcord
-          - name: yandex
-          - name: zoom
-          - name: zotero
+      matrix: ${{ fromJson(needs.meta.outputs.matrix) }}
   pcommit:
     runs-on: ubuntu-latest
     if: success() || failure()

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+   <style>
+      .st1{fill:#fff}
+   </style>
+   <g id="Icon">
+      <circle cx="512" cy="512" r="512" style="fill:#ef443b"/>
+      <path class="st1" d="m590.7 334.5-39.5 39.4 138.6 137.9-138.6 138.5 39.5 38.7L768 511.8z"/>
+      <path transform="rotate(-45.001 433.623 512.007)" class="st1" d="M308 386.4h251.2v251.2H308z"/>
+   </g>
+</svg>

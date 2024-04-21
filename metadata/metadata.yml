@@ -1,0 +1,330 @@
+include:
+  - name: anydesk
+    full_name: AnyDesk 
+    arch: linux/amd64
+    icon: anydesk.svg
+    description: "AnyDesk ensures secure and reliable remote desktop connections for IT professionals and on-the-go individuals alike."
+  - name: ardour
+    full_name: Ardour
+    arch: linux/amd64,linux/arm64
+    icon: ardour.svg
+    description: "Ardour is an open source, collaborative effort of a worldwide team including musicians, programmers, and professional recording engineers."
+  - name: audacity
+    full_name: Audacity
+    arch: linux/amd64
+    icon: audacity.svg
+    description: "Audacity is an easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source."
+  - name: beekeeperstudio
+    full_name: Beekeeper Studio
+    arch: linux/amd64,linux/arm64
+    icon: beekeeperstudio.svg
+    description: "Use Beekeeper Studio to query and manage your relational databases, like MySQL, Postgres, SQLite, and SQL Server."
+  - name: bitwarden
+    full_name: Bitwarden
+    arch: linux/amd64
+    icon: bitwarden.svg
+    description: "Bitwarden is a secure and free password manager for all of your devices."
+  - name: blender
+    full_name: Blender
+    arch: linux/amd64,linux/arm64
+    icon: blender.svg
+    description: "Blender is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality, and computer games."
+  - name: brave
+    full_name: Brave
+    arch: linux/amd64,linux/arm64
+    icon: brave.svg
+    description: "Brave is a free and open-source web browser developed by Brave Software, Inc. based on the Chromium web browser. Brave is a privacy-focused browser, which automatically blocks most advertisements and website trackers in its default settings."
+  - name: calibre
+    full_name: Calibre
+    arch: linux/amd64,linux/arm64
+    icon: calibre.svg
+    description: "Calibre is a powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts."
+  - name: chrome
+    full_name: Google Chrome
+    arch: linux/amd64
+    icon: chrome.svg
+    description: "Chrome is the official web browser from Google, built to be fast, secure, and customizable."
+  - name: chromium
+    full_name: Chromium
+    arch: linux/amd64,linux/arm64
+    icon: chromium.svg
+    description: "Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web."
+  - name: deluge
+    full_name: Deluge
+    arch: linux/amd64,linux/arm64
+    icon: deluge.svg
+    description: "Deluge is a lightweight, Free Software, cross-platform BitTorrent client."
+  - name: digikam
+    full_name: digiKam
+    arch: linux/amd64,linux/arm64
+    icon: digikam.svg
+    description: "Professional Photo Management with the Power of Open Source."
+  - name: doublecmd
+    full_name: Double Commander
+    arch: linux/amd64,linux/arm64
+    icon: doublecmd.svg
+    description: "Double Commander is a free cross-platform open source file manager with two panels side by side (or one above the other). It is inspired by Total Commander and features some innovative new ideas."
+  - name: earth
+    full_name: Google Earth Pro
+    arch: linux/amd64
+    icon: earth.png
+    description: "Google Earth Pro on desktop is free for users with advanced feature needs. Import and export GIS data, and go back in time with historical imagery."
+  - name: eclipsejava
+    full_name: Eclipse IDE
+    arch: linux/amd64,linux/arm64
+    icon: eclipsejava.svg
+    description: "Eclipse IDE, the essential tools for any Java developer, including a Java IDE, a Git client, XML Editor, Maven and Gradle integration."
+  - name: edge
+    full_name: Microsoft Edge
+    arch: linux/amd64
+    icon: edge.svg
+    description: "Microsoft Edge is a cross-platform web browser developed by Microsoft and based on Chromium."
+    disabled: True
+  - name: filezilla
+    full_name: FileZilla
+    arch: linux/amd64,linux/arm64
+    icon: filezilla.svg
+    description: "FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface."
+  - name: firefox
+    full_name: Mozilla Firefox
+    arch: linux/amd64,linux/arm64
+    icon: firefox.svg
+    description: "Firefox Browser, also known as Mozilla Firefox or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards."
+  - name: firefox-dev
+    full_name: Firefox Developer Edition
+    arch: linux/amd64,linux/arm64
+    icon: firefox-dev.svg
+    description: "The browser made for developers, all the latest developer tools in beta in addition to features like the Multi-line Console Editor and WebSocket Inspector. A separate profile and path so you can easily run it alongside Release or Beta Firefox. Preferences tailored for web developers: Browser and remote debugging are enabled by default, as are the dark theme and developer toolbar button."
+  - name: freecad
+    full_name: FreeCAD
+    arch: linux/amd64,linux/arm64
+    icon: freecad.svg
+    description: "FreeCAD is an open-source parametric 3D modeler made primarily to design real-life objects of any size."
+    disabled: True
+  - name: freetube
+    full_name: FreeTube
+    arch: linux/amd64,linux/arm64
+    icon: freetube.svg
+    description: "FreeTube is an open source desktop YouTube player built with privacy in mind."
+  - name: gimp
+    full_name: GIMP
+    arch: linux/amd64,linux/arm64
+    icon: gimp.svg
+    description: "GIMP is a free and open-source raster graphics editor used for image manipulation (retouching) and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. It is extensible by means of plugins, and scriptable."
+  - name: handbrake
+    full_name: HandBrake
+    arch: linux/amd64,linux/arm64
+    icon: handbrake.svg
+    description: "HandBrake is an open-source, GPL-licensed, multiplatform, multithreaded video transcoder."
+  - name: idea
+    full_name: IntelliJ IDEA
+    arch: linux/amd64,linux/arm64
+    icon: idea.svg
+    description: "IntelliJ IDEA Community Edition is an Integrated Development Environment (IDE) for Java and Kotlin designed to maximize developer productivity."
+  - name: inkscape
+    full_name: Inkscape
+    arch: linux/amd64,linux/arm64
+    icon: inkscape.svg
+    description: "Inkscape is professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers."
+  - name: kdenlive
+    full_name: Kdenlive
+    arch: linux/amd64,linux/arm64
+    icon: kdenlive.svg
+    description: "Kdenlive is a powerful free and open source cross-platform video editing program made by the KDE community. Feature rich and production ready."
+  - name: keepassxc
+    full_name: KeePassXC
+    arch: linux/amd64,linux/arm64
+    icon: keepassxc.svg
+    description: "KeePassXC is a modern, secure, and open-source password manager that stores and manages your most sensitive information."
+  - name: kicad
+    full_name: KiCad
+    arch: linux/amd64,linux/arm64
+    icon: kicad.svg
+    description: "KiCad - A Cross Platform and Open Source Electronics Design Automation Suite."
+  - name: kodi
+    full_name: Kodi
+    arch: linux/amd64,linux/arm64
+    icon: kodi.svg
+    description: "Kodi spawned from the love of media. It is media center and entertainment hub that brings all your digital media together into a beautiful and user friendly package. It is 100% free and open source, very customisable and runs on a wide variety of devices. It is supported by a dedicated team of volunteers and a huge community."
+  - name: krita
+    full_name: Krita
+    arch: linux/amd64,linux/arm64
+    icon: krita.svg
+    description: "Krita is a professional FREE and open source painting program. It is made by artists that want to see affordable art tools for everyone."
+  - name: ktorrent
+    full_name: KTorrent
+    arch: linux/amd64,linux/arm64
+    icon: ktorrent.svg
+    description: "KTorrent is a BitTorrent application by KDE which allows you to download files using the BitTorrent protocol."
+  - name: libreoffice
+    full_name: LibreOffice
+    arch: linux/amd64,linux/arm64
+    icon: libreoffice.svg
+    description: "LibreOffice is a free and powerful office suite, and a successor to OpenOffice.org (commonly known as OpenOffice). Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity."
+  - name: librewolf
+    full_name: LibreWolf
+    arch: linux/amd64,linux/arm64
+    icon: librewolf.svg
+    description: "This project is an independent fork of Firefox, with the primary goals of privacy security and user freedom. It is the community run successor to LibreFox."
+  - name: lmms
+    full_name: LMMS
+    arch: linux/amd64,linux/arm64
+    icon: lmms.svg
+    description: "LMMS is a free, open source, multiplatform digital audio workstation."
+  - name: lollypop
+    full_name: Lollypop
+    arch: linux/amd64,linux/arm64
+    icon: lollypop.svg
+    description: "Lollypop is a lightweight modern music player designed to work excellently on the GNOME desktop environment."
+  - name: moonlight
+    full_name: Moonlight
+    arch: linux/amd64,linux/arm64
+    icon: moonlight.svg
+    description: "Moonlight allows you to play your PC games on almost any device, whether you're in another room or miles away from your gaming rig."
+  - name: mumble
+    full_name: Mumble
+    arch: linux/amd64,linux/arm64
+    icon: mumble.svg
+    description: "Mumble is a free, open source, low latency, high quality voice chat application."
+  - name: nextcloud
+    full_name: Nextcloud Desktop
+    arch: linux/amd64
+    icon: nextcloud.svg
+    description: "The Nextcloud desktop client keeps photos and documents always up to date, enabling you to work like you always did."
+  - name: obs
+    full_name: OBS Studio
+    arch: linux/amd64
+    icon: obs.svg
+    description: "OBS Studio is a free and open-source, cross-platform screencasting and streaming app."
+  - name: obsidian
+    full_name: Obsidian
+    arch: linux/amd64
+    icon: obsidian.svg
+    description: "Obsidian is a note-taking app that lets you create, link, and organize your notes on your device, with hundreds of plugins and themes to customize your workflow."
+  - name: onlyoffice
+    full_name: ONLYOFFICE
+    arch: linux/amd64
+    icon: onlyoffice.svg
+    description: "Create, view and edit documents of any size and complexity. Work with most popular formats: DOCX, ODT, XLSX, ODS, CSV, PPTX, ODP, etc. Deal with multiple files within one and the same window thanks to the tab-based user interface."
+  - name: opera
+    full_name: Opera
+    arch: linux/amd64
+    icon: opera.svg
+    description: "Opera is a multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium, but distinguishes itself from other Chromium-based browsers (Chrome, Edge, etc.) through its user interface and other features."
+  - name: parsec
+    full_name: Parsec
+    arch: linux/amd64
+    icon: parsec.svg
+    description: "Parsec is a remote desktop you'll actually love. Connect to work, games, or projects wherever you are, whenever you want."
+  - name: postman
+    full_name: Postman
+    arch: linux/amd64,linux/arm64
+    icon: postman.svg
+    description: "Postman is an application that allows the testing of web APIs."
+  - name: pycharm
+    full_name: PyCharm Community Edition
+    arch: linux/amd64,linux/arm64
+    icon: pycharm.svg
+    description: "PyCharm Community Edition IDE is designed by programmers, for programmers, to provide all the tools you need for productive Python development."
+  - name: qbittorrent
+    full_name: Qbittorrent
+    arch: linux/amd64,linux/arm64
+    icon: qbittorrent.svg
+    description: "The Qbittorrent project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library."
+  - name: remmina
+    full_name: Remmina
+    arch: linux/amd64,linux/arm64
+    icon: remmina.svg
+    description: "Remmina is a remote desktop client written in GTK, aiming to be useful for system administrators and travellers, who need to work with lots of remote computers in front of either large or tiny screens. Remmina supports multiple network protocols, in an integrated and consistent user interface."
+  - name: retroarch
+    full_name: RetroArch
+    arch: linux/amd64,linux/arm64
+    icon: retroarch.svg
+    description: "RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications."
+  - name: shortwave
+    full_name: Shortwave
+    arch: linux/amd64,linux/arm64
+    icon: shortwave.svg
+    description: "Shortwave is an internet radio player that provides access to a station database with over 30,000 stations."
+  - name: shotcut
+    full_name: Shotcut
+    arch: linux/amd64,linux/arm64
+    icon: shotcut.svg
+    description: "Shotcut is a free, open source, cross-platform video editor."
+  - name: signal
+    full_name: Signal
+    arch: linux/amd64
+    icon: signal.svg
+    description: "Share text, voice messages, photos, videos, GIFs and files for free."
+    disabled: True
+  - name: spotify
+    full_name: Spotify
+    arch: linux/amd64
+    icon: spotify.svg
+    description: "Spotify is a digital music service that gives you access to millions of songs."
+    disabled: True
+  - name: sqlitebrowser
+    full_name: SQLite DB Browser
+    arch: linux/amd64,linux/arm64
+    icon: sqlitebrowser.svg
+    description: "DB Browser for SQLite is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite."
+  - name: telegram
+    full_name: Telegram
+    arch: linux/amd64,linux/arm64
+    icon: telegram.svg
+    description: "Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed."
+  - name: thunderbird
+    full_name: Thunderbird
+    arch: linux/amd64,linux/arm64
+    icon: thunderbird.svg
+    description: "Thunderbird is free and open-source email client software which also functions as a full personal information manager with a calendar and contactbook, as well as an RSS feed reader, chat client (IRC/XMPP/Matrix), and news client."
+  - name: torbrowser
+    full_name: Tor Browser
+    arch: linux/amd64
+    icon: torbrowser.svg
+    description: "Tor is free and open-source software for enabling anonymous communication by directing Internet traffic through a free, worldwide, volunteer overlay network."
+  - name: vivaldi
+    full_name: Vivaldi
+    arch: linux/amd64,linux/arm64
+    icon: vivaldi.svg
+    description: "Vivaldi is a freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies."
+  - name: vlc
+    full_name: VLC media player
+    arch: linux/amd64,linux/arm64
+    icon: vlc.svg
+    description: "VLC media player (previously the VideoLAN Client and commonly known as simply VLC) is a free and open-source, portable, cross-platform media player software and streaming media server developed by the VideoLAN project."
+  - name: vscode
+    full_name: Visual Studio Code
+    arch: linux/amd64,linux/arm64
+    icon: vscode.svg
+    description: "Visual Studio Code is a source-code editor developed by Microsoft for Windows, Linux and macOS"
+  - name: vscodium
+    full_name: VSCodium
+    arch: linux/amd64,linux/arm64
+    icon: vscodium.svg
+    description: "VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code."
+  - name: weather
+    full_name: GNOME Weather
+    arch: linux/amd64,linux/arm64
+    icon: weather.svg
+    description: "A small application that allows you to monitor the current weather conditions for your city, or anywhere in the world."
+  - name: webcord
+    full_name: WebCord
+    arch: linux/amd64,linux/arm64
+    icon: webcord.png
+    description: "WebCord can be summarized as a pack of security and privacy hardenings, Discord features reimplementations, Electron / Chromium / Discord bugs workarounds, stylesheets, internal pages and wrapped https://discord.com page, designed to conform with ToS as much as it is possible."
+  - name: yandex
+    full_name: Yandex Browser
+    arch: linux/amd64
+    icon: yandex.svg
+    description: "Yandex Browser is a freeware web browser developed by the Russian technology corporation Yandex that uses the Blink web browser."
+  - name: zoom
+    full_name: Zoom
+    arch: linux/amd64
+    icon: zoom.svg
+    description: "Zoom is a proprietary videotelephony software program developed by Zoom Video Communications."
+  - name: zotero
+    full_name: Zotero
+    arch: linux/amd64
+    icon: zotero.png
+    description: "Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share research."

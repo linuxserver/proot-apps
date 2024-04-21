@@ -12,12 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.PAT }}
       - uses: cuchi/jinja2-action@v1.2.2
         with:
           template: ci-scripts/README.template
           output_file: README.md
+          data_file: metadata/metadata.yml
+          data_format: yaml
       - run: |
           git config --global user.name 'README Bot'
           git config --global user.email 'readme-bot@users.noreply.github.com'
