@@ -9,8 +9,8 @@ bash                            5.2.15                          binary
 bash                            5.2.15-2+b2                     deb       
 bsdutils                        1:2.38.1-5+deb12u1              deb       
 ca-certificates                 20230311                        deb       
-chromium                        123.0.6312.122-1~deb12u1        deb       
-chromium-common                 123.0.6312.122-1~deb12u1        deb       
+chromium                        124.0.6367.60-1~deb12u1         deb       
+chromium-common                 124.0.6367.60-1~deb12u1         deb       
 coreutils                       9.1-1                           deb       
 curl                            7.88.1-10+deb12u5               deb       
 dash                            0.5.12-2                        deb       
@@ -246,7 +246,6 @@ libwayland-cursor0              1.21.0-1                        deb
 libwayland-egl1                 1.21.0-1                        deb       
 libwayland-server0              1.21.0-1                        deb       
 libwebp7                        1.2.4-0.2+deb12u1               deb       
-libwebpdemux2                   1.2.4-0.2+deb12u1               deb       
 libwebpmux3                     1.2.4-0.2+deb12u1               deb       
 libwebrtc-audio-processing1     0.3-1+b1                        deb       
 libwoff1                        1.0.2-2                         deb       
