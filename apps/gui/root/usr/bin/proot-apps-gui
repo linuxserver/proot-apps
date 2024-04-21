@@ -48,6 +48,7 @@ class MainWindow(Gtk.ApplicationWindow):
     self.set_title('PRoot Apps Installer')
     self.header = Adw.HeaderBar()
     self.set_titlebar(self.header)
+    self.set_icon_name('gui-pa')
     loading = Gtk.Box() 
     self.set_child(loading)
     loadMain = threading.Thread(target=self.getAppData, name="LoadMain")
