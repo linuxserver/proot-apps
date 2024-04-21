@@ -144,3 +144,76 @@ Three are three things needed for an app to work with all build and ingestion lo
 * A logo for the application placed in the `/metadata/img` folder of the repository, svg is preffered here, but can also use 192x192 pngs
 
 When adding new applications we highly encourage copying an existing application folder as a start to understand what files are needed. Most apps can simply be installed from a distribution's repository and then it is just housekeeping to ensure the desktop file and icon conform to PRoot apps standards.
+
+# For Administrators
+
+PRoot Apps can use a local folder for app management and updates. This essentially replaces the remote repository with a folder of tar files. This is setup by using the environment variable `PA_REPO_FOLDER`, when set the user will pull their apps from a local folder of tar files at that path instead of a remote repo including updates.
+
+## Setup Local Repo
+
+In this example we will use the path `/mnt/apps` to act as our local repository. First create the directory and set your env:
+
+```
+mkdir /mnt/apps
+export PA_REPO_FOLDER=/mnt/apps
+```
+
+We can use the `localrepo` action to perform get, update, or remove. Update and remove support passing `all` as a string to perform the action on all locally stored apps.
+
+Get some apps: 
+
+```
+proot-apps localrepo get firefox chrome
+```
+
+Inside this folder will be:
+
+```
+└── /mnt/apps/
+    ├── ghcr.io_YOURNAMESPACE_proot-apps_chrome/
+    │   ├── app.tar.gz
+    │   └── SHALAYER
+    └── ghcr.io_YOURNAMESPACE_proot-apps_firefox/
+        ├── app.tar.gz
+        └── SHALAYER
+```
+
+`localrepo` can be used to update this repo as well:
+
+```
+proot-apps localrepo update all
+```
+
+This will sync down any updates from remote. 
+
+To have users leverage the gui app in your namespace to install and remove applications you will also need to place the metadata from your repository (metadata folder) in this directory IE: 
+
+```
+└── /mnt/apps/
+    └── metadata/
+        ├── metadata.yml
+        └── img/
+            ├── logo1.svg
+            └── logo2.svg
+```
+
+The metadata can be customized to what you want to present to the user in the gui application.
+
+## Userspace ingesting the repo
+
+The most likely scenario would be mounting your repo into the users session read only at a specific mount point like `/mnt/apps`.
+
+To achieve this if it is a Docker container just mount in with a bind and set the env: 
+
+``
+-e PA_REPO_FOLDER=/mnt/apps
+-v /mnt/apps:/mnt/apps:ro
+```
+
+When the user uses proot-apps in this session it will all be connected into this folders contents instead of a remote repository.
+
+On the administration side the apps can be updated in the folder and the users with this mount will be able to ingest them with the normal command:
+
+```
+proot-apps update all
+```

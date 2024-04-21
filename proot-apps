@@ -4,6 +4,12 @@ TYPE=$1
 DEFAULT_GH_USER=REPLACE_USER
 DEFAULT_GH_REPO=REPLACE_REPO
 
+if [[ ! -z ${LOCALREPO+x} ]] && [[ ! -z ${PA_REPO_FOLDER+x} ]]; then
+  ROOT_DIR=$PA_REPO_FOLDER
+else
+  ROOT_DIR=$HOME/proot-apps
+fi
+
 # Check for deps
 if [[ ! -f /usr/bin/curl ]]; then
   echo "Curl was not found on this system please install them to continue"
@@ -84,29 +90,32 @@ registry_setup() {
 
 # Download layer
 function dl_layer() {
-  mkdir -p $HOME/proot-apps
+  mkdir -p $ROOT_DIR
   # CLI vars
   IMAGE=$1
   IMAGE_FOLDER=$(echo "${IMAGE}"| sed 's|/|_|g'| sed 's|:|_|g')
-  DLPATH=$HOME/proot-apps
   ARCH=$(uname -m| sed 's/x86_64/amd64/g'| sed 's/aarch64/arm64/')
   UA="Mozilla/5.0 (Linux $(uname -m)) kasmweb.com"
 
   # Destination directory
-  mkdir -p "${DLPATH}/${IMAGE_FOLDER}"
-  touch "${DLPATH}/${IMAGE_FOLDER}/DOWNLOADING"
+  mkdir -p "${ROOT_DIR}/${IMAGE_FOLDER}"
+  touch "${ROOT_DIR}/${IMAGE_FOLDER}/DOWNLOADING"
 
   ## Functions ##
 
   # Cleanup and exit 1 if something went wrong
   cleanup() {
-    rm -Rf "${DLPATH}/${IMAGE_FOLDER}"
+    rm -Rf "${ROOT_DIR}/${IMAGE_FOLDER}"
     exit 1
   }
   
   if [[ -z ${SHALAYER+x} ]]; then
-    registry_setup ${IMAGE}
-    SHALAYER=$(get_blob_sha "${TOKEN}" "${MANIFEST_URL}" "${TAG}" "${ARCH}")
+    if [[ ! -z ${PA_REPO_FOLDER+x} ]] && [[ -z ${LOCALREPO+x} ]]; then
+      SHALAYER=$(cat $PA_REPO_FOLDER/${IMAGE_FOLDER}/SHALAYER)
+    else
+      registry_setup ${IMAGE}
+      SHALAYER=$(get_blob_sha "${TOKEN}" "${MANIFEST_URL}" "${TAG}" "${ARCH}")
+    fi
   fi
   if [[ $? -eq 1 ]]; then
     echo "No manifest available for ${IMAGE}, cannot fetch"
@@ -116,22 +125,38 @@ function dl_layer() {
     cleanup
   fi
 
-  # Download and extract layer
-  curl -f --retry 3 --retry-max-time 20 \
-    --location \
-    --header "Authorization: Bearer ${TOKEN}" \
-    --user-agent "${UA}" \
-    "${BLOB_URL}${SHALAYER}" \
-    | tar -xzf - -C "${DLPATH}/${IMAGE_FOLDER}/"
-  if [[ $? -ne 0 ]]; then
-    echo "Error downloading ${IMAGE}"
-    cleanup
+  # Download layer
+  if [[ ! -z ${PA_REPO_FOLDER+x} ]] && [[ -z ${LOCALREPO+x} ]]; then
+    echo "Extracting from local repo"
+    tar -xf \
+      $PA_REPO_FOLDER/${IMAGE_FOLDER}/app.tar.gz -C \
+      "${ROOT_DIR}/${IMAGE_FOLDER}/"
+  else
+    if [[ ! -z ${LOCALREPO+x} ]] && [[ ! -z ${PA_REPO_FOLDER+x} ]]; then
+      curl -f --retry 3 --retry-max-time 20 \
+        -o ${ROOT_DIR}/${IMAGE_FOLDER}/app.tar.gz \
+        --location \
+        --header "Authorization: Bearer ${TOKEN}" \
+        --user-agent "${UA}" \
+        "${BLOB_URL}${SHALAYER}" 
+    else
+      curl -f --retry 3 --retry-max-time 20 \
+        --location \
+        --header "Authorization: Bearer ${TOKEN}" \
+        --user-agent "${UA}" \
+        "${BLOB_URL}${SHALAYER}" \
+        | tar -xzf - -C "${ROOT_DIR}/${IMAGE_FOLDER}/"
+    fi
+    if [[ $? -ne 0 ]]; then
+      echo "Error downloading ${IMAGE}"
+      cleanup
+    fi
   fi
   # Tag image
-  echo "${SHALAYER}" > "${DLPATH}/${IMAGE_FOLDER}/SHALAYER"
+  echo "${SHALAYER}" > "${ROOT_DIR}/${IMAGE_FOLDER}/SHALAYER"
 
   # Cleanup
-  rm -f "${DLPATH}/${IMAGE_FOLDER}/DOWNLOADING"
+  rm -f "${ROOT_DIR}/${IMAGE_FOLDER}/DOWNLOADING"
 }
 
 # Update Icon cache
@@ -164,39 +189,54 @@ start_system_socket() {
 function update() {
   IMAGE_FOLDER=$1
   IMAGE=$(echo "${IMAGE_FOLDER}"| sed 's/\(.*\)_/\1:/' | sed 's|_|/|g')
-  if [ ! -d "$HOME/proot-apps/${IMAGE_FOLDER}/" ]; then
+  if [ ! -d "$ROOT_DIR/${IMAGE_FOLDER}/" ]; then
     echo "${IMAGE} not present on system run install or get first"
     exit 1
   fi
-  LOCAL_SHA=$(cat "$HOME/proot-apps/${IMAGE_FOLDER}/SHALAYER")
-  # Check remote SHA
-  ARCH=$(uname -m| sed 's/x86_64/amd64/g'| sed 's/aarch64/arm64/')
-  UA="Mozilla/5.0 (Linux $(uname -m)) kasmweb.com"
-  registry_setup ${IMAGE}
-  SHALAYER=$(get_blob_sha "${TOKEN}" "${MANIFEST_URL}" "${TAG}" "${ARCH}")
+  LOCAL_SHA=$(cat "$ROOT_DIR/${IMAGE_FOLDER}/SHALAYER")
+  if [[ ! -z ${PA_REPO_FOLDER+x} ]] && [[ -z ${LOCALREPO+x} ]]; then
+    if [ ! -f $PA_REPO_FOLDER/${IMAGE_FOLDER}/SHALAYER ]; then
+      echo "${IMAGE} is not available in local repo"
+      exit 1
+    fi
+    # Use local SHA
+    SHALAYER=$(cat $PA_REPO_FOLDER/${IMAGE_FOLDER}/SHALAYER)
+  else
+    # Check remote SHA
+    ARCH=$(uname -m| sed 's/x86_64/amd64/g'| sed 's/aarch64/arm64/')
+    UA="Mozilla/5.0 (Linux $(uname -m)) kasmweb.com"
+    registry_setup ${IMAGE}
+    SHALAYER=$(get_blob_sha "${TOKEN}" "${MANIFEST_URL}" "${TAG}" "${ARCH}")
+  fi
   if [[ "${SHALAYER}" == "${LOCAL_SHA}" ]]; then
     echo "${IMAGE} is up to date: ${LOCAL_SHA}"
   else
     echo "Updating ${IMAGE_FOLDER}"
     # Run remove logic
-    if [ -f "$HOME/proot-apps/${IMAGE_FOLDER}/remove" ]; then
+    if [[ ! -z ${LOCALREPO+x} ]] && [[ ! -z ${PA_REPO_FOLDER+x} ]]; then
+      echo "Removing app root local"
+      rm -Rf $ROOT_DIR/${IMAGE_FOLDER}/
+      dl_layer ${IMAGE}
+    else
+      if [ -f "$ROOT_DIR/${IMAGE_FOLDER}/remove" ]; then
+        $HOME/.local/bin/proot \
+          -R $ROOT_DIR/${IMAGE_FOLDER}/ \
+          /remove
+      fi
+      # Remove app layer
+      echo "Removing app root"
+      rm -Rf $ROOT_DIR/${IMAGE_FOLDER}/
+      dl_layer ${IMAGE}
       $HOME/.local/bin/proot \
-        -R $HOME/proot-apps/${IMAGE_FOLDER}/ \
-        /remove
+        -R $ROOT_DIR/${IMAGE_FOLDER}/ \
+        /install >/dev/null 2>&1
+      # Refresh icon cache
+      update_icon_cache
+      # Install
+      $HOME/.local/bin/proot \
+        -R $ROOT_DIR/${IMAGE_FOLDER}/ \
+        /install
     fi
-    # Remove app layer
-    echo "Removing app root"
-    rm -Rf $HOME/proot-apps/${IMAGE_FOLDER}/
-    dl_layer ${IMAGE}
-    $HOME/.local/bin/proot \
-      -R $HOME/proot-apps/${IMAGE_FOLDER}/ \
-      /install >/dev/null 2>&1
-    # Refresh icon cache
-    update_icon_cache
-    # Install
-    $HOME/.local/bin/proot \
-      -R $HOME/proot-apps/${IMAGE_FOLDER}/ \
-      /install
   fi
 }
 
@@ -205,23 +245,27 @@ function remove() {
   IMAGE_FOLDER=$1
   IMAGE=$(echo "${IMAGE_FOLDER}"| sed 's/\(.*\)_/\1:/' | sed 's|_|/|g')
   echo "Removing ${IMAGE}"
-  if [ ! -d "$HOME/proot-apps/${IMAGE_FOLDER}/" ]; then
+  if [ ! -d "$ROOT_DIR/${IMAGE_FOLDER}/" ]; then
     echo "${IMAGE} not present on system run install or get first"
     exit 1
   fi
-  # Run remove logic
-  if [ -f "$HOME/proot-apps/${IMAGE_FOLDER}/remove" ]; then
-    $HOME/.local/bin/proot \
-      -R $HOME/proot-apps/${IMAGE_FOLDER}/ \
-      /remove
-  fi
-  # Remove bin wrapper if defined
-  if [ -f "$HOME/proot-apps/${IMAGE_FOLDER}/bin-name" ]; then
-    rm -f $HOME/.local/bin/$(cat $HOME/proot-apps/${IMAGE_FOLDER}/bin-name)
+  if [[ ! -z ${LOCALREPO+x} ]] && [[ ! -z ${PA_REPO_FOLDER+x} ]]; then
+    echo "localremove ${IMAGE}"
+  else
+    # Run remove logic
+    if [ -f "$ROOT_DIR/${IMAGE_FOLDER}/remove" ]; then
+      $HOME/.local/bin/proot \
+        -R $ROOT_DIR/${IMAGE_FOLDER}/ \
+        /remove
+    fi
+    # Remove bin wrapper if defined
+    if [ -f "$ROOT_DIR/${IMAGE_FOLDER}/bin-name" ]; then
+      rm -f $HOME/.local/bin/$(cat $ROOT_DIR/${IMAGE_FOLDER}/bin-name)
+    fi
   fi
   # Remove app layer
   echo "Removing app root"
-  rm -Rf $HOME/proot-apps/${IMAGE_FOLDER}/
+  rm -Rf $ROOT_DIR/${IMAGE_FOLDER}/
 }
 
 # Run uninstall
@@ -229,19 +273,19 @@ function uninstall() {
   IMAGE_FOLDER=$1
   IMAGE=$(echo "${IMAGE_FOLDER}"| sed 's/\(.*\)_/\1:/' | sed 's|_|/|g')
   echo "Uninstalling ${IMAGE}"
-  if [ ! -d "$HOME/proot-apps/${IMAGE_FOLDER}/" ]; then
+  if [ ! -d "$ROOT_DIR/${IMAGE_FOLDER}/" ]; then
     echo "${IMAGE} not present on system run install or get first"
     exit 1
   fi
   # Run remove logic
-  if [ -f "$HOME/proot-apps/${IMAGE_FOLDER}/remove" ]; then
+  if [ -f "$ROOT_DIR/${IMAGE_FOLDER}/remove" ]; then
     $HOME/.local/bin/proot \
-      -R $HOME/proot-apps/${IMAGE_FOLDER}/ \
+      -R $ROOT_DIR/${IMAGE_FOLDER}/ \
       /remove
   fi
   # Remove bin wrapper if defined
-  if [ -f "$HOME/proot-apps/${IMAGE_FOLDER}/bin-name" ]; then
-    rm -f $HOME/.local/bin/$(cat $HOME/proot-apps/${IMAGE_FOLDER}/bin-name)
+  if [ -f "$ROOT_DIR/${IMAGE_FOLDER}/bin-name" ]; then
+    rm -f $HOME/.local/bin/$(cat $ROOT_DIR/${IMAGE_FOLDER}/bin-name)
   fi
 }
 
@@ -251,23 +295,23 @@ function install_app() {
   IMAGE_FOLDER=$(echo "${IMAGE}"| sed 's|/|_|g'| sed 's|:|_|g')
   echo "Installing ${IMAGE}"
   # Download if not present
-  if [ ! -d "$HOME/proot-apps/${IMAGE_FOLDER}" ]; then
+  if [ ! -d "$ROOT_DIR/${IMAGE_FOLDER}" ]; then
     dl_layer ${IMAGE}
   fi
   # Add bin wrapper if defined
-  if [ -f "$HOME/proot-apps/${IMAGE_FOLDER}/bin-name" ]; then
-    echo "\$HOME/.local/bin/proot-apps run ${IMAGE} \"\$@\"" > $HOME/.local/bin/$(cat $HOME/proot-apps/${IMAGE_FOLDER}/bin-name)
-    chmod +x $HOME/.local/bin/$(cat $HOME/proot-apps/${IMAGE_FOLDER}/bin-name)
-    echo "$(cat $HOME/proot-apps/${IMAGE_FOLDER}/bin-name) is now available from the command line"
+  if [ -f "$ROOT_DIR/${IMAGE_FOLDER}/bin-name" ]; then
+    echo "\$HOME/.local/bin/proot-apps run ${IMAGE} \"\$@\"" > $HOME/.local/bin/$(cat $ROOT_DIR/${IMAGE_FOLDER}/bin-name)
+    chmod +x $HOME/.local/bin/$(cat $ROOT_DIR/${IMAGE_FOLDER}/bin-name)
+    echo "$(cat $ROOT_DIR/${IMAGE_FOLDER}/bin-name) is now available from the command line"
   fi
   $HOME/.local/bin/proot \
-    -R $HOME/proot-apps/${IMAGE_FOLDER}/ \
+    -R $ROOT_DIR/${IMAGE_FOLDER}/ \
     /install >/dev/null 2>&1
   # Refresh icon cache
   update_icon_cache
   # Install
   $HOME/.local/bin/proot \
-    -R $HOME/proot-apps/${IMAGE_FOLDER}/ \
+    -R $ROOT_DIR/${IMAGE_FOLDER}/ \
     /install
 }
 
@@ -277,10 +321,10 @@ function get_app() {
   IMAGE_FOLDER=$(echo "${IMAGE}"| sed 's|/|_|g'| sed 's|:|_|g')
   echo "Getting ${IMAGE}"
   # Download if not present
-  if [ ! -d "$HOME/proot-apps/${IMAGE_FOLDER}" ]; then
+  if [ ! -d "$ROOT_DIR/${IMAGE_FOLDER}" ]; then
     dl_layer ${IMAGE}
   else
-   echo "${IMAGE} present on this system use update to update"
+    echo "${IMAGE} present on this system use update to update"
   fi
 }
 
@@ -303,7 +347,7 @@ if [ "${TYPE}" == "run" ]; then
     exit 1
   fi
   IMAGE_FOLDER=$(echo "${IMAGE}"| sed 's|/|_|g'| sed 's|:|_|g')
-  if [ ! -d "$HOME/proot-apps/${IMAGE_FOLDER}/" ]; then
+  if [ ! -d "$ROOT_DIR/${IMAGE_FOLDER}/" ]; then
     echo "${IMAGE} not present on system run install or get first"
     exit 1
   fi
@@ -319,9 +363,9 @@ if [ "${TYPE}" == "run" ]; then
   fi
   $HOME/.local/bin/proot \
     ${PULSE_BIND} ${FONTS_BIND} -n \
-    -R $HOME/proot-apps/${IMAGE_FOLDER}/ \
+    -R $ROOT_DIR/${IMAGE_FOLDER}/ \
     /entrypoint "${@:3}" &
-  start_system_socket "$HOME/proot-apps/${IMAGE_FOLDER}/" $!
+  start_system_socket "$ROOT_DIR/${IMAGE_FOLDER}/" $!
 fi
 
 # Run installation
@@ -346,8 +390,8 @@ if [ "${TYPE}" == "install" ]; then
     if [[ "${IMAGE}" != "all" ]]; then
       install_app "${IMAGE}"
     else
-      if [ -n "$(ls -A $HOME/proot-apps 2>/dev/null)" ]; then
-        for IMAGE_FOLDER in $(ls $HOME/proot-apps); do
+      if [ -n "$(ls -A $ROOT_DIR 2>/dev/null)" ]; then
+        for IMAGE_FOLDER in $(ls $ROOT_DIR); do
           IMAGE=$(echo "${IMAGE_FOLDER}"| sed 's/\(.*\)_/\1:/' | sed 's|_|/|g')
           install_app "${IMAGE}"
         done
@@ -383,8 +427,8 @@ if [ "${TYPE}" == "remove" ]; then
       IMAGE_FOLDER=$(echo "${IMAGE}"| sed 's|/|_|g'| sed 's|:|_|g')
       remove "${IMAGE_FOLDER}"
     else
-      if [ -n "$(ls -A $HOME/proot-apps 2>/dev/null)" ]; then
-        for IMAGE_FOLDER in $(ls $HOME/proot-apps); do
+      if [ -n "$(ls -A $ROOT_DIR 2>/dev/null)" ]; then
+        for IMAGE_FOLDER in $(ls $ROOT_DIR); do
           remove "${IMAGE_FOLDER}"
         done
       else
@@ -419,8 +463,8 @@ if [ "${TYPE}" == "uninstall" ]; then
       IMAGE_FOLDER=$(echo "${IMAGE}"| sed 's|/|_|g'| sed 's|:|_|g')
       uninstall "${IMAGE_FOLDER}"
     else
-      if [ -n "$(ls -A $HOME/proot-apps 2>/dev/null)" ]; then
-        for IMAGE_FOLDER in $(ls $HOME/proot-apps); do
+      if [ -n "$(ls -A $ROOT_DIR 2>/dev/null)" ]; then
+        for IMAGE_FOLDER in $(ls $ROOT_DIR); do
           uninstall "${IMAGE_FOLDER}"
         done
       else
@@ -455,8 +499,8 @@ if [ "${TYPE}" == "update" ]; then
       IMAGE_FOLDER=$(echo "${IMAGE}"| sed 's|/|_|g'| sed 's|:|_|g')
       update "${IMAGE_FOLDER}"
     else
-      if [ -n "$(ls -A $HOME/proot-apps 2>/dev/null)" ]; then
-        for IMAGE_FOLDER in $(ls $HOME/proot-apps); do
+      if [ -n "$(ls -A $ROOT_DIR 2>/dev/null)" ]; then
+        for IMAGE_FOLDER in $(ls $ROOT_DIR); do
           update "${IMAGE_FOLDER}"
         done
       else
@@ -487,6 +531,22 @@ if [ "${TYPE}" == "get" ]; then
   # Get single
   else
     get_app "${IMAGE}"
+  fi
+fi
+
+# Run localrepo actions
+if [ "${TYPE}" == "localrepo" ]; then
+  if [ -z ${PA_REPO_FOLDER+x} ]; then
+    echo "error: PA_REPO_FOLDER is not set in env"
+    exit 1
+  fi
+  if [[ -z ${2+x} ]] || [[ -z ${3+x} ]]; then
+    echo "Usage: proot-apps localrepo [get,remove,update] myorg/myimage:tag"
+    exit 1
+  fi
+  export LOCALREPO=true
+  if [[ "${2}" =~ ^(get|remove|update)$ ]]; then
+    "$(realpath "$0")" "${@:2}"
   fi
 fi
 

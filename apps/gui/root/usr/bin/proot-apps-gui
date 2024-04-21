@@ -56,17 +56,28 @@ class MainWindow(Gtk.ApplicationWindow):
 
   # Ingest external metadata
   def getAppData(self):
-    try:
-      res = requests.get(self.metaUrl + 'metadata.yml', allow_redirects=True)
-      txt = res.content.decode("utf-8")
-      self.appData = yaml.safe_load(txt)
-      self.renderHome(None)
-    except Exception as e:
-      main = Gtk.Box()
-      text = Gtk.Label()
-      text.set_text(str(e))
-      main.append(text)
-      self.set_child(main)
+    if "PA_REPO_FOLDER" in os.environ:
+      try:
+        f = open(os.environ['PA_REPO_FOLDER'] + '/metadata/metadata.yml'); self.appData = yaml.safe_load(f); f.close()
+        self.renderHome(None)
+      except Exception as e:
+        main = Gtk.Box()
+        text = Gtk.Label()
+        text.set_text(str(e))
+        main.append(text)
+        self.set_child(main)
+    else:
+      try:
+        res = requests.get(self.metaUrl + 'metadata.yml', allow_redirects=True)
+        txt = res.content.decode("utf-8")
+        self.appData = yaml.safe_load(txt)
+        self.renderHome(None)
+      except Exception as e:
+        main = Gtk.Box()
+        text = Gtk.Label()
+        text.set_text(str(e))
+        main.append(text)
+        self.set_child(main)
 
   # Render the landing page
   def renderHome(self, button):
@@ -93,9 +104,14 @@ class MainWindow(Gtk.ApplicationWindow):
       if app['name'] in self.logos:
         content = self.logos[app['name']]
       else:
-        res = requests.get(self.metaUrl + 'img/' + app['icon'], allow_redirects=True)
-        content = res.content
-        self.logos[app['name']] = content
+        if "PA_REPO_FOLDER" in os.environ:
+          content = open(os.environ['PA_REPO_FOLDER'] + '/metadata/img/' + app['icon'], "rb").read()
+          self.logos[app['name']] = content
+          time.sleep(.04)
+        else:
+          res = requests.get(self.metaUrl + 'img/' + app['icon'], allow_redirects=True)
+          content = res.content
+          self.logos[app['name']] = content
       # Setup buttons and append to grid
       loader = GdkPixbuf.PixbufLoader()
       loader.write_bytes(GLib.Bytes.new(content))

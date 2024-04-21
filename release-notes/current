@@ -1,3 +1,6 @@
 What's new in this Version:
 
-* If fonts are available on host mount them into guest
+* GTK based application available as "gui" to manage installing apps from the supported list
+* Lots of build logic updates to easily facilitate forking
+* Updates to proot-apps to allow managing and using a local folder of files instead of a remote repository for administrators
+
