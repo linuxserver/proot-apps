@@ -145,6 +145,8 @@ This repository was made to be cloned and forked with all of the build logic bei
 
 When forking all readme updates should be made to the `ci-scripts/README.template` as this is the source file used to write out the readme linked to your forked repo. Also keep in mind all the logic in your forked proot-apps binary and gui installer will be linked to your repostiry and packages.
 
+To generate release tarballs of proot-apps to be ingested with your install command a tag needs to be generated in your fork. This can be achieved with `git tag 0.1.0 && git push origin --tags`. This again will be linked back to your repo in all references for app ingestion.
+
 ## Building local apps
 
 Prerequisites:
