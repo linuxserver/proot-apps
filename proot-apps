@@ -180,6 +180,7 @@ start_system_socket() {
     rm -f ${1}system.socket
     $HOME/.local/bin/ncat -k -U -l ${1}system.socket | bash &
     BG_PIDS=$(jobs -p)
+    chmod 600 ${1}system.socket || :
     tail --pid=$2 -f /dev/null
     kill -9 $BG_PIDS || :
   fi
@@ -357,12 +358,17 @@ if [ "${TYPE}" == "run" ]; then
   elif [ -d "/var/run/pulse" ]; then
     PULSE_BIND="-b /var/run/pulse:/var/run/pulse"
   fi
+  # Mount repo location for the gui app
+  if [[ ! -z ${PA_REPO_FOLDER+x} ]] && [[ "${IMAGE_FOLDER}" == *gui ]]; then
+    REPO_BIND="-b ${PA_REPO_FOLDER}:${PA_REPO_FOLDER}"
+    mkdir -p "$ROOT_DIR/${IMAGE_FOLDER}${PA_REPO_FOLDER}"
+  fi
   # Fonts
   if [ -d "/usr/share/fonts" ] && [ -d "/usr/share/fontconfig" ] && [ -d "/etc/fonts" ]; then
     FONTS_BIND="-b /usr/share/fonts:/usr/share/fonts -b /usr/share/fontconfig:/usr/share/fontconfig -b /etc/fonts:/etc/fonts"
   fi
   $HOME/.local/bin/proot \
-    ${PULSE_BIND} ${FONTS_BIND} -n \
+    ${PULSE_BIND} ${FONTS_BIND} ${REPO_BIND} -n \
     -R $ROOT_DIR/${IMAGE_FOLDER}/ \
     /entrypoint "${@:3}" &
   start_system_socket "$ROOT_DIR/${IMAGE_FOLDER}/" $!
