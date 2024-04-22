@@ -1,17 +1,16 @@
 ARG REPO
-FROM ghcr.io/${REPO}:debian-bookworm-av as rootfs
+FROM ghcr.io/${REPO}:alpine-319-av as rootfs
 ARG REPO
 
 # Install packages
 RUN \
   echo "**** install packages ****" && \
-  apt-get update && \
-  apt-get install -y --no-install-recommends \
+  apk add --no-cache \
     chromium && \
   echo "**** customize desktop file ****" && \
   sed -i \
     -e "/^Exec=/c Exec=/bin/sh -c \"\$HOME\/.local\/bin\/proot-apps run ghcr.io/${REPO}:chromium %U\"" \
-    -e "s/Name=Chromium Web Browser/Name=Chromium PA/g" \
+    -e "s/Name=Chromium/Name=Chromium PA/g" \
     -e '/^TryExec=/d' \
     /usr/share/applications/chromium.desktop && \
   mv \
@@ -20,11 +19,7 @@ RUN \
   echo "**** set bin name ****" && \
   echo "chromium-pa" > /bin-name && \
   echo "**** cleanup ****" && \
-  apt-get autoclean && \
   rm -rf \
-    /root/.cache \
-    /var/lib/apt/lists/* \
-    /var/tmp/* \
     /tmp/*
 
 COPY ./entrypoint /entrypoint
