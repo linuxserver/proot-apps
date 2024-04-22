@@ -82,7 +82,7 @@ hicolor-icon-theme         0.17-r2                  apk
 hwdata-pci                 0.381-r0                 apk           
 icu-data-en                74.2-r0                  apk           
 icu-libs                   74.2-r0                  apk           
-imath                      3.1.11-r1                apk           
+imath                      3.1.11-r2                apk           
 interpolate_name           0.2.4                    rust-crate    
 itertools                  0.10.5                   rust-crate    
 itertools                  0.12.0                   rust-crate    
@@ -128,7 +128,7 @@ libpciaccess               0.18.1-r0                apk
 libpng                     1.6.43-r0                apk           
 libpsl                     0.21.5-r1                apk           
 libpulse                   17.0-r0                  apk           
-librewolf                  124.0.2_p1-r0            apk           
+librewolf                  125.0.1_p1-r0            apk           
 libsharpyuv                1.3.2-r0                 apk           
 libsm                      1.2.4-r4                 apk           
 libsndfile                 1.2.2-r0                 apk           

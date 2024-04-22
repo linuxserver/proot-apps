@@ -130,7 +130,7 @@ icu-libs                   74.2-r0                  apk
 ifaddr                     0.2.0                    python                      
 imagequant                 4.2.2                    rust-crate                  
 imagequant-sys             4.0.3                    rust-crate                  
-imath                      3.1.11-r1                apk                         
+imath                      3.1.11-r2                apk                         
 interpolate_name           0.2.4                    rust-crate                  
 itertools                  0.10.5                   rust-crate                  
 itertools                  0.12.0                   rust-crate                  
