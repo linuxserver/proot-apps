@@ -1,6 +1,5 @@
 What's new in this Version:
 
-* GTK based application available as "gui" to manage installing apps from the supported list
-* Lots of build logic updates to easily facilitate forking
-* Updates to proot-apps to allow managing and using a local folder of files instead of a remote repository for administrators
+* Secure the escape socket mounted into the app root
+* Ensure that the gui app mounts in the repo location on run
 
