@@ -152,7 +152,7 @@ libretro-bk                   0_git20220726-r0         apk
 libretro-blastem              0_git20210810-r0         apk           
 libretro-bluemsx              0_git20220213-r0         apk           
 libretro-bsnes                0_git20191009-r1         apk           
-libretro-cannonball           0_git20220309-r5         apk           
+libretro-cannonball           0_git20220309-r6         apk           
 libretro-cap32                0_git20220419-r0         apk           
 libretro-core-info            1.15.0-r0                apk           
 libretro-craft                0_git20230109-r0         apk           
