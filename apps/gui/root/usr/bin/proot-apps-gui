@@ -92,6 +92,7 @@ class MainWindow(Gtk.ApplicationWindow):
     self.home = Gtk.ScrolledWindow()
     self.appGrid = Gtk.FlowBox()
     self.appGrid.set_valign(Gtk.Align.START)
+    self.appGrid.set_selection_mode(Gtk.SelectionMode.NONE)
     self.appGrid.set_row_spacing(3)
     self.appGrid.set_column_spacing(3)
     self.home.set_child(self.appGrid)
