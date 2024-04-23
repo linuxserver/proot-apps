@@ -125,14 +125,14 @@ class MainWindow(Gtk.ApplicationWindow):
           res = requests.get(self.metaUrl + 'img/' + app['icon'], allow_redirects=True)
           content = res.content
           self.logos[app['name']] = content
+      self.gridButton(app, content)
       # If still loading and user searched call it to show
-      if self.searchEntry != '':
+      if self.searchEntry != '' and self.searchEntry in app['name']:
         entry = Gtk.Entry()
         entry.set_text(self.searchEntry)
         self.onSearch(entry)
-      else:
+      elif self.searchEntry == '':
         # Setup buttons and append to grid
-        self.gridButton(app, content)
         self.appGrid.append(self.appButton[app['name']])
 
   def gridButton(self, app, content):
@@ -238,10 +238,7 @@ class MainWindow(Gtk.ApplicationWindow):
   def onSearch(self, entry):
     self.searchEntry = entry.get_text()
     self.appGrid.remove_all()
-    #childs = self.appGrid.get_children()
-    #for child in childs:
-    #  self.appGrid.remove(child)
-    for appName in self.appButton:
+    for appName in list(self.appButton):
       if entry.get_text() != '':
         if entry.get_text() in appName:
           content = self.logos[appName]
@@ -249,8 +246,8 @@ class MainWindow(Gtk.ApplicationWindow):
           self.gridButton(app, content)
           self.appGrid.append(self.appButton[app['name']])
         else:
-          #self.appButton[appName].set_visible(False)
-          self.appGrid.remove(self.appButton[appName])
+          if self.appButton[appName].get_parent():
+            self.appGrid.remove(self.appButton[appName])
       else:
         content = self.logos[appName]
         app = next(app for app in self.appData['include'] if app['name'] == appName)
@@ -267,5 +264,5 @@ class App(Adw.Application):
     self.win = MainWindow(application=app)
     self.win.present()
 
-app = App(application_id="ProotApps")
+app = App(application_id="io.linuxserver.ProotApps")
 app.run(sys.argv)
