@@ -38,6 +38,7 @@ class MainWindow(Gtk.ApplicationWindow):
     super().__init__(*args, **kwargs)
     self.repo = 'linuxserver/proot-apps'
     self.metaUrl = 'https://raw.githubusercontent.com/' + self.repo + '/master/metadata/'
+    self.searchEntry = ''
     self.appPath = os.environ['HOME'] + '/proot-apps/ghcr.io_' + self.repo.replace('/','_') + '_'
     self.appData = None
     self.logos = {}
@@ -49,7 +50,7 @@ class MainWindow(Gtk.ApplicationWindow):
     self.header = Adw.HeaderBar()
     self.set_titlebar(self.header)
     self.set_icon_name('gui-pa')
-    loading = Gtk.Box() 
+    loading = Gtk.Box()
     self.set_child(loading)
     loadMain = threading.Thread(target=self.getAppData, name="LoadMain")
     loadMain.start()
@@ -81,18 +82,29 @@ class MainWindow(Gtk.ApplicationWindow):
 
   # Render the landing page
   def renderHome(self, button):
+    self.set_title('PRoot Apps Installer')
     # Remove back button if exists
     if button:
       self.header.remove(button)
+      self.set_child(self.home)
+      return
     # Setup scrollable app grid
-    self.set_title('PRoot Apps Installer')
-    main = Gtk.ScrolledWindow()
-    appGrid = Gtk.FlowBox()
-    appGrid.set_valign(Gtk.Align.START)
-    appGrid.set_max_children_per_line(30)
-    appGrid.set_selection_mode(Gtk.SelectionMode.NONE)
-    main.set_child(appGrid)
-    self.set_child(main)
+    self.home = Gtk.ScrolledWindow()
+    self.appGrid = Gtk.FlowBox()
+    self.appGrid.set_valign(Gtk.Align.START)
+    self.appGrid.set_row_spacing(3)
+    self.appGrid.set_column_spacing(3)
+    self.home.set_child(self.appGrid)
+    self.set_child(self.home)
+    self.search = Gtk.Entry()
+    self.search.set_placeholder_text(text='Search')
+    self.search.set_icon_from_icon_name(
+      icon_pos=Gtk.EntryIconPosition.PRIMARY,
+      icon_name='system-search-symbolic',
+    )
+    self.search.connect('changed', self.onSearch)
+    self.header.pack_end(self.search)
+    self.appButton = {}
     for app in self.appData['include']:
       # Do not show disabled apps
       if 'disabled' in app:
@@ -112,27 +124,36 @@ class MainWindow(Gtk.ApplicationWindow):
           res = requests.get(self.metaUrl + 'img/' + app['icon'], allow_redirects=True)
           content = res.content
           self.logos[app['name']] = content
-      # Setup buttons and append to grid
-      loader = GdkPixbuf.PixbufLoader()
-      loader.write_bytes(GLib.Bytes.new(content))
-      loader.set_size(192,192)
-      loader.close()
-      pixBuf = loader.get_pixbuf()
-      logo = Gtk.Image.new_from_pixbuf(pixBuf)
-      logo.set_size_request(192, 192)
-      label = Gtk.Label()
-      label.set_text(app['full_name'])
-      bContent = Gtk.Box(orientation=Gtk.Orientation.VERTICAL,spacing=10)
-      # Indicate an app is installed
-      if os.path.exists(self.appPath + app['name']):
-        bContent.add_css_class('installed-button')
-      bContent.set_size_request(220, 220)
-      bContent.append(logo)
-      bContent.append(label)
-      button = Gtk.Button()
-      button.connect('clicked', self.renderApp, app)
-      button.set_child(bContent)
-      appGrid.append(button)
+      # If still loading and user searched call it to show
+      if self.searchEntry != '':
+        entry = Gtk.Entry()
+        entry.set_text(self.searchEntry)
+        self.onSearch(entry)
+      else:
+        # Setup buttons and append to grid
+        self.gridButton(app, content)
+        self.appGrid.append(self.appButton[app['name']])
+
+  def gridButton(self, app, content):
+    loader = GdkPixbuf.PixbufLoader()
+    loader.write_bytes(GLib.Bytes.new(content))
+    loader.set_size(192,192)
+    loader.close()
+    pixBuf = loader.get_pixbuf()
+    logo = Gtk.Image.new_from_pixbuf(pixBuf)
+    logo.set_size_request(192, 192)
+    label = Gtk.Label()
+    label.set_text(app['full_name'])
+    bContent = Gtk.Box(orientation=Gtk.Orientation.VERTICAL,spacing=10)
+    # Indicate an app is installed
+    if os.path.exists(self.appPath + app['name']):
+      bContent.add_css_class('installed-button')
+    bContent.set_size_request(220, 220)
+    bContent.append(logo)
+    bContent.append(label)
+    self.appButton[app['name']] = Gtk.Button()
+    self.appButton[app['name']].connect('clicked', self.renderApp, app)
+    self.appButton[app['name']].set_child(bContent)
 
   # Render the app screen
   def renderApp(self, button, app):
@@ -211,6 +232,29 @@ class MainWindow(Gtk.ApplicationWindow):
     installButton.connect('clicked', self.prootRun, 'install', app, container)
     updateButton.connect('clicked', self.prootRun, 'update', app, container)
     removeButton.connect('clicked', self.prootRun, 'remove', app, container)
+
+  # Process search
+  def onSearch(self, entry):
+    self.searchEntry = entry.get_text()
+    self.appGrid.remove_all()
+    #childs = self.appGrid.get_children()
+    #for child in childs:
+    #  self.appGrid.remove(child)
+    for appName in self.appButton:
+      if entry.get_text() != '':
+        if entry.get_text() in appName:
+          content = self.logos[appName]
+          app = next(app for app in self.appData['include'] if app['name'] == appName)
+          self.gridButton(app, content)
+          self.appGrid.append(self.appButton[app['name']])
+        else:
+          #self.appButton[appName].set_visible(False)
+          self.appGrid.remove(self.appButton[appName])
+      else:
+        content = self.logos[appName]
+        app = next(app for app in self.appData['include'] if app['name'] == appName)
+        self.gridButton(app, content)
+        self.appGrid.append(self.appButton[app['name']])
 
 # Run app
 class App(Adw.Application):
