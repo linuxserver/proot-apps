@@ -49,7 +49,7 @@ ffmpeg-libavcodec             6.1.1-r0                 apk
 ffmpeg-libavutil              6.1.1-r0                 apk           
 ffmpeg-libswresample          6.1.1-r0                 apk           
 fftw-single-libs              3.3.10-r5                apk           
-firefox                       125.0.1-r0               apk           
+firefox                       125.0.2-r0               apk           
 font-noto                     23.7.1-r0                apk           
 font-noto-common              23.7.1-r0                apk           
 font-noto-math                23.7.1-r0                apk           
