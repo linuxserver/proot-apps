@@ -110,6 +110,7 @@ proot-apps update firefox
 | librewolf | ghcr.io/linuxserver/proot-apps:librewolf | linux/amd64,linux/arm64 | This project is an independent fork of Firefox, with the primary goals of privacy security and user freedom. It is the community run successor to LibreFox.|
 | lmms | ghcr.io/linuxserver/proot-apps:lmms | linux/amd64,linux/arm64 | LMMS is a free, open source, multiplatform digital audio workstation.|
 | lollypop | ghcr.io/linuxserver/proot-apps:lollypop | linux/amd64,linux/arm64 | Lollypop is a lightweight modern music player designed to work excellently on the GNOME desktop environment.|
+| melonds | ghcr.io/linuxserver/proot-apps:melonds | linux/amd64,linux/arm64 | melonDS aims at providing fast and accurate Nintendo DS emulation.|
 | moonlight | ghcr.io/linuxserver/proot-apps:moonlight | linux/amd64,linux/arm64 | Moonlight allows you to play your PC games on almost any device, whether you're in another room or miles away from your gaming rig.|
 | mumble | ghcr.io/linuxserver/proot-apps:mumble | linux/amd64,linux/arm64 | Mumble is a free, open source, low latency, high quality voice chat application.|
 | nextcloud | ghcr.io/linuxserver/proot-apps:nextcloud | linux/amd64 | The Nextcloud desktop client keeps photos and documents always up to date, enabling you to work like you always did.|
@@ -124,6 +125,7 @@ proot-apps update firefox
 | qbittorrent | ghcr.io/linuxserver/proot-apps:qbittorrent | linux/amd64,linux/arm64 | The Qbittorrent project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library.|
 | remmina | ghcr.io/linuxserver/proot-apps:remmina | linux/amd64,linux/arm64 | Remmina is a remote desktop client written in GTK, aiming to be useful for system administrators and travellers, who need to work with lots of remote computers in front of either large or tiny screens. Remmina supports multiple network protocols, in an integrated and consistent user interface.|
 | retroarch | ghcr.io/linuxserver/proot-apps:retroarch | linux/amd64,linux/arm64 | RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications.|
+| ryujinx | ghcr.io/linuxserver/proot-apps:ryujinx | linux/amd64,linux/arm64 | Ryujinx is an open-source Nintendo Switch emulator.|
 | shortwave | ghcr.io/linuxserver/proot-apps:shortwave | linux/amd64,linux/arm64 | Shortwave is an internet radio player that provides access to a station database with over 30,000 stations.|
 | shotcut | ghcr.io/linuxserver/proot-apps:shotcut | linux/amd64,linux/arm64 | Shotcut is a free, open source, cross-platform video editor.|
 | sqlitebrowser | ghcr.io/linuxserver/proot-apps:sqlitebrowser | linux/amd64,linux/arm64 | DB Browser for SQLite is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.|
