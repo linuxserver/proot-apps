@@ -74,6 +74,9 @@ proot-apps update firefox
 
 ## Supported Apps
 
+<details>
+  <summary>Click to expand</summary>
+
 | Name | Full Endpoint | Arch | Description |
 | :----: | :----: | :----: |--- |
 | anydesk | ghcr.io/linuxserver/proot-apps:anydesk | linux/amd64 | AnyDesk ensures secure and reliable remote desktop connections for IT professionals and on-the-go individuals alike.|
@@ -142,6 +145,8 @@ proot-apps update firefox
 | zoom | ghcr.io/linuxserver/proot-apps:zoom | linux/amd64 | Zoom is a proprietary videotelephony software program developed by Zoom Video Communications.|
 | zotero | ghcr.io/linuxserver/proot-apps:zotero | linux/amd64 | Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.|
 
+
+</details>
 
 # For Developers
 
