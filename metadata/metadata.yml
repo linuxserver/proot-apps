@@ -283,6 +283,12 @@ include:
     icon: signal.svg
     description: "Share text, voice messages, photos, videos, GIFs and files for free."
     disabled: True
+  - name: slack
+    full_name: Slack
+    arch: linux/amd64
+    icon: slack.svg
+    description: "Slack is a new way to communicate with your team. It's faster, better organized, and more secure than email."
+    disabled: True
   - name: spotify
     full_name: Spotify
     arch: linux/amd64

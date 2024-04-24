@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Slack
+slack --no-sandbox "$@"
