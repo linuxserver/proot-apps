@@ -74,10 +74,15 @@ proot-apps update firefox
 
 ## Supported Apps
 
+<details>
+  <summary>Click to expand</summary>
+
 | Name | Full Endpoint | Arch | Description |
 | :----: | :----: | :----: |--- |
 {% for app in include %}{% if 'disabled' not in app %}| {{ app.name }} | ghcr.io/{{ env['GITHUB_REPOSITORY']|lower }}:{{ app.name }} | {{ app.arch }} | {{ app.description }}|
 {% endif %}{% endfor %}
+
+</details>
 
 # For Developers
 
