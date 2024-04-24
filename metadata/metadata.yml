@@ -59,6 +59,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: digikam.svg
     description: "Professional Photo Management with the Power of Open Source."
+  - name: dolphin
+    full_name: Dolphin Emulator
+    arch: linux/amd64,linux/arm64
+    icon: dolphin.svg
+    description: "Dolphin is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more."
   - name: doublecmd
     full_name: Double Commander
     arch: linux/amd64,linux/arm64
@@ -227,6 +232,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: postman.svg
     description: "Postman is an application that allows the testing of web APIs."
+  - name: ppsspp
+    full_name: PPSSPP
+    arch: linux/amd64,linux/arm64
+    icon: ppsspp.svg
+    description: "PPSSPP is a PSP emulator that can run games in full HD resolution."
   - name: pycharm
     full_name: PyCharm Community Edition
     arch: linux/amd64,linux/arm64
