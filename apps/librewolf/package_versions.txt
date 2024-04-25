@@ -63,7 +63,7 @@ font-noto-symbols          23.7.1-r0                apk
 fontconfig                 2.15.0-r1                apk           
 freetype                   2.13.2-r0                apk           
 fribidi                    1.0.13-r0                apk           
-gdk-pixbuf                 2.42.10-r6               apk           
+gdk-pixbuf                 2.42.11-r0               apk           
 getrandom                  0.2.12                   rust-crate    
 giflib                     5.2.2-r0                 apk           
 glib                       2.80.0-r3                apk           

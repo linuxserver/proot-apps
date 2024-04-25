@@ -175,7 +175,7 @@ libpagemaker                    0.0.4-r8                 apk
 libpanelw                       6.4_p20231125-r0         apk                           
 libpciaccess                    0.17-r2                  apk                           
 libpng                          1.6.40-r0                apk                           
-libpq                           16.2-r0                  apk                           
+libpq                           16.2-r1                  apk                           
 libpulse                        16.1-r11                 apk                           
 libqxp                          0.0.2-r10                apk                           
 libraw1394                      2.1.2-r5                 apk                           
