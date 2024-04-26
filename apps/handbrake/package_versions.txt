@@ -180,7 +180,7 @@ libiec61883-0                   1.2.0-6+b1                      deb
 libjack-jackd2-0                1.9.21~dfsg-3+b3                deb       
 libjansson4                     2.14-2+b2                       deb       
 libjbig0                        2.1-6.1+b1                      deb       
-libjpeg62-turbo                 1:2.1.5-2+b2                    deb       
+libjpeg62-turbo                 1:2.1.5-3                       deb       
 libjson-c5                      0.17-1+b1                       deb       
 libjxl0.7                       0.7.0-10.2+b3                   deb       
 libk5crypto3                    1.20.1-6+b1                     deb       
@@ -295,7 +295,7 @@ libthai0                        0.1.29-2                        deb
 libtheora0                      1.1.1+dfsg.1-16.1+b2            deb       
 libtiff6                        4.5.1+git230720-4               deb       
 libtinfo6                       6.4+20240414-1                  deb       
-libturbojpeg0                   1:2.1.5-2+b2                    deb       
+libturbojpeg0                   1:2.1.5-3                       deb       
 libtwolame0                     0.4.0-2+b1                      deb       
 libudev1                        255.4-1+b1                      deb       
 libudfread0                     1.1.2-1                         deb       

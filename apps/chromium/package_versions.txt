@@ -25,7 +25,7 @@ cairo                         1.18.0-r0                apk
 cairo-gobject                 1.18.0-r0                apk           
 cdparanoia-libs               10.2-r14                 apk           
 cfg-if                        1.0.0                    rust-crate    
-chromium                      124.0.6367.60-r0         apk           
+chromium                      124.0.6367.78-r0         apk           
 cjson                         1.7.17-r0                apk           
 clap                          4.0.32                   rust-crate    
 clap_complete                 4.0.7                    rust-crate    
