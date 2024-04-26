@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# If no app passed open Writer
+if ! [[ "${1}" =~ ^(et|wpspdf|wpp|wps)$ ]]; then
+  /usr/bin/wps "$@"
+else
+  /usr/bin/${1} ${@:2}
+fi

@@ -1,0 +1,21 @@
+#!/bin/bash
+
+## Desktop and icons install ##
+for APP in et pdf wpp wps; do
+  echo "Adding icon $APP"
+  mkdir -p $HOME/.local/share/icons/hicolor/scalable/apps/
+  cp \
+    /usr/share/icons/hicolor/256x256/mimetypes/wps-office2019-${APP}main.png \
+    $HOME/.local/share/icons/hicolor/scalable/apps/
+  echo "Adding start menu entry $APP"
+  mkdir -p $HOME/.local/share/applications/
+  cp \
+    /usr/share/applications/wps-office-${APP}-pa.desktop \
+    $HOME/.local/share/applications/
+  echo "Adding desktop shortcut $APP"
+  mkdir -p $HOME/Desktop
+  cp \
+    /usr/share/applications/wps-office-${APP}-pa.desktop \
+    $HOME/Desktop/
+  chmod +x $HOME/Desktop/wps-office-${APP}-pa.desktop
+done
