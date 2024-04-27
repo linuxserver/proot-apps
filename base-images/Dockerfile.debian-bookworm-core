@@ -12,7 +12,8 @@ RUN \
     dbus-x11 \
     desktop-file-utils \
     fonts-noto \
-    netcat-openbsd && \
+    netcat-openbsd \
+    xdg-utils && \
   echo "**** setup xdg-open tunnel ****" && \
   mkdir -p /usr/share/applications && \
   curl -o \

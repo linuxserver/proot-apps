@@ -9,8 +9,7 @@ RUN \
   apt-get install -y --no-install-recommends \
     libsqlite3-0 \
     libxcomposite1 \
-    libxi6 \
-    xdg-utils && \
+    libxi6 && \
   curl -o \
     /tmp/earth.deb -L \
     "https://dl.google.com/dl/earth/client/current/google-earth-pro-stable_current_amd64.deb" && \

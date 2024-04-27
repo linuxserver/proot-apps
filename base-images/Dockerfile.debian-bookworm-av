@@ -15,6 +15,7 @@ RUN \
     mesa-va-drivers \
     netcat-openbsd \
     pulseaudio \
+    xdg-utils \
     xserver-xorg-video-amdgpu \
     xserver-xorg-video-ati \
     $(if [ $(uname -m) == "x86_64" ];then echo "xserver-xorg-video-intel";fi) && \

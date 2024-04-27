@@ -16,6 +16,7 @@ RUN \
     mesa-va-gallium \
     netcat-openbsd \
     pulseaudio \
+    xdg-utils \
     xf86-video-amdgpu \
     xf86-video-ati \
     $(if [ $(uname -m) == "x86_64" ];then echo "xf86-video-intel";fi) && \

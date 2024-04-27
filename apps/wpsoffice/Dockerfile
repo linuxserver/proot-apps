@@ -11,8 +11,7 @@ RUN \
     libqt5gui5 \
     libsqlite3-0 \
     libxcomposite1 \
-    libxslt1.1 \
-    xdg-utils && \
+    libxslt1.1 && \
   echo "**** install wps-office ****" && \
   WPSOFFICE_VERSION=$(curl -sL https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=wps-office \
     |awk -F'=' '/^pkgver=/ {print $2}'); \
