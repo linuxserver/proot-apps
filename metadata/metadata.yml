@@ -105,6 +105,12 @@ include:
     arch: linux/amd64,linux/arm64
     icon: flameshot.svg
     description: "Flameshot is a free and open-source, cross-platform tool to take screenshots with many built-in features to save you time."
+  - name: franz
+    full_name: Franz
+    arch: linux/amd64
+    icon: franz.svg
+    description: "Franz is your messaging app for WhatsApp, Facebook Messenger, Slack, Telegram and many many more."
+    disabled: True
   - name: freecad
     full_name: FreeCAD
     arch: linux/amd64,linux/arm64
