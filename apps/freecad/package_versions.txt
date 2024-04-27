@@ -564,6 +564,7 @@ util-linux                          2.38.1-5+deb12u1                deb
 util-linux-extra                    2.38.1-5+deb12u1                deb       
 x11-common                          1:7.7+23                        deb       
 x11-xkb-utils                       7.7+7                           deb       
+xdg-utils                           1.1.3-4.1                       deb       
 xkb-data                            2.35.1-1                        deb       
 xserver-common                      2:21.1.7-3+deb12u7              deb       
 xserver-xorg-core                   2:21.1.7-3+deb12u7              deb       
