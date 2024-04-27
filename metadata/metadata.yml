@@ -305,6 +305,11 @@ include:
     icon: spotify.svg
     description: "Spotify is a digital music service that gives you access to millions of songs."
     disabled: True
+  - name: spotube
+    full_name: Spotube
+    arch: linux/amd64
+    icon: spotube.png
+    description: "Spotube is an open source, cross-platform Spotify client compatible across multiple platforms utilizing Spotify's data API and YouTube, Piped.video or JioSaavn as an audio source, eliminating the need for Spotify Premium"
   - name: sqlitebrowser
     full_name: SQLite DB Browser
     arch: linux/amd64,linux/arm64
