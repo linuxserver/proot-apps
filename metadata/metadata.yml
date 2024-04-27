@@ -100,6 +100,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: firefox-dev.svg
     description: "The browser made for developers, all the latest developer tools in beta in addition to features like the Multi-line Console Editor and WebSocket Inspector. A separate profile and path so you can easily run it alongside Release or Beta Firefox. Preferences tailored for web developers: Browser and remote debugging are enabled by default, as are the dark theme and developer toolbar button."
+  - name: flameshot
+    full_name: Flameshot
+    arch: linux/amd64,linux/arm64
+    icon: flameshot.svg
+    description: "Flameshot is a free and open-source, cross-platform tool to take screenshots with many built-in features to save you time."
   - name: freecad
     full_name: FreeCAD
     arch: linux/amd64,linux/arm64
