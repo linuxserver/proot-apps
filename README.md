@@ -133,6 +133,7 @@ proot-apps update firefox
 | ryujinx | ghcr.io/linuxserver/proot-apps:ryujinx | linux/amd64,linux/arm64 | Ryujinx is an open-source Nintendo Switch emulator.|
 | shortwave | ghcr.io/linuxserver/proot-apps:shortwave | linux/amd64,linux/arm64 | Shortwave is an internet radio player that provides access to a station database with over 30,000 stations.|
 | shotcut | ghcr.io/linuxserver/proot-apps:shotcut | linux/amd64,linux/arm64 | Shotcut is a free, open source, cross-platform video editor.|
+| spotube | ghcr.io/linuxserver/proot-apps:spotube | linux/amd64 | Spotube is an open source, cross-platform Spotify client compatible across multiple platforms utilizing Spotify's data API and YouTube, Piped.video or JioSaavn as an audio source, eliminating the need for Spotify Premium|
 | sqlitebrowser | ghcr.io/linuxserver/proot-apps:sqlitebrowser | linux/amd64,linux/arm64 | DB Browser for SQLite is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.|
 | telegram | ghcr.io/linuxserver/proot-apps:telegram | linux/amd64,linux/arm64 | Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.|
 | thunderbird | ghcr.io/linuxserver/proot-apps:thunderbird | linux/amd64,linux/arm64 | Thunderbird is free and open-source email client software which also functions as a full personal information manager with a calendar and contactbook, as well as an RSS feed reader, chat client (IRC/XMPP/Matrix), and news client.|
