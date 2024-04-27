@@ -187,6 +187,12 @@ include:
     arch: linux/amd64,linux/arm64
     icon: lollypop.svg
     description: "Lollypop is a lightweight modern music player designed to work excellently on the GNOME desktop environment."
+  - name: maltego
+    full_name: Maltego
+    arch: linux/amd64,linux/arm64
+    icon: maltego.svg
+    description: "Maltego is link analysis software used for open-source intelligence, forensics and other investigations."
+    disabled: True
   - name: melonds
     full_name: melonDS
     arch: linux/amd64,linux/arm64
