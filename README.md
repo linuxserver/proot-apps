@@ -113,7 +113,7 @@ proot-apps update firefox
 | libreoffice | ghcr.io/linuxserver/proot-apps:libreoffice | linux/amd64,linux/arm64 | LibreOffice is a free and powerful office suite, and a successor to OpenOffice.org (commonly known as OpenOffice). Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity.|
 | librewolf | ghcr.io/linuxserver/proot-apps:librewolf | linux/amd64,linux/arm64 | This project is an independent fork of Firefox, with the primary goals of privacy security and user freedom. It is the community run successor to LibreFox.|
 | lmms | ghcr.io/linuxserver/proot-apps:lmms | linux/amd64,linux/arm64 | LMMS is a free, open source, multiplatform digital audio workstation.|
-| logisim | ghcr.io/linuxserver/proot-apps:logisim | linux/amd64 | Lollypop is a lightweight modern music player designed to work excellently on the GNOME desktop environment.|
+| logisim | ghcr.io/linuxserver/proot-apps:logisim | linux/amd64 | Logisim-evolution is educational software for designing and simulating digital logic circuits.|
 | lollypop | ghcr.io/linuxserver/proot-apps:lollypop | linux/amd64,linux/arm64 | Lollypop is a lightweight modern music player designed to work excellently on the GNOME desktop environment.|
 | maltego | ghcr.io/linuxserver/proot-apps:maltego | linux/amd64,linux/arm64 | Maltego is link analysis software used for open-source intelligence, forensics and other investigations.|
 | melonds | ghcr.io/linuxserver/proot-apps:melonds | linux/amd64,linux/arm64 | melonDS aims at providing fast and accurate Nintendo DS emulation.|
