@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Logisim-evolution
+/opt/logisim-evolution/bin/logisim-evolution "$@"
