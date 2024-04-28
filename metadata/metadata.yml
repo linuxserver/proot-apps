@@ -197,7 +197,7 @@ include:
     full_name: Logisim-evolution
     arch: linux/amd64
     icon: logisim.svg
-    description: "Lollypop is a lightweight modern music player designed to work excellently on the GNOME desktop environment."
+    description: "Logisim-evolution is educational software for designing and simulating digital logic circuits."
   - name: lollypop
     full_name: Lollypop
     arch: linux/amd64,linux/arm64
