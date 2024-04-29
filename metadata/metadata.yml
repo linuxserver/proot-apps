@@ -105,6 +105,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: flameshot.svg
     description: "Flameshot is a free and open-source, cross-platform tool to take screenshots with many built-in features to save you time."
+  - name: flycast
+    full_name: Flycast
+    arch: linux/amd64
+    icon: flycast.svg
+    description: "Flycast is a multi-platform Sega Dreamcast, Naomi, Naomi 2, and Atomiswave emulator derived from reicast."
   - name: franz
     full_name: Franz
     arch: linux/amd64

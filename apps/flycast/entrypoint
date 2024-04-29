@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Flycast
+/opt/flycast/AppRun "$@"
