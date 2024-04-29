@@ -93,8 +93,6 @@ class MainWindow(Gtk.ApplicationWindow):
     self.appGrid = Gtk.FlowBox()
     self.appGrid.set_valign(Gtk.Align.START)
     self.appGrid.set_selection_mode(Gtk.SelectionMode.NONE)
-    self.appGrid.set_row_spacing(3)
-    self.appGrid.set_column_spacing(3)
     self.home.set_child(self.appGrid)
     self.set_child(self.home)
     self.search = Gtk.Entry()
@@ -106,6 +104,8 @@ class MainWindow(Gtk.ApplicationWindow):
     self.search.connect('changed', self.onSearch)
     self.header.pack_end(self.search)
     self.appButton = {}
+    self.logos = {}
+    self.logoBoxes = {}
     for app in self.appData['include']:
       # Do not show disabled apps
       if 'disabled' in app:
@@ -120,11 +120,11 @@ class MainWindow(Gtk.ApplicationWindow):
         if "PA_REPO_FOLDER" in os.environ:
           content = open(os.environ['PA_REPO_FOLDER'] + '/metadata/img/' + app['icon'], "rb").read()
           self.logos[app['name']] = content
-          time.sleep(.04)
         else:
-          res = requests.get(self.metaUrl + 'img/' + app['icon'], allow_redirects=True)
-          content = res.content
-          self.logos[app['name']] = content
+          getLogo = threading.Thread(target=self.getLogo, name="GetLogo", args=(app['icon'],app['name']))
+          getLogo.start()
+          content = False
+      time.sleep(.04)
       self.gridButton(app, content)
       # If still loading and user searched call it to show
       if self.searchEntry != '' and self.searchEntry in app['name']:
@@ -134,8 +134,21 @@ class MainWindow(Gtk.ApplicationWindow):
       elif self.searchEntry == '':
         # Setup buttons and append to grid
         self.appGrid.append(self.appButton[app['name']])
+    # Run a blank search to render everything properly
+    entry = Gtk.Entry()
+    entry.set_text('')
+    self.onSearch(entry)
 
-  def gridButton(self, app, content):
+  # Download remote logo set bytes
+  def getLogo(self, icon, name):
+    res = requests.get(self.metaUrl + 'img/' + icon, allow_redirects=True)
+    content = res.content
+    self.logos[name] = content
+    logo = self.makeImage(content)
+    self.logoBoxes[name].set_center_widget(logo)
+
+  # Make pixbuf from bytes
+  def makeImage(self, content):
     loader = GdkPixbuf.PixbufLoader()
     loader.write_bytes(GLib.Bytes.new(content))
     loader.set_size(192,192)
@@ -143,6 +156,15 @@ class MainWindow(Gtk.ApplicationWindow):
     pixBuf = loader.get_pixbuf()
     logo = Gtk.Image.new_from_pixbuf(pixBuf)
     logo.set_size_request(192, 192)
+    return logo
+
+  # Generate an app grid button
+  def gridButton(self, app, content):
+    self.logoBoxes[app['name']] = Gtk.CenterBox()
+    self.logoBoxes[app['name']].set_size_request(192, 192)
+    if content:
+      logo = self.makeImage(content)
+      self.logoBoxes[app['name']].set_center_widget(logo)
     label = Gtk.Label()
     label.set_text(app['full_name'])
     bContent = Gtk.Box(orientation=Gtk.Orientation.VERTICAL,spacing=10)
@@ -150,7 +172,7 @@ class MainWindow(Gtk.ApplicationWindow):
     if os.path.exists(self.appPath + app['name']):
       bContent.add_css_class('installed-button')
     bContent.set_size_request(220, 220)
-    bContent.append(logo)
+    bContent.append(self.logoBoxes[app['name']])
     bContent.append(label)
     self.appButton[app['name']] = Gtk.Button()
     self.appButton[app['name']].connect('clicked', self.renderApp, app)
@@ -176,15 +198,16 @@ class MainWindow(Gtk.ApplicationWindow):
     appInfo.append(logoContainer)
     appInfo.append(infoContainer)
     # Add logo and info
-    content = self.logos[app['name']]
-    loader = GdkPixbuf.PixbufLoader()
-    loader.write_bytes(GLib.Bytes.new(content))
-    loader.set_size(192,192)
-    loader.close()
-    pixBuf = loader.get_pixbuf()
-    logo = Gtk.Image.new_from_pixbuf(pixBuf)
-    logo.set_size_request(192, 192)
-    logoContainer.set_center_widget(logo)
+    if app['name'] in self.logos:
+      content = self.logos[app['name']]
+      loader = GdkPixbuf.PixbufLoader()
+      loader.write_bytes(GLib.Bytes.new(content))
+      loader.set_size(192,192)
+      loader.close()
+      pixBuf = loader.get_pixbuf()
+      logo = Gtk.Image.new_from_pixbuf(pixBuf)
+      logo.set_size_request(192, 192)
+      logoContainer.set_center_widget(logo)
     infoContainer.set_text(app['description'])
     # Add action container for clicks and term
     actionContainer = Gtk.CenterBox()
@@ -241,7 +264,10 @@ class MainWindow(Gtk.ApplicationWindow):
     for appName in list(self.appButton):
       if entry.get_text() != '':
         if entry.get_text() in appName:
-          content = self.logos[appName]
+          if appName in self.logos:
+            content = self.logos[appName]
+          else:
+            content = False
           app = next(app for app in self.appData['include'] if app['name'] == appName)
           self.gridButton(app, content)
           self.appGrid.append(self.appButton[app['name']])
@@ -249,7 +275,10 @@ class MainWindow(Gtk.ApplicationWindow):
           if self.appButton[appName].get_parent():
             self.appGrid.remove(self.appButton[appName])
       else:
-        content = self.logos[appName]
+        if appName in self.logos:
+          content = self.logos[appName]
+        else:
+          content = False
         app = next(app for app in self.appData['include'] if app['name'] == appName)
         self.gridButton(app, content)
         self.appGrid.append(self.appButton[app['name']])
