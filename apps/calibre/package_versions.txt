@@ -93,7 +93,7 @@ font-noto-symbols          23.7.1-r0                apk
 fontconfig                 2.15.0-r1                apk                         
 fonttools                  4.51.0                   python                      
 freetype                   2.13.2-r0                apk                         
-fribidi                    1.0.13-r0                apk                         
+fribidi                    1.0.14-r0                apk                         
 gdbm                       1.23-r1                  apk                         
 gdk-pixbuf                 2.42.11-r0               apk                         
 getrandom                  0.2.12                   rust-crate                  
@@ -205,7 +205,7 @@ libpanelw                  6.4_p20240330-r0         apk
 libpciaccess               0.18.1-r0                apk                         
 libpcre2-16                10.43-r0                 apk                         
 libpng                     1.6.43-r0                apk                         
-libproxy                   0.5.5-r0                 apk                         
+libproxy                   0.5.6-r0                 apk                         
 libpsl                     0.21.5-r1                apk                         
 libpulse                   17.0-r0                  apk                         
 librist                    0.2.10-r1                apk                         
