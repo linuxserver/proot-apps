@@ -83,6 +83,9 @@ com-googlecode-libphonenumber                                                   
 com-maltego-cloud                                                                       java-archive                   
 com-maltego-cloud-ui                                                                    java-archive                   
 com-maltego-graalvm-javascript                                                          java-archive                   
+com-maltego-guided-tour                                                                 java-archive                   
+com-maltego-recovery-api                                                                java-archive                   
+com-maltego-recovery-ui                                                                 java-archive                   
 com-maltego-tx3-java-api                                                                java-archive                   
 com-maltego-xpp3                                                                        java-archive                   
 com-paterva-entity-serializer                                                           java-archive                   
@@ -270,7 +273,6 @@ hostname                                                3.23+nmu1               
 httpclient                                              4.5.13                          java-archive                   
 httpcore                                                4.4.13                          java-archive                   
 iText                                                   2.1.7                           java-archive                   
-iText                                                   2.1.7-debug-true                java-archive                   
 icu4j                                                   67.1                            java-archive                   
 imageio-batik                                           3.9.4                           java-archive                   
 imageio-bmp                                             3.9.4                           java-archive                   
@@ -573,7 +575,7 @@ lucene-queryparser                                      5.5.0                   
 lucene-sandbox                                          5.5.0                           java-archive                   
 lucene-spatial                                          5.5.0                           java-archive                   
 lucene-spatial3d                                        5.5.0                           java-archive                   
-maltego                                                 4.6.0                           deb                            
+maltego                                                 4.7.0                           deb                            
 mawk                                                    1.3.4.20200120-3.1              deb                            
 mesa-va-drivers                                         22.3.6-1+deb12u1                deb                            
 microprofile-config-api                                 2.0                             java-archive                   
@@ -590,6 +592,7 @@ opencsv                                                 2.2                     
 opencsv                                                 4.5                             java-archive                   
 openjdk-17-jre                                          17.0.11+9-1~deb12u1             deb                            
 openjdk-17-jre-headless                                 17.0.11+9-1~deb12u1             deb                            
+openpdf                                                 1.3.36                          java-archive  (+1 duplicate)   
 openssl                                                 3.0.11-1~deb12u2                deb                            
 org-apache-commons-io-maltego                                                           java-archive                   
 org-apache-commons-lang-maltego                                                         java-archive                   
@@ -801,7 +804,7 @@ tar                                                     1.34+dfsg-1.2+deb12u1   
 time-utils                                              1.0.0                           java-archive                   
 truffle-api                                             20.2.0                          java-archive                   
 truffle-api                                             20.3.0                          java-archive                   
-tx3-java-api                                            1.0.21                          java-archive                   
+tx3-java-api                                            1.0.23                          java-archive                   
 tzdata                                                  2024a-0+deb12u1                 deb                            
 udev                                                    252.22-1~deb12u1                deb                            
 undertow-core                                           2.2.19.Final                    java-archive                   
