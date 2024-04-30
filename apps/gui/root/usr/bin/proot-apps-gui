@@ -83,9 +83,12 @@ class MainWindow(Gtk.ApplicationWindow):
   # Render the landing page
   def renderHome(self, button):
     self.set_title('PRoot Apps Installer')
+    entry = Gtk.Entry()
+    entry.set_text('')
     # Remove back button if exists
     if button:
       self.header.remove(button)
+      self.onSearch(entry)
       self.set_child(self.home)
       return
     # Setup scrollable app grid
@@ -135,8 +138,6 @@ class MainWindow(Gtk.ApplicationWindow):
         # Setup buttons and append to grid
         self.appGrid.append(self.appButton[app['name']])
     # Run a blank search to render everything properly
-    entry = Gtk.Entry()
-    entry.set_text('')
     self.onSearch(entry)
 
   # Download remote logo set bytes
