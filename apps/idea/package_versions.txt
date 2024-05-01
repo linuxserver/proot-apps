@@ -136,14 +136,14 @@ intellij-coverage-agent                1.0.744                         java-arch
 intellij-test-discovery                                                java-archive                   
 j2objc-annotations                     1.1                             java-archive                   
 jackson-core                           2.16.0                          java-archive                   
-jacocoagent                            0.8.11                          java-archive                   
+jacocoagent                            0.8.12                          java-archive                   
 jansi                                  2.4.0                           java-archive                   
 java                                   1.0.0                           npm                            
 java-common                            0.74                            deb                            
 java-decompiler                                                        java-archive                   
 java-websocket                         1.5.5                           java-archive                   
-java/jdk                               17.0.10+8-b1207.12              binary                         
-java/jre                               17.0.10+8-b1207.12              binary                         
+java/jdk                               17.0.10+1-b1207.14              binary                         
+java/jre                               17.0.10+1-b1207.14              binary                         
 javascript                             1.0.0                           npm                            
 javax.annotation-api                   1.2                             java-archive                   
 javax.annotation-api                   1.3.2                           java-archive                   
@@ -465,8 +465,8 @@ openssh-client                         1:9.2p1-2+deb12u2               deb
 openssl                                3.0.11-1~deb12u2                deb                            
 org.eclipse.sisu.inject                0.9.0.M2                        java-archive                   
 org.eclipse.sisu.plexus                0.9.0.M2                        java-archive                   
-org.jacoco.agent.rt                    0.8.11                          java-archive                   
-org.jacoco.core                        0.8.11                          java-archive                   
+org.jacoco.agent.rt                    0.8.12                          java-archive                   
+org.jacoco.core                        0.8.12                          java-archive                   
 parcelize-compiler                     1.9.23-release-779              java-archive                   
 parcelize-compiler-plugin                                              java-archive                   
 parcelize-runtime                      1.9.23-release-779              java-archive                   
