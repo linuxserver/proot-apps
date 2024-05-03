@@ -234,7 +234,7 @@ libpng16-16t64                  1.6.43-5                        deb
 libpocketsphinx3                0.8+5prealpha+1-15+b3           deb       
 libpostproc57                   7:6.1.1-4                       deb       
 libproc2-0                      2:4.0.4-4                       deb       
-libproxy1v5                     0.5.4-4                         deb       
+libproxy1v5                     0.5.6-1                         deb       
 libpsl5t64                      0.21.2-1.1                      deb       
 libpulse0                       16.1+dfsg1-5                    deb       
 libpulsedsp                     16.1+dfsg1-5                    deb       
@@ -263,7 +263,7 @@ libshout3                       2.4.6-1+b2                      deb
 libslang2                       2.3.3-4                         deb       
 libsm6                          2:1.2.3-1+b1                    deb       
 libsmartcols1                   2.40-8                          deb       
-libsnappy1v5                    1.1.10-1+b1                     deb       
+libsnappy1v5                    1.2.0-1                         deb       
 libsndfile1                     1.2.2-1+b2                      deb       
 libsodium23                     1.0.18-1+b1                     deb       
 libsord-0-0                     0.16.16-2+b1                    deb       
