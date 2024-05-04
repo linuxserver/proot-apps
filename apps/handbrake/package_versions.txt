@@ -263,7 +263,7 @@ libshout3                       2.4.6-1+b2                      deb
 libslang2                       2.3.3-4                         deb       
 libsm6                          2:1.2.3-1+b1                    deb       
 libsmartcols1                   2.40-8                          deb       
-libsnappy1v5                    1.2.0-1                         deb       
+libsnappy1v5                    1.2.0-2                         deb       
 libsndfile1                     1.2.2-1+b2                      deb       
 libsodium23                     1.0.18-1+b1                     deb       
 libsord-0-0                     0.16.16-2+b1                    deb       
