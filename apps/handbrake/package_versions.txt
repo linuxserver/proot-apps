@@ -222,9 +222,9 @@ libpam-modules                  1.5.3-7                         deb
 libpam-modules-bin              1.5.3-7                         deb       
 libpam-runtime                  1.5.3-7                         deb       
 libpam0g                        1.5.3-7                         deb       
-libpango-1.0-0                  1.52.1+ds-1                     deb       
-libpangocairo-1.0-0             1.52.1+ds-1                     deb       
-libpangoft2-1.0-0               1.52.1+ds-1                     deb       
+libpango-1.0-0                  1.52.2+ds-1                     deb       
+libpangocairo-1.0-0             1.52.2+ds-1                     deb       
+libpangoft2-1.0-0               1.52.2+ds-1                     deb       
 libpciaccess0                   0.17-3+b1                       deb       
 libpcre2-8-0                    10.42-4+b1                      deb       
 libpgm-5.3-0t64                 5.3.128~dfsg-2.1                deb       

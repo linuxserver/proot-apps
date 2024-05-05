@@ -36,8 +36,8 @@ ca-certificates            20240226-r0              apk
 ca-certificates-bundle     20240226-r0              apk                         
 cairo                      1.18.0-r0                apk                         
 cairo-gobject              1.18.0-r0                apk                         
-calibre                    7.9.0-r1                 apk                         
-calibre-pyc                7.9.0-r1                 apk                         
+calibre                    7.10.0-r1                apk                         
+calibre-pyc                7.10.0-r1                apk                         
 cdparanoia-libs            10.2-r14                 apk                         
 cfg-if                     1.0.0                    rust-crate  (+1 duplicate)  
 chardet                    5.2.0                    python                      
