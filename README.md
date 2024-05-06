@@ -106,6 +106,7 @@ proot-apps update firefox
 | freeciv | ghcr.io/linuxserver/proot-apps:freeciv | linux/amd64,linux/arm64 | Freeciv is a Free and Open Source empire-building strategy game inspired by the history of human civilization.|
 | freedoom | ghcr.io/linuxserver/proot-apps:freedoom | linux/amd64,linux/arm64 | The Freedoom project aims to produce three base-game data files (IWADs) for Doom-compatible engines. With it comes the capability to also play the wide range of mods created for Doom by a vibrant community.|
 | freetube | ghcr.io/linuxserver/proot-apps:freetube | linux/amd64,linux/arm64 | FreeTube is an open source desktop YouTube player built with privacy in mind.|
+| geany | ghcr.io/linuxserver/proot-apps:geany | linux/amd64,linux/arm64 | Geany is a powerful, stable and lightweight programmers text editor.|
 | gimp | ghcr.io/linuxserver/proot-apps:gimp | linux/amd64,linux/arm64 | GIMP is a free and open-source raster graphics editor used for image manipulation (retouching) and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. It is extensible by means of plugins, and scriptable.|
 | handbrake | ghcr.io/linuxserver/proot-apps:handbrake | linux/amd64,linux/arm64 | HandBrake is an open-source, GPL-licensed, multiplatform, multithreaded video transcoder.|
 | idea | ghcr.io/linuxserver/proot-apps:idea | linux/amd64,linux/arm64 | IntelliJ IDEA Community Edition is an Integrated Development Environment (IDE) for Java and Kotlin designed to maximize developer productivity.|
