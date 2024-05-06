@@ -84,6 +84,11 @@ include:
     arch: linux/amd64
     icon: edge.svg
     description: "Microsoft Edge is a cross-platform web browser developed by Microsoft and based on Chromium."
+  - name: ferdium
+    full_name: Ferdium
+    arch: linux/amd64,linux/arm64
+    icon: ferdium.svg
+    description: "Ferdium is a desktop app that helps you organize how you use your favourite apps by combining them into one application."
   - name: filezilla
     full_name: FileZilla
     arch: linux/amd64,linux/arm64
