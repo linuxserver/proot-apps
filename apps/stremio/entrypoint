@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Stremio
+QTWEBENGINE_DISABLE_SANDBOX=1 stremio "$@"

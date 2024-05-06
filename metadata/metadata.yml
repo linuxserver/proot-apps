@@ -330,6 +330,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: sqlitebrowser.svg
     description: "DB Browser for SQLite is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite."
+  - name: stremio
+    full_name: Stremio
+    arch: linux/amd64
+    icon: stremio.svg
+    description: "Stremio offers a secure, modern and seamless entertainment experience. With its easy-to-use interface and diverse content library, including 4K HDR support, users can enjoy their favorite movies and TV shows across all their devices."
   - name: telegram
     full_name: Telegram
     arch: linux/amd64,linux/arm64
