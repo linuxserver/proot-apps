@@ -39,6 +39,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: calibre.svg
     description: "Calibre is a powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts."
+  - name: celluloid
+    full_name: Celluloid
+    arch: linux/amd64,linux/arm64
+    icon: celluloid.svg
+    description: "Celluloid is a simple GTK+ frontend for mpv. It aims to be easy to use while maintaining high level of configurability."
   - name: chrome
     full_name: Google Chrome
     arch: linux/amd64
