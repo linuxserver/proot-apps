@@ -28,13 +28,10 @@ jobs:
     strategy:
       matrix:
         include:
-          - name: alpine-319-core
-          - name: alpine-319-av
-          - name: alpine-edge-core
-          - name: alpine-edge-av
-          - name: debian-bookworm-core
-          - name: debian-bookworm-av
-          - name: debian-sid-av
+          - name: alpine-319
+          - name: alpine-edge
+          - name: debian-bookworm
+          - name: debian-sid
   meta:
     name: Ingest Metadata
     runs-on: ubuntu-latest

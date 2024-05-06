@@ -1,5 +1,5 @@
 ARG REPO
-FROM ghcr.io/${REPO}:debian-bookworm-core as rootfs
+FROM ghcr.io/${REPO}:debian-bookworm as rootfs
 ARG REPO
 
 # Install packages
