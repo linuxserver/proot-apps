@@ -1,0 +1,14 @@
+#!/bin/bash
+
+export PATH="$PATH:/usr/games"
+
+# If no version passed open Phase1
+if ! [[ "${1}" =~ ^(Phase1|Phase2)$ ]]; then
+  /usr/games/freedoom1 "$@"
+else
+  if [[ "${1}" == "Phase1" ]]; then
+    /usr/games/freedoom1 ${@:2}
+  else
+    /usr/games/freedoom2 ${@:2}
+  fi
+fi

@@ -1,0 +1,26 @@
+#!/bin/bash
+
+## Desktop and icons install ##
+for APP in freedoom1 freedoom2; do
+  if [[ "${APP}" == "freedoom1" ]]; then
+    PHASE=Phase1
+  else
+    PHASE=Phase2
+  fi
+  echo "Adding icon $APP"
+  mkdir -p $HOME/.local/share/icons/hicolor/scalable/apps/
+  cp \
+    /usr/share/icons/${APP}.png \
+    $HOME/.local/share/icons/hicolor/scalable/apps/
+  echo "Adding start menu entry $APP"
+  mkdir -p $HOME/.local/share/applications/
+  cp \
+    /usr/share/applications/freedoom-${PHASE}-pa.desktop \
+    $HOME/.local/share/applications/
+  echo "Adding desktop shortcut $APP"
+  mkdir -p $HOME/Desktop
+  cp \
+    /usr/share/applications/freedoom-${PHASE}-pa.desktop \
+    $HOME/Desktop/
+  chmod +x $HOME/Desktop/freedoom-${PHASE}-pa.desktop
+done
