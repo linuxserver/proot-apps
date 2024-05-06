@@ -86,8 +86,8 @@ libbrotli1                      1.1.0-2+b3                      deb
 libbs2b0                        3.1.0+dfsg-8                    deb       
 libbsd0                         0.12.2-1                        deb       
 libbz2-1.0                      1.0.8-5.1                       deb       
-libc-bin                        2.37-18                         deb       
-libc6                           2.37-18                         deb       
+libc-bin                        2.38-7                          deb       
+libc6                           2.38-7                          deb       
 libcaca0                        0.99.beta20-4+b1                deb       
 libcairo-gobject2               1.18.0-3+b1                     deb       
 libcairo2                       1.18.0-3+b1                     deb       
@@ -151,7 +151,7 @@ libgfortran5                    14-20240429-1                   deb
 libgl1                          1.7.0-1+b1                      deb       
 libgl1-mesa-dri                 24.0.6-1+b1                     deb       
 libglapi-mesa                   24.0.6-1+b1                     deb       
-libglib2.0-0t64                 2.78.4-7                        deb       
+libglib2.0-0t64                 2.80.0-9                        deb       
 libglvnd0                       1.7.0-1+b1                      deb       
 libglx-mesa0                    24.0.6-1+b1                     deb       
 libglx0                         1.7.0-1+b1                      deb       
