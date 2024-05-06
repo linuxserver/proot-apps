@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Start FreeCAD
-dbus-launch freecad "$@"
+QTWEBENGINE_DISABLE_SANDBOX=1 freecad "$@"
