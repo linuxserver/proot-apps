@@ -125,6 +125,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: freecad.svg
     description: "FreeCAD is an open-source parametric 3D modeler made primarily to design real-life objects of any size."
+  - name: freeciv
+    full_name: Freeciv
+    arch: linux/amd64,linux/arm64
+    icon: freeciv.svg
+    description: "Freeciv is a Free and Open Source empire-building strategy game inspired by the history of human civilization."
   - name: freetube
     full_name: FreeTube
     arch: linux/amd64,linux/arm64

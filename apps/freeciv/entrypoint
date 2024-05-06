@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Freeciv
+freeciv-gtk3.22 "$@"
