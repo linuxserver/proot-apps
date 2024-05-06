@@ -103,6 +103,7 @@ proot-apps update firefox
 | flameshot | ghcr.io/linuxserver/proot-apps:flameshot | linux/amd64,linux/arm64 | Flameshot is a free and open-source, cross-platform tool to take screenshots with many built-in features to save you time.|
 | flycast | ghcr.io/linuxserver/proot-apps:flycast | linux/amd64 | Flycast is a multi-platform Sega Dreamcast, Naomi, Naomi 2, and Atomiswave emulator derived from reicast.|
 | freecad | ghcr.io/linuxserver/proot-apps:freecad | linux/amd64,linux/arm64 | FreeCAD is an open-source parametric 3D modeler made primarily to design real-life objects of any size.|
+| freeciv | ghcr.io/linuxserver/proot-apps:freeciv | linux/amd64,linux/arm64 | Freeciv is a Free and Open Source empire-building strategy game inspired by the history of human civilization.|
 | freetube | ghcr.io/linuxserver/proot-apps:freetube | linux/amd64,linux/arm64 | FreeTube is an open source desktop YouTube player built with privacy in mind.|
 | gimp | ghcr.io/linuxserver/proot-apps:gimp | linux/amd64,linux/arm64 | GIMP is a free and open-source raster graphics editor used for image manipulation (retouching) and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. It is extensible by means of plugins, and scriptable.|
 | handbrake | ghcr.io/linuxserver/proot-apps:handbrake | linux/amd64,linux/arm64 | HandBrake is an open-source, GPL-licensed, multiplatform, multithreaded video transcoder.|
