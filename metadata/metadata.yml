@@ -84,7 +84,6 @@ include:
     arch: linux/amd64
     icon: edge.svg
     description: "Microsoft Edge is a cross-platform web browser developed by Microsoft and based on Chromium."
-    disabled: True
   - name: filezilla
     full_name: FileZilla
     arch: linux/amd64,linux/arm64
