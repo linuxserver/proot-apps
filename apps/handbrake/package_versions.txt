@@ -40,7 +40,7 @@ glib-networking-services        2.80.0-1                        deb
 gpgv                            2.2.40-3                        deb       
 grep                            3.11-4                          deb       
 gsettings-desktop-schemas       46.0-1                          deb       
-gstreamer1.0-libav              1.24.3-1                        deb       
+gstreamer1.0-libav              1.24.3-2                        deb       
 gstreamer1.0-plugins-base       1.24.3-1                        deb       
 gstreamer1.0-plugins-good       1.24.3-1                        deb       
 gstreamer1.0-pulseaudio         1.24.3-1                        deb       

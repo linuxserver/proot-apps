@@ -50,7 +50,7 @@ hwdata-pci                 0.377.2-r0               apk
 icu-data-en                74.1-r0                  apk     
 icu-libs                   74.1-r0                  apk     
 libacl                     2.3.1-r4                 apk     
-libarchive                 3.7.2-r1                 apk     
+libarchive                 3.7.4-r0                 apk     
 libasyncns                 0.8-r2                   apk     
 libatk-1.0                 2.50.1-r0                apk     
 libatk-bridge-2.0          2.50.1-r0                apk     

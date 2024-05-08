@@ -115,7 +115,7 @@ lcms2                         2.15-r4                  apk
 libSvtAv1Enc                  1.7.0-r0                 apk           
 libacl                        2.3.1-r4                 apk           
 libadwaita                    1.4.4-r0                 apk           
-libarchive                    3.7.2-r1                 apk           
+libarchive                    3.7.4-r0                 apk           
 libass                        0.17.1-r1                apk           
 libasyncns                    0.8-r2                   apk           
 libatk-1.0                    2.50.1-r0                apk           
