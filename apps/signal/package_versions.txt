@@ -113,7 +113,7 @@ libgdk-pixbuf2.0-common         2.42.10+dfsg-1                  deb
 libgl1                          1.6.0-1                         deb       
 libgl1-mesa-dri                 22.3.6-1+deb12u1                deb       
 libglapi-mesa                   22.3.6-1+deb12u1                deb       
-libglib2.0-0                    2.74.6-2                        deb       
+libglib2.0-0                    2.74.6-2+deb12u1                deb       
 libglvnd0                       1.6.0-1                         deb       
 libglx-mesa0                    22.3.6-1+deb12u1                deb       
 libglx0                         1.6.0-1                         deb       

@@ -120,7 +120,7 @@ libgdk-pixbuf2.0-common             2.42.10+dfsg-1                      deb
 libgl1                              1.6.0-1                             deb          
 libgl1-mesa-dri                     22.3.6-1+deb12u1                    deb          
 libglapi-mesa                       22.3.6-1+deb12u1                    deb          
-libglib2.0-0                        2.74.6-2                            deb          
+libglib2.0-0                        2.74.6-2+deb12u1                    deb          
 libglvnd0                           1.6.0-1                             deb          
 libglx-mesa0                        22.3.6-1+deb12u1                    deb          
 libglx0                             1.6.0-1                             deb          
@@ -320,7 +320,7 @@ udev                                252.22-1~deb12u1                    deb
 usr-is-merged                       37~deb12u1                          deb          
 util-linux                          2.38.1-5+deb12u1                    deb          
 util-linux-extra                    2.38.1-5+deb12u1                    deb          
-vivaldi-stable                      6.7.3329.24-1                       deb          
+vivaldi-stable                      6.7.3329.26-1                       deb          
 wget                                1.21.3-1+b2                         deb          
 x11-common                          1:7.7+23                            deb          
 x11-xkb-utils                       7.7+7                               deb          
