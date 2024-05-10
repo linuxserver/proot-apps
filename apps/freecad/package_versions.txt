@@ -9,7 +9,6 @@ apt                                 2.6.1                           deb
 attrs                               22.2.0                          python    
 base-files                          12.4+deb12u5                    deb       
 base-passwd                         3.6.1                           deb       
-bash                                5.2.15                          binary    
 bash                                5.2.15-2+b2                     deb       
 beniget                             0.4.1                           python    
 binutils                            2.40-2                          deb       

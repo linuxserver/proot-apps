@@ -115,7 +115,6 @@ base64-arraybuffer                         0.1.4                           npm
 base64-arraybuffer                         0.1.5                           npm                      
 base64-js                                  1.5.1                           npm                      
 base64id                                   2.0.0                           npm                      
-bash                                       5.2.15                          binary                   
 bash                                       5.2.15-2+b2                     deb                      
 bcrypt-pbkdf                               1.0.2                           npm                      
 beep-boop                                  1.2.3                           npm                      
@@ -467,11 +466,11 @@ libgirepository-1.0-1                      1.74.0-3                        deb
 libgl1                                     1.6.0-1                         deb                      
 libgl1-mesa-dri                            22.3.6-1+deb12u1                deb                      
 libglapi-mesa                              22.3.6-1+deb12u1                deb                      
-libglib2.0-0                               2.74.6-2+deb12u1                deb                      
-libglib2.0-bin                             2.74.6-2+deb12u1                deb                      
-libglib2.0-data                            2.74.6-2+deb12u1                deb                      
-libglib2.0-dev                             2.74.6-2+deb12u1                deb                      
-libglib2.0-dev-bin                         2.74.6-2+deb12u1                deb                      
+libglib2.0-0                               2.74.6-2+deb12u2                deb                      
+libglib2.0-bin                             2.74.6-2+deb12u2                deb                      
+libglib2.0-data                            2.74.6-2+deb12u2                deb                      
+libglib2.0-dev                             2.74.6-2+deb12u2                deb                      
+libglib2.0-dev-bin                         2.74.6-2+deb12u2                deb                      
 libglvnd0                                  1.6.0-1                         deb                      
 libglx-mesa0                               22.3.6-1+deb12u1                deb                      
 libglx0                                    1.6.0-1                         deb                      

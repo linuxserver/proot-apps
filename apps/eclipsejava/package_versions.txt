@@ -46,7 +46,6 @@ asm                                                                     9.6.0   
 at-spi2-common                                                          2.46.0-5                        deb                           
 base-files                                                              12.4+deb12u5                    deb                           
 base-passwd                                                             3.6.1                           deb                           
-bash                                                                    5.2.15                          binary                        
 bash                                                                    5.2.15-2+b2                     deb                           
 batik-constants                                                         1.17                            java-archive                  
 batik-css                                                               1.17                            java-archive                  
