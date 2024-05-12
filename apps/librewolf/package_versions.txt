@@ -52,9 +52,9 @@ either                     1.9.0                    rust-crate
 errno                      0.3.8                    rust-crate    
 eudev-libs                 3.2.14-r2                apk           
 fern                       0.6.2                    rust-crate    
-ffmpeg-libavcodec          6.1.1-r6                 apk           
-ffmpeg-libavutil           6.1.1-r6                 apk           
-ffmpeg-libswresample       6.1.1-r6                 apk           
+ffmpeg-libavcodec          6.1.1-r7                 apk           
+ffmpeg-libavutil           6.1.1-r7                 apk           
+ffmpeg-libswresample       6.1.1-r7                 apk           
 fftw-single-libs           3.3.10-r5                apk           
 file                       5.45-r1                  apk           
 font-noto                  23.7.1-r0                apk           
@@ -118,7 +118,7 @@ libice                     1.1.1-r6                 apk
 libidn2                    2.3.7-r0                 apk           
 libintl                    0.22.5-r0                apk           
 libjpeg-turbo              3.0.3-r0                 apk           
-libjxl                     0.9.1-r0                 apk           
+libjxl                     0.10.2-r0                apk           
 libltdl                    2.4.7-r3                 apk           
 libmagic                   5.45-r1                  apk           
 libmd                      1.1.0-r0                 apk           
