@@ -65,8 +65,8 @@ libblkid1                       2.40-8                          deb
 libbrotli1                      1.1.0-2+b3                      deb     
 libbsd0                         0.12.2-1                        deb     
 libbz2-1.0                      1.0.8-5.1                       deb     
-libc-bin                        2.38-8                          deb     
-libc6                           2.38-8                          deb     
+libc-bin                        2.38-10                         deb     
+libc6                           2.38-10                         deb     
 libcairo-gobject2               1.18.0-3+b1                     deb     
 libcairo2                       1.18.0-3+b1                     deb     
 libcap-ng0                      0.8.5-1                         deb     
