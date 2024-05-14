@@ -66,7 +66,7 @@ gegl                          0.4.46-r0                apk
 getrandom                     0.2.9                    rust-crate    
 gexiv2                        0.14.2-r0                apk           
 gimp                          2.10.36-r0               apk           
-glib                          2.78.5-r0                apk           
+glib                          2.78.6-r0                apk           
 gmp                           6.3.0-r0                 apk           
 gnutls                        3.8.4-r0                 apk           
 graphene                      1.10.8-r4                apk           

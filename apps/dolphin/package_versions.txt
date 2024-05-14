@@ -68,7 +68,7 @@ freetype                      2.13.2-r0                apk
 fribidi                       1.0.13-r0                apk           
 gdk-pixbuf                    2.42.10-r6               apk           
 getrandom                     0.2.9                    rust-crate    
-glib                          2.78.5-r0                apk           
+glib                          2.78.6-r0                apk           
 gmp                           6.3.0-r0                 apk           
 gnutls                        3.8.4-r0                 apk           
 graphene                      1.10.8-r4                apk           
