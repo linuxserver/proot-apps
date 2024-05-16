@@ -1,18 +1,19 @@
 NAME                                       VERSION                         TYPE                    
 @arr/every                                 1.0.1                           npm                      
-@azure/msal-common                         13.3.1                          npm                      
-@azure/msal-node                           1.18.4                          npm                      
+@azure/msal-common                         14.10.0                         npm                      
+@azure/msal-node                           2.8.0                           npm                      
 @babel/runtime                             7.24.5                          npm                      
 @colors/colors                             1.6.0                           npm                      
 @electron/remote                           2.0.1                           npm                      
 @faker-js/faker                            5.5.3                           npm                      
-@grpc/grpc-js                              1.8.10                          npm                      
-@grpc/proto-loader                         0.7.13                          npm     (+1 duplicate)   
+@grpc/proto-loader                         0.7.13                          npm                      
 @my-scope/package-a                        0.0.0                           npm                      
 @my-scope/package-b                        0.0.0                           npm                      
 @n1ru4l/push-pull-async-iterable-iterator  3.1.0                           npm                      
 @polka/send                                0.4.0                           npm                      
 @polka/url                                 0.5.0                           npm                      
+@postman/1psdk                             0.1.0-postman-beta.4            npm                      
+@postman/1psdk-core                        0.1.0-postman-beta.2            npm                      
 @postman/app-logger                        1.0.1                           npm                      
 @postman/app-logger                        2.0.0                           npm                      
 @postman/app-plugins-host                  0.1.4                           npm                      
@@ -20,7 +21,7 @@ NAME                                       VERSION                         TYPE
 @postman/dugite                            0.1.4                           npm                      
 @postman/form-data                         3.1.1                           npm                      
 @postman/grpc-js                           1.9.14-postman.1                npm                      
-@postman/grpc-reflection-js                0.1.2-postman.2                 npm                      
+@postman/grpc-reflection-js                0.1.2-postman.3                 npm                      
 @postman/hermes                            1.1.4                           npm                      
 @postman/pem                               1.14.6                          npm                      
 @postman/proto-loader                      0.7.0-postman.1                 npm                      
@@ -85,7 +86,7 @@ NAME                                       VERSION                         TYPE
 @types/stack-trace                         0.0.29                          npm                      
 @types/triple-beam                         1.3.5                           npm                      
 @types/ws                                  8.5.10                          npm                      
-Postman                                    11.0.12                         npm                      
+Postman                                    11.1.0                          npm                      
 abort-controller                           3.0.0                           npm                      
 accepts                                    1.3.8                           npm                      
 adduser                                    3.134                           deb                      
@@ -327,7 +328,7 @@ http-signature                             1.3.6                           npm
 httpntlm                                   1.8.13                          npm                      
 httpreq                                    1.1.1                           npm                      
 https-proxy-agent                          2.2.4                           npm                      
-i18next                                    23.11.3                         npm                      
+i18next                                    23.11.4                         npm                      
 iconv-lite                                 0.6.3                           npm                      
 ieee754                                    1.2.1                           npm                      
 immediate                                  3.0.6                           npm                      
@@ -747,6 +748,7 @@ neo-async                                  2.6.2                           npm
 netcat-openbsd                             1.219-1                         deb                      
 node-abi                                   3.62.0                          npm                      
 node-addon-api                             4.3.0                           npm                      
+node-fetch                                 2.7.0                           npm                      
 node-forge                                 0.10.0                          npm                      
 node-forge                                 1.3.1                           npm                      
 node-forge-flash                           0.0.0                           npm     (+1 duplicate)   
@@ -792,7 +794,7 @@ pkgconf-bin                                1.8.1-1                         deb
 polka                                      0.5.2                           npm                      
 postman-collection                         4.4.0                           npm                      
 postman-request                            2.88.1-postman.33               npm                      
-postman-runtime                            7.38.0                          npm                      
+postman-runtime                            7.39.0                          npm                      
 postman-sandbox                            4.7.1                           npm                      
 postman-url-encoder                        3.0.5                           npm                      
 postman-ws                                 7.4.5-postman.1                 npm                      
@@ -802,7 +804,7 @@ process                                    0.11.10                         npm
 process-nextick-args                       2.0.1                           npm                      
 procps                                     2:4.0.2-3                       deb                      
 progress                                   2.0.3                           npm                      
-protobufjs                                 7.2.6                           npm                      
+protobufjs                                 7.3.0                           npm                      
 psl                                        1.9.0                           npm                      
 pulseaudio                                 16.1+dfsg1-2+b1                 deb                      
 pulseaudio-utils                           16.1+dfsg1-2+b1                 deb                      
@@ -910,6 +912,7 @@ to-readable-stream                         1.0.0                           npm
 token-types                                2.1.1                           npm                      
 token-types                                4.2.1                           npm                      
 tough-cookie                               2.4.3                           npm                      
+tr46                                       0.0.3                           npm                      
 triple-beam                                1.4.1                           npm                      
 trouter                                    2.0.1                           npm                      
 truncate-utf8-bytes                        1.0.2                           npm                      
@@ -947,6 +950,8 @@ waterline                                  0.13.1-9                        npm
 waterline-schema                           1.0.0                           npm                      
 waterline-utils                            1.4.5                           npm                      
 web-worker                                 1.2.0                           npm                      
+webidl-conversions                         3.0.1                           npm                      
+whatwg-url                                 5.0.0                           npm                      
 which                                      2.0.2                           npm                      
 winston                                    3.1.0                           npm                      
 winston-transport                          4.7.0                           npm                      
