@@ -103,7 +103,7 @@ gmp                        6.3.0-r0                 apk
 gnupg-dirmngr              2.4.5-r0                 apk                         
 gnupg-gpgconf              2.4.5-r0                 apk                         
 gnupg-keyboxd              2.4.5-r0                 apk                         
-gnutls                     3.8.3-r0                 apk                         
+gnutls                     3.8.5-r0                 apk                         
 gpg                        2.4.5-r0                 apk                         
 gpg-agent                  2.4.5-r0                 apk                         
 gpgme                      1.23.2-r1                apk                         
@@ -115,7 +115,7 @@ gstreamer                  1.24.3-r0                apk
 gtk+3.0                    3.24.41-r0               apk                         
 gtk-update-icon-cache      3.24.41-r0               apk                         
 harfbuzz                   8.4.0-r0                 apk                         
-harfbuzz-subset            8.4.0-r0                 apk                         
+harfbuzz-subset            8.5.0-r0                 apk                         
 heck                       0.4.1                    rust-crate                  
 hicolor-icon-theme         0.17-r2                  apk                         
 html2text                  2024.2.26                python                      
