@@ -7,7 +7,7 @@ anyhow                        1.0.71                   rust-crate
 anyhow                        1.0.75                   rust-crate    
 aom-libs                      3.7.1-r0                 apk           
 apk-tools                     2.14.0-r5                apk           
-ardour                        7.5.0-r2                 apk           
+ardour                        7.5.0-r3                 apk           
 arg_enum_proc_macro           0.3.2                    rust-crate    
 arrayvec                      0.7.2                    rust-crate    
 at-spi2-core                  2.50.1-r0                apk           
