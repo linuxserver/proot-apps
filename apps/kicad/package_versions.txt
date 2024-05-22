@@ -212,6 +212,10 @@ mesa-gl                    23.3.6-r0                apk
 mesa-glapi                 23.3.6-r0                apk           
 mesa-osmesa                23.3.6-r0                apk           
 mesa-va-gallium            23.3.6-r0                apk           
+mesa-vulkan-ati            23.3.6-r0                apk           
+mesa-vulkan-intel          23.3.6-r0                apk           
+mesa-vulkan-layers         23.3.6-r0                apk           
+mesa-vulkan-swrast         23.3.6-r0                apk           
 mpdecimal                  2.5.1-r2                 apk           
 musl                       1.2.4_git20230717-r4     apk           
 musl-utils                 1.2.4_git20230717-r4     apk           

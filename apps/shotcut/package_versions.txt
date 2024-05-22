@@ -272,6 +272,9 @@ libprotobuf32                       3.21.12-3                         deb
 libpsl5                             0.21.2-1                          deb     
 libpulse0                           16.1+dfsg1-2+b1                   deb     
 libpulsedsp                         16.1+dfsg1-2+b1                   deb     
+libpython3-stdlib                   3.11.2-1+b1                       deb     
+libpython3.11-minimal               3.11.2-6                          deb     
+libpython3.11-stdlib                3.11.2-6                          deb     
 libqhull-r8.0                       2020.2-5                          deb     
 libqt5core5a                        5.15.8+dfsg-11                    deb     
 libqt5dbus5                         5.15.8+dfsg-11                    deb     
@@ -296,6 +299,7 @@ libquadmath0                        12.2.0-14                         deb
 librabbitmq4                        0.11.0-1+b1                       deb     
 librav1e0                           0.5.1-6                           deb     
 libraw1394-11                       2.1.2-2                           deb     
+libreadline8                        8.2-1.3                           deb     
 librist4                            0.2.7+dfsg-1                      deb     
 librsvg2-2                          2.54.7+dfsg-1~deb12u1             deb     
 librtaudio6                         5.2.0~ds1-2                       deb     
@@ -446,8 +450,10 @@ login                               1:4.13+dfsg1-1+b1                 deb
 logsave                             1.47.0-2                          deb     
 mariadb-common                      1:10.11.6-0+deb12u1               deb     
 mawk                                1.3.4.20200120-3.1                deb     
+media-types                         10.0.0                            deb     
 melt                                7.12.0-1+b1                       deb     
 mesa-va-drivers                     22.3.6-1+deb12u1                  deb     
+mesa-vulkan-drivers                 22.3.6-1+deb12u1                  deb     
 mlt2chapters                        0.1.0                             npm     
 mlt2edl                             0.1.0                             npm     
 mount                               2.38.1-5+deb12u1                  deb     
@@ -462,6 +468,10 @@ perl-base                           5.36.0-7+deb12u1                  deb
 proj-data                           9.1.1-1                           deb     
 pulseaudio                          16.1+dfsg1-2+b1                   deb     
 pulseaudio-utils                    16.1+dfsg1-2+b1                   deb     
+python3                             3.11.2-1+b1                       deb     
+python3-minimal                     3.11.2-1+b1                       deb     
+python3.11                          3.11.2-6                          deb     
+python3.11-minimal                  3.11.2-6                          deb     
 qml-module-qt-labs-folderlistmodel  5.15.8+dfsg-3                     deb     
 qml-module-qt-labs-settings         5.15.8+dfsg-3                     deb     
 qml-module-qtgraphicaleffects       5.15.8-2                          deb     
@@ -476,6 +486,7 @@ qml-module-qtquick-privatewidgets   5.15.8-2                          deb
 qml-module-qtquick-templates2       5.15.8+dfsg-2                     deb     
 qml-module-qtquick-window2          5.15.8+dfsg-3                     deb     
 qml-module-qtquick2                 5.15.8+dfsg-3                     deb     
+readline-common                     8.2-1.3                           deb     
 sed                                 4.9-1                             deb     
 shared-mime-info                    2.2-1                             deb     
 shotcut                             22.12.21+ds-2                     deb     

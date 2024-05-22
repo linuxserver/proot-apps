@@ -178,6 +178,7 @@ libmfx1                             22.3.0-1                                 deb
 libminizip1                         1.1-8build1                              deb     
 libmount1                           2.37.2-4ubuntu3.4                        deb     
 libmp3lame0                         3.100-3build2                            deb     
+libmpdec3                           2.5.1-2build2                            deb     
 libmpg123-0                         1.29.3-1build1                           deb     
 libmpv1                             0.34.1-1ubuntu3                          deb     
 libmtdev1                           1.1.6-1build4                            deb     
@@ -223,6 +224,9 @@ libproxy1v5                         0.4.17-2                                 deb
 libpsl5                             0.21.0-1.2build2                         deb     
 libpulse0                           1:15.99.1+dfsg1-1ubuntu2.2               deb     
 libpulsedsp                         1:15.99.1+dfsg1-1ubuntu2.2               deb     
+libpython3-stdlib                   3.10.6-1~22.04                           deb     
+libpython3.10-minimal               3.10.12-1~22.04.3                        deb     
+libpython3.10-stdlib                3.10.12-1~22.04.3                        deb     
 libqt5core5a                        5.15.3+dfsg-2ubuntu0.2                   deb     
 libqt5dbus5                         5.15.3+dfsg-2ubuntu0.2                   deb     
 libqt5gui5                          5.15.3+dfsg-2ubuntu0.2                   deb     
@@ -243,6 +247,7 @@ libquadmath0                        12.3.0-1ubuntu1~22.04                    deb
 librabbitmq4                        0.10.0-1ubuntu2                          deb     
 libraw1394-11                       2.1.2-2build2                            deb     
 libre2-9                            20220201+dfsg-1                          deb     
+libreadline8                        8.1.2-1                                  deb     
 librsvg2-2                          2.52.5+dfsg-3ubuntu0.2                   deb     
 librtmp1                            2.4+20151223.gitfa8646d.1-2build4        deb     
 librubberband2                      2.0.0-2                                  deb     
@@ -389,7 +394,9 @@ login                               1:4.8.1-2ubuntu2.2                       deb
 logsave                             1.46.5-2ubuntu1.1                        deb     
 lsb-base                            11.1.0ubuntu4                            deb     
 mawk                                1.3.4.20200120-3                         deb     
+media-types                         7.0.0                                    deb     
 mesa-va-drivers                     23.2.1-1ubuntu3.1~22.04.2                deb     
+mesa-vulkan-drivers                 23.2.1-1ubuntu3.1~22.04.2                deb     
 mount                               2.37.2-4ubuntu3.4                        deb     
 ncurses-base                        6.3-2ubuntu0.1                           deb     
 ncurses-bin                         6.3-2ubuntu0.1                           deb     
@@ -402,6 +409,10 @@ perl-base                           5.34.0-3ubuntu1.3                        deb
 procps                              2:3.3.17-6ubuntu2.1                      deb     
 pulseaudio                          1:15.99.1+dfsg1-1ubuntu2.2               deb     
 pulseaudio-utils                    1:15.99.1+dfsg1-1ubuntu2.2               deb     
+python3                             3.10.6-1~22.04                           deb     
+python3-minimal                     3.10.6-1~22.04                           deb     
+python3.10                          3.10.12-1~22.04.3                        deb     
+python3.10-minimal                  3.10.12-1~22.04.3                        deb     
 qml-module-qt-labs-folderlistmodel  5.15.3+dfsg-1                            deb     
 qml-module-qt-labs-platform         5.15.3+dfsg-1                            deb     
 qml-module-qt-labs-settings         5.15.3+dfsg-1                            deb     
@@ -416,6 +427,7 @@ qml-module-qtquick-window2          5.15.3+dfsg-1                            deb
 qml-module-qtquick2                 5.15.3+dfsg-1                            deb     
 qml-module-qtwebchannel             5.15.3-1                                 deb     
 qml-module-qtwebengine              5.15.9+dfsg-1                            deb     
+readline-common                     8.1.2-1                                  deb     
 sed                                 4.8-1ubuntu2                             deb     
 sensible-utils                      0.0.17                                   deb     
 session-migration                   0.3.6                                    deb     

@@ -333,6 +333,7 @@ libmfx1                                22.5.4-1                        deb
 libmount1                              2.38.1-5+deb12u1                deb                            
 libmp3lame0                            3.100-6                         deb                            
 libmpg123-0                            1.31.2-1                        deb                            
+libncursesw6                           6.4-4                           deb                            
 libnettle8                             3.8.1-2                         deb                            
 libnghttp2-14                          1.52.0-1+deb12u1                deb                            
 libnsl2                                1.3.0-2                         deb                            
@@ -360,7 +361,11 @@ libpng16-16                            1.6.39-2                        deb
 libpsl5                                0.21.2-1                        deb                            
 libpulse0                              16.1+dfsg1-2+b1                 deb                            
 libpulsedsp                            16.1+dfsg1-2+b1                 deb                            
+libpython3-stdlib                      3.11.2-1+b1                     deb                            
+libpython3.11-minimal                  3.11.2-6                        deb                            
+libpython3.11-stdlib                   3.11.2-6                        deb                            
 librav1e0                              0.5.1-6                         deb                            
+libreadline8                           8.2-1.3                         deb                            
 librsvg2-2                             2.54.7+dfsg-1~deb12u1           deb                            
 librtmp1                               2.4+20151223.gitfa8646d.1-2+b2  deb                            
 libsamplerate0                         0.2.2-3                         deb                            
@@ -410,6 +415,7 @@ libvdpau1                              1.5-2                           deb
 libvorbis0a                            1.3.7-1                         deb                            
 libvorbisenc2                          1.3.7-1                         deb                            
 libvpx7                                1.12.0-1+deb12u2                deb                            
+libvulkan1                             1.3.239.0-1                     deb                            
 libwayland-client0                     1.21.0-1                        deb                            
 libwayland-server0                     1.21.0-1                        deb                            
 libwebp7                               1.2.4-0.2+deb12u1               deb                            
@@ -528,7 +534,9 @@ maven-shared-utils                     3.3.4                           java-arch
 maven-slf4j-provider                   3.9.6                           java-archive                   
 mawk                                   1.3.4.20200120-3.1              deb                            
 mdx                                    0.1.1                           npm                            
+media-types                            10.0.0                          deb                            
 mesa-va-drivers                        22.3.6-1+deb12u1                deb                            
+mesa-vulkan-drivers                    22.3.6-1+deb12u1                deb                            
 module-descriptors                     0.1.2                           java-archive                   
 mount                                  2.38.1-5+deb12u1                deb                            
 mutability-annotations-compat                                          java-archive                   
@@ -576,10 +584,15 @@ pug                                    1.0.0                           npm
 pulseaudio                             16.1+dfsg1-2+b1                 deb                            
 pulseaudio-utils                       16.1+dfsg1-2+b1                 deb                            
 python                                 1.0.0                           npm                            
+python3                                3.11.2-1+b1                     deb                            
+python3-minimal                        3.11.2-1+b1                     deb                            
+python3.11                             3.11.2-6                        deb                            
+python3.11-minimal                     3.11.2-6                        deb                            
 qdox                                   2.0.1                           java-archive                   
 quiche-jna-stubs                                                       java-archive                   
 r                                      1.0.0                           npm                            
 razor                                  1.0.0                           npm                            
+readline-common                        8.2-1.3                         deb                            
 repair                                 (devel)                         go-module                      
 restructuredtext                       1.0.0                           npm                            
 ruby                                   1.0.0                           npm                            

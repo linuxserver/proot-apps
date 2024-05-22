@@ -351,7 +351,11 @@ libproc2-0                                                              2:4.0.2-
 libpsl5                                                                 0.21.2-1                        deb                           
 libpulse0                                                               16.1+dfsg1-2+b1                 deb                           
 libpulsedsp                                                             16.1+dfsg1-2+b1                 deb                           
+libpython3-stdlib                                                       3.11.2-1+b1                     deb                           
+libpython3.11-minimal                                                   3.11.2-6                        deb                           
+libpython3.11-stdlib                                                    3.11.2-6                        deb                           
 librav1e0                                                               0.5.1-6                         deb                           
+libreadline8                                                            8.2-1.3                         deb                           
 librsvg2-2                                                              2.54.7+dfsg-1~deb12u1           deb                           
 librtmp1                                                                2.4+20151223.gitfa8646d.1-2+b2  deb                           
 libsamplerate0                                                          0.2.2-3                         deb                           
@@ -403,6 +407,7 @@ libvdpau1                                                               1.5-2   
 libvorbis0a                                                             1.3.7-1                         deb                           
 libvorbisenc2                                                           1.3.7-1                         deb                           
 libvpx7                                                                 1.12.0-1+deb12u2                deb                           
+libvulkan1                                                              1.3.239.0-1                     deb                           
 libwayland-client0                                                      1.21.0-1                        deb                           
 libwayland-cursor0                                                      1.21.0-1                        deb                           
 libwayland-egl1                                                         1.21.0-1                        deb                           
@@ -485,7 +490,9 @@ maven-settings-builder                                                  3.9.6   
 maven-shared-utils                                                      3.3.4                           java-archive                  
 maven-slf4j-provider                                                    3.9.6                           java-archive                  
 mawk                                                                    1.3.4.20200120-3.1              deb                           
+media-types                                                             10.0.0                          deb                           
 mesa-va-drivers                                                         22.3.6-1+deb12u1                deb                           
+mesa-vulkan-drivers                                                     22.3.6-1+deb12u1                deb                           
 metadataRepository-ant                                                                                  java-archive                  
 mount                                                                   2.38.1-5+deb12u1                deb                           
 ncurses-base                                                            6.4-4                           deb                           
@@ -1024,6 +1031,11 @@ procps                                                                  2:4.0.2-
 provisioning                                                            1.2.0.201505202024              java-archive                  
 pulseaudio                                                              16.1+dfsg1-2+b1                 deb                           
 pulseaudio-utils                                                        16.1+dfsg1-2+b1                 deb                           
+python3                                                                 3.11.2-1+b1                     deb                           
+python3-minimal                                                         3.11.2-1+b1                     deb                           
+python3.11                                                              3.11.2-6                        deb                           
+python3.11-minimal                                                      3.11.2-6                        deb                           
+readline-common                                                         8.2-1.3                         deb                           
 regiondata                                                              74.2                            java-archive                  
 remote                                                                                                  java-archive                  
 remoteAnt                                                                                               java-archive                  

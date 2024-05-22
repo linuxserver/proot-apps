@@ -247,6 +247,10 @@ mesa-gbm                      23.3.6-r0                apk
 mesa-gl                       23.3.6-r0                apk           
 mesa-glapi                    23.3.6-r0                apk           
 mesa-va-gallium               23.3.6-r0                apk           
+mesa-vulkan-ati               23.3.6-r0                apk           
+mesa-vulkan-intel             23.3.6-r0                apk           
+mesa-vulkan-layers            23.3.6-r0                apk           
+mesa-vulkan-swrast            23.3.6-r0                apk           
 minimal-lexical               0.2.1                    rust-crate    
 mpdecimal                     2.5.1-r2                 apk           
 mpg123-libs                   1.32.3-r0                apk           

@@ -182,7 +182,11 @@ libproc2-0                      2:4.0.2-3                       deb
 libpsl5                         0.21.2-1                        deb     
 libpulse0                       16.1+dfsg1-2+b1                 deb     
 libpulsedsp                     16.1+dfsg1-2+b1                 deb     
+libpython3-stdlib               3.11.2-1+b1                     deb     
+libpython3.11-minimal           3.11.2-6                        deb     
+libpython3.11-stdlib            3.11.2-6                        deb     
 librav1e0                       0.5.1-6                         deb     
+libreadline8                    8.2-1.3                         deb     
 librsvg2-2                      2.54.7+dfsg-1~deb12u1           deb     
 librtmp1                        2.4+20151223.gitfa8646d.1-2+b2  deb     
 libsamplerate0                  0.2.2-3                         deb     
@@ -203,6 +207,7 @@ libsndfile1                     1.2.0-1                         deb
 libsoxr0                        0.1.3-4                         deb     
 libspeex1                       1.2.1-2                         deb     
 libspeexdsp1                    1.2.1-1                         deb     
+libsqlite3-0                    3.40.1-2                        deb     
 libss2                          1.47.0-2                        deb     
 libssh2-1                       1.10.0-3+b1                     deb     
 libssl3                         3.0.11-1~deb12u2                deb     
@@ -231,6 +236,7 @@ libvdpau1                       1.5-2                           deb
 libvorbis0a                     1.3.7-1                         deb     
 libvorbisenc2                   1.3.7-1                         deb     
 libvpx7                         1.12.0-1+deb12u2                deb     
+libvulkan1                      1.3.239.0-1                     deb     
 libwayland-client0              1.21.0-1                        deb     
 libwayland-cursor0              1.21.0-1                        deb     
 libwayland-egl1                 1.21.0-1                        deb     
@@ -286,7 +292,9 @@ libzvbi0                        0.2.41-1                        deb
 login                           1:4.13+dfsg1-1+b1               deb     
 logsave                         1.47.0-2                        deb     
 mawk                            1.3.4.20200120-3.1              deb     
+media-types                     10.0.0                          deb     
 mesa-va-drivers                 22.3.6-1+deb12u1                deb     
+mesa-vulkan-drivers             22.3.6-1+deb12u1                deb     
 mount                           2.38.1-5+deb12u1                deb     
 ncurses-base                    6.4-4                           deb     
 ncurses-bin                     6.4-4                           deb     
@@ -298,6 +306,11 @@ perl-base                       5.36.0-7+deb12u1                deb
 procps                          2:4.0.2-3                       deb     
 pulseaudio                      16.1+dfsg1-2+b1                 deb     
 pulseaudio-utils                16.1+dfsg1-2+b1                 deb     
+python3                         3.11.2-1+b1                     deb     
+python3-minimal                 3.11.2-1+b1                     deb     
+python3.11                      3.11.2-6                        deb     
+python3.11-minimal              3.11.2-6                        deb     
+readline-common                 8.2-1.3                         deb     
 sed                             4.9-1                           deb     
 shared-mime-info                2.2-1                           deb     
 sysvinit-utils                  3.06-4                          deb     

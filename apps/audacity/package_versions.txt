@@ -163,7 +163,6 @@ libgmp10                        2:6.2.1+dfsg1-1.1               deb
 libgnutls30                     3.7.9-2+deb12u2                 deb       
 libgomp1                        12.2.0-14                       deb       
 libgpg-error0                   1.46-1                          deb       
-libgpm2                         1.20.7-10+b1                    deb       
 libgraphite2-3                  1.3.14-1                        deb       
 libgsm1                         1.0.22-1                        deb       
 libgssapi-krb5-2                1.20.1-2+deb12u1                deb       
