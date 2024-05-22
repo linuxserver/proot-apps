@@ -123,7 +123,7 @@ libc-utils                      0.7.2-r5                 apk
 libcap2                         2.69-r1                  apk                           
 libcdr                          0.1.7-r12                apk                           
 libcom_err                      1.47.0-r5                apk                           
-libcrypto3                      3.1.4-r6                 apk                           
+libcrypto3                      3.1.5-r0                 apk                           
 libcurl                         8.5.0-r0                 apk                           
 libdc1394                       2.2.7-r0                 apk                           
 libde265                        1.0.15-r0                apk                           

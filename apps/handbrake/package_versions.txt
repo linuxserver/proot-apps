@@ -47,7 +47,7 @@ gstreamer1.0-x                  1.24.3-1                        deb
 gtk-update-icon-cache           3.24.41-4                       deb     
 gzip                            1.12-1.1                        deb     
 handbrake                       1.7.2+ds1-1+b1                  deb     
-hicolor-icon-theme              0.17-2                          deb     
+hicolor-icon-theme              0.18-1                          deb     
 hostname                        3.23+nmu2                       deb     
 init-system-helpers             1.66                            deb     
 iso-codes                       4.16.0-1                        deb     

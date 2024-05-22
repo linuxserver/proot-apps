@@ -67,7 +67,7 @@ libc-utils                 0.7.2-r5                 apk
 libcamera                  0.1.0-r1                 apk       
 libcamera-ipa              0.1.0-r1                 apk       
 libcap2                    2.69-r1                  apk       
-libcrypto3                 3.1.4-r6                 apk       
+libcrypto3                 3.1.5-r0                 apk       
 libcurl                    8.5.0-r0                 apk       
 libdrm                     2.4.118-r0               apk       
 libelf                     0.190-r1                 apk       

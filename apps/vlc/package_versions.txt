@@ -152,7 +152,7 @@ libc                                  0.2.149                  rust-crate
 libc-utils                            0.7.2-r5                 apk           
 libcap2                               2.69-r1                  apk           
 libcddb                               1.3.2-r4                 apk           
-libcrypto3                            3.1.4-r6                 apk           
+libcrypto3                            3.1.5-r0                 apk           
 libcurl                               8.5.0-r0                 apk           
 libdav1d                              1.3.0-r1                 apk           
 libdc1394                             2.2.7-r0                 apk           

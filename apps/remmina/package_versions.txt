@@ -64,7 +64,7 @@ libbsd                     0.11.7-r3                apk
 libbz2                     1.0.8-r6                 apk     
 libc-utils                 0.7.2-r5                 apk     
 libcap2                    2.69-r1                  apk     
-libcrypto3                 3.1.4-r6                 apk     
+libcrypto3                 3.1.5-r0                 apk     
 libcurl                    8.5.0-r0                 apk     
 libdbusmenu-glib           16.04.0-r5               apk     
 libdbusmenu-gtk3           16.04.0-r5               apk     
