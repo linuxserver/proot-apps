@@ -12,7 +12,9 @@ RUN \
     dbus-x11 \
     desktop-file-utils \
     fonts-noto \
+    libvulkan1 \
     mesa-va-drivers \
+    mesa-vulkan-drivers \
     netcat-openbsd \
     pulseaudio \
     xdg-utils \
