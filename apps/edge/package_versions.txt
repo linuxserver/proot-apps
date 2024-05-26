@@ -135,7 +135,7 @@ libgtk-3-0                      3.24.41-1                       deb
 libgtk-3-common                 3.24.41-4                       deb     
 libharfbuzz0b                   8.3.0-2+b1                      deb     
 libhogweed6t64                  3.9.1-2.2                       deb     
-libhwy1t64                      1.0.7-8.1                       deb     
+libhwy1t64                      1.1.0-1                         deb     
 libice6                         2:1.0.10-1+b1                   deb     
 libicu72                        72.1-4+b1                       deb     
 libidn2-0                       2.3.7-2                         deb     
