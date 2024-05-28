@@ -52,9 +52,9 @@ either                     1.9.0                    rust-crate
 errno                      0.3.8                    rust-crate    
 eudev-libs                 3.2.14-r2                apk           
 fern                       0.6.2                    rust-crate    
-ffmpeg-libavcodec          6.1.1-r7                 apk           
-ffmpeg-libavutil           6.1.1-r7                 apk           
-ffmpeg-libswresample       6.1.1-r7                 apk           
+ffmpeg-libavcodec          6.1.1-r8                 apk           
+ffmpeg-libavutil           6.1.1-r8                 apk           
+ffmpeg-libswresample       6.1.1-r8                 apk           
 fftw-single-libs           3.3.10-r5                apk           
 file                       5.45-r1                  apk           
 font-noto                  23.7.1-r0                apk           
@@ -103,7 +103,7 @@ libc                       0.2.152                  rust-crate
 libcap2                    2.70-r0                  apk           
 libcrypto3                 3.3.0-r2                 apk           
 libcurl                    8.8.0-r0                 apk           
-libdav1d                   1.4.1-r0                 apk           
+libdav1d                   1.4.2-r0                 apk           
 libdrm                     2.4.120-r0               apk           
 libeconf                   0.6.3-r0                 apk           
 libelf                     0.191-r0                 apk           
