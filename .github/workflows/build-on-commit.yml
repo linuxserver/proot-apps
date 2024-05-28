@@ -28,7 +28,7 @@ jobs:
     strategy:
       matrix:
         include:
-          - name: alpine-319
+          - name: alpine-320
           - name: alpine-edge
           - name: debian-bookworm
           - name: debian-sid
