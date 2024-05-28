@@ -178,7 +178,7 @@ include:
     description: "Inkscape is professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers."
   - name: kdenlive
     full_name: Kdenlive
-    arch: linux/amd64,linux/arm64
+    arch: linux/amd64
     icon: kdenlive.svg
     description: "Kdenlive is a powerful free and open source cross-platform video editing program made by the KDE community. Feature rich and production ready."
   - name: keepassxc

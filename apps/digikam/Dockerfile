@@ -6,7 +6,7 @@ ARG REPO
 RUN \
   echo "**** install packages ****" && \
   apk add --no-cache \
-    breeze-icons5 \
+    breeze-icons \
     digikam \
     exiftool \
     imagemagick \
