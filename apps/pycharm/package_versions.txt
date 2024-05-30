@@ -69,12 +69,12 @@ intellij-test-discovery                                         java-archive
 iso-codes                       4.15.0-1                        deb                            
 java                            1.0.0                           npm                            
 java-websocket                  1.5.5                           java-archive                   
-java/jdk                        17.0.10+1-b1207.14              binary                         
-java/jre                        17.0.10+1-b1207.14              binary                         
+java/jdk                        17.0.11+1-b1207.24              binary                         
+java/jre                        17.0.11+1-b1207.24              binary                         
 javascript                      1.0.0                           npm                            
 jitsi-utils                     1.0-112-gd92472a                java-archive                   
 jnaerator-runtime                                               java-archive                   
-jrt-fs                          17.0.10                         java-archive                   
+jrt-fs                          17.0.11                         java-archive                   
 json                            1.0.0                           npm                            
 jstun                           0.7.5.20200723                  java-archive                   
 julia                           1.0.0                           npm                            

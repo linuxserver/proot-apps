@@ -35,7 +35,7 @@ fonts-noto-mono                 20201225-2                      deb
 gcc-14-base                     14.1.0-1                        deb     
 gpgv                            2.2.40-3                        deb     
 grep                            3.11-4                          deb     
-gtk-update-icon-cache           3.24.41-4                       deb     
+gtk-update-icon-cache           3.24.42-1                       deb     
 gzip                            1.12-1.1                        deb     
 hicolor-icon-theme              0.18-1                          deb     
 hostname                        3.23+nmu2                       deb     
@@ -132,7 +132,7 @@ libgssapi-krb5-2                1.20.1-6+b1                     deb
 libgstreamer-plugins-base1.0-0  1.24.3-1                        deb     
 libgstreamer1.0-0               1.24.3-1                        deb     
 libgtk-3-0                      3.24.41-1                       deb     
-libgtk-3-common                 3.24.41-4                       deb     
+libgtk-3-common                 3.24.42-1                       deb     
 libharfbuzz0b                   8.3.0-2+b1                      deb     
 libhogweed6t64                  3.9.1-2.2                       deb     
 libhwy1t64                      1.1.0-1                         deb     
