@@ -1,7 +1,7 @@
 NAME                       VERSION                  TYPE                       
 Markdown                   3.6                      python                      
 PyQt6                      6.6.1                    python                      
-PyQt6-WebEngine            6.6.0                    python                      
+PyQt6-WebEngine            6.7.0                    python                      
 PyQt6_sip                  13.6.0                   python                      
 Pygments                   2.18.0                   python                      
 alpine-baselayout          3.6.3-r0                 apk                         
@@ -383,7 +383,7 @@ py3-pycryptodome           3.20.0-r1                apk
 py3-pygments               2.18.0-r0                apk                         
 py3-pygments-pyc           2.18.0-r0                apk                         
 py3-pyqt6-sip              13.6.0-r1                apk                         
-py3-pyqt6-webengine        6.6.0-r1                 apk                         
+py3-pyqt6-webengine        6.7.0-r0                 apk                         
 py3-qt6                    6.6.1-r1                 apk                         
 py3-qt6-pyc                6.6.1-r1                 apk                         
 py3-regex                  2023.12.26-r1            apk                         
