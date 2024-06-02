@@ -36,8 +36,8 @@ ca-certificates            20240226-r0              apk
 ca-certificates-bundle     20240226-r0              apk                         
 cairo                      1.18.0-r0                apk                         
 cairo-gobject              1.18.0-r0                apk                         
-calibre                    7.11.0-r0                apk                         
-calibre-pyc                7.11.0-r0                apk                         
+calibre                    7.12.0-r0                apk                         
+calibre-pyc                7.12.0-r0                apk                         
 cdparanoia-libs            10.2-r14                 apk                         
 cfg-if                     1.0.0                    rust-crate  (+1 duplicate)  
 chardet                    5.2.0                    python                      
@@ -167,7 +167,7 @@ libdrm                     2.4.120-r0               apk
 libeconf                   0.6.3-r0                 apk                         
 libelf                     0.191-r0                 apk                         
 libepoxy                   1.5.10-r1                apk                         
-libevdev                   1.13.1-r0                apk                         
+libevdev                   1.13.2-r0                apk                         
 libevent                   2.1.12-r7                apk                         
 libexpat                   2.6.2-r0                 apk                         
 libfdisk                   2.40.1-r1                apk                         
@@ -465,10 +465,10 @@ unicode-width              0.1.11                   rust-crate
 utf8parse                  0.2.1                    rust-crate                  
 v_frame                    0.3.7                    rust-crate                  
 volume_key                 0.3.12-r7                apk                         
-wayland-libs-client        1.22.0-r4                apk                         
-wayland-libs-cursor        1.22.0-r4                apk                         
-wayland-libs-egl           1.22.0-r4                apk                         
-wayland-libs-server        1.22.0-r4                apk                         
+wayland-libs-client        1.23.0-r0                apk                         
+wayland-libs-cursor        1.23.0-r0                apk                         
+wayland-libs-egl           1.23.0-r0                apk                         
+wayland-libs-server        1.23.0-r0                apk                         
 webencodings               0.5.1                    python                      
 webrtc-audio-processing-1  1.3-r0                   apk                         
 x264-libs                  0.164_git20231001-r0     apk                         
