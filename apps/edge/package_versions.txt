@@ -6,7 +6,7 @@ at-spi2-common                  2.52.0-1                        deb
 base-files                      13.2                            deb     
 base-passwd                     3.6.3                           deb     
 bash                            5.2.21-2+b1                     deb     
-bsdutils                        1:2.40.1-4                      deb     
+bsdutils                        1:2.40.1-7                      deb     
 ca-certificates                 20240203                        deb     
 coreutils                       9.4-3.1                         deb     
 curl                            8.8.0-1                         deb     
@@ -59,9 +59,9 @@ libaudit1                       1:3.1.2-2.1                     deb
 libavahi-client3                0.8-13+b2                       deb     
 libavahi-common-data            0.8-13+b2                       deb     
 libavahi-common3                0.8-13+b2                       deb     
-libavcodec60                    7:6.1.1-4+b1                    deb     
-libavutil58                     7:6.1.1-4+b1                    deb     
-libblkid1                       2.40.1-4                        deb     
+libavcodec60                    7:6.1.1-4+b2                    deb     
+libavutil58                     7:6.1.1-4+b2                    deb     
+libblkid1                       2.40.1-7                        deb     
 libbrotli1                      1.1.0-2+b3                      deb     
 libbsd0                         0.12.2-1                        deb     
 libbz2-1.0                      1.0.8-5.1                       deb     
@@ -101,7 +101,7 @@ libelf1t64                      0.191-1+b1                      deb
 libepoxy0                       1.5.10-1+b2                     deb     
 libexpat1                       2.6.2-1                         deb     
 libext2fs2t64                   1.47.1~rc2-1                    deb     
-libfdisk1                       2.40.1-4                        deb     
+libfdisk1                       2.40.1-7                        deb     
 libffi8                         3.4.6-1                         deb     
 libfftw3-single3                3.3.10-1+b2                     deb     
 libflac12t64                    1.4.3+ds-2.1                    deb     
@@ -142,7 +142,7 @@ libjack-jackd2-0                1.9.21~dfsg-3+b3                deb
 libjbig0                        2.1-6.1+b1                      deb     
 libjpeg62-turbo                 1:2.1.5-3                       deb     
 libjson-c5                      0.17-1+b1                       deb     
-libjxl0.7                       0.7.0-10.2+b3                   deb     
+libjxl0.8                       0.8.2-4                         deb     
 libk5crypto3                    1.20.1-6+b1                     deb     
 libkeyutils1                    1.6.3-3                         deb     
 libkmod2                        32+20240327-1                   deb     
@@ -157,7 +157,7 @@ libltdl7                        2.4.7-7+b1                      deb
 liblz4-1                        1.9.4-2                         deb     
 liblzma5                        5.6.1+really5.4.5-1             deb     
 libmd0                          1.1.0-2                         deb     
-libmount1                       2.40.1-4                        deb     
+libmount1                       2.40.1-7                        deb     
 libmp3lame0                     3.100-6+b2                      deb     
 libmpg123-0t64                  1.32.6-3                        deb     
 libncursesw6                    6.5-2                           deb     
@@ -200,13 +200,13 @@ libseccomp2                     2.5.5-1                         deb
 libselinux1                     3.5-2+b2                        deb     
 libsemanage-common              3.5-1                           deb     
 libsemanage2                    3.5-1+b3                        deb     
-libsensors-config               1:3.6.0-9                       deb     
-libsensors5                     1:3.6.0-9                       deb     
+libsensors-config               1:3.6.0-10                      deb     
+libsensors5                     1:3.6.0-10                      deb     
 libsepol2                       3.5-2+b1                        deb     
 libsharpyuv0                    1.4.0-0.1                       deb     
 libshine3                       3.1.1-2+b1                      deb     
 libsm6                          2:1.2.3-1+b1                    deb     
-libsmartcols1                   2.40.1-4                        deb     
+libsmartcols1                   2.40.1-7                        deb     
 libsnappy1v5                    1.2.1-1                         deb     
 libsndfile1                     1.2.2-1+b2                      deb     
 libsoxr0                        0.1.3-4+b1                      deb     
@@ -218,7 +218,7 @@ libssh2-1t64                    1.11.0-5                        deb
 libssl3t64                      3.2.1-3                         deb     
 libstdc++6                      14.1.0-1                        deb     
 libsvtav1enc1d1                 1.7.0+dfsg-2+b1                 deb     
-libswresample4                  7:6.1.1-4+b1                    deb     
+libswresample4                  7:6.1.1-4+b2                    deb     
 libsystemd-shared               256~rc3-7                       deb     
 libsystemd0                     256~rc3-7                       deb     
 libtasn1-6                      4.19.0-3+b2                     deb     
@@ -233,7 +233,7 @@ libu2f-udev                     1.1.10-3                        deb
 libudev1                        256~rc3-7                       deb     
 libunistring5                   1.2-1                           deb     
 libunwind8                      1.6.2-3+b1                      deb     
-libuuid1                        2.40.1-4                        deb     
+libuuid1                        2.40.1-7                        deb     
 libva-drm2                      2.21.0-1                        deb     
 libva-x11-2                     2.21.0-1                        deb     
 libva2                          2.21.0-1                        deb     
@@ -302,7 +302,7 @@ media-types                     10.1.0                          deb
 mesa-va-drivers                 24.1.0-2                        deb     
 mesa-vulkan-drivers             24.1.0-2                        deb     
 microsoft-edge-stable           125.0.2535.79-1                 deb     
-mount                           2.40.1-4                        deb     
+mount                           2.40.1-7                        deb     
 ncurses-base                    6.5-2                           deb     
 ncurses-bin                     6.5-2                           deb     
 netbase                         6.4                             deb     
@@ -327,7 +327,7 @@ tar                             1.35+dfsg-3                     deb
 tzdata                          2024a-4                         deb     
 udev                            256~rc3-7                       deb     
 usr-is-merged                   39                              deb     
-util-linux                      2.40.1-4                        deb     
+util-linux                      2.40.1-7                        deb     
 wget                            1.24.5-1                        deb     
 x11-common                      1:7.7+23                        deb     
 x11-xkb-utils                   7.7+8+b1                        deb     
