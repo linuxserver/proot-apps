@@ -43,7 +43,7 @@ libacl1                             2.3.1-1                                  deb
 libaom3                             3.3.0-1                                  deb     
 libapparmor1                        3.0.4-2ubuntu2.3                         deb     
 libapt-pkg6.0                       2.4.12                                   deb     
-libarchive13                        3.6.0-1ubuntu1                           deb     
+libarchive13                        3.6.0-1ubuntu1.1                         deb     
 libasound2                          1.2.6.1-1ubuntu1                         deb     
 libasound2-data                     1.2.6.1-1ubuntu1                         deb     
 libasound2-plugins                  1.2.6-1                                  deb     
