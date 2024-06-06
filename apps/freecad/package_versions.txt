@@ -513,8 +513,8 @@ python3-minimal                     3.11.2-1+b1                     deb
 python3-mpmath                      1.2.1-2                         deb       
 python3-numpy                       1:1.24.2-1                      deb       
 python3-packaging                   23.0-1                          deb       
-python3-pil                         9.4.0-1.1+b1                    deb       
-python3-pil.imagetk                 9.4.0-1.1+b1                    deb       
+python3-pil                         9.4.0-1.1+deb12u1               deb       
+python3-pil.imagetk                 9.4.0-1.1+deb12u1               deb       
 python3-pivy                        0.6.8-1+b2                      deb       
 python3-pkg-resources               66.1.1-1                        deb       
 python3-ply                         3.11-5                          deb       

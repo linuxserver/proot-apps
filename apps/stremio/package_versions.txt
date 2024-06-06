@@ -122,8 +122,8 @@ libfribidi0                         1.0.8-2ubuntu3.1                         deb
 libgbm1                             23.2.1-1ubuntu3.1~22.04.2                deb     
 libgcc-s1                           12.3.0-1ubuntu1~22.04                    deb     
 libgcrypt20                         1.9.4-3ubuntu3                           deb     
-libgdk-pixbuf-2.0-0                 2.42.8+dfsg-1ubuntu0.2                   deb     
-libgdk-pixbuf2.0-common             2.42.8+dfsg-1ubuntu0.2                   deb     
+libgdk-pixbuf-2.0-0                 2.42.8+dfsg-1ubuntu0.3                   deb     
+libgdk-pixbuf2.0-common             2.42.8+dfsg-1ubuntu0.3                   deb     
 libgfortran5                        12.3.0-1ubuntu1~22.04                    deb     
 libgl1                              1.4.0-1                                  deb     
 libgl1-mesa-dri                     23.2.1-1ubuntu3.1~22.04.2                deb     
