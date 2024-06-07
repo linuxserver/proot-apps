@@ -29,7 +29,7 @@ ffmpeg-libavutil           6.1.1-r7                 apk
 ffmpeg-libswresample       6.1.1-r7                 apk     
 fftw-single-libs           3.3.10-r5                apk     
 file                       5.45-r1                  apk     
-firefox                    126.0-r0                 apk     
+firefox                    126.0.1-r0               apk     
 font-noto                  23.7.1-r0                apk     
 font-noto-common           23.7.1-r0                apk     
 font-noto-math             23.7.1-r0                apk     
