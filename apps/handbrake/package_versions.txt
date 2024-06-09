@@ -41,8 +41,8 @@ grep                            3.11-4                          deb
 gsettings-desktop-schemas       46.0-1                          deb     
 gstreamer1.0-libav              1.24.4-1                        deb     
 gstreamer1.0-plugins-base       1.24.4-1                        deb     
-gstreamer1.0-plugins-good       1.24.4-1                        deb     
-gstreamer1.0-pulseaudio         1.24.4-1                        deb     
+gstreamer1.0-plugins-good       1.24.4-1+b1                     deb     
+gstreamer1.0-pulseaudio         1.24.4-1+b1                     deb     
 gstreamer1.0-x                  1.24.4-1                        deb     
 gtk-update-icon-cache           3.24.42-1                       deb     
 gzip                            1.12-1.1                        deb     
@@ -286,8 +286,8 @@ libstdc++6                      14.1.0-1                        deb
 libsvtav1enc1d1                 1.7.0+dfsg-2+b1                 deb     
 libswresample4                  7:6.1.1-4+b2                    deb     
 libswscale7                     7:6.1.1-4+b2                    deb     
-libsystemd-shared               256~rc3-7                       deb     
-libsystemd0                     256~rc3-7                       deb     
+libsystemd-shared               256~rc4-1                       deb     
+libsystemd0                     256~rc4-1                       deb     
 libtag1v5                       1.13.1-1+b1                     deb     
 libtag1v5-vanilla               1.13.1-1+b1                     deb     
 libtasn1-6                      4.19.0-3+b2                     deb     
@@ -299,7 +299,7 @@ libtiff6                        4.5.1+git230720-4               deb
 libtinfo6                       6.5-2                           deb     
 libturbojpeg0                   1:2.1.5-3                       deb     
 libtwolame0                     0.4.0-2+b1                      deb     
-libudev1                        256~rc3-7                       deb     
+libudev1                        256~rc4-1                       deb     
 libudfread0                     1.1.2-1+b1                      deb     
 libunibreak6                    6.1-2                           deb     
 libunistring5                   1.2-1                           deb     
@@ -403,11 +403,11 @@ python3.11-minimal              3.11.9-1                        deb
 readline-common                 8.2-4                           deb     
 sed                             4.9-2                           deb     
 shared-mime-info                2.4-5                           deb     
-systemd                         256~rc3-7                       deb     
+systemd                         256~rc4-1                       deb     
 sysvinit-utils                  3.09-1                          deb     
 tar                             1.35+dfsg-3                     deb     
 tzdata                          2024a-4                         deb     
-udev                            256~rc3-7                       deb     
+udev                            256~rc4-1                       deb     
 usr-is-merged                   39                              deb     
 util-linux                      2.40.1-8.1                      deb     
 x11-common                      1:7.7+23                        deb     
