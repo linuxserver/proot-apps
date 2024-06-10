@@ -46,7 +46,7 @@ gstreamer1.0-pulseaudio         1.24.4-1+b1                     deb
 gstreamer1.0-x                  1.24.4-1                        deb     
 gtk-update-icon-cache           3.24.42-1                       deb     
 gzip                            1.12-1.1                        deb     
-handbrake                       1.7.2+ds1-1+b1                  deb     
+handbrake                       1.7.2+ds1-1+b2                  deb     
 hicolor-icon-theme              0.18-1                          deb     
 hostname                        3.23+nmu2                       deb     
 init-system-helpers             1.66                            deb     
@@ -73,10 +73,10 @@ libavahi-client3                0.8-13+b2                       deb
 libavahi-common-data            0.8-13+b2                       deb     
 libavahi-common3                0.8-13+b2                       deb     
 libavc1394-0                    0.5.4-5+b1                      deb     
-libavcodec60                    7:6.1.1-4+b2                    deb     
-libavfilter9                    7:6.1.1-4+b2                    deb     
-libavformat60                   7:6.1.1-4+b2                    deb     
-libavutil58                     7:6.1.1-4+b2                    deb     
+libavcodec60                    7:6.1.1-4+b3                    deb     
+libavfilter9                    7:6.1.1-4+b3                    deb     
+libavformat60                   7:6.1.1-4+b3                    deb     
+libavutil58                     7:6.1.1-4+b3                    deb     
 libbdplus0                      0.2.0-3+b1                      deb     
 libblas3                        3.12.0-3                        deb     
 libblkid1                       2.40.1-8.1                      deb     
@@ -205,7 +205,7 @@ libmysofa1                      1.3.2+dfsg-2+b1                 deb
 libncurses6                     6.5-2                           deb     
 libncursesw6                    6.5-2                           deb     
 libnettle8t64                   3.9.1-2.2                       deb     
-libnghttp2-14                   1.61.0-1+b1                     deb     
+libnghttp2-14                   1.62.1-1                        deb     
 libnorm1t64                     1.5.9+dfsg-3.1                  deb     
 libnuma1                        2.0.18-1                        deb     
 libogg0                         1.3.5-3+b1                      deb     
@@ -230,7 +230,7 @@ libpixman-1-0                   0.42.2-1+b1                     deb
 libplacebo338                   6.338.2-2                       deb     
 libpng16-16t64                  1.6.43-5                        deb     
 libpocketsphinx3                0.8+5prealpha+1-15+b3           deb     
-libpostproc57                   7:6.1.1-4+b2                    deb     
+libpostproc57                   7:6.1.1-4+b3                    deb     
 libproc2-0                      2:4.0.4-4                       deb     
 libproxy1v5                     0.5.6-1                         deb     
 libpsl5t64                      0.21.2-1.1                      deb     
@@ -284,8 +284,8 @@ libssh2-1t64                    1.11.0-5                        deb
 libssl3t64                      3.2.2-1                         deb     
 libstdc++6                      14.1.0-1                        deb     
 libsvtav1enc1d1                 1.7.0+dfsg-2+b1                 deb     
-libswresample4                  7:6.1.1-4+b2                    deb     
-libswscale7                     7:6.1.1-4+b2                    deb     
+libswresample4                  7:6.1.1-4+b3                    deb     
+libswscale7                     7:6.1.1-4+b3                    deb     
 libsystemd-shared               256~rc4-1                       deb     
 libsystemd0                     256~rc4-1                       deb     
 libtag1v5                       1.13.1-1+b1                     deb     
@@ -333,6 +333,7 @@ libx11-data                     2:1.8.7-1                       deb
 libx11-xcb1                     2:1.8.7-1+b1                    deb     
 libx264-164                     2:0.164.3108+git31e19f9-1       deb     
 libx265-199                     3.5-2+b1                        deb     
+libx265-209                     3.6-3                           deb     
 libxau6                         1:1.0.9-1+b1                    deb     
 libxaw7                         2:1.0.14-1+b2                   deb     
 libxcb-dri2-0                   1.17.0-2                        deb     

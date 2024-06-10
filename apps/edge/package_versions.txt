@@ -162,7 +162,7 @@ libmp3lame0                     3.100-6+b2                      deb
 libmpg123-0t64                  1.32.6-3                        deb     
 libncursesw6                    6.5-2                           deb     
 libnettle8t64                   3.9.1-2.2                       deb     
-libnghttp2-14                   1.61.0-1+b1                     deb     
+libnghttp2-14                   1.62.1-1                        deb     
 libnspr4                        2:4.35-1.1+b1                   deb     
 libnss3                         2:3.100-1                       deb     
 libnuma1                        2.0.18-1                        deb     
