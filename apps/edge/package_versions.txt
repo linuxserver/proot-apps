@@ -59,8 +59,8 @@ libaudit1                       1:3.1.2-2.1                     deb
 libavahi-client3                0.8-13+b2                       deb     
 libavahi-common-data            0.8-13+b2                       deb     
 libavahi-common3                0.8-13+b2                       deb     
-libavcodec60                    7:6.1.1-4+b2                    deb     
-libavutil58                     7:6.1.1-4+b2                    deb     
+libavcodec60                    7:6.1.1-4+b3                    deb     
+libavutil58                     7:6.1.1-4+b3                    deb     
 libblkid1                       2.40.1-8.1                      deb     
 libbrotli1                      1.1.0-2+b3                      deb     
 libbsd0                         0.12.2-1                        deb     
@@ -218,7 +218,7 @@ libssh2-1t64                    1.11.0-5                        deb
 libssl3t64                      3.2.2-1                         deb     
 libstdc++6                      14.1.0-1                        deb     
 libsvtav1enc1d1                 1.7.0+dfsg-2+b1                 deb     
-libswresample4                  7:6.1.1-4+b2                    deb     
+libswresample4                  7:6.1.1-4+b3                    deb     
 libsystemd-shared               256~rc4-1                       deb     
 libsystemd0                     256~rc4-1                       deb     
 libtasn1-6                      4.19.0-3+b2                     deb     
@@ -232,7 +232,7 @@ libtwolame0                     0.4.0-2+b1                      deb
 libu2f-udev                     1.1.10-3                        deb     
 libudev1                        256~rc4-1                       deb     
 libunistring5                   1.2-1                           deb     
-libunwind8                      1.6.2-3+b1                      deb     
+libunwind8                      1.6.2-3.1                       deb     
 libuuid1                        2.40.1-8.1                      deb     
 libva-drm2                      2.21.0-1                        deb     
 libva-x11-2                     2.21.0-1                        deb     
@@ -255,7 +255,7 @@ libx11-6                        2:1.8.7-1+b1                    deb
 libx11-data                     2:1.8.7-1                       deb     
 libx11-xcb1                     2:1.8.7-1+b1                    deb     
 libx264-164                     2:0.164.3108+git31e19f9-1       deb     
-libx265-199                     3.5-2+b1                        deb     
+libx265-209                     3.6-3                           deb     
 libxau6                         1:1.0.9-1+b1                    deb     
 libxaw7                         2:1.0.14-1+b2                   deb     
 libxcb-dri2-0                   1.17.0-2                        deb     
