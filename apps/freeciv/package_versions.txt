@@ -36,7 +36,7 @@ freeciv-common-client      3.1.1-r0                 apk
 freeciv-data               3.1.1-r0                 apk     
 freeciv-server             3.1.1-r0                 apk     
 freetype                   2.13.2-r0                apk     
-fribidi                    1.0.14-r0                apk     
+fribidi                    1.0.15-r0                apk     
 gdbm                       1.23-r1                  apk     
 gdk-pixbuf                 2.42.11-r1               apk     
 glib                       2.80.2-r0                apk     

@@ -91,9 +91,9 @@ font-noto-common           23.7.1-r0                apk
 font-noto-math             23.7.1-r0                apk                         
 font-noto-symbols          23.7.1-r0                apk                         
 fontconfig                 2.15.0-r1                apk                         
-fonttools                  4.51.0                   python                      
+fonttools                  4.53.0                   python                      
 freetype                   2.13.2-r0                apk                         
-fribidi                    1.0.14-r0                apk                         
+fribidi                    1.0.15-r0                apk                         
 gdbm                       1.23-r1                  apk                         
 gdk-pixbuf                 2.42.11-r1               apk                         
 getrandom                  0.2.12                   rust-crate                  
@@ -355,8 +355,8 @@ py3-dnspython              2.6.1-r1                 apk
 py3-dnspython-pyc          2.6.1-r1                 apk                         
 py3-feedparser             6.0.11-r2                apk                         
 py3-feedparser-pyc         6.0.11-r2                apk                         
-py3-fonttools              4.51.0-r1                apk                         
-py3-fonttools-pyc          4.51.0-r1                apk                         
+py3-fonttools              4.53.0-r0                apk                         
+py3-fonttools-pyc          4.53.0-r0                apk                         
 py3-html2text              2024.2.26-r1             apk                         
 py3-html2text-pyc          2024.2.26-r1             apk                         
 py3-html5-parser           0.4.12-r1                apk                         
