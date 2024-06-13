@@ -88,11 +88,11 @@ libdconf1                       0.40.0-4+b2                     deb
 libdebconfclient0               0.271+b3                        deb     
 libdeflate0                     1.20-1                          deb     
 libdevmapper1.02.1              2:1.02.196-1+b1                 deb     
-libdrm-amdgpu1                  2.4.121-1                       deb     
-libdrm-common                   2.4.121-1                       deb     
-libdrm-intel1                   2.4.121-1                       deb     
-libdrm-radeon1                  2.4.121-1                       deb     
-libdrm2                         2.4.121-1                       deb     
+libdrm-amdgpu1                  2.4.121-2                       deb     
+libdrm-common                   2.4.121-2                       deb     
+libdrm-intel1                   2.4.121-2                       deb     
+libdrm-radeon1                  2.4.121-2                       deb     
+libdrm2                         2.4.121-2                       deb     
 libdw1t64                       0.191-1+b1                      deb     
 libedit2                        3.1-20240517-1                  deb     
 libegl-mesa0                    24.1.1-2                        deb     
@@ -164,7 +164,7 @@ libncursesw6                    6.5-2                           deb
 libnettle8t64                   3.9.1-2.2                       deb     
 libnghttp2-14                   1.62.1-1                        deb     
 libnspr4                        2:4.35-1.1+b1                   deb     
-libnss3                         2:3.100-1                       deb     
+libnss3                         2:3.101-1                       deb     
 libnuma1                        2.0.18-1                        deb     
 libogg0                         1.3.5-3+b1                      deb     
 libopenjp2-7                    2.5.0-2+b3                      deb     
@@ -184,8 +184,8 @@ libpixman-1-0                   0.42.2-1+b1                     deb
 libpng16-16t64                  1.6.43-5                        deb     
 libproc2-0                      2:4.0.4-4                       deb     
 libpsl5t64                      0.21.2-1.1                      deb     
-libpulse0                       16.1+dfsg1-5                    deb     
-libpulsedsp                     16.1+dfsg1-5                    deb     
+libpulse0                       16.1+dfsg1-5.1                  deb     
+libpulsedsp                     16.1+dfsg1-5.1                  deb     
 libpython3-stdlib               3.11.8-1                        deb     
 libpython3.11-minimal           3.11.9-1                        deb     
 libpython3.11-stdlib            3.11.9-1                        deb     
@@ -229,7 +229,7 @@ libtheora0                      1.1.1+dfsg.1-16.1+b2            deb
 libtiff6                        4.5.1+git230720-4               deb     
 libtinfo6                       6.5-2                           deb     
 libtwolame0                     0.4.0-2+b1                      deb     
-libu2f-udev                     1.1.10-3                        deb     
+libu2f-udev                     1.1.10-3.1                      deb     
 libudev1                        256~rc4-1                       deb     
 libunistring5                   1.2-1                           deb     
 libunwind8                      1.6.2-3.1                       deb     
@@ -312,8 +312,8 @@ openssl                         3.2.2-1                         deb
 passwd                          1:4.13+dfsg1-4                  deb     
 perl-base                       5.38.2-4                        deb     
 procps                          2:4.0.4-4                       deb     
-pulseaudio                      16.1+dfsg1-5                    deb     
-pulseaudio-utils                16.1+dfsg1-5                    deb     
+pulseaudio                      16.1+dfsg1-5.1                  deb     
+pulseaudio-utils                16.1+dfsg1-5.1                  deb     
 python3                         3.11.8-1                        deb     
 python3-minimal                 3.11.8-1                        deb     
 python3.11                      3.11.9-1                        deb     
