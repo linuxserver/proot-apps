@@ -105,7 +105,7 @@ libc                       0.2.152                  rust-crate
 libcap2                    2.70-r0                  apk           
 libcrypto3                 3.3.0-r2                 apk           
 libcurl                    8.8.0-r0                 apk           
-libdav1d                   1.4.2-r0                 apk           
+libdav1d                   1.4.3-r0                 apk           
 libdrm                     2.4.121-r0               apk           
 libeconf                   0.6.3-r0                 apk           
 libelf                     0.191-r0                 apk           
