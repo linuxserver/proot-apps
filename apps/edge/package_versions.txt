@@ -44,7 +44,7 @@ iso-codes                       4.16.0-1                        deb
 keyboard-configuration          1.227                           deb     
 libacl1                         2.3.2-2                         deb     
 libaom3                         3.8.2-3                         deb     
-libapparmor1                    3.0.13-2                        deb     
+libapparmor1                    3.1.7-1                         deb     
 libapt-pkg6.0t64                2.9.4                           deb     
 libasound2-data                 1.2.11-1                        deb     
 libasound2-plugins              1.2.7.1-1+b2                    deb     
