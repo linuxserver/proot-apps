@@ -102,7 +102,7 @@ libcolord2                      1.4.7-1+b1                      deb
 libcom-err2                     1.47.1-1                        deb     
 libcrypt1                       1:4.4.36-4                      deb     
 libcryptsetup12                 2:2.7.2-2                       deb     
-libcups2t64                     2.4.7-2                         deb     
+libcups2t64                     2.4.7-3                         deb     
 libcurl3t64-gnutls              8.8.0-1                         deb     
 libcurl4t64                     8.8.0-1                         deb     
 libdatrie1                      0.2.13-3                        deb     
