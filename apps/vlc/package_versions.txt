@@ -350,9 +350,9 @@ tevent                                0.16.1-r0                apk
 tiff                                  4.6.0t-r0                apk       
 tslib                                 1.23-r0                  apk       
 utmps-libs                            0.1.2.2-r1               apk       
-vlc                                   3.0.20-r5                apk       
-vlc-libs                              3.0.20-r5                apk       
-vlc-qt                                3.0.20-r5                apk       
+vlc                                   3.0.21-r0                apk       
+vlc-libs                              3.0.21-r0                apk       
+vlc-qt                                3.0.21-r0                apk       
 vo-aacenc                             0.1.3-r3                 apk       
 vo-amrwbenc                           0.1.3-r3                 apk       
 vulkan-loader                         1.3.261.1-r0             apk       

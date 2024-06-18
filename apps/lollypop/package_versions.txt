@@ -154,7 +154,7 @@ libxv                      1.0.12-r5                apk
 libxvmc                    1.0.14-r1                apk       
 libxxf86vm                 1.1.5-r6                 apk       
 llvm17-libs                17.0.6-r1                apk       
-lollypop                   1.4.39-r0                apk       
+lollypop                   1.4.40-r0                apk       
 lz4-libs                   1.9.4-r5                 apk       
 mesa                       24.0.8-r1                apk       
 mesa-dri-gallium           24.0.8-r1                apk       
