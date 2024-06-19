@@ -16,7 +16,7 @@ ca-certificates-bundle     20240226-r0              apk
 cairo                      1.18.0-r0                apk     
 cairo-gobject              1.18.0-r0                apk     
 cdparanoia-libs            10.2-r14                 apk     
-cups-libs                  2.4.8-r0                 apk     
+cups-libs                  2.4.9-r0                 apk     
 curl                       8.7.1-r0                 apk     
 dbus                       1.14.10-r1               apk     
 dbus-daemon-launch-helper  1.14.10-r1               apk     

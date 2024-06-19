@@ -20,7 +20,7 @@ cdparanoia-libs            10.2-r14                 apk
 chromium                   125.0.6422.112-r0        apk     
 cjson                      1.7.18-r0                apk     
 crc32c                     1.1.2-r0                 apk     
-cups-libs                  2.4.8-r0                 apk     
+cups-libs                  2.4.9-r0                 apk     
 curl                       8.7.1-r0                 apk     
 dbus                       1.14.10-r1               apk     
 dbus-daemon-launch-helper  1.14.10-r1               apk     
@@ -181,7 +181,7 @@ netcat-openbsd             1.226-r0                 apk
 nettle                     3.9.1-r0                 apk     
 nghttp2-libs               1.62.0-r0                apk     
 nspr                       4.35-r4                  apk     
-nss                        3.100-r0                 apk     
+nss                        3.101-r0                 apk     
 numactl                    2.0.18-r0                apk     
 onevpl-libs                2023.3.1-r2              apk     
 openexr-libiex             3.1.13-r1                apk     

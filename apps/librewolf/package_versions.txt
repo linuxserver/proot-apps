@@ -42,7 +42,7 @@ crossbeam-deque            0.8.5                    rust-crate
 crossbeam-epoch            0.9.18                   rust-crate    
 crossbeam-queue            0.3.11                   rust-crate    
 crossbeam-utils            0.8.19                   rust-crate    
-cups-libs                  2.4.9-r0                 apk           
+cups-libs                  2.4.10-r0                apk           
 curl                       8.8.0-r0                 apk           
 dbus                       1.14.10-r1               apk           
 dbus-daemon-launch-helper  1.14.10-r1               apk           

@@ -61,7 +61,7 @@ crossbeam-utils            0.8.19                   rust-crate
 cryptsetup-libs            2.7.2-r0                 apk                         
 css-parser                 1.0.10                   python                      
 cssselect                  1.2.0                    python                      
-cups-libs                  2.4.9-r0                 apk                         
+cups-libs                  2.4.10-r0                apk                         
 curl                       8.8.0-r0                 apk                         
 dbus                       1.14.10-r1               apk                         
 dbus-daemon-launch-helper  1.14.10-r1               apk                         
