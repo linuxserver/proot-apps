@@ -1,5 +1,5 @@
 NAME                            VERSION                         TYPE   
-Code                            1.90.1                          npm     
+Code                            1.90.2                          npm     
 adduser                         3.134                           deb     
 adwaita-icon-theme              43-1                            deb     
 apt                             2.6.1                           deb     
@@ -12,7 +12,7 @@ bsdutils                        1:2.38.1-5+deb12u1              deb
 builtin-notebook-renderers      1.0.0                           npm     
 ca-certificates                 20230311                        deb     
 clojure                         1.0.0                           npm     
-code                            1.90.1-1718141439               deb     
+code                            1.90.2-1718751586               deb     
 coffeescript                    1.0.0                           npm     
 configuration-editing           1.0.0                           npm     
 coreutils                       9.1-1                           deb     
