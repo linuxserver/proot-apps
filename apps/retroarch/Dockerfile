@@ -1,5 +1,5 @@
 ARG REPO
-FROM ghcr.io/${REPO}:alpine-320 as rootfs
+FROM ghcr.io/${REPO}:alpine-edge as rootfs
 ARG REPO
 
 # Install packages
@@ -14,9 +14,9 @@ RUN \
     -e "/^Exec=/c Exec=/bin/sh -c \"\$HOME\/.local\/bin\/proot-apps run ghcr.io/${REPO}:retroarch %U\"" \
     -e "s/Name=RetroArch/Name=RetroArch PA/g" \
     -e '/^TryExec=/d' \
-    /usr/share/applications/retroarch.desktop && \
+    /usr/share/applications/org.libretro.RetroArch.desktop && \
   mv \
-    /usr/share/applications/retroarch.desktop \
+    /usr/share/applications/org.libretro.RetroArch.desktop \
     /usr/share/applications/retroarch-pa.desktop && \
   echo "**** set bin name ****" && \
   echo "retroarch-pa" > /bin-name && \
