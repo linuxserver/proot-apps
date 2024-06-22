@@ -3,10 +3,10 @@ Java-WebSocket                         1.5.5                           java-arch
 adduser                                3.134                           deb                            
 adwaita-icon-theme                     43-1                            deb                            
 allopen-compiler-plugin                                                java-archive                   
-allopen-compiler-plugin                1.9.23-release-779              java-archive                   
-android-extensions-compiler            1.9.23-release-779              java-archive                   
+allopen-compiler-plugin                1.9.24-release-822              java-archive                   
+android-extensions-compiler            1.9.24-release-822              java-archive                   
 android-extensions-compiler-plugin                                     java-archive                   
-android-extensions-runtime             1.9.23-release-779              java-archive                   
+android-extensions-runtime             1.9.24-release-822              java-archive                   
 animal-sniffer-annotations             1.14                            java-archive                   
 annotations                                                            java-archive                   
 annotations                            13.0                            java-archive                   
@@ -43,7 +43,7 @@ archetype-catalog                      2.2                             java-arch
 archetype-common                       2.2                             java-archive                   
 archetype-descriptor                   2.2                             java-archive                   
 assignment-compiler-plugin                                             java-archive                   
-assignment-compiler-plugin             1.9.23-release-779              java-archive                   
+assignment-compiler-plugin             1.9.24-release-822              java-archive                   
 async-profiler                                                         java-archive                   
 at-spi2-common                         2.46.0-5                        deb                            
 base-files                             12.4+deb12u5                    deb                            
@@ -160,57 +160,57 @@ jstun                                  0.7.5.20200723                  java-arch
 julia                                  1.0.0                           npm                            
 junit                                                                  java-archive                   
 jvm                                    0.8.0-1.9.21-38                 java-archive                   
-jvm-abi-gen                            1.9.23-release-779              java-archive                   
+jvm-abi-gen                            1.9.24-release-822              java-archive                   
 keyboard-configuration                 1.221                           deb                            
-kotlin-annotation-processing           1.9.23-release-779              java-archive                   
+kotlin-annotation-processing           1.9.24-release-822              java-archive                   
 kotlin-annotation-processing-cli                                       java-archive                   
-kotlin-annotation-processing-compiler  1.9.23-release-779              java-archive                   
-kotlin-annotation-processing-runtime   1.9.23-release-779              java-archive                   
+kotlin-annotation-processing-compiler  1.9.24-release-822              java-archive                   
+kotlin-annotation-processing-runtime   1.9.24-release-822              java-archive                   
 kotlin-annotations-jvm                                                 java-archive                   
 kotlin-annotations-jvm-sources                                         java-archive                   
-kotlin-ant                             1.9.23-release-779              java-archive                   
-kotlin-compiler                        1.9.23-release-779              java-archive                   
+kotlin-ant                             1.9.24-release-822              java-archive                   
+kotlin-compiler                        1.9.24-release-822              java-archive                   
 kotlin-compiler-common                                                 java-archive                   
 kotlin-compiler-fe10                                                   java-archive                   
 kotlin-compiler-ir                                                     java-archive                   
-kotlin-daemon                          1.9.23-release-779              java-archive                   
-kotlin-daemon-client                   1.9.23-release-779              java-archive                   
-kotlin-imports-dumper-compiler-plugin  1.9.23-release-779              java-archive                   
+kotlin-daemon                          1.9.24-release-822              java-archive                   
+kotlin-daemon-client                   1.9.24-release-822              java-archive                   
+kotlin-imports-dumper-compiler-plugin  1.9.24-release-822              java-archive                   
 kotlin-jps-common                                                      java-archive                   
 kotlin-jps-plugin                                                      java-archive                   
-kotlin-main-kts                        1.9.23-release-779              java-archive                   
-kotlin-preloader                       1.9.23-release-779              java-archive                   
-kotlin-reflect                         1.9.23-release-779              java-archive                   
+kotlin-main-kts                        1.9.24-release-822              java-archive                   
+kotlin-preloader                       1.9.24-release-822              java-archive                   
+kotlin-reflect                         1.9.24-release-822              java-archive                   
 kotlin-reflect-sources                                                 java-archive                   
-kotlin-runner                          1.9.23-release-779              java-archive                   
-kotlin-script-runtime                  1.9.23-release-779              java-archive                   
+kotlin-runner                          1.9.24-release-822              java-archive                   
+kotlin-script-runtime                  1.9.24-release-822              java-archive                   
 kotlin-script-runtime-sources                                          java-archive                   
-kotlin-scripting-common                1.9.23-release-779              java-archive                   
-kotlin-scripting-compiler              1.9.23-release-779              java-archive                   
-kotlin-scripting-compiler-impl         1.9.23-release-779              java-archive                   
-kotlin-scripting-jvm                   1.9.23-release-779              java-archive                   
-kotlin-serialization-compiler-plugin   1.9.23-release-779              java-archive                   
-kotlin-stdlib                          1.9.23-release-779              java-archive                   
-kotlin-stdlib-jdk7                     1.9.23-release-779              java-archive                   
+kotlin-scripting-common                1.9.24-release-822              java-archive                   
+kotlin-scripting-compiler              1.9.24-release-822              java-archive                   
+kotlin-scripting-compiler-impl         1.9.24-release-822              java-archive                   
+kotlin-scripting-jvm                   1.9.24-release-822              java-archive                   
+kotlin-serialization-compiler-plugin   1.9.24-release-822              java-archive                   
+kotlin-stdlib                          1.9.24-release-822              java-archive                   
+kotlin-stdlib-jdk7                     1.9.24-release-822              java-archive                   
 kotlin-stdlib-jdk7-sources                                             java-archive                   
-kotlin-stdlib-jdk8                     1.9.23-release-779              java-archive                   
+kotlin-stdlib-jdk8                     1.9.24-release-822              java-archive                   
 kotlin-stdlib-jdk8-sources                                             java-archive                   
-kotlin-stdlib-js                       1.9.23-release-779              java-archive                   
+kotlin-stdlib-js                       1.9.24-release-822              java-archive                   
 kotlin-stdlib-js-sources                                               java-archive                   
 kotlin-stdlib-sources                                                  java-archive                   
-kotlin-test                            1.9.23-release-779              java-archive                   
-kotlin-test-js                         1.9.23-release-779              java-archive                   
+kotlin-test                            1.9.24-release-822              java-archive                   
+kotlin-test-js                         1.9.24-release-822              java-archive                   
 kotlin-test-js-sources                                                 java-archive                   
-kotlin-test-junit                      1.9.23-release-779              java-archive                   
+kotlin-test-junit                      1.9.24-release-822              java-archive                   
 kotlin-test-junit-sources                                              java-archive                   
-kotlin-test-junit5                     1.9.23-release-779              java-archive                   
+kotlin-test-junit5                     1.9.24-release-822              java-archive                   
 kotlin-test-junit5-sources                                             java-archive                   
 kotlin-test-sources                                                    java-archive                   
-kotlin-test-testng                     1.9.23-release-779              java-archive                   
+kotlin-test-testng                     1.9.24-release-822              java-archive                   
 kotlin-test-testng-sources                                             java-archive                   
 kotlinx-coroutines-core-jvm                                            java-archive                   
 kotlinx-serialization-compiler-plugin                                  java-archive                   
-kotlinx-serialization-compiler-plugin  1.9.23-release-779              java-archive                   
+kotlinx-serialization-compiler-plugin  1.9.24-release-822              java-archive                   
 language-viml                          1.2.1                           npm                            
 latex                                  1.0.0                           npm                            
 less                                   1.0.0                           npm                            
@@ -468,7 +468,7 @@ log                                    1.0.0                           npm
 login                                  1:4.13+dfsg1-1+b1               deb                            
 logsave                                1.47.0-2                        deb                            
 lombok-compiler-plugin                                                 java-archive                   
-lombok-compiler-plugin                 1.9.23-release-779              java-archive                   
+lombok-compiler-plugin                 1.9.24-release-822              java-archive                   
 lua                                    1.0.0                           npm                            
 lucene-analyzers-common                8.11.1                          java-archive                   
 lucene-backward-codecs                 8.11.1                          java-archive                   
@@ -545,7 +545,7 @@ netcat-openbsd                         1.219-1                         deb
 nexus-indexer                          3.0.4                           java-archive                   
 nexus-indexer-artifact                 1.0.1                           java-archive                   
 noarg-compiler-plugin                                                  java-archive                   
-noarg-compiler-plugin                  1.9.23-release-779              java-archive                   
+noarg-compiler-plugin                  1.9.24-release-822              java-archive                   
 objective-c                            1.0.0                           npm                            
 ocl-icd-libopencl1                     2.3.1-1                         deb                            
 openjdk-17-jdk                         17.0.11+9-1~deb12u1             deb                            
@@ -558,9 +558,9 @@ org.eclipse.sisu.inject                0.9.0.M2                        java-arch
 org.eclipse.sisu.plexus                0.9.0.M2                        java-archive                   
 org.jacoco.agent.rt                    0.8.12                          java-archive                   
 org.jacoco.core                        0.8.12                          java-archive                   
-parcelize-compiler                     1.9.23-release-779              java-archive                   
+parcelize-compiler                     1.9.24-release-822              java-archive                   
 parcelize-compiler-plugin                                              java-archive                   
-parcelize-runtime                      1.9.23-release-779              java-archive                   
+parcelize-runtime                      1.9.24-release-822              java-archive                   
 passwd                                 1:4.13+dfsg1-1+b1               deb                            
 perl                                   1.0.0                           npm                            
 perl                                   5.36.0-7+deb12u1                deb                            
@@ -598,8 +598,8 @@ ruby                                   1.0.0                           npm
 rust                                   1.0.0                           npm                            
 sa-jdwp                                                                java-archive                   
 sam-with-receiver-compiler-plugin                                      java-archive                   
-sam-with-receiver-compiler-plugin      1.9.23-release-779              java-archive                   
-scripting-compiler                     1.9.23-release-779              java-archive                   
+sam-with-receiver-compiler-plugin      1.9.24-release-822              java-archive                   
+scripting-compiler                     1.9.24-release-822              java-archive                   
 scripting-compiler-plugin                                              java-archive                   
 scss                                   1.0.0                           npm                            
 search-result                          1.0.0                           npm                            
