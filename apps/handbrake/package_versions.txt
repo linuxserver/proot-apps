@@ -94,13 +94,13 @@ libcap2                         1:2.66-5                        deb
 libcap2-bin                     1:2.66-5                        deb     
 libcdparanoia0                  3.10.2+debian-14+b1             deb     
 libchromaprint1                 1.5.1-5                         deb     
-libcjson1                       1.7.18-1                        deb     
+libcjson1                       1.7.18-3                        deb     
 libcloudproviders0              0.3.6-1                         deb     
 libcodec2-1.2                   1.2.0-2+b1                      deb     
 libcolord2                      1.4.7-1+b1                      deb     
 libcom-err2                     1.47.1-1                        deb     
 libcrypt1                       1:4.4.36-4                      deb     
-libcups2t64                     2.4.7-3                         deb     
+libcups2t64                     2.4.10-1                        deb     
 libcurl3t64-gnutls              8.8.0-1                         deb     
 libcurl4t64                     8.8.0-1                         deb     
 libdatrie1                      0.2.13-3                        deb     
@@ -207,7 +207,7 @@ libogg0                         1.3.5-3+b1                      deb
 libopencore-amrnb0              0.1.6-1+b1                      deb     
 libopencore-amrwb0              0.1.6-1+b1                      deb     
 libopenjp2-7                    2.5.0-2+b3                      deb     
-libopenmpt0t64                  0.7.7-1                         deb     
+libopenmpt0t64                  0.7.8-1                         deb     
 libopus0                        1.4-1+b1                        deb     
 liborc-0.4-0t64                 1:0.4.38-1                      deb     
 libp11-kit0                     0.25.3-5                        deb     
