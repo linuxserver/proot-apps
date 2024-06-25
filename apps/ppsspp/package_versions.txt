@@ -142,12 +142,12 @@ mesa-dri-gallium           24.0.9-r1                apk
 mesa-egl                   24.0.9-r1                apk     
 mesa-gbm                   24.0.9-r1                apk     
 mesa-gl                    24.0.9-r1                apk     
-mesa-glapi                 24.0.8-r1                apk     
+mesa-glapi                 24.0.9-r1                apk     
 mesa-gles                  24.0.9-r1                apk     
 mesa-va-gallium            24.0.9-r1                apk     
 mesa-vulkan-ati            24.0.9-r1                apk     
 mesa-vulkan-intel          24.0.9-r1                apk     
-mesa-vulkan-layers         24.0.8-r1                apk     
+mesa-vulkan-layers         24.0.9-r1                apk     
 mesa-vulkan-swrast         24.0.9-r1                apk     
 miniupnpc                  2.2.7-r0                 apk     
 mpdecimal                  4.0.0-r0                 apk     
