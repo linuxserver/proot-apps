@@ -208,7 +208,7 @@ libopencore-amrnb0              0.1.6-1+b1                      deb
 libopencore-amrwb0              0.1.6-1+b1                      deb     
 libopenjp2-7                    2.5.0-2+b3                      deb     
 libopenmpt0t64                  0.7.8-1                         deb     
-libopus0                        1.4-1+b1                        deb     
+libopus0                        1.5.1-1                         deb     
 liborc-0.4-0t64                 1:0.4.38-1                      deb     
 libp11-kit0                     0.25.3-5                        deb     
 libpam-modules                  1.5.3-7                         deb     
@@ -231,9 +231,9 @@ libproxy1v5                     0.5.6-1                         deb
 libpsl5t64                      0.21.2-1.1                      deb     
 libpulse0                       16.1+dfsg1-5.1                  deb     
 libpulsedsp                     16.1+dfsg1-5.1                  deb     
-libpython3-stdlib               3.11.8-1                        deb     
-libpython3.11-minimal           3.11.9-1                        deb     
-libpython3.11-stdlib            3.11.9-1                        deb     
+libpython3-stdlib               3.12.2-1                        deb     
+libpython3.12-minimal           3.12.4-1                        deb     
+libpython3.12-stdlib            3.12.4-1                        deb     
 librabbitmq4                    0.11.0-1+b2                     deb     
 librav1e0                       0.7.1-2                         deb     
 libraw1394-11                   2.1.2-2+b1                      deb     
@@ -391,10 +391,10 @@ procps                          2:4.0.4-4                       deb
 psmisc                          23.7-1                          deb     
 pulseaudio                      16.1+dfsg1-5.1                  deb     
 pulseaudio-utils                16.1+dfsg1-5.1                  deb     
-python3                         3.11.8-1                        deb     
-python3-minimal                 3.11.8-1                        deb     
-python3.11                      3.11.9-1                        deb     
-python3.11-minimal              3.11.9-1                        deb     
+python3                         3.12.2-1                        deb     
+python3-minimal                 3.12.2-1                        deb     
+python3.12                      3.12.4-1                        deb     
+python3.12-minimal              3.12.4-1                        deb     
 readline-common                 8.2-4                           deb     
 sed                             4.9-2                           deb     
 shared-mime-info                2.4-5                           deb     
