@@ -37,7 +37,7 @@ glib-networking-common          2.80.0-1                        deb
 glib-networking-services        2.80.0-1                        deb     
 gpgv                            2.2.43-7                        deb     
 grep                            3.11-4                          deb     
-gsettings-desktop-schemas       46.0-1                          deb     
+gsettings-desktop-schemas       46.0-2                          deb     
 gstreamer1.0-libav              1.24.5-1                        deb     
 gstreamer1.0-plugins-base       1.24.5-1                        deb     
 gstreamer1.0-plugins-good       1.24.5-1                        deb     
@@ -59,7 +59,7 @@ libapparmor1                    3.1.7-1                         deb
 libapt-pkg6.0t64                2.9.4                           deb     
 libasound2-data                 1.2.11-1                        deb     
 libasound2-plugins              1.2.7.1-1+b2                    deb     
-libasound2t64                   1.2.11-1+b1                     deb     
+libasound2t64                   1.2.11-1+b2                     deb     
 libass9                         1:0.17.2-2                      deb     
 libasyncns0                     0.8-6+b4                        deb     
 libatk-bridge2.0-0t64           2.52.0-1                        deb     
@@ -208,7 +208,7 @@ libopencore-amrnb0              0.1.6-1+b1                      deb
 libopencore-amrwb0              0.1.6-1+b1                      deb     
 libopenjp2-7                    2.5.0-2+b3                      deb     
 libopenmpt0t64                  0.7.8-1                         deb     
-libopus0                        1.5.1-1                         deb     
+libopus0                        1.5.2-1                         deb     
 liborc-0.4-0t64                 1:0.4.38-1                      deb     
 libp11-kit0                     0.25.3-5                        deb     
 libpam-modules                  1.5.3-7                         deb     
@@ -242,7 +242,7 @@ librist4                        0.2.10+dfsg-2                   deb
 librsvg2-2                      2.58.0+dfsg-1                   deb     
 librsvg2-common                 2.58.0+dfsg-1                   deb     
 librtmp1                        2.4+20151223.gitfa8646d.1-2+b4  deb     
-librubberband2                  3.3.0+dfsg-2+b1                 deb     
+librubberband2                  3.3.0+dfsg-2+b2                 deb     
 libsamplerate0                  0.2.2-4+b1                      deb     
 libsasl2-2                      2.1.28+dfsg1-6                  deb     
 libsasl2-modules-db             2.1.28+dfsg1-6                  deb     
@@ -286,7 +286,7 @@ libsystemd0                     256.1-2                         deb
 libtag1v5                       1.13.1-1+b1                     deb     
 libtag1v5-vanilla               1.13.1-1+b1                     deb     
 libtasn1-6                      4.19.0-3+b2                     deb     
-libtdb1                         1.4.10-1                        deb     
+libtdb1                         1.4.10-1+b1                     deb     
 libthai-data                    0.1.29-2                        deb     
 libthai0                        0.1.29-2                        deb     
 libtheora0                      1.1.1+dfsg.1-16.1+b2            deb     
