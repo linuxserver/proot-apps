@@ -25,7 +25,7 @@ cdparanoia-libs            10.2-r14                 apk
 cffi                       1.16.0                   python    
 cssselect2                 0.7.0                    python    
 cups-libs                  2.4.9-r0                 apk       
-curl                       8.7.1-r0                 apk       
+curl                       8.8.0-r0                 apk       
 dbus                       1.14.10-r1               apk       
 dbus-daemon-launch-helper  1.14.10-r1               apk       
 dbus-libs                  1.14.10-r1               apk       
@@ -96,7 +96,7 @@ libbsd                     0.12.2-r0                apk
 libbz2                     1.0.8-r6                 apk       
 libcap2                    2.70-r0                  apk       
 libcrypto3                 3.3.1-r0                 apk       
-libcurl                    8.7.1-r0                 apk       
+libcurl                    8.8.0-r0                 apk       
 libdav1d                   1.4.2-r0                 apk       
 libdc1394                  2.2.7-r0                 apk       
 libde265                   1.0.15-r0                apk       
@@ -218,7 +218,7 @@ neon                       0.33.0-r0                apk
 netcat-openbsd             1.226-r0                 apk       
 netcdf                     4.9.2-r3                 apk       
 nettle                     3.9.1-r0                 apk       
-nghttp2-libs               1.62.0-r0                apk       
+nghttp2-libs               1.62.1-r0                apk       
 numpy                      1.25.2                   python    
 openal-soft-libs           1.23.1-r0                apk       
 openblas                   0.3.27-r0                apk       
