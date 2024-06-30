@@ -186,7 +186,7 @@ create-hash                                1.2.0                           npm
 create-hmac                                1.1.7                           npm                      
 crypt                                      0.0.2                           npm                      
 crypto-js                                  3.3.0                           npm                      
-curl                                       7.88.1-10+deb12u5               deb                      
+curl                                       7.88.1-10+deb12u6               deb                      
 dash                                       0.5.12-2                        deb                      
 dashdash                                   1.14.1                          npm                      
 dbus-bin                                   1.14.10-1~deb12u1               deb                      
@@ -423,8 +423,8 @@ libcom-err2                                1.47.0-2                        deb
 libcrypt-dev                               1:4.4.33-2                      deb                      
 libcrypt1                                  1:4.4.33-2                      deb                      
 libcups2                                   2.4.2-3+deb12u5                 deb                      
-libcurl3-gnutls                            7.88.1-10+deb12u5               deb                      
-libcurl4                                   7.88.1-10+deb12u5               deb                      
+libcurl3-gnutls                            7.88.1-10+deb12u6               deb                      
+libcurl4                                   7.88.1-10+deb12u6               deb                      
 libdatrie1                                 0.2.13-2+b1                     deb                      
 libdav1d6                                  1.0.0-2+deb12u1                 deb                      
 libdb5.3                                   5.3.28+dfsg2-1                  deb                      
@@ -467,11 +467,11 @@ libgirepository-1.0-1                      1.74.0-3                        deb
 libgl1                                     1.6.0-1                         deb                      
 libgl1-mesa-dri                            22.3.6-1+deb12u1                deb                      
 libglapi-mesa                              22.3.6-1+deb12u1                deb                      
-libglib2.0-0                               2.74.6-2+deb12u2                deb                      
-libglib2.0-bin                             2.74.6-2+deb12u2                deb                      
-libglib2.0-data                            2.74.6-2+deb12u2                deb                      
-libglib2.0-dev                             2.74.6-2+deb12u2                deb                      
-libglib2.0-dev-bin                         2.74.6-2+deb12u2                deb                      
+libglib2.0-0                               2.74.6-2+deb12u3                deb                      
+libglib2.0-bin                             2.74.6-2+deb12u3                deb                      
+libglib2.0-data                            2.74.6-2+deb12u3                deb                      
+libglib2.0-dev                             2.74.6-2+deb12u3                deb                      
+libglib2.0-dev-bin                         2.74.6-2+deb12u3                deb                      
 libglvnd0                                  1.6.0-1                         deb                      
 libglx-mesa0                               22.3.6-1+deb12u1                deb                      
 libglx0                                    1.6.0-1                         deb                      
@@ -673,7 +673,7 @@ libzvbi-common                             0.2.41-1                        deb
 libzvbi0                                   0.2.41-1                        deb                      
 lie                                        3.1.1                           npm                      
 lie                                        3.3.0                           npm                      
-linux-libc-dev                             6.1.90-1                        deb                      
+linux-libc-dev                             6.1.94-1                        deb                      
 liquid-json                                0.3.1                           npm                      
 ljharb-monorepo-symlink-test               0.0.0                           npm                      
 localforage                                1.10.0                          npm                      

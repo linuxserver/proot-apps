@@ -45,9 +45,9 @@ libacl1                         2.3.2-2                         deb
 libaom3                         3.8.2-3                         deb     
 libapparmor1                    3.1.7-1                         deb     
 libapt-pkg6.0t64                2.9.4                           deb     
-libasound2-data                 1.2.11-1                        deb     
+libasound2-data                 1.2.12-1                        deb     
 libasound2-plugins              1.2.7.1-1+b2                    deb     
-libasound2t64                   1.2.11-1+b2                     deb     
+libasound2t64                   1.2.12-1                        deb     
 libasyncns0                     0.8-6+b4                        deb     
 libatk-bridge2.0-0              2.50.0-1+b1                     deb     
 libatk1.0-0                     2.50.0-1+b1                     deb     
@@ -148,7 +148,7 @@ libkrb5support0                 1.21.2-1                        deb
 liblcms2-2                      2.14-2+b1                       deb     
 libldap-2.5-0                   2.5.18+dfsg-1                   deb     
 liblerc4                        4.0.0+ds-4+b1                   deb     
-libllvm17t64                    1:17.0.6-12                     deb     
+libllvm17t64                    1:17.0.6-12+b1                  deb     
 liblocale-gettext-perl          1.07-7                          deb     
 libltdl7                        2.4.7-7+b1                      deb     
 liblz4-1                        1.9.4-2                         deb     
