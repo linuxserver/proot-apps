@@ -106,7 +106,7 @@ juh                                                      java-archive
 jurt                                                     java-archive                  
 keyutils-libs                   1.6.3-r3                 apk                           
 krb5-conf                       1.0-r2                   apk                           
-krb5-libs                       1.21.2-r0                apk                           
+krb5-libs                       1.21.3-r0                apk                           
 lcms2                           2.16-r0                  apk                           
 libabw                          0.1.3-r3                 apk                           
 libass                          0.17.2-r0                apk                           

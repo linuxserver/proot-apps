@@ -76,7 +76,7 @@ libcap2                             1:2.44-1ubuntu0.22.04.1                  deb
 libcap2-bin                         1:2.44-1ubuntu0.22.04.1                  deb     
 libcdio-cdda2                       10.2+2.0.0-1build3                       deb     
 libcdio-paranoia2                   10.2+2.0.0-1build3                       deb     
-libcdio19                           2.1.0-3build1                            deb     
+libcdio19                           2.1.0-3ubuntu0.2                         deb     
 libchromaprint1                     1.5.1-2                                  deb     
 libcodec2-1.0                       1.0.1-3                                  deb     
 libcom-err2                         1.46.5-2ubuntu1.1                        deb     
