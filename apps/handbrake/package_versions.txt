@@ -58,7 +58,7 @@ libaom3                         3.8.2-3                         deb
 libapparmor1                    3.1.7-1                         deb     
 libapt-pkg6.0t64                2.9.4                           deb     
 libasound2-data                 1.2.12-1                        deb     
-libasound2-plugins              1.2.7.1-1+b2                    deb     
+libasound2-plugins              1.2.12-2                        deb     
 libasound2t64                   1.2.12-1                        deb     
 libass9                         1:0.17.2-2                      deb     
 libasyncns0                     0.8-6+b4                        deb     
@@ -169,7 +169,7 @@ libharfbuzz0b                   8.3.0-2+b1                      deb
 libhogweed6t64                  3.9.1-2.2                       deb     
 libhwy1t64                      1.2.0-2                         deb     
 libice6                         2:1.0.10-1+b1                   deb     
-libicu72                        72.1-4+b1                       deb     
+libicu72                        72.1-5                          deb     
 libidn2-0                       2.3.7-2                         deb     
 libiec61883-0                   1.2.0-6+b1                      deb     
 libimath-3-1-29t64              3.1.11-2+b1                     deb     
