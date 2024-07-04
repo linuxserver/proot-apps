@@ -4,9 +4,9 @@ adduser                              3.134                           deb
 adwaita-icon-theme                   43-1                            deb                   
 apt                                  2.6.1                           deb                   
 at-spi2-common                       2.46.0-5                        deb                   
-base-files                           12.4+deb12u5                    deb                   
+base-files                           12.4+deb12u6                    deb                   
 base-passwd                          3.6.1                           deb                   
-bash                                 5.2.15-2+b2                     deb                   
+bash                                 5.2.15-2+b7                     deb                   
 bsdutils                             1:2.38.1-5+deb12u1              deb                   
 ca-certificates                      20230311                        deb                   
 coreutils                            9.1-1                           deb                   
@@ -119,7 +119,7 @@ libglvnd0                            1.6.0-1                         deb
 libglx-mesa0                         22.3.6-1+deb12u1                deb                   
 libglx0                              1.6.0-1                         deb                   
 libgmp10                             2:6.2.1+dfsg1-1.1               deb                   
-libgnutls30                          3.7.9-2+deb12u2                 deb                   
+libgnutls30                          3.7.9-2+deb12u3                 deb                   
 libgomp1                             12.2.0-14                       deb                   
 libgpg-error0                        1.46-1                          deb                   
 libgraphite2-3                       1.3.14-1                        deb                   
@@ -201,7 +201,7 @@ librtmp1                             2.4+20151223.gitfa8646d.1-2+b2  deb
 libsamplerate0                       0.2.2-3                         deb                   
 libsasl2-2                           2.1.28+dfsg-10                  deb                   
 libsasl2-modules-db                  2.1.28+dfsg-10                  deb                   
-libseccomp2                          2.5.4-1+b3                      deb                   
+libseccomp2                          2.5.4-1+deb12u1                 deb                   
 libsecret-1-0                        0.20.5-3                        deb                   
 libsecret-common                     0.20.5-3                        deb                   
 libselinux1                          3.4-1+b6                        deb                   
