@@ -60,7 +60,7 @@ libapt-pkg6.0t64                2.9.5                           deb
 libasound2-data                 1.2.12-1                        deb     
 libasound2-plugins              1.2.12-2                        deb     
 libasound2t64                   1.2.12-1                        deb     
-libass9                         1:0.17.2-2                      deb     
+libass9                         1:0.17.3-1                      deb     
 libasyncns0                     0.8-6+b4                        deb     
 libatk-bridge2.0-0t64           2.52.0-1                        deb     
 libatk1.0-0t64                  2.52.0-1                        deb     
@@ -102,7 +102,6 @@ libcom-err2                     1.47.1-1                        deb
 libcrypt1                       1:4.4.36-4                      deb     
 libcups2t64                     2.4.10-1                        deb     
 libcurl3t64-gnutls              8.8.0-2                         deb     
-libcurl4t64                     8.8.0-2                         deb     
 libdatrie1                      0.2.13-3                        deb     
 libdav1d7                       1.4.3-1                         deb     
 libdb5.3t64                     5.3.28+dfsg2-7                  deb     
