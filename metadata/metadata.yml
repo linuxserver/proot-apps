@@ -16,7 +16,7 @@ include:
     description: "Audacity is an easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source."
   - name: beekeeperstudio
     full_name: Beekeeper Studio
-    arch: linux/amd64,linux/arm64
+    arch: linux/amd64
     icon: beekeeperstudio.svg
     description: "Use Beekeeper Studio to query and manage your relational databases, like MySQL, Postgres, SQLite, and SQL Server."
   - name: bitwarden

@@ -1,5 +1,5 @@
 ARG REPO
-FROM ghcr.io/${REPO}:debian-bookworm as rootfs
+FROM ghcr.io/${REPO}:debian-bookworm AS rootfs
 ARG REPO
 
 # Install packages
@@ -10,7 +10,7 @@ RUN \
     | awk -F'(Version |</span><strong>)' '/page-downloads__hero__meta-text__version/ {print $2}') && \
   curl -o \
     /tmp/slack.deb -L \
-    "https://downloads.slack-edge.com/releases/linux/${SLACK_VERSION}/prod/x64/slack-desktop-${SLACK_VERSION}-amd64.deb" && \
+    "https://downloads.slack-edge.com/desktop-releases/linux/x64/${SLACK_VERSION}/slack-desktop-${SLACK_VERSION}-amd64.deb" && \
   apt install -y --no-install-recommends \
     /tmp/slack.deb && \
   echo "**** customize desktop file ****" && \

@@ -1,5 +1,5 @@
 ARG REPO
-FROM ghcr.io/${REPO}:debian-sid as rootfs
+FROM ghcr.io/${REPO}:debian-sid AS rootfs
 ARG REPO
 
 # Install packages

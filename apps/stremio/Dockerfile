@@ -1,5 +1,5 @@
 ARG REPO
-FROM ghcr.io/${REPO}:ubuntu-jammy as rootfs
+FROM ghcr.io/${REPO}:ubuntu-jammy AS rootfs
 ARG REPO
 
 # Install packages
