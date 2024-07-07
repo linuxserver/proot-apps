@@ -165,7 +165,7 @@ libgomp1                        12.2.0-14                       deb
 libgpg-error0                   1.46-1                          deb       
 libgraphite2-3                  1.3.14-1                        deb       
 libgsm1                         1.0.22-1                        deb       
-libgssapi-krb5-2                1.20.1-2+deb12u1                deb       
+libgssapi-krb5-2                1.20.1-2+deb12u2                deb       
 libgstreamer-plugins-base1.0-0  1.22.0-3+deb12u2                deb       
 libgstreamer1.0-0               1.22.0-2                        deb       
 libharfbuzz0b                   6.0.0+dfsg-3                    deb       
@@ -180,11 +180,11 @@ libjack-jackd2-0                1.9.21~dfsg-3                   deb
 libjbig0                        2.1-6.1                         deb       
 libjpeg62-turbo                 1:2.1.5-2                       deb       
 libjxl0.7                       0.7.0-10                        deb       
-libk5crypto3                    1.20.1-2+deb12u1                deb       
+libk5crypto3                    1.20.1-2+deb12u2                deb       
 libkeyutils1                    1.6.3-2                         deb       
 libkmod2                        30+20221128-1                   deb       
-libkrb5-3                       1.20.1-2+deb12u1                deb       
-libkrb5support0                 1.20.1-2+deb12u1                deb       
+libkrb5-3                       1.20.1-2+deb12u2                deb       
+libkrb5support0                 1.20.1-2+deb12u2                deb       
 liblapack3                      3.11.0-2                        deb       
 liblcms2-2                      2.14-2                          deb       
 libldap-2.5-0                   2.5.13+dfsg-5                   deb       

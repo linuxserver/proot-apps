@@ -154,7 +154,7 @@ libgpgme11                      1.18.0-3+b1                     deb
 libgpgmepp6                     1.18.0-3+b1                     deb     
 libgraphite2-3                  1.3.14-1                        deb     
 libgsm1                         1.0.22-1                        deb     
-libgssapi-krb5-2                1.20.1-2+deb12u1                deb     
+libgssapi-krb5-2                1.20.1-2+deb12u2                deb     
 libgstreamer-plugins-base1.0-0  1.22.0-3+deb12u2                deb     
 libgstreamer1.0-0               1.22.0-2                        deb     
 libgtk-3-0                      3.24.38-2~deb12u1               deb     
@@ -175,7 +175,7 @@ libjbig0                        2.1-6.1                         deb
 libjpeg62-turbo                 1:2.1.5-2                       deb     
 libjson-c5                      0.16-2                          deb     
 libjxl0.7                       0.7.0-10                        deb     
-libk5crypto3                    1.20.1-2+deb12u1                deb     
+libk5crypto3                    1.20.1-2+deb12u2                deb     
 libkeyutils1                    1.6.3-2                         deb     
 libkf5activities5               5.103.0-1                       deb     
 libkf5archive-data              5.103.0-1                       deb     
@@ -253,8 +253,8 @@ libkf5windowsystem5             5.103.0-1                       deb
 libkf5xmlgui-data               5.103.0-1                       deb     
 libkf5xmlgui5                   5.103.0-1                       deb     
 libkmod2                        30+20221128-1                   deb     
-libkrb5-3                       1.20.1-2+deb12u1                deb     
-libkrb5support0                 1.20.1-2+deb12u1                deb     
+libkrb5-3                       1.20.1-2+deb12u2                deb     
+libkrb5support0                 1.20.1-2+deb12u2                deb     
 libksba8                        1.6.3-2                         deb     
 libkwalletbackend5-5            5.103.0-1                       deb     
 libkworkspace5-5                4:5.27.5-2+deb12u2              deb     
