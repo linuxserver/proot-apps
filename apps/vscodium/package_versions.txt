@@ -1,5 +1,5 @@
 NAME                            VERSION                         TYPE   
-VSCodium                        1.90.2                          npm     
+VSCodium                        1.91.0                          npm     
 adduser                         3.134                           deb     
 adwaita-icon-theme              43-1                            deb     
 apt                             2.6.1                           deb     
@@ -12,7 +12,7 @@ bsdutils                        1:2.38.1-5+deb12u1              deb
 builtin-notebook-renderers      1.0.0                           npm     
 ca-certificates                 20230311                        deb     
 clojure                         1.0.0                           npm     
-codium                          1.90.2.24171                    deb     
+codium                          1.91.0.24190                    deb     
 coffeescript                    1.0.0                           npm     
 configuration-editing           1.0.0                           npm     
 coreutils                       9.1-1                           deb     
@@ -77,7 +77,7 @@ iso-codes                       4.15.0-1                        deb
 jake                            1.0.0                           npm     
 java                            1.0.0                           npm     
 javascript                      1.0.0                           npm     
-js-debug                        1.90.0                          npm     
+js-debug                        1.91.0                          npm     
 js-debug-companion              1.1.2                           npm     
 json                            1.0.0                           npm     
 json-language-features          1.0.0                           npm     
@@ -412,7 +412,7 @@ theme-solarized-light           1.0.0                           npm
 theme-tomorrow-night-blue       1.0.0                           npm     
 tunnel-forwarding               1.0.0                           npm     
 typescript                      1.0.0                           npm     
-typescript                      5.4.5                           npm     
+typescript                      5.5.2                           npm     
 typescript-language-features    1.0.0                           npm     
 tzdata                          2024a-0+deb12u1                 deb     
 udev                            252.26-1~deb12u2                deb     
