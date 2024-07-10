@@ -22,7 +22,7 @@ bitstream-io               2.2.0                    rust-crate
 brotli-libs                1.1.0-r2                 apk           
 busybox                    1.36.1-r29               apk           
 busybox-binsh              1.36.1-r29               apk           
-c-ares                     1.32.0-r0                apk           
+c-ares                     1.32.1-r0                apk           
 ca-certificates            20240705-r0              apk           
 ca-certificates-bundle     20240226-r0              apk           
 cairo                      1.18.0-r0                apk           
@@ -57,7 +57,7 @@ ffmpeg-libavutil           6.1.1-r9                 apk
 ffmpeg-libswresample       6.1.1-r9                 apk           
 fftw-single-libs           3.3.10-r5                apk           
 file                       5.45-r1                  apk           
-firefox-developer-edition  128.0_beta9-r0           apk           
+firefox-developer-edition  129.0_beta1-r0           apk           
 font-noto                  24.7.1-r0                apk           
 font-noto-common           24.7.1-r0                apk           
 font-noto-math             24.7.1-r0                apk           

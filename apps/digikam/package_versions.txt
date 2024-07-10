@@ -30,7 +30,7 @@ docbook-xml                4.5-r9                   apk
 docbook-xsl                1.79.2-r9                apk     
 eudev-libs                 3.2.14-r2                apk     
 exiftool                   12.80-r0                 apk     
-exiv2                      0.28.2-r0                apk     
+exiv2                      0.28.3-r0                apk     
 ffmpeg-libavcodec          6.1.1-r8                 apk     
 ffmpeg-libavdevice         6.1.1-r8                 apk     
 ffmpeg-libavfilter         6.1.1-r8                 apk     

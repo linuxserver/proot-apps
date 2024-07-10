@@ -25,7 +25,7 @@ dbus-daemon-launch-helper  1.14.10-r1               apk
 dbus-libs                  1.14.10-r1               apk     
 dbus-x11                   1.14.10-r1               apk     
 eudev-libs                 3.2.14-r2                apk     
-exiv2                      0.28.2-r0                apk     
+exiv2                      0.28.3-r0                apk     
 fftw-double-libs           3.3.10-r5                apk     
 fftw-single-libs           3.3.10-r5                apk     
 file                       5.45-r1                  apk     

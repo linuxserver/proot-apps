@@ -25,7 +25,7 @@ dbus-daemon-launch-helper  1.14.10-r1               apk
 dbus-libs                  1.14.10-r1               apk     
 dbus-x11                   1.14.10-r1               apk     
 eudev-libs                 3.2.14-r2                apk     
-exiv2                      0.28.2-r0                apk     
+exiv2                      0.28.3-r0                apk     
 ffmpeg-libavcodec          6.1.1-r8                 apk     
 ffmpeg-libavformat         6.1.1-r8                 apk     
 ffmpeg-libavutil           6.1.1-r8                 apk     
@@ -43,7 +43,7 @@ fribidi                    1.0.15-r0                apk
 gdbm                       1.23-r1                  apk     
 gdk-pixbuf                 2.42.11-r1               apk     
 gegl                       0.4.48-r0                apk     
-gexiv2                     0.14.2-r4                apk     
+gexiv2                     0.14.3-r0                apk     
 giflib                     5.2.2-r0                 apk     
 gimp                       2.10.38-r1               apk     
 glib                       2.80.2-r0                apk     
