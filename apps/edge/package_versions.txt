@@ -34,7 +34,7 @@ fonts-noto-mono                 20201225-2                      deb
 gcc-14-base                     14.1.0-3                        deb     
 gpgv                            2.2.43-7                        deb     
 grep                            3.11-4                          deb     
-gtk-update-icon-cache           3.24.42-1                       deb     
+gtk-update-icon-cache           3.24.43-1                       deb     
 gzip                            1.12-1.1                        deb     
 hicolor-icon-theme              0.18-1                          deb     
 hostname                        3.23+nmu2                       deb     
@@ -42,7 +42,7 @@ init-system-helpers             1.66                            deb
 iso-codes                       4.16.0-1                        deb     
 keyboard-configuration          1.229                           deb     
 libacl1                         2.3.2-2                         deb     
-libaom3                         3.8.2-3                         deb     
+libaom3                         3.9.1-1                         deb     
 libapparmor1                    3.1.7-1                         deb     
 libapt-pkg6.0t64                2.9.5                           deb     
 libasound2-data                 1.2.12-1                        deb     
@@ -58,8 +58,8 @@ libaudit1                       1:3.1.2-4                       deb
 libavahi-client3                0.8-13+b2                       deb     
 libavahi-common-data            0.8-13+b2                       deb     
 libavahi-common3                0.8-13+b2                       deb     
-libavcodec60                    7:6.1.1-4+b4                    deb     
-libavutil58                     7:6.1.1-4+b4                    deb     
+libavcodec60                    7:6.1.1-5                       deb     
+libavutil58                     7:6.1.1-5                       deb     
 libblkid1                       2.40.1-9                        deb     
 libbrotli1                      1.1.0-2+b3                      deb     
 libbsd0                         0.12.2-1                        deb     
@@ -128,7 +128,7 @@ libgssapi-krb5-2                1.21.3-3                        deb
 libgstreamer-plugins-base1.0-0  1.24.5-1                        deb     
 libgstreamer1.0-0               1.24.5-1                        deb     
 libgtk-3-0                      3.24.41-1                       deb     
-libgtk-3-common                 3.24.42-1                       deb     
+libgtk-3-common                 3.24.43-1                       deb     
 libharfbuzz0b                   8.3.0-2+b1                      deb     
 libhogweed6t64                  3.10-1                          deb     
 libhwy1t64                      1.2.0-2                         deb     
@@ -136,7 +136,7 @@ libice6                         2:1.0.10-1+b1                   deb
 libicu72                        72.1-5                          deb     
 libidn2-0                       2.3.7-2                         deb     
 libimath-3-1-29t64              3.1.11-2+b1                     deb     
-libjack-jackd2-0                1.9.22~dfsg-1                   deb     
+libjack-jackd2-0                1.9.22~dfsg-2                   deb     
 libjbig0                        2.1-6.1+b1                      deb     
 libjpeg62-turbo                 1:2.1.5-3                       deb     
 libjxl0.9                       0.9.2-10                        deb     
@@ -164,7 +164,7 @@ libnghttp3-9                    1.3.0-2                         deb
 libngtcp2-16                    1.5.0-2                         deb     
 libngtcp2-crypto-gnutls8        1.5.0-2                         deb     
 libnspr4                        2:4.35-1.1+b1                   deb     
-libnss3                         2:3.101-1                       deb     
+libnss3                         2:3.102-1                       deb     
 libnuma1                        2.0.18-1                        deb     
 libogg0                         1.3.5-3+b1                      deb     
 libopenexr-3-1-30               3.1.5-5.1+b2                    deb     
@@ -187,7 +187,7 @@ libproc2-0                      2:4.0.4-4                       deb
 libpsl5t64                      0.21.2-1.1                      deb     
 libpulse0                       16.1+dfsg1-5.1                  deb     
 libpulsedsp                     16.1+dfsg1-5.1                  deb     
-libpython3-stdlib               3.12.2-1                        deb     
+libpython3-stdlib               3.12.3-1                        deb     
 libpython3.12-minimal           3.12.4-1                        deb     
 libpython3.12-stdlib            3.12.4-1                        deb     
 librav1e0                       0.7.1-2                         deb     
@@ -218,8 +218,8 @@ libss2                          1.47.1-1                        deb
 libssh2-1t64                    1.11.0-5                        deb     
 libssl3t64                      3.2.2-1                         deb     
 libstdc++6                      14.1.0-3                        deb     
-libsvtav1enc1d1                 1.7.0+dfsg-2+b1                 deb     
-libswresample4                  7:6.1.1-4+b4                    deb     
+libsvtav1enc2                   2.1.0+dfsg-2                    deb     
+libswresample4                  7:6.1.1-5                       deb     
 libsystemd-shared               256.2-1                         deb     
 libsystemd0                     256.2-1                         deb     
 libtasn1-6                      4.19.0-3+b2                     deb     
@@ -315,8 +315,8 @@ perl-base                       5.38.2-5                        deb
 procps                          2:4.0.4-4                       deb     
 pulseaudio                      16.1+dfsg1-5.1                  deb     
 pulseaudio-utils                16.1+dfsg1-5.1                  deb     
-python3                         3.12.2-1                        deb     
-python3-minimal                 3.12.2-1                        deb     
+python3                         3.12.3-1                        deb     
+python3-minimal                 3.12.3-1                        deb     
 python3.12                      3.12.4-1                        deb     
 python3.12-minimal              3.12.4-1                        deb     
 readline-common                 8.2-4                           deb     

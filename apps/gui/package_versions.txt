@@ -15,7 +15,7 @@ brotli-libs                 1.1.0-r2                 apk
 busybox                     1.36.1-r29               apk       
 busybox-binsh               1.36.1-r29               apk       
 c-ares                      1.28.1-r0                apk       
-ca-certificates             20240226-r0              apk       
+ca-certificates             20240705-r0              apk       
 ca-certificates-bundle      20240226-r0              apk       
 cairo                       1.18.0-r0                apk       
 cairo-gobject               1.18.0-r0                apk       
@@ -66,7 +66,7 @@ idna                        3.7                      python
 imath                       3.1.11-r2                apk       
 iso-codes                   4.16.0-r0                apk       
 lcms2                       2.16-r0                  apk       
-libadwaita                  1.5.0-r0                 apk       
+libadwaita                  1.5.2-r0                 apk       
 libass                      0.17.2-r0                apk       
 libasyncns                  0.8-r3                   apk       
 libatk-1.0                  2.52.0-r0                apk       
