@@ -79,7 +79,7 @@ gtk+3.0                    3.24.42-r1               apk
 gtk-update-icon-cache      3.24.42-r1               apk           
 harfbuzz                   9.0.0-r0                 apk           
 heck                       0.4.1                    rust-crate    
-hicolor-icon-theme         0.17-r2                  apk           
+hicolor-icon-theme         0.18-r0                  apk           
 hwdata-pci                 0.382-r0                 apk           
 icu-data-en                74.2-r0                  apk           
 icu-libs                   74.2-r0                  apk           

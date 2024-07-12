@@ -117,7 +117,7 @@ gtk-update-icon-cache      3.24.42-r1               apk
 harfbuzz                   9.0.0-r0                 apk                         
 harfbuzz-subset            9.0.0-r0                 apk                         
 heck                       0.4.1                    rust-crate                  
-hicolor-icon-theme         0.17-r2                  apk                         
+hicolor-icon-theme         0.18-r0                  apk                         
 html2text                  2024.2.26                python                      
 html5-parser               0.4.12                   python                      
 html5lib                   1.1                      python                      
