@@ -9,7 +9,7 @@ bash                            5.2.21-2.1                      deb
 bsdutils                        1:2.40.1-9                      deb     
 ca-certificates                 20240203                        deb     
 coreutils                       9.4-3.1                         deb     
-curl                            8.8.0-3                         deb     
+curl                            8.8.0-4                         deb     
 dash                            0.5.12-9                        deb     
 dbus-bin                        1.14.10-4+b1                    deb     
 dbus-daemon                     1.14.10-4+b1                    deb     
@@ -31,7 +31,7 @@ fonts-liberation                1:2.1.5-3                       deb
 fonts-noto                      20201225-2                      deb     
 fonts-noto-core                 20201225-2                      deb     
 fonts-noto-mono                 20201225-2                      deb     
-gcc-14-base                     14.1.0-3                        deb     
+gcc-14-base                     14.1.0-4                        deb     
 gpgv                            2.2.43-7                        deb     
 grep                            3.11-4                          deb     
 gtk-update-icon-cache           3.24.43-1                       deb     
@@ -40,7 +40,7 @@ hicolor-icon-theme              0.18-1                          deb
 hostname                        3.23+nmu2                       deb     
 init-system-helpers             1.66                            deb     
 iso-codes                       4.16.0-1                        deb     
-keyboard-configuration          1.229                           deb     
+keyboard-configuration          1.230                           deb     
 libacl1                         2.3.2-2                         deb     
 libaom3                         3.9.1-1                         deb     
 libapparmor1                    3.1.7-1                         deb     
@@ -77,7 +77,7 @@ libcolord2                      1.4.7-1+b1                      deb
 libcom-err2                     1.47.1-1                        deb     
 libcrypt1                       1:4.4.36-4                      deb     
 libcups2                        2.4.7-1+b1                      deb     
-libcurl3t64-gnutls              8.8.0-3                         deb     
+libcurl3t64-gnutls              8.8.0-4                         deb     
 libdatrie1                      0.2.13-3                        deb     
 libdav1d7                       1.4.3-1                         deb     
 libdb5.3t64                     5.3.28+dfsg2-7                  deb     
@@ -106,7 +106,7 @@ libfontenc1                     1:1.1.8-1                       deb
 libfreetype6                    2.13.2+dfsg-1+b4                deb     
 libfribidi0                     1.0.13-3+b1                     deb     
 libgbm1                         24.1.3-2                        deb     
-libgcc-s1                       14.1.0-3                        deb     
+libgcc-s1                       14.1.0-4                        deb     
 libgcrypt20                     1.10.3-3                        deb     
 libgdk-pixbuf-2.0-0             2.42.12+dfsg-1                  deb     
 libgdk-pixbuf2.0-common         2.42.12+dfsg-1                  deb     
@@ -119,8 +119,8 @@ libglvnd0                       1.7.0-1+b1                      deb
 libglx-mesa0                    24.1.3-2                        deb     
 libglx0                         1.7.0-1+b1                      deb     
 libgmp10                        2:6.3.0+dfsg-2+b1               deb     
-libgnutls30t64                  3.8.5-4                         deb     
-libgomp1                        14.1.0-3                        deb     
+libgnutls30t64                  3.8.6-2                         deb     
+libgomp1                        14.1.0-4                        deb     
 libgpg-error0                   1.49-2                          deb     
 libgraphite2-3                  1.3.14-2                        deb     
 libgsm1                         1.0.22-1+b1                     deb     
@@ -159,7 +159,7 @@ libmp3lame0                     3.100-6+b2                      deb
 libmpg123-0t64                  1.32.6-3                        deb     
 libncursesw6                    6.5-2                           deb     
 libnettle8t64                   3.10-1                          deb     
-libnghttp2-14                   1.62.1-1                        deb     
+libnghttp2-14                   1.62.1-2                        deb     
 libnghttp3-9                    1.3.0-2                         deb     
 libngtcp2-16                    1.5.0-2                         deb     
 libngtcp2-crypto-gnutls8        1.5.0-2                         deb     
@@ -217,7 +217,7 @@ libsqlite3-0                    3.46.0-1                        deb
 libss2                          1.47.1-1                        deb     
 libssh2-1t64                    1.11.0-5                        deb     
 libssl3t64                      3.2.2-1                         deb     
-libstdc++6                      14.1.0-3                        deb     
+libstdc++6                      14.1.0-4                        deb     
 libsvtav1enc2                   2.1.0+dfsg-2                    deb     
 libswresample4                  7:6.1.1-5                       deb     
 libsystemd-shared               256.2-1                         deb     

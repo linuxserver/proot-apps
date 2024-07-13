@@ -96,7 +96,7 @@ libpulse                     17.0-r1                  apk
 libretro-2048                0_git20221110-r0         apk     
 libretro-3dengine            0_git20220405-r1         apk     
 libretro-81                  0_git20221106-r0         apk     
-libretro-atari800            0_git20220327-r0         apk     
+libretro-atari800            0_git20220327-r1         apk     
 libretro-beetle-bsnes        0_git20220406-r0         apk     
 libretro-beetle-lynx         0_git20220120-r0         apk     
 libretro-beetle-ngp          0_git20220719-r0         apk     
@@ -148,7 +148,7 @@ libretro-mgba                0_git20230126-r0         apk
 libretro-mrboom              0_git20220725-r0         apk     
 libretro-mu                  0_git20220317-r0         apk     
 libretro-mupen64plus         0_git20230124-r0         apk     
-libretro-neocd               0_git20220325-r0         apk     
+libretro-neocd               0_git20220325-r1         apk     
 libretro-nestopia            0_git20230102-r0         apk     
 libretro-nxengine            0_git20220301-r0         apk     
 libretro-o2em                0_git20220726-r0         apk     
