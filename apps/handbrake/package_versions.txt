@@ -55,7 +55,7 @@ libaa1                          1.4p5-51.1                      deb
 libaacs0                        0.11.1-4                        deb     
 libacl1                         2.3.2-2                         deb     
 libaom3                         3.9.1-1                         deb     
-libapparmor1                    3.1.7-1                         deb     
+libapparmor1                    3.1.7-1+b1                      deb     
 libapt-pkg6.0t64                2.9.5                           deb     
 libasound2-data                 1.2.12-1                        deb     
 libasound2-plugins              1.2.12-2                        deb     
@@ -80,7 +80,7 @@ libbdplus0                      0.2.0-4                         deb
 libblas3                        3.12.0-3                        deb     
 libblkid1                       2.40.1-9                        deb     
 libbluray2                      1:1.3.4-1+b1                    deb     
-libbrotli1                      1.1.0-2+b3                      deb     
+libbrotli1                      1.1.0-2+b4                      deb     
 libbs2b0                        3.1.0+dfsg-8                    deb     
 libbsd0                         0.12.2-1                        deb     
 libbz2-1.0                      1.0.8-5.1                       deb     
@@ -118,11 +118,11 @@ libduktape207                   2.7.0-2+b1                      deb
 libdv4t64                       1.0.0-17.1                      deb     
 libdvdnav4                      6.1.1-3                         deb     
 libdvdread8t64                  6.1.3-1.1                       deb     
-libdw1t64                       0.191-1+b1                      deb     
+libdw1t64                       0.191-2                         deb     
 libedit2                        3.1-20240517-1                  deb     
 libegl-mesa0                    24.1.3-2                        deb     
 libegl1                         1.7.0-1+b1                      deb     
-libelf1t64                      0.191-1+b1                      deb     
+libelf1t64                      0.191-2                         deb     
 libepoxy0                       1.5.10-1+b2                     deb     
 libexpat1                       2.6.2-1                         deb     
 libext2fs2t64                   1.47.1-1                        deb     
@@ -274,7 +274,7 @@ libsoup-3.0-common              3.4.4-5                         deb
 libsoxr0                        0.1.3-4+b1                      deb     
 libspeex1                       1.2.1-2+b1                      deb     
 libspeexdsp1                    1.2.1-1+b1                      deb     
-libsphinxbase3t64               0.8+5prealpha+1-17              deb     
+libsphinxbase3t64               0.8+5prealpha+1-17+b1           deb     
 libsqlite3-0                    3.46.0-1                        deb     
 libsratom-0-0                   0.6.16-1+b1                     deb     
 libsrt1.5-gnutls                1.5.3-1+b2                      deb     
@@ -357,7 +357,7 @@ libxi6                          2:1.8.1-1                       deb
 libxinerama1                    2:1.1.4-3+b1                    deb     
 libxkbcommon0                   1.6.0-1+b1                      deb     
 libxkbfile1                     1:1.1.0-1+b1                    deb     
-libxml2                         2.12.7+dfsg-3                   deb     
+libxml2                         2.12.7+dfsg-3+b1                deb     
 libxmu6                         2:1.1.3-3+b2                    deb     
 libxpm4                         1:3.5.17-1+b1                   deb     
 libxrandr2                      2:1.5.4-1                       deb     
