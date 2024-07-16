@@ -1,4 +1,10 @@
 include:
+  - name: anki
+    full_name: Anki
+    arch: linux/amd64
+    icon: anydesk.svg
+    description: "Anki is a free and open-source flashcard program."
+    disabled: True
   - name: anydesk
     full_name: AnyDesk 
     arch: linux/amd64

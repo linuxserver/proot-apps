@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Anki
+QTWEBENGINE_DISABLE_SANDBOX=1 anki "$@"
