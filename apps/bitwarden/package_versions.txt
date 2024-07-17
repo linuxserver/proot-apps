@@ -334,7 +334,7 @@ libz3-4                         4.8.12-3.1                      deb
 libzstd1                        1.5.4+dfsg2-5                   deb     
 libzvbi-common                  0.2.41-1                        deb     
 libzvbi0                        0.2.41-1                        deb     
-linux-libc-dev                  6.1.94-1                        deb     
+linux-libc-dev                  6.1.99-1                        deb     
 login                           1:4.13+dfsg1-1+b1               deb     
 logsave                         1.47.0-2                        deb     
 mawk                            1.3.4.20200120-3.1              deb     

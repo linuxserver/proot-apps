@@ -58,8 +58,8 @@ libaudit1                       1:3.1.2-4                       deb
 libavahi-client3                0.8-13+b2                       deb     
 libavahi-common-data            0.8-13+b2                       deb     
 libavahi-common3                0.8-13+b2                       deb     
-libavcodec60                    7:6.1.1-5                       deb     
-libavutil58                     7:6.1.1-5                       deb     
+libavcodec60                    7:6.1.1-5+b1                    deb     
+libavutil58                     7:6.1.1-5+b1                    deb     
 libblkid1                       2.40.1-9                        deb     
 libbrotli1                      1.1.0-2+b4                      deb     
 libbsd0                         0.12.2-1                        deb     
@@ -146,7 +146,7 @@ libkmod2                        32+20240611-1                   deb
 libkrb5-3                       1.21.3-3                        deb     
 libkrb5support0                 1.21.3-3                        deb     
 liblcms2-2                      2.14-2+b1                       deb     
-libldap-2.5-0                   2.5.18+dfsg-1                   deb     
+libldap-2.5-0                   2.5.18+dfsg-2                   deb     
 liblerc4                        4.0.0+ds-4+b1                   deb     
 libllvm17t64                    1:17.0.6-12+b1                  deb     
 liblocale-gettext-perl          1.07-7                          deb     
@@ -188,9 +188,9 @@ libpsl5t64                      0.21.2-1.1                      deb
 libpulse0                       16.1+dfsg1-5.1                  deb     
 libpulsedsp                     16.1+dfsg1-5.1                  deb     
 libpython3-stdlib               3.12.3-1                        deb     
-libpython3.12-minimal           3.12.4-1                        deb     
-libpython3.12-stdlib            3.12.4-1                        deb     
-librav1e0                       0.7.1-2                         deb     
+libpython3.12-minimal           3.12.4-3                        deb     
+libpython3.12-stdlib            3.12.4-3                        deb     
+librav1e0.7                     0.7.1-4                         deb     
 libreadline8t64                 8.2-4                           deb     
 librsvg2-2                      2.58.0+dfsg-1                   deb     
 librtmp1                        2.4+20151223.gitfa8646d.1-2+b4  deb     
@@ -219,7 +219,7 @@ libssh2-1t64                    1.11.0-5                        deb
 libssl3t64                      3.2.2-1                         deb     
 libstdc++6                      14.1.0-4                        deb     
 libsvtav1enc2                   2.1.0+dfsg-2                    deb     
-libswresample4                  7:6.1.1-5                       deb     
+libswresample4                  7:6.1.1-5+b1                    deb     
 libsystemd-shared               256.2-1                         deb     
 libsystemd0                     256.2-1                         deb     
 libtasn1-6                      4.19.0-3+b2                     deb     
@@ -317,8 +317,8 @@ pulseaudio                      16.1+dfsg1-5.1                  deb
 pulseaudio-utils                16.1+dfsg1-5.1                  deb     
 python3                         3.12.3-1                        deb     
 python3-minimal                 3.12.3-1                        deb     
-python3.12                      3.12.4-1                        deb     
-python3.12-minimal              3.12.4-1                        deb     
+python3.12                      3.12.4-3                        deb     
+python3.12-minimal              3.12.4-3                        deb     
 readline-common                 8.2-4                           deb     
 sed                             4.9-2                           deb     
 shared-mime-info                2.4-5                           deb     
