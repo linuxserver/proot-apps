@@ -1,4 +1,4 @@
-FROM alpine:edge as rootfs
+FROM alpine:edge AS rootfs
 
 ARG REPO
 

@@ -1,4 +1,4 @@
-FROM alpine:3.20 as rootfs
+FROM alpine:3.20 AS rootfs
 
 ARG REPO
 

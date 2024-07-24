@@ -1,4 +1,4 @@
-FROM ubuntu:jammy as rootfs
+FROM ubuntu:jammy AS rootfs
 
 ARG REPO
 

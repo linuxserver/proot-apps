@@ -1,4 +1,4 @@
-FROM debian:sid-slim AS rootfs
+FROM ubuntu:noble AS rootfs
 
 ARG REPO
 
