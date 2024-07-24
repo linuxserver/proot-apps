@@ -139,7 +139,6 @@ proot-apps update firefox
 | qbittorrent | ghcr.io/linuxserver/proot-apps:qbittorrent | linux/amd64,linux/arm64 | The Qbittorrent project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library.|
 | remmina | ghcr.io/linuxserver/proot-apps:remmina | linux/amd64,linux/arm64 | Remmina is a remote desktop client written in GTK, aiming to be useful for system administrators and travellers, who need to work with lots of remote computers in front of either large or tiny screens. Remmina supports multiple network protocols, in an integrated and consistent user interface.|
 | retroarch | ghcr.io/linuxserver/proot-apps:retroarch | linux/amd64,linux/arm64 | RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications.|
-| rustdesk | ghcr.io/linuxserver/proot-apps:rustdesk | linux/amd64,linux/arm64 | RustDesk is a remote access and remote control software, primarily written in Rust, that enables remote maintenance of computers and other devices.|
 | ryujinx | ghcr.io/linuxserver/proot-apps:ryujinx | linux/amd64,linux/arm64 | Ryujinx is an open-source Nintendo Switch emulator.|
 | shortwave | ghcr.io/linuxserver/proot-apps:shortwave | linux/amd64,linux/arm64 | Shortwave is an internet radio player that provides access to a station database with over 30,000 stations.|
 | shotcut | ghcr.io/linuxserver/proot-apps:shotcut | linux/amd64,linux/arm64 | Shotcut is a free, open source, cross-platform video editor.|
@@ -157,6 +156,7 @@ proot-apps update firefox
 | webcord | ghcr.io/linuxserver/proot-apps:webcord | linux/amd64,linux/arm64 | WebCord can be summarized as a pack of security and privacy hardenings, Discord features reimplementations, Electron / Chromium / Discord bugs workarounds, stylesheets, internal pages and wrapped https://discord.com page, designed to conform with ToS as much as it is possible.|
 | wpsoffice | ghcr.io/linuxserver/proot-apps:wpsoffice | linux/amd64 | WPS Office is a lightweight, feature-rich comprehensive office suite with high compatibility. As a handy and professional office software, WPS Office allows you to edit files in Writer, Presentation, Spreadsheet, and PDF to improve your work efficiency.|
 | yandex | ghcr.io/linuxserver/proot-apps:yandex | linux/amd64 | Yandex Browser is a freeware web browser developed by the Russian technology corporation Yandex that uses the Blink web browser.|
+| zim | ghcr.io/linuxserver/proot-apps:zim | linux/amd64,linux/arm64 | Zim is a graphical text editor used to maintain a collection of wiki pages.|
 | zoom | ghcr.io/linuxserver/proot-apps:zoom | linux/amd64 | Zoom is a proprietary videotelephony software program developed by Zoom Video Communications.|
 | zotero | ghcr.io/linuxserver/proot-apps:zotero | linux/amd64 | Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share research.|
 
