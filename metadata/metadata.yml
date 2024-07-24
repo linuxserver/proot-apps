@@ -317,6 +317,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: retroarch.svg
     description: "RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications."
+  - name: rustdesk
+    full_name: RustDesk
+    arch: linux/amd64,linux/arm64
+    icon: rustdesk.svg
+    description: "RustDesk is a remote access and remote control software, primarily written in Rust, that enables remote maintenance of computers and other devices."
   - name: ryujinx
     full_name: Ryujinx
     arch: linux/amd64,linux/arm64
