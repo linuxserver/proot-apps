@@ -139,6 +139,7 @@ proot-apps update firefox
 | qbittorrent | ghcr.io/linuxserver/proot-apps:qbittorrent | linux/amd64,linux/arm64 | The Qbittorrent project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library.|
 | remmina | ghcr.io/linuxserver/proot-apps:remmina | linux/amd64,linux/arm64 | Remmina is a remote desktop client written in GTK, aiming to be useful for system administrators and travellers, who need to work with lots of remote computers in front of either large or tiny screens. Remmina supports multiple network protocols, in an integrated and consistent user interface.|
 | retroarch | ghcr.io/linuxserver/proot-apps:retroarch | linux/amd64,linux/arm64 | RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications.|
+| rustdesk | ghcr.io/linuxserver/proot-apps:rustdesk | linux/amd64,linux/arm64 | RustDesk is a remote access and remote control software, primarily written in Rust, that enables remote maintenance of computers and other devices.|
 | ryujinx | ghcr.io/linuxserver/proot-apps:ryujinx | linux/amd64,linux/arm64 | Ryujinx is an open-source Nintendo Switch emulator.|
 | shortwave | ghcr.io/linuxserver/proot-apps:shortwave | linux/amd64,linux/arm64 | Shortwave is an internet radio player that provides access to a station database with over 30,000 stations.|
 | shotcut | ghcr.io/linuxserver/proot-apps:shotcut | linux/amd64,linux/arm64 | Shotcut is a free, open source, cross-platform video editor.|
