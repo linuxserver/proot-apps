@@ -4,7 +4,7 @@
 echo "Adding icon"
 mkdir -p $HOME/.local/share/icons/hicolor/scalable/apps/
 cp \
-  /opt/audacity/usr/share/icons/hicolor/scalable/apps/ungoogledchromium.svg \
+  /usr/share/icons/hicolor/scalable/apps/ungoogledchromium.svg \
   $HOME/.local/share/icons/hicolor/scalable/apps/
 echo "Adding start menu entry"
 mkdir -p $HOME/.local/share/applications/
