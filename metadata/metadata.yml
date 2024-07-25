@@ -385,6 +385,11 @@ include:
     arch: linux/amd64
     icon: torbrowser.svg
     description: "Tor is free and open-source software for enabling anonymous communication by directing Internet traffic through a free, worldwide, volunteer overlay network."
+  - name: ungoogledchromium
+    full_name: Ungoogled Chromium
+    arch: linux/amd64
+    icon: ungoogledchromium.svg
+    description: "Google Chromium, sans integration with Google."
   - name: vivaldi
     full_name: Vivaldi
     arch: linux/amd64,linux/arm64

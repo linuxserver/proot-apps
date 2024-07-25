@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Ungoogled Chromium
+/opt/ungoogledchromium/chrome --no-sandbox --test-type "$@"
