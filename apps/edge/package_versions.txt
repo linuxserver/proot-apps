@@ -160,7 +160,7 @@ libmpg123-0t64                  1.32.6-3                        deb
 libncursesw6                    6.5-2                           deb     
 libnettle8t64                   3.10-1                          deb     
 libnghttp2-14                   1.62.1-2                        deb     
-libnghttp3-9                    1.3.0-2                         deb     
+libnghttp3-9                    1.4.0-1                         deb     
 libngtcp2-16                    1.5.0-2                         deb     
 libngtcp2-crypto-gnutls8        1.5.0-2                         deb     
 libnspr4                        2:4.35-1.1+b1                   deb     
@@ -220,8 +220,8 @@ libssl3t64                      3.2.2-1                         deb
 libstdc++6                      14.1.0-5                        deb     
 libsvtav1enc2                   2.1.0+dfsg-2                    deb     
 libswresample4                  7:6.1.1-5+b1                    deb     
-libsystemd-shared               256.2-1                         deb     
-libsystemd0                     256.2-1                         deb     
+libsystemd-shared               256.4-1                         deb     
+libsystemd0                     256.4-1                         deb     
 libtasn1-6                      4.19.0-3+b2                     deb     
 libtdb1                         1.4.10-1+b1                     deb     
 libthai-data                    0.1.29-2                        deb     
@@ -231,7 +231,7 @@ libtiff6                        4.5.1+git230720-4               deb
 libtinfo6                       6.5-2                           deb     
 libtwolame0                     0.4.0-2+b1                      deb     
 libu2f-udev                     1.1.10-3.2                      deb     
-libudev1                        256.2-1                         deb     
+libudev1                        256.4-1                         deb     
 libunistring5                   1.2-1                           deb     
 libunwind8                      1.6.2-3.1                       deb     
 libuuid1                        2.40.2-1                        deb     
@@ -322,11 +322,11 @@ python3.12-minimal              3.12.4-3                        deb
 readline-common                 8.2-4                           deb     
 sed                             4.9-2                           deb     
 shared-mime-info                2.4-5                           deb     
-systemd                         256.2-1                         deb     
+systemd                         256.4-1                         deb     
 sysvinit-utils                  3.09-2                          deb     
 tar                             1.35+dfsg-3                     deb     
 tzdata                          2024a-4                         deb     
-udev                            256.2-1                         deb     
+udev                            256.4-1                         deb     
 usr-is-merged                   39                              deb     
 util-linux                      2.40.2-1                        deb     
 wget                            1.24.5-1                        deb     

@@ -36,7 +36,7 @@ clucene                         2.3.3.4-r22              apk
 clucene-contribs                2.3.3.4-r22              apk                           
 commonwizards                                            java-archive                  
 cups-libs                       2.4.9-r0                 apk                           
-curl                            8.8.0-r0                 apk                           
+curl                            8.9.0-r0                 apk                           
 dbus                            1.14.10-r1               apk                           
 dbus-daemon-launch-helper       1.14.10-r1               apk                           
 dbus-libs                       1.14.10-r1               apk                           
@@ -122,7 +122,7 @@ libcap2                         2.70-r0                  apk
 libcdr                          0.1.7-r13                apk                           
 libcom_err                      1.47.0-r5                apk                           
 libcrypto3                      3.3.1-r3                 apk                           
-libcurl                         8.8.0-r0                 apk                           
+libcurl                         8.9.0-r0                 apk                           
 libdc1394                       2.2.7-r0                 apk                           
 libde265                        1.0.15-r0                apk                           
 libdrm                          2.4.120-r0               apk                           
