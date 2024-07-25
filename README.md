@@ -149,6 +149,7 @@ proot-apps update firefox
 | telegram | ghcr.io/linuxserver/proot-apps:telegram | linux/amd64,linux/arm64 | Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.|
 | thunderbird | ghcr.io/linuxserver/proot-apps:thunderbird | linux/amd64,linux/arm64 | Thunderbird is free and open-source email client software which also functions as a full personal information manager with a calendar and contactbook, as well as an RSS feed reader, chat client (IRC/XMPP/Matrix), and news client.|
 | torbrowser | ghcr.io/linuxserver/proot-apps:torbrowser | linux/amd64 | Tor is free and open-source software for enabling anonymous communication by directing Internet traffic through a free, worldwide, volunteer overlay network.|
+| ungoogledchromium | ghcr.io/linuxserver/proot-apps:ungoogledchromium | linux/amd64 | Google Chromium, sans integration with Google.|
 | vivaldi | ghcr.io/linuxserver/proot-apps:vivaldi | linux/amd64,linux/arm64 | Vivaldi is a freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies.|
 | vlc | ghcr.io/linuxserver/proot-apps:vlc | linux/amd64,linux/arm64 | VLC media player (previously the VideoLAN Client and commonly known as simply VLC) is a free and open-source, portable, cross-platform media player software and streaming media server developed by the VideoLAN project.|
 | vscode | ghcr.io/linuxserver/proot-apps:vscode | linux/amd64,linux/arm64 | Visual Studio Code is a source-code editor developed by Microsoft for Windows, Linux and macOS|
