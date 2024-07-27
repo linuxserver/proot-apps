@@ -31,7 +31,7 @@ brotli-libs                1.1.0-r2                 apk
 busybox                    1.36.1-r29               apk                         
 busybox-binsh              1.36.1-r29               apk                         
 bytemuck                   1.14.0                   rust-crate                  
-c-ares                     1.32.2-r0                apk                         
+c-ares                     1.32.3-r0                apk                         
 ca-certificates-bundle     20240226-r0              apk                         
 cairo                      1.18.0-r0                apk                         
 cairo-gobject              1.18.0-r0                apk                         
@@ -419,7 +419,7 @@ qt6-qtsvg                  6.7.2-r0                 apk
 qt6-qttools-libs           6.7.2-r0                 apk                         
 qt6-qtwayland              6.7.2-r1                 apk                         
 qt6-qtwebchannel           6.7.2-r0                 apk                         
-qt6-qtwebengine            6.7.2-r0                 apk                         
+qt6-qtwebengine            6.7.2-r1                 apk                         
 qt6-qtwebsockets-libs      6.7.2-r0                 apk                         
 quote                      1.0.35                   rust-crate                  
 rand                       0.8.5                    rust-crate                  
