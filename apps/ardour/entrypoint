@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Start Ardour
-ardour7 "$@"
+ardour8 "$@"

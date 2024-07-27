@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Removing icon"
-rm -f $HOME/.local/share/icons/hicolor/scalable/apps/ardour7.png
+rm -f $HOME/.local/share/icons/hicolor/scalable/apps/ardour8.png
 echo "Removing start menu entry"
 rm -f $HOME/.local/share/applications/ardour-pa.desktop
 echo "Removing desktop shortcut"
