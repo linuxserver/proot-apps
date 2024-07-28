@@ -10,7 +10,7 @@ bash                            5.2.21-2.1                      deb
 bsdutils                        1:2.40.2-1                      deb     
 ca-certificates                 20240203                        deb     
 coreutils                       9.4-3.1                         deb     
-curl                            8.8.0-4                         deb     
+curl                            8.9.0-1                         deb     
 dash                            0.5.12-9                        deb     
 dbus-bin                        1.14.10-4+b1                    deb     
 dbus-daemon                     1.14.10-4+b1                    deb     
@@ -101,7 +101,7 @@ libcolord2                      1.4.7-1+b1                      deb
 libcom-err2                     1.47.1-1                        deb     
 libcrypt1                       1:4.4.36-4                      deb     
 libcups2t64                     2.4.10-1                        deb     
-libcurl3t64-gnutls              8.8.0-4                         deb     
+libcurl3t64-gnutls              8.9.0-1                         deb     
 libdatrie1                      0.2.13-3                        deb     
 libdav1d7                       1.4.3-1                         deb     
 libdb5.3t64                     5.3.28+dfsg2-7                  deb     
@@ -172,7 +172,7 @@ libicu72                        72.1-5                          deb
 libidn2-0                       2.3.7-2                         deb     
 libiec61883-0                   1.2.0-6+b1                      deb     
 libimath-3-1-29t64              3.1.11-2+b1                     deb     
-libjack-jackd2-0                1.9.22~dfsg-2                   deb     
+libjack-jackd2-0                1.9.22~dfsg-3                   deb     
 libjansson4                     2.14-2+b2                       deb     
 libjbig0                        2.1-6.1+b1                      deb     
 libjpeg62-turbo                 1:2.1.5-3                       deb     
@@ -212,7 +212,7 @@ libopencore-amrnb0              0.1.6-1+b1                      deb
 libopencore-amrwb0              0.1.6-1+b1                      deb     
 libopenexr-3-1-30               3.1.5-5.1+b2                    deb     
 libopenjp2-7                    2.5.0-2+b3                      deb     
-libopenmpt0t64                  0.7.8-1                         deb     
+libopenmpt0t64                  0.7.9-1                         deb     
 libopus0                        1.5.2-2                         deb     
 liborc-0.4-0t64                 1:0.4.39-2                      deb     
 libp11-kit0                     0.25.5-2                        deb     

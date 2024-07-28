@@ -112,8 +112,8 @@ graphite2                  1.3.14-r6                apk
 gst-plugins-base           1.24.5-r0                apk                         
 gstreamer                  1.24.5-r0                apk                         
 gstreamer-ptp-helper       1.24.5-r0                apk                         
-gtk+3.0                    3.24.42-r2               apk                         
-gtk-update-icon-cache      3.24.42-r2               apk                         
+gtk+3.0                    3.24.43-r0               apk                         
+gtk-update-icon-cache      3.24.43-r0               apk                         
 harfbuzz                   9.0.0-r0                 apk                         
 harfbuzz-subset            9.0.0-r0                 apk                         
 heck                       0.4.1                    rust-crate                  
