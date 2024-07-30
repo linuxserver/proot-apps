@@ -8,7 +8,7 @@ bash                            5.2.21-2.1                      deb
 bsdutils                        1:2.40.2-1                      deb     
 ca-certificates                 20240203                        deb     
 coreutils                       9.4-3.1                         deb     
-curl                            8.9.0-2                         deb     
+curl                            8.9.0-3                         deb     
 dash                            0.5.12-9                        deb     
 dbus-bin                        1.14.10-4+b1                    deb     
 dbus-daemon                     1.14.10-4+b1                    deb     
@@ -32,7 +32,7 @@ fonts-noto-mono                 20201225-2                      deb
 gcc-14-base                     14.1.0-5                        deb     
 gpgv                            2.2.43-7                        deb     
 grep                            3.11-4                          deb     
-gstreamer1.0-gl                 1.24.5-1                        deb     
+gstreamer1.0-gl                 1.24.6-1                        deb     
 gtk-update-icon-cache           3.24.43-1                       deb     
 gzip                            1.12-1.1                        deb     
 handbrake                       1.8.1+ds1-2                     deb     
@@ -58,11 +58,11 @@ libavahi-client3                0.8-13+b2                       deb
 libavahi-common-data            0.8-13+b2                       deb     
 libavahi-common3                0.8-13+b2                       deb     
 libavcodec60                    7:6.1.1-5+b1                    deb     
-libavcodec61                    7:7.0.1-3                       deb     
-libavfilter10                   7:7.0.1-3                       deb     
-libavformat61                   7:7.0.1-3                       deb     
+libavcodec61                    7:7.0.1-4                       deb     
+libavfilter10                   7:7.0.1-4                       deb     
+libavformat61                   7:7.0.1-4                       deb     
 libavutil58                     7:6.1.1-5+b1                    deb     
-libavutil59                     7:7.0.1-3                       deb     
+libavutil59                     7:7.0.1-4                       deb     
 libbdplus0                      0.2.0-4                         deb     
 libblas3                        3.12.0-3                        deb     
 libblkid1                       2.40.2-1                        deb     
@@ -87,7 +87,7 @@ libcolord2                      1.4.7-1+b1                      deb
 libcom-err2                     1.47.1-1                        deb     
 libcrypt1                       1:4.4.36-4                      deb     
 libcups2t64                     2.4.10-1                        deb     
-libcurl3t64-gnutls              8.9.0-2                         deb     
+libcurl3t64-gnutls              8.9.0-3                         deb     
 libdatrie1                      0.2.13-3                        deb     
 libdav1d7                       1.4.3-1                         deb     
 libdb5.3t64                     5.3.28+dfsg2-7                  deb     
@@ -142,8 +142,8 @@ libgraphene-1.0-0               1.10.8-3+b1                     deb
 libgraphite2-3                  1.3.14-2                        deb     
 libgsm1                         1.0.22-1+b1                     deb     
 libgssapi-krb5-2                1.21.3-3                        deb     
-libgstreamer-gl1.0-0            1.24.5-1                        deb     
-libgstreamer-plugins-base1.0-0  1.24.5-1                        deb     
+libgstreamer-gl1.0-0            1.24.6-1                        deb     
+libgstreamer-plugins-base1.0-0  1.24.6-1                        deb     
 libgstreamer1.0-0               1.24.5-1                        deb     
 libgtk-4-1                      4.12.5+ds-6+b1                  deb     
 libgtk-4-bin                    4.12.5+ds-6+b1                  deb     
@@ -213,7 +213,7 @@ libpixman-1-0                   0.42.2-1+b1                     deb
 libplacebo349                   7.349.0-2                       deb     
 libpng16-16t64                  1.6.43-5                        deb     
 libpocketsphinx3                0.8+5prealpha+1-15+b3           deb     
-libpostproc58                   7:7.0.1-3                       deb     
+libpostproc58                   7:7.0.1-4                       deb     
 libproc2-0                      2:4.0.4-5                       deb     
 libpsl5t64                      0.21.2-1.1                      deb     
 libpulse0                       16.1+dfsg1-5.1                  deb     
@@ -221,7 +221,7 @@ libpulsedsp                     16.1+dfsg1-5.1                  deb
 libpython3-stdlib               3.12.4-1                        deb     
 libpython3.12-minimal           3.12.4-3                        deb     
 libpython3.12-stdlib            3.12.4-3                        deb     
-librabbitmq4                    0.11.0-1+b2                     deb     
+librabbitmq4                    0.14.0-1                        deb     
 librav1e0.7                     0.7.1-4                         deb     
 libreadline8t64                 8.2-4                           deb     
 librist4                        0.2.10+dfsg-2                   deb     
@@ -262,8 +262,8 @@ libssl3t64                      3.2.2-1                         deb
 libstdc++6                      14.1.0-5                        deb     
 libsvtav1enc2                   2.1.0+dfsg-2                    deb     
 libswresample4                  7:6.1.1-5+b1                    deb     
-libswresample5                  7:7.0.1-3                       deb     
-libswscale8                     7:7.0.1-3                       deb     
+libswresample5                  7:7.0.1-4                       deb     
+libswscale8                     7:7.0.1-4                       deb     
 libsystemd-shared               256.4-2                         deb     
 libsystemd0                     256.4-2                         deb     
 libtasn1-6                      4.19.0-3+b2                     deb     
