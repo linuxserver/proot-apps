@@ -81,8 +81,8 @@ gsm                             1.0.22-r3                apk
 gst-plugins-bad                 1.24.3-r0                apk                           
 gst-plugins-base                1.24.3-r0                apk                           
 gstreamer                       1.24.3-r0                apk                           
-gtk+3.0                         3.24.42-r0               apk                           
-gtk-update-icon-cache           3.24.42-r0               apk                           
+gtk+3.0                         3.24.43-r0               apk                           
+gtk-update-icon-cache           3.24.43-r0               apk                           
 gtk4.0                          4.14.4-r0                apk                           
 harfbuzz                        8.5.0-r0                 apk                           
 harfbuzz-icu                    8.5.0-r0                 apk                           

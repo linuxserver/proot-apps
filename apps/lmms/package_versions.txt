@@ -1,6 +1,4 @@
 NAME                       VERSION                  TYPE     
-PyQt5                      5.15.10                  python    
-PyQt5_sip                  12.13.0                  python    
 alpine-baselayout          3.6.5-r0                 apk       
 alpine-baselayout-data     3.6.5-r0                 apk       
 alpine-keys                2.4-r1                   apk       
@@ -48,8 +46,8 @@ graphene                   1.10.8-r4                apk
 graphite2                  1.3.14-r6                apk       
 gst-plugins-base           1.24.3-r0                apk       
 gstreamer                  1.24.3-r0                apk       
-gtk+3.0                    3.24.42-r0               apk       
-gtk-update-icon-cache      3.24.42-r0               apk       
+gtk+3.0                    3.24.43-r0               apk       
+gtk-update-icon-cache      3.24.43-r0               apk       
 harfbuzz                   8.5.0-r0                 apk       
 hicolor-icon-theme         0.17-r2                  apk       
 hwdata-pci                 0.382-r0                 apk       
@@ -188,6 +186,8 @@ py3-six-pyc                1.16.0-r9                apk
 pyc                        3.12.3-r1                apk       
 pyliblo                    0.10.0                   python    
 pyparsing                  3.1.2                    python    
+pyqt5                      5.15.10                  python    
+pyqt5-sip                  12.13.0                  python    
 python3                    3.12.3-r1                apk       
 python3-pyc                3.12.3-r1                apk       
 python3-pycache-pyc0       3.12.3-r1                apk       

@@ -1,8 +1,4 @@
 NAME                                VERSION                         TYPE     
-Brotli                              1.0.9                           python    
-Pillow                              9.4.0                           python    
-Pivy                                0.6.8                           python    
-PyYAML                              6.0                             python    
 adduser                             3.134                           deb       
 appdirs                             1.4.4                           python    
 apt                                 2.6.1                           deb       
@@ -15,6 +11,7 @@ binutils                            2.40-2                          deb
 binutils-common                     2.40-2                          deb       
 binutils-x86-64-linux-gnu           2.40-2                          deb       
 blt                                 2.5.3+dfsg-4.1                  deb       
+brotli                              1.0.9                           python    
 bsdutils                            1:2.38.1-5+deb12u1              deb       
 ca-certificates                     20230311                        deb       
 contourpy                           1.0.7                           python    
@@ -481,6 +478,8 @@ openssl                             3.0.13-1~deb12u1                deb
 packaging                           23.0                            python    
 passwd                              1:4.13+dfsg1-1+b1               deb       
 perl-base                           5.36.0-7+deb12u1                deb       
+pillow                              9.4.0                           python    
+pivy                                0.6.8                           python    
 ply                                 3.11                            python    
 proj-data                           9.1.1-1                         deb       
 pulseaudio                          16.1+dfsg1-2+b1                 deb       
@@ -545,6 +544,7 @@ python3.11-dev                      3.11.2-6+deb12u2                deb
 python3.11-minimal                  3.11.2-6+deb12u2                deb       
 pythran                             0.11.0                          python    
 pytz                                2022.7.1                        python    
+pyyaml                              6.0                             python    
 readline-common                     8.2-1.3                         deb       
 rpcsvc-proto                        1.4.3-1                         deb       
 scipy                               1.10.1                          python    
@@ -558,7 +558,7 @@ tar                                 1.34+dfsg-1.2+deb12u1           deb
 tk8.6-blt2.5                        2.5.3+dfsg-4.1                  deb       
 tzdata                              2024a-0+deb12u1                 deb       
 udev                                252.26-1~deb12u2                deb       
-ufoLib2                             0.14.0                          python    
+ufolib2                             0.14.0                          python    
 unicode-data                        15.0.0-1                        deb       
 usr-is-merged                       37~deb12u1                      deb       
 util-linux                          2.38.1-5+deb12u1                deb       

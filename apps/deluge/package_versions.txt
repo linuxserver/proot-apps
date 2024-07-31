@@ -1,10 +1,4 @@
 NAME                       VERSION                  TYPE     
-Automat                    22.10.0                  python    
-Mako                       1.3.3                    python    
-MarkupSafe                 2.1.5                    python    
-PyGObject                  3.48.2                   python    
-PyHamcrest                 2.1.0                    python    
-Twisted                    22.10.0                  python    
 alpine-baselayout          3.6.5-r0                 apk       
 alpine-baselayout-data     3.6.5-r0                 apk       
 alpine-keys                2.4-r1                   apk       
@@ -12,6 +6,7 @@ alsa-lib                   1.2.11-r0                apk
 apk-tools                  2.14.4-r0                apk       
 at-spi2-core               2.52.0-r0                apk       
 attrs                      23.2.0                   python    
+automat                    22.10.0                  python    
 avahi-libs                 0.8-r17                  apk       
 bash                       5.2.26-r0                apk       
 boost1.84-python3          1.84.0-r1                apk       
@@ -63,8 +58,8 @@ graphite2                  1.3.14-r6                apk
 gsettings-desktop-schemas  46.0-r0                  apk       
 gst-plugins-base           1.24.3-r0                apk       
 gstreamer                  1.24.3-r0                apk       
-gtk+3.0                    3.24.42-r0               apk       
-gtk-update-icon-cache      3.24.42-r0               apk       
+gtk+3.0                    3.24.43-r0               apk       
+gtk-update-icon-cache      3.24.43-r0               apk       
 h2                         4.1.0                    python    
 harfbuzz                   8.5.0-r0                 apk       
 hicolor-icon-theme         0.17-r2                  apk       
@@ -170,6 +165,8 @@ libxv                      1.0.12-r5                apk
 libxvmc                    1.0.14-r1                apk       
 libxxf86vm                 1.1.5-r6                 apk       
 llvm17-libs                17.0.6-r1                apk       
+mako                       1.3.3                    python    
+markupsafe                 2.1.5                    python    
 mesa                       24.0.9-r1                apk       
 mesa-dri-gallium           24.0.9-r1                apk       
 mesa-egl                   24.0.9-r1                apk       
@@ -273,12 +270,14 @@ py3-xdg                    0.28-r3                  apk
 py3-xdg-pyc                0.28-r3                  apk       
 py3-zope-interface         6.0-r1                   apk       
 py3-zope-interface-pyc     6.0-r1                   apk       
-pyOpenSSL                  24.1.0                   python    
 pyasn1                     0.6.0                    python    
-pyasn1_modules             0.4.0                    python    
+pyasn1-modules             0.4.0                    python    
 pyc                        3.12.3-r1                apk       
 pycairo                    1.26.0                   python    
 pycparser                  2.22                     python    
+pygobject                  3.48.2                   python    
+pyhamcrest                 2.1.0                    python    
+pyopenssl                  24.1.0                   python    
 pyparsing                  3.1.2                    python    
 pyserial                   3.5                      python    
 python3                    3.12.3-r1                apk       
@@ -305,7 +304,8 @@ ssl_client                 1.36.1-r29               apk
 tdb-libs                   1.4.9-r1                 apk       
 tiff                       4.6.0t-r0                apk       
 tslib                      1.23-r0                  apk       
-typing_extensions          4.11.0                   python    
+twisted                    22.10.0                  python    
+typing-extensions          4.11.0                   python    
 wayland-libs-client        1.22.0-r4                apk       
 wayland-libs-cursor        1.22.0-r4                apk       
 wayland-libs-egl           1.22.0-r4                apk       
@@ -327,5 +327,5 @@ xprop                      1.2.7-r0                 apk
 xset                       1.2.5-r1                 apk       
 xz-libs                    5.6.1-r3                 apk       
 zlib                       1.3.1-r1                 apk       
-zope.interface             6.0                      python    
+zope-interface             6.0                      python    
 zstd-libs                  1.5.6-r0                 apk       

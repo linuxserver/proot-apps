@@ -1,7 +1,4 @@
 NAME                            VERSION                         TYPE     
-PyQt5                           5.15.9                          python    
-PyQt5-sip                       12.11.1                         python    
-PySocks                         1.7.1                           python    
 adduser                         3.134                           deb       
 adwaita-icon-theme              43-1                            deb       
 apt                             2.6.1                           deb       
@@ -361,6 +358,9 @@ pinentry-curses                 1.2.1-1                         deb
 procps                          2:4.0.2-3                       deb       
 pulseaudio                      16.1+dfsg1-2+b1                 deb       
 pulseaudio-utils                16.1+dfsg1-2+b1                 deb       
+pyqt5                           5.15.9                          python    
+pyqt5-sip                       12.11.1                         python    
+pysocks                         1.7.1                           python    
 python3                         3.11.2-1+b1                     deb       
 python3-certifi                 2022.9.24-1                     deb       
 python3-chardet                 5.1.0+dfsg-2                    deb       

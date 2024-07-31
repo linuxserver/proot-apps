@@ -1,5 +1,4 @@
 NAME                            VERSION                         TYPE     
-PyGObject                       3.42.2                          python    
 adduser                         3.134                           deb       
 adwaita-icon-theme              43-1                            deb       
 apt                             2.6.1                           deb       
@@ -337,6 +336,7 @@ perl-base                       5.36.0-7+deb12u1                deb
 procps                          2:4.0.2-3                       deb       
 pulseaudio                      16.1+dfsg1-2+b1                 deb       
 pulseaudio-utils                16.1+dfsg1-2+b1                 deb       
+pygobject                       3.42.2                          python    
 python3                         3.11.2-1+b1                     deb       
 python3-gi                      3.42.2-3+b1                     deb       
 python3-ibus-1.0                1.5.27-5                        deb       
@@ -363,4 +363,4 @@ xserver-xorg-video-amdgpu       23.0.0-1                        deb
 xserver-xorg-video-ati          1:19.1.0-3                      deb       
 xserver-xorg-video-radeon       1:19.1.0-3                      deb       
 zlib1g                          1:1.2.13.dfsg-1                 deb       
-zoom                            6.1.5.871                       deb       
+zoom                            6.1.6.1013                      deb       

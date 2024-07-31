@@ -66,8 +66,8 @@ graphite2                  1.3.14-r6                apk
 gsm                        1.0.22-r3                apk     
 gst-plugins-base           1.24.3-r0                apk     
 gstreamer                  1.24.3-r0                apk     
-gtk+3.0                    3.24.42-r0               apk     
-gtk-update-icon-cache      3.24.42-r0               apk     
+gtk+3.0                    3.24.43-r0               apk     
+gtk-update-icon-cache      3.24.43-r0               apk     
 harfbuzz                   8.5.0-r0                 apk     
 hicolor-icon-theme         0.17-r2                  apk     
 hunspell                   1.7.2-r4                 apk     

@@ -1,5 +1,4 @@
 NAME                       VERSION                  TYPE     
-PyBluez                    0.23                     python    
 alpine-baselayout          3.6.5-r0                 apk       
 alpine-baselayout-data     3.6.5-r0                 apk       
 alpine-keys                2.4-r1                   apk       
@@ -198,6 +197,7 @@ py3-pillow                 10.3.0-r2                apk
 py3-pillow-pyc             10.3.0-r2                apk       
 py3-simplejson             3.19.2-r1                apk       
 py3-simplejson-pyc         3.19.2-r1                apk       
+pybluez                    0.23                     python    
 pyc                        3.12.3-r1                apk       
 python3                    3.12.3-r1                apk       
 python3-pyc                3.12.3-r1                apk       

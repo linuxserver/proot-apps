@@ -1,6 +1,4 @@
 NAME                        VERSION                  TYPE     
-PyGObject                   3.48.2                   python    
-PyYAML                      6.0.1                    python    
 alpine-baselayout           3.6.5-r0                 apk       
 alpine-baselayout-data      3.6.5-r0                 apk       
 alpine-keys                 2.4-r1                   apk       
@@ -54,8 +52,8 @@ gsm                         1.0.22-r3                apk
 gst-plugins-bad             1.24.3-r0                apk       
 gst-plugins-base            1.24.3-r0                apk       
 gstreamer                   1.24.3-r0                apk       
-gtk+3.0                     3.24.42-r0               apk       
-gtk-update-icon-cache       3.24.42-r0               apk       
+gtk+3.0                     3.24.43-r0               apk       
+gtk-update-icon-cache       3.24.43-r0               apk       
 gtk4.0                      4.14.4-r0                apk       
 harfbuzz                    8.5.0-r0                 apk       
 hicolor-icon-theme          0.17-r2                  apk       
@@ -204,9 +202,11 @@ py3-urllib3-pyc             1.26.18-r1               apk
 py3-yaml                    6.0.1-r3                 apk       
 py3-yaml-pyc                6.0.1-r3                 apk       
 pyc                         3.12.3-r1                apk       
+pygobject                   3.48.2                   python    
 python3                     3.12.3-r1                apk       
 python3-pyc                 3.12.3-r1                apk       
 python3-pycache-pyc0        3.12.3-r1                apk       
+pyyaml                      6.0.1                    python    
 readline                    8.2.10-r0                apk       
 requests                    2.32.3                   python    
 sbc                         2.0-r2                   apk       

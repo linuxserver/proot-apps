@@ -86,8 +86,8 @@ graphene                              1.10.8-r4                apk
 graphite2                             1.3.14-r6                apk     
 gst-plugins-base                      1.24.3-r0                apk     
 gstreamer                             1.24.3-r0                apk     
-gtk+3.0                               3.24.42-r0               apk     
-gtk-update-icon-cache                 3.24.42-r0               apk     
+gtk+3.0                               3.24.43-r0               apk     
+gtk-update-icon-cache                 3.24.43-r0               apk     
 harfbuzz                              8.5.0-r0                 apk     
 hicolor-icon-theme                    0.17-r2                  apk     
 hwdata-pci                            0.382-r0                 apk     

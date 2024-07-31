@@ -1,5 +1,4 @@
 NAME                       VERSION                  TYPE     
-PyGObject                  3.48.2                   python    
 adwaita-icon-theme         46.0-r0                  apk       
 alpine-baselayout          3.6.5-r0                 apk       
 alpine-baselayout-data     3.6.5-r0                 apk       
@@ -52,8 +51,8 @@ gsettings-desktop-schemas  46.0-r0                  apk
 gst-plugins-base           1.24.3-r0                apk       
 gst-plugins-good           1.24.3-r0                apk       
 gstreamer                  1.24.3-r0                apk       
-gtk+3.0                    3.24.42-r0               apk       
-gtk-update-icon-cache      3.24.42-r0               apk       
+gtk+3.0                    3.24.43-r0               apk       
+gtk-update-icon-cache      3.24.43-r0               apk       
 h11                        0.14.0                   python    
 harfbuzz                   8.5.0-r0                 apk       
 hicolor-icon-theme         0.17-r2                  apk       
@@ -217,6 +216,7 @@ py3-soupsieve              2.5-r1                   apk
 py3-soupsieve-pyc          2.5-r1                   apk       
 pyc                        3.12.3-r1                apk       
 pycairo                    1.26.0                   python    
+pygobject                  3.48.2                   python    
 pylast                     5.2.0                    python    
 python3                    3.12.3-r1                apk       
 python3-pyc                3.12.3-r1                apk       
