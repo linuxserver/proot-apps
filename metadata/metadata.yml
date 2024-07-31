@@ -80,6 +80,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: doublecmd.svg
     description: "Double Commander is a free cross-platform open source file manager with two panels side by side (or one above the other). It is inspired by Total Commander and features some innovative new ideas."
+  - name: dreamm
+    full_name: DREAMM
+    arch: linux/amd64,linux/arm64
+    icon: dreamm.svg
+    description: "DREAMM is a bespoke emulator for LucasArts games, relying on low-level emulation instead of reverse engineering."
   - name: earth
     full_name: Google Earth Pro
     arch: linux/amd64
