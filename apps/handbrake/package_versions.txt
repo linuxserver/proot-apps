@@ -170,7 +170,7 @@ liblcms2-2                      2.14-2+b1                       deb
 libldap-2.5-0                   2.5.18+dfsg-2                   deb     
 liblerc4                        4.0.0+ds-4+b1                   deb     
 liblilv-0-0                     0.24.24-2                       deb     
-libllvm17t64                    1:17.0.6-12+b1                  deb     
+libllvm17t64                    1:17.0.6-14                     deb     
 liblocale-gettext-perl          1.07-7                          deb     
 libltdl7                        2.4.7-7+b1                      deb     
 liblz4-1                        1.9.4-2                         deb     
@@ -264,7 +264,7 @@ libswscale8                     7:7.0.1-5                       deb
 libsystemd-shared               256.4-2                         deb     
 libsystemd0                     256.4-2                         deb     
 libtasn1-6                      4.19.0-3+b2                     deb     
-libtdb1                         1.4.10-1+b1                     deb     
+libtdb1                         1.4.11-2                        deb     
 libthai-data                    0.1.29-2                        deb     
 libthai0                        0.1.29-2                        deb     
 libtheora0                      1.1.1+dfsg.1-16.1+b2            deb     
@@ -300,7 +300,7 @@ libwrap0                        7.6.q-33                        deb
 libx11-6                        2:1.8.7-1+b1                    deb     
 libx11-data                     2:1.8.7-1                       deb     
 libx11-xcb1                     2:1.8.7-1+b1                    deb     
-libx264-164                     2:0.164.3108+git31e19f9-1+b1    deb     
+libx264-164                     2:0.164.3108+git31e19f9-2       deb     
 libx265-209                     3.6-3                           deb     
 libxau6                         1:1.0.9-1+b1                    deb     
 libxaw7                         2:1.0.14-1+b2                   deb     
