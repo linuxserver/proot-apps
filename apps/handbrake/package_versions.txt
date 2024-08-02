@@ -8,7 +8,8 @@ bash                            5.2.21-2.1                      deb
 bsdutils                        1:2.40.2-1                      deb     
 ca-certificates                 20240203                        deb     
 coreutils                       9.4-3.1                         deb     
-curl                            8.9.0-3                         deb     
+cpdb-backend-cups               2.0b5-1                         deb     
+curl                            8.9.1-1                         deb     
 dash                            0.5.12-9                        deb     
 dbus-bin                        1.14.10-4+b1                    deb     
 dbus-daemon                     1.14.10-4+b1                    deb     
@@ -81,11 +82,14 @@ libchromaprint1                 1.5.1-5                         deb
 libcjson1                       1.7.18-3                        deb     
 libcloudproviders0              0.3.6-1                         deb     
 libcodec2-1.2                   1.2.0-2+b1                      deb     
-libcolord2                      1.4.7-1+b1                      deb     
 libcom-err2                     1.47.1-1                        deb     
+libcpdb-frontend2t64            2.0~b5-1.2+b2                   deb     
+libcpdb2t64                     2.0~b5-1.2+b2                   deb     
 libcrypt1                       1:4.4.36-4                      deb     
 libcups2t64                     2.4.10-1                        deb     
-libcurl3t64-gnutls              8.9.0-3                         deb     
+libcupsfilters2                 2.0.0-1                         deb     
+libcupsfilters2-common          2.0.0-1                         deb     
+libcurl3t64-gnutls              8.9.1-1                         deb     
 libdatrie1                      0.2.13-3                        deb     
 libdav1d7                       1.4.3-1                         deb     
 libdb5.3t64                     5.3.28+dfsg2-7                  deb     
@@ -106,6 +110,7 @@ libegl-mesa0                    24.1.3-2                        deb
 libegl1                         1.7.0-1+b1                      deb     
 libelf1t64                      0.191-2                         deb     
 libepoxy0                       1.5.10-1+b2                     deb     
+libexif12                       0.6.24-1+b1                     deb     
 libexpat1                       2.6.2-1                         deb     
 libext2fs2t64                   1.47.1-1                        deb     
 libffi8                         3.4.6-1                         deb     
@@ -127,6 +132,7 @@ libgif7                         5.2.2-1                         deb
 libgl1                          1.7.0-1+b1                      deb     
 libgl1-mesa-dri                 24.1.3-2                        deb     
 libglapi-mesa                   24.1.3-2                        deb     
+libgles2                        1.7.0-1+b1                      deb     
 libglib2.0-0t64                 2.80.4-1                        deb     
 libglvnd0                       1.7.0-1+b1                      deb     
 libglx-mesa0                    24.1.3-2                        deb     
@@ -143,10 +149,10 @@ libgssapi-krb5-2                1.21.3-3                        deb
 libgstreamer-gl1.0-0            1.24.6-1                        deb     
 libgstreamer-plugins-base1.0-0  1.24.6-1                        deb     
 libgstreamer1.0-0               1.24.6-1                        deb     
-libgtk-4-1                      4.12.5+ds-6+b1                  deb     
-libgtk-4-bin                    4.12.5+ds-6+b1                  deb     
-libgtk-4-common                 4.12.5+ds-6                     deb     
-libgtk-4-media-gstreamer        4.12.5+ds-6+b1                  deb     
+libgtk-4-1                      4.14.4+ds-8                     deb     
+libgtk-4-bin                    4.14.4+ds-8                     deb     
+libgtk-4-common                 4.14.4+ds-8                     deb     
+libgtk-4-media-gstreamer        4.14.4+ds-8                     deb     
 libgudev-1.0-0                  238-5                           deb     
 libharfbuzz0b                   8.3.0-2+b1                      deb     
 libhogweed6t64                  3.10-1                          deb     
@@ -170,7 +176,7 @@ liblcms2-2                      2.14-2+b1                       deb
 libldap-2.5-0                   2.5.18+dfsg-2                   deb     
 liblerc4                        4.0.0+ds-4+b1                   deb     
 liblilv-0-0                     0.24.24-2                       deb     
-libllvm17t64                    1:17.0.6-14                     deb     
+libllvm17t64                    1:17.0.6-15                     deb     
 liblocale-gettext-perl          1.07-7                          deb     
 libltdl7                        2.4.7-7+b1                      deb     
 liblz4-1                        1.9.4-2                         deb     
@@ -189,6 +195,8 @@ libnghttp3-9                    1.4.0-1                         deb
 libngtcp2-16                    1.6.0-1                         deb     
 libngtcp2-crypto-gnutls8        1.6.0-1                         deb     
 libnorm1t64                     1.5.9+dfsg-3.1                  deb     
+libnspr4                        2:4.35-1.1+b1                   deb     
+libnss3                         2:3.102-1                       deb     
 libnuma1                        2.0.18-1                        deb     
 libogg0                         1.3.5-3+b1                      deb     
 libopenexr-3-1-30               3.1.5-5.1+b2                    deb     
@@ -211,6 +219,8 @@ libpixman-1-0                   0.42.2-1+b1                     deb
 libplacebo349                   7.349.0-2                       deb     
 libpng16-16t64                  1.6.43-5                        deb     
 libpocketsphinx3                0.8+5prealpha+1-15+b3           deb     
+libpoppler-cpp0t64              24.02.0-5+b1                    deb     
+libpoppler134                   24.02.0-5+b1                    deb     
 libpostproc58                   7:7.0.1-5                       deb     
 libproc2-0                      2:4.0.4-5                       deb     
 libpsl5t64                      0.21.2-1.1                      deb     
@@ -219,6 +229,7 @@ libpulsedsp                     16.1+dfsg1-5.1                  deb
 libpython3-stdlib               3.12.4-1                        deb     
 libpython3.12-minimal           3.12.4-3                        deb     
 libpython3.12-stdlib            3.12.4-3                        deb     
+libqpdf29t64                    11.9.1-1                        deb     
 librabbitmq4                    0.14.0-1                        deb     
 librav1e0.7                     0.7.1-4                         deb     
 libreadline8t64                 8.2-4                           deb     
@@ -360,6 +371,7 @@ openssl                         3.2.2-1                         deb
 passwd                          1:4.15.3-2                      deb     
 perl-base                       5.38.2-5                        deb     
 pocketsphinx-en-us              0.8+5prealpha+1-15              deb     
+poppler-data                    0.4.12-1                        deb     
 procps                          2:4.0.4-5                       deb     
 psmisc                          23.7-1                          deb     
 pulseaudio                      16.1+dfsg1-5.1                  deb     

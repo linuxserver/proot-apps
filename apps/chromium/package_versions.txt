@@ -17,7 +17,7 @@ ca-certificates-bundle     20240705-r0              apk
 cairo                      1.18.0-r0                apk     
 cairo-gobject              1.18.0-r0                apk     
 cdparanoia-libs            10.2-r14                 apk     
-chromium                   127.0.6533.72-r0         apk     
+chromium                   127.0.6533.88-r0         apk     
 cjson                      1.7.18-r0                apk     
 crc32c                     1.1.2-r0                 apk     
 cups-libs                  2.4.9-r0                 apk     
