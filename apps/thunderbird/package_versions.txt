@@ -21,7 +21,6 @@ cups-libs                  2.4.9-r0                 apk
 curl                       8.9.0-r0                 apk     
 dbus                       1.14.10-r1               apk     
 dbus-daemon-launch-helper  1.14.10-r1               apk     
-dbus-glib                  0.112-r6                 apk     
 dbus-libs                  1.14.10-r1               apk     
 dbus-x11                   1.14.10-r1               apk     
 eudev-libs                 3.2.14-r2                apk     
@@ -169,7 +168,7 @@ speexdsp                   1.2.1-r2                 apk
 sqlite-libs                3.45.3-r1                apk     
 ssl_client                 1.36.1-r29               apk     
 tdb-libs                   1.4.9-r1                 apk     
-thunderbird                115.11.0-r0              apk     
+thunderbird                128.0.1-r0               apk     
 tiff                       4.6.0t-r0                apk     
 wayland-libs-client        1.22.0-r4                apk     
 wayland-libs-cursor        1.22.0-r4                apk     
