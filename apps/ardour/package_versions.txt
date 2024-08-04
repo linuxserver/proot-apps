@@ -116,9 +116,9 @@ libelf                     0.191-r0                 apk
 libexpat                   2.6.2-r0                 apk           
 libffi                     3.4.6-r0                 apk           
 libflac                    1.4.3-r1                 apk           
-libgcc                     13.2.1_git20240309-r0    apk           
+libgcc                     14.2.0-r0                apk           
 libgcrypt                  1.10.3-r0                apk           
-libgomp                    13.2.1_git20240309-r0    apk           
+libgomp                    14.2.0-r0                apk           
 libgpg-error               1.50-r0                  apk           
 libhwy                     1.0.7-r0                 apk           
 libice                     1.1.1-r6                 apk           
@@ -150,7 +150,7 @@ libsodium                  1.0.20-r0                apk
 libsrt                     1.5.3-r0                 apk           
 libssh                     0.10.6-r0                apk           
 libssl3                    3.3.0-r2                 apk           
-libstdc++                  13.2.1_git20240309-r0    apk           
+libstdc++                  14.2.0-r0                apk           
 libtag                     1.13.1-r0                apk           
 libtheora                  1.1.1-r18                apk           
 libunibreak                6.1-r0                   apk           
