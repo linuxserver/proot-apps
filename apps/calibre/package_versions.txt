@@ -26,7 +26,7 @@ brotli-libs                1.1.0-r2                 apk
 busybox                    1.36.1-r29               apk                         
 busybox-binsh              1.36.1-r29               apk                         
 bytemuck                   1.14.0                   rust-crate                  
-c-ares                     1.32.3-r0                apk                         
+c-ares                     1.33.0-r0                apk                         
 ca-certificates-bundle     20240226-r0              apk                         
 cairo                      1.18.0-r0                apk                         
 cairo-gobject              1.18.0-r0                apk                         
@@ -429,7 +429,7 @@ rav1e                      0.7.1                    rust-crate
 rav1e-libs                 0.7.1-r0                 apk                         
 rayon                      1.8.0                    rust-crate  (+1 duplicate)  
 rayon-core                 1.12.0                   rust-crate  (+1 duplicate)  
-readline                   8.2.10-r0                apk                         
+readline                   8.2.13-r0                apk                         
 regex                      2023.12.25               python                      
 rgb                        0.8.36                   rust-crate                  
 rustix                     0.38.28                  rust-crate                  

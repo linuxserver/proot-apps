@@ -11,7 +11,7 @@ bash                         5.2.32-r0                apk
 brotli-libs                  1.1.0-r2                 apk     
 busybox                      1.36.1-r29               apk     
 busybox-binsh                1.36.1-r29               apk     
-c-ares                       1.32.3-r0                apk     
+c-ares                       1.33.0-r0                apk     
 ca-certificates-bundle       20240226-r0              apk     
 cairo                        1.18.0-r0                apk     
 cairo-gobject                1.18.0-r0                apk     
@@ -262,7 +262,7 @@ qt5-qtbase                   5.15.10_git20230714-r2   apk
 qt5-qtbase-x11               5.15.10_git20230714-r2   apk     
 qt5-qtdeclarative            5.15.10_git20230629-r0   apk     
 qt5-qtwayland                5.15.10_git20230714-r0   apk     
-readline                     8.2.10-r0                apk     
+readline                     8.2.13-r0                apk     
 retroarch                    1.19.1-r0                apk     
 retroarch-assets             1.19.0-r0                apk     
 retroarch-joypad-autoconfig  1.19.0-r0                apk     
