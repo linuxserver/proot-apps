@@ -59,8 +59,8 @@ libaudit1                       1:3.1.2-4+b1                    deb
 libavahi-client3                0.8-13+b2                       deb     
 libavahi-common-data            0.8-13+b2                       deb     
 libavahi-common3                0.8-13+b2                       deb     
-libavcodec61                    7:7.0.1-5                       deb     
-libavutil59                     7:7.0.1-5                       deb     
+libavcodec61                    7:7.0.2-1                       deb     
+libavutil59                     7:7.0.2-1                       deb     
 libblkid1                       2.40.2-1                        deb     
 libbrotli1                      1.1.0-2+b4                      deb     
 libbsd0                         0.12.2-1                        deb     
@@ -220,7 +220,7 @@ libssh2-1t64                    1.11.0-7                        deb
 libssl3t64                      3.3.1-2                         deb     
 libstdc++6                      14.2.0-1                        deb     
 libsvtav1enc2                   2.1.0+dfsg-2                    deb     
-libswresample5                  7:7.0.1-5                       deb     
+libswresample5                  7:7.0.2-1                       deb     
 libsystemd-shared               256.4-2                         deb     
 libsystemd0                     256.4-2                         deb     
 libtasn1-6                      4.19.0-3+b2                     deb     
