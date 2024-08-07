@@ -176,7 +176,7 @@ xf86-video-intel           2.99.917_git20221028-r7  apk
 xkeyboard-config           2.41-r0                  apk       
 xprop                      1.2.7-r0                 apk       
 xset                       1.2.5-r1                 apk       
-xz-libs                    5.6.1-r3                 apk       
+xz-libs                    5.6.2-r0                 apk       
 zim                        0.75.2                   python    
 zim                        0.75.2-r1                apk       
 zim-pyc                    0.75.2-r1                apk       

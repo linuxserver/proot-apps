@@ -203,7 +203,7 @@ libproxy                   0.5.8-r0                 apk
 libpsl                     0.21.5-r2                apk                         
 libpulse                   17.0-r3                  apk                         
 librist                    0.2.10-r1                apk                         
-libsasl                    2.1.28-r7                apk                         
+libsasl                    2.1.28-r8                apk                         
 libsharpyuv                1.4.0-r0                 apk                         
 libsm                      1.2.4-r4                 apk                         
 libsndfile                 1.2.2-r0                 apk                         

@@ -309,7 +309,7 @@ jboss-threads                                           3.1.0.Final             
 jcodings                                                1.0.18                          java-archive                   
 jna                                                     5.9.0                           java-archive                   
 jq                                                      1.6-2.1                         deb                            
-jrt-fs                                                  17.0.11                         java-archive                   
+jrt-fs                                                  17.0.12                         java-archive                   
 js                                                      20.2.0                          java-archive                   
 js_ext                                                                                  java-archive                   
 jts                                                     1.13                            java-archive                   
@@ -597,8 +597,8 @@ objenesis                                               2.6                     
 ocl-icd-libopencl1                                      2.3.1-1                         deb                            
 opencsv                                                 2.2                             java-archive                   
 opencsv                                                 4.5                             java-archive                   
-openjdk-17-jre                                          17.0.11+9-1~deb12u1             deb                            
-openjdk-17-jre-headless                                 17.0.11+9-1~deb12u1             deb                            
+openjdk-17-jre                                          17.0.12+7-2~deb12u1             deb                            
+openjdk-17-jre-headless                                 17.0.12+7-2~deb12u1             deb                            
 openpdf                                                 1.3.36                          java-archive  (+1 duplicate)   
 openssl                                                 3.0.13-1~deb12u1                deb                            
 org-apache-commons-io-maltego                                                           java-archive                   
