@@ -2,6 +2,7 @@ NAME                                   VERSION                         TYPE
 Java-WebSocket                         1.5.5                           java-archive                   
 adduser                                3.134                           deb                            
 adwaita-icon-theme                     43-1                            deb                            
+agent                                                                  java-archive                   
 allopen-compiler-plugin                                                java-archive                   
 allopen-compiler-plugin                1.9.24-release-822              java-archive                   
 android-extensions-compiler            1.9.24-release-822              java-archive                   
@@ -42,6 +43,7 @@ apt                                    2.6.1                           deb
 archetype-catalog                      2.2                             java-archive                   
 archetype-common                       2.2                             java-archive                   
 archetype-descriptor                   2.2                             java-archive                   
+asciidoctor-vscode                     3.2.4-dev                       npm                            
 assignment-compiler-plugin                                             java-archive                   
 assignment-compiler-plugin             1.9.24-release-822              java-archive                   
 async-profiler                                                         java-archive                   
@@ -50,7 +52,7 @@ base-files                             12.4+deb12u6                    deb
 base-passwd                            3.6.1                           deb                            
 bash                                   5.2.15-2+b7                     deb                            
 bat                                    1.0.0                           npm                            
-bouncy-castle-pgp                      1.77.00.0                       java-archive                   
+bouncy-castle-pgp                      1.78.1                          java-archive                   
 bsdutils                               1:2.38.1-5+deb12u1              deb                            
 ca-certificates                        20230311                        deb                            
 ca-certificates-java                                                   java-archive                   
@@ -59,11 +61,11 @@ classesLogAgent                                                        java-arch
 clojure                                1.0.0                           npm                            
 cmake                                  0.0.17                          npm                            
 coffeescript                           1.0.0                           npm                            
-commons-cli                            1.5.0                           java-archive                   
+commons-cli                            1.8.0                           java-archive                   
 commons-codec                          1.11                            java-archive                   
-commons-codec                          1.16.0                          java-archive                   
+commons-codec                          1.16.1                          java-archive                   
 commons-io                             2.11.0                          java-archive                   
-commons-lang3                          3.12.0                          java-archive  (+1 duplicate)   
+commons-lang3                          3.12.0                          java-archive                   
 coreutils                              9.1-1                           deb                            
 cpp                                    1.0.0                           npm                            
 csharp                                 1.0.0                           npm                            
@@ -78,7 +80,7 @@ dbus-x11                               1.14.10-1~deb12u1               deb
 debconf                                1.5.82                          deb                            
 debian-archive-keyring                 2023.3+deb12u1                  deb                            
 debianutils                            5.7-0.5~deb12u1                 deb                            
-debugger-agent                         1.2                             java-archive                   
+debugger-agent                         1.11                            java-archive                   
 debugger-memory-agent                                                  java-archive                   
 default-jdk                            2:1.17-74                       deb                            
 default-jdk-headless                   2:1.17-74                       deb                            
@@ -92,9 +94,9 @@ dpkg                                   1.21.22                         deb
 e2fsprogs                              1.47.0-2                        deb                            
 eclipse                                3.31.0.v20220831-1439           java-archive                   
 engines                                                                java-archive                   
-erlang-ls                              0.0.40                          npm                            
+erlang-ls                              0.0.43                          npm                            
 error_prone_annotations                2.1.3                           java-archive                   
-failureaccess                          1.0.1                           java-archive                   
+failureaccess                          1.0.2                           java-archive                   
 findutils                              4.9.0-4                         deb                            
 fontconfig                             2.14.1-4                        deb                            
 fontconfig-config                      2.14.1-4                        deb                            
@@ -115,11 +117,11 @@ grep                                   3.8-5                           deb
 groovy                                 1.0.0                           npm                            
 gtk-update-icon-cache                  3.24.38-2~deb12u1               deb                            
 guava                                  25.1-android                    java-archive                   
-guava                                  32.0.1-jre                      java-archive                   
+guava                                  33.2.1-jre                      java-archive                   
 guice                                  5.1.0                           java-archive                   
 gzip                                   1.12-1                          deb                            
 handlebars                             1.0.0                           npm                            
-hcl                                    0.3.2                           npm                            
+hcl                                    0.5.0                           npm                            
 hicolor-icon-theme                     0.17-2                          deb                            
 hlsl                                   1.0.0                           npm                            
 hostname                               3.23+nmu1                       deb                            
@@ -131,19 +133,18 @@ idea_rt                                                                java-arch
 indexer-core                           6.2.2                           java-archive                   
 ini                                    1.0.0                           npm                            
 init-system-helpers                    1.65.2                          deb                            
-intellij-coverage-agent                1.0.744                         java-archive                   
 intellij-test-discovery                                                java-archive                   
 iso-codes                              4.15.0-1                        deb                            
 j2objc-annotations                     1.1                             java-archive                   
 jackson-core                           2.16.0                          java-archive                   
 jacocoagent                            0.8.12                          java-archive                   
-jansi                                  2.4.0                           java-archive                   
+jansi                                  2.4.1                           java-archive                   
 java                                   1.0.0                           npm                            
 java-common                            0.74                            deb                            
 java-decompiler                                                        java-archive                   
 java-websocket                         1.5.5                           java-archive                   
-java/jdk                               17.0.11+1-b1207.30              binary                         
-java/jre                               17.0.11+1-b1207.30              binary                         
+java/jdk                               21.0.3+13-b509.4                binary                         
+java/jre                               21.0.3+13-b509.4                binary                         
 javascript                             1.0.0                           npm                            
 javax.annotation-api                   1.2                             java-archive                   
 javax.annotation-api                   1.3.2                           java-archive                   
@@ -153,15 +154,15 @@ jgoodies-common                        1.4.0 2012-07-24 10:26:20       java-arch
 jitsi-utils                            1.0-112-gd92472a                java-archive                   
 jnaerator-runtime                                                      java-archive                   
 jps-builders                                                           java-archive                   
-jrt-fs                                 17.0.11                         java-archive                   
 jrt-fs                                 17.0.12                         java-archive                   
+jrt-fs                                 21.0.3                          java-archive                   
 json                                   1.0.0                           npm                            
 jsr305                                 3.0.2                           java-archive                   
 jstun                                  0.7.5.20200723                  java-archive                   
 julia                                  1.0.0                           npm                            
-junit                                                                  java-archive                   
 jvm                                    0.8.0-1.9.21-38                 java-archive                   
 jvm-abi-gen                            1.9.24-release-822              java-archive                   
+kconfig-lang                           1.2.0                           npm                            
 keyboard-configuration                 1.221                           deb                            
 kotlin-annotation-processing           1.9.24-release-822              java-archive                   
 kotlin-annotation-processing-cli                                       java-archive                   
@@ -484,56 +485,56 @@ make                                   1.0.0                           npm
 markdown                               1.0.0                           npm                            
 markdown-math                          1.0.0                           npm                            
 maven-artifact                         3.8.7                           java-archive                   
-maven-artifact                         3.9.6                           java-archive                   
+maven-artifact                         3.9.8                           java-archive                   
 maven-builder-support                  3.8.7                           java-archive                   
-maven-builder-support                  3.9.6                           java-archive                   
-maven-compat                           3.9.6                           java-archive                   
+maven-builder-support                  3.9.8                           java-archive                   
+maven-compat                           3.9.8                           java-archive                   
 maven-core                             3.8.7                           java-archive                   
-maven-core                             3.9.6                           java-archive                   
+maven-core                             3.9.8                           java-archive                   
 maven-dependency-tree                  1.2                             java-archive                   
-maven-embedder                         3.9.6                           java-archive                   
+maven-embedder                         3.9.8                           java-archive                   
 maven-event-listener                                                   java-archive                   
 maven-model                            3.8.5                           java-archive                   
 maven-model                            3.8.7                           java-archive                   
-maven-model                            3.9.6                           java-archive                   
+maven-model                            3.9.8                           java-archive                   
 maven-model-builder                    3.8.7                           java-archive                   
-maven-model-builder                    3.9.6                           java-archive                   
+maven-model-builder                    3.9.8                           java-archive                   
 maven-plugin-api                       3.8.7                           java-archive                   
-maven-plugin-api                       3.9.6                           java-archive                   
+maven-plugin-api                       3.9.8                           java-archive                   
 maven-repository-metadata              3.8.7                           java-archive                   
-maven-repository-metadata              3.9.6                           java-archive                   
+maven-repository-metadata              3.9.8                           java-archive                   
 maven-resolver-api                     1.8.0                           java-archive                   
-maven-resolver-api                     1.9.18                          java-archive                   
 maven-resolver-api                     1.9.2                           java-archive                   
+maven-resolver-api                     1.9.20                          java-archive                   
 maven-resolver-connector-basic         1.4.2                           java-archive                   
-maven-resolver-connector-basic         1.9.18                          java-archive                   
 maven-resolver-connector-basic         1.9.2                           java-archive                   
-maven-resolver-impl                    1.9.18                          java-archive                   
+maven-resolver-connector-basic         1.9.20                          java-archive                   
 maven-resolver-impl                    1.9.2                           java-archive                   
-maven-resolver-named-locks             1.9.18                          java-archive                   
+maven-resolver-impl                    1.9.20                          java-archive                   
 maven-resolver-named-locks             1.9.2                           java-archive                   
+maven-resolver-named-locks             1.9.20                          java-archive                   
 maven-resolver-provider                3.8.7                           java-archive                   
-maven-resolver-provider                3.9.6                           java-archive                   
-maven-resolver-spi                     1.9.18                          java-archive                   
+maven-resolver-provider                3.9.8                           java-archive                   
 maven-resolver-spi                     1.9.2                           java-archive                   
+maven-resolver-spi                     1.9.20                          java-archive                   
 maven-resolver-transport-file          1.4.2                           java-archive                   
-maven-resolver-transport-file          1.9.18                          java-archive                   
 maven-resolver-transport-file          1.9.2                           java-archive                   
+maven-resolver-transport-file          1.9.20                          java-archive                   
 maven-resolver-transport-http          1.4.2                           java-archive                   
-maven-resolver-transport-http          1.9.18                          java-archive                   
-maven-resolver-transport-wagon         1.9.18                          java-archive                   
+maven-resolver-transport-http          1.9.20                          java-archive                   
 maven-resolver-transport-wagon         1.9.2                           java-archive                   
+maven-resolver-transport-wagon         1.9.20                          java-archive                   
 maven-resolver-util                    1.8.0                           java-archive                   
-maven-resolver-util                    1.9.18                          java-archive                   
 maven-resolver-util                    1.9.2                           java-archive                   
+maven-resolver-util                    1.9.20                          java-archive                   
 maven-settings                         3.8.7                           java-archive                   
-maven-settings                         3.9.6                           java-archive                   
+maven-settings                         3.9.8                           java-archive                   
 maven-settings-builder                 3.8.7                           java-archive                   
-maven-settings-builder                 3.9.6                           java-archive                   
-maven-shared-utils                     3.3.4                           java-archive  (+1 duplicate)   
-maven-slf4j-provider                   3.9.6                           java-archive                   
+maven-settings-builder                 3.9.8                           java-archive                   
+maven-shared-utils                     3.3.4                           java-archive                   
+maven-shared-utils                     3.4.2                           java-archive                   
+maven-slf4j-provider                   3.9.8                           java-archive                   
 mawk                                   1.3.4.20200120-3.1              deb                            
-mdx                                    0.1.1                           npm                            
 media-types                            10.0.0                          deb                            
 mesa-va-drivers                        22.3.6-1+deb12u1                deb                            
 mesa-vulkan-drivers                    22.3.6-1+deb12u1                deb                            
@@ -555,8 +556,8 @@ openjdk-17-jre                         17.0.12+7-2~deb12u1             deb
 openjdk-17-jre-headless                17.0.12+7-2~deb12u1             deb                            
 openssh-client                         1:9.2p1-2+deb12u3               deb                            
 openssl                                3.0.13-1~deb12u1                deb                            
-org.eclipse.sisu.inject                0.9.0.M2                        java-archive                   
-org.eclipse.sisu.plexus                0.9.0.M2                        java-archive                   
+org.eclipse.sisu.inject                0.9.0.M3                        java-archive                   
+org.eclipse.sisu.plexus                0.9.0.M3                        java-archive                   
 org.jacoco.agent.rt                    0.8.12                          java-archive                   
 org.jacoco.core                        0.8.12                          java-archive                   
 parcelize-compiler                     1.9.24-release-822              java-archive                   
@@ -570,13 +571,15 @@ perl-modules-5.36                      5.36.0-7+deb12u1                deb
 php                                    1.0.0                           npm                            
 plexus-cipher                          2.0                             java-archive  (+1 duplicate)   
 plexus-classworlds                     2.6.0                           java-archive                   
-plexus-classworlds                     2.7.0                           java-archive                   
+plexus-classworlds                     2.8.0                           java-archive                   
 plexus-component-annotations           2.1.0                           java-archive  (+1 duplicate)   
-plexus-interpolation                   1.26                            java-archive  (+1 duplicate)   
+plexus-interpolation                   1.26                            java-archive                   
+plexus-interpolation                   1.27                            java-archive                   
 plexus-sec-dispatcher                  2.0                             java-archive  (+1 duplicate)   
 plexus-utils                           3.3.0                           java-archive                   
 plexus-utils                           3.4.1                           java-archive                   
 plexus-utils                           3.5.1                           java-archive                   
+plexus-xml                             3.0.0                           java-archive                   
 powershell                             1.0.0                           npm                            
 protobuf-java                          2.6.1                           java-archive  (+1 duplicate)   
 protobuf-java                          3.24.4-jb.2                     java-archive                   
@@ -616,10 +619,10 @@ stdlib                                 go1.20.3                        go-module
 swift                                  1.0.0                           npm                            
 sysvinit-utils                         3.06-4                          deb                            
 tar                                    1.34+dfsg-1.2+deb12u1           deb                            
-terraform                              2.28.2                          npm                            
+terraform                              2.30.1                          npm                            
 tls-channel                                                            java-archive                   
 trove4j                                                                java-archive                   
-twig-language-2                        0.9.2                           npm                            
+twig-language-2                        0.9.4                           npm                            
 typescript                             1.0.0                           npm                            
 tzdata                                 2024a-0+deb12u1                 deb                            
 udev                                   252.26-1~deb12u2                deb                            
@@ -629,6 +632,7 @@ util-linux-extra                       2.38.1-5+deb12u1                deb
 vb                                     1.0.0                           npm                            
 vscode-bicep                           1.0.0                           npm                            
 vscode-jsp                             0.0.3                           npm                            
+vscode-mdx                             1.8.7                           npm                            
 wagon-file                             3.5.3                           java-archive                   
 wagon-http                             3.5.3                           java-archive  (+1 duplicate)   
 wagon-http-shared                      3.5.3                           java-archive  (+1 duplicate)   
