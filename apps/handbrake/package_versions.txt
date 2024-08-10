@@ -228,7 +228,7 @@ libproc2-0                      2:4.0.4-5                       deb
 libpsl5t64                      0.21.2-1.1                      deb     
 libpulse0                       16.1+dfsg1-5.1                  deb     
 libpulsedsp                     16.1+dfsg1-5.1                  deb     
-libpython3-stdlib               3.12.4-1                        deb     
+libpython3-stdlib               3.12.5-1                        deb     
 libpython3.12-minimal           3.12.5-1                        deb     
 libpython3.12-stdlib            3.12.5-1                        deb     
 libqpdf29t64                    11.9.1-1                        deb     
@@ -380,8 +380,8 @@ procps                          2:4.0.4-5                       deb
 psmisc                          23.7-1                          deb     
 pulseaudio                      16.1+dfsg1-5.1                  deb     
 pulseaudio-utils                16.1+dfsg1-5.1                  deb     
-python3                         3.12.4-1                        deb     
-python3-minimal                 3.12.4-1                        deb     
+python3                         3.12.5-1                        deb     
+python3-minimal                 3.12.5-1                        deb     
 python3.12                      3.12.5-1                        deb     
 python3.12-minimal              3.12.5-1                        deb     
 readline-common                 8.2-4                           deb     
