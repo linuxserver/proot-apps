@@ -293,7 +293,7 @@ qt5-qtspeech               5.15.10_git20230612-r0   apk
 qt5-qtsvg                  5.15.10_git20230612-r0   apk     
 qt5-qtwayland              5.15.10_git20230714-r0   apk     
 qt5-qtwebchannel           5.15.10_git20230612-r0   apk     
-qt5-qtwebengine            5.15.16-r8               apk     
+qt5-qtwebengine            5.15.16-r9               apk     
 qt5-qtx11extras            5.15.10_git20230424-r0   apk     
 qt5-qtxmlpatterns          5.15.10_git20230424-r0   apk     
 rav1e-libs                 0.7.1-r0                 apk     
