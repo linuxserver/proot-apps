@@ -36,7 +36,7 @@ grep                            3.11-4                          deb
 gstreamer1.0-gl                 1.24.6-1                        deb     
 gtk-update-icon-cache           3.24.43-1                       deb     
 gzip                            1.12-1.1                        deb     
-handbrake                       1.8.1+ds1-2                     deb     
+handbrake                       1.8.2+ds1-1                     deb     
 hicolor-icon-theme              0.18-1                          deb     
 hostname                        3.23+nmu2                       deb     
 init-system-helpers             1.66                            deb     
@@ -155,7 +155,7 @@ libgtk-4-bin                    4.14.4+ds-8                     deb
 libgtk-4-common                 4.14.4+ds-8                     deb     
 libgtk-4-media-gstreamer        4.14.4+ds-8                     deb     
 libgudev-1.0-0                  238-5                           deb     
-libharfbuzz0b                   8.3.0-2+b1                      deb     
+libharfbuzz0b                   9.0.0-1                         deb     
 libhogweed6t64                  3.10-1                          deb     
 libhwy1t64                      1.2.0-2                         deb     
 libice6                         2:1.0.10-1+b1                   deb     
@@ -269,7 +269,7 @@ libsrt1.5-gnutls                1.5.3-1+b2                      deb
 libss2                          1.47.1-1                        deb     
 libssh-4                        0.10.6-3                        deb     
 libssh2-1t64                    1.11.0-7                        deb     
-libssl3t64                      3.3.1-2                         deb     
+libssl3t64                      3.3.1-6                         deb     
 libstdc++6                      14.2.0-2                        deb     
 libsvtav1enc2                   2.1.0+dfsg-2                    deb     
 libswresample5                  7:7.0.2-3                       deb     
@@ -277,7 +277,7 @@ libswscale8                     7:7.0.2-3                       deb
 libsystemd-shared               256.4-3                         deb     
 libsystemd0                     256.4-3                         deb     
 libtasn1-6                      4.19.0-3+b2                     deb     
-libtdb1                         1.4.11-2                        deb     
+libtdb1                         1.4.12-1                        deb     
 libthai-data                    0.1.29-2                        deb     
 libthai0                        0.1.29-2                        deb     
 libtheora0                      1.1.1+dfsg.1-17                 deb     
@@ -372,7 +372,7 @@ ncurses-bin                     6.5-2                           deb
 netbase                         6.4                             deb     
 netcat-openbsd                  1.226-1.1                       deb     
 ocl-icd-libopencl1              2.3.2-1+b1                      deb     
-openssl                         3.3.1-2                         deb     
+openssl                         3.3.1-6                         deb     
 passwd                          1:4.16.0-4                      deb     
 perl-base                       5.38.2-5                        deb     
 pocketsphinx-en-us              0.8+5prealpha+1-15              deb     

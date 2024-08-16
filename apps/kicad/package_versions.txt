@@ -221,7 +221,7 @@ nettle                     3.9.1-r0                 apk
 nghttp2-libs               1.62.1-r0                apk       
 numpy                      1.25.2                   python    
 openal-soft-libs           1.23.1-r0                apk       
-openblas                   0.3.27-r0                apk       
+openblas                   0.3.28-r0                apk       
 opencascade                7.8.1-r0                 apk       
 openexr-libiex             3.1.13-r1                apk       
 openexr-libilmthread       3.1.13-r1                apk       

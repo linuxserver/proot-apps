@@ -260,7 +260,7 @@ nss                        3.101-r0                 apk
 numactl                    2.0.18-r0                apk     
 onetbb                     2021.12.0-r0             apk     
 onevpl-libs                2023.3.1-r2              apk     
-openblas                   0.3.27-r0                apk     
+openblas                   0.3.28-r0                apk     
 openexr                    3.1.13-r1                apk     
 openexr-libiex             3.1.13-r1                apk     
 openexr-libilmthread       3.1.13-r1                apk     
