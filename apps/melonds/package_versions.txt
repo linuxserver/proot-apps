@@ -164,8 +164,8 @@ pyc                        3.12.3-r1                apk
 python3                    3.12.3-r1                apk     
 python3-pyc                3.12.3-r1                apk     
 python3-pycache-pyc0       3.12.3-r1                apk     
-qt6-qtbase                 6.6.3-r0                 apk     
-qt6-qtbase-x11             6.6.3-r0                 apk     
+qt6-qtbase                 6.6.3-r1                 apk     
+qt6-qtbase-x11             6.6.3-r1                 apk     
 qt6-qtdeclarative          6.6.3-r0                 apk     
 qt6-qtmultimedia           6.6.3-r0                 apk     
 qt6-qtwayland              6.6.3-r0                 apk     
@@ -180,6 +180,7 @@ ssl_client                 1.36.1-r29               apk
 tdb-libs                   1.4.9-r1                 apk     
 tiff                       4.6.0t-r0                apk     
 tslib                      1.23-r0                  apk     
+tzdata                     2024a-r1                 apk     
 wayland-libs-client        1.22.0-r4                apk     
 wayland-libs-cursor        1.22.0-r4                apk     
 wayland-libs-egl           1.22.0-r4                apk     

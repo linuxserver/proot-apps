@@ -71,6 +71,7 @@ icu-data-en                74.2-r0                  apk
 icu-libs                   74.2-r0                  apk       
 idna                       3.7                      python    
 incremental                22.10.0                  python    
+iso-codes-lang             4.16.0-r0                apk       
 kcolorscheme               6.2.0-r0                 apk       
 kconfig                    6.2.0-r0                 apk       
 kcoreaddons                6.2.0-r0                 apk       
@@ -79,7 +80,7 @@ kde-default-icon-theme     6.2.0-r0                 apk
 kde-gtk-config             6.0.5-r0                 apk       
 kdecoration                6.0.5-r0                 apk       
 kguiaddons                 6.2.0-r0                 apk       
-ki18n                      6.2.0-r0                 apk       
+ki18n                      6.2.0-r1                 apk       
 kwindowsystem              6.2.0-r0                 apk       
 lcms2                      2.16-r0                  apk       
 libasyncns                 0.8-r3                   apk       
@@ -284,8 +285,8 @@ python3                    3.12.3-r1                apk
 python3-pyc                3.12.3-r1                apk       
 python3-pycache-pyc0       3.12.3-r1                apk       
 pyxdg                      0.28                     python    
-qt6-qtbase                 6.6.3-r0                 apk       
-qt6-qtbase-x11             6.6.3-r0                 apk       
+qt6-qtbase                 6.6.3-r1                 apk       
+qt6-qtbase-x11             6.6.3-r1                 apk       
 qt6-qtdeclarative          6.6.3-r0                 apk       
 qt6-qtsvg                  6.6.3-r0                 apk       
 qt6-qtwayland              6.6.3-r0                 apk       
@@ -306,6 +307,7 @@ tiff                       4.6.0t-r0                apk
 tslib                      1.23-r0                  apk       
 twisted                    22.10.0                  python    
 typing-extensions          4.11.0                   python    
+tzdata                     2024a-r1                 apk       
 wayland-libs-client        1.22.0-r4                apk       
 wayland-libs-cursor        1.22.0-r4                apk       
 wayland-libs-egl           1.22.0-r4                apk       

@@ -406,8 +406,8 @@ python-dateutil            2.9.0                    python
 python3                    3.12.5-r0                apk                         
 python3-pyc                3.12.5-r0                apk                         
 python3-pycache-pyc0       3.12.5-r0                apk                         
-qt6-qtbase                 6.7.2-r1                 apk                         
-qt6-qtbase-x11             6.7.2-r1                 apk                         
+qt6-qtbase                 6.7.2-r2                 apk                         
+qt6-qtbase-x11             6.7.2-r2                 apk                         
 qt6-qtconnectivity         6.7.2-r0                 apk                         
 qt6-qtdeclarative          6.7.2-r0                 apk                         
 qt6-qtimageformats         6.7.2-r1                 apk                         
@@ -457,6 +457,7 @@ thiserror-impl             1.0.56                   rust-crate
 thread_local               1.1.7                    rust-crate                  
 tiff                       4.6.0t-r0                apk                         
 tslib                      1.23-r0                  apk                         
+tzdata                     2024a-r1                 apk                         
 uchardet-libs              0.0.8-r2                 apk                         
 udisks2                    2.10.1-r0                apk                         
 udisks2-libs               2.10.1-r0                apk                         

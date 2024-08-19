@@ -76,6 +76,7 @@ hwloc                      2.10.0-r0                apk
 icu-data-full              74.2-r0                  apk     
 icu-libs                   74.2-r0                  apk     
 imath                      3.1.11-r2                apk     
+iso-codes-lang             4.16.0-r0                apk     
 jack                       1.9.22-r4                apk     
 karchive                   6.2.0-r0                 apk     
 kauth                      6.2.0-r0                 apk     
@@ -95,11 +96,11 @@ kdoctools                  6.2.0-r0                 apk
 kfilemetadata              6.2.0-r0                 apk     
 kglobalaccel               6.2.0-r0                 apk     
 kguiaddons                 6.2.0-r0                 apk     
-ki18n                      6.2.0-r0                 apk     
+ki18n                      6.2.0-r1                 apk     
 kiconthemes                6.2.0-r0                 apk     
 kio                        6.2.0-r0                 apk     
-kirigami                   6.2.1-r0                 apk     
-kirigami-libs              6.2.1-r0                 apk     
+kirigami                   6.2.1-r1                 apk     
+kirigami-libs              6.2.1-r1                 apk     
 kitemviews                 6.2.0-r0                 apk     
 kjobwidgets                6.2.0-r0                 apk     
 knewstuff                  6.2.0-r0                 apk     
@@ -290,8 +291,8 @@ qt5-qtdeclarative          5.15.10_git20230629-r0   apk
 qt5-qtsvg                  5.15.10_git20230612-r0   apk     
 qt5-qtwayland              5.15.10_git20230714-r0   apk     
 qt6-qt5compat              6.6.3-r0                 apk     
-qt6-qtbase                 6.6.3-r0                 apk     
-qt6-qtbase-x11             6.6.3-r0                 apk     
+qt6-qtbase                 6.6.3-r1                 apk     
+qt6-qtbase-x11             6.6.3-r1                 apk     
 qt6-qtdeclarative          6.6.3-r0                 apk     
 qt6-qtmultimedia           6.6.3-r0                 apk     
 qt6-qtmultimedia-ffmpeg    6.6.3-r0                 apk     
@@ -322,6 +323,7 @@ tdb-libs                   1.4.9-r1                 apk
 tiff                       4.6.0t-r0                apk     
 tinyxml2                   10.0.0-r0                apk     
 tslib                      1.23-r0                  apk     
+tzdata                     2024a-r1                 apk     
 v4l-utils-libs             1.24.1-r1                apk     
 vidstab                    1.1.1-r0                 apk     
 vulkan-loader              1.3.261.1-r0             apk     
