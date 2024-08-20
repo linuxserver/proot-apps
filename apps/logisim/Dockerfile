@@ -10,7 +10,7 @@ RUN \
     hicolor-icon-theme \
     libasound2t64 \
     libpng16-16t64 \
-    libxi6 && 
+    libxi6 && \
   LOGISIM_VERSION=$(curl -sX GET "https://api.github.com/repos/logisim-evolution/logisim-evolution/releases/latest" \
   | awk '/tag_name/{print $4;exit}' FS='[""]') && \
   curl -o \
