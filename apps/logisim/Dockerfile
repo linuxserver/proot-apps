@@ -1,5 +1,5 @@
 ARG REPO
-FROM ghcr.io/${REPO}:debian-bookworm AS rootfs
+FROM ghcr.io/${REPO}:debian-sid AS rootfs
 ARG REPO
 
 # Install packages
@@ -8,12 +8,14 @@ RUN \
   apt-get update && \
   apt-get install -y --no-install-recommends \
     hicolor-icon-theme \
-    libxi6 && \
+    libasound2t64 \
+    libpng16-16t64 \
+    libxi6 && 
   LOGISIM_VERSION=$(curl -sX GET "https://api.github.com/repos/logisim-evolution/logisim-evolution/releases/latest" \
   | awk '/tag_name/{print $4;exit}' FS='[""]') && \
   curl -o \
     /tmp/logisim.deb -L \
-    "https://github.com/logisim-evolution/logisim-evolution/releases/download/${LOGISIM_VERSION}/logisim-evolution_$( echo $LOGISIM_VERSION|sed 's/^v//g')-1_amd64.deb" && \
+    "https://github.com/logisim-evolution/logisim-evolution/releases/download/${LOGISIM_VERSION}/logisim-evolution_$( echo $LOGISIM_VERSION|sed 's/^v//g')_amd64.deb" && \
   mkdir -p \
     /usr/share/desktop-directories && \
   apt install -y --no-install-recommends \
