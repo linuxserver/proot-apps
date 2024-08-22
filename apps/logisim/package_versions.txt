@@ -130,7 +130,7 @@ libjpeg62-turbo                 1:2.1.5-3                       deb
 libjxl0.9                       0.9.2-10                        deb             
 libk5crypto3                    1.21.3-3                        deb             
 libkeyutils1                    1.6.3-3                         deb             
-libkmod2                        33+20240816-1                   deb             
+libkmod2                        33+20240816-2                   deb             
 libkrb5-3                       1.21.3-3                        deb             
 libkrb5support0                 1.21.3-3                        deb             
 liblcms2-2                      2.14-2+b1                       deb             
@@ -177,7 +177,7 @@ libpython3-stdlib               3.12.5-1                        deb
 libpython3.12-minimal           3.12.5-1                        deb             
 libpython3.12-stdlib            3.12.5-1                        deb             
 librav1e0.7                     0.7.1-4                         deb             
-libreadline8t64                 8.2-4                           deb             
+libreadline8t64                 8.2-5                           deb             
 librsvg2-2                      2.58.0+dfsg-1                   deb             
 librtmp1                        2.4+20151223.gitfa8646d.1-2+b4  deb             
 libsamplerate0                  0.2.2-4+b1                      deb             
@@ -301,7 +301,7 @@ python3                         3.12.5-1                        deb
 python3-minimal                 3.12.5-1                        deb             
 python3.12                      3.12.5-1                        deb             
 python3.12-minimal              3.12.5-1                        deb             
-readline-common                 8.2-4                           deb             
+readline-common                 8.2-5                           deb             
 sed                             4.9-2                           deb             
 shared-mime-info                2.4-5                           deb             
 slf4j-api                       2.0.16                          java-archive    
