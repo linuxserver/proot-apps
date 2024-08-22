@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Tabby
+tabby --no-sandbox "$@"
