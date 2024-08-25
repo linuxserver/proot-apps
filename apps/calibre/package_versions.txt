@@ -30,8 +30,8 @@ c-ares                     1.33.0-r0                apk
 ca-certificates-bundle     20240705-r0              apk                         
 cairo                      1.18.0-r0                apk                         
 cairo-gobject              1.18.0-r0                apk                         
-calibre                    7.16.0-r0                apk                         
-calibre-pyc                7.16.0-r0                apk                         
+calibre                    7.17.0-r0                apk                         
+calibre-pyc                7.17.0-r0                apk                         
 cdparanoia-libs            10.2-r14                 apk                         
 cfg-if                     1.0.0                    rust-crate  (+1 duplicate)  
 chardet                    5.2.0                    python                      
@@ -136,7 +136,7 @@ lab                        0.11.0                   rust-crate
 lame-libs                  3.100-r5                 apk                         
 lazy_static                1.4.0                    rust-crate                  
 lcms2                      2.16-r0                  apk                         
-libSvtAv1Enc               2.1.2-r0                 apk                         
+libSvtAv1Enc               2.2.0-r0                 apk                         
 libacl                     2.3.2-r0                 apk                         
 libassuan                  2.5.7-r0                 apk                         
 libasyncns                 0.8-r3                   apk                         
@@ -396,16 +396,16 @@ py3-xxhash                 3.4.1-r1                 apk
 py3-xxhash-pyc             3.4.1-r1                 apk                         
 py3-zeroconf               0.132.2-r0               apk                         
 py3-zeroconf-pyc           0.132.2-r0               apk                         
-pyc                        3.12.5-r0                apk                         
+pyc                        3.12.5-r1                apk                         
 pycryptodome               3.20.0                   python                      
 pygments                   2.18.0                   python                      
 pyqt6                      6.7.1                    python                      
 pyqt6-sip                  13.8.0                   python                      
 pyqt6-webengine            6.7.0                    python                      
 python-dateutil            2.9.0                    python                      
-python3                    3.12.5-r0                apk                         
-python3-pyc                3.12.5-r0                apk                         
-python3-pycache-pyc0       3.12.5-r0                apk                         
+python3                    3.12.5-r1                apk                         
+python3-pyc                3.12.5-r1                apk                         
+python3-pycache-pyc0       3.12.5-r1                apk                         
 qt6-qtbase                 6.7.2-r2                 apk                         
 qt6-qtbase-x11             6.7.2-r2                 apk                         
 qt6-qtconnectivity         6.7.2-r0                 apk                         

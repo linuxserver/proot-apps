@@ -201,10 +201,10 @@ pkgconf                               2.2.0-r0                 apk
 poco                                  1.12.4-r0                apk     
 pulseaudio                            17.0-r0                  apk     
 pulseaudio-alsa                       17.0-r0                  apk     
-pyc                                   3.12.3-r1                apk     
-python3                               3.12.3-r1                apk     
-python3-pyc                           3.12.3-r1                apk     
-python3-pycache-pyc0                  3.12.3-r1                apk     
+pyc                                   3.12.3-r2                apk     
+python3                               3.12.3-r2                apk     
+python3-pyc                           3.12.3-r2                apk     
+python3-pycache-pyc0                  3.12.3-r2                apk     
 qt5-qtbase                            5.15.10_git20230714-r2   apk     
 qt5-qtbase-sqlite                     5.15.10_git20230714-r2   apk     
 qt5-qtbase-x11                        5.15.10_git20230714-r2   apk     

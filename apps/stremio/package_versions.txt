@@ -224,7 +224,7 @@ libproxy1v5                         0.4.17-2                                 deb
 libpsl5                             0.21.0-1.2build2                         deb     
 libpulse0                           1:15.99.1+dfsg1-1ubuntu2.2               deb     
 libpulsedsp                         1:15.99.1+dfsg1-1ubuntu2.2               deb     
-libpython3-stdlib                   3.10.6-1~22.04                           deb     
+libpython3-stdlib                   3.10.6-1~22.04.1                         deb     
 libpython3.10-minimal               3.10.12-1~22.04.5                        deb     
 libpython3.10-stdlib                3.10.12-1~22.04.5                        deb     
 libqt5core5a                        5.15.3+dfsg-2ubuntu0.2                   deb     
@@ -409,8 +409,8 @@ perl-base                           5.34.0-3ubuntu1.3                        deb
 procps                              2:3.3.17-6ubuntu2.1                      deb     
 pulseaudio                          1:15.99.1+dfsg1-1ubuntu2.2               deb     
 pulseaudio-utils                    1:15.99.1+dfsg1-1ubuntu2.2               deb     
-python3                             3.10.6-1~22.04                           deb     
-python3-minimal                     3.10.6-1~22.04                           deb     
+python3                             3.10.6-1~22.04.1                         deb     
+python3-minimal                     3.10.6-1~22.04.1                         deb     
 python3.10                          3.10.12-1~22.04.5                        deb     
 python3.10-minimal                  3.10.12-1~22.04.5                        deb     
 qml-module-qt-labs-folderlistmodel  5.15.3+dfsg-1                            deb     
