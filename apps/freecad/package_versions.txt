@@ -288,10 +288,10 @@ libpyside2-py3-5.15                 5.15.8-2+b1                     deb
 libpython3-all-dev                  3.11.2-1+b1                     deb       
 libpython3-dev                      3.11.2-1+b1                     deb       
 libpython3-stdlib                   3.11.2-1+b1                     deb       
-libpython3.11                       3.11.2-6+deb12u2                deb       
-libpython3.11-dev                   3.11.2-6+deb12u2                deb       
-libpython3.11-minimal               3.11.2-6+deb12u2                deb       
-libpython3.11-stdlib                3.11.2-6+deb12u2                deb       
+libpython3.11                       3.11.2-6+deb12u3                deb       
+libpython3.11-dev                   3.11.2-6+deb12u3                deb       
+libpython3.11-minimal               3.11.2-6+deb12u3                deb       
+libpython3.11-stdlib                3.11.2-6+deb12u3                deb       
 libqhull-r8.0                       2020.2-5                        deb       
 libqt5concurrent5                   5.15.8+dfsg-11+deb12u2          deb       
 libqt5core5a                        5.15.8+dfsg-11+deb12u2          deb       
@@ -539,9 +539,9 @@ python3-tk                          3.11.2-3                        deb
 python3-tz                          2022.7.1-4                      deb       
 python3-ufolib2                     0.14.0+dfsg1-1                  deb       
 python3-yaml                        6.0-3+b2                        deb       
-python3.11                          3.11.2-6+deb12u2                deb       
-python3.11-dev                      3.11.2-6+deb12u2                deb       
-python3.11-minimal                  3.11.2-6+deb12u2                deb       
+python3.11                          3.11.2-6+deb12u3                deb       
+python3.11-dev                      3.11.2-6+deb12u3                deb       
+python3.11-minimal                  3.11.2-6+deb12u3                deb       
 pythran                             0.11.0                          python    
 pytz                                2022.7.1                        python    
 pyyaml                              6.0                             python    
