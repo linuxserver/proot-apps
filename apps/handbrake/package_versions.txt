@@ -205,7 +205,7 @@ libopenexr-3-1-30               3.1.5-5.1+b2                    deb
 libopenjp2-7                    2.5.0-2+b3                      deb     
 libopenmpt0t64                  0.7.9-1                         deb     
 libopus0                        1.5.2-2                         deb     
-liborc-0.4-0t64                 1:0.4.39-2                      deb     
+liborc-0.4-0t64                 1:0.4.39-3                      deb     
 libp11-kit0                     0.25.5-2                        deb     
 libpam-modules                  1.5.3-7                         deb     
 libpam-modules-bin              1.5.3-7                         deb     
@@ -233,7 +233,7 @@ libpython3.12-minimal           3.12.5-4                        deb
 libpython3.12-stdlib            3.12.5-4                        deb     
 libqpdf29t64                    11.9.1-1                        deb     
 librabbitmq4                    0.14.0-1                        deb     
-librav1e0.7                     0.7.1-4                         deb     
+librav1e0.7                     0.7.1-7                         deb     
 libreadline8t64                 8.2-5                           deb     
 librist4                        0.2.10+dfsg-2                   deb     
 librsvg2-2                      2.58.0+dfsg-1                   deb     

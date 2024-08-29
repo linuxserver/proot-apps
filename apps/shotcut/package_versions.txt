@@ -273,8 +273,8 @@ libpsl5                             0.21.2-1                          deb
 libpulse0                           16.1+dfsg1-2+b1                   deb     
 libpulsedsp                         16.1+dfsg1-2+b1                   deb     
 libpython3-stdlib                   3.11.2-1+b1                       deb     
-libpython3.11-minimal               3.11.2-6+deb12u2                  deb     
-libpython3.11-stdlib                3.11.2-6+deb12u2                  deb     
+libpython3.11-minimal               3.11.2-6+deb12u3                  deb     
+libpython3.11-stdlib                3.11.2-6+deb12u3                  deb     
 libqhull-r8.0                       2020.2-5                          deb     
 libqt5core5a                        5.15.8+dfsg-11+deb12u2            deb     
 libqt5dbus5                         5.15.8+dfsg-11+deb12u2            deb     
@@ -470,8 +470,8 @@ pulseaudio                          16.1+dfsg1-2+b1                   deb
 pulseaudio-utils                    16.1+dfsg1-2+b1                   deb     
 python3                             3.11.2-1+b1                       deb     
 python3-minimal                     3.11.2-1+b1                       deb     
-python3.11                          3.11.2-6+deb12u2                  deb     
-python3.11-minimal                  3.11.2-6+deb12u2                  deb     
+python3.11                          3.11.2-6+deb12u3                  deb     
+python3.11-minimal                  3.11.2-6+deb12u3                  deb     
 qml-module-qt-labs-folderlistmodel  5.15.8+dfsg-3                     deb     
 qml-module-qt-labs-settings         5.15.8+dfsg-3                     deb     
 qml-module-qtgraphicaleffects       5.15.8-2                          deb     

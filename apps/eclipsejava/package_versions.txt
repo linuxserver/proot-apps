@@ -353,8 +353,8 @@ libpsl5                                                                 0.21.2-1
 libpulse0                                                               16.1+dfsg1-2+b1                 deb                           
 libpulsedsp                                                             16.1+dfsg1-2+b1                 deb                           
 libpython3-stdlib                                                       3.11.2-1+b1                     deb                           
-libpython3.11-minimal                                                   3.11.2-6+deb12u2                deb                           
-libpython3.11-stdlib                                                    3.11.2-6+deb12u2                deb                           
+libpython3.11-minimal                                                   3.11.2-6+deb12u3                deb                           
+libpython3.11-stdlib                                                    3.11.2-6+deb12u3                deb                           
 librav1e0                                                               0.5.1-6                         deb                           
 libreadline8                                                            8.2-1.3                         deb                           
 librsvg2-2                                                              2.54.7+dfsg-1~deb12u1           deb                           
@@ -1036,8 +1036,8 @@ pulseaudio                                                              16.1+dfs
 pulseaudio-utils                                                        16.1+dfsg1-2+b1                 deb                           
 python3                                                                 3.11.2-1+b1                     deb                           
 python3-minimal                                                         3.11.2-1+b1                     deb                           
-python3.11                                                              3.11.2-6+deb12u2                deb                           
-python3.11-minimal                                                      3.11.2-6+deb12u2                deb                           
+python3.11                                                              3.11.2-6+deb12u3                deb                           
+python3.11-minimal                                                      3.11.2-6+deb12u3                deb                           
 readline-common                                                         8.2-1.3                         deb                           
 regiondata                                                              75.1                            java-archive                  
 remote                                                                                                  java-archive                  

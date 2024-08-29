@@ -4,7 +4,7 @@ NAME                                       VERSION                         TYPE
 @arr/every                                 1.0.1                           npm                      
 @azure/msal-common                         14.14.1                         npm                      
 @azure/msal-node                           2.13.0                          npm                      
-@babel/runtime                             7.25.0                          npm                      
+@babel/runtime                             7.25.4                          npm                      
 @colors/colors                             1.6.0                           npm                      
 @electron/remote                           2.1.2                           npm                      
 @faker-js/faker                            5.5.3                           npm                      
@@ -71,12 +71,12 @@ NAME                                       VERSION                         TYPE
 @types/json-schema                         7.0.15                          npm                      
 @types/lodash                              4.17.7                          npm                      
 @types/lodash.set                          4.3.9                           npm                      
-@types/node                                22.4.1                          npm                      
+@types/node                                22.5.0                          npm                      
 @types/readable-stream                     4.0.15                          npm                      
 @types/stack-trace                         0.0.29                          npm                      
 @types/triple-beam                         1.3.5                           npm                      
 @types/ws                                  8.5.12                          npm                      
-Postman                                    11.9.0                          npm                      
+Postman                                    11.10.0                         npm                      
 abort-controller                           3.0.0                           npm                      
 accepts                                    1.3.8                           npm                      
 adduser                                    3.134                           deb                      
@@ -111,7 +111,7 @@ bash                                       5.2.15-2+b7                     deb
 bcrypt-pbkdf                               1.0.2                           npm                      
 beep-boop                                  1.2.3                           npm                      
 binary-search-tree                         0.2.5                           npm                      
-bl                                         4.1.0                           npm     (+1 duplicate)   
+bl                                         4.1.0                           npm                      
 bl                                         5.1.0                           npm                      
 blob                                       0.0.5                           npm                      
 bluebird                                   2.11.0                          npm                      
@@ -119,7 +119,7 @@ brace-expansion                            1.1.11                          npm
 brace-expansion                            2.0.1                           npm                      
 brotli                                     1.3.3                           npm                      
 bsdutils                                   1:2.38.1-5+deb12u1              deb                      
-buffer                                     5.7.1                           npm     (+1 duplicate)   
+buffer                                     5.7.1                           npm                      
 buffer                                     6.0.3                           npm                      
 buffer-equal-constant-time                 1.0.1                           npm                      
 buffer-from                                1.1.2                           npm                      
@@ -155,7 +155,6 @@ concat-stream                              2.0.0                           npm
 cookie                                     0.3.1                           npm                      
 cookie                                     0.4.2                           npm                      
 core-util-is                               1.0.2                           npm                      
-core-util-is                               1.0.3                           npm                      
 coreutils                                  9.1-1                           deb                      
 cors                                       2.8.5                           npm                      
 create-hash                                1.2.0                           npm                      
@@ -173,9 +172,9 @@ dconf-service                              0.40.0-4                        deb
 debconf                                    1.5.82                          deb                      
 debian-archive-keyring                     2023.3+deb12u1                  deb                      
 debianutils                                5.7-0.5~deb12u1                 deb                      
-debug                                      3.1.0                           npm     (+3 duplicates)  
+debug                                      3.1.0                           npm     (+2 duplicates)  
 debug                                      3.2.7                           npm                      
-debug                                      4.1.1                           npm     (+1 duplicate)   
+debug                                      4.1.1                           npm     (+2 duplicates)  
 debug                                      4.3.6                           npm                      
 decompress-response                        6.0.0                           npm                      
 deep-extend                                0.6.0                           npm                      
@@ -288,12 +287,12 @@ init-system-helpers                        1.65.2                          deb
 interpret                                  1.4.0                           npm                      
 is-arrayish                                0.3.2                           npm                      
 is-buffer                                  1.1.6                           npm                      
-is-core-module                             2.15.0                          npm                      
+is-core-module                             2.15.1                          npm                      
 is-fullwidth-code-point                    3.0.0                           npm                      
 is-stream                                  1.1.0                           npm                      
 is-typedarray                              1.0.0                           npm                      
-isarray                                    1.0.0                           npm                      
-isarray                                    2.0.1                           npm     (+2 duplicates)  
+isarray                                    1.0.0                           npm     (+1 duplicate)   
+isarray                                    2.0.1                           npm     (+3 duplicates)  
 isexe                                      2.0.0                           npm                      
 iso-codes                                  4.15.0-1                        deb                      
 isstream                                   0.1.2                           npm                      
@@ -495,8 +494,8 @@ libpthread-stubs0-dev                      0.4-1                           deb
 libpulse0                                  16.1+dfsg1-2+b1                 deb                      
 libpulsedsp                                16.1+dfsg1-2+b1                 deb                      
 libpython3-stdlib                          3.11.2-1+b1                     deb                      
-libpython3.11-minimal                      3.11.2-6+deb12u2                deb                      
-libpython3.11-stdlib                       3.11.2-6+deb12u2                deb                      
+libpython3.11-minimal                      3.11.2-6+deb12u3                deb                      
+libpython3.11-stdlib                       3.11.2-6+deb12u3                deb                      
 librav1e0                                  0.5.1-6                         deb                      
 libreadline8                               8.2-1.3                         deb                      
 librsvg2-2                                 2.54.7+dfsg-1~deb12u1           deb                      
@@ -663,9 +662,8 @@ mqtt                                       4.3.8                           npm
 mqtt                                       5.1.4                           npm                      
 mqtt-packet                                6.10.0                          npm                      
 mqtt-packet                                8.2.1                           npm                      
-ms                                         2.0.0                           npm     (+3 duplicates)  
+ms                                         2.0.0                           npm     (+2 duplicates)  
 ms                                         2.1.2                           npm                      
-ms                                         2.1.3                           npm                      
 mylib                                      0.0.0                           npm                      
 nanoid                                     2.1.11                          npm                      
 napi-build-utils                           1.0.2                           npm                      
@@ -675,7 +673,7 @@ nedb                                       1.8.0                           npm
 negotiator                                 0.6.3                           npm                      
 neo-async                                  2.6.2                           npm                      
 netcat-openbsd                             1.219-1                         deb                      
-node-abi                                   3.65.0                          npm                      
+node-abi                                   3.67.0                          npm                      
 node-addon-api                             4.3.0                           npm                      
 node-fetch                                 2.7.0                           npm                      
 node-forge                                 0.10.0                          npm                      
@@ -730,14 +728,14 @@ python3-distutils                          3.11.2-3                        deb
 python3-lib2to3                            3.11.2-3                        deb                      
 python3-minimal                            3.11.2-1+b1                     deb                      
 python3-xdg                                0.28-2                          deb                      
-python3.11                                 3.11.2-6+deb12u2                deb                      
-python3.11-minimal                         3.11.2-6+deb12u2                deb                      
+python3.11                                 3.11.2-6+deb12u3                deb                      
+python3.11-minimal                         3.11.2-6+deb12u3                deb                      
 pyxdg                                      0.28                            python                   
 qs                                         6.5.3                           npm                      
 querystringify                             2.2.0                           npm                      
 rc                                         1.2.8                           npm                      
-readable-stream                            2.3.8                           npm                      
-readable-stream                            3.6.2                           npm     (+8 duplicates)  
+readable-stream                            2.3.8                           npm     (+1 duplicate)   
+readable-stream                            3.6.2                           npm                      
 readable-stream                            4.5.2                           npm                      
 readable-web-to-node-stream                3.0.2                           npm                      
 readline-common                            8.2-1.3                         deb                      
@@ -777,7 +775,7 @@ socket.io                                  2.5.1                           npm
 socket.io-adapter                          1.1.2                           npm                      
 socket.io-client                           2.5.0                           npm     (+1 duplicate)   
 socket.io-client                           4.7.5                           npm     (+2 duplicates)  
-socket.io-parser                           3.3.4                           npm                      
+socket.io-parser                           3.3.4                           npm     (+1 duplicate)   
 socket.io-parser                           3.4.3                           npm                      
 socket.io-parser                           4.2.4                           npm                      
 source-map                                 0.6.1                           npm                      
@@ -789,7 +787,7 @@ stack-trace                                0.0.9                           npm
 stream-length                              1.0.2                           npm                      
 stream-shift                               1.0.3                           npm                      
 string-width                               4.2.3                           npm                      
-string_decoder                             1.1.1                           npm                      
+string_decoder                             1.1.1                           npm     (+1 duplicate)   
 string_decoder                             1.3.0                           npm                      
 strip-ansi                                 6.0.1                           npm                      
 strip-json-comments                        2.0.1                           npm                      
@@ -800,7 +798,7 @@ subscriptions-transport-ws                 0.11.0                          npm
 sudo-prompt                                9.2.1                           npm                      
 supports-preserve-symlinks-flag            1.0.0                           npm                      
 symbol-observable                          1.2.0                           npm                      
-systeminformation                          5.23.4                          npm                      
+systeminformation                          5.23.5                          npm                      
 sysvinit-utils                             3.06-4                          deb                      
 tar                                        1.34+dfsg-1.2+deb12u1           deb                      
 tar-fs                                     2.1.1                           npm                      
@@ -822,10 +820,9 @@ tweetnacl                                  0.14.5                          npm
 typedarray                                 0.0.6                           npm                      
 tzdata                                     2024a-0+deb12u1                 deb                      
 udev                                       252.26-1~deb12u2                deb                      
-uglify-js                                  3.19.2                          npm                      
 underscore                                 1.12.1                          npm                      
 underscore                                 1.4.4                           npm                      
-undici-types                               6.19.6                          npm                      
+undici-types                               6.19.8                          npm                      
 universalify                               0.2.0                           npm                      
 unzip-crx-3                                0.2.0                           npm                      
 uri-js                                     4.4.1                           npm                      
