@@ -1,6 +1,6 @@
 NAME                            VERSION                         TYPE   
 adduser                         3.137                           deb     
-adwaita-icon-theme              46.0-1                          deb     
+adwaita-icon-theme              47~beta-1                       deb     
 apt                             2.9.7                           deb     
 at-spi2-common                  2.53.1-2                        deb     
 base-files                      13.5                            deb     
