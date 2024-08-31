@@ -131,7 +131,7 @@ ivf                        0.1.3                    rust-crate
 jeepney                    0.8.0                    python                      
 json-c                     0.17-r0                  apk                         
 keyutils-libs              1.6.3-r3                 apk                         
-kmod-libs                  32-r2                    apk                         
+kmod-libs                  32-r3                    apk                         
 lab                        0.11.0                   rust-crate                  
 lame-libs                  3.100-r5                 apk                         
 lazy_static                1.4.0                    rust-crate                  
@@ -261,7 +261,7 @@ linux-raw-sys              0.4.12                   rust-crate
 llvm18-libs                18.1.8-r0                apk                         
 log                        0.4.20                   rust-crate                  
 lxml                       5.1.0                    python                      
-markdown                   3.6                      python                      
+markdown                   3.7                      python                      
 maybe-rayon                0.1.1                    rust-crate                  
 mbedtls                    3.6.0-r0                 apk                         
 mechanize                  0.4.9                    python                      
@@ -364,8 +364,8 @@ py3-jeepney                0.8.0-r4                 apk
 py3-jeepney-pyc            0.8.0-r4                 apk                         
 py3-lxml                   5.1.0-r0                 apk                         
 py3-lxml-pyc               5.1.0-r0                 apk                         
-py3-markdown               3.6-r0                   apk                         
-py3-markdown-pyc           3.6-r0                   apk                         
+py3-markdown               3.7-r0                   apk                         
+py3-markdown-pyc           3.7-r0                   apk                         
 py3-mechanize              0.4.9-r1                 apk                         
 py3-mechanize-pyc          0.4.9-r1                 apk                         
 py3-msgpack                1.0.8-r1                 apk                         
