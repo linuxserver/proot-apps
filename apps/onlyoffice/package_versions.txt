@@ -39,7 +39,7 @@ gpgv                            2.2.40-1.1                      deb
 grep                            3.8-5                           deb     
 gstreamer1.0-libav              1.22.0-2                        deb     
 gstreamer1.0-plugins-ugly       1.22.0-2+deb12u1                deb     
-gtk-update-icon-cache           3.24.38-2~deb12u1               deb     
+gtk-update-icon-cache           3.24.38-2~deb12u2               deb     
 gzip                            1.12-1                          deb     
 hicolor-icon-theme              0.17-2                          deb     
 hostname                        3.23+nmu1                       deb     
@@ -90,7 +90,7 @@ libcodec2-1.0                   1.0.5-1                         deb
 libcolord2                      1.4.6-2.2                       deb     
 libcom-err2                     1.47.0-2                        deb     
 libcrypt1                       1:4.4.33-2                      deb     
-libcups2                        2.4.2-3+deb12u5                 deb     
+libcups2                        2.4.2-3+deb12u7                 deb     
 libcurl4                        7.88.1-10+deb12u6               deb     
 libdatrie1                      0.2.13-2+b1                     deb     
 libdav1d6                       1.0.0-2+deb12u1                 deb     
@@ -145,8 +145,8 @@ libgsm1                         1.0.22-1                        deb
 libgssapi-krb5-2                1.20.1-2+deb12u2                deb     
 libgstreamer-plugins-base1.0-0  1.22.0-3+deb12u2                deb     
 libgstreamer1.0-0               1.22.0-2                        deb     
-libgtk-3-0                      3.24.38-2~deb12u1               deb     
-libgtk-3-common                 3.24.38-2~deb12u1               deb     
+libgtk-3-0                      3.24.38-2~deb12u2               deb     
+libgtk-3-common                 3.24.38-2~deb12u2               deb     
 libharfbuzz0b                   6.0.0+dfsg-3                    deb     
 libhogweed6                     3.8.1-2                         deb     
 libhwy1                         1.0.3-3+deb12u1                 deb     

@@ -45,7 +45,7 @@ gir1.2-ayatanaappindicator3-0.1  0.5.92-1                         deb
 gir1.2-freedesktop               1.74.0-3                         deb       
 gir1.2-gdkpixbuf-2.0             2.42.10+dfsg-1+deb12u1           deb       
 gir1.2-glib-2.0                  1.74.0-3                         deb       
-gir1.2-gtk-3.0                   3.24.38-2~deb12u1                deb       
+gir1.2-gtk-3.0                   3.24.38-2~deb12u2                deb       
 gir1.2-harfbuzz-0.0              6.0.0+dfsg-3                     deb       
 gir1.2-pango-1.0                 1.50.12+ds-1                     deb       
 glib-networking                  2.74.0-4                         deb       
@@ -56,7 +56,7 @@ grep                             3.8-5                            deb
 gsettings-desktop-schemas        43.0-1                           deb       
 gstreamer1.0-plugins-base        1.22.0-3+deb12u2                 deb       
 gstreamer1.0-plugins-good        1.22.0-5+deb12u1                 deb       
-gtk-update-icon-cache            3.24.38-2~deb12u1                deb       
+gtk-update-icon-cache            3.24.38-2~deb12u2                deb       
 gzip                             1.12-1                           deb       
 hicolor-icon-theme               0.17-2                           deb       
 hostname                         3.23+nmu1                        deb       
@@ -123,7 +123,7 @@ libcodec2-1.0                    1.0.5-1                          deb
 libcolord2                       1.4.6-2.2                        deb       
 libcom-err2                      1.47.0-2                         deb       
 libcrypt1                        1:4.4.33-2                       deb       
-libcups2                         2.4.2-3+deb12u5                  deb       
+libcups2                         2.4.2-3+deb12u7                  deb       
 libcurl4                         7.88.1-10+deb12u6                deb       
 libdaemon0                       0.14-7.1                         deb       
 libdatrie1                       0.2.13-2+b1                      deb       
@@ -195,8 +195,8 @@ libgstreamer-gl1.0-0             1.22.0-3+deb12u2                 deb
 libgstreamer-plugins-bad1.0-0    1.22.0-4+deb12u5                 deb       
 libgstreamer-plugins-base1.0-0   1.22.0-3+deb12u2                 deb       
 libgstreamer1.0-0                1.22.0-2                         deb       
-libgtk-3-0                       3.24.38-2~deb12u1                deb       
-libgtk-3-common                  3.24.38-2~deb12u1                deb       
+libgtk-3-0                       3.24.38-2~deb12u2                deb       
+libgtk-3-common                  3.24.38-2~deb12u2                deb       
 libgudev-1.0-0                   237-2                            deb       
 libgupnp-1.6-0                   1.6.3-1                          deb       
 libgupnp-igd-1.0-4               1.2.0-3                          deb       
