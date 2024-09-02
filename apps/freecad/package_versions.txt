@@ -348,12 +348,12 @@ libspnav0                           1.0-1                           deb
 libsqlite3-0                        3.40.1-2                        deb       
 libss2                              1.47.0-2                        deb       
 libssh2-1                           1.10.0-3+b1                     deb       
-libssl3                             3.0.13-1~deb12u1                deb       
+libssl3                             3.0.14-1~deb12u1                deb       
 libstdc++-12-dev                    12.2.0-14                       deb       
 libstdc++6                          12.2.0-14                       deb       
 libsvtav1enc1                       1.4.1+dfsg-1                    deb       
 libswresample4                      7:5.1.6-0+deb12u1               deb       
-libsystemd0                         252.26-1~deb12u2                deb       
+libsystemd0                         252.30-1~deb12u2                deb       
 libsz2                              1.0.6-1+b1                      deb       
 libtasn1-6                          4.19.0-2                        deb       
 libtbb12                            2021.8.0-2                      deb       
@@ -374,7 +374,7 @@ libtsan2                            12.2.0-14                       deb
 libtwolame0                         0.4.0-2                         deb       
 libubsan1                           12.2.0-14                       deb       
 libucx0                             1.13.1-1                        deb       
-libudev1                            252.26-1~deb12u2                deb       
+libudev1                            252.30-1~deb12u2                deb       
 libunistring2                       1.0-2                           deb       
 libunwind8                          1.6.2-3                         deb       
 libuuid1                            2.38.1-5+deb12u1                deb       
@@ -474,7 +474,7 @@ netcat-openbsd                      1.219-1                         deb
 numpy                               1.24.2                          python    
 occt-misc                           7.6.3+dfsg1-7                   deb       
 ocl-icd-libopencl1                  2.3.1-1                         deb       
-openssl                             3.0.13-1~deb12u1                deb       
+openssl                             3.0.14-1~deb12u1                deb       
 packaging                           23.0                            python    
 passwd                              1:4.13+dfsg1-1+b1               deb       
 perl-base                           5.36.0-7+deb12u1                deb       
@@ -557,7 +557,7 @@ sysvinit-utils                      3.06-4                          deb
 tar                                 1.34+dfsg-1.2+deb12u1           deb       
 tk8.6-blt2.5                        2.5.3+dfsg-4.1                  deb       
 tzdata                              2024a-0+deb12u1                 deb       
-udev                                252.26-1~deb12u2                deb       
+udev                                252.30-1~deb12u2                deb       
 ufolib2                             0.14.0                          python    
 unicode-data                        15.0.0-1                        deb       
 usr-is-merged                       37~deb12u1                      deb       

@@ -9,7 +9,7 @@ bash                            5.2.15-2+b7                      deb
 bsdutils                        1:2.38.1-5+deb12u1               deb     
 ca-certificates                 20230311                         deb     
 coreutils                       9.1-1                            deb     
-curl                            7.88.1-10+deb12u6                deb     
+curl                            7.88.1-10+deb12u7                deb     
 dash                            0.5.12-2                         deb     
 dbus                            1.14.10-1~deb12u1                deb     
 dbus-bin                        1.14.10-1~deb12u1                deb     
@@ -100,7 +100,7 @@ libcom-err2                     1.47.0-2                         deb
 libcrypt1                       1:4.4.33-2                       deb     
 libcryptsetup12                 2:2.6.1-4~deb12u2                deb     
 libcups2                        2.4.2-3+deb12u7                  deb     
-libcurl4                        7.88.1-10+deb12u6                deb     
+libcurl4                        7.88.1-10+deb12u7                deb     
 libdatrie1                      0.2.13-2+b1                      deb     
 libdav1d6                       1.0.0-2+deb12u1                  deb     
 libdb5.3                        5.3.28+dfsg2-1                   deb     
@@ -357,7 +357,7 @@ libspeexdsp1                    1.2.1-1                          deb
 libsqlite3-0                    3.40.1-2                         deb     
 libss2                          1.47.0-2                         deb     
 libssh2-1                       1.10.0-3+b1                      deb     
-libssl3                         3.0.13-1~deb12u1                 deb     
+libssl3                         3.0.14-1~deb12u1                 deb     
 libstdc++6                      12.2.0-14                        deb     
 libsvtav1enc1                   1.4.1+dfsg-1                     deb     
 libswresample4                  7:5.1.6-0+deb12u1                deb     
@@ -466,7 +466,7 @@ ncurses-base                    6.4-4                            deb
 ncurses-bin                     6.4-4                            deb     
 netcat-openbsd                  1.219-1                          deb     
 ocl-icd-libopencl1              2.3.1-1                          deb     
-openssl                         3.0.13-1~deb12u1                 deb     
+openssl                         3.0.14-1~deb12u1                 deb     
 passwd                          1:4.13+dfsg1-1+b1                deb     
 perl                            5.36.0-7+deb12u1                 deb     
 perl-base                       5.36.0-7+deb12u1                 deb     
