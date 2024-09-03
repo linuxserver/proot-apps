@@ -16,7 +16,7 @@ arrayvec                   0.7.4                    rust-crate  (+1 duplicate)
 at-spi2-core               2.52.0-r0                apk                         
 av-metrics                 0.9.1                    rust-crate                  
 av1-grain                  0.2.3                    rust-crate                  
-avahi-libs                 0.8-r17                  apk                         
+avahi-libs                 0.8-r18                  apk                         
 bash                       5.2.32-r0                apk                         
 beautifulsoup4             4.12.3                   python                      
 bitflags                   2.4.1                    rust-crate  (+1 duplicate)  
@@ -168,9 +168,9 @@ libexpat                   2.6.2-r0                 apk
 libfdisk                   2.40.2-r0                apk                         
 libffi                     3.4.6-r0                 apk                         
 libflac                    1.4.3-r1                 apk                         
-libgcc                     14.2.0-r1                apk                         
+libgcc                     14.2.0-r2                apk                         
 libgcrypt                  1.10.3-r0                apk                         
-libgomp                    14.2.0-r1                apk                         
+libgomp                    14.2.0-r2                apk                         
 libgpg-error               1.50-r0                  apk                         
 libgudev                   238-r0                   apk                         
 libhunspell                1.7.2-r4                 apk                         
@@ -211,7 +211,7 @@ libsodium                  1.0.20-r0                apk
 libsrt                     1.5.3-r0                 apk                         
 libssh                     0.10.6-r0                apk                         
 libssl3                    3.3.1-r3                 apk                         
-libstdc++                  14.2.0-r1                apk                         
+libstdc++                  14.2.0-r2                apk                         
 libstemmer                 2.2.0-r0                 apk                         
 libtasn1                   4.19.0-r2                apk                         
 libtheora                  1.1.1-r18                apk                         
@@ -297,7 +297,7 @@ nom                        7.1.3                    rust-crate
 noop_proc_macro            0.3.0                    rust-crate                  
 npth                       1.6-r4                   apk                         
 nspr                       4.35-r4                  apk                         
-nss                        3.103-r0                 apk                         
+nss                        3.104-r0                 apk                         
 num-bigint                 0.4.4                    rust-crate                  
 num-derive                 0.4.1                    rust-crate                  
 num-integer                0.1.45                   rust-crate                  

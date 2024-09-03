@@ -160,7 +160,7 @@ libmp3lame0                     3.100-6+b2                      deb
 libmpg123-0t64                  1.32.7-1                        deb     
 libncursesw6                    6.5-2                           deb     
 libnettle8t64                   3.10-1                          deb     
-libnghttp2-14                   1.62.1-2                        deb     
+libnghttp2-14                   1.63.0-1                        deb     
 libnghttp3-9                    1.4.0-1                         deb     
 libngtcp2-16                    1.6.0-1                         deb     
 libngtcp2-crypto-gnutls8        1.6.0-1                         deb     
