@@ -8,7 +8,7 @@ anstyle                    1.0.4                    rust-crate
 anstyle-parse              0.2.3                    rust-crate    
 anstyle-query              1.0.2                    rust-crate    
 anyhow                     1.0.79                   rust-crate    
-aom-libs                   3.9.1-r0                 apk           
+aom-libs                   3.10.0-r0                apk           
 apk-tools                  2.14.4-r2                apk           
 arg_enum_proc_macro        0.3.4                    rust-crate    
 arrayvec                   0.7.4                    rust-crate    
@@ -25,7 +25,7 @@ busybox-binsh              1.36.1-r31               apk
 c-ares                     1.33.1-r0                apk           
 ca-certificates-bundle     20240705-r0              apk           
 cairo                      1.18.0-r0                apk           
-cairo-gobject              1.18.0-r0                apk           
+cairo-gobject              1.18.2-r0                apk           
 cdparanoia-libs            10.2-r14                 apk           
 cfg-if                     1.0.0                    rust-crate    
 clap                       4.4.14                   rust-crate    

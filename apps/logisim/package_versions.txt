@@ -206,8 +206,8 @@ libssl3t64                      3.3.1-7                         deb
 libstdc++6                      14.2.0-4                        deb             
 libsvtav1enc2                   2.1.0+dfsg-2                    deb             
 libswresample5                  7:7.0.2-3                       deb             
-libsystemd-shared               256.5-1                         deb             
-libsystemd0                     256.5-1                         deb             
+libsystemd-shared               256.5-2                         deb             
+libsystemd0                     256.5-2                         deb             
 libtasn1-6                      4.19.0-3+b2                     deb             
 libtdb1                         1.4.12-1                        deb             
 libthai-data                    0.1.29-2                        deb             
@@ -218,7 +218,7 @@ libtinfo6                       6.5-2                           deb
 libtirpc-common                 1.3.4+ds-1.3                    deb             
 libtirpc3t64                    1.3.4+ds-1.3                    deb             
 libtwolame0                     0.4.0-2+b1                      deb             
-libudev1                        256.5-1                         deb             
+libudev1                        256.5-2                         deb             
 libunistring5                   1.2-1                           deb             
 libunwind8                      1.6.2-3.1                       deb             
 libuuid1                        2.40.2-6                        deb             
@@ -315,11 +315,11 @@ swingx-core                     1.6.8                           java-archive
 swingx-graphics                 1.6.8                           java-archive    
 swingx-painters                 1.6.8                           java-archive    
 swingx-plaf                     1.6.8                           java-archive    
-systemd                         256.5-1                         deb             
+systemd                         256.5-2                         deb             
 sysvinit-utils                  3.10-1                          deb             
 tar                             1.35+dfsg-3                     deb             
 tzdata                          2024a-4                         deb             
-udev                            256.5-1                         deb             
+udev                            256.5-2                         deb             
 usr-is-merged                   39                              deb             
 util-linux                      2.40.2-6                        deb             
 x11-common                      1:7.7+23.1                      deb             

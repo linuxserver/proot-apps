@@ -3,7 +3,7 @@ alpine-baselayout            3.6.6-r0                 apk
 alpine-baselayout-data       3.6.6-r0                 apk     
 alpine-keys                  2.4-r1                   apk     
 alsa-lib                     1.2.12-r0                apk     
-aom-libs                     3.9.1-r0                 apk     
+aom-libs                     3.10.0-r0                apk     
 apk-tools                    2.14.4-r2                apk     
 at-spi2-core                 2.52.0-r0                apk     
 avahi-libs                   0.8-r18                  apk     
@@ -14,7 +14,7 @@ busybox-binsh                1.36.1-r31               apk
 c-ares                       1.33.1-r0                apk     
 ca-certificates-bundle       20240705-r0              apk     
 cairo                        1.18.0-r0                apk     
-cairo-gobject                1.18.0-r0                apk     
+cairo-gobject                1.18.2-r0                apk     
 cdparanoia-libs              10.2-r14                 apk     
 cups-libs                    2.4.10-r0                apk     
 curl                         8.9.1-r1                 apk     
