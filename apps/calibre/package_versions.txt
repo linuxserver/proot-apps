@@ -28,7 +28,7 @@ busybox-binsh              1.36.1-r31               apk
 bytemuck                   1.14.0                   rust-crate                  
 c-ares                     1.33.1-r0                apk                         
 ca-certificates-bundle     20240705-r0              apk                         
-cairo                      1.18.0-r0                apk                         
+cairo                      1.18.2-r0                apk                         
 cairo-gobject              1.18.2-r0                apk                         
 calibre                    7.17.0-r0                apk                         
 calibre-pyc                7.17.0-r0                apk                         
@@ -52,7 +52,7 @@ crossbeam-epoch            0.9.18                   rust-crate
 crossbeam-queue            0.3.11                   rust-crate                  
 crossbeam-utils            0.8.16                   rust-crate                  
 crossbeam-utils            0.8.19                   rust-crate                  
-cryptsetup-libs            2.7.4-r0                 apk                         
+cryptsetup-libs            2.7.5-r0                 apk                         
 css-parser                 1.0.10                   python                      
 cssselect                  1.2.0                    python                      
 cups-libs                  2.4.10-r0                apk                         
@@ -162,7 +162,7 @@ libdrm                     2.4.123-r0               apk
 libeconf                   0.6.3-r0                 apk                         
 libelf                     0.191-r0                 apk                         
 libepoxy                   1.5.10-r1                apk                         
-libevdev                   1.13.2-r0                apk                         
+libevdev                   1.13.3-r0                apk                         
 libevent                   2.1.12-r7                apk                         
 libexpat                   2.6.2-r0                 apk                         
 libfdisk                   2.40.2-r0                apk                         
@@ -336,8 +336,8 @@ pulseaudio                 17.0-r3                  apk
 pulseaudio-alsa            17.0-r3                  apk                         
 py3-apsw                   3.45.2.0-r1              apk                         
 py3-apsw-pyc               3.45.2.0-r1              apk                         
-py3-beautifulsoup4         4.12.3-r2                apk                         
-py3-beautifulsoup4-pyc     4.12.3-r2                apk                         
+py3-beautifulsoup4         4.12.3-r3                apk                         
+py3-beautifulsoup4-pyc     4.12.3-r3                apk                         
 py3-chardet                5.2.0-r1                 apk                         
 py3-chardet-pyc            5.2.0-r1                 apk                         
 py3-css-parser             1.0.10-r1                apk                         

@@ -73,9 +73,9 @@ libbsd0                         0.12.2-1                        deb
 libbz2-1.0                      1.0.8-5.1                       deb     
 libc-bin                        2.39-6                          deb     
 libc6                           2.39-6                          deb     
-libcairo-gobject2               1.18.0-3+b1                     deb     
-libcairo-script-interpreter2    1.18.0-3+b1                     deb     
-libcairo2                       1.18.0-3+b1                     deb     
+libcairo-gobject2               1.18.2-1                        deb     
+libcairo-script-interpreter2    1.18.2-1                        deb     
+libcairo2                       1.18.2-1                        deb     
 libcap-ng0                      0.8.5-1+b1                      deb     
 libcap2                         1:2.66-5                        deb     
 libcap2-bin                     1:2.66-5                        deb     
@@ -267,7 +267,7 @@ libsqlite3-0                    3.46.1-1                        deb
 libsratom-0-0                   0.6.16-1+b1                     deb     
 libsrt1.5-gnutls                1.5.3-1+b2                      deb     
 libss2                          1.47.1-1                        deb     
-libssh-4                        0.10.6-3                        deb     
+libssh-4                        0.11.1-1                        deb     
 libssh2-1t64                    1.11.0-7                        deb     
 libssl3t64                      3.3.1-7                         deb     
 libstdc++6                      14.2.0-4                        deb     
