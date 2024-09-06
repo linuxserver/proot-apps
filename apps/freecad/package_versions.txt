@@ -3,7 +3,7 @@ adduser                             3.134                           deb
 appdirs                             1.4.4                           python    
 apt                                 2.6.1                           deb       
 attrs                               22.2.0                          python    
-base-files                          12.4+deb12u6                    deb       
+base-files                          12.4+deb12u7                    deb       
 base-passwd                         3.6.1                           deb       
 bash                                5.2.15-2+b7                     deb       
 beniget                             0.4.1                           python    
