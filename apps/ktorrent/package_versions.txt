@@ -40,7 +40,7 @@ freetype                   2.13.2-r0                apk
 fribidi                    1.0.15-r0                apk     
 gdbm                       1.23-r1                  apk     
 gdk-pixbuf                 2.42.11-r1               apk     
-glib                       2.80.2-r0                apk     
+glib                       2.80.4-r0                apk     
 gmp                        6.3.0-r1                 apk     
 gnutls                     3.8.5-r0                 apk     
 graphene                   1.10.8-r4                apk     
@@ -106,7 +106,7 @@ libeconf                   0.6.3-r0                 apk
 libelf                     0.191-r0                 apk     
 libepoxy                   1.5.10-r1                apk     
 libevdev                   1.13.1-r0                apk     
-libexpat                   2.6.2-r0                 apk     
+libexpat                   2.6.3-r0                 apk     
 libffi                     3.4.6-r0                 apk     
 libflac                    1.4.3-r1                 apk     
 libgcc                     13.2.1_git20240309-r0    apk     
@@ -232,7 +232,7 @@ ssl_client                 1.36.1-r29               apk
 tdb-libs                   1.4.9-r1                 apk     
 tiff                       4.6.0t-r0                apk     
 tslib                      1.23-r0                  apk     
-tzdata                     2024a-r1                 apk     
+tzdata                     2024b-r0                 apk     
 wayland-libs-client        1.22.0-r4                apk     
 wayland-libs-cursor        1.22.0-r4                apk     
 wayland-libs-egl           1.22.0-r4                apk     
