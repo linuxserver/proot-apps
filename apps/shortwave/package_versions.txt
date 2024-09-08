@@ -88,7 +88,7 @@ libbluray                  1.3.4-r1                 apk
 libbsd                     0.12.2-r0                apk     
 libbz2                     1.0.8-r6                 apk     
 libcap2                    2.70-r0                  apk     
-libcrypto3                 3.3.1-r3                 apk     
+libcrypto3                 3.3.2-r0                 apk     
 libcurl                    8.9.1-r1                 apk     
 libdav1d                   1.4.2-r0                 apk     
 libdc1394                  2.2.7-r0                 apk     
@@ -144,7 +144,7 @@ libsoup3                   3.4.4-r0                 apk
 libsrt                     1.5.3-r0                 apk     
 libsrtp                    2.5.0-r1                 apk     
 libssh                     0.10.6-r0                apk     
-libssl3                    3.3.1-r3                 apk     
+libssl3                    3.3.2-r0                 apk     
 libstdc++                  13.2.1_git20240309-r0    apk     
 libtag                     1.13.1-r0                apk     
 libtasn1                   4.19.0-r2                apk     
