@@ -17,7 +17,7 @@ RUN \
     | awk -F'(<present>|</present>)' '/<present>/ {print $2}') && \
   curl -o \
     /tmp/eclipse.tar.gz -L \
-    "https://mirrors.xmission.com/eclipse/technology/epp/downloads/release/${ECLIPSE_PATH}/eclipse-java-$(echo $ECLIPSE_PATH|sed 's:/:-:g')-linux-gtk-$(uname -m).tar.gz" && \
+    "https://mirrors.xmission.com/eclipse/technology/epp/downloads/release/${ECLIPSE_PATH}C1/eclipse-java-$(echo $ECLIPSE_PATH|sed 's:/:-:g')C1-linux-gtk-$(uname -m).tar.gz" && \
   tar -xf \
     /tmp/eclipse.tar.gz -C \
     /opt/ && \ 
