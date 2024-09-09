@@ -229,8 +229,8 @@ libpsl5t64                      0.21.2-1.1                      deb
 libpulse0                       16.1+dfsg1-5.1                  deb     
 libpulsedsp                     16.1+dfsg1-5.1                  deb     
 libpython3-stdlib               3.12.5-1                        deb     
-libpython3.12-minimal           3.12.5-4                        deb     
-libpython3.12-stdlib            3.12.5-4                        deb     
+libpython3.12-minimal           3.12.6-1                        deb     
+libpython3.12-stdlib            3.12.6-1                        deb     
 libqpdf29t64                    11.9.1-1                        deb     
 librabbitmq4                    0.14.0-1                        deb     
 librav1e0.7                     0.7.1-7                         deb     
@@ -301,7 +301,7 @@ libvidstab1.1                   1.1.0-2+b1                      deb
 libvorbis0a                     1.3.7-2                         deb     
 libvorbisenc2                   1.3.7-2                         deb     
 libvorbisfile3                  1.3.7-2                         deb     
-libvpl2                         2023.3.0-1                      deb     
+libvpl2                         1:2.13.0-1                      deb     
 libvpx9                         1.14.1-1                        deb     
 libvulkan1                      1.3.290.0-1                     deb     
 libwayland-client0              1.23.0-1                        deb     
@@ -385,8 +385,8 @@ pulseaudio                      16.1+dfsg1-5.1                  deb
 pulseaudio-utils                16.1+dfsg1-5.1                  deb     
 python3                         3.12.5-1                        deb     
 python3-minimal                 3.12.5-1                        deb     
-python3.12                      3.12.5-4                        deb     
-python3.12-minimal              3.12.5-4                        deb     
+python3.12                      3.12.6-1                        deb     
+python3.12-minimal              3.12.6-1                        deb     
 readline-common                 8.2-5                           deb     
 sed                             4.9-2                           deb     
 shared-mime-info                2.4-5                           deb     

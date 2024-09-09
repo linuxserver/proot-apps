@@ -267,7 +267,7 @@ retroarch                    1.19.1-r0                apk
 retroarch-assets             1.19.0-r0                apk     
 retroarch-joypad-autoconfig  1.19.0-r0                apk     
 scanelf                      1.3.7-r2                 apk     
-sdl2                         2.30.6-r0                apk     
+sdl2                         2.30.7-r0                apk     
 shared-mime-info             2.4-r0                   apk     
 snappy                       1.1.10-r2                apk     
 soxr                         0.1.3-r7                 apk     
