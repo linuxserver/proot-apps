@@ -177,7 +177,7 @@ nghttp2-libs               1.62.1-r0                apk
 opencore-amr               0.1.6-r1                 apk       
 openjpeg                   2.5.2-r0                 apk       
 opus                       1.5.2-r0                 apk       
-orc                        0.4.37-r0                apk       
+orc                        0.4.39-r0                apk       
 p11-kit                    0.25.3-r0                apk       
 pango                      1.52.2-r0                apk       
 pcre2                      10.43-r0                 apk       

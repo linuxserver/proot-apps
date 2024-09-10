@@ -180,7 +180,7 @@ nss                             3.101-r0                 apk
 numactl                         2.0.18-r0                apk     
 openjpeg                        2.5.2-r0                 apk     
 opus                            1.5.2-r0                 apk     
-orc                             0.4.37-r0                apk     
+orc                             0.4.39-r0                apk     
 p11-kit                         0.25.3-r0                apk     
 pango                           1.52.2-r0                apk     
 pangomm                         2.46.4-r0                apk     
