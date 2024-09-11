@@ -58,7 +58,7 @@ gtk-update-icon-cache      3.24.43-r0               apk
 harfbuzz                   8.5.0-r0                 apk     
 hicolor-icon-theme         0.17-r2                  apk     
 hwdata-pci                 0.382-r0                 apk     
-imath                      3.1.11-r2                apk     
+imath                      3.1.12-r0                apk     
 json-c                     0.17-r0                  apk     
 json-glib                  1.8.0-r1                 apk     
 lame-libs                  3.100-r5                 apk     

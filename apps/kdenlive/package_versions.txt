@@ -75,7 +75,7 @@ hwdata-pci                 0.382-r0                 apk
 hwloc                      2.10.0-r0                apk     
 icu-data-full              74.2-r0                  apk     
 icu-libs                   74.2-r0                  apk     
-imath                      3.1.11-r2                apk     
+imath                      3.1.12-r0                apk     
 iso-codes-lang             4.16.0-r0                apk     
 jack                       1.9.22-r4                apk     
 karchive                   6.2.0-r0                 apk     

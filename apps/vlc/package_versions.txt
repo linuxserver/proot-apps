@@ -116,7 +116,7 @@ hwdata-pci                            0.382-r0                 apk
 hyphen                                2.8.8-r3                 apk       
 icu-data-full                         74.2-r0                  apk       
 icu-libs                              74.2-r0                  apk       
-imath                                 3.1.11-r2                apk       
+imath                                 3.1.12-r0                apk       
 iso-codes                             4.16.0-r0                apk       
 jansson                               2.14-r4                  apk       
 lame-libs                             3.100-r5                 apk       

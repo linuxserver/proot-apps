@@ -21,7 +21,7 @@ bash                       5.2.32-r0                apk
 beautifulsoup4             4.12.3                   python                      
 bitflags                   2.4.1                    rust-crate  (+1 duplicate)  
 bitstream-io               2.2.0                    rust-crate                  
-bluez-libs                 5.77-r0                  apk                         
+bluez-libs                 5.78-r0                  apk                         
 brotli-libs                1.1.0-r2                 apk                         
 busybox                    1.36.1-r31               apk                         
 busybox-binsh              1.36.1-r31               apk                         
@@ -123,7 +123,7 @@ icu-libs                   74.2-r0                  apk
 ifaddr                     0.2.0                    python                      
 imagequant                 4.2.2                    rust-crate                  
 imagequant-sys             4.0.3                    rust-crate                  
-imath                      3.1.11-r2                apk                         
+imath                      3.1.12-r0                apk                         
 interpolate_name           0.2.4                    rust-crate                  
 itertools                  0.10.5                   rust-crate                  
 itertools                  0.12.0                   rust-crate                  
@@ -165,7 +165,7 @@ libepoxy                   1.5.10-r1                apk
 libevdev                   1.13.3-r0                apk                         
 libevent                   2.1.12-r7                apk                         
 libexpat                   2.6.3-r0                 apk                         
-libfdisk                   2.40.2-r0                apk                         
+libfdisk                   2.40.2-r1                apk                         
 libffi                     3.4.6-r0                 apk                         
 libflac                    1.4.3-r1                 apk                         
 libgcc                     14.2.0-r2                apk                         
@@ -419,7 +419,7 @@ qt6-qtsvg                  6.7.2-r0                 apk
 qt6-qttools-libs           6.7.2-r0                 apk                         
 qt6-qtwayland              6.7.2-r1                 apk                         
 qt6-qtwebchannel           6.7.2-r0                 apk                         
-qt6-qtwebengine            6.7.2-r2                 apk                         
+qt6-qtwebengine            6.7.2-r3                 apk                         
 qt6-qtwebsockets-libs      6.7.2-r0                 apk                         
 quote                      1.0.35                   rust-crate                  
 rand                       0.8.5                    rust-crate                  

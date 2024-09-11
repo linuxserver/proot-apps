@@ -102,7 +102,7 @@ hicolor-icon-theme                    0.17-r2                  apk
 hwdata-pci                            0.382-r0                 apk     
 icu-data-en                           74.2-r0                  apk     
 icu-libs                              74.2-r0                  apk     
-imath                                 3.1.11-r2                apk     
+imath                                 3.1.12-r0                apk     
 lame-libs                             3.100-r5                 apk     
 lcms2                                 2.16-r0                  apk     
 libSvtAv1Enc                          2.0.0-r1                 apk     

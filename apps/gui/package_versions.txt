@@ -61,7 +61,7 @@ hwdata-pci                  0.382-r0                 apk
 icu-data-en                 74.2-r0                  apk       
 icu-libs                    74.2-r0                  apk       
 idna                        3.7                      python    
-imath                       3.1.11-r2                apk       
+imath                       3.1.12-r0                apk       
 iso-codes                   4.16.0-r0                apk       
 lcms2                       2.16-r0                  apk       
 libadwaita                  1.5.2-r0                 apk       

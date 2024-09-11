@@ -65,7 +65,7 @@ hwdata-pci                 0.382-r0                 apk
 hwloc                      2.10.0-r0                apk     
 icu-data-en                74.2-r0                  apk     
 icu-libs                   74.2-r0                  apk     
-imath                      3.1.11-r2                apk     
+imath                      3.1.12-r0                apk     
 jack                       1.9.22-r4                apk     
 jemalloc                   5.3.0-r4                 apk     
 jsoncpp                    1.9.5-r2                 apk     

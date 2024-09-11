@@ -79,7 +79,7 @@ imagemagick-libs           7.1.1.32-r2              apk
 imagemagick-pango          7.1.1.32-r2              apk     
 imagemagick-tiff           7.1.1.32-r2              apk     
 imagemagick-webp           7.1.1.32-r2              apk     
-imath                      3.1.11-r2                apk     
+imath                      3.1.12-r0                apk     
 jasper                     4.2.4-r0                 apk     
 karchive5                  5.115.0-r0               apk     
 kauth5                     5.115.0-r1               apk     
