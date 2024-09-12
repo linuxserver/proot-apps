@@ -86,11 +86,11 @@ libdbus-1-3                     1.14.10-4+b1                    deb
 libdconf1                       0.40.0-4+b2                     deb     
 libdebconfclient0               0.272                           deb     
 libdeflate0                     1.21-1                          deb     
-libdrm-amdgpu1                  2.4.122-1                       deb     
-libdrm-common                   2.4.122-1                       deb     
-libdrm-intel1                   2.4.122-1                       deb     
-libdrm-radeon1                  2.4.122-1                       deb     
-libdrm2                         2.4.122-1                       deb     
+libdrm-amdgpu1                  2.4.123-1                       deb     
+libdrm-common                   2.4.123-1                       deb     
+libdrm-intel1                   2.4.123-1                       deb     
+libdrm-radeon1                  2.4.123-1                       deb     
+libdrm2                         2.4.123-1                       deb     
 libdw1t64                       0.191-2                         deb     
 libedit2                        3.1-20240808-1                  deb     
 libegl-mesa0                    24.2.2-1                        deb     
