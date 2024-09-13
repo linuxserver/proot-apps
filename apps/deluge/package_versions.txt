@@ -25,7 +25,7 @@ chardet                    5.2.0                    python
 constantly                 23.10.4                  python    
 cryptography               42.0.7                   python    
 cups-libs                  2.4.9-r0                 apk       
-curl                       8.9.1-r1                 apk       
+curl                       8.10.0-r0                apk       
 dbus                       1.14.10-r1               apk       
 dbus-daemon-launch-helper  1.14.10-r1               apk       
 dbus-libs                  1.14.10-r1               apk       
@@ -48,7 +48,7 @@ fontconfig                 2.15.0-r1                apk
 freetype                   2.13.2-r0                apk       
 fribidi                    1.0.15-r0                apk       
 gdbm                       1.23-r1                  apk       
-gdk-pixbuf                 2.42.11-r1               apk       
+gdk-pixbuf                 2.42.12-r0               apk       
 glib                       2.80.4-r0                apk       
 gmp                        6.3.0-r1                 apk       
 gnutls                     3.8.5-r0                 apk       
@@ -92,7 +92,7 @@ libbsd                     0.12.2-r0                apk
 libbz2                     1.0.8-r6                 apk       
 libcap2                    2.70-r0                  apk       
 libcrypto3                 3.3.2-r0                 apk       
-libcurl                    8.9.1-r1                 apk       
+libcurl                    8.10.0-r0                apk       
 libdrm                     2.4.120-r0               apk       
 libeconf                   0.6.3-r0                 apk       
 libelf                     0.191-r0                 apk       
@@ -273,7 +273,7 @@ py3-zope-interface         6.0-r1                   apk
 py3-zope-interface-pyc     6.0-r1                   apk       
 pyasn1                     0.6.0                    python    
 pyasn1-modules             0.4.0                    python    
-pyc                        3.12.3-r2                apk       
+pyc                        3.12.6-r0                apk       
 pycairo                    1.26.0                   python    
 pycparser                  2.22                     python    
 pygobject                  3.48.2                   python    
@@ -281,9 +281,9 @@ pyhamcrest                 2.1.0                    python
 pyopenssl                  24.1.0                   python    
 pyparsing                  3.1.2                    python    
 pyserial                   3.5                      python    
-python3                    3.12.3-r2                apk       
-python3-pyc                3.12.3-r2                apk       
-python3-pycache-pyc0       3.12.3-r2                apk       
+python3                    3.12.6-r0                apk       
+python3-pyc                3.12.6-r0                apk       
+python3-pycache-pyc0       3.12.6-r0                apk       
 pyxdg                      0.28                     python    
 qt6-qtbase                 6.6.3-r1                 apk       
 qt6-qtbase-x11             6.6.3-r1                 apk       
