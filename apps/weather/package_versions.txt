@@ -106,11 +106,11 @@ libmd                      1.1.0-r0                 apk
 libmm-glib                 1.22.0-r0                apk     
 libmodplug                 0.8.9.0-r3               apk     
 libmount                   2.40.1-r1                apk     
-libncursesw                6.4_p20240420-r0         apk     
+libncursesw                6.4_p20240420-r1         apk     
 libnice                    0.1.22-r0                apk     
 libnotify                  0.8.3-r1                 apk     
 libogg                     1.3.5-r5                 apk     
-libpanelw                  6.4_p20240420-r0         apk     
+libpanelw                  6.4_p20240420-r1         apk     
 libpciaccess               0.18.1-r0                apk     
 libpng                     1.6.43-r0                apk     
 libproxy                   0.5.6-r0                 apk     
@@ -179,7 +179,7 @@ mozjs115                   115.15.0-r0              apk
 mpdecimal                  4.0.0-r0                 apk     
 musl                       1.2.5-r0                 apk     
 musl-utils                 1.2.5-r0                 apk     
-ncurses-terminfo-base      6.4_p20240420-r0         apk     
+ncurses-terminfo-base      6.4_p20240420-r1         apk     
 neon                       0.33.0-r0                apk     
 netcat-openbsd             1.226-r0                 apk     
 nettle                     3.9.1-r0                 apk     

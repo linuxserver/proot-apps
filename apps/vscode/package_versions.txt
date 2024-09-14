@@ -52,9 +52,9 @@ fonts-noto-core                 20201225-1                      deb
 fsharp                          1.0.0                           npm     
 gcc-12-base                     12.2.0-14                       deb     
 git                             1.0.0                           npm     
-git                             1:2.39.2-1.1                    deb     
+git                             1:2.39.5-0+deb12u1              deb     
 git-base                        1.0.0                           npm     
-git-man                         1:2.39.2-1.1                    deb     
+git-man                         1:2.39.5-0+deb12u1              deb     
 github                          0.0.1                           npm     
 github-authentication           0.0.2                           npm     
 gnupg                           2.2.40-1.1                      deb     
