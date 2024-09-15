@@ -9,7 +9,7 @@ bsdutils                        1:2.40.2-7                      deb
 ca-certificates                 20240203                        deb     
 coreutils                       9.4-3.1                         deb     
 cpdb-backend-cups               2.0b5-1                         deb     
-curl                            8.9.1-2                         deb     
+curl                            8.10.0-2                        deb     
 dash                            0.5.12-9                        deb     
 dbus-bin                        1.14.10-4+b1                    deb     
 dbus-daemon                     1.14.10-4+b1                    deb     
@@ -90,7 +90,7 @@ libcrypt1                       1:4.4.36-5                      deb
 libcups2t64                     2.4.10-1                        deb     
 libcupsfilters2                 2.0.0-1+b1                      deb     
 libcupsfilters2-common          2.0.0-1                         deb     
-libcurl3t64-gnutls              8.9.1-2                         deb     
+libcurl3t64-gnutls              8.10.0-2                        deb     
 libdatrie1                      0.2.13-3                        deb     
 libdav1d7                       1.4.3-1                         deb     
 libdb5.3t64                     5.3.28+dfsg2-7                  deb     
@@ -205,7 +205,7 @@ libopenexr-3-1-30               3.1.5-5.1+b2                    deb
 libopenjp2-7                    2.5.0-2+b3                      deb     
 libopenmpt0t64                  0.7.9-1                         deb     
 libopus0                        1.5.2-2                         deb     
-liborc-0.4-0t64                 1:0.4.39-3                      deb     
+liborc-0.4-0t64                 1:0.4.40-1                      deb     
 libp11-kit0                     0.25.5-2                        deb     
 libpam-modules                  1.5.3-7                         deb     
 libpam-modules-bin              1.5.3-7                         deb     
@@ -236,8 +236,8 @@ librabbitmq4                    0.14.0-1                        deb
 librav1e0.7                     0.7.1-7                         deb     
 libreadline8t64                 8.2-5                           deb     
 librist4                        0.2.10+dfsg-2                   deb     
-librsvg2-2                      2.58.0+dfsg-1                   deb     
-librsvg2-common                 2.58.0+dfsg-1                   deb     
+librsvg2-2                      2.59.0+dfsg-3                   deb     
+librsvg2-common                 2.59.0+dfsg-3                   deb     
 librtmp1                        2.4+20151223.gitfa8646d.1-2+b4  deb     
 librubberband2                  3.3.0+dfsg-2+b2                 deb     
 libsamplerate0                  0.2.2-4+b1                      deb     
