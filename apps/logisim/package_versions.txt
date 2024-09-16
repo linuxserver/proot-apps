@@ -37,7 +37,7 @@ gzip                            1.12-1.1                        deb
 hicolor-icon-theme              0.18-1                          deb             
 hostname                        3.23+nmu2                       deb             
 init-system-helpers             1.66                            deb             
-iso-codes                       4.16.0-1                        deb             
+iso-codes                       4.17.0-1                        deb             
 jrt-fs                          21.0.4                          java-archive    
 keyboard-configuration          1.230                           deb             
 libacl1                         2.3.2-2                         deb             
@@ -173,12 +173,12 @@ libpng16-16t64                  1.6.43-5                        deb
 libpsl5t64                      0.21.2-1.1                      deb             
 libpulse0                       16.1+dfsg1-5.1                  deb             
 libpulsedsp                     16.1+dfsg1-5.1                  deb             
-libpython3-stdlib               3.12.5-1                        deb             
+libpython3-stdlib               3.12.5-1+b1                     deb             
 libpython3.12-minimal           3.12.6-1                        deb             
 libpython3.12-stdlib            3.12.6-1                        deb             
-librav1e0.7                     0.7.1-7                         deb             
+librav1e0.7                     0.7.1-7+b1                      deb             
 libreadline8t64                 8.2-5                           deb             
-librsvg2-2                      2.58.0+dfsg-1                   deb             
+librsvg2-2                      2.59.0+dfsg-3                   deb             
 librtmp1                        2.4+20151223.gitfa8646d.1-2+b4  deb             
 libsamplerate0                  0.2.2-4+b1                      deb             
 libsasl2-2                      2.1.28+dfsg1-8                  deb             
@@ -298,8 +298,8 @@ passwd                          1:4.16.0-4                      deb
 perl-base                       5.38.2-5                        deb             
 pulseaudio                      16.1+dfsg1-5.1                  deb             
 pulseaudio-utils                16.1+dfsg1-5.1                  deb             
-python3                         3.12.5-1                        deb             
-python3-minimal                 3.12.5-1                        deb             
+python3                         3.12.5-1+b1                     deb             
+python3-minimal                 3.12.5-1+b1                     deb             
 python3.12                      3.12.6-1                        deb             
 python3.12-minimal              3.12.6-1                        deb             
 readline-common                 8.2-5                           deb             
