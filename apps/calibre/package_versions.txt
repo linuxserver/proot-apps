@@ -30,8 +30,8 @@ c-ares                     1.33.1-r0                apk
 ca-certificates-bundle     20240705-r0              apk                         
 cairo                      1.18.2-r0                apk                         
 cairo-gobject              1.18.2-r0                apk                         
-calibre                    7.17.0-r0                apk                         
-calibre-pyc                7.17.0-r0                apk                         
+calibre                    7.18.0-r0                apk                         
+calibre-pyc                7.18.0-r0                apk                         
 cdparanoia-libs            10.2-r14                 apk                         
 cfg-if                     1.0.0                    rust-crate  (+1 duplicate)  
 chardet                    5.2.0                    python                      

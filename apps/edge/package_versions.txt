@@ -1,8 +1,8 @@
 NAME                            VERSION                         TYPE   
 adduser                         3.137                           deb     
-adwaita-icon-theme              47~beta-1                       deb     
+adwaita-icon-theme              47.0-1                          deb     
 apt                             2.9.8                           deb     
-at-spi2-common                  2.53.1-2                        deb     
+at-spi2-common                  2.54.0-1                        deb     
 base-files                      13.5                            deb     
 base-passwd                     3.6.4                           deb     
 bash                            5.2.32-1                        deb     
@@ -31,10 +31,10 @@ fonts-liberation                1:2.1.5-3                       deb
 fonts-noto                      20201225-2                      deb     
 fonts-noto-core                 20201225-2                      deb     
 fonts-noto-mono                 20201225-2                      deb     
-gcc-14-base                     14.2.0-4                        deb     
+gcc-14-base                     14.2.0-5                        deb     
 gpgv                            2.2.43-8                        deb     
 grep                            3.11-4                          deb     
-gtk-update-icon-cache           3.24.43-3                       deb     
+gtk-update-icon-cache           4.16.1+ds-2                     deb     
 gzip                            1.12-1.1                        deb     
 hicolor-icon-theme              0.18-1                          deb     
 hostname                        3.23+nmu2                       deb     
@@ -51,7 +51,7 @@ libasound2t64                   1.2.12-1                        deb
 libasyncns0                     0.8-6+b4                        deb     
 libatk-bridge2.0-0              2.50.0-1+b1                     deb     
 libatk1.0-0                     2.50.0-1+b1                     deb     
-libatomic1                      14.2.0-4                        deb     
+libatomic1                      14.2.0-5                        deb     
 libatspi2.0-0                   2.50.0-1+b1                     deb     
 libattr1                        1:2.5.2-1                       deb     
 libaudit-common                 1:4.0.1-1                       deb     
@@ -107,7 +107,7 @@ libfontenc1                     1:1.1.8-1                       deb
 libfreetype6                    2.13.3+dfsg-1                   deb     
 libfribidi0                     1.0.15-1                        deb     
 libgbm1                         24.2.2-1                        deb     
-libgcc-s1                       14.2.0-4                        deb     
+libgcc-s1                       14.2.0-5                        deb     
 libgcrypt20                     1.11.0-6                        deb     
 libgdk-pixbuf-2.0-0             2.42.12+dfsg-1                  deb     
 libgdk-pixbuf2.0-common         2.42.12+dfsg-1                  deb     
@@ -121,7 +121,7 @@ libglx-mesa0                    24.2.2-1                        deb
 libglx0                         1.7.0-1+b1                      deb     
 libgmp10                        2:6.3.0+dfsg-2+b1               deb     
 libgnutls30t64                  3.8.6-2                         deb     
-libgomp1                        14.2.0-4                        deb     
+libgomp1                        14.2.0-5                        deb     
 libgpg-error0                   1.50-3                          deb     
 libgraphite2-3                  1.3.14-2                        deb     
 libgsm1                         1.0.22-1+b1                     deb     
@@ -129,7 +129,7 @@ libgssapi-krb5-2                1.21.3-3                        deb
 libgstreamer-plugins-base1.0-0  1.24.7-4                        deb     
 libgstreamer1.0-0               1.24.7-1                        deb     
 libgtk-3-0                      3.24.41-1                       deb     
-libgtk-3-common                 3.24.43-3                       deb     
+libgtk-3-common                 3.24.43-4                       deb     
 libharfbuzz0b                   9.0.0-1                         deb     
 libhogweed6t64                  3.10-1                          deb     
 libhwy1t64                      1.2.0-2                         deb     
@@ -219,7 +219,7 @@ libsqlite3-0                    3.46.1-1                        deb
 libss2                          1.47.1-1                        deb     
 libssh2-1t64                    1.11.0-7                        deb     
 libssl3t64                      3.3.2-1                         deb     
-libstdc++6                      14.2.0-4                        deb     
+libstdc++6                      14.2.0-5                        deb     
 libsvtav1enc2                   2.1.0+dfsg-2                    deb     
 libswresample5                  7:7.0.2-3                       deb     
 libsystemd-shared               256.6-1                         deb     
