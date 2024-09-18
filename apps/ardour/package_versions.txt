@@ -97,7 +97,7 @@ lazy_static                1.4.0                    rust-crate
 lcms2                      2.16-r0                  apk           
 libSvtAv1Enc               2.2.1-r0                 apk           
 libacl                     2.3.2-r0                 apk           
-libarchive                 3.7.4-r0                 apk           
+libarchive                 3.7.5-r0                 apk           
 libass                     0.17.3-r0                apk           
 libasyncns                 0.8-r3                   apk           
 libblkid                   2.40.2-r1                apk           
