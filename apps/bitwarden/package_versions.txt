@@ -109,7 +109,7 @@ libegl-mesa0                    22.3.6-1+deb12u1                deb
 libegl1                         1.6.0-1                         deb     
 libelf1                         0.188-2.1                       deb     
 libepoxy0                       1.5.10-1                        deb     
-libexpat1                       2.5.0-1                         deb     
+libexpat1                       2.5.0-1+deb12u1                 deb     
 libext2fs2                      1.47.0-2                        deb     
 libffi-dev                      3.4.4-1                         deb     
 libffi8                         3.4.4-1                         deb     

@@ -114,7 +114,7 @@ libegl1                         1.6.0-1                         deb
 libelf1                         0.188-2.1                       deb       
 libepoxy0                       1.5.10-1                        deb       
 libevdev2                       1.13.0+dfsg-1                   deb       
-libexpat1                       2.5.0-1                         deb       
+libexpat1                       2.5.0-1+deb12u1                 deb       
 libext2fs2                      1.47.0-2                        deb       
 libffi8                         3.4.4-1                         deb       
 libfftw3-single3                3.3.10-1                        deb       
