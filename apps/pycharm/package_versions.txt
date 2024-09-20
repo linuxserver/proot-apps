@@ -68,8 +68,8 @@ init-system-helpers             1.65.2                          deb
 iso-codes                       4.15.0-1                        deb                            
 java                            1.0.0                           npm                            
 java-websocket                  1.5.5                           java-archive                   
-java/jdk                        21.0.3+13-b509.11               binary                         
-java/jre                        21.0.3+13-b509.11               binary                         
+java/jdk                        21.0.3+13-b509.15               binary                         
+java/jre                        21.0.3+13-b509.15               binary                         
 javascript                      1.0.0                           npm                            
 jitsi-utils                     1.0-112-gd92472a                java-archive                   
 jnaerator-runtime                                               java-archive                   

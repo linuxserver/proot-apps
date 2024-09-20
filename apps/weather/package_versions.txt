@@ -45,7 +45,7 @@ gdk-pixbuf                 2.42.12-r0               apk
 geoclue                    2.7.1-r1                 apk     
 geocode-glib               3.26.4-r4                apk     
 gjs                        1.80.2-r1                apk     
-glib                       2.80.4-r0                apk     
+glib                       2.80.5-r0                apk     
 glib-networking            2.80.0-r0                apk     
 gmp                        6.3.0-r1                 apk     
 gnome-weather              46.0-r0                  apk     

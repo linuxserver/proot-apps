@@ -264,7 +264,7 @@ lxml                       5.1.0                    python
 markdown                   3.7                      python                      
 maybe-rayon                0.1.1                    rust-crate                  
 mbedtls                    3.6.1-r0                 apk                         
-mechanize                  0.4.9                    python                      
+mechanize                  0.4.10                   python                      
 memchr                     2.7.1                    rust-crate                  
 memoffset                  0.9.0                    rust-crate                  
 mesa                       24.2.2-r0                apk                         
@@ -366,8 +366,8 @@ py3-lxml                   5.1.0-r0                 apk
 py3-lxml-pyc               5.1.0-r0                 apk                         
 py3-markdown               3.7-r0                   apk                         
 py3-markdown-pyc           3.7-r0                   apk                         
-py3-mechanize              0.4.9-r1                 apk                         
-py3-mechanize-pyc          0.4.9-r1                 apk                         
+py3-mechanize              0.4.10-r0                apk                         
+py3-mechanize-pyc          0.4.10-r0                apk                         
 py3-msgpack                1.0.8-r1                 apk                         
 py3-msgpack-pyc            1.0.8-r1                 apk                         
 py3-netifaces              0.11.0-r3                apk                         
@@ -492,5 +492,5 @@ xxhash                     3.4.1                    python
 xz-libs                    5.6.2-r0                 apk                         
 y4m                        0.8.0                    rust-crate                  
 zeroconf                   0.132.2                  python                      
-zlib                       1.3.1-r1                 apk                         
+zlib                       1.3.1-r2                 apk                         
 zstd-libs                  1.5.6-r1                 apk                         

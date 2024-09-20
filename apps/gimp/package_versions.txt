@@ -46,7 +46,7 @@ gegl                       0.4.48-r0                apk
 gexiv2                     0.14.3-r0                apk     
 giflib                     5.2.2-r0                 apk     
 gimp                       2.10.38-r1               apk     
-glib                       2.80.4-r0                apk     
+glib                       2.80.5-r0                apk     
 gmp                        6.3.0-r1                 apk     
 gnutls                     3.8.5-r0                 apk     
 graphene                   1.10.8-r4                apk     

@@ -9,7 +9,7 @@ bash                            5.2.32-1                        deb
 bsdutils                        1:2.40.2-7                      deb     
 ca-certificates                 20240203                        deb     
 coreutils                       9.4-3.1                         deb     
-curl                            8.10.0-2                        deb     
+curl                            8.10.1-1                        deb     
 dash                            0.5.12-9                        deb     
 dbus-bin                        1.14.10-4+b1                    deb     
 dbus-daemon                     1.14.10-4+b1                    deb     
@@ -78,7 +78,7 @@ libcolord2                      1.4.7-1+b1                      deb
 libcom-err2                     1.47.1-1                        deb     
 libcrypt1                       1:4.4.36-5                      deb     
 libcups2                        2.4.7-1+b1                      deb     
-libcurl3t64-gnutls              8.10.0-2                        deb     
+libcurl3t64-gnutls              8.10.1-1                        deb     
 libdatrie1                      0.2.13-3                        deb     
 libdav1d7                       1.4.3-1                         deb     
 libdb5.3t64                     5.3.28+dfsg2-7                  deb     
@@ -307,7 +307,7 @@ media-types                     10.1.0                          deb
 mesa-libgallium                 24.2.2-1                        deb     
 mesa-va-drivers                 24.2.2-1                        deb     
 mesa-vulkan-drivers             24.2.2-1                        deb     
-microsoft-edge-stable           128.0.2739.79-1                 deb     
+microsoft-edge-stable           129.0.2792.52-1                 deb     
 mount                           2.40.2-7                        deb     
 ncurses-base                    6.5-2                           deb     
 ncurses-bin                     6.5-2                           deb     

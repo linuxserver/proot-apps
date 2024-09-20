@@ -11,7 +11,7 @@ commons-cli                     1.8.0                           java-archive
 commons-lang3                   3.14.0                          java-archive    
 commons-text                    1.12.0                          java-archive    
 coreutils                       9.4-3.1                         deb             
-curl                            8.10.0-2                        deb             
+curl                            8.10.1-1                        deb             
 dash                            0.5.12-9                        deb             
 dbus-bin                        1.14.10-4+b1                    deb             
 dbus-daemon                     1.14.10-4+b1                    deb             
@@ -68,7 +68,7 @@ libcap2-bin                     1:2.66-5                        deb
 libcodec2-1.2                   1.2.0-2+b1                      deb             
 libcom-err2                     1.47.1-1                        deb             
 libcrypt1                       1:4.4.36-5                      deb             
-libcurl3t64-gnutls              8.10.0-2                        deb             
+libcurl3t64-gnutls              8.10.1-1                        deb             
 libdatrie1                      0.2.13-3                        deb             
 libdav1d7                       1.4.3-1                         deb             
 libdb5.3t64                     5.3.28+dfsg2-7                  deb             
