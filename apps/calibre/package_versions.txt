@@ -419,7 +419,7 @@ qt6-qtsvg                  6.7.2-r0                 apk
 qt6-qttools-libs           6.7.2-r0                 apk                         
 qt6-qtwayland              6.7.2-r1                 apk                         
 qt6-qtwebchannel           6.7.2-r0                 apk                         
-qt6-qtwebengine            6.7.2-r4                 apk                         
+qt6-qtwebengine            6.7.2-r5                 apk                         
 qt6-qtwebsockets-libs      6.7.2-r0                 apk                         
 quote                      1.0.35                   rust-crate                  
 rand                       0.8.5                    rust-crate                  

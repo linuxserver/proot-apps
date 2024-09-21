@@ -126,8 +126,8 @@ libgpg-error0                   1.50-3                          deb
 libgraphite2-3                  1.3.14-2                        deb     
 libgsm1                         1.0.22-1+b1                     deb     
 libgssapi-krb5-2                1.21.3-3                        deb     
-libgstreamer-plugins-base1.0-0  1.24.7-4                        deb     
-libgstreamer1.0-0               1.24.7-1                        deb     
+libgstreamer-plugins-base1.0-0  1.24.8-1                        deb     
+libgstreamer1.0-0               1.24.8-1                        deb     
 libgtk-3-0                      3.24.41-1                       deb     
 libgtk-3-common                 3.24.43-4                       deb     
 libharfbuzz0b                   9.0.0-1                         deb     
@@ -236,7 +236,7 @@ libtirpc3t64                    1.3.4+ds-1.3                    deb
 libtwolame0                     0.4.0-2+b1                      deb     
 libudev1                        256.6-1                         deb     
 libunistring5                   1.2-1                           deb     
-libunwind8                      1.6.2-3.1                       deb     
+libunwind8                      1.7.2-1                         deb     
 libuuid1                        2.40.2-7                        deb     
 libva-drm2                      2.22.0-1                        deb     
 libva-x11-2                     2.22.0-1                        deb     
