@@ -34,7 +34,7 @@ gcc-14-base                     14.2.0-5                        deb
 gpgv                            2.2.43-8                        deb     
 grep                            3.11-4                          deb     
 gstreamer1.0-gl                 1.24.8-1                        deb     
-gtk-update-icon-cache           4.16.1+ds-2                     deb     
+gtk-update-icon-cache           4.16.1+ds-5                     deb     
 gzip                            1.12-1.1                        deb     
 handbrake                       1.8.2+ds1-1                     deb     
 hicolor-icon-theme              0.18-1                          deb     
@@ -134,7 +134,7 @@ libgl1                          1.7.0-1+b1                      deb
 libgl1-mesa-dri                 24.2.3-1                        deb     
 libglapi-mesa                   24.2.3-1                        deb     
 libgles2                        1.7.0-1+b1                      deb     
-libglib2.0-0t64                 2.82.0-1                        deb     
+libglib2.0-0t64                 2.82.1-1                        deb     
 libglvnd0                       1.7.0-1+b1                      deb     
 libglx-mesa0                    24.2.3-1                        deb     
 libglx0                         1.7.0-1+b1                      deb     
@@ -150,10 +150,10 @@ libgssapi-krb5-2                1.21.3-3                        deb
 libgstreamer-gl1.0-0            1.24.8-1                        deb     
 libgstreamer-plugins-base1.0-0  1.24.8-1                        deb     
 libgstreamer1.0-0               1.24.8-1                        deb     
-libgtk-4-1                      4.16.1+ds-2                     deb     
-libgtk-4-bin                    4.16.1+ds-2                     deb     
-libgtk-4-common                 4.16.1+ds-2                     deb     
-libgtk-4-media-gstreamer        4.16.1+ds-2                     deb     
+libgtk-4-1                      4.16.1+ds-5                     deb     
+libgtk-4-bin                    4.16.1+ds-5                     deb     
+libgtk-4-common                 4.16.1+ds-5                     deb     
+libgtk-4-media-gstreamer        4.16.1+ds-5                     deb     
 libgudev-1.0-0                  238-5                           deb     
 libharfbuzz-subset0             9.0.0-1                         deb     
 libharfbuzz0b                   9.0.0-1                         deb     

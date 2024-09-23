@@ -3,7 +3,6 @@ alpine-baselayout          3.6.5-r0                 apk
 alpine-baselayout-data     3.6.5-r0                 apk       
 alpine-keys                2.4-r1                   apk       
 alsa-lib                   1.2.11-r0                apk       
-aom-libs                   3.9.1-r0                 apk       
 apk-tools                  2.14.4-r0                apk       
 avahi-libs                 0.8-r17                  apk       
 bash                       5.2.26-r0                apk       
@@ -22,14 +21,6 @@ dbus-daemon-launch-helper  1.14.10-r1               apk
 dbus-libs                  1.14.10-r1               apk       
 dbus-x11                   1.14.10-r1               apk       
 eudev-libs                 3.2.14-r2                apk       
-ffmpeg4                    4.4.4-r7                 apk       
-ffmpeg4-libavcodec         4.4.4-r7                 apk       
-ffmpeg4-libavfilter        4.4.4-r7                 apk       
-ffmpeg4-libavformat        4.4.4-r7                 apk       
-ffmpeg4-libavutil          4.4.4-r7                 apk       
-ffmpeg4-libpostproc        4.4.4-r7                 apk       
-ffmpeg4-libswresample      4.4.4-r7                 apk       
-ffmpeg4-libswscale         4.4.4-r7                 apk       
 fftw-single-libs           3.3.10-r5                apk       
 file                       5.45-r1                  apk       
 fmt                        10.2.1-r1                apk       
@@ -54,9 +45,8 @@ harfbuzz                   8.5.0-r0                 apk
 hicolor-icon-theme         0.17-r2                  apk       
 hwdata-pci                 0.382-r0                 apk       
 jansson                    2.14-r4                  apk       
-kodi                       20.5-r3                  apk       
-kodi-x11                   20.5-r3                  apk       
-lame-libs                  3.100-r5                 apk       
+kodi                       21.0-r0                  apk       
+kodi-x11                   21.0-r0                  apk       
 lcms2                      2.16-r0                  apk       
 ldb                        2.8.0-r1                 apk       
 libass                     0.17.2-r0                apk       
@@ -88,7 +78,7 @@ libidn2                    2.3.7-r0                 apk
 libimagequant              4.2.2-r0                 apk       
 libintl                    0.22.5-r0                apk       
 libjpeg-turbo              3.0.3-r0                 apk       
-libldap                    2.6.7-r0                 apk       
+libldap                    2.6.8-r0                 apk       
 libltdl                    2.4.7-r3                 apk       
 libmagic                   5.45-r1                  apk       
 libmd                      1.1.0-r0                 apk       
@@ -99,7 +89,6 @@ libnfs                     5.0.3-r0                 apk
 libogg                     1.3.5-r5                 apk       
 libpanelw                  6.4_p20240420-r1         apk       
 libpciaccess               0.18.1-r0                apk       
-libpcrecpp                 8.45-r3                  apk       
 libplist                   2.4.0-r1                 apk       
 libpng                     1.6.44-r0                apk       
 libpsl                     0.21.5-r1                apk       
@@ -109,8 +98,6 @@ libsharpyuv                1.3.2-r0                 apk
 libsm                      1.2.4-r4                 apk       
 libsmbclient               4.19.6-r0                apk       
 libsndfile                 1.2.2-r0                 apk       
-libsrt                     1.5.3-r0                 apk       
-libssh                     0.10.6-r0                apk       
 libssl3                    3.3.2-r0                 apk       
 libstdc++                  13.2.1_git20240309-r0    apk       
 libtag                     1.13.1-r0                apk       
@@ -124,9 +111,7 @@ libuuid                    2.40.1-r1                apk
 libuv                      1.48.0-r0                apk       
 libva                      2.21.0-r0                apk       
 libva-intel-driver         2.4.1-r0                 apk       
-libvdpau                   1.5-r3                   apk       
 libvorbis                  1.3.7-r2                 apk       
-libvpx                     1.14.1-r0                apk       
 libwbclient                4.19.6-r0                apk       
 libwebp                    1.3.2-r0                 apk       
 libwebpdemux               1.3.2-r0                 apk       
@@ -164,6 +149,7 @@ mesa-egl                   24.0.9-r1                apk
 mesa-gbm                   24.0.9-r1                apk       
 mesa-gl                    24.0.9-r1                apk       
 mesa-glapi                 24.0.9-r1                apk       
+mesa-gles                  24.0.9-r1                apk       
 mesa-va-gallium            24.0.9-r1                apk       
 mesa-vulkan-ati            24.0.9-r1                apk       
 mesa-vulkan-intel          24.0.9-r1                apk       
@@ -176,7 +162,6 @@ ncurses-terminfo-base      6.4_p20240420-r1         apk
 netcat-openbsd             1.226-r0                 apk       
 nettle                     3.9.1-r0                 apk       
 nghttp2-libs               1.62.1-r0                apk       
-numactl                    2.0.18-r0                apk       
 openjpeg                   2.5.2-r0                 apk       
 opus                       1.5.2-r0                 apk       
 orc                        0.4.39-r0                apk       
@@ -218,15 +203,12 @@ tdb-libs                   1.4.9-r1                 apk
 tevent                     0.16.1-r0                apk       
 tiff                       4.6.0t-r0                apk       
 tinyxml                    2.6.2-r3                 apk       
-vidstab                    1.1.1-r0                 apk       
-vulkan-loader              1.3.261.1-r0             apk       
+tinyxml2                   10.0.0-r0                apk       
 wayland-libs-client        1.22.0-r4                apk       
 wayland-libs-cursor        1.22.0-r4                apk       
 wayland-libs-egl           1.22.0-r4                apk       
 wayland-libs-server        1.22.0-r4                apk       
 webrtc-audio-processing-1  1.3-r0                   apk       
-x264-libs                  0.164_git20231001-r0     apk       
-x265-libs                  3.6-r0                   apk       
 xcb-util                   0.4.1-r3                 apk       
 xdg-utils                  1.2.1-r0                 apk       
 xdpyinfo                   1.3.4-r1                 apk       
@@ -235,7 +217,6 @@ xf86-video-ati             22.0.0-r3                apk
 xf86-video-intel           2.99.917_git20221028-r7  apk       
 xprop                      1.2.7-r0                 apk       
 xset                       1.2.5-r1                 apk       
-xvidcore                   1.3.7-r2                 apk       
 xz-libs                    5.6.2-r0                 apk       
 yaml                       0.2.5-r2                 apk       
 zlib                       1.3.1-r1                 apk       

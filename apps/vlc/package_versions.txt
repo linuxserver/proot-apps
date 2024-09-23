@@ -171,7 +171,7 @@ libintl                               0.22.5-r0                apk
 libjpeg-turbo                         3.0.3-r0                 apk       
 libjxl                                0.10.2-r0                apk       
 libldac                               2.0.2.3-r1               apk       
-libldap                               2.6.7-r0                 apk       
+libldap                               2.6.8-r0                 apk       
 libltdl                               2.4.7-r3                 apk       
 libmad                                0.15.1b-r9               apk       
 libmagic                              5.45-r1                  apk       
