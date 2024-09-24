@@ -380,7 +380,7 @@ tabby-settings                    1.0.197-nightly.1               npm
 tabby-ssh                         1.0.197-nightly.1               npm                      
 tabby-telnet                      1.0.197-nightly.1               npm                      
 tabby-terminal                    1.0.197-nightly.1               npm                      
-tabby-terminal                    1.0.213                         deb                      
+tabby-terminal                    1.0.214                         deb                      
 tar                               1.34+dfsg-1.2+deb12u1           deb                      
 term-size                         1.2.0                           npm     (+2 duplicates)  
 tmp                               0.2.1                           npm                      

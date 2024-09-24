@@ -110,7 +110,7 @@ libretro-beetle-vb           0_git20221214-r0         apk
 libretro-beetle-wswan        0_git20230120-r0         apk     
 libretro-bk                  0_git20240628-r0         apk     
 libretro-blastem             0_git20210810-r0         apk     
-libretro-bluemsx             0_git20220213-r0         apk     
+libretro-bluemsx             0_git20240808-r0         apk     
 libretro-bsnes               0_git20191009-r1         apk     
 libretro-cannonball          0_git20220309-r6         apk     
 libretro-cap32               0_git20220419-r0         apk     
@@ -134,13 +134,13 @@ libretro-fuse                0_git20220417-r0         apk
 libretro-gambatte            0_git20230113-r0         apk     
 libretro-gearboy             0_git20181103-r0         apk     
 libretro-genesis-plus-gx     0_git20230503-r0         apk     
-libretro-gme                 0_git20220410-r0         apk     
+libretro-gme                 0_git20240628-r0         apk     
 libretro-gong                0_git20220319-r0         apk     
 libretro-gpsp                0_git20230121-r0         apk     
 libretro-gw                  0_git20220410-r0         apk     
 libretro-handy               0_git20230102-r0         apk     
 libretro-hatari              0_git20220616-r0         apk     
-libretro-mame2000            0_git20220413-r0         apk     
+libretro-mame2000            0_git20240701-r0         apk     
 libretro-mame2003            0_git20220206-r0         apk     
 libretro-melonds             0_git20221207-r0         apk     
 libretro-meteor              0_git20201228-r0         apk     
