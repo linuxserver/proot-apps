@@ -34,7 +34,7 @@ gcc-14-base                     14.2.0-5                        deb
 gpgv                            2.2.43-8                        deb     
 grep                            3.11-4                          deb     
 gstreamer1.0-gl                 1.24.8-1                        deb     
-gtk-update-icon-cache           4.16.1+ds-5                     deb     
+gtk-update-icon-cache           4.16.2+ds-1                     deb     
 gzip                            1.12-1.1                        deb     
 handbrake                       1.8.2+ds1-1                     deb     
 hicolor-icon-theme              0.18-1                          deb     
@@ -150,10 +150,10 @@ libgssapi-krb5-2                1.21.3-3                        deb
 libgstreamer-gl1.0-0            1.24.8-1                        deb     
 libgstreamer-plugins-base1.0-0  1.24.8-1                        deb     
 libgstreamer1.0-0               1.24.8-1                        deb     
-libgtk-4-1                      4.16.1+ds-5                     deb     
-libgtk-4-bin                    4.16.1+ds-5                     deb     
-libgtk-4-common                 4.16.1+ds-5                     deb     
-libgtk-4-media-gstreamer        4.16.1+ds-5                     deb     
+libgtk-4-1                      4.16.2+ds-1                     deb     
+libgtk-4-bin                    4.16.2+ds-1                     deb     
+libgtk-4-common                 4.16.2+ds-1                     deb     
+libgtk-4-media-gstreamer        4.16.2+ds-1                     deb     
 libgudev-1.0-0                  238-5                           deb     
 libharfbuzz-subset0             9.0.0-1                         deb     
 libharfbuzz0b                   9.0.0-1                         deb     
@@ -178,7 +178,7 @@ liblcms2-2                      2.14-2+b1                       deb
 libldap-2.5-0                   2.5.18+dfsg-3                   deb     
 liblerc4                        4.0.0+ds-4+b1                   deb     
 liblilv-0-0                     0.24.24-2                       deb     
-libllvm19                       1:19.1.0-3                      deb     
+libllvm19                       1:19.1.0-4                      deb     
 liblocale-gettext-perl          1.07-7                          deb     
 libltdl7                        2.4.7-7+b1                      deb     
 liblz4-1                        1.9.4-3                         deb     
@@ -220,7 +220,7 @@ libpcre2-8-0                    10.42-4+b1                      deb
 libpgm-5.3-0t64                 5.3.128~dfsg-2.1                deb     
 libpixman-1-0                   0.42.2-1+b1                     deb     
 libplacebo349                   7.349.0-2                       deb     
-libpng16-16t64                  1.6.44-1                        deb     
+libpng16-16t64                  1.6.44-2                        deb     
 libpocketsphinx3                0.8+5prealpha+1-15+b3           deb     
 libpoppler-cpp1                 24.08.0-2                       deb     
 libpoppler140                   24.08.0-2                       deb     

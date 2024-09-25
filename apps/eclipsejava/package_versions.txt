@@ -13,7 +13,7 @@ ant-apache-oro                                                          1.10.14 
 ant-apache-regexp                                                       1.10.14                         java-archive                  
 ant-apache-resolver                                                     1.10.14                         java-archive                  
 ant-apache-xalan2                                                       1.10.14                         java-archive                  
-ant-bootstrap                                                                                           java-archive                  
+ant-bootstrap                                                           UNKNOWN                         java-archive                  
 ant-commons-logging                                                     1.10.14                         java-archive                  
 ant-commons-net                                                         1.10.14                         java-archive                  
 ant-imageio                                                             1.10.14                         java-archive                  
@@ -25,14 +25,14 @@ ant-jsch                                                                1.10.14 
 ant-junit                                                               1.10.14                         java-archive                  
 ant-junit4                                                              1.10.14                         java-archive                  
 ant-junitlauncher                                                       1.10.14                         java-archive                  
-ant-launcher                                                                                            java-archive                  
+ant-launcher                                                            UNKNOWN                         java-archive                  
 ant-netrexx                                                             1.10.14                         java-archive                  
 ant-swing                                                               1.10.14                         java-archive                  
-ant-testutil                                                                                            java-archive                  
+ant-testutil                                                            UNKNOWN                         java-archive                  
 ant-xz                                                                  1.10.14                         java-archive                  
-antdebug                                                                                                java-archive                  
-antrunner                                                                                               java-archive                  
-antsupportlib                                                                                           java-archive                  
+antdebug                                                                UNKNOWN                         java-archive                  
+antrunner                                                               UNKNOWN                         java-archive                  
+antsupportlib                                                           UNKNOWN                         java-archive                  
 aopalliance                                                             1.0                             java-archive                  
 apache-el                                                               9.0.90                          java-archive                  
 apache-jsp                                                              9.0.90                          java-archive                  
@@ -58,8 +58,8 @@ bcutil                                                                  1.78.1  
 bsdutils                                                                1:2.38.1-5+deb12u1              deb                           
 byte-buddy-agent                                                        1.15.0                          java-archive                  
 ca-certificates                                                         20230311                        deb                           
-ca-certificates-java                                                                                    java-archive                  
 ca-certificates-java                                                    20230710~deb12u1                deb                           
+ca-certificates-java                                                    UNKNOWN                         java-archive                  
 classic                                                                 1.5.7                           java-archive                  
 cli                                                                     1.9.0                           java-archive                  
 collate                                                                 75.1                            java-archive                  
@@ -103,7 +103,7 @@ default-jre                                                             2:1.17-7
 default-jre-headless                                                    2:1.17-74                       deb                           
 desktop-file-utils                                                      0.26-1                          deb                           
 diffutils                                                               1:3.8-4                         deb                           
-director-ant                                                                                            java-archive                  
+director-ant                                                            UNKNOWN                         java-archive                  
 dpkg                                                                    1.21.22                         deb                           
 e2fsprogs                                                               1.47.0-2                        deb                           
 eddsa                                                                   0.3.0                           java-archive                  
@@ -131,7 +131,7 @@ guava                                                                   33.3.0-j
 guice                                                                   5.1.0                           java-archive                  
 gzip                                                                    1.12-1                          deb                           
 hamcrest                                                                3.0.0                           java-archive                  
-helpbase-ant                                                                                            java-archive                  
+helpbase-ant                                                            UNKNOWN                         java-archive                  
 hicolor-icon-theme                                                      0.17-2                          deb                           
 hostname                                                                3.23+nmu1                       deb                           
 http                                                                    12.0.12                         java-archive                  
@@ -159,18 +159,16 @@ jakarta.inject-api                                                      2.0.1   
 jakarta.xml.bind                                                        2.3.3-SNAPSHOT                  java-archive                  
 jakarta.xml.bind_2.3.3.v20201118                                        1818                            java-archive                  
 jansi                                                                   2.4.1                           java-archive                  
-jarprocessor-ant                                                                                        java-archive                  
+jarprocessor-ant                                                        UNKNOWN                         java-archive                  
 java-common                                                             0.74                            deb                           
-java/jdk                                                                21.0.4+7-LTS                    binary                        
-java/jre                                                                21.0.4+7-LTS                    binary                        
-javaagent-shaded                                                                                        java-archive                  
+javaagent-shaded                                                        UNKNOWN                         java-archive                  
 javax.activation                                                        1.2.2-SNAPSHOT                  java-archive                  
 javax.activation_1.2.2.v20221203                                        1659                            java-archive                  
 jaxen                                                                   2.0.0                           java-archive                  
 jcl-over-slf4j                                                          1.7.36                          java-archive                  
 jcodings                                                                1.0.58                          java-archive                  
-jdimodel                                                                                                java-archive                  
-jdtCompilerAdapter                                                                                      java-archive                  
+jdimodel                                                                UNKNOWN                         java-archive                  
+jdtCompilerAdapter                                                      UNKNOWN                         java-archive                  
 jetty-ee8-nested                                                        12.0.12                         java-archive                  
 jetty-ee8-security                                                      12.0.12                         java-archive                  
 jetty-ee8-servlet                                                       12.0.12                         java-archive                  
@@ -203,7 +201,7 @@ jxpath                                                                  1.3.0   
 keyboard-configuration                                                  1.221                           deb                           
 lang3                                                                   3.16.0                          java-archive                  
 langdata                                                                75.1                            java-archive                  
-launchingsupport                                                                                        java-archive                  
+launchingsupport                                                        UNKNOWN                         java-archive                  
 lemminx-maven                                                           0.11.1                          java-archive                  
 libacl1                                                                 2.3.1-3                         deb                           
 libaom3                                                                 3.6.0-1+deb12u1                 deb                           
@@ -469,7 +467,7 @@ libzvbi-common                                                          0.2.41-1
 libzvbi0                                                                0.2.41-1                        deb                           
 logback-classic                                                         1.5.7                           java-archive                  
 logback-core                                                            1.5.7                           java-archive                  
-loggers                                                                                                 java-archive                  
+loggers                                                                 UNKNOWN                         java-archive                  
 logging                                                                 1.2.0                           java-archive                  
 login                                                                   1:4.13+dfsg1-1+b1               deb                           
 logsave                                                                 1.47.0-2                        deb                           
@@ -501,12 +499,13 @@ mawk                                                                    1.3.4.20
 media-types                                                             10.0.0                          deb                           
 mesa-va-drivers                                                         22.3.6-1+deb12u1                deb                           
 mesa-vulkan-drivers                                                     22.3.6-1+deb12u1                deb                           
-metadataRepository-ant                                                                                  java-archive                  
+metadataRepository-ant                                                  UNKNOWN                         java-archive                  
 mount                                                                   2.38.1-5+deb12u1                deb                           
 ncurses-base                                                            6.4-4                           deb                           
 ncurses-bin                                                             6.4-4                           deb                           
 netcat-openbsd                                                          1.219-1                         deb                           
 ocl-icd-libopencl1                                                      2.3.1-1                         deb                           
+openjdk                                                                 21.0.4                          binary                        
 openjdk-17-jdk                                                          17.0.12+7-2~deb12u1             deb                           
 openjdk-17-jdk-headless                                                 17.0.12+7-2~deb12u1             deb                           
 openjdk-17-jre                                                          17.0.12+7-2~deb12u1             deb                           
@@ -729,7 +728,7 @@ org.eclipse.jsch.ui_1.5.400.v20240413                                   1529    
 org.eclipse.justj.epp_21.0.0.v20240807                                  1553                            java-archive                  
 org.eclipse.justj.openjdk.hotspot.jre.full_21.0.4.v20240802             1551                            java-archive                  
 org.eclipse.lemminx                                                     0.28.0                          java-archive                  
-org.eclipse.lemminx-uber                                                                                java-archive                  
+org.eclipse.lemminx-uber                                                UNKNOWN                         java-archive                  
 org.eclipse.lsp4e                                                       0.18.12-SNAPSHOT                java-archive                  
 org.eclipse.lsp4j.jsonrpc_0.23.1.v20240521                              1815                            java-archive                  
 org.eclipse.lsp4j_0.23.1.v20240521                                      1815                            java-archive                  
@@ -1017,12 +1016,12 @@ osgi                                                                    2.13.2  
 osgi-resource-locator                                                   1.0.3                           java-archive                  
 passwd                                                                  1:4.13+dfsg1-1+b1               deb                           
 pb                                                                      2.3.6.v20201214                 java-archive                  
-pdepublishing-ant                                                                                       java-archive                  
+pdepublishing-ant                                                       UNKNOWN                         java-archive                  
 perl                                                                    5.36.0-7+deb12u1                deb                           
 perl-base                                                               5.36.0-7+deb12u1                deb                           
 perl-modules-5.36                                                       5.36.0-7+deb12u1                deb                           
-platform                                                                                                java-archive                  
 platform                                                                5.14.0                          java-archive                  
+platform                                                                UNKNOWN                         java-archive                  
 plexus-build-api                                                        0.0.7                           java-archive                  
 plexus-build-api                                                        1.2.0                           java-archive                  
 plexus-cipher                                                           2.0                             java-archive                  
@@ -1043,10 +1042,10 @@ python3.11                                                              3.11.2-6
 python3.11-minimal                                                      3.11.2-6+deb12u3                deb                           
 readline-common                                                         8.2-1.3                         deb                           
 regiondata                                                              75.1                            java-archive                  
-remote                                                                                                  java-archive                  
-remoteAnt                                                                                               java-archive                  
-repository-tools-ant                                                                                    java-archive                  
-resources-ant                                                                                           java-archive                  
+remote                                                                  UNKNOWN                         java-archive                  
+remoteAnt                                                               UNKNOWN                         java-archive                  
+repository-tools-ant                                                    UNKNOWN                         java-archive                  
+resources-ant                                                           UNKNOWN                         java-archive                  
 security                                                                12.0.12                         java-archive  (+1 duplicate)  
 sed                                                                     4.9-1                           deb                           
 server                                                                  12.0.12                         java-archive  (+1 duplicate)  

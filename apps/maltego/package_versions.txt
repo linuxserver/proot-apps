@@ -5,7 +5,7 @@ SparseBitSet                                            1.3                     
 adduser                                                 3.134                                                                       deb                            
 adwaita-icon-theme                                      43-1                                                                        deb                            
 animal-sniffer-annotations                              1.17                                                                        java-archive                   
-annotations                                                                                                                         java-archive                   
+annotations                                             UNKNOWN                                                                     java-archive                   
 api                                                     1.0-SNAPSHOT                                                                java-archive                   
 apt                                                     2.6.1                                                                       deb                            
 archive-mtz                                             1.0-SNAPSHOT                                                                java-archive                   
@@ -61,12 +61,12 @@ bcutil-jdk15on                                          1.70.00.0               
 bcutil-jdk18on                                          1.78.1                                                                      java-archive                   
 bean-utils                                              1.0-SNAPSHOT                                                                java-archive                   
 bookmarks-ui                                            1.0-SNAPSHOT                                                                java-archive                   
-boot                                                                                                                                java-archive                   
+boot                                                    UNKNOWN                                                                     java-archive                   
 branding                                                1.0-SNAPSHOT                                                                java-archive                   
 bsdutils                                                1:2.38.1-5+deb12u1                                                          deb                            
 ca-certificates                                         20230311                                                                    deb                            
-ca-certificates-java                                                                                                                java-archive                   
 ca-certificates-java                                    20230710~deb12u1                                                            deb                            
+ca-certificates-java                                    UNKNOWN                                                                     java-archive                   
 certificates                                            1.0-SNAPSHOT                                                                java-archive                   
 certificates-ui                                         1.0-SNAPSHOT                                                                java-archive                   
 chat                                                    1.0-SNAPSHOT                                                                java-archive                   
@@ -74,16 +74,16 @@ chatapi                                                 1.0-SNAPSHOT            
 checker-qual                                            2.5.2                                                                       java-archive                   
 cloud                                                   1.0-SNAPSHOT                                                                java-archive                   
 cloud-ui                                                1.0-SNAPSHOT                                                                java-archive                   
-cobra                                                                                                                               java-archive  (+2 duplicates)  
+cobra                                                   UNKNOWN                                                                     java-archive  (+2 duplicates)  
 collab                                                  1.0-SNAPSHOT                                                                java-archive                   
-com-bulenkov-darcula_maltego                                                                                                        java-archive                   
-com-paterva-maltego-laf_maltego                                                                                                     java-archive                   
-com-paterva-maltego-pws_maltego                                                                                                     java-archive                   
-com-paterva-maltego-ui-graph_maltego                                                                                                java-archive                   
-com-paterva-maltego-util-ui_maltego                                                                                                 java-archive                   
-com-paterva-maltego-welcome_maltego                                                                                                 java-archive                   
-com-pinkmatter-modules-flamingo_maltego                                                                                             java-archive                   
-com-yworks-y-files                                                                                                                  java-archive  (+1 duplicate)   
+com-bulenkov-darcula_maltego                            UNKNOWN                                                                     java-archive                   
+com-paterva-maltego-laf_maltego                         UNKNOWN                                                                     java-archive                   
+com-paterva-maltego-pws_maltego                         UNKNOWN                                                                     java-archive                   
+com-paterva-maltego-ui-graph_maltego                    UNKNOWN                                                                     java-archive                   
+com-paterva-maltego-util-ui_maltego                     UNKNOWN                                                                     java-archive                   
+com-paterva-maltego-welcome_maltego                     UNKNOWN                                                                     java-archive                   
+com-pinkmatter-modules-flamingo_maltego                 UNKNOWN                                                                     java-archive                   
+com-yworks-y-files                                      UNKNOWN                                                                     java-archive  (+1 duplicate)   
 common-image                                            3.10.1                                                                      java-archive                   
 common-io                                               3.10.1                                                                      java-archive                   
 common-lang                                             3.10.1                                                                      java-archive                   
@@ -108,11 +108,11 @@ commons-logging                                         1.2                     
 commons-math3                                           3.6.1                                                                       java-archive                   
 commons-text                                            1.10.0                                                                      java-archive  (+1 duplicate)   
 commons-validator                                       1.7                                                                         java-archive                   
-core                                                                                                                                java-archive                   
 core                                                    1.0-SNAPSHOT                                                                java-archive                   
-core-base                                                                                                                           java-archive                   
+core                                                    UNKNOWN                                                                     java-archive                   
+core-base                                               UNKNOWN                                                                     java-archive                   
 core2                                                   1.0-SNAPSHOT                                                                java-archive                   
-core_maltego                                                                                                                        java-archive                   
+core_maltego                                            UNKNOWN                                                                     java-archive                   
 coreutils                                               9.1-1                                                                       deb                            
 crypto                                                  1.0-SNAPSHOT                                                                java-archive                   
 curl                                                    7.88.1-10+deb12u7                                                           deb                            
@@ -223,8 +223,8 @@ java-common                                             0.74                    
 java-config-app                                         1.0-SNAPSHOT                                                                java-archive                   
 java-config-lib                                         1.0-SNAPSHOT                                                                java-archive  (+1 duplicate)   
 java-config-ui                                          1.0-SNAPSHOT                                                                java-archive                   
-javascript                                                                                                                          java-archive                   
 javascript                                              1.0-SNAPSHOT                                                                java-archive                   
+javascript                                              UNKNOWN                                                                     java-archive                   
 jbosh                                                   0.6.0                                                                       java-archive                   
 jboss-annotations-api_1.3_spec                          2.0.1.Final                                                                 java-archive                   
 jboss-jaxb-api_2.3_spec                                 2.0.0.Final                                                                 java-archive                   
@@ -240,7 +240,7 @@ jna-platform                                            5.13.0                  
 jna-platform                                            5.13.0 (b0)                                                                 java-archive                   
 jq                                                      1.6-2.1                                                                     deb                            
 jrt-fs                                                  17.0.12                                                                     java-archive                   
-js                                                                                                                                  java-archive                   
+js                                                      UNKNOWN                                                                     java-archive                   
 json-discovery                                          1.0-SNAPSHOT                                                                java-archive                   
 jsr305                                                  3.0.2                                                                       java-archive                   
 jts                                                     1.13                                                                        java-archive  (+1 duplicate)   
@@ -409,7 +409,7 @@ librav1e0                                               0.5.1-6                 
 libreadline8                                            8.2-1.3                                                                     deb                            
 librsvg2-2                                              2.54.7+dfsg-1~deb12u1                                                       deb                            
 librtmp1                                                2.4+20151223.gitfa8646d.1-2+b2                                              deb                            
-libs-c-kohlschutter-junixsocket                                                                                                     java-archive                   
+libs-c-kohlschutter-junixsocket                         UNKNOWN                                                                     java-archive                   
 libsamplerate0                                          0.2.2-3                                                                     deb                            
 libsasl2-2                                              2.1.28+dfsg-10                                                              deb                            
 libsasl2-modules-db                                     2.1.28+dfsg-10                                                              deb                            
@@ -545,157 +545,157 @@ openjdk-17-jre                                          17.0.12+7-2~deb12u1     
 openjdk-17-jre-headless                                 17.0.12+7-2~deb12u1                                                         deb                            
 openpdf                                                 1.3.36                                                                      java-archive                   
 openssl                                                 3.0.14-1~deb12u2                                                            deb                            
-org-apache-xml-resolver                                                                                                             java-archive                   
-org-netbeans-api-annotations-common                                                                                                 java-archive                   
-org-netbeans-api-intent                                                                                                             java-archive                   
-org-netbeans-api-io                                                                                                                 java-archive                   
-org-netbeans-api-java                                                                                                               java-archive                   
-org-netbeans-api-java-classpath                                                                                                     java-archive                   
-org-netbeans-api-lsp                                                                                                                java-archive                   
-org-netbeans-api-progress                                                                                                           java-archive                   
-org-netbeans-api-progress-nb                                                                                                        java-archive                   
-org-netbeans-api-scripting                                                                                                          java-archive                   
-org-netbeans-api-search                                                                                                             java-archive                   
-org-netbeans-api-templates                                                                                                          java-archive                   
-org-netbeans-core                                                                                                                   java-archive                   
-org-netbeans-core-execution                                                                                                         java-archive                   
-org-netbeans-core-execution_maltego                                                                                                 java-archive                   
-org-netbeans-core-io-ui                                                                                                             java-archive                   
-org-netbeans-core-io-ui_maltego                                                                                                     java-archive                   
-org-netbeans-core-multitabs                                                                                                         java-archive                   
-org-netbeans-core-multiview                                                                                                         java-archive                   
-org-netbeans-core-netigso                                                                                                           java-archive                   
-org-netbeans-core-output2                                                                                                           java-archive                   
-org-netbeans-core-ui                                                                                                                java-archive                   
-org-netbeans-core-ui_maltego                                                                                                        java-archive                   
-org-netbeans-core-windows                                                                                                           java-archive                   
-org-netbeans-core-windows_maltego                                                                                                   java-archive                   
-org-netbeans-core_maltego                                                                                                           java-archive                   
-org-netbeans-lib-nbjavac                                                                                                            java-archive                   
-org-netbeans-libs-asm                                                                                                               java-archive                   
-org-netbeans-libs-batik-read                                                                                                        java-archive                   
-org-netbeans-libs-commons_compress                                                                                                  java-archive                   
-org-netbeans-libs-felix                                                                                                             java-archive                   
-org-netbeans-libs-graalsdk                                                                                                          java-archive                   
-org-netbeans-libs-javacapi                                                                                                          java-archive                   
-org-netbeans-libs-javacimpl                                                                                                         java-archive                   
-org-netbeans-libs-jcodings                                                                                                          java-archive                   
-org-netbeans-libs-jna                                                                                                               java-archive                   
-org-netbeans-libs-junit4                                                                                                            java-archive                   
-org-netbeans-libs-lucene                                                                                                            java-archive                   
-org-netbeans-libs-osgi                                                                                                              java-archive                   
-org-netbeans-libs-truffleapi                                                                                                        java-archive                   
-org-netbeans-libs-xerces                                                                                                            java-archive                   
-org-netbeans-modules-applemenu                                                                                                      java-archive                   
-org-netbeans-modules-autoupdate-services                                                                                            java-archive                   
-org-netbeans-modules-autoupdate-ui                                                                                                  java-archive                   
-org-netbeans-modules-classfile                                                                                                      java-archive                   
-org-netbeans-modules-csl-api                                                                                                        java-archive                   
-org-netbeans-modules-csl-types                                                                                                      java-archive                   
-org-netbeans-modules-diff                                                                                                           java-archive                   
-org-netbeans-modules-editor                                                                                                         java-archive                   
-org-netbeans-modules-editor-actions                                                                                                 java-archive                   
-org-netbeans-modules-editor-autosave                                                                                                java-archive                   
-org-netbeans-modules-editor-bracesmatching                                                                                          java-archive                   
-org-netbeans-modules-editor-breadcrumbs                                                                                             java-archive                   
-org-netbeans-modules-editor-codetemplates                                                                                           java-archive                   
-org-netbeans-modules-editor-completion                                                                                              java-archive                   
-org-netbeans-modules-editor-deprecated-pre65formatting                                                                              java-archive                   
-org-netbeans-modules-editor-document                                                                                                java-archive                   
-org-netbeans-modules-editor-errorstripe                                                                                             java-archive                   
-org-netbeans-modules-editor-errorstripe-api                                                                                         java-archive                   
-org-netbeans-modules-editor-fold                                                                                                    java-archive                   
-org-netbeans-modules-editor-fold-nbui                                                                                               java-archive                   
-org-netbeans-modules-editor-guards                                                                                                  java-archive                   
-org-netbeans-modules-editor-indent                                                                                                  java-archive                   
-org-netbeans-modules-editor-indent-project                                                                                          java-archive                   
-org-netbeans-modules-editor-indent-support                                                                                          java-archive                   
-org-netbeans-modules-editor-lib                                                                                                     java-archive                   
-org-netbeans-modules-editor-lib2                                                                                                    java-archive                   
-org-netbeans-modules-editor-mimelookup                                                                                              java-archive                   
-org-netbeans-modules-editor-mimelookup-impl                                                                                         java-archive                   
-org-netbeans-modules-editor-plain                                                                                                   java-archive                   
-org-netbeans-modules-editor-plain-lib                                                                                               java-archive                   
-org-netbeans-modules-editor-settings                                                                                                java-archive                   
-org-netbeans-modules-editor-settings-lib                                                                                            java-archive                   
-org-netbeans-modules-editor-settings-storage                                                                                        java-archive                   
-org-netbeans-modules-editor-util                                                                                                    java-archive                   
-org-netbeans-modules-extbrowser                                                                                                     java-archive                   
-org-netbeans-modules-extexecution                                                                                                   java-archive                   
-org-netbeans-modules-extexecution-base                                                                                              java-archive                   
-org-netbeans-modules-extexecution_maltego                                                                                           java-archive                   
-org-netbeans-modules-groovy-editor                                                                                                  java-archive                   
-org-netbeans-modules-java-guards                                                                                                    java-archive                   
-org-netbeans-modules-java-lexer                                                                                                     java-archive                   
-org-netbeans-modules-java-platform                                                                                                  java-archive                   
-org-netbeans-modules-java-preprocessorbridge                                                                                        java-archive                   
-org-netbeans-modules-java-source                                                                                                    java-archive                   
-org-netbeans-modules-java-source-base                                                                                               java-archive                   
-org-netbeans-modules-java-sourceui                                                                                                  java-archive                   
-org-netbeans-modules-jumpto                                                                                                         java-archive                   
-org-netbeans-modules-keyring                                                                                                        java-archive                   
-org-netbeans-modules-keyring-fallback                                                                                               java-archive                   
-org-netbeans-modules-keyring-impl                                                                                                   java-archive                   
-org-netbeans-modules-lexer                                                                                                          java-archive                   
-org-netbeans-modules-lexer-nbbridge                                                                                                 java-archive                   
-org-netbeans-modules-libs-corba-omgapi                                                                                              java-archive                   
-org-netbeans-modules-libs-groovy                                                                                                    java-archive                   
-org-netbeans-modules-masterfs                                                                                                       java-archive                   
-org-netbeans-modules-masterfs-linux                                                                                                 java-archive                   
-org-netbeans-modules-masterfs-macosx                                                                                                java-archive                   
-org-netbeans-modules-masterfs-nio2                                                                                                  java-archive                   
-org-netbeans-modules-masterfs-windows                                                                                               java-archive                   
-org-netbeans-modules-options-api                                                                                                    java-archive                   
-org-netbeans-modules-options-editor                                                                                                 java-archive                   
-org-netbeans-modules-options-keymap                                                                                                 java-archive                   
-org-netbeans-modules-parsing-api                                                                                                    java-archive                   
-org-netbeans-modules-parsing-indexing                                                                                               java-archive                   
-org-netbeans-modules-parsing-lucene                                                                                                 java-archive                   
-org-netbeans-modules-parsing-nb                                                                                                     java-archive                   
-org-netbeans-modules-progress-ui                                                                                                    java-archive                   
-org-netbeans-modules-project-indexingbridge                                                                                         java-archive                   
-org-netbeans-modules-projectapi                                                                                                     java-archive                   
-org-netbeans-modules-projectapi-nb                                                                                                  java-archive                   
-org-netbeans-modules-projectuiapi                                                                                                   java-archive                   
-org-netbeans-modules-projectuiapi-base                                                                                              java-archive                   
-org-netbeans-modules-queries                                                                                                        java-archive                   
-org-netbeans-modules-refactoring-api                                                                                                java-archive                   
-org-netbeans-modules-sampler                                                                                                        java-archive                   
-org-netbeans-modules-sendopts                                                                                                       java-archive                   
-org-netbeans-modules-settings                                                                                                       java-archive                   
-org-netbeans-spi-editor-hints                                                                                                       java-archive                   
-org-netbeans-spi-navigator                                                                                                          java-archive                   
-org-netbeans-spi-palette                                                                                                            java-archive                   
-org-netbeans-spi-palette_maltego                                                                                                    java-archive                   
-org-netbeans-spi-quicksearch                                                                                                        java-archive                   
-org-netbeans-spi-tasklist                                                                                                           java-archive                   
-org-netbeans-swing-outline                                                                                                          java-archive                   
-org-netbeans-swing-outline_maltego                                                                                                  java-archive                   
-org-netbeans-swing-plaf                                                                                                             java-archive                   
-org-netbeans-swing-plaf_maltego                                                                                                     java-archive                   
-org-netbeans-swing-tabcontrol                                                                                                       java-archive                   
-org-netbeans-swing-tabcontrol_maltego                                                                                               java-archive                   
-org-openide-actions                                                                                                                 java-archive                   
-org-openide-actions_maltego                                                                                                         java-archive                   
-org-openide-awt                                                                                                                     java-archive                   
-org-openide-awt_maltego                                                                                                             java-archive                   
-org-openide-dialogs                                                                                                                 java-archive                   
-org-openide-dialogs_maltego                                                                                                         java-archive                   
-org-openide-execution                                                                                                               java-archive                   
-org-openide-explorer                                                                                                                java-archive                   
-org-openide-explorer_maltego                                                                                                        java-archive                   
-org-openide-filesystems                                                                                                             java-archive                   
-org-openide-filesystems-nb                                                                                                          java-archive                   
-org-openide-io                                                                                                                      java-archive                   
-org-openide-loaders                                                                                                                 java-archive                   
-org-openide-modules                                                                                                                 java-archive                   
-org-openide-nodes                                                                                                                   java-archive                   
-org-openide-text                                                                                                                    java-archive                   
-org-openide-util                                                                                                                    java-archive                   
-org-openide-util-lookup                                                                                                             java-archive                   
-org-openide-util-ui                                                                                                                 java-archive                   
-org-openide-util-ui-svg                                                                                                             java-archive                   
-org-openide-windows                                                                                                                 java-archive                   
+org-apache-xml-resolver                                 UNKNOWN                                                                     java-archive                   
+org-netbeans-api-annotations-common                     UNKNOWN                                                                     java-archive                   
+org-netbeans-api-intent                                 UNKNOWN                                                                     java-archive                   
+org-netbeans-api-io                                     UNKNOWN                                                                     java-archive                   
+org-netbeans-api-java                                   UNKNOWN                                                                     java-archive                   
+org-netbeans-api-java-classpath                         UNKNOWN                                                                     java-archive                   
+org-netbeans-api-lsp                                    UNKNOWN                                                                     java-archive                   
+org-netbeans-api-progress                               UNKNOWN                                                                     java-archive                   
+org-netbeans-api-progress-nb                            UNKNOWN                                                                     java-archive                   
+org-netbeans-api-scripting                              UNKNOWN                                                                     java-archive                   
+org-netbeans-api-search                                 UNKNOWN                                                                     java-archive                   
+org-netbeans-api-templates                              UNKNOWN                                                                     java-archive                   
+org-netbeans-core                                       UNKNOWN                                                                     java-archive                   
+org-netbeans-core-execution                             UNKNOWN                                                                     java-archive                   
+org-netbeans-core-execution_maltego                     UNKNOWN                                                                     java-archive                   
+org-netbeans-core-io-ui                                 UNKNOWN                                                                     java-archive                   
+org-netbeans-core-io-ui_maltego                         UNKNOWN                                                                     java-archive                   
+org-netbeans-core-multitabs                             UNKNOWN                                                                     java-archive                   
+org-netbeans-core-multiview                             UNKNOWN                                                                     java-archive                   
+org-netbeans-core-netigso                               UNKNOWN                                                                     java-archive                   
+org-netbeans-core-output2                               UNKNOWN                                                                     java-archive                   
+org-netbeans-core-ui                                    UNKNOWN                                                                     java-archive                   
+org-netbeans-core-ui_maltego                            UNKNOWN                                                                     java-archive                   
+org-netbeans-core-windows                               UNKNOWN                                                                     java-archive                   
+org-netbeans-core-windows_maltego                       UNKNOWN                                                                     java-archive                   
+org-netbeans-core_maltego                               UNKNOWN                                                                     java-archive                   
+org-netbeans-lib-nbjavac                                UNKNOWN                                                                     java-archive                   
+org-netbeans-libs-asm                                   UNKNOWN                                                                     java-archive                   
+org-netbeans-libs-batik-read                            UNKNOWN                                                                     java-archive                   
+org-netbeans-libs-commons_compress                      UNKNOWN                                                                     java-archive                   
+org-netbeans-libs-felix                                 UNKNOWN                                                                     java-archive                   
+org-netbeans-libs-graalsdk                              UNKNOWN                                                                     java-archive                   
+org-netbeans-libs-javacapi                              UNKNOWN                                                                     java-archive                   
+org-netbeans-libs-javacimpl                             UNKNOWN                                                                     java-archive                   
+org-netbeans-libs-jcodings                              UNKNOWN                                                                     java-archive                   
+org-netbeans-libs-jna                                   UNKNOWN                                                                     java-archive                   
+org-netbeans-libs-junit4                                UNKNOWN                                                                     java-archive                   
+org-netbeans-libs-lucene                                UNKNOWN                                                                     java-archive                   
+org-netbeans-libs-osgi                                  UNKNOWN                                                                     java-archive                   
+org-netbeans-libs-truffleapi                            UNKNOWN                                                                     java-archive                   
+org-netbeans-libs-xerces                                UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-applemenu                          UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-autoupdate-services                UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-autoupdate-ui                      UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-classfile                          UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-csl-api                            UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-csl-types                          UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-diff                               UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor                             UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-actions                     UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-autosave                    UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-bracesmatching              UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-breadcrumbs                 UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-codetemplates               UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-completion                  UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-deprecated-pre65formatting  UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-document                    UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-errorstripe                 UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-errorstripe-api             UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-fold                        UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-fold-nbui                   UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-guards                      UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-indent                      UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-indent-project              UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-indent-support              UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-lib                         UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-lib2                        UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-mimelookup                  UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-mimelookup-impl             UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-plain                       UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-plain-lib                   UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-settings                    UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-settings-lib                UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-settings-storage            UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-editor-util                        UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-extbrowser                         UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-extexecution                       UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-extexecution-base                  UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-extexecution_maltego               UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-groovy-editor                      UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-java-guards                        UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-java-lexer                         UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-java-platform                      UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-java-preprocessorbridge            UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-java-source                        UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-java-source-base                   UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-java-sourceui                      UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-jumpto                             UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-keyring                            UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-keyring-fallback                   UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-keyring-impl                       UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-lexer                              UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-lexer-nbbridge                     UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-libs-corba-omgapi                  UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-libs-groovy                        UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-masterfs                           UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-masterfs-linux                     UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-masterfs-macosx                    UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-masterfs-nio2                      UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-masterfs-windows                   UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-options-api                        UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-options-editor                     UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-options-keymap                     UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-parsing-api                        UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-parsing-indexing                   UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-parsing-lucene                     UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-parsing-nb                         UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-progress-ui                        UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-project-indexingbridge             UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-projectapi                         UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-projectapi-nb                      UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-projectuiapi                       UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-projectuiapi-base                  UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-queries                            UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-refactoring-api                    UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-sampler                            UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-sendopts                           UNKNOWN                                                                     java-archive                   
+org-netbeans-modules-settings                           UNKNOWN                                                                     java-archive                   
+org-netbeans-spi-editor-hints                           UNKNOWN                                                                     java-archive                   
+org-netbeans-spi-navigator                              UNKNOWN                                                                     java-archive                   
+org-netbeans-spi-palette                                UNKNOWN                                                                     java-archive                   
+org-netbeans-spi-palette_maltego                        UNKNOWN                                                                     java-archive                   
+org-netbeans-spi-quicksearch                            UNKNOWN                                                                     java-archive                   
+org-netbeans-spi-tasklist                               UNKNOWN                                                                     java-archive                   
+org-netbeans-swing-outline                              UNKNOWN                                                                     java-archive                   
+org-netbeans-swing-outline_maltego                      UNKNOWN                                                                     java-archive                   
+org-netbeans-swing-plaf                                 UNKNOWN                                                                     java-archive                   
+org-netbeans-swing-plaf_maltego                         UNKNOWN                                                                     java-archive                   
+org-netbeans-swing-tabcontrol                           UNKNOWN                                                                     java-archive                   
+org-netbeans-swing-tabcontrol_maltego                   UNKNOWN                                                                     java-archive                   
+org-openide-actions                                     UNKNOWN                                                                     java-archive                   
+org-openide-actions_maltego                             UNKNOWN                                                                     java-archive                   
+org-openide-awt                                         UNKNOWN                                                                     java-archive                   
+org-openide-awt_maltego                                 UNKNOWN                                                                     java-archive                   
+org-openide-dialogs                                     UNKNOWN                                                                     java-archive                   
+org-openide-dialogs_maltego                             UNKNOWN                                                                     java-archive                   
+org-openide-execution                                   UNKNOWN                                                                     java-archive                   
+org-openide-explorer                                    UNKNOWN                                                                     java-archive                   
+org-openide-explorer_maltego                            UNKNOWN                                                                     java-archive                   
+org-openide-filesystems                                 UNKNOWN                                                                     java-archive                   
+org-openide-filesystems-nb                              UNKNOWN                                                                     java-archive                   
+org-openide-io                                          UNKNOWN                                                                     java-archive                   
+org-openide-loaders                                     UNKNOWN                                                                     java-archive                   
+org-openide-modules                                     UNKNOWN                                                                     java-archive                   
+org-openide-nodes                                       UNKNOWN                                                                     java-archive                   
+org-openide-text                                        UNKNOWN                                                                     java-archive                   
+org-openide-util                                        UNKNOWN                                                                     java-archive                   
+org-openide-util-lookup                                 UNKNOWN                                                                     java-archive                   
+org-openide-util-ui                                     UNKNOWN                                                                     java-archive                   
+org-openide-util-ui-svg                                 UNKNOWN                                                                     java-archive                   
+org-openide-windows                                     UNKNOWN                                                                     java-archive                   
 org.apache.felix.framework                              7.0.0                                                                       java-archive                   
 org.apache.felix.main                                   7.0.0                                                                       java-archive                   
 osgi.cmpn                                               7.0.0                                                                       java-archive                   
@@ -742,8 +742,8 @@ simple-xml                                              2.7.1                   
 simple-xml-safe                                         2.7.1                                                                       java-archive  (+7 duplicates)  
 slf4j-api                                               1.7.12                                                                      java-archive                   
 slf4j-jdk14                                             1.7.28                                                                      java-archive                   
-smack                                                                                                                               java-archive                   
-smackx                                                                                                                              java-archive                   
+smack                                                   UNKNOWN                                                                     java-archive                   
+smackx                                                  UNKNOWN                                                                     java-archive                   
 smallrye-common-annotation                              1.6.0                                                                       java-archive                   
 smallrye-common-classloader                             1.6.0                                                                       java-archive                   
 smallrye-common-constraint                              1.6.0                                                                       java-archive                   
@@ -759,8 +759,8 @@ spring-boot-jarmode-layertools                          2.7.9                   
 stax                                                    1.2.0                                                                       java-archive  (+5 duplicates)  
 stax-api                                                1.0.1                                                                       java-archive  (+5 duplicates)  
 stax2-api                                               4.2.1                                                                       java-archive  (+3 duplicates)  
-swingx                                                                                                                              java-archive                   
 swingx                                                  1.0-SNAPSHOT                                                                java-archive                   
+swingx                                                  UNKNOWN                                                                     java-archive                   
 sysvinit-utils                                          3.06-4                                                                      deb                            
 tabular-transforms-run                                  1.0-SNAPSHOT                                                                java-archive                   
 tar                                                     1.34+dfsg-1.2+deb12u1                                                       deb                            
@@ -785,8 +785,8 @@ transforms-tabular-ui                                   1.0-SNAPSHOT            
 treelist-lazy                                           1.0-SNAPSHOT                                                                java-archive                   
 treelist-parts                                          1.0-SNAPSHOT                                                                java-archive                   
 trident                                                 1.0-SNAPSHOT                                                                java-archive                   
-truffle-api                                                                                                                         java-archive                   
 truffle-api                                             20.3.0                                                                      java-archive                   
+truffle-api                                             UNKNOWN                                                                     java-archive                   
 tx-inputs-global                                        1.0-SNAPSHOT                                                                java-archive                   
 tx-inputs-global-ui                                     1.0-SNAPSHOT                                                                java-archive                   
 tx3-java-api                                            1.1.16                                                                      java-archive                   
@@ -799,8 +799,8 @@ udev                                                    252.30-1~deb12u2        
 ui-graph                                                1.0-SNAPSHOT                                                                java-archive                   
 undertow-core                                           2.2.19.Final                                                                java-archive                   
 update-kit-commercial                                   1.0-SNAPSHOT                                                                java-archive                   
-updater                                                                                                                             java-archive                   
-updater_maltego                                                                                                                     java-archive                   
+updater                                                 UNKNOWN                                                                     java-archive                   
+updater_maltego                                         UNKNOWN                                                                     java-archive                   
 usr-is-merged                                           37~deb12u1                                                                  deb                            
 util                                                    1.0-SNAPSHOT                                                                java-archive                   
 util-linux                                              2.38.1-5+deb12u1                                                            deb                            
@@ -832,7 +832,7 @@ xmlgraphics-commons                                     2.6                     
 xmlgraphics-commons                                     2.9                                                                         java-archive                   
 xnio-api                                                3.8.7.Final                                                                 java-archive  (+1 duplicate)   
 xnio-nio                                                3.8.7.Final                                                                 java-archive  (+1 duplicate)   
-xpp3                                                                                                                                java-archive  (+5 duplicates)  
+xpp3                                                    UNKNOWN                                                                     java-archive  (+5 duplicates)  
 xsdlib                                                  2013.6.1                                                                    java-archive  (+3 duplicates)  
 xserver-common                                          2:21.1.7-3+deb12u7                                                          deb                            
 xserver-xorg-core                                       2:21.1.7-3+deb12u7                                                          deb                            
