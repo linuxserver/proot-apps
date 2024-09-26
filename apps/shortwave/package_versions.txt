@@ -76,7 +76,6 @@ iso-codes                  4.16.0-r0                apk
 json-glib                  1.8.0-r1                 apk     
 lame-libs                  3.100-r5                 apk     
 lcms2                      2.16-r0                  apk     
-libSvtAv1Enc               2.0.0-r1                 apk     
 libadwaita                 1.5.2-r0                 apk     
 libass                     0.17.2-r0                apk     
 libasyncns                 0.8-r3                   apk     
@@ -211,7 +210,6 @@ netcat-openbsd             1.226-r0                 apk
 nettle                     3.9.1-r0                 apk     
 nghttp2-libs               1.62.1-r0                apk     
 numactl                    2.0.18-r0                apk     
-onevpl-libs                2023.3.1-r2              apk     
 openal-soft-libs           1.23.1-r0                apk     
 opencore-amr               0.1.6-r1                 apk     
 openexr-libiex             3.1.13-r1                apk     

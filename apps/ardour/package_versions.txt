@@ -17,7 +17,7 @@ arrayvec                   0.7.4                    rust-crate
 aubio                      0.4.9-r4                 apk           
 av-metrics                 0.9.1                    rust-crate    
 av1-grain                  0.2.3                    rust-crate    
-bash                       5.2.32-r0                apk           
+bash                       5.2.37-r0                apk           
 bitflags                   2.4.1                    rust-crate    
 bitstream-io               2.2.0                    rust-crate    
 brotli-libs                1.1.0-r2                 apk           
@@ -96,7 +96,6 @@ lame                       3.100-r5                 apk
 lame-libs                  3.100-r5                 apk           
 lazy_static                1.4.0                    rust-crate    
 lcms2                      2.16-r0                  apk           
-libSvtAv1Enc               2.2.1-r0                 apk           
 libarchive                 3.7.5-r0                 apk           
 libass                     0.17.3-r0                apk           
 libasyncns                 0.8-r4                   apk           
@@ -133,7 +132,7 @@ libmd                      1.1.0-r0                 apk
 libmount                   2.40.2-r2                apk           
 libncursesw                6.5_p20240601-r1         apk           
 libogg                     1.3.5-r5                 apk           
-libopenmpt                 0.7.9-r0                 apk           
+libopenmpt                 0.7.10-r0                apk           
 libpanelw                  6.5_p20240601-r1         apk           
 libpciaccess               0.18.1-r0                apk           
 libplacebo                 6.338.2-r2               apk           
@@ -225,12 +224,11 @@ num-rational               0.4.1                    rust-crate
 num-traits                 0.2.17                   rust-crate    
 numactl                    2.0.18-r0                apk           
 once_cell                  1.19.0                   rust-crate    
-onevpl-libs                2023.3.1-r2              apk           
 openexr-libiex             3.1.13-r1                apk           
 openexr-libilmthread       3.1.13-r1                apk           
 openexr-libopenexr         3.1.13-r1                apk           
 opus                       1.5.2-r0                 apk           
-orc                        0.4.39-r0                apk           
+orc                        0.4.40-r0                apk           
 pango                      1.54.0-r0                apk           
 pangomm                    2.46.4-r1                apk           
 paste                      1.0.14                   rust-crate    

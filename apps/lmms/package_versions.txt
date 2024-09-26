@@ -104,6 +104,7 @@ libssl3                    3.3.2-r0                 apk
 libstdc++                  13.2.1_git20240309-r0    apk       
 libtasn1                   4.19.0-r2                apk       
 libtheora                  1.1.1-r18                apk       
+libucontext                1.2-r3                   apk       
 libunistring               1.2-r0                   apk       
 libunwind                  1.8.1-r0                 apk       
 libuuid                    2.40.1-r1                apk       

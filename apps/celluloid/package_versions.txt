@@ -74,7 +74,6 @@ iso-codes                  4.16.0-r0                apk
 jack                       1.9.22-r4                apk     
 lame-libs                  3.100-r5                 apk     
 lcms2                      2.16-r0                  apk     
-libSvtAv1Enc               2.0.0-r1                 apk     
 libacl                     2.3.2-r0                 apk     
 libadwaita                 1.5.2-r0                 apk     
 libarchive                 3.7.5-r0                 apk     
@@ -150,6 +149,7 @@ libssl3                    3.3.2-r0                 apk
 libstdc++                  13.2.1_git20240309-r0    apk     
 libtasn1                   4.19.0-r2                apk     
 libtheora                  1.1.1-r18                apk     
+libucontext                1.2-r3                   apk     
 libunibreak                6.1-r0                   apk     
 libunistring               1.2-r0                   apk     
 libunwind                  1.8.1-r0                 apk     
@@ -218,7 +218,6 @@ netcat-openbsd             1.226-r0                 apk
 nettle                     3.9.1-r0                 apk     
 nghttp2-libs               1.62.1-r0                apk     
 numactl                    2.0.18-r0                apk     
-onevpl-libs                2023.3.1-r2              apk     
 openal-soft-libs           1.23.1-r0                apk     
 openexr-libiex             3.1.13-r1                apk     
 openexr-libilmthread       3.1.13-r1                apk     

@@ -7,7 +7,7 @@ aom-libs                     3.10.0-r0                apk
 apk-tools                    2.14.4-r2                apk     
 at-spi2-core                 2.54.0-r0                apk     
 avahi-libs                   0.8-r18                  apk     
-bash                         5.2.32-r0                apk     
+bash                         5.2.37-r0                apk     
 brotli-libs                  1.1.0-r2                 apk     
 busybox                      1.36.1-r31               apk     
 busybox-binsh                1.36.1-r31               apk     
@@ -109,7 +109,6 @@ libretro-beetle-supergrafx   0_git20220218-r0         apk
 libretro-beetle-vb           0_git20221214-r0         apk     
 libretro-beetle-wswan        0_git20230120-r0         apk     
 libretro-bk                  0_git20240628-r0         apk     
-libretro-blastem             0_git20210810-r0         apk     
 libretro-bluemsx             0_git20240808-r0         apk     
 libretro-bsnes               0_git20191009-r1         apk     
 libretro-cannonball          0_git20220309-r6         apk     
@@ -121,11 +120,9 @@ libretro-daphne              0_git20210108-r1         apk
 libretro-database            1.19.0-r0                apk     
 libretro-desmume             0_git20220926-r0         apk     
 libretro-dinothawr           0_git20220401-r0         apk     
-libretro-dolphin             0_git20220407-r2         apk     
 libretro-dosbox              0_git20220718-r0         apk     
 libretro-fbneo               0_git20220416-r0         apk     
 libretro-fceumm              0_git20230107-r0         apk     
-libretro-flycast             0_git20220406-r1         apk     
 libretro-fmsx                0_git20220726-r0         apk     
 libretro-freechaf            0_git20220730-r0         apk     
 libretro-freeintv            0_git20220319-r0         apk     
@@ -147,7 +144,6 @@ libretro-meteor              0_git20201228-r0         apk
 libretro-mgba                0_git20230126-r0         apk     
 libretro-mrboom              0_git20220725-r0         apk     
 libretro-mu                  0_git20220317-r0         apk     
-libretro-mupen64plus         0_git20230124-r0         apk     
 libretro-neocd               0_git20220325-r1         apk     
 libretro-nestopia            0_git20230102-r0         apk     
 libretro-nxengine            0_git20220301-r0         apk     
@@ -155,7 +151,6 @@ libretro-o2em                0_git20220726-r0         apk
 libretro-openlara            0_git20210121-r0         apk     
 libretro-opera               0_git20211214-r0         apk     
 libretro-parallel-n64        0_git20220406-r0         apk     
-libretro-pcem                0_git20180812-r0         apk     
 libretro-pcsx-rearmed        0_git20220409-r0         apk     
 libretro-picodrive           0_git20220405-r0         apk     
 libretro-pocketcdg           0_git20220327-r0         apk     
@@ -187,7 +182,6 @@ libstdc++                    14.2.0-r3                apk
 libtasn1                     4.19.0-r2                apk     
 libtheora                    1.1.1-r18                apk     
 libunistring                 1.2-r0                   apk     
-libusb                       1.0.27-r0                apk     
 libuuid                      2.40.2-r2                apk     
 libva                        2.22.0-r0                apk     
 libva-intel-driver           2.4.1-r1                 apk     
@@ -221,7 +215,6 @@ libxtst                      1.2.5-r0                 apk
 libxv                        1.0.12-r5                apk     
 libxvmc                      1.0.14-r1                apk     
 libxxf86vm                   1.1.5-r6                 apk     
-libzip                       1.11.1-r0                apk     
 llvm18-libs                  18.1.8-r0                apk     
 mbedtls2                     2.28.8-r1                apk     
 mesa                         24.2.3-r0                apk     
@@ -234,7 +227,6 @@ mesa-va-gallium              24.2.3-r0                apk
 mesa-vulkan-ati              24.2.3-r0                apk     
 mesa-vulkan-layers           24.2.3-r0                apk     
 mesa-vulkan-swrast           24.2.3-r0                apk     
-miniupnpc                    2.2.8-r0                 apk     
 mpdecimal                    4.0.0-r0                 apk     
 mtdev                        1.1.7-r0                 apk     
 musl                         1.2.5-r3                 apk     
@@ -245,7 +237,7 @@ nettle                       3.10-r1                  apk
 nghttp2-libs                 1.62.1-r0                apk     
 numactl                      2.0.18-r0                apk     
 opus                         1.5.2-r0                 apk     
-orc                          0.4.39-r0                apk     
+orc                          0.4.40-r0                apk     
 p11-kit                      0.25.5-r1                apk     
 pango                        1.54.0-r0                apk     
 pcre2                        10.43-r0                 apk     
