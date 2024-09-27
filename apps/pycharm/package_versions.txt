@@ -71,7 +71,7 @@ java-websocket                  1.5.5                           java-archive
 javascript                      1.0.0                           npm                            
 jitsi-utils                     1.0-112-gd92472a                java-archive                   
 jnaerator-runtime               UNKNOWN                         java-archive                   
-jrt-fs                          21.0.3                          java-archive                   
+jrt-fs                          21.0.4                          java-archive                   
 json                            1.0.0                           npm                            
 jstun                           0.7.5.20200723                  java-archive                   
 julia                           1.0.0                           npm                            
@@ -346,7 +346,7 @@ ncurses-bin                     6.4-4                           deb
 netcat-openbsd                  1.219-1                         deb                            
 objective-c                     1.0.0                           npm                            
 ocl-icd-libopencl1              2.3.1-1                         deb                            
-openjdk                         21.0.3+13-b509.15               binary                         
+openjdk                         21.0.4+13-b509.17               binary                         
 openssh-client                  1:9.2p1-2+deb12u3               deb                            
 openssl                         3.0.14-1~deb12u2                deb                            
 passwd                          1:4.13+dfsg1-1+b1               deb                            

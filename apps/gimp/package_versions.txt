@@ -18,7 +18,7 @@ cairo                      1.18.0-r0                apk
 cairo-gobject              1.18.0-r0                apk     
 cdparanoia-libs            10.2-r14                 apk     
 cjson                      1.7.18-r0                apk     
-cups-libs                  2.4.9-r0                 apk     
+cups-libs                  2.4.9-r1                 apk     
 curl                       8.9.1-r2                 apk     
 dbus                       1.14.10-r1               apk     
 dbus-daemon-launch-helper  1.14.10-r1               apk     
@@ -63,6 +63,7 @@ json-c                     0.17-r0                  apk
 json-glib                  1.8.0-r1                 apk     
 lame-libs                  3.100-r5                 apk     
 lcms2                      2.16-r0                  apk     
+libSvtAv1Enc               2.0.0-r1                 apk     
 libasyncns                 0.8-r3                   apk     
 libatk-1.0                 2.52.0-r0                apk     
 libblkid                   2.40.1-r1                apk     
@@ -172,6 +173,7 @@ nghttp2-libs               1.62.1-r0                apk
 nspr                       4.35-r4                  apk     
 nss                        3.104-r0                 apk     
 numactl                    2.0.18-r0                apk     
+onevpl-libs                2023.3.1-r2              apk     
 openexr-libiex             3.1.13-r1                apk     
 openexr-libilmthread       3.1.13-r1                apk     
 openexr-libopenexr         3.1.13-r1                apk     

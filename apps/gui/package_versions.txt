@@ -20,7 +20,7 @@ cairo-gobject               1.18.0-r0                apk
 cdparanoia-libs             10.2-r14                 apk       
 certifi                     2024.2.2                 python    
 charset-normalizer          3.3.2                    python    
-cups-libs                   2.4.9-r0                 apk       
+cups-libs                   2.4.9-r1                 apk       
 curl                        8.9.1-r2                 apk       
 dbus                        1.14.10-r1               apk       
 dbus-daemon-launch-helper   1.14.10-r1               apk       

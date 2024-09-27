@@ -67,8 +67,8 @@ libbsd0                         0.12.2-1                        deb
 libbz2-1.0                      1.0.8-6                         deb     
 libc-bin                        2.40-2                          deb     
 libc6                           2.40-2                          deb     
-libcairo-gobject2               1.18.2-1                        deb     
-libcairo2                       1.18.2-1                        deb     
+libcairo-gobject2               1.18.2-2                        deb     
+libcairo2                       1.18.2-2                        deb     
 libcap-ng0                      0.8.5-2                         deb     
 libcap2                         1:2.66-5                        deb     
 libcap2-bin                     1:2.66-5                        deb     
@@ -220,7 +220,7 @@ libss2                          1.47.1-1                        deb
 libssh2-1t64                    1.11.0-7                        deb     
 libssl3t64                      3.3.2-1                         deb     
 libstdc++6                      14.2.0-5                        deb     
-libsvtav1enc2                   2.1.0+dfsg-2                    deb     
+libsvtav1enc2                   2.2.1+dfsg-2                    deb     
 libswresample5                  7:7.0.2-3                       deb     
 libsystemd-shared               256.6-1                         deb     
 libsystemd0                     256.6-1                         deb     
@@ -307,7 +307,7 @@ media-types                     10.1.0                          deb
 mesa-libgallium                 24.2.3-1                        deb     
 mesa-va-drivers                 24.2.3-1                        deb     
 mesa-vulkan-drivers             24.2.3-1                        deb     
-microsoft-edge-stable           129.0.2792.52-1                 deb     
+microsoft-edge-stable           129.0.2792.65-1                 deb     
 mount                           2.40.2-7                        deb     
 ncurses-base                    6.5-2                           deb     
 ncurses-bin                     6.5-2                           deb     

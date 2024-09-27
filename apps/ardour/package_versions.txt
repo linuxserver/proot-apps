@@ -96,6 +96,7 @@ lame                       3.100-r5                 apk
 lame-libs                  3.100-r5                 apk           
 lazy_static                1.4.0                    rust-crate    
 lcms2                      2.16-r0                  apk           
+libSvtAv1Enc               2.2.1-r0                 apk           
 libarchive                 3.7.5-r0                 apk           
 libass                     0.17.3-r0                apk           
 libasyncns                 0.8-r4                   apk           
@@ -214,7 +215,7 @@ musl-utils                 1.2.5-r1                 apk
 ncurses-terminfo-base      6.5_p20240601-r1         apk           
 netcat-openbsd             1.226-r0                 apk           
 new_debug_unreachable      1.0.4                    rust-crate    
-nghttp2-libs               1.62.1-r0                apk           
+nghttp2-libs               1.63.0-r0                apk           
 nom                        7.1.3                    rust-crate    
 noop_proc_macro            0.3.0                    rust-crate    
 num-bigint                 0.4.4                    rust-crate    
@@ -224,6 +225,7 @@ num-rational               0.4.1                    rust-crate
 num-traits                 0.2.17                   rust-crate    
 numactl                    2.0.18-r0                apk           
 once_cell                  1.19.0                   rust-crate    
+onevpl-libs                2023.3.1-r2              apk           
 openexr-libiex             3.1.13-r1                apk           
 openexr-libilmthread       3.1.13-r1                apk           
 openexr-libopenexr         3.1.13-r1                apk           

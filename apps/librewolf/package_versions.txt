@@ -41,7 +41,7 @@ crossbeam-deque            0.8.5                    rust-crate
 crossbeam-epoch            0.9.18                   rust-crate    
 crossbeam-queue            0.3.11                   rust-crate    
 crossbeam-utils            0.8.19                   rust-crate    
-cups-libs                  2.4.10-r0                apk           
+cups-libs                  2.4.10-r1                apk           
 curl                       8.9.1-r2                 apk           
 dbus                       1.14.10-r3               apk           
 dbus-daemon-launch-helper  1.14.10-r3               apk           
@@ -92,6 +92,7 @@ lab                        0.11.0                   rust-crate
 lame-libs                  3.100-r5                 apk           
 lazy_static                1.4.0                    rust-crate    
 lcms2                      2.16-r0                  apk           
+libSvtAv1Enc               2.2.1-r0                 apk           
 libasyncns                 0.8-r4                   apk           
 libatk-1.0                 2.54.0-r0                apk           
 libatk-bridge-2.0          2.54.0-r0                apk           
@@ -195,7 +196,7 @@ ncurses-terminfo-base      6.5_p20240601-r1         apk
 netcat-openbsd             1.226-r0                 apk           
 nettle                     3.10-r1                  apk           
 new_debug_unreachable      1.0.4                    rust-crate    
-nghttp2-libs               1.62.1-r0                apk           
+nghttp2-libs               1.63.0-r0                apk           
 nom                        7.1.3                    rust-crate    
 noop_proc_macro            0.3.0                    rust-crate    
 nspr                       4.35-r4                  apk           
@@ -207,6 +208,7 @@ num-rational               0.4.1                    rust-crate
 num-traits                 0.2.17                   rust-crate    
 numactl                    2.0.18-r0                apk           
 once_cell                  1.19.0                   rust-crate    
+onevpl-libs                2023.3.1-r2              apk           
 openexr-libiex             3.1.13-r1                apk           
 openexr-libilmthread       3.1.13-r1                apk           
 openexr-libopenexr         3.1.13-r1                apk           
@@ -241,6 +243,7 @@ readline                   8.2.13-r0                apk
 rustix                     0.38.28                  rust-crate    
 scan_fmt                   0.2.6                    rust-crate    
 scanelf                    1.3.7-r2                 apk           
+scudo-malloc               18.1.8-r0                apk           
 shared-mime-info           2.4-r0                   apk           
 signal-hook                0.3.17                   rust-crate    
 signal-hook-registry       1.4.1                    rust-crate    

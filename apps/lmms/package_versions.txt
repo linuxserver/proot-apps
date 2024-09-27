@@ -20,7 +20,7 @@ carla                      2.5.8-r0                 apk
 carla-plugins-lv2          2.5.8-r0                 apk       
 carla-plugins-vst2         2.5.8-r0                 apk       
 cdparanoia-libs            10.2-r14                 apk       
-cups-libs                  2.4.9-r0                 apk       
+cups-libs                  2.4.9-r1                 apk       
 curl                       8.9.1-r2                 apk       
 dbus                       1.14.10-r1               apk       
 dbus-daemon-launch-helper  1.14.10-r1               apk       
@@ -104,7 +104,6 @@ libssl3                    3.3.2-r0                 apk
 libstdc++                  13.2.1_git20240309-r0    apk       
 libtasn1                   4.19.0-r2                apk       
 libtheora                  1.1.1-r18                apk       
-libucontext                1.2-r3                   apk       
 libunistring               1.2-r0                   apk       
 libunwind                  1.8.1-r0                 apk       
 libuuid                    2.40.1-r1                apk       

@@ -59,7 +59,7 @@ ca-certificates-bundle                20240705-r0              apk
 cairo                                 1.18.0-r0                apk       
 cairo-gobject                         1.18.0-r0                apk       
 cdparanoia-libs                       10.2-r14                 apk       
-cups-libs                             2.4.9-r0                 apk       
+cups-libs                             2.4.9-r1                 apk       
 curl                                  8.9.1-r2                 apk       
 dbus                                  1.14.10-r1               apk       
 dbus-daemon-launch-helper             1.14.10-r1               apk       
@@ -128,6 +128,7 @@ libass                                0.17.2-r0                apk
 libasyncns                            0.8-r3                   apk       
 libatk-1.0                            2.52.0-r0                apk       
 libatk-bridge-2.0                     2.52.0-r0                apk       
+libatomic                             13.2.1_git20240309-r0    apk       
 libavc1394                            0.5.4-r3                 apk       
 libavif                               1.0.4-r0                 apk       
 libblkid                              2.40.1-r1                apk       
@@ -264,6 +265,7 @@ libzbar                               0.23.93-r1               apk
 linux-pam                             1.6.0-r0                 apk       
 live-media                            2023.01.19-r0            apk       
 llvm17-libs                           17.0.6-r1                apk       
+lmdb                                  0.9.32-r0                apk       
 lua5.2-libs                           5.2.4-r13                apk       
 lz4-libs                              1.9.4-r5                 apk       
 mesa                                  24.0.9-r1                apk       

@@ -20,7 +20,7 @@ cdparanoia-libs            10.2-r14                 apk
 chromium                   128.0.6613.119-r0        apk     
 cjson                      1.7.18-r0                apk     
 crc32c                     1.1.2-r0                 apk     
-cups-libs                  2.4.9-r0                 apk     
+cups-libs                  2.4.9-r1                 apk     
 curl                       8.9.1-r2                 apk     
 dbus                       1.14.10-r1               apk     
 dbus-daemon-launch-helper  1.14.10-r1               apk     
