@@ -202,7 +202,7 @@ talloc                     2.4.2-r1                 apk
 tdb-libs                   1.4.9-r1                 apk       
 tevent                     0.16.1-r0                apk       
 tiff                       4.6.0t-r0                apk       
-tinyxml                    2.6.2-r3                 apk       
+tinyxml                    2.6.2-r4                 apk       
 tinyxml2                   10.0.0-r0                apk       
 wayland-libs-client        1.22.0-r4                apk       
 wayland-libs-cursor        1.22.0-r4                apk       

@@ -82,7 +82,7 @@ libcom-err2                     1.47.0-2                        deb
 libcrypt1                       1:4.4.33-2                      deb     
 libctf-nobfd0                   2.40-2                          deb     
 libctf0                         2.40-2                          deb     
-libcups2                        2.4.2-3+deb12u7                 deb     
+libcups2                        2.4.2-3+deb12u8                 deb     
 libcurl4                        7.88.1-10+deb12u7               deb     
 libdatrie1                      0.2.13-2+b1                     deb     
 libdav1d6                       1.0.0-2+deb12u1                 deb     
