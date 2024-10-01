@@ -225,7 +225,7 @@ libpocketsphinx3                0.8+5prealpha+1-15+b3           deb
 libpoppler-cpp1                 24.08.0-2                       deb     
 libpoppler140                   24.08.0-2                       deb     
 libpostproc58                   7:7.0.2-3                       deb     
-libproc2-0                      2:4.0.4-5                       deb     
+libproc2-0                      2:4.0.4-6                       deb     
 libpsl5t64                      0.21.2-1.1                      deb     
 libpulse0                       16.1+dfsg1-5.1                  deb     
 libpulsedsp                     16.1+dfsg1-5.1                  deb     
@@ -237,8 +237,8 @@ librabbitmq4                    0.14.0-1                        deb
 librav1e0.7                     0.7.1-7+b1                      deb     
 libreadline8t64                 8.2-5                           deb     
 librist4                        0.2.10+dfsg-2                   deb     
-librsvg2-2                      2.59.0+dfsg-3                   deb     
-librsvg2-common                 2.59.0+dfsg-3                   deb     
+librsvg2-2                      2.59.1+dfsg-1                   deb     
+librsvg2-common                 2.59.1+dfsg-1                   deb     
 librtmp1                        2.4+20151223.gitfa8646d.1-2+b4  deb     
 librubberband2                  3.3.0+dfsg-2+b2                 deb     
 libsamplerate0                  0.2.2-4+b1                      deb     
@@ -380,7 +380,7 @@ passwd                          1:4.16.0-4                      deb
 perl-base                       5.38.2-5                        deb     
 pocketsphinx-en-us              0.8+5prealpha+1-15              deb     
 poppler-data                    0.4.12-1                        deb     
-procps                          2:4.0.4-5                       deb     
+procps                          2:4.0.4-6                       deb     
 psmisc                          23.7-1                          deb     
 pulseaudio                      16.1+dfsg1-5.1                  deb     
 pulseaudio-utils                16.1+dfsg1-5.1                  deb     
