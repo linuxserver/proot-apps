@@ -21,7 +21,7 @@ cairo-gobject                   1.18.0-r0                apk
 cairomm                         1.14.5-r0                apk     
 cdparanoia-libs                 10.2-r14                 apk     
 cups-libs                       2.4.9-r1                 apk     
-curl                            8.9.1-r2                 apk     
+curl                            8.10.1-r0                apk     
 dbus                            1.14.10-r1               apk     
 dbus-daemon-launch-helper       1.14.10-r1               apk     
 dbus-libs                       1.14.10-r1               apk     
@@ -81,7 +81,7 @@ libbz2                          1.0.8-r6                 apk
 libcap2                         2.70-r0                  apk     
 libcdr                          0.1.7-r13                apk     
 libcrypto3                      3.3.2-r0                 apk     
-libcurl                         8.9.1-r2                 apk     
+libcurl                         8.10.1-r0                apk     
 libde265                        1.0.15-r0                apk     
 libdrm                          2.4.120-r0               apk     
 libeconf                        0.6.3-r0                 apk     

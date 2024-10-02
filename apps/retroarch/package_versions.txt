@@ -17,12 +17,12 @@ cairo                        1.18.2-r0                apk
 cairo-gobject                1.18.2-r0                apk     
 cdparanoia-libs              10.2-r14                 apk     
 cups-libs                    2.4.10-r1                apk     
-curl                         8.9.1-r2                 apk     
+curl                         8.10.1-r0                apk     
 dbus                         1.14.10-r4               apk     
 dbus-daemon-launch-helper    1.14.10-r4               apk     
 dbus-libs                    1.14.10-r4               apk     
 dbus-x11                     1.14.10-r4               apk     
-eudev-libs                   3.2.14-r2                apk     
+eudev-libs                   3.2.14-r3                apk     
 ffmpeg4-libavcodec           4.4.5-r0                 apk     
 ffmpeg4-libavformat          4.4.5-r0                 apk     
 ffmpeg4-libavutil            4.4.5-r0                 apk     
@@ -64,7 +64,7 @@ libbsd                       0.12.2-r0                apk
 libbz2                       1.0.8-r6                 apk     
 libcap2                      2.70-r0                  apk     
 libcrypto3                   3.3.1-r3                 apk     
-libcurl                      8.9.1-r2                 apk     
+libcurl                      8.10.1-r0                apk     
 libdav1d                     1.4.3-r0                 apk     
 libdrm                       2.4.123-r0               apk     
 libeconf                     0.6.3-r0                 apk     
@@ -117,7 +117,7 @@ libretro-cap32               0_git20220419-r0         apk
 libretro-core-info           1.19.0-r0                apk     
 libretro-craft               0_git20230109-r1         apk     
 libretro-crocods             0_git20210314-r1         apk     
-libretro-daphne              0_git20210108-r1         apk     
+libretro-daphne              0_git20210108-r2         apk     
 libretro-database            1.19.0-r0                apk     
 libretro-desmume             0_git20220926-r0         apk     
 libretro-dinothawr           0_git20220401-r0         apk     
@@ -258,8 +258,8 @@ pyc                          3.12.6-r0                apk
 python3                      3.12.6-r0                apk     
 python3-pyc                  3.12.6-r0                apk     
 python3-pycache-pyc0         3.12.6-r0                apk     
-qt5-qtbase                   5.15.10_git20230714-r2   apk     
-qt5-qtbase-x11               5.15.10_git20230714-r2   apk     
+qt5-qtbase                   5.15.10_git20230714-r3   apk     
+qt5-qtbase-x11               5.15.10_git20230714-r3   apk     
 qt5-qtdeclarative            5.15.10_git20230629-r0   apk     
 qt5-qtwayland                5.15.10_git20230714-r0   apk     
 readline                     8.2.13-r0                apk     

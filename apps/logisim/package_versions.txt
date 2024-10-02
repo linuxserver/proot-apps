@@ -178,7 +178,7 @@ libpython3.12-minimal           3.12.6-1                        deb
 libpython3.12-stdlib            3.12.6-1                        deb             
 librav1e0.7                     0.7.1-7+b1                      deb             
 libreadline8t64                 8.2-5                           deb             
-librsvg2-2                      2.59.0+dfsg-3                   deb             
+librsvg2-2                      2.59.1+dfsg-1                   deb             
 librtmp1                        2.4+20151223.gitfa8646d.1-2+b4  deb             
 libsamplerate0                  0.2.2-4+b1                      deb             
 libsasl2-2                      2.1.28+dfsg1-8                  deb             
