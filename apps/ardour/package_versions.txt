@@ -210,7 +210,7 @@ mesa-vulkan-swrast         24.2.3-r0                apk
 minimal-lexical            0.2.1                    rust-crate    
 mpdecimal                  4.0.0-r0                 apk           
 mpg123-libs                1.32.7-r0                apk           
-musl                       1.2.5-r3                 apk           
+musl                       1.2.5-r5                 apk           
 musl-utils                 1.2.5-r1                 apk           
 ncurses-terminfo-base      6.5_p20240601-r1         apk           
 netcat-openbsd             1.226-r0                 apk           
@@ -281,7 +281,7 @@ thiserror-impl             1.0.56                   rust-crate
 unicode-ident              1.0.12                   rust-crate    
 unicode-width              0.1.11                   rust-crate    
 utf8parse                  0.2.1                    rust-crate    
-v4l-utils-libs             1.28.1-r0                apk           
+v4l-utils-libs             1.28.1-r1                apk           
 v_frame                    0.3.7                    rust-crate    
 vamp-sdk-libs              2.10.0-r2                apk           
 vidstab                    1.1.1-r0                 apk           

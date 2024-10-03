@@ -41,7 +41,7 @@ crossbeam-deque            0.8.5                    rust-crate
 crossbeam-epoch            0.9.18                   rust-crate    
 crossbeam-queue            0.3.11                   rust-crate    
 crossbeam-utils            0.8.19                   rust-crate    
-cups-libs                  2.4.10-r1                apk           
+cups-libs                  2.4.11-r0                apk           
 curl                       8.10.1-r0                apk           
 dbus                       1.14.10-r4               apk           
 dbus-daemon-launch-helper  1.14.10-r4               apk           
@@ -75,8 +75,8 @@ graphite2                  1.3.14-r6                apk
 gst-plugins-base           1.24.7-r0                apk           
 gstreamer                  1.24.7-r0                apk           
 gstreamer-ptp-helper       1.24.7-r0                apk           
-gtk+3.0                    3.24.43-r0               apk           
-gtk-update-icon-cache      3.24.43-r0               apk           
+gtk+3.0                    3.24.43-r1               apk           
+gtk-update-icon-cache      3.24.43-r1               apk           
 harfbuzz                   9.0.0-r0                 apk           
 heck                       0.4.1                    rust-crate    
 hicolor-icon-theme         0.18-r0                  apk           
@@ -190,7 +190,7 @@ mesa-vulkan-layers         24.2.3-r0                apk
 mesa-vulkan-swrast         24.2.3-r0                apk           
 minimal-lexical            0.2.1                    rust-crate    
 mpdecimal                  4.0.0-r0                 apk           
-musl                       1.2.5-r3                 apk           
+musl                       1.2.5-r5                 apk           
 musl-utils                 1.2.5-r1                 apk           
 ncurses-terminfo-base      6.5_p20240601-r1         apk           
 netcat-openbsd             1.226-r0                 apk           
@@ -274,7 +274,7 @@ xdg-utils                  1.2.1-r0                 apk
 xf86-video-amdgpu          23.0.0-r3                apk           
 xf86-video-ati             22.0.0-r3                apk           
 xf86-video-intel           2.99.917_git20221028-r7  apk           
-xkeyboard-config           2.42-r0                  apk           
+xkeyboard-config           2.43-r0                  apk           
 xprop                      1.2.7-r0                 apk           
 xset                       1.2.5-r1                 apk           
 xvidcore                   1.3.7-r2                 apk           
