@@ -21,7 +21,7 @@ dbus                       1.14.10-r4               apk
 dbus-daemon-launch-helper  1.14.10-r4               apk     
 dbus-libs                  1.14.10-r4               apk     
 dbus-x11                   1.14.10-r4               apk     
-eudev-libs                 3.2.14-r3                apk     
+eudev-libs                 3.2.14-r4                apk     
 fftw-single-libs           3.3.10-r5                apk     
 file                       5.45-r1                  apk     
 flameshot                  12.1.0-r3                apk     
@@ -188,6 +188,6 @@ xf86-video-intel           2.99.917_git20221028-r7  apk
 xkeyboard-config           2.43-r0                  apk     
 xprop                      1.2.7-r0                 apk     
 xset                       1.2.5-r1                 apk     
-xz-libs                    5.6.2-r0                 apk     
+xz-libs                    5.6.3-r0                 apk     
 zlib                       1.3.1-r2                 apk     
 zstd-libs                  1.5.6-r1                 apk     

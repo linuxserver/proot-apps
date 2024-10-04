@@ -49,7 +49,7 @@ dbus-libs                  1.14.10-r4               apk
 dbus-x11                   1.14.10-r4               apk           
 either                     1.9.0                    rust-crate    
 errno                      0.3.8                    rust-crate    
-eudev-libs                 3.2.14-r3                apk           
+eudev-libs                 3.2.14-r4                apk           
 fern                       0.6.2                    rust-crate    
 ffmpeg-libavcodec          6.1.1-r9                 apk           
 ffmpeg-libavutil           6.1.1-r9                 apk           
@@ -276,7 +276,7 @@ xkeyboard-config           2.43-r0                  apk
 xprop                      1.2.7-r0                 apk           
 xset                       1.2.5-r1                 apk           
 xvidcore                   1.3.7-r2                 apk           
-xz-libs                    5.6.2-r0                 apk           
+xz-libs                    5.6.3-r0                 apk           
 y4m                        0.8.0                    rust-crate    
 zlib                       1.3.1-r2                 apk           
 zstd-libs                  1.5.6-r1                 apk           
