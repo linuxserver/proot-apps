@@ -390,7 +390,7 @@ python3.12                      3.12.7-1                        deb
 python3.12-minimal              3.12.7-1                        deb     
 readline-common                 8.2-5                           deb     
 sed                             4.9-2                           deb     
-shared-mime-info                2.4-5                           deb     
+shared-mime-info                2.4-5+b1                        deb     
 systemd                         256.6-1                         deb     
 sysvinit-utils                  3.10-2                          deb     
 tar                             1.35+dfsg-3                     deb     

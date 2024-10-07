@@ -30,7 +30,7 @@ fontconfig-config               2.15.0-1.1                      deb
 fonts-noto                      20201225-2                      deb             
 fonts-noto-core                 20201225-2                      deb             
 fonts-noto-mono                 20201225-2                      deb             
-gcc-14-base                     14.2.0-5                        deb             
+gcc-14-base                     14.2.0-6                        deb             
 gpgv                            2.2.43-8+b1                     deb             
 grep                            3.11-4                          deb             
 gzip                            1.12-1.1                        deb             
@@ -48,7 +48,7 @@ libasound2-data                 1.2.12-1                        deb
 libasound2-plugins              1.2.12-2+b1                     deb             
 libasound2t64                   1.2.12-1                        deb             
 libasyncns0                     0.8-6+b4                        deb             
-libatomic1                      14.2.0-5                        deb             
+libatomic1                      14.2.0-6                        deb             
 libattr1                        1:2.5.2-1                       deb             
 libaudit-common                 1:4.0.1-1                       deb             
 libaudit1                       1:4.0.1-1                       deb             
@@ -96,7 +96,7 @@ libfontenc1                     1:1.1.8-1                       deb
 libfreetype6                    2.13.3+dfsg-1                   deb             
 libfribidi0                     1.0.15-1                        deb             
 libgbm1                         24.2.4-1                        deb             
-libgcc-s1                       14.2.0-5                        deb             
+libgcc-s1                       14.2.0-6                        deb             
 libgcrypt20                     1.11.0-6                        deb             
 libgdk-pixbuf-2.0-0             2.42.12+dfsg-1                  deb             
 libgdk-pixbuf2.0-common         2.42.12+dfsg-1                  deb             
@@ -110,7 +110,7 @@ libglx-mesa0                    24.2.4-1                        deb
 libglx0                         1.7.0-1+b1                      deb             
 libgmp10                        2:6.3.0+dfsg-2+b1               deb             
 libgnutls30t64                  3.8.6-2                         deb             
-libgomp1                        14.2.0-5                        deb             
+libgomp1                        14.2.0-6                        deb             
 libgpg-error0                   1.50-4                          deb             
 libgraphite2-3                  1.3.14-2                        deb             
 libgsm1                         1.0.22-1+b1                     deb             
@@ -203,7 +203,7 @@ libsqlite3-0                    3.46.1-1                        deb
 libss2                          1.47.1-1                        deb             
 libssh2-1t64                    1.11.0-7                        deb             
 libssl3t64                      3.3.2-1                         deb             
-libstdc++6                      14.2.0-5                        deb             
+libstdc++6                      14.2.0-6                        deb             
 libsvtav1enc2                   2.2.1+dfsg-2                    deb             
 libswresample5                  7:7.0.2-3                       deb             
 libsystemd-shared               256.6-1                         deb             
@@ -304,7 +304,7 @@ python3.12                      3.12.7-1                        deb
 python3.12-minimal              3.12.7-1                        deb             
 readline-common                 8.2-5                           deb             
 sed                             4.9-2                           deb             
-shared-mime-info                2.4-5                           deb             
+shared-mime-info                2.4-5+b1                        deb             
 slf4j-api                       2.0.16                          java-archive    
 slf4j-simple                    2.0.16                          java-archive    
 swing-checkbox-tree             1.0.2                           java-archive    
