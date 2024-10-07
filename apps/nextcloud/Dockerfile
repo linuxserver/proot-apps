@@ -5,6 +5,9 @@ ARG REPO
 # Install packages
 RUN \
   echo "**** install packages ****" && \
+  apt-get update && \
+  apt-get install -y --no-install-recommends \
+    libopengl0 && \
   NEXTCLOUD_VERSION=$(curl -sX GET "https://api.github.com/repos/nextcloud-releases/desktop/releases/latest" \
     | awk '/tag_name/{print $4;exit}' FS='[""]') && \
   cd /tmp && \
