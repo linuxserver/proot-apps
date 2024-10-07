@@ -9,16 +9,16 @@ RUN \
   apt-get install -y --no-install-recommends \
     libvulkan1 && \
   ARCH=$(uname -m| sed 's/x86_64/x64/g'| sed 's/aarch64/arm64/') && \
-  RYU_VERSION=$(curl -sX GET "https://api.github.com/repos/Ryujinx/release-channel-master/releases/latest" \
+  RYU_VERSION=$(curl -sX GET "https://api.github.com/repos/ryujinx-mirror/ryujinx/releases/latest" \
     | awk '/tag_name/{print $4;exit}' FS='[""]') && \
   curl \
     -o /tmp/ryujinx.tar.gz -L \
-    "https://github.com/Ryujinx/release-channel-master/releases/download/${RYU_VERSION}/ryujinx-${RYU_VERSION}-linux_${ARCH}.tar.gz" && \
+    "https://github.com/ryujinx-mirror/ryujinx/releases/download/${RYU_VERSION}/ryujinx-${RYU_VERSION}-linux_${ARCH}.tar.gz" && \
   mkdir -p \
     /opt/ryujinx/ && \
   tar -xf \
     /tmp/ryujinx.tar.gz -C \
-    /opt/ryujinx/ --strip-components=1 && \
+    /opt/ryujinx/ && \
   echo "**** customize desktop file ****" && \
   DEST="/usr/share/applications/ryujinx-pa.desktop" && \
   echo '[Desktop Entry]' > "${DEST}" && \
