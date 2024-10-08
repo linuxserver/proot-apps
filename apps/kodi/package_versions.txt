@@ -183,10 +183,10 @@ py3-pillow-pyc             10.3.0-r2                apk
 py3-simplejson             3.19.2-r1                apk       
 py3-simplejson-pyc         3.19.2-r1                apk       
 pybluez                    0.23                     python    
-pyc                        3.12.6-r0                apk       
-python3                    3.12.6-r0                apk       
-python3-pyc                3.12.6-r0                apk       
-python3-pycache-pyc0       3.12.6-r0                apk       
+pyc                        3.12.7-r0                apk       
+python3                    3.12.7-r0                apk       
+python3-pyc                3.12.7-r0                apk       
+python3-pycache-pyc0       3.12.7-r0                apk       
 readline                   8.2.10-r0                apk       
 roc-toolkit-libs           0.3.0-r0                 apk       
 samba-libs                 4.19.6-r0                apk       

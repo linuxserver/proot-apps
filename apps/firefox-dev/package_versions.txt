@@ -49,7 +49,7 @@ dbus-libs                  1.14.10-r4               apk
 dbus-x11                   1.14.10-r4               apk           
 either                     1.9.0                    rust-crate    
 errno                      0.3.8                    rust-crate    
-eudev-libs                 3.2.14-r4                apk           
+eudev-libs                 3.2.14-r5                apk           
 fern                       0.6.2                    rust-crate    
 ffmpeg-libavcodec          6.1.1-r9                 apk           
 ffmpeg-libavutil           6.1.1-r9                 apk           
@@ -81,7 +81,7 @@ gtk-update-icon-cache      3.24.43-r2               apk
 harfbuzz                   9.0.0-r1                 apk           
 heck                       0.4.1                    rust-crate    
 hicolor-icon-theme         0.18-r0                  apk           
-hwdata-pci                 0.387-r0                 apk           
+hwdata-pci                 0.388-r0                 apk           
 icu-data-en                74.2-r0                  apk           
 icu-libs                   74.2-r0                  apk           
 imath                      3.1.12-r0                apk           
@@ -162,7 +162,7 @@ libxft                     2.3.8-r3                 apk
 libxi                      1.8.2-r0                 apk           
 libxinerama                1.1.5-r4                 apk           
 libxkbcommon               1.7.0-r1                 apk           
-libxml2                    2.12.8-r0                apk           
+libxml2                    2.13.4-r0                apk           
 libxmu                     1.1.4-r2                 apk           
 libxrandr                  1.5.4-r1                 apk           
 libxrender                 0.9.11-r5                apk           
@@ -226,10 +226,10 @@ profiling                  1.0.13                   rust-crate
 profiling-procmacros       1.0.13                   rust-crate    
 pulseaudio                 17.0-r3                  apk           
 pulseaudio-alsa            17.0-r3                  apk           
-pyc                        3.12.6-r0                apk           
-python3                    3.12.6-r0                apk           
-python3-pyc                3.12.6-r0                apk           
-python3-pycache-pyc0       3.12.6-r0                apk           
+pyc                        3.12.7-r0                apk           
+python3                    3.12.7-r0                apk           
+python3-pyc                3.12.7-r0                apk           
+python3-pycache-pyc0       3.12.7-r0                apk           
 quote                      1.0.35                   rust-crate    
 rand                       0.8.5                    rust-crate    
 rand_chacha                0.3.1                    rust-crate    

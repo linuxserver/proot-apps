@@ -77,7 +77,7 @@ lcms2                      2.16-r0                  apk
 libSvtAv1Enc               2.0.0-r1                 apk     
 libacl                     2.3.2-r0                 apk     
 libadwaita                 1.5.2-r0                 apk     
-libarchive                 3.7.5-r0                 apk     
+libarchive                 3.7.6-r0                 apk     
 libass                     0.17.2-r0                apk     
 libasyncns                 0.8-r3                   apk     
 libatk-1.0                 2.52.0-r0                apk     
@@ -235,10 +235,10 @@ pixman                     0.43.2-r0                apk
 pkgconf                    2.2.0-r0                 apk     
 pulseaudio                 17.0-r0                  apk     
 pulseaudio-alsa            17.0-r0                  apk     
-pyc                        3.12.6-r0                apk     
-python3                    3.12.6-r0                apk     
-python3-pyc                3.12.6-r0                apk     
-python3-pycache-pyc0       3.12.6-r0                apk     
+pyc                        3.12.7-r0                apk     
+python3                    3.12.7-r0                apk     
+python3-pyc                3.12.7-r0                apk     
+python3-pycache-pyc0       3.12.7-r0                apk     
 rav1e-libs                 0.7.1-r0                 apk     
 readline                   8.2.10-r0                apk     
 roc-toolkit-libs           0.3.0-r0                 apk     

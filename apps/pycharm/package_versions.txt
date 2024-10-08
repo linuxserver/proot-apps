@@ -417,6 +417,7 @@ util-linux-extra                2.38.1-5+deb12u1                deb
 vb                              1.0.0                           npm                            
 virtualenv                      20.17.1+ds                      python                         
 vscode-bicep                    1.0.0                           npm                            
+vscode-bicep-param              UNKNOWN                         npm                            
 vscode-jsp                      0.0.3                           npm                            
 vscode-mdx                      1.8.7                           npm                            
 wheel                           0.38.4                          python                         

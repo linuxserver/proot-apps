@@ -123,7 +123,7 @@ lame-libs                             3.100-r5                 apk
 lcms2                                 2.16-r0                  apk       
 ldb                                   2.8.0-r1                 apk       
 libacl                                2.3.2-r0                 apk       
-libarchive                            3.7.5-r0                 apk       
+libarchive                            3.7.6-r0                 apk       
 libass                                0.17.2-r0                apk       
 libasyncns                            0.8-r3                   apk       
 libatk-1.0                            2.52.0-r0                apk       
@@ -316,10 +316,10 @@ py3-six                               1.16.0-r9                apk
 py3-six-pyc                           1.16.0-r9                apk       
 py3-wxpython                          4.2.1-r2                 apk       
 py3-wxpython-pyc                      4.2.1-r2                 apk       
-pyc                                   3.12.6-r0                apk       
-python3                               3.12.6-r0                apk       
-python3-pyc                           3.12.6-r0                apk       
-python3-pycache-pyc0                  3.12.6-r0                apk       
+pyc                                   3.12.7-r0                apk       
+python3                               3.12.7-r0                apk       
+python3-pyc                           3.12.7-r0                apk       
+python3-pycache-pyc0                  3.12.7-r0                apk       
 qt5-qtbase                            5.15.10_git20230714-r2   apk       
 qt5-qtbase-x11                        5.15.10_git20230714-r2   apk       
 qt5-qtdeclarative                     5.15.10_git20230629-r0   apk       
