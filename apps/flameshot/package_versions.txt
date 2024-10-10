@@ -5,7 +5,7 @@ alpine-keys                2.4-r1                   apk
 alsa-lib                   1.2.12-r0                apk     
 apk-tools                  2.14.4-r2                apk     
 at-spi2-core               2.54.0-r0                apk     
-avahi-libs                 0.8-r18                  apk     
+avahi-libs                 0.8-r19                  apk     
 bash                       5.2.37-r0                apk     
 brotli-libs                1.1.0-r2                 apk     
 busybox                    1.36.1-r31               apk     
