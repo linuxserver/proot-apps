@@ -46,7 +46,7 @@ ca-certificates                         20230311                        deb
 chownr                                  2.0.0                           npm                    
 chrome-remote-interface                 0.33.0                          npm                    
 clojure                                 1.0.0                           npm                    
-codium                                  1.94.2.24284                    deb                    
+codium                                  1.94.2.24286                    deb                    
 coffeescript                            1.0.0                           npm                    
 commander                               2.11.0                          npm                    
 configuration-editing                   1.0.0                           npm                    

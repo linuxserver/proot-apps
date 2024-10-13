@@ -9,7 +9,7 @@ bash                            5.2.32-1+b1                     deb
 bsdutils                        1:2.40.2-8                      deb     
 ca-certificates                 20240203                        deb     
 coreutils                       9.4-3.1                         deb     
-curl                            8.10.1-1                        deb     
+curl                            8.10.1-2                        deb     
 dash                            0.5.12-9                        deb     
 dbus-bin                        1.14.10-4+b1                    deb     
 dbus-daemon                     1.14.10-4+b1                    deb     
@@ -78,7 +78,7 @@ libcolord2                      1.4.7-1+b1                      deb
 libcom-err2                     1.47.1-1                        deb     
 libcrypt1                       1:4.4.36-5                      deb     
 libcups2                        2.4.7-1+b1                      deb     
-libcurl3t64-gnutls              8.10.1-1                        deb     
+libcurl3t64-gnutls              8.10.1-2                        deb     
 libdatrie1                      0.2.13-3                        deb     
 libdav1d7                       1.4.3-1                         deb     
 libdb5.3t64                     5.3.28+dfsg2-7                  deb     
