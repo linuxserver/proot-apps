@@ -133,7 +133,7 @@ libkeyutils1                    1.6.3-3                         deb
 libkmod2                        33+20240816-2                   deb             
 libkrb5-3                       1.21.3-3                        deb             
 libkrb5support0                 1.21.3-3                        deb             
-liblcms2-2                      2.14-2+b1                       deb             
+liblcms2-2                      2.16-2                          deb             
 libldap-2.5-0                   2.5.18+dfsg-3                   deb             
 liblerc4                        4.0.0+ds-4+b1                   deb             
 libllvm19                       1:19.1.1-1                      deb             
@@ -256,7 +256,7 @@ libxcb-xfixes0                  1.17.0-2                        deb
 libxcb1                         1.17.0-2                        deb             
 libxcvt0                        0.1.2-1+b1                      deb             
 libxdmcp6                       1:1.1.2-3+b1                    deb             
-libxext6                        2:1.3.4-1+b1                    deb             
+libxext6                        2:1.3.4-1+b2                    deb             
 libxfixes3                      1:6.0.0-2+b1                    deb             
 libxfont2                       1:2.0.6-1+b1                    deb             
 libxi6                          2:1.8.2-1                       deb             
