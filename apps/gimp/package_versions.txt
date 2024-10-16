@@ -150,7 +150,7 @@ libxvmc                    1.0.14-r1                apk
 libxxf86vm                 1.1.5-r6                 apk     
 libzmq                     4.3.5-r2                 apk     
 llvm17-libs                17.0.6-r1                apk     
-mbedtls                    3.6.1-r0                 apk     
+mbedtls                    3.6.2-r0                 apk     
 mesa                       24.0.9-r1                apk     
 mesa-dri-gallium           24.0.9-r1                apk     
 mesa-egl                   24.0.9-r1                apk     

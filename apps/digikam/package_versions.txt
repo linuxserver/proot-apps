@@ -233,7 +233,7 @@ mariadb                    10.11.8-r0               apk
 mariadb-client             10.11.8-r0               apk     
 mariadb-common             10.11.8-r0               apk     
 mariadb-server-utils       10.11.8-r0               apk     
-mbedtls                    3.6.1-r0                 apk     
+mbedtls                    3.6.2-r0                 apk     
 mesa                       24.0.9-r1                apk     
 mesa-dri-gallium           24.0.9-r1                apk     
 mesa-egl                   24.0.9-r1                apk     

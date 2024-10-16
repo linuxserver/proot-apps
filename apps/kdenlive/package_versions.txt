@@ -237,7 +237,7 @@ libzen                     0.4.41-r0                apk
 libzmq                     4.3.5-r2                 apk     
 lilv-libs                  0.24.24-r1               apk     
 llvm17-libs                17.0.6-r1                apk     
-mbedtls                    3.6.1-r0                 apk     
+mbedtls                    3.6.2-r0                 apk     
 mediainfo                  24.04-r0                 apk     
 mesa                       24.0.9-r1                apk     
 mesa-dri-gallium           24.0.9-r1                apk     
