@@ -147,10 +147,10 @@ libkmod2                        33+20240816-2                   deb
 libkrb5-3                       1.21.3-3                        deb     
 libkrb5support0                 1.21.3-3                        deb     
 liblcms2-2                      2.16-2                          deb     
-libldap-2.5-0                   2.5.18+dfsg-3                   deb     
+libldap-2.5-0                   2.5.18+dfsg-3+b1                deb     
 liblerc4                        4.0.0+ds-4+b1                   deb     
 libllvm19                       1:19.1.1-1                      deb     
-liblocale-gettext-perl          1.07-7                          deb     
+liblocale-gettext-perl          1.07-7+b1                       deb     
 libltdl7                        2.4.7-7+b1                      deb     
 liblz4-1                        1.9.4-3                         deb     
 liblzma5                        5.6.2-2                         deb     
@@ -317,7 +317,7 @@ ocl-icd-libopencl1              2.3.2-1+b1                      deb
 openssl                         3.3.2-1                         deb     
 openssl-provider-legacy         3.3.2-1                         deb     
 passwd                          1:4.16.0-4                      deb     
-perl-base                       5.38.2-5                        deb     
+perl-base                       5.40.0-6                        deb     
 procps                          2:4.0.4-6                       deb     
 pulseaudio                      16.1+dfsg1-5.1                  deb     
 pulseaudio-utils                16.1+dfsg1-5.1                  deb     

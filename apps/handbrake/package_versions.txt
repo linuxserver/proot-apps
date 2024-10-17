@@ -111,7 +111,7 @@ libegl-mesa0                    24.2.4-1                        deb
 libegl1                         1.7.0-1+b1                      deb     
 libelf1t64                      0.191-2                         deb     
 libepoxy0                       1.5.10-2                        deb     
-libexif12                       0.6.24-1+b1                     deb     
+libexif12                       0.6.24-1+b2                     deb     
 libexpat1                       2.6.3-1                         deb     
 libext2fs2t64                   1.47.1-1                        deb     
 libffi8                         3.4.6-1                         deb     
@@ -175,11 +175,11 @@ libkrb5-3                       1.21.3-3                        deb
 libkrb5support0                 1.21.3-3                        deb     
 liblapack3                      3.12.0-3                        deb     
 liblcms2-2                      2.16-2                          deb     
-libldap-2.5-0                   2.5.18+dfsg-3                   deb     
+libldap-2.5-0                   2.5.18+dfsg-3+b1                deb     
 liblerc4                        4.0.0+ds-4+b1                   deb     
 liblilv-0-0                     0.24.24-2                       deb     
 libllvm19                       1:19.1.1-1                      deb     
-liblocale-gettext-perl          1.07-7                          deb     
+liblocale-gettext-perl          1.07-7+b1                       deb     
 libltdl7                        2.4.7-7+b1                      deb     
 liblz4-1                        1.9.4-3                         deb     
 liblzma5                        5.6.2-2                         deb     
@@ -377,7 +377,7 @@ ocl-icd-libopencl1              2.3.2-1+b1                      deb
 openssl                         3.3.2-1                         deb     
 openssl-provider-legacy         3.3.2-1                         deb     
 passwd                          1:4.16.0-4                      deb     
-perl-base                       5.38.2-5                        deb     
+perl-base                       5.40.0-6                        deb     
 pocketsphinx-en-us              0.8+5prealpha+1-15              deb     
 poppler-data                    0.4.12-1                        deb     
 procps                          2:4.0.4-6                       deb     

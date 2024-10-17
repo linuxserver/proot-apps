@@ -482,7 +482,7 @@ python3.11-minimal              3.11.2-6+deb12u3                 deb
 readline-common                 8.2-1.3                          deb     
 sed                             4.9-1                            deb     
 shared-mime-info                2.2-1                            deb     
-slack-desktop                   4.39.95                          deb     
+slack-desktop                   4.40.133                         deb     
 sound-theme-freedesktop         0.8-2                            deb     
 sudo                            1.9.13p3-1+deb12u1               deb     
 systemd                         252.30-1~deb12u2                 deb     
