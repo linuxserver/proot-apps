@@ -246,7 +246,7 @@ libplacebo338                             6.338.2-2build1                    deb
 libpng16-16t64                            1.6.43-5build1                     deb     
 libpocketsphinx3                          0.8.0+real5prealpha+1-15ubuntu5    deb     
 libpostproc57                             7:6.1.1-3ubuntu5                   deb     
-libproc2-0                                2:4.0.4-4ubuntu3.1                 deb     
+libproc2-0                                2:4.0.4-4ubuntu3.2                 deb     
 libproxy1v5                               0.5.4-4build1                      deb     
 libpsl5t64                                0.21.2-1.1build1                   deb     
 libpulse0                                 1:16.1+dfsg1-2ubuntu10             deb     
@@ -437,7 +437,7 @@ passwd                                    1:4.13+dfsg1-4ubuntu3.2            deb
 pci.ids                                   0.0~2024.03.31-1                   deb     
 perl-base                                 5.38.2-3.2build2                   deb     
 pinentry-curses                           1.2.1-3ubuntu5                     deb     
-procps                                    2:4.0.4-4ubuntu3.1                 deb     
+procps                                    2:4.0.4-4ubuntu3.2                 deb     
 pulseaudio                                1:16.1+dfsg1-2ubuntu10             deb     
 pulseaudio-utils                          1:16.1+dfsg1-2ubuntu10             deb     
 python3                                   3.12.3-0ubuntu2                    deb     
