@@ -222,8 +222,8 @@ libssl3t64                      3.3.2-1                         deb
 libstdc++6                      14.2.0-6                        deb     
 libsvtav1enc2                   2.2.1+dfsg-2                    deb     
 libswresample5                  7:7.0.2-3                       deb     
-libsystemd-shared               256.7-1                         deb     
-libsystemd0                     256.7-1                         deb     
+libsystemd-shared               256.7-2                         deb     
+libsystemd0                     256.7-2                         deb     
 libtasn1-6                      4.19.0-3+b2                     deb     
 libtdb1                         1.4.12-1                        deb     
 libthai-data                    0.1.29-2                        deb     
@@ -234,7 +234,7 @@ libtinfo6                       6.5-2                           deb
 libtirpc-common                 1.3.4+ds-1.3                    deb     
 libtirpc3t64                    1.3.4+ds-1.3                    deb     
 libtwolame0                     0.4.0-2+b1                      deb     
-libudev1                        256.7-1                         deb     
+libudev1                        256.7-2                         deb     
 libunistring5                   1.2-1                           deb     
 libunwind8                      1.7.2-1                         deb     
 libuuid1                        2.40.2-9                        deb     
@@ -328,11 +328,11 @@ python3.12-minimal              3.12.7-1                        deb
 readline-common                 8.2-5                           deb     
 sed                             4.9-2                           deb     
 shared-mime-info                2.4-5+b1                        deb     
-systemd                         256.7-1                         deb     
+systemd                         256.7-2                         deb     
 sysvinit-utils                  3.10-3                          deb     
 tar                             1.35+dfsg-3                     deb     
 tzdata                          2024b-3                         deb     
-udev                            256.7-1                         deb     
+udev                            256.7-2                         deb     
 usr-is-merged                   39                              deb     
 util-linux                      2.40.2-9                        deb     
 wget                            1.24.5-2+b1                     deb     
