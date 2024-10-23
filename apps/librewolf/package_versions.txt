@@ -51,9 +51,9 @@ either                     1.9.0                    rust-crate
 errno                      0.3.8                    rust-crate    
 eudev-libs                 3.2.14-r5                apk           
 fern                       0.6.2                    rust-crate    
-ffmpeg-libavcodec          6.1.1-r9                 apk           
-ffmpeg-libavutil           6.1.1-r9                 apk           
-ffmpeg-libswresample       6.1.1-r9                 apk           
+ffmpeg-libavcodec          6.1.1-r10                apk           
+ffmpeg-libavutil           6.1.1-r10                apk           
+ffmpeg-libswresample       6.1.1-r10                apk           
 fftw-single-libs           3.3.10-r5                apk           
 file                       5.45-r1                  apk           
 font-noto                  24.7.1-r0                apk           
@@ -163,7 +163,7 @@ libxi                      1.8.2-r0                 apk
 libxinerama                1.1.5-r4                 apk           
 libxkbcommon               1.7.0-r1                 apk           
 libxml2                    2.13.4-r1                apk           
-libxmu                     1.1.4-r2                 apk           
+libxmu                     1.2.1-r0                 apk           
 libxrandr                  1.5.4-r1                 apk           
 libxrender                 0.9.11-r5                apk           
 libxscrnsaver              1.2.4-r3                 apk           

@@ -73,11 +73,11 @@ espeak-ng                  1.51.1-r1                apk
 eudev-libs                 3.2.14-r5                apk                         
 feedparser                 6.0.11                   python                      
 fern                       0.6.2                    rust-crate                  
-ffmpeg-libavcodec          6.1.1-r9                 apk                         
-ffmpeg-libavformat         6.1.1-r9                 apk                         
-ffmpeg-libavutil           6.1.1-r9                 apk                         
-ffmpeg-libswresample       6.1.1-r9                 apk                         
-ffmpeg-libswscale          6.1.1-r9                 apk                         
+ffmpeg-libavcodec          6.1.1-r10                apk                         
+ffmpeg-libavformat         6.1.1-r10                apk                         
+ffmpeg-libavutil           6.1.1-r10                apk                         
+ffmpeg-libswresample       6.1.1-r10                apk                         
+ffmpeg-libswscale          6.1.1-r10                apk                         
 fftw-single-libs           3.3.10-r5                apk                         
 file                       5.45-r1                  apk                         
 font-liberation            2.1.5-r2                 apk                         
@@ -244,7 +244,7 @@ libxkbcommon               1.7.0-r1                 apk
 libxkbcommon-x11           1.7.0-r1                 apk                         
 libxkbfile                 1.1.3-r0                 apk                         
 libxml2                    2.13.4-r1                apk                         
-libxmu                     1.1.4-r2                 apk                         
+libxmu                     1.2.1-r0                 apk                         
 libxrandr                  1.5.4-r1                 apk                         
 libxrender                 0.9.11-r5                apk                         
 libxscrnsaver              1.2.4-r3                 apk                         

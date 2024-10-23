@@ -39,7 +39,7 @@ hostname                        3.25                            deb
 init-system-helpers             1.67                            deb             
 iso-codes                       4.17.0-1                        deb             
 jrt-fs                          21.0.4                          java-archive    
-keyboard-configuration          1.230                           deb             
+keyboard-configuration          1.231                           deb             
 libacl1                         2.3.2-2                         deb             
 libaom3                         3.9.1-1                         deb             
 libapparmor1                    3.1.7-1+b1                      deb             
@@ -80,11 +80,11 @@ libdrm-common                   2.4.123-1                       deb
 libdrm-intel1                   2.4.123-1                       deb             
 libdrm-radeon1                  2.4.123-1                       deb             
 libdrm2                         2.4.123-1                       deb             
-libdw1t64                       0.191-2                         deb             
+libdw1t64                       0.192-3                         deb             
 libedit2                        3.1-20240808-1                  deb             
 libegl-mesa0                    24.2.4-1                        deb             
 libegl1                         1.7.0-1+b1                      deb             
-libelf1t64                      0.191-2                         deb             
+libelf1t64                      0.192-3                         deb             
 libepoxy0                       1.5.10-2                        deb             
 libexpat1                       2.6.3-1                         deb             
 libext2fs2t64                   1.47.1-1                        deb             
@@ -129,7 +129,7 @@ libjbig0                        2.1-6.1+b1                      deb
 libjpeg62-turbo                 1:2.1.5-3                       deb             
 libjxl0.9                       0.9.2-10                        deb             
 libk5crypto3                    1.21.3-3                        deb             
-libkeyutils1                    1.6.3-3                         deb             
+libkeyutils1                    1.6.3-3.1                       deb             
 libkmod2                        33+20240816-2                   deb             
 libkrb5-3                       1.21.3-3                        deb             
 libkrb5support0                 1.21.3-3                        deb             
@@ -176,7 +176,7 @@ libpulsedsp                     16.1+dfsg1-5.1                  deb
 libpython3-stdlib               3.12.6-1                        deb             
 libpython3.12-minimal           3.12.7-1                        deb             
 libpython3.12-stdlib            3.12.7-1                        deb             
-librav1e0.7                     0.7.1-7+b1                      deb             
+librav1e0.7                     0.7.1-7+b2                      deb             
 libreadline8t64                 8.2-5                           deb             
 librsvg2-2                      2.59.1+dfsg-1                   deb             
 librtmp1                        2.4+20151223.gitfa8646d.1-2+b4  deb             
