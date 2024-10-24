@@ -549,7 +549,7 @@ noarg-compiler-plugin                  1.9.24-release-822              java-arch
 noarg-compiler-plugin                  UNKNOWN                         java-archive                   
 objective-c                            1.0.0                           npm                            
 ocl-icd-libopencl1                     2.3.1-1                         deb                            
-openjdk                                21.0.4+13-b509.17               binary                         
+openjdk                                21.0.4+13-b509.26               binary                         
 openjdk-17-jdk                         17.0.13+11-2~deb12u1            deb                            
 openjdk-17-jdk-headless                17.0.13+11-2~deb12u1            deb                            
 openjdk-17-jre                         17.0.13+11-2~deb12u1            deb                            

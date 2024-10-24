@@ -204,7 +204,7 @@ opensubdiv                 3.6.0-r0                 apk
 openvdb                    11.0.0-r2                apk     
 openxr                     1.1.36-r0                apk     
 opus                       1.5.2-r0                 apk     
-orc                        0.4.39-r0                apk     
+orc                        0.4.40-r0                apk     
 pango                      1.52.2-r0                apk     
 pcre2                      10.43-r0                 apk     
 pixman                     0.43.2-r0                apk     

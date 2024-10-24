@@ -41,7 +41,7 @@ iso-codes                       4.17.0-1                        deb
 jrt-fs                          21.0.4                          java-archive    
 keyboard-configuration          1.231                           deb             
 libacl1                         2.3.2-2                         deb             
-libaom3                         3.9.1-1                         deb             
+libaom3                         3.10.0-1                        deb             
 libapparmor1                    3.1.7-1+b1                      deb             
 libapt-pkg6.0t64                2.9.8                           deb             
 libasound2-data                 1.2.12-1                        deb             
@@ -80,11 +80,11 @@ libdrm-common                   2.4.123-1                       deb
 libdrm-intel1                   2.4.123-1                       deb             
 libdrm-radeon1                  2.4.123-1                       deb             
 libdrm2                         2.4.123-1                       deb             
-libdw1t64                       0.192-3                         deb             
+libdw1t64                       0.192-4                         deb             
 libedit2                        3.1-20240808-1                  deb             
 libegl-mesa0                    24.2.4-1                        deb             
 libegl1                         1.7.0-1+b1                      deb             
-libelf1t64                      0.192-3                         deb             
+libelf1t64                      0.192-4                         deb             
 libepoxy0                       1.5.10-2                        deb             
 libexpat1                       2.6.3-1                         deb             
 libext2fs2t64                   1.47.1-1                        deb             
