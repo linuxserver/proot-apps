@@ -355,8 +355,8 @@ xf86-video-ati                  22.0.0-r3                apk
 xf86-video-intel                2.99.917_git20221028-r7  apk                           
 xkeyboard-config                2.41-r0                  apk                           
 xmerge                          #IMPL-VERSION#           java-archive                  
-xmlsec                          1.3.5-r0                 apk                           
-xmlsec-nss                      1.3.5-r0                 apk                           
+xmlsec                          1.3.6-r0                 apk                           
+xmlsec-nss                      1.3.6-r0                 apk                           
 xprop                           1.2.7-r0                 apk                           
 xset                            1.2.5-r1                 apk                           
 xz-libs                         5.6.2-r0                 apk                           

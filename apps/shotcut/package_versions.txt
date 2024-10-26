@@ -162,7 +162,7 @@ libharfbuzz0b                       6.0.0+dfsg-3                      deb
 libhdf4-0-alt                       4.2.15-5                          deb     
 libhdf5-103-1                       1.10.8+repack1-1                  deb     
 libhdf5-hl-100                      1.10.8+repack1-1                  deb     
-libheif1                            1.15.1-1                          deb     
+libheif1                            1.15.1-1+deb12u1                  deb     
 libhogweed6                         3.8.1-2                           deb     
 libhwloc15                          2.9.0-1                           deb     
 libhwy1                             1.0.3-3+deb12u1                   deb     

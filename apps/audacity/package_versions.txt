@@ -169,7 +169,7 @@ libgssapi-krb5-2                1.20.1-2+deb12u2                deb
 libgstreamer-plugins-base1.0-0  1.22.0-3+deb12u2                deb       
 libgstreamer1.0-0               1.22.0-2                        deb       
 libharfbuzz0b                   6.0.0+dfsg-3                    deb       
-libheif1                        1.15.1-1                        deb       
+libheif1                        1.15.1-1+deb12u1                deb       
 libhogweed6                     3.8.1-2                         deb       
 libhwy1                         1.0.3-3+deb12u1                 deb       
 libice6                         2:1.0.10-1                      deb       
