@@ -110,8 +110,8 @@ libepoxy0                       1.5.10-2                        deb
 libexpat1                       2.6.3-1                         deb     
 libext2fs2t64                   1.47.1-1                        deb     
 libffi8                         3.4.6-1                         deb     
-libfftw3-double3                3.3.10-1+b3                     deb     
-libfftw3-single3                3.3.10-1+b3                     deb     
+libfftw3-double3                3.3.10-2                        deb     
+libfftw3-single3                3.3.10-2                        deb     
 libflac12t64                    1.4.3+ds-2.1                    deb     
 libflite1                       2.2-6+b2                        deb     
 libfontconfig1                  2.15.0-1.1                      deb     
