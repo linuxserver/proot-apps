@@ -11,7 +11,7 @@ anstyle-query              1.0.2                    rust-crate
 anyhow                     1.0.79                   rust-crate    
 aom-libs                   3.10.0-r0                apk           
 apk-tools                  2.14.4-r2                apk           
-ardour                     8.9.0-r0                 apk           
+ardour                     8.10.0-r0                apk           
 arg_enum_proc_macro        0.3.4                    rust-crate    
 arrayvec                   0.7.4                    rust-crate    
 aubio                      0.4.9-r4                 apk           
