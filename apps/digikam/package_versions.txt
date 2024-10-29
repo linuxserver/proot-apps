@@ -247,7 +247,7 @@ mesa-vulkan-layers         24.0.9-r1                apk
 mesa-vulkan-swrast         24.0.9-r1                apk     
 minizip                    1.3.1-r0                 apk     
 mpdecimal                  4.0.0-r0                 apk     
-mpg123-libs                1.32.6-r0                apk     
+mpg123-libs                1.32.8-r0                apk     
 mtdev                      1.1.6-r3                 apk     
 musl                       1.2.5-r0                 apk     
 musl-utils                 1.2.5-r0                 apk     
