@@ -943,8 +943,8 @@ xmlhttprequest-ssl                         1.5.5                           npm
 xmlhttprequest-ssl                         1.6.3                           npm                      
 xmlhttprequest-ssl                         2.0.0                           npm                      
 xorg-sgml-doctools                         1:1.11-1.1                      deb                      
-xserver-common                             2:21.1.7-3+deb12u7              deb                      
-xserver-xorg-core                          2:21.1.7-3+deb12u7              deb                      
+xserver-common                             2:21.1.7-3+deb12u8              deb                      
+xserver-xorg-core                          2:21.1.7-3+deb12u8              deb                      
 xserver-xorg-video-amdgpu                  23.0.0-1                        deb                      
 xserver-xorg-video-ati                     1:19.1.0-3                      deb                      
 xserver-xorg-video-radeon                  1:19.1.0-3                      deb                      

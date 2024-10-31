@@ -143,7 +143,7 @@ libpsl                     0.21.5-r1                apk
 libpulse                   17.0-r0                  apk       
 libquadmath                13.2.1_git20240309-r0    apk       
 libraw1394                 2.1.2-r5                 apk       
-librsvg                    2.58.0-r0                apk       
+librsvg                    2.58.5-r0                apk       
 librtmp                    2.4_git20190330-r4       apk       
 libseccomp                 2.5.5-r1                 apk       
 libsecret                  0.21.4-r0                apk       

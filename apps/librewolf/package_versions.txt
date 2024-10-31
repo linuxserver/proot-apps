@@ -124,9 +124,9 @@ libltdl                    2.4.7-r3                 apk
 libmagic                   5.45-r1                  apk           
 libmd                      1.1.0-r0                 apk           
 libmount                   2.40.2-r3                apk           
-libncursesw                6.5_p20241006-r0         apk           
+libncursesw                6.5_p20241006-r1         apk           
 libogg                     1.3.5-r5                 apk           
-libpanelw                  6.5_p20241006-r0         apk           
+libpanelw                  6.5_p20241006-r1         apk           
 libpciaccess               0.18.1-r0                apk           
 libpng                     1.6.44-r0                apk           
 libpsl                     0.21.5-r3                apk           
@@ -162,7 +162,7 @@ libxft                     2.3.8-r3                 apk
 libxi                      1.8.2-r0                 apk           
 libxinerama                1.1.5-r4                 apk           
 libxkbcommon               1.7.0-r1                 apk           
-libxml2                    2.13.4-r1                apk           
+libxml2                    2.13.4-r2                apk           
 libxmu                     1.2.1-r0                 apk           
 libxrandr                  1.5.4-r1                 apk           
 libxrender                 0.9.11-r5                apk           
@@ -192,7 +192,7 @@ minimal-lexical            0.2.1                    rust-crate
 mpdecimal                  4.0.0-r0                 apk           
 musl                       1.2.5-r5                 apk           
 musl-utils                 1.2.5-r1                 apk           
-ncurses-terminfo-base      6.5_p20241006-r0         apk           
+ncurses-terminfo-base      6.5_p20241006-r1         apk           
 netcat-openbsd             1.226.1.1-r0             apk           
 nettle                     3.10-r1                  apk           
 new_debug_unreachable      1.0.4                    rust-crate    
@@ -243,7 +243,7 @@ readline                   8.2.13-r0                apk
 rustix                     0.38.28                  rust-crate    
 scan_fmt                   0.2.6                    rust-crate    
 scanelf                    1.3.7-r2                 apk           
-scudo-malloc               19.1.1-r0                apk           
+scudo-malloc               19.1.2-r0                apk           
 shared-mime-info           2.4-r0                   apk           
 signal-hook                0.3.17                   rust-crate    
 signal-hook-registry       1.4.1                    rust-crate    

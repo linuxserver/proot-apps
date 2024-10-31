@@ -195,7 +195,7 @@ libreoffice-math                7.6.7.2-r0               apk
 libreoffice-writer              7.6.7.2-r0               apk                           
 librepository                   1.1.6                    java-archive                  
 librevenge                      0.0.5-r2                 apk                           
-librsvg                         2.58.0-r0                apk                           
+librsvg                         2.58.5-r0                apk                           
 librtmp                         2.4_git20190330-r4       apk                           
 libsasl                         2.1.28-r6                apk                           
 libserializer                   1.1.6                    java-archive                  
