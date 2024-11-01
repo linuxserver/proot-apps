@@ -197,7 +197,7 @@ libsmartcols1                   2.40.2-9                        deb
 libsnappy1v5                    1.2.1-1+b1                      deb             
 libsndfile1                     1.2.2-1+b3                      deb             
 libsoxr0                        0.1.3-4+b2                      deb             
-libspeex1                       1.2.1-2+b2                      deb             
+libspeex1                       1.2.1-3                         deb             
 libspeexdsp1                    1.2.1-1+b2                      deb             
 libsqlite3-0                    3.46.1-1                        deb             
 libss2                          1.47.1-1                        deb             
@@ -326,8 +326,8 @@ x11-common                      1:7.7+23.1                      deb
 x11-xkb-utils                   7.7+9                           deb             
 xdg-utils                       1.1.3-4.1                       deb             
 xkb-data                        2.42-1                          deb             
-xserver-common                  2:21.1.13-3                     deb             
-xserver-xorg-core               2:21.1.13-3                     deb             
+xserver-common                  2:21.1.14-1                     deb             
+xserver-xorg-core               2:21.1.14-1                     deb             
 xserver-xorg-video-amdgpu       23.0.0-1                        deb             
 xserver-xorg-video-ati          1:22.0.0-1                      deb             
 xserver-xorg-video-radeon       1:22.0.0-1                      deb             

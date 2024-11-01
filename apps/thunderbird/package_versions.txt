@@ -146,7 +146,7 @@ netcat-openbsd             1.226-r0                 apk
 nettle                     3.9.1-r0                 apk     
 nghttp2-libs               1.62.1-r0                apk     
 nspr                       4.35-r4                  apk     
-nss                        3.104-r0                 apk     
+nss                        3.105-r0                 apk     
 opus                       1.5.2-r0                 apk     
 orc                        0.4.40-r0                apk     
 p11-kit                    0.25.3-r0                apk     
