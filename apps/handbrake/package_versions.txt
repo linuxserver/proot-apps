@@ -154,7 +154,7 @@ libharfbuzz-subset0             10.0.1-1                        deb
 libharfbuzz0b                   10.0.1-1                        deb     
 libhogweed6t64                  3.10-1                          deb     
 libhwy1t64                      1.2.0-2+b1                      deb     
-libice6                         2:1.0.10-1+b2                   deb     
+libice6                         2:1.1.1-1                       deb     
 libicu72                        72.1-5+b1                       deb     
 libidn2-0                       2.3.7-2                         deb     
 libimath-3-1-29t64              3.1.12-1+b1                     deb     
