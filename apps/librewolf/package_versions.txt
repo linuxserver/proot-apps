@@ -217,7 +217,7 @@ orc                        0.4.40-r1                apk
 p11-kit                    0.25.5-r2                apk           
 pango                      1.54.0-r1                apk           
 paste                      1.0.14                   rust-crate    
-pciutils-libs              3.13.0-r0                apk           
+pciutils-libs              3.13.0-r1                apk           
 pcre2                      10.43-r0                 apk           
 pixman                     0.43.4-r1                apk           
 pkgconf                    2.3.0-r0                 apk           

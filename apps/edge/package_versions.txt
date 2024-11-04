@@ -151,7 +151,7 @@ libldap-2.5-0                   2.5.18+dfsg-3+b1                deb
 liblerc4                        4.0.0+ds-4+b2                   deb     
 libllvm19                       1:19.1.2-2                      deb     
 liblocale-gettext-perl          1.07-7+b1                       deb     
-libltdl7                        2.4.7-7+b2                      deb     
+libltdl7                        2.4.7-8                         deb     
 liblz4-1                        1.9.4-3                         deb     
 liblzma5                        5.6.2-2                         deb     
 libmd0                          1.1.0-2                         deb     

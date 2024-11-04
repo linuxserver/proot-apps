@@ -410,7 +410,7 @@ qt6-qtbase                 6.7.2-r2                 apk
 qt6-qtbase-x11             6.7.2-r2                 apk                         
 qt6-qtconnectivity         6.7.2-r0                 apk                         
 qt6-qtdeclarative          6.7.2-r0                 apk                         
-qt6-qtimageformats         6.7.2-r1                 apk                         
+qt6-qtimageformats         6.7.2-r2                 apk                         
 qt6-qtmultimedia           6.7.2-r0                 apk                         
 qt6-qtmultimedia-ffmpeg    6.7.2-r0                 apk                         
 qt6-qtpositioning          6.7.2-r0                 apk                         
