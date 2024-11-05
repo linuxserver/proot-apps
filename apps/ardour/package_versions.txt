@@ -209,7 +209,7 @@ mesa-vulkan-layers         24.2.6-r0                apk
 mesa-vulkan-swrast         24.2.6-r0                apk           
 minimal-lexical            0.2.1                    rust-crate    
 mpdecimal                  4.0.0-r0                 apk           
-mpg123-libs                1.32.8-r0                apk           
+mpg123-libs                1.32.9-r0                apk           
 musl                       1.2.5-r5                 apk           
 musl-utils                 1.2.5-r1                 apk           
 ncurses-terminfo-base      6.5_p20241006-r2         apk           
