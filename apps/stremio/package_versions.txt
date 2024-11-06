@@ -179,7 +179,7 @@ libminizip1                         1.1-8build1                              deb
 libmount1                           2.37.2-4ubuntu3.4                        deb     
 libmp3lame0                         3.100-3build2                            deb     
 libmpdec3                           2.5.1-2build2                            deb     
-libmpg123-0                         1.29.3-1build1                           deb     
+libmpg123-0                         1.29.3-1ubuntu0.1                        deb     
 libmpv1                             0.34.1-1ubuntu3                          deb     
 libmtdev1                           1.1.6-1build4                            deb     
 libmujs1                            1.1.3-3                                  deb     
@@ -197,7 +197,7 @@ libnuma1                            2.0.14-3ubuntu2                          deb
 libogg0                             1.3.5-0ubuntu3                           deb     
 libopenal-data                      1:1.19.1-2build3                         deb     
 libopenal1                          1:1.19.1-2build3                         deb     
-libopenjp2-7                        2.4.0-6ubuntu0.1                         deb     
+libopenjp2-7                        2.4.0-6ubuntu0.2                         deb     
 libopenmpt0                         0.6.1-1                                  deb     
 libopus0                            1.3.1-0.1build2                          deb     
 liborc-0.4-0                        1:0.4.32-2ubuntu0.1                      deb     

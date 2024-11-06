@@ -256,7 +256,7 @@ libspeexdsp1                    1.2.1-1+b2                      deb
 libsphinxbase3t64               0.8+5prealpha+1-18              deb     
 libsqlite3-0                    3.46.1-1                        deb     
 libsratom-0-0                   0.6.16-1+b2                     deb     
-libsrt1.5-gnutls                1.5.3-1+b3                      deb     
+libsrt1.5-gnutls                1.5.3-2                         deb     
 libss2                          1.47.1-1                        deb     
 libssh-4                        0.11.1-1                        deb     
 libssh2-1t64                    1.11.1-1                        deb     

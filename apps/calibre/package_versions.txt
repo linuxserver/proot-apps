@@ -22,7 +22,7 @@ bash                       5.2.37-r0                apk
 beautifulsoup4             4.12.3                   python                      
 bitflags                   2.4.1                    rust-crate  (+1 duplicate)  
 bitstream-io               2.2.0                    rust-crate                  
-bluez-libs                 5.78-r3                  apk                         
+bluez-libs                 5.79-r0                  apk                         
 brotli-libs                1.1.0-r2                 apk                         
 busybox                    1.36.1-r31               apk                         
 busybox-binsh              1.36.1-r31               apk                         
