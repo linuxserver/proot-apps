@@ -255,9 +255,9 @@ libwebp7                        1.4.0-0.1+b1                    deb
 libwebpmux3                     1.4.0-0.1+b1                    deb     
 libwebrtc-audio-processing1     0.3-1+b2                        deb     
 libwrap0                        7.6.q-33+b1                     deb     
-libx11-6                        2:1.8.10-1                      deb     
-libx11-data                     2:1.8.10-1                      deb     
-libx11-xcb1                     2:1.8.10-1                      deb     
+libx11-6                        2:1.8.10-2                      deb     
+libx11-data                     2:1.8.10-2                      deb     
+libx11-xcb1                     2:1.8.10-2                      deb     
 libx264-164                     2:0.164.3108+git31e19f9-2       deb     
 libx265-209                     3.6-3+b1                        deb     
 libxau6                         1:1.0.11-1                      deb     
@@ -307,7 +307,7 @@ media-types                     10.1.0                          deb
 mesa-libgallium                 24.2.6-1                        deb     
 mesa-va-drivers                 24.2.6-1                        deb     
 mesa-vulkan-drivers             24.2.6-1                        deb     
-microsoft-edge-stable           130.0.2849.68-1                 deb     
+microsoft-edge-stable           130.0.2849.80-1                 deb     
 mount                           2.40.2-9                        deb     
 ncurses-base                    6.5-2                           deb     
 ncurses-bin                     6.5-2+b1                        deb     
