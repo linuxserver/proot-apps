@@ -173,7 +173,7 @@ grep                                                    3.8-5                   
 groovy                                                  3.0.8                                                                         java-archive                    
 groovy-ant                                              3.0.8                                                                         java-archive                    
 gson                                                    2.9.1                                                                         java-archive  (+5 duplicates)   
-gtk-update-icon-cache                                   3.24.38-2~deb12u2                                                             deb                             
+gtk-update-icon-cache                                   3.24.38-2~deb12u3                                                             deb                             
 guava                                                   27.1-jre                                                                      java-archive                    
 guided-tour                                             1.0-SNAPSHOT                                                                  java-archive                    
 gzip                                                    1.12-1                                                                        deb                             

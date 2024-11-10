@@ -41,7 +41,7 @@ iso-codes                       4.17.0-1                        deb
 jrt-fs                          21.0.4                          java-archive    
 keyboard-configuration          1.232                           deb             
 libacl1                         2.3.2-2                         deb             
-libaom3                         3.10.0-1                        deb             
+libaom3                         3.11.0~rc1-1                    deb             
 libapparmor1                    3.1.7-1+b2                      deb             
 libapt-pkg6.0t64                2.9.8                           deb             
 libasound2-data                 1.2.12-1                        deb             
@@ -86,7 +86,7 @@ libegl-mesa0                    24.2.6-1                        deb
 libegl1                         1.7.0-1+b2                      deb             
 libelf1t64                      0.192-4                         deb             
 libepoxy0                       1.5.10-2                        deb             
-libexpat1                       2.6.3-2                         deb             
+libexpat1                       2.6.4-1                         deb             
 libext2fs2t64                   1.47.1-1                        deb             
 libffi8                         3.4.6-1                         deb             
 libfftw3-single3                3.3.10-2                        deb             
@@ -168,7 +168,7 @@ libpangocairo-1.0-0             1.54.0+ds-3                     deb
 libpangoft2-1.0-0               1.54.0+ds-3                     deb             
 libpciaccess0                   0.17-3+b2                       deb             
 libpcre2-8-0                    10.42-4+b1                      deb             
-libpixman-1-0                   0.44.0-1                        deb             
+libpixman-1-0                   0.44.0-2                        deb             
 libpng16-16t64                  1.6.44-2                        deb             
 libpsl5t64                      0.21.2-1.1+b1                   deb             
 libpulse0                       16.1+dfsg1-5.1+b1               deb             
@@ -206,8 +206,8 @@ libssl3t64                      3.3.2-2                         deb
 libstdc++6                      14.2.0-8                        deb             
 libsvtav1enc2                   2.2.1+dfsg-2                    deb             
 libswresample5                  7:7.1-3                         deb             
-libsystemd-shared               257~rc1-3                       deb             
-libsystemd0                     257~rc1-3                       deb             
+libsystemd-shared               257~rc1-4                       deb             
+libsystemd0                     257~rc1-4                       deb             
 libtasn1-6                      4.19.0-3+b2                     deb             
 libtdb1                         1.4.12-1                        deb             
 libthai-data                    0.1.29-2                        deb             
@@ -218,7 +218,7 @@ libtinfo6                       6.5-2+b1                        deb
 libtirpc-common                 1.3.4+ds-1.3                    deb             
 libtirpc3t64                    1.3.4+ds-1.3+b1                 deb             
 libtwolame0                     0.4.0-2+b2                      deb             
-libudev1                        257~rc1-3                       deb             
+libudev1                        257~rc1-4                       deb             
 libunistring5                   1.2-1                           deb             
 libunwind8                      1.7.2-1                         deb             
 libuuid1                        2.40.2-9                        deb             
@@ -315,11 +315,11 @@ swingx-core                     1.6.8                           java-archive
 swingx-graphics                 1.6.8                           java-archive    
 swingx-painters                 1.6.8                           java-archive    
 swingx-plaf                     1.6.8                           java-archive    
-systemd                         257~rc1-3                       deb             
+systemd                         257~rc1-4                       deb             
 sysvinit-utils                  3.10-3                          deb             
 tar                             1.35+dfsg-3                     deb             
 tzdata                          2024b-3                         deb             
-udev                            257~rc1-3                       deb             
+udev                            257~rc1-4                       deb             
 usr-is-merged                   39                              deb             
 util-linux                      2.40.2-9                        deb             
 x11-common                      1:7.7+23.1                      deb             

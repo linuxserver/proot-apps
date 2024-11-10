@@ -99,7 +99,7 @@ libdv                      1.0.0-r7                 apk
 libeconf                   0.6.3-r0                 apk     
 libelf                     0.191-r0                 apk     
 libepoxy                   1.5.10-r1                apk     
-libexpat                   2.6.3-r0                 apk     
+libexpat                   2.6.4-r0                 apk     
 libffi                     3.4.6-r0                 apk     
 libflac                    1.4.3-r1                 apk     
 libfreeaptx                0.1.1-r1                 apk     

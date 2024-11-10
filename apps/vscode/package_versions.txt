@@ -57,7 +57,7 @@ cpp                                     1.0.0                           npm
 csharp                                  1.0.0                           npm                    
 css                                     1.0.0                           npm                    
 css-language-features                   1.0.0                           npm                    
-curl                                    7.88.1-10+deb12u7               deb                    
+curl                                    7.88.1-10+deb12u8               deb                    
 dart                                    1.0.0                           npm                    
 dash                                    0.5.12-2                        deb                    
 dbus-bin                                1.14.10-1~deb12u1               deb                    
@@ -124,7 +124,7 @@ graceful-fs                             4.2.11                          npm
 grep                                    3.8-5                           deb                    
 groovy                                  1.0.0                           npm                    
 grunt                                   1.0.0                           npm                    
-gtk-update-icon-cache                   3.24.38-2~deb12u2               deb                    
+gtk-update-icon-cache                   3.24.38-2~deb12u3               deb                    
 gulp                                    1.0.0                           npm                    
 gzip                                    1.12-1                          deb                    
 handlebars                              1.0.0                           npm                    
@@ -201,8 +201,8 @@ libcolord2                              1.4.6-2.2                       deb
 libcom-err2                             1.47.0-2                        deb                    
 libcrypt1                               1:4.4.33-2                      deb                    
 libcups2                                2.4.2-3+deb12u8                 deb                    
-libcurl3-gnutls                         7.88.1-10+deb12u7               deb                    
-libcurl4                                7.88.1-10+deb12u7               deb                    
+libcurl3-gnutls                         7.88.1-10+deb12u8               deb                    
+libcurl4                                7.88.1-10+deb12u8               deb                    
 libdatrie1                              0.2.13-2+b1                     deb                    
 libdav1d6                               1.0.0-2+deb12u1                 deb                    
 libdb5.3                                5.3.28+dfsg2-1                  deb                    
@@ -256,8 +256,8 @@ libgsm1                                 1.0.22-1                        deb
 libgssapi-krb5-2                        1.20.1-2+deb12u2                deb                    
 libgstreamer-plugins-base1.0-0          1.22.0-3+deb12u2                deb                    
 libgstreamer1.0-0                       1.22.0-2                        deb                    
-libgtk-3-0                              3.24.38-2~deb12u2               deb                    
-libgtk-3-common                         3.24.38-2~deb12u2               deb                    
+libgtk-3-0                              3.24.38-2~deb12u3               deb                    
+libgtk-3-common                         3.24.38-2~deb12u3               deb                    
 libharfbuzz0b                           6.0.0+dfsg-3                    deb                    
 libhogweed6                             3.8.1-2                         deb                    
 libhwy1                                 1.0.3-3+deb12u1                 deb                    

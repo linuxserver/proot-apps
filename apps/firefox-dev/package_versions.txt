@@ -56,7 +56,7 @@ ffmpeg-libavutil           6.1.1-r10                apk
 ffmpeg-libswresample       6.1.1-r10                apk           
 fftw-single-libs           3.3.10-r5                apk           
 file                       5.45-r1                  apk           
-firefox-developer-edition  133.0_beta5-r0           apk           
+firefox-developer-edition  133.0_beta6-r0           apk           
 font-noto                  24.7.1-r0                apk           
 font-noto-common           24.7.1-r0                apk           
 font-noto-math             24.7.1-r0                apk           
@@ -110,7 +110,7 @@ libeconf                   0.6.3-r0                 apk
 libelf                     0.191-r0                 apk           
 libepoxy                   1.5.10-r1                apk           
 libevent                   2.1.12-r7                apk           
-libexpat                   2.6.3-r0                 apk           
+libexpat                   2.6.4-r0                 apk           
 libffi                     3.4.6-r0                 apk           
 libflac                    1.4.3-r1                 apk           
 libgcc                     14.2.0-r4                apk           
