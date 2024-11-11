@@ -8,7 +8,7 @@ bash                            5.2.32-1+b1                     deb
 bsdutils                        1:2.40.2-9                      deb     
 ca-certificates                 20240203                        deb     
 coreutils                       9.4-3.1                         deb     
-curl                            8.10.1-2                        deb     
+curl                            8.11.0-1                        deb     
 dash                            0.5.12-9                        deb     
 dbus-bin                        1.14.10-6                       deb     
 dbus-daemon                     1.14.10-6                       deb     
@@ -86,7 +86,7 @@ libcolord2                      1.4.7-1+b2                      deb
 libcom-err2                     1.47.1-1                        deb     
 libcrypt1                       1:4.4.36-5                      deb     
 libcups2t64                     2.4.10-2                        deb     
-libcurl3t64-gnutls              8.10.1-2                        deb     
+libcurl3t64-gnutls              8.11.0-1                        deb     
 libdatrie1                      0.2.13-3+b1                     deb     
 libdav1d7                       1.5.0-1+b1                      deb     
 libdb5.3t64                     5.3.28+dfsg2-9                  deb     
@@ -211,7 +211,7 @@ libpangoft2-1.0-0               1.54.0+ds-3                     deb
 libpciaccess0                   0.17-3+b2                       deb     
 libpcre2-8-0                    10.42-4+b1                      deb     
 libpgm-5.3-0t64                 5.3.128~dfsg-2.1+b1             deb     
-libpixman-1-0                   0.44.0-2                        deb     
+libpixman-1-0                   0.44.0-3                        deb     
 libplacebo349                   7.349.0-2                       deb     
 libpng16-16t64                  1.6.44-2                        deb     
 libpocketsphinx3                0.8+5prealpha+1-15+b4           deb     
@@ -221,8 +221,8 @@ libpsl5t64                      0.21.2-1.1+b1                   deb
 libpulse0                       16.1+dfsg1-5.1+b1               deb     
 libpulsedsp                     16.1+dfsg1-5.1+b1               deb     
 libpython3-stdlib               3.12.6-1                        deb     
-libpython3.12-minimal           3.12.7-2                        deb     
-libpython3.12-stdlib            3.12.7-2                        deb     
+libpython3.12-minimal           3.12.7-3                        deb     
+libpython3.12-stdlib            3.12.7-3                        deb     
 librabbitmq4                    0.14.0-1                        deb     
 librav1e0.7                     0.7.1-7+b2                      deb     
 libreadline8t64                 8.2-5                           deb     
@@ -375,8 +375,8 @@ pulseaudio                      16.1+dfsg1-5.1+b1               deb
 pulseaudio-utils                16.1+dfsg1-5.1+b1               deb     
 python3                         3.12.6-1                        deb     
 python3-minimal                 3.12.6-1                        deb     
-python3.12                      3.12.7-2                        deb     
-python3.12-minimal              3.12.7-2                        deb     
+python3.12                      3.12.7-3                        deb     
+python3.12-minimal              3.12.7-3                        deb     
 readline-common                 8.2-5                           deb     
 sed                             4.9-2                           deb     
 shared-mime-info                2.4-5+b1                        deb     
