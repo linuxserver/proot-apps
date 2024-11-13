@@ -31,8 +31,8 @@ c-ares                     1.34.3-r0                apk
 ca-certificates-bundle     20240705-r0              apk                         
 cairo                      1.18.2-r1                apk                         
 cairo-gobject              1.18.2-r1                apk                         
-calibre                    7.20.0-r0                apk                         
-calibre-pyc                7.20.0-r0                apk                         
+calibre                    7.21.0-r0                apk                         
+calibre-pyc                7.21.0-r0                apk                         
 cdparanoia-libs            10.2-r14                 apk                         
 cfg-if                     1.0.0                    rust-crate  (+1 duplicate)  
 chardet                    5.2.0                    python                      
@@ -57,7 +57,7 @@ cryptsetup-libs            2.7.5-r1                 apk
 css-parser                 1.0.10                   python                      
 cssselect                  1.2.0                    python                      
 cups-libs                  2.4.11-r0                apk                         
-curl                       8.11.0-r1                apk                         
+curl                       8.11.0-r2                apk                         
 dbus                       1.14.10-r4               apk                         
 dbus-daemon-launch-helper  1.14.10-r4               apk                         
 dbus-libs                  1.14.10-r4               apk                         
@@ -95,14 +95,14 @@ getrandom                  0.2.12                   rust-crate
 giflib                     5.2.2-r0                 apk                         
 glib                       2.82.2-r0                apk                         
 gmp                        6.3.0-r2                 apk                         
-gnupg-dirmngr              2.4.5-r1                 apk                         
-gnupg-gpgconf              2.4.5-r1                 apk                         
-gnupg-keyboxd              2.4.5-r1                 apk                         
-gnutls                     3.8.5-r0                 apk                         
-gpg                        2.4.5-r1                 apk                         
-gpg-agent                  2.4.5-r1                 apk                         
-gpgme                      1.23.2-r1                apk                         
-gpgsm                      2.4.5-r1                 apk                         
+gnupg-dirmngr              2.4.6-r0                 apk                         
+gnupg-gpgconf              2.4.6-r0                 apk                         
+gnupg-keyboxd              2.4.6-r0                 apk                         
+gnutls                     3.8.8-r0                 apk                         
+gpg                        2.4.6-r0                 apk                         
+gpg-agent                  2.4.6-r0                 apk                         
+gpgme                      1.24.0-r0                apk                         
+gpgsm                      2.4.6-r0                 apk                         
 graphene                   1.10.8-r5                apk                         
 graphite2                  1.3.14-r6                apk                         
 gst-plugins-base           1.24.8-r0                apk                         
@@ -155,7 +155,7 @@ libc                       0.2.152                  rust-crate
 libcap2                    2.70-r0                  apk                         
 libcom_err                 1.47.1-r1                apk                         
 libcrypto3                 3.3.1-r3                 apk                         
-libcurl                    8.11.0-r1                apk                         
+libcurl                    8.11.0-r2                apk                         
 libdav1d                   1.5.0-r0                 apk                         
 libdotconf                 1.3-r0                   apk                         
 libdrm                     2.4.123-r1               apk                         
@@ -191,11 +191,11 @@ libmd                      1.1.0-r0                 apk
 libmng                     2.0.3-r2                 apk                         
 libmount                   2.40.2-r3                apk                         
 libmtp                     1.1.21-r1                apk                         
-libncursesw                6.5_p20241006-r2         apk                         
+libncursesw                6.5_p20241006-r3         apk                         
 libnvme                    1.11-r0                  apk                         
 libogg                     1.3.5-r5                 apk                         
 libopenmpt                 0.7.10-r0                apk                         
-libpanelw                  6.5_p20241006-r2         apk                         
+libpanelw                  6.5_p20241006-r3         apk                         
 libpciaccess               0.18.1-r0                apk                         
 libpcre2-16                10.43-r0                 apk                         
 libpng                     1.6.44-r0                apk                         
@@ -286,7 +286,7 @@ msgpack                    1.0.8                    python
 mtdev                      1.1.7-r0                 apk                         
 musl                       1.2.5-r5                 apk                         
 musl-utils                 1.2.5-r1                 apk                         
-ncurses-terminfo-base      6.5_p20241006-r2         apk                         
+ncurses-terminfo-base      6.5_p20241006-r3         apk                         
 ndctl-libs                 80-r0                    apk                         
 netcat-openbsd             1.226.1.1-r0             apk                         
 netifaces                  0.11.0                   python                      
@@ -382,8 +382,8 @@ py3-pyqt6-sip              13.8.0-r0                apk
 py3-pyqt6-webengine        6.7.0-r0                 apk                         
 py3-qt6                    6.7.1-r0                 apk                         
 py3-qt6-pyc                6.7.1-r0                 apk                         
-py3-regex                  2024.9.14-r0             apk                         
-py3-regex-pyc              2024.9.14-r0             apk                         
+py3-regex                  2024.11.7-r0             apk                         
+py3-regex-pyc              2024.11.7-r0             apk                         
 py3-sgmllib3k              1.0.0-r11                apk                         
 py3-sgmllib3k-pyc          1.0.0-r11                apk                         
 py3-six                    1.16.0-r9                apk                         
@@ -430,7 +430,7 @@ rav1e-libs                 0.7.1-r0                 apk
 rayon                      1.8.0                    rust-crate  (+1 duplicate)  
 rayon-core                 1.12.0                   rust-crate  (+1 duplicate)  
 readline                   8.2.13-r0                apk                         
-regex                      2024.9.11                python                      
+regex                      2024.11.6                python                      
 rgb                        0.8.36                   rust-crate                  
 rustix                     0.38.28                  rust-crate                  
 scan_fmt                   0.2.6                    rust-crate                  
@@ -471,7 +471,7 @@ wayland-libs-cursor        1.23.1-r0                apk
 wayland-libs-egl           1.23.1-r0                apk                         
 wayland-libs-server        1.23.1-r0                apk                         
 webencodings               0.5.1                    python                      
-webrtc-audio-processing-1  1.3-r0                   apk                         
+webrtc-audio-processing-1  1.3-r1                   apk                         
 x264-libs                  0.164.3108-r0            apk                         
 x265-libs                  3.6-r0                   apk                         
 xcb-util                   0.4.1-r3                 apk                         

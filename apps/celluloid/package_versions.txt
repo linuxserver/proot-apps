@@ -21,7 +21,7 @@ cdparanoia-libs            10.2-r14                 apk
 celluloid                  0.26-r1                  apk     
 cjson                      1.7.18-r0                apk     
 cups-libs                  2.4.9-r1                 apk     
-curl                       8.11.0-r1                apk     
+curl                       8.11.0-r2                apk     
 dbus                       1.14.10-r1               apk     
 dbus-daemon-launch-helper  1.14.10-r1               apk     
 dbus-libs                  1.14.10-r1               apk     
@@ -93,7 +93,7 @@ libcap2                    2.70-r0                  apk
 libcdio                    2.1.0-r3                 apk     
 libcdio-paranoia           10.2.2.0.1-r2            apk     
 libcrypto3                 3.3.2-r0                 apk     
-libcurl                    8.11.0-r1                apk     
+libcurl                    8.11.0-r2                apk     
 libdav1d                   1.4.2-r0                 apk     
 libdc1394                  2.2.7-r0                 apk     
 libde265                   1.0.15-r0                apk     

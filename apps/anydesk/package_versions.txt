@@ -1,7 +1,7 @@
 NAME                            VERSION                         TYPE   
 adduser                         3.134                           deb     
 adwaita-icon-theme              43-1                            deb     
-anydesk                         6.3.3                           deb     
+anydesk                         6.4.0                           deb     
 apt                             2.6.1                           deb     
 at-spi2-common                  2.46.0-5                        deb     
 base-files                      12.4+deb12u7                    deb     
@@ -16,6 +16,8 @@ dbus-bin                        1.14.10-1~deb12u1               deb
 dbus-daemon                     1.14.10-1~deb12u1               deb     
 dbus-session-bus-common         1.14.10-1~deb12u1               deb     
 dbus-x11                        1.14.10-1~deb12u1               deb     
+dconf-gsettings-backend         0.40.0-4                        deb     
+dconf-service                   0.40.0-4                        deb     
 debconf                         1.5.82                          deb     
 debian-archive-keyring          2023.3+deb12u1                  deb     
 debianutils                     5.7-0.5~deb12u1                 deb     
@@ -48,7 +50,9 @@ libasound2                      1.2.8-1+b1                      deb
 libasound2-data                 1.2.8-1                         deb     
 libasound2-plugins              1.2.7.1-1                       deb     
 libasyncns0                     0.8-6+b3                        deb     
+libatk-bridge2.0-0              2.46.0-5                        deb     
 libatk1.0-0                     2.46.0-5                        deb     
+libatspi2.0-0                   2.46.0-5                        deb     
 libattr1                        1:2.5.1-4                       deb     
 libaudit-common                 1:3.0.9-1                       deb     
 libaudit1                       1:3.0.9-1                       deb     
@@ -69,6 +73,7 @@ libcap-ng0                      0.8.3-1+b3                      deb
 libcap2                         1:2.66-4                        deb     
 libcap2-bin                     1:2.66-4                        deb     
 libcodec2-1.0                   1.0.5-1                         deb     
+libcolord2                      1.4.6-2.2                       deb     
 libcom-err2                     1.47.0-2                        deb     
 libcrypt1                       1:4.4.33-2                      deb     
 libcups2                        2.4.2-3+deb12u8                 deb     
@@ -77,6 +82,7 @@ libdatrie1                      0.2.13-2+b1                     deb
 libdav1d6                       1.0.0-2+deb12u1                 deb     
 libdb5.3                        5.3.28+dfsg2-1                  deb     
 libdbus-1-3                     1.14.10-1~deb12u1               deb     
+libdconf1                       0.40.0-4                        deb     
 libdebconfclient0               0.270                           deb     
 libdeflate0                     1.14-1                          deb     
 libdrm-amdgpu1                  2.4.114-1+b1                    deb     
@@ -122,6 +128,8 @@ libgsm1                         1.0.22-1                        deb
 libgssapi-krb5-2                1.20.1-2+deb12u2                deb     
 libgstreamer-plugins-base1.0-0  1.22.0-3+deb12u2                deb     
 libgstreamer1.0-0               1.22.0-2                        deb     
+libgtk-3-0                      3.24.38-2~deb12u3               deb     
+libgtk-3-common                 3.24.38-2~deb12u3               deb     
 libgtk2.0-0                     2.24.33-2+deb12u1               deb     
 libgtk2.0-common                2.24.33-2+deb12u1               deb     
 libgtkglext1                    1.2.0-11                        deb     
@@ -153,7 +161,7 @@ libmd0                          1.0.4-2                         deb
 libmfx1                         22.5.4-1                        deb     
 libmount1                       2.38.1-5+deb12u1                deb     
 libmp3lame0                     3.100-6                         deb     
-libmpg123-0                     1.31.2-1                        deb     
+libmpg123-0                     1.31.2-1+deb12u1                deb     
 libncursesw6                    6.4-4                           deb     
 libnettle8                      3.8.1-2                         deb     
 libnghttp2-14                   1.52.0-1+deb12u2                deb     
@@ -178,6 +186,7 @@ libpcre2-8-0                    10.42-1                         deb
 libpixman-1-0                   0.42.2-1                        deb     
 libpng16-16                     1.6.39-2                        deb     
 libpolkit-gobject-1-0           122-3                           deb     
+libproc2-0                      2:4.0.2-3                       deb     
 libpsl5                         0.21.2-1                        deb     
 libpulse0                       16.1+dfsg1-2+b1                 deb     
 libpulsedsp                     16.1+dfsg1-2+b1                 deb     
@@ -237,6 +246,8 @@ libvorbisenc2                   1.3.7-1                         deb
 libvpx7                         1.12.0-1+deb12u3                deb     
 libvulkan1                      1.3.239.0-1                     deb     
 libwayland-client0              1.21.0-1                        deb     
+libwayland-cursor0              1.21.0-1                        deb     
+libwayland-egl1                 1.21.0-1                        deb     
 libwayland-server0              1.21.0-1                        deb     
 libwebp7                        1.2.4-0.2+deb12u1               deb     
 libwebpmux3                     1.2.4-0.2+deb12u1               deb     
@@ -269,6 +280,7 @@ libxfixes3                      1:6.0.0-2                       deb
 libxfont2                       1:2.0.6-1                       deb     
 libxi6                          2:1.8-1+b1                      deb     
 libxinerama1                    2:1.1.4-3                       deb     
+libxkbcommon0                   1.5.0-1                         deb     
 libxkbfile1                     1:1.1.0-1                       deb     
 libxml2                         2.9.14+dfsg-1.3~deb12u1         deb     
 libxmu6                         2:1.1.3-3                       deb     
@@ -299,6 +311,7 @@ ocl-icd-libopencl1              2.3.1-1                         deb
 openssl                         3.0.15-1~deb12u1                deb     
 passwd                          1:4.13+dfsg1-1+b1               deb     
 perl-base                       5.36.0-7+deb12u1                deb     
+procps                          2:4.0.2-3                       deb     
 pulseaudio                      16.1+dfsg1-2+b1                 deb     
 pulseaudio-utils                16.1+dfsg1-2+b1                 deb     
 python3                         3.11.2-1+b1                     deb     

@@ -166,7 +166,7 @@ libmd0                          1.0.4-2                         deb
 libmfx1                         22.5.4-1                        deb     
 libmount1                       2.38.1-5+deb12u1                deb     
 libmp3lame0                     3.100-6                         deb     
-libmpg123-0                     1.31.2-1                        deb     
+libmpg123-0                     1.31.2-1+deb12u1                deb     
 libmujs2                        1.3.2-1                         deb     
 libmysofa1                      1.3.1~dfsg0-1                   deb     
 libncursesw6                    6.4-4                           deb     
