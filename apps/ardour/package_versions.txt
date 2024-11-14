@@ -61,7 +61,7 @@ ffmpeg-libavutil           6.1.1-r10                apk
 ffmpeg-libpostproc         6.1.1-r10                apk           
 ffmpeg-libswresample       6.1.1-r10                apk           
 ffmpeg-libswscale          6.1.1-r10                apk           
-fftw-double-libs           3.3.10-r5                apk           
+fftw-double-libs           3.3.10-r6                apk           
 fftw-single-libs           3.3.10-r5                apk           
 file                       5.45-r1                  apk           
 font-noto                  24.7.1-r0                apk           
