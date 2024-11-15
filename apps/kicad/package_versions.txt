@@ -130,11 +130,11 @@ libmanette                 0.2.7-r0                 apk
 libmd                      1.1.0-r0                 apk       
 libmodplug                 0.8.9.0-r3               apk       
 libmount                   2.40.1-r1                apk       
-libncursesw                6.4_p20240420-r1         apk       
+libncursesw                6.4_p20240420-r2         apk       
 libnice                    0.1.22-r0                apk       
 libnotify                  0.8.3-r1                 apk       
 libogg                     1.3.5-r5                 apk       
-libpanelw                  6.4_p20240420-r1         apk       
+libpanelw                  6.4_p20240420-r2         apk       
 libpciaccess               0.18.1-r0                apk       
 libpcre2-32                10.43-r0                 apk       
 libpng                     1.6.44-r0                apk       
@@ -213,7 +213,7 @@ mesa-vulkan-swrast         24.0.9-r1                apk
 mpdecimal                  4.0.0-r0                 apk       
 musl                       1.2.5-r0                 apk       
 musl-utils                 1.2.5-r0                 apk       
-ncurses-terminfo-base      6.4_p20240420-r1         apk       
+ncurses-terminfo-base      6.4_p20240420-r2         apk       
 neon                       0.33.0-r0                apk       
 netcat-openbsd             1.226-r0                 apk       
 netcdf                     4.9.2-r3                 apk       

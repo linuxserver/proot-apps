@@ -28,7 +28,7 @@ ffmpeg4-libavformat          4.4.5-r0                 apk
 ffmpeg4-libavutil            4.4.5-r0                 apk     
 ffmpeg4-libswresample        4.4.5-r0                 apk     
 ffmpeg4-libswscale           4.4.5-r0                 apk     
-fftw-single-libs             3.3.10-r5                apk     
+fftw-single-libs             3.3.10-r6                apk     
 file                         5.45-r1                  apk     
 font-noto                    24.7.1-r0                apk     
 font-noto-common             24.7.1-r0                apk     

@@ -22,7 +22,7 @@ dbus-daemon-launch-helper  1.14.10-r4               apk
 dbus-libs                  1.14.10-r4               apk     
 dbus-x11                   1.14.10-r4               apk     
 eudev-libs                 3.2.14-r5                apk     
-fftw-single-libs           3.3.10-r5                apk     
+fftw-single-libs           3.3.10-r6                apk     
 file                       5.45-r1                  apk     
 flameshot                  12.1.0-r3                apk     
 font-noto                  24.7.1-r0                apk     
