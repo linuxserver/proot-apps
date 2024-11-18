@@ -3,7 +3,7 @@ alpine-baselayout            3.6.6-r0                 apk
 alpine-baselayout-data       3.6.6-r0                 apk     
 alpine-keys                  2.4-r1                   apk     
 alsa-lib                     1.2.12-r0                apk     
-aom-libs                     3.10.0-r0                apk     
+aom-libs                     3.11.0-r0                apk     
 apk-tools                    2.14.4-r2                apk     
 at-spi2-core                 2.54.0-r0                apk     
 avahi-libs                   0.8-r19                  apk     
