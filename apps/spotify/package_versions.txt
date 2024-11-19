@@ -320,7 +320,7 @@ python3.11-minimal              3.11.2-6+deb12u4                 deb
 readline-common                 8.2-1.3                          deb     
 sed                             4.9-1                            deb     
 shared-mime-info                2.2-1                            deb     
-spotify-client                  1:1.2.48.405.gf2c48e6f           deb     
+spotify-client                  1:1.2.50.335.g5e2860a8           deb     
 sysvinit-utils                  3.06-4                           deb     
 tar                             1.34+dfsg-1.2+deb12u1            deb     
 tzdata                          2024a-0+deb12u1                  deb     
