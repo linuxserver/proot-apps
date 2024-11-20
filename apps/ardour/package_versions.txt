@@ -79,9 +79,9 @@ glibmm2.66                 2.66.7-r0                apk
 glslang-libs               1.3.296.0-r0             apk           
 graphene                   1.10.8-r5                apk           
 graphite2                  1.3.14-r6                apk           
-gst-plugins-base           1.24.8-r0                apk           
-gstreamer                  1.24.8-r0                apk           
-gstreamer-ptp-helper       1.24.8-r0                apk           
+gst-plugins-base           1.24.9-r0                apk           
+gstreamer                  1.24.9-r0                apk           
+gstreamer-ptp-helper       1.24.9-r0                apk           
 harfbuzz                   9.0.0-r1                 apk           
 heck                       0.4.1                    rust-crate    
 hwdata-pci                 0.388-r0                 apk           
@@ -105,7 +105,7 @@ libbluray                  1.3.4-r1                 apk
 libbsd                     0.12.2-r0                apk           
 libbz2                     1.0.8-r6                 apk           
 libc                       0.2.152                  rust-crate    
-libcap2                    2.70-r0                  apk           
+libcap2                    2.71-r0                  apk           
 libcrypto3                 3.3.1-r3                 apk           
 libcurl                    8.11.0-r2                apk           
 libdav1d                   1.5.0-r0                 apk           
@@ -119,7 +119,7 @@ libflac                    1.4.3-r1                 apk
 libgcc                     14.2.0-r4                apk           
 libgcrypt                  1.10.3-r1                apk           
 libgomp                    14.2.0-r4                apk           
-libgpg-error               1.50-r0                  apk           
+libgpg-error               1.51-r0                  apk           
 libhwy                     1.0.7-r0                 apk           
 libice                     1.1.1-r6                 apk           
 libidn2                    2.3.7-r0                 apk           
