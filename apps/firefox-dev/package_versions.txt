@@ -97,7 +97,7 @@ libSvtAv1Enc               2.2.1-r0                 apk
 libasyncns                 0.8-r4                   apk           
 libatk-1.0                 2.54.0-r0                apk           
 libatk-bridge-2.0          2.54.0-r0                apk           
-libblkid                   2.40.2-r3                apk           
+libblkid                   2.40.2-r4                apk           
 libbsd                     0.12.2-r0                apk           
 libbz2                     1.0.8-r6                 apk           
 libc                       0.2.152                  rust-crate    
@@ -124,7 +124,7 @@ libjxl                     0.10.2-r0                apk
 libltdl                    2.4.7-r3                 apk           
 libmagic                   5.45-r1                  apk           
 libmd                      1.1.0-r0                 apk           
-libmount                   2.40.2-r3                apk           
+libmount                   2.40.2-r4                apk           
 libncursesw                6.5_p20241006-r3         apk           
 libogg                     1.3.5-r5                 apk           
 libpanelw                  6.5_p20241006-r3         apk           
@@ -140,7 +140,7 @@ libstdc++                  14.2.0-r4                apk
 libtasn1                   4.19.0-r2                apk           
 libtheora                  1.1.1-r18                apk           
 libunistring               1.2-r0                   apk           
-libuuid                    2.40.2-r3                apk           
+libuuid                    2.40.2-r4                apk           
 libva                      2.22.0-r1                apk           
 libva-intel-driver         2.4.1-r1                 apk           
 libvdpau                   1.5-r4                   apk           
@@ -153,7 +153,7 @@ libx11                     1.8.10-r0                apk
 libxau                     1.0.11-r4                apk           
 libxcb                     1.16.1-r0                apk           
 libxcomposite              0.4.6-r5                 apk           
-libxcursor                 1.2.2-r1                 apk           
+libxcursor                 1.2.3-r0                 apk           
 libxdamage                 1.1.6-r5                 apk           
 libxdmcp                   1.1.5-r1                 apk           
 libxext                    1.3.6-r2                 apk           

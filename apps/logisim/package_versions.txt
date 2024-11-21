@@ -255,7 +255,7 @@ libxcb-sync1                    1.17.0-2+b1                      deb
 libxcb-xfixes0                  1.17.0-2+b1                      deb             
 libxcb1                         1.17.0-2+b1                      deb             
 libxcvt0                        0.1.2-1+b2                       deb             
-libxdmcp6                       1:1.1.2-3+b2                     deb             
+libxdmcp6                       1:1.1.5-1                        deb             
 libxext6                        2:1.3.4-1+b2                     deb             
 libxfixes3                      1:6.0.0-2+b2                     deb             
 libxfont2                       1:2.0.6-1+b2                     deb             
