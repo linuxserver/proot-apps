@@ -104,6 +104,7 @@ libcap2                    2.71-r0                  apk
 libcrypto3                 3.3.1-r3                 apk           
 libcurl                    8.11.0-r2                apk           
 libdav1d                   1.5.0-r0                 apk           
+libdeflate                 1.22-r0                  apk           
 libdrm                     2.4.123-r1               apk           
 libeconf                   0.6.3-r0                 apk           
 libelf                     0.191-r0                 apk           
@@ -119,7 +120,7 @@ libice                     1.1.1-r6                 apk
 libidn2                    2.3.7-r0                 apk           
 libintl                    0.22.5-r0                apk           
 libjpeg-turbo              3.0.4-r0                 apk           
-libjxl                     0.10.2-r0                apk           
+libjxl                     0.10.2-r1                apk           
 libltdl                    2.4.7-r3                 apk           
 libmagic                   5.45-r1                  apk           
 libmd                      1.1.0-r0                 apk           
@@ -174,7 +175,7 @@ libxv                      1.0.12-r5                apk
 libxvmc                    1.0.14-r1                apk           
 libxxf86vm                 1.1.5-r6                 apk           
 linux-raw-sys              0.4.12                   rust-crate    
-llvm19-libs                19.1.2-r0                apk           
+llvm19-libs                19.1.4-r0                apk           
 log                        0.4.20                   rust-crate    
 maybe-rayon                0.1.1                    rust-crate    
 memchr                     2.7.1                    rust-crate    
@@ -209,9 +210,10 @@ num-traits                 0.2.17                   rust-crate
 numactl                    2.0.18-r0                apk           
 once_cell                  1.19.0                   rust-crate    
 onevpl-libs                2023.3.1-r2              apk           
-openexr-libiex             3.1.13-r2                apk           
-openexr-libilmthread       3.1.13-r2                apk           
-openexr-libopenexr         3.1.13-r2                apk           
+openexr-libiex             3.3.2-r0                 apk           
+openexr-libilmthread       3.3.2-r0                 apk           
+openexr-libopenexr         3.3.2-r0                 apk           
+openexr-libopenexrcore     3.3.2-r0                 apk           
 opus                       1.5.2-r1                 apk           
 orc                        0.4.40-r1                apk           
 p11-kit                    0.25.5-r2                apk           

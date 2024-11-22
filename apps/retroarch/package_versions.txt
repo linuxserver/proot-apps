@@ -222,7 +222,7 @@ libxv                        1.0.12-r5                apk
 libxvmc                      1.0.14-r1                apk     
 libxxf86vm                   1.1.5-r6                 apk     
 libzip                       1.11.1-r0                apk     
-llvm19-libs                  19.1.2-r0                apk     
+llvm19-libs                  19.1.4-r0                apk     
 mbedtls2                     2.28.8-r1                apk     
 mesa                         24.2.7-r0                apk     
 mesa-dri-gallium             24.2.7-r0                apk     
