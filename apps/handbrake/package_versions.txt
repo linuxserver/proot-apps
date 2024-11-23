@@ -223,7 +223,7 @@ libpulsedsp                     16.1+dfsg1-5.1+b1                deb
 libpython3-stdlib               3.12.7-1                         deb     
 libpython3.12-minimal           3.12.7-3                         deb     
 libpython3.12-stdlib            3.12.7-3                         deb     
-librabbitmq4                    0.14.0-1                         deb     
+librabbitmq4                    0.15.0-1                         deb     
 librav1e0.7                     0.7.1-7+b2                       deb     
 libreadline8t64                 8.2-5                            deb     
 librist4                        0.2.10+dfsg-2+b1                 deb     
