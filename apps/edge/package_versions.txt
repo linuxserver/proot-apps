@@ -307,7 +307,7 @@ media-types                     10.1.0                           deb
 mesa-libgallium                 24.2.7-1                         deb     
 mesa-va-drivers                 24.2.7-1                         deb     
 mesa-vulkan-drivers             24.2.7-1                         deb     
-microsoft-edge-stable           131.0.2903.63-1                  deb     
+microsoft-edge-stable           131.0.2903.70-1                  deb     
 mount                           2.40.2-10                        deb     
 ncurses-base                    6.5-2                            deb     
 ncurses-bin                     6.5-2+b1                         deb     
