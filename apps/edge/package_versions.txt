@@ -34,7 +34,7 @@ fonts-noto-mono                 20201225-2                       deb
 gcc-14-base                     14.2.0-8                         deb     
 gpgv                            2.2.45-2                         deb     
 grep                            3.11-4                           deb     
-gtk-update-icon-cache           4.16.5+ds-2                      deb     
+gtk-update-icon-cache           4.16.7+ds-1                      deb     
 gzip                            1.12-1.1                         deb     
 hicolor-icon-theme              0.18-1                           deb     
 hostname                        3.25                             deb     
