@@ -63,12 +63,12 @@ NAME                                       VERSION                         TYPE
 @protobufjs/pool                           1.1.0                           npm                      
 @protobufjs/utf8                           1.1.0                           npm                      
 @raisinten/aes-crypto-js                   0.0.2                           npm                      
-@sentry/core                               4.4.1                           npm                      
-@sentry/hub                                4.4.1                           npm                      
-@sentry/minimal                            4.4.1                           npm                      
-@sentry/node                               4.4.1                           npm                      
-@sentry/types                              4.4.1                           npm                      
-@sentry/utils                              4.4.1                           npm                      
+@sentry/core                               6.19.7                          npm                      
+@sentry/hub                                6.19.7                          npm                      
+@sentry/minimal                            6.19.7                          npm                      
+@sentry/node                               6.19.7                          npm                      
+@sentry/types                              6.19.7                          npm                      
+@sentry/utils                              6.19.7                          npm                      
 @socket.io/component-emitter               3.1.1                           npm                      
 @socket.io/component-emitter               UNKNOWN                         npm     (+1 duplicate)   
 @tokenizer/token                           0.3.0                           npm                      
@@ -78,16 +78,15 @@ NAME                                       VERSION                         TYPE
 @types/lodash.set                          4.3.7                           npm                      
 @types/node                                22.5.5                          npm                      
 @types/readable-stream                     4.0.10                          npm                      
-@types/stack-trace                         0.0.29                          npm                      
 @types/ws                                  8.5.10                          npm                      
-Postman                                    11.19.0                         npm                      
+Postman                                    11.21.0                         npm                      
 abbrev                                     2.0.0                           npm                      
 abort-controller                           3.0.0                           npm                      
 accepts                                    1.3.8                           npm                      
 adduser                                    3.134                           deb                      
 adwaita-icon-theme                         43-1                            deb                      
 after                                      0.8.2                           npm                      
-agent-base                                 4.3.0                           npm                      
+agent-base                                 6.0.2                           npm                      
 agent-base                                 7.1.1                           npm                      
 aggregate-error                            3.1.0                           npm                      
 ajv                                        6.12.6                          npm                      
@@ -171,6 +170,7 @@ component-inherit                          0.0.3                           npm
 concat-map                                 0.0.1                           npm                      
 concat-stream                              2.0.0                           npm                      
 cookie                                     0.3.1                           npm                      
+cookie                                     0.4.2                           npm                      
 core-util-is                               1.0.2                           npm                      
 core-util-is                               1.0.3                           npm                      
 coreutils                                  9.1-1                           deb                      
@@ -192,7 +192,6 @@ debconf                                    1.5.82                          deb
 debian-archive-keyring                     2023.3+deb12u1                  deb                      
 debianutils                                5.7-0.5~deb12u1                 deb                      
 debug                                      3.1.0                           npm     (+3 duplicates)  
-debug                                      3.2.7                           npm                      
 debug                                      4.1.1                           npm     (+2 duplicates)  
 debug                                      4.3.6                           npm                      
 decompress-response                        6.0.0                           npm                      
@@ -227,8 +226,6 @@ engine.io-parser                           UNKNOWN                         npm  
 env-paths                                  2.2.1                           npm                      
 env-variable                               0.0.6                           npm                      
 err-code                                   2.0.3                           npm                      
-es6-promise                                4.2.8                           npm                      
-es6-promisify                              5.0.0                           npm                      
 es6-promisify                              7.0.0                           npm                      
 escalade                                   3.1.2                           npm                      
 event-pubsub                               4.3.0                           npm                      
@@ -308,7 +305,7 @@ http-signature                             1.2.0                           npm
 http-signature                             1.3.6                           npm                      
 httpntlm                                   1.8.13                          npm                      
 httpreq                                    0.5.2                           npm                      
-https-proxy-agent                          2.2.4                           npm                      
+https-proxy-agent                          5.0.1                           npm                      
 https-proxy-agent                          7.0.5                           npm                      
 i18next                                    23.5.1                          npm                      
 iconv-lite                                 0.6.3                           npm                      
@@ -675,7 +672,7 @@ long                                       5.2.3                           npm
 lru-cache                                  10.4.3                          npm     (+2 duplicates)  
 lru-cache                                  6.0.0                           npm                      
 lru-cache                                  7.18.3                          npm                      
-lsmod                                      1.0.0                           npm                      
+lru_map                                    0.3.3                           npm                      
 make-fetch-happen                          13.0.1                          npm                      
 matchit                                    1.1.0                           npm                      
 mawk                                       1.3.4.20200120-3.1              deb                      
@@ -759,7 +756,7 @@ path-parse                                 1.0.7                           npm
 path-scurry                                1.11.1                          npm                      
 peek-readable                              4.1.0                           npm                      
 performance-now                            2.1.0                           npm                      
-perftrace                                  1.2.1                           npm                      
+perftrace                                  1.3.0                           npm                      
 perl                                       5.36.0-7+deb12u1                deb                      
 perl-base                                  5.36.0-7+deb12u1                deb                      
 perl-modules-5.36                          5.36.0-7+deb12u1                deb                      
@@ -769,7 +766,7 @@ pkgconf-bin                                1.8.1-1                         deb
 polka                                      0.5.2                           npm                      
 postman-collection                         4.5.0                           npm                      
 postman-request                            2.88.1-postman.40               npm                      
-postman-runtime                            7.42.0                          npm                      
+postman-runtime                            7.43.0                          npm                      
 postman-sandbox                            5.1.2                           npm                      
 postman-url-encoder                        3.0.5                           npm                      
 postman-ws                                 7.4.5-postman.1                 npm                      

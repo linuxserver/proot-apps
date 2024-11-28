@@ -168,7 +168,7 @@ speexdsp                   1.2.1-r2                 apk
 sqlite-libs                3.45.3-r1                apk     
 ssl_client                 1.36.1-r29               apk     
 tdb-libs                   1.4.9-r1                 apk     
-thunderbird                128.4.3-r0               apk     
+thunderbird                128.5.0-r0               apk     
 tiff                       4.6.0t-r0                apk     
 wayland-libs-client        1.22.0-r4                apk     
 wayland-libs-cursor        1.22.0-r4                apk     
