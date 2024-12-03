@@ -175,7 +175,7 @@ mesa-vulkan-ati            24.0.9-r1                apk
 mesa-vulkan-intel          24.0.9-r1                apk     
 mesa-vulkan-layers         24.0.9-r1                apk     
 mesa-vulkan-swrast         24.0.9-r1                apk     
-mozjs115                   115.17.0-r0              apk     
+mozjs115                   115.18.0-r0              apk     
 mpdecimal                  4.0.0-r0                 apk     
 musl                       1.2.5-r0                 apk     
 musl-utils                 1.2.5-r0                 apk     
