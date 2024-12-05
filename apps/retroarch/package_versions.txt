@@ -52,7 +52,7 @@ gtk+3.0                      3.24.43-r2               apk
 gtk-update-icon-cache        3.24.43-r2               apk     
 harfbuzz                     9.0.0-r1                 apk     
 hicolor-icon-theme           0.18-r0                  apk     
-hwdata-pci                   0.389-r0                 apk     
+hwdata-pci                   0.390-r0                 apk     
 icu-data-full                74.2-r0                  apk     
 icu-libs                     74.2-r0                  apk     
 lame-libs                    3.100-r5                 apk     
@@ -237,7 +237,7 @@ mesa-vulkan-swrast           24.2.8-r0                apk
 miniupnpc                    2.2.8-r0                 apk     
 mpdecimal                    4.0.0-r0                 apk     
 mtdev                        1.1.7-r0                 apk     
-musl                         1.2.5-r7                 apk     
+musl                         1.2.5-r8                 apk     
 musl-utils                   1.2.5-r1                 apk     
 ncurses-terminfo-base        6.5_p20241006-r3         apk     
 netcat-openbsd               1.226.1.1-r0             apk     

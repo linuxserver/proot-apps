@@ -780,7 +780,7 @@ txw2                                                    2.2.11                  
 typing                                                  1.0-SNAPSHOT                                                                  java-archive                    
 typing-descriptor                                       1.0-SNAPSHOT                                                                  java-archive                    
 typing-editing                                          1.0-SNAPSHOT                                                                  java-archive                    
-tzdata                                                  2024a-0+deb12u1                                                               deb                             
+tzdata                                                  2024b-0+deb12u1                                                               deb                             
 udev                                                    252.31-1~deb12u1                                                              deb                             
 ui-graph                                                1.0-SNAPSHOT                                                                  java-archive                    
 undertow-core                                           2.2.19.Final                                                                  java-archive                    

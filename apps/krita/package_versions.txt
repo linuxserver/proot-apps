@@ -189,7 +189,7 @@ pango                      1.52.2-r0                apk
 pcre2                      10.43-r0                 apk     
 pixman                     0.43.2-r0                apk     
 pkgconf                    2.2.0-r0                 apk     
-poppler                    24.02.0-r1               apk     
+poppler                    24.02.0-r2               apk     
 poppler-qt5                24.02.0-r1               apk     
 pulseaudio                 17.0-r0                  apk     
 pulseaudio-alsa            17.0-r0                  apk     

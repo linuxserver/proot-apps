@@ -519,7 +519,7 @@ tunnel-forwarding                       1.0.0                           npm
 typescript                              1.0.0                           npm                    
 typescript                              5.6.3                           npm                    
 typescript-language-features            1.0.0                           npm                    
-tzdata                                  2024a-0+deb12u1                 deb                    
+tzdata                                  2024b-0+deb12u1                 deb                    
 udev                                    252.31-1~deb12u1                deb                    
 universalify                            2.0.1                           npm                    
 usr-is-merged                           37~deb12u1                      deb                    

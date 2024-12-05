@@ -890,7 +890,7 @@ tslib                                      1.14.1                          npm
 tunnel-agent                               0.6.0                           npm                      
 tweetnacl                                  0.14.5                          npm                      
 typedarray                                 0.0.6                           npm                      
-tzdata                                     2024a-0+deb12u1                 deb                      
+tzdata                                     2024b-0+deb12u1                 deb                      
 udev                                       252.31-1~deb12u1                deb                      
 uglify-js                                  3.18.0                          npm                      
 underscore                                 1.12.1                          npm                      
