@@ -79,7 +79,7 @@ ffmpeg-libavutil           6.1.2-r0                 apk
 ffmpeg-libswresample       6.1.2-r0                 apk                         
 ffmpeg-libswscale          6.1.2-r0                 apk                         
 fftw-single-libs           3.3.10-r6                apk                         
-file                       5.45-r1                  apk                         
+file                       5.46-r0                  apk                         
 font-liberation            2.1.5-r2                 apk                         
 font-noto                  24.7.1-r0                apk                         
 font-noto-common           24.7.1-r0                apk                         
@@ -187,7 +187,7 @@ libjxl                     0.10.3-r0                apk
 libksba                    1.6.7-r0                 apk                         
 libldap                    2.6.8-r0                 apk                         
 libltdl                    2.4.7-r3                 apk                         
-libmagic                   5.45-r1                  apk                         
+libmagic                   5.46-r0                  apk                         
 libmd                      1.1.0-r0                 apk                         
 libmng                     2.0.3-r2                 apk                         
 libmount                   2.40.2-r4                apk                         
@@ -487,7 +487,7 @@ xf86-video-amdgpu          23.0.0-r3                apk
 xf86-video-ati             22.0.0-r3                apk                         
 xf86-video-intel           2.99.917_git20221028-r7  apk                         
 xkeyboard-config           2.43-r0                  apk                         
-xprop                      1.2.7-r0                 apk                         
+xprop                      1.2.8-r0                 apk                         
 xset                       1.2.5-r1                 apk                         
 xvidcore                   1.3.7-r2                 apk                         
 xxhash                     3.4.1                    python                      
