@@ -136,7 +136,7 @@ libkrb5support0                 1.21.3-3                         deb
 liblcms2-2                      2.16-2                           deb             
 libldap-2.5-0                   2.5.18+dfsg-3+b1                 deb             
 liblerc4                        4.0.0+ds-5                       deb             
-libllvm19                       1:19.1.4-1                       deb             
+libllvm19                       1:19.1.5-1                       deb             
 liblocale-gettext-perl          1.07-7+b1                        deb             
 libltdl7                        2.4.7-8                          deb             
 liblz4-1                        1.9.4-3+b1                       deb             
@@ -274,8 +274,8 @@ libxxf86vm1                     1:1.1.4-1+b3                     deb
 libxxhash0                      0.8.2-2+b2                       deb             
 libz3-4                         4.13.3-1                         deb             
 libzstd1                        1.5.6+dfsg-1+b1                  deb             
-libzvbi-common                  0.2.42-2                         deb             
-libzvbi0t64                     0.2.42-2                         deb             
+libzvbi-common                  0.2.43-1                         deb             
+libzvbi0t64                     0.2.43-1                         deb             
 login                           1:4.16.0-2+really2.40.2-11       deb             
 login.defs                      1:4.16.0-5                       deb             
 logisim-evolution               3.9.0                            deb             
