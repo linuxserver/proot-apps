@@ -201,11 +201,11 @@ py3-urllib3                 1.26.18-r1               apk
 py3-urllib3-pyc             1.26.18-r1               apk       
 py3-yaml                    6.0.1-r3                 apk       
 py3-yaml-pyc                6.0.1-r3                 apk       
-pyc                         3.12.7-r0                apk       
+pyc                         3.12.8-r0                apk       
 pygobject                   3.48.2                   python    
-python3                     3.12.7-r0                apk       
-python3-pyc                 3.12.7-r0                apk       
-python3-pycache-pyc0        3.12.7-r0                apk       
+python3                     3.12.8-r0                apk       
+python3-pyc                 3.12.8-r0                apk       
+python3-pycache-pyc0        3.12.8-r0                apk       
 pyyaml                      6.0.1                    python    
 readline                    8.2.10-r0                apk       
 requests                    2.32.3                   python    

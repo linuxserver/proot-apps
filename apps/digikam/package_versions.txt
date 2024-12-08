@@ -279,10 +279,10 @@ polkit-noelogind-libs      124-r0                   apk
 polkit-qt5                 0.200.0-r0               apk     
 pulseaudio                 17.0-r0                  apk     
 pulseaudio-alsa            17.0-r0                  apk     
-pyc                        3.12.7-r0                apk     
-python3                    3.12.7-r0                apk     
-python3-pyc                3.12.7-r0                apk     
-python3-pycache-pyc0       3.12.7-r0                apk     
+pyc                        3.12.8-r0                apk     
+python3                    3.12.8-r0                apk     
+python3-pyc                3.12.8-r0                apk     
+python3-pycache-pyc0       3.12.8-r0                apk     
 qt5-qtbase                 5.15.10_git20230714-r2   apk     
 qt5-qtbase-sqlite          5.15.10_git20230714-r2   apk     
 qt5-qtbase-x11             5.15.10_git20230714-r2   apk     

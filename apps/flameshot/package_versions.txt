@@ -56,10 +56,10 @@ libatk-bridge-2.0          2.54.0-r0                apk
 libblkid                   2.40.2-r4                apk     
 libbsd                     0.12.2-r0                apk     
 libbz2                     1.0.8-r6                 apk     
-libcap2                    2.71-r0                  apk     
+libcap2                    2.73-r0                  apk     
 libcrypto3                 3.3.2-r1                 apk     
 libcurl                    8.11.0-r2                apk     
-libdrm                     2.4.123-r1               apk     
+libdrm                     2.4.124-r0               apk     
 libeconf                   0.6.3-r0                 apk     
 libelf                     0.191-r0                 apk     
 libepoxy                   1.5.10-r1                apk     
@@ -101,7 +101,7 @@ libvorbis                  1.3.7-r2                 apk
 libwebp                    1.4.0-r0                 apk     
 libx11                     1.8.10-r0                apk     
 libxau                     1.0.11-r4                apk     
-libxcb                     1.16.1-r0                apk     
+libxcb                     1.17.0-r0                apk     
 libxcomposite              0.4.6-r5                 apk     
 libxcursor                 1.2.3-r0                 apk     
 libxdamage                 1.1.6-r5                 apk     
@@ -152,10 +152,10 @@ pixman                     0.43.4-r1                apk
 pkgconf                    2.3.0-r0                 apk     
 pulseaudio                 17.0-r4                  apk     
 pulseaudio-alsa            17.0-r4                  apk     
-pyc                        3.12.7-r1                apk     
-python3                    3.12.7-r1                apk     
-python3-pyc                3.12.7-r1                apk     
-python3-pycache-pyc0       3.12.7-r1                apk     
+pyc                        3.12.8-r0                apk     
+python3                    3.12.8-r0                apk     
+python3-pyc                3.12.8-r0                apk     
+python3-pycache-pyc0       3.12.8-r0                apk     
 qt5-qtbase                 5.15.10_git20230714-r3   apk     
 qt5-qtbase-x11             5.15.10_git20230714-r3   apk     
 qt5-qtdeclarative          5.15.10_git20230629-r0   apk     

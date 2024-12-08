@@ -156,10 +156,10 @@ pixman                     0.43.2-r0                apk
 pkgconf                    2.2.0-r0                 apk     
 pulseaudio                 17.0-r0                  apk     
 pulseaudio-alsa            17.0-r0                  apk     
-pyc                        3.12.7-r0                apk     
-python3                    3.12.7-r0                apk     
-python3-pyc                3.12.7-r0                apk     
-python3-pycache-pyc0       3.12.7-r0                apk     
+pyc                        3.12.8-r0                apk     
+python3                    3.12.8-r0                apk     
+python3-pyc                3.12.8-r0                apk     
+python3-pycache-pyc0       3.12.8-r0                apk     
 qbittorrent                4.6.4-r1                 apk     
 qt6-qtbase                 6.6.3-r1                 apk     
 qt6-qtbase-x11             6.6.3-r1                 apk     

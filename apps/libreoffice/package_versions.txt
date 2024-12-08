@@ -303,10 +303,10 @@ pkgconf                         2.2.0-r0                 apk
 poppler                         24.02.0-r2               apk                           
 pulseaudio                      17.0-r0                  apk                           
 pulseaudio-alsa                 17.0-r0                  apk                           
-pyc                             3.12.7-r0                apk                           
-python3                         3.12.7-r0                apk                           
-python3-pyc                     3.12.7-r0                apk                           
-python3-pycache-pyc0            3.12.7-r0                apk                           
+pyc                             3.12.8-r0                apk                           
+python3                         3.12.8-r0                apk                           
+python3-pyc                     3.12.8-r0                apk                           
+python3-pycache-pyc0            3.12.8-r0                apk                           
 query                           UNKNOWN                  java-archive                  
 raptor2                         2.0.16-r1                apk                           
 rasqal                          0.9.33-r3                apk                           
