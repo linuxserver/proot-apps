@@ -228,10 +228,10 @@ profiling                  1.0.13                   rust-crate
 profiling-procmacros       1.0.13                   rust-crate    
 pulseaudio                 17.0-r4                  apk           
 pulseaudio-alsa            17.0-r4                  apk           
-pyc                        3.12.8-r0                apk           
-python3                    3.12.8-r0                apk           
-python3-pyc                3.12.8-r0                apk           
-python3-pycache-pyc0       3.12.8-r0                apk           
+pyc                        3.12.8-r1                apk           
+python3                    3.12.8-r1                apk           
+python3-pyc                3.12.8-r1                apk           
+python3-pycache-pyc0       3.12.8-r1                apk           
 quote                      1.0.35                   rust-crate    
 rand                       0.8.5                    rust-crate    
 rand_chacha                0.3.1                    rust-crate    

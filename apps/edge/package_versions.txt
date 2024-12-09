@@ -130,7 +130,7 @@ libgstreamer-plugins-base1.0-0  1.24.10-1                        deb
 libgstreamer1.0-0               1.24.10-2                        deb     
 libgtk-3-0                      3.24.41-1                        deb     
 libgtk-3-common                 3.24.43-4                        deb     
-libharfbuzz0b                   10.0.1-1                         deb     
+libharfbuzz0b                   10.1.0-1                         deb     
 libhogweed6t64                  3.10-1+b1                        deb     
 libhwy1t64                      1.2.0-2+b1                       deb     
 libice6                         2:1.1.1-1                        deb     
@@ -254,7 +254,7 @@ libwayland-server0              1.23.0-1+b1                      deb
 libwebp7                        1.4.0-0.1+b1                     deb     
 libwebpmux3                     1.4.0-0.1+b1                     deb     
 libwebrtc-audio-processing1     0.3-1+b2                         deb     
-libwrap0                        7.6.q-33+b1                      deb     
+libwrap0                        7.6.q-34                         deb     
 libx11-6                        2:1.8.10-2                       deb     
 libx11-data                     2:1.8.10-2                       deb     
 libx11-xcb1                     2:1.8.10-2                       deb     

@@ -316,10 +316,10 @@ py3-six                               1.16.0-r9                apk
 py3-six-pyc                           1.16.0-r9                apk       
 py3-wxpython                          4.2.1-r2                 apk       
 py3-wxpython-pyc                      4.2.1-r2                 apk       
-pyc                                   3.12.8-r0                apk       
-python3                               3.12.8-r0                apk       
-python3-pyc                           3.12.8-r0                apk       
-python3-pycache-pyc0                  3.12.8-r0                apk       
+pyc                                   3.12.8-r1                apk       
+python3                               3.12.8-r1                apk       
+python3-pyc                           3.12.8-r1                apk       
+python3-pycache-pyc0                  3.12.8-r1                apk       
 qt5-qtbase                            5.15.10_git20230714-r2   apk       
 qt5-qtbase-x11                        5.15.10_git20230714-r2   apk       
 qt5-qtdeclarative                     5.15.10_git20230629-r0   apk       

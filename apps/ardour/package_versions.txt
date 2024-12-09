@@ -11,7 +11,7 @@ anstyle-query              1.0.2                    rust-crate
 anyhow                     1.0.79                   rust-crate    
 aom-libs                   3.11.0-r0                apk           
 apk-tools                  2.14.4-r3                apk           
-ardour                     8.10.0-r1                apk           
+ardour                     8.10.0-r2                apk           
 arg_enum_proc_macro        0.3.4                    rust-crate    
 arrayvec                   0.7.4                    rust-crate    
 aubio                      0.4.9-r4                 apk           
@@ -244,10 +244,10 @@ profiling                  1.0.13                   rust-crate
 profiling-procmacros       1.0.13                   rust-crate    
 pulseaudio                 17.0-r4                  apk           
 pulseaudio-alsa            17.0-r4                  apk           
-pyc                        3.12.8-r0                apk           
-python3                    3.12.8-r0                apk           
-python3-pyc                3.12.8-r0                apk           
-python3-pycache-pyc0       3.12.8-r0                apk           
+pyc                        3.12.8-r1                apk           
+python3                    3.12.8-r1                apk           
+python3-pyc                3.12.8-r1                apk           
+python3-pycache-pyc0       3.12.8-r1                apk           
 quote                      1.0.35                   rust-crate    
 rand                       0.8.5                    rust-crate    
 rand_chacha                0.3.1                    rust-crate    
