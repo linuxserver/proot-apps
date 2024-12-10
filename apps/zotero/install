@@ -4,7 +4,7 @@
 echo "Adding icon"
 mkdir -p $HOME/.local/share/icons/hicolor/scalable/apps/
 cp \
-  /opt/zotero/chrome/icons/default/default256.png \
+  /opt/zotero/icons/icon128.png \
   $HOME/.local/share/icons/hicolor/scalable/apps/zotero.png
 echo "Adding start menu entry"
 mkdir -p $HOME/.local/share/applications/
