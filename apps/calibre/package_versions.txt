@@ -62,7 +62,7 @@ dbus                       1.14.10-r4               apk
 dbus-daemon-launch-helper  1.14.10-r4               apk                         
 dbus-libs                  1.14.10-r4               apk                         
 dbus-x11                   1.14.10-r4               apk                         
-device-mapper-libs         2.03.28-r2               apk                         
+device-mapper-libs         2.03.29-r0               apk                         
 dnspython                  2.7.0                    python                      
 double-conversion          3.3.0-r0                 apk                         
 duktape                    2.7.0-r1                 apk                         
@@ -93,7 +93,7 @@ gdbm                       1.24-r0                  apk
 gdk-pixbuf                 2.42.12-r1               apk                         
 getrandom                  0.2.12                   rust-crate                  
 giflib                     5.2.2-r0                 apk                         
-glib                       2.82.2-r1                apk                         
+glib                       2.82.3-r0                apk                         
 gmp                        6.3.0-r2                 apk                         
 gnupg-dirmngr              2.4.7-r0                 apk                         
 gnupg-gpgconf              2.4.7-r0                 apk                         
@@ -312,7 +312,7 @@ openexr-libiex             3.3.2-r0                 apk
 openexr-libilmthread       3.3.2-r0                 apk                         
 openexr-libopenexr         3.3.2-r0                 apk                         
 openexr-libopenexrcore     3.3.2-r0                 apk                         
-openjpeg                   2.5.2-r0                 apk                         
+openjpeg                   2.5.3-r0                 apk                         
 optipng                    0.7.8-r0                 apk                         
 opus                       1.5.2-r1                 apk                         
 orc                        0.4.40-r1                apk                         
@@ -411,7 +411,7 @@ python3-pycache-pyc0       3.12.8-r1                apk
 qt6-qtbase                 6.8.1-r0                 apk                         
 qt6-qtbase-x11             6.8.1-r0                 apk                         
 qt6-qtconnectivity         6.8.1-r0                 apk                         
-qt6-qtdeclarative          6.8.1-r0                 apk                         
+qt6-qtdeclarative          6.8.1-r2                 apk                         
 qt6-qtimageformats         6.8.1-r0                 apk                         
 qt6-qtmultimedia           6.8.1-r0                 apk                         
 qt6-qtmultimedia-ffmpeg    6.8.1-r0                 apk                         

@@ -169,7 +169,7 @@ libpangoft2-1.0-0               1.55.0+ds-3                      deb
 libpciaccess0                   0.17-3+b2                        deb             
 libpcre2-8-0                    10.44-4                          deb             
 libpixman-1-0                   0.44.0-3                         deb             
-libpng16-16t64                  1.6.44-2                         deb             
+libpng16-16t64                  1.6.44-3                         deb             
 libpsl5t64                      0.21.2-1.1+b1                    deb             
 libpulse0                       16.1+dfsg1-5.1+b1                deb             
 libpulsedsp                     16.1+dfsg1-5.1+b1                deb             
