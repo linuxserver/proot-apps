@@ -345,7 +345,7 @@ ncurses-bin                     6.4-4                           deb
 netcat-openbsd                  1.219-1                         deb                            
 objective-c                     1.0.0                           npm                            
 ocl-icd-libopencl1              2.3.1-1                         deb                            
-openjdk                         21.0.5+8-b631.16                binary                         
+openjdk                         21.0.5+8-b631.28                binary                         
 openssh-client                  1:9.2p1-2+deb12u3               deb                            
 openssl                         3.0.15-1~deb12u1                deb                            
 passwd                          1:4.13+dfsg1-1+b1               deb                            
