@@ -21,7 +21,7 @@ chromium                   131.0.6778.108-r0        apk
 cjson                      1.7.18-r0                apk     
 crc32c                     1.1.2-r0                 apk     
 cups-libs                  2.4.9-r1                 apk     
-curl                       8.11.0-r2                apk     
+curl                       8.11.1-r0                apk     
 dbus                       1.14.10-r1               apk     
 dbus-daemon-launch-helper  1.14.10-r1               apk     
 dbus-libs                  1.14.10-r1               apk     
@@ -75,7 +75,7 @@ libcamera                  0.3.0-r0                 apk
 libcamera-ipa              0.3.0-r0                 apk     
 libcap2                    2.70-r0                  apk     
 libcrypto3                 3.3.2-r0                 apk     
-libcurl                    8.11.0-r2                apk     
+libcurl                    8.11.1-r0                apk     
 libdav1d                   1.4.2-r0                 apk     
 libdrm                     2.4.120-r0               apk     
 libeconf                   0.6.3-r0                 apk     
