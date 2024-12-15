@@ -8,7 +8,7 @@ bash                            5.2.32-1+b2                      deb
 bsdutils                        1:2.40.2-11                      deb     
 ca-certificates                 20240203                         deb     
 coreutils                       9.5-1+b1                         deb     
-curl                            8.11.0-1                         deb     
+curl                            8.11.1-1                         deb     
 dash                            0.5.12-9                         deb     
 dbus-bin                        1.15.92-1                        deb     
 dbus-daemon                     1.15.92-1                        deb     
@@ -86,7 +86,7 @@ libcolord2                      1.4.7-1+b2                       deb
 libcom-err2                     1.47.2~rc1-1                     deb     
 libcrypt1                       1:4.4.36-5                       deb     
 libcups2t64                     2.4.10-2                         deb     
-libcurl3t64-gnutls              8.11.0-1                         deb     
+libcurl3t64-gnutls              8.11.1-1                         deb     
 libdatrie1                      0.2.13-3+b1                      deb     
 libdav1d7                       1.5.0-1+b1                       deb     
 libdb5.3t64                     5.3.28+dfsg2-9                   deb     
@@ -112,7 +112,7 @@ libext2fs2t64                   1.47.2~rc1-1                     deb
 libffi8                         3.4.6-1                          deb     
 libfftw3-double3                3.3.10-2+b1                      deb     
 libfftw3-single3                3.3.10-2+b1                      deb     
-libflac12t64                    1.4.3+ds-3                       deb     
+libflac12t64                    1.4.3+ds-4                       deb     
 libflite1                       2.2-7                            deb     
 libfontconfig1                  2.15.0-1.1+b1                    deb     
 libfontenc1                     1:1.1.8-1+b1                     deb     
@@ -129,7 +129,7 @@ libgl1                          1.7.0-1+b2                       deb
 libgl1-mesa-dri                 24.2.8-1                         deb     
 libglapi-mesa                   24.2.8-1                         deb     
 libgles2                        1.7.0-1+b2                       deb     
-libglib2.0-0t64                 2.82.3-2                         deb     
+libglib2.0-0t64                 2.82.4-1                         deb     
 libglvnd0                       1.7.0-1+b2                       deb     
 libglx-mesa0                    24.2.8-1                         deb     
 libglx0                         1.7.0-1+b2                       deb     
@@ -221,11 +221,11 @@ libpsl5t64                      0.21.2-1.1+b1                    deb
 libpulse0                       17.0+dfsg1-1                     deb     
 libpulsedsp                     17.0+dfsg1-1                     deb     
 libpython3-stdlib               3.12.7-1                         deb     
-libpython3.12-minimal           3.12.8-2                         deb     
-libpython3.12-stdlib            3.12.8-2                         deb     
+libpython3.12-minimal           3.12.8-3                         deb     
+libpython3.12-stdlib            3.12.8-3                         deb     
 librabbitmq4                    0.15.0-1                         deb     
 librav1e0.7                     0.7.1-7+b2                       deb     
-libreadline8t64                 8.2-5                            deb     
+libreadline8t64                 8.2-6                            deb     
 librist4                        0.2.11+dfsg-1                    deb     
 librsvg2-2                      2.59.2+dfsg-1                    deb     
 librsvg2-common                 2.59.2+dfsg-1                    deb     
@@ -262,7 +262,7 @@ libssh-4                        0.11.1-1                         deb
 libssh2-1t64                    1.11.1-1                         deb     
 libssl3t64                      3.3.2-2                          deb     
 libstdc++6                      14.2.0-8                         deb     
-libsvtav1enc2                   2.2.1+dfsg-2                     deb     
+libsvtav1enc2                   2.3.0+dfsg-1                     deb     
 libswresample5                  7:7.1-3                          deb     
 libswscale8                     7:7.1-3                          deb     
 libsystemd-shared               257-2                            deb     
@@ -375,9 +375,9 @@ pulseaudio                      17.0+dfsg1-1                     deb
 pulseaudio-utils                17.0+dfsg1-1                     deb     
 python3                         3.12.7-1                         deb     
 python3-minimal                 3.12.7-1                         deb     
-python3.12                      3.12.8-2                         deb     
-python3.12-minimal              3.12.8-2                         deb     
-readline-common                 8.2-5                            deb     
+python3.12                      3.12.8-3                         deb     
+python3.12-minimal              3.12.8-3                         deb     
+readline-common                 8.2-6                            deb     
 sed                             4.9-2                            deb     
 shared-mime-info                2.4-5+b1                         deb     
 systemd                         257-2                            deb     
