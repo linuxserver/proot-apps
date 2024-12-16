@@ -64,10 +64,10 @@ ffmpeg-libswscale          6.1.2-r1                 apk
 fftw-double-libs           3.3.10-r6                apk           
 fftw-single-libs           3.3.10-r6                apk           
 file                       5.46-r0                  apk           
-font-noto                  24.7.1-r0                apk           
-font-noto-common           24.7.1-r0                apk           
-font-noto-math             24.7.1-r0                apk           
-font-noto-symbols          24.7.1-r0                apk           
+font-noto                  2024.12.01-r0            apk           
+font-noto-common           2024.12.01-r0            apk           
+font-noto-math             2024.12.01-r0            apk           
+font-noto-symbols          2024.12.01-r0            apk           
 fontconfig                 2.15.0-r1                apk           
 freetype                   2.13.3-r0                apk           
 fribidi                    1.0.16-r0                apk           
@@ -210,7 +210,7 @@ mesa-vulkan-layers         24.2.8-r0                apk
 mesa-vulkan-swrast         24.2.8-r0                apk           
 minimal-lexical            0.2.1                    rust-crate    
 mpdecimal                  4.0.0-r0                 apk           
-mpg123-libs                1.32.9-r0                apk           
+mpg123-libs                1.32.10-r0               apk           
 musl                       1.2.5-r8                 apk           
 musl-utils                 1.2.5-r3                 apk           
 ncurses-terminfo-base      6.5_p20241006-r3         apk           

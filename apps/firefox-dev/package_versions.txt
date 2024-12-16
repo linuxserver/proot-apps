@@ -57,10 +57,10 @@ ffmpeg-libswresample       6.1.2-r1                 apk
 fftw-single-libs           3.3.10-r6                apk           
 file                       5.46-r0                  apk           
 firefox-developer-edition  134.0_beta2-r0           apk           
-font-noto                  24.7.1-r0                apk           
-font-noto-common           24.7.1-r0                apk           
-font-noto-math             24.7.1-r0                apk           
-font-noto-symbols          24.7.1-r0                apk           
+font-noto                  2024.12.01-r0            apk           
+font-noto-common           2024.12.01-r0            apk           
+font-noto-math             2024.12.01-r0            apk           
+font-noto-symbols          2024.12.01-r0            apk           
 fontconfig                 2.15.0-r1                apk           
 freetype                   2.13.3-r0                apk           
 fribidi                    1.0.16-r0                apk           
