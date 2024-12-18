@@ -48,7 +48,7 @@ ca-certificates                         20230311                        deb
 chownr                                  2.0.0                           npm                    
 chrome-remote-interface                 0.33.0                          npm                    
 clojure                                 1.0.0                           npm                    
-codium                                  1.96.0.24347                    deb                    
+codium                                  1.96.0.24352                    deb                    
 coffeescript                            1.0.0                           npm                    
 commander                               2.11.0                          npm                    
 configuration-editing                   1.0.0                           npm                    
@@ -246,7 +246,7 @@ libgraphite2-3                          1.3.14-1                        deb
 libgsm1                                 1.0.22-1                        deb                    
 libgssapi-krb5-2                        1.20.1-2+deb12u2                deb                    
 libgstreamer-plugins-base1.0-0          1.22.0-3+deb12u3                deb                    
-libgstreamer1.0-0                       1.22.0-2                        deb                    
+libgstreamer1.0-0                       1.22.0-2+deb12u1                deb                    
 libgtk-3-0                              3.24.38-2~deb12u3               deb                    
 libgtk-3-common                         3.24.38-2~deb12u3               deb                    
 libharfbuzz0b                           6.0.0+dfsg-3                    deb                    
