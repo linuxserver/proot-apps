@@ -419,7 +419,7 @@ qt6-qtpositioning          6.8.1-r0                 apk
 qt6-qtserialport           6.8.1-r0                 apk                         
 qt6-qtsvg                  6.8.1-r0                 apk                         
 qt6-qttools-libs           6.8.1-r1                 apk                         
-qt6-qtwayland              6.8.1-r0                 apk                         
+qt6-qtwayland              6.8.1-r1                 apk                         
 qt6-qtwebchannel           6.8.1-r0                 apk                         
 qt6-qtwebengine            6.8.1-r0                 apk                         
 qt6-qtwebsockets-libs      6.8.1-r0                 apk                         
