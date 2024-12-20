@@ -8,8 +8,8 @@ at-spi2-common                  2.46.0-5                        deb
 base-files                      12.4+deb12u8                    deb     
 base-passwd                     3.6.1                           deb     
 bash                            5.2.15-2+b7                     deb     
-beekeeper-studio                5.0.8                           deb     
-beekeeper-studio                5.0.8                           npm     
+beekeeper-studio                5.0.9                           deb     
+beekeeper-studio                5.0.9                           npm     
 better-sqlite3                  11.1.2                          npm     
 bsdutils                        1:2.38.1-5+deb12u2              deb     
 ca-certificates                 20230311                        deb     

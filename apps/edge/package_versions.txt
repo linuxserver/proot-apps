@@ -149,7 +149,7 @@ libkrb5support0                 1.21.3-3                         deb
 liblcms2-2                      2.16-2                           deb     
 libldap-2.5-0                   2.5.18+dfsg-3+b1                 deb     
 liblerc4                        4.0.0+ds-5                       deb     
-libllvm19                       1:19.1.5-1                       deb     
+libllvm19                       1:19.1.6-1                       deb     
 liblocale-gettext-perl          1.07-7+b1                        deb     
 libltdl7                        2.4.7-8                          deb     
 liblz4-1                        1.9.4-3+b1                       deb     
@@ -307,7 +307,7 @@ media-types                     10.1.0                           deb
 mesa-libgallium                 24.2.8-1                         deb     
 mesa-va-drivers                 24.2.8-1                         deb     
 mesa-vulkan-drivers             24.2.8-1                         deb     
-microsoft-edge-stable           131.0.2903.99-1                  deb     
+microsoft-edge-stable           131.0.2903.112-1                 deb     
 mount                           2.40.2-11                        deb     
 ncurses-base                    6.5-2                            deb     
 ncurses-bin                     6.5-2+b1                         deb     
