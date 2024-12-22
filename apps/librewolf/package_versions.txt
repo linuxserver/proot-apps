@@ -133,7 +133,7 @@ libpng                     1.6.44-r0                apk
 libpsl                     0.21.5-r3                apk           
 libpulse                   17.0-r4                  apk           
 librewolf                  132.0.1_p1-r0            apk           
-libsharpyuv                1.4.0-r0                 apk           
+libsharpyuv                1.5.0-r0                 apk           
 libsm                      1.2.5-r0                 apk           
 libsndfile                 1.2.2-r0                 apk           
 libssl3                    3.3.2-r1                 apk           
@@ -147,9 +147,9 @@ libva-intel-driver         2.4.1-r2                 apk
 libvdpau                   1.5-r4                   apk           
 libvorbis                  1.3.7-r2                 apk           
 libvpx                     1.15.0-r0                apk           
-libwebp                    1.4.0-r0                 apk           
-libwebpdemux               1.4.0-r0                 apk           
-libwebpmux                 1.4.0-r0                 apk           
+libwebp                    1.5.0-r0                 apk           
+libwebpdemux               1.5.0-r0                 apk           
+libwebpmux                 1.5.0-r0                 apk           
 libx11                     1.8.10-r0                apk           
 libxau                     1.0.12-r0                apk           
 libxcb                     1.17.0-r0                apk           

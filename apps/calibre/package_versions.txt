@@ -31,8 +31,8 @@ c-ares                     1.34.3-r0                apk
 ca-certificates-bundle     20240705-r0              apk                         
 cairo                      1.18.2-r1                apk                         
 cairo-gobject              1.18.2-r1                apk                         
-calibre                    7.22.0-r0                apk                         
-calibre-pyc                7.22.0-r0                apk                         
+calibre                    7.23.0-r0                apk                         
+calibre-pyc                7.23.0-r0                apk                         
 cdparanoia-libs            10.2-r14                 apk                         
 cfg-if                     1.0.0                    rust-crate  (+1 duplicate)  
 chardet                    5.2.0                    python                      
@@ -205,7 +205,7 @@ libpsl                     0.21.5-r3                apk
 libpulse                   17.0-r4                  apk                         
 librist                    0.2.10-r1                apk                         
 libsasl                    2.1.28-r8                apk                         
-libsharpyuv                1.4.0-r0                 apk                         
+libsharpyuv                1.5.0-r0                 apk                         
 libsm                      1.2.5-r0                 apk                         
 libsndfile                 1.2.2-r0                 apk                         
 libsodium                  1.0.20-r0                apk                         
@@ -224,9 +224,9 @@ libva-intel-driver         2.4.1-r2                 apk
 libvdpau                   1.5-r4                   apk                         
 libvorbis                  1.3.7-r2                 apk                         
 libvpx                     1.15.0-r0                apk                         
-libwebp                    1.4.0-r0                 apk                         
-libwebpdemux               1.4.0-r0                 apk                         
-libwebpmux                 1.4.0-r0                 apk                         
+libwebp                    1.5.0-r0                 apk                         
+libwebpdemux               1.5.0-r0                 apk                         
+libwebpmux                 1.5.0-r0                 apk                         
 libwmf                     0.2.13-r1                apk                         
 libwmflite                 0.2.13-r1                apk                         
 libx11                     1.8.10-r0                apk                         
@@ -409,6 +409,7 @@ python3                    3.12.8-r1                apk
 python3-pyc                3.12.8-r1                apk                         
 python3-pycache-pyc0       3.12.8-r1                apk                         
 qt6-qtbase                 6.8.1-r0                 apk                         
+qt6-qtbase-private-dev     6.8.1-r0                 apk                         
 qt6-qtbase-x11             6.8.1-r0                 apk                         
 qt6-qtconnectivity         6.8.1-r0                 apk                         
 qt6-qtdeclarative          6.8.1-r2                 apk                         
