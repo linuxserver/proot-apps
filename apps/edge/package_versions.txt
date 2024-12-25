@@ -7,7 +7,7 @@ base-files                      13.6                             deb
 base-passwd                     3.6.5                            deb     
 bash                            5.2.32-1+b2                      deb     
 bsdutils                        1:2.40.2-11                      deb     
-ca-certificates                 20240203                         deb     
+ca-certificates                 20241223                         deb     
 coreutils                       9.5-1+b1                         deb     
 curl                            8.11.1-1                         deb     
 dash                            0.5.12-9                         deb     
@@ -137,7 +137,7 @@ libice6                         2:1.1.1-1                        deb
 libicu72                        72.1-5+b1                        deb     
 libidn2-0                       2.3.7-2+b1                       deb     
 libimath-3-1-29t64              3.1.12-1+b1                      deb     
-libjack-jackd2-0                1.9.22~dfsg-3                    deb     
+libjack-jackd2-0                1.9.22~dfsg-4                    deb     
 libjbig0                        2.1-6.1+b2                       deb     
 libjpeg62-turbo                 1:2.1.5-3+b1                     deb     
 libjxl0.9                       0.9.2-10+b1                      deb     
@@ -157,7 +157,7 @@ liblzma5                        5.6.3-1+b1                       deb
 libmd0                          1.1.0-2+b1                       deb     
 libmount1                       2.40.2-11                        deb     
 libmp3lame0                     3.100-6+b3                       deb     
-libmpg123-0t64                  1.32.9-1                         deb     
+libmpg123-0t64                  1.32.10-1                        deb     
 libncursesw6                    6.5-2+b1                         deb     
 libnettle8t64                   3.10-1+b1                        deb     
 libnghttp2-14                   1.64.0-1                         deb     
