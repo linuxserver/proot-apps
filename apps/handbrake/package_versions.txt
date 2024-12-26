@@ -170,7 +170,7 @@ libkrb5-3                       1.21.3-3                         deb
 libkrb5support0                 1.21.3-3                         deb     
 liblapack3                      3.12.0-4                         deb     
 liblcms2-2                      2.16-2                           deb     
-libldap-2.5-0                   2.5.18+dfsg-3+b1                 deb     
+libldap-2.5-0                   2.5.19+dfsg-1                    deb     
 liblerc4                        4.0.0+ds-5                       deb     
 liblilv-0-0                     0.24.24-2+b1                     deb     
 libllvm19                       1:19.1.6-1                       deb     
@@ -220,7 +220,7 @@ libproc2-0                      2:4.0.4-6                        deb
 libpsl5t64                      0.21.2-1.1+b1                    deb     
 libpulse0                       17.0+dfsg1-1                     deb     
 libpulsedsp                     17.0+dfsg1-1                     deb     
-libpython3-stdlib               3.12.7-1                         deb     
+libpython3-stdlib               3.12.8-1                         deb     
 libpython3.12-minimal           3.12.8-3                         deb     
 libpython3.12-stdlib            3.12.8-3                         deb     
 librabbitmq4                    0.15.0-1                         deb     
@@ -373,8 +373,8 @@ procps                          2:4.0.4-6                        deb
 psmisc                          23.7-1                           deb     
 pulseaudio                      17.0+dfsg1-1                     deb     
 pulseaudio-utils                17.0+dfsg1-1                     deb     
-python3                         3.12.7-1                         deb     
-python3-minimal                 3.12.7-1                         deb     
+python3                         3.12.8-1                         deb     
+python3-minimal                 3.12.8-1                         deb     
 python3.12                      3.12.8-3                         deb     
 python3.12-minimal              3.12.8-3                         deb     
 readline-common                 8.2-6                            deb     
