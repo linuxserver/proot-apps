@@ -3,7 +3,7 @@ acl-libs                   2.3.2-r1                 apk
 alpine-baselayout          3.6.8-r0                 apk           
 alpine-baselayout-data     3.6.8-r0                 apk           
 alpine-keys                2.5-r0                   apk           
-alsa-lib                   1.2.12-r0                apk           
+alsa-lib                   1.2.13-r0                apk           
 anstream                   0.6.5                    rust-crate    
 anstyle                    1.0.4                    rust-crate    
 anstyle-parse              0.2.3                    rust-crate    
@@ -191,7 +191,7 @@ libxxf86vm                 1.1.6-r0                 apk
 libzmq                     4.3.5-r2                 apk           
 lilv-libs                  0.24.24-r1               apk           
 linux-raw-sys              0.4.12                   rust-crate    
-llvm19-libs                19.1.4-r0                apk           
+llvm19-libs                19.1.6-r0                apk           
 log                        0.4.20                   rust-crate    
 lrdf                       0.6.1-r2                 apk           
 lz4-libs                   1.10.0-r0                apk           

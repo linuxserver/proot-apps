@@ -2,7 +2,7 @@ NAME                       VERSION                  TYPE
 alpine-baselayout          3.6.8-r0                 apk           
 alpine-baselayout-data     3.6.8-r0                 apk           
 alpine-keys                2.5-r0                   apk           
-alsa-lib                   1.2.12-r0                apk           
+alsa-lib                   1.2.13-r0                apk           
 anstream                   0.6.5                    rust-crate    
 anstyle                    1.0.4                    rust-crate    
 anstyle-parse              0.2.3                    rust-crate    
@@ -81,8 +81,6 @@ harfbuzz                   9.0.0-r1                 apk
 heck                       0.4.1                    rust-crate    
 hicolor-icon-theme         0.18-r0                  apk           
 hwdata-pci                 0.390-r0                 apk           
-icu-data-en                74.2-r0                  apk           
-icu-libs                   74.2-r0                  apk           
 imath                      3.1.12-r0                apk           
 interpolate_name           0.2.4                    rust-crate    
 itertools                  0.10.5                   rust-crate    
@@ -132,7 +130,7 @@ libpciaccess               0.18.1-r0                apk
 libpng                     1.6.44-r0                apk           
 libpsl                     0.21.5-r3                apk           
 libpulse                   17.0-r4                  apk           
-librewolf                  132.0.1_p1-r0            apk           
+librewolf                  133.0.3_p1-r0            apk           
 libsharpyuv                1.5.0-r0                 apk           
 libsm                      1.2.5-r0                 apk           
 libsndfile                 1.2.2-r0                 apk           
@@ -175,7 +173,7 @@ libxv                      1.0.13-r0                apk
 libxvmc                    1.0.14-r1                apk           
 libxxf86vm                 1.1.6-r0                 apk           
 linux-raw-sys              0.4.12                   rust-crate    
-llvm19-libs                19.1.4-r0                apk           
+llvm19-libs                19.1.6-r0                apk           
 log                        0.4.20                   rust-crate    
 maybe-rayon                0.1.1                    rust-crate    
 memchr                     2.7.1                    rust-crate    

@@ -2,7 +2,7 @@ NAME                         VERSION                  TYPE
 alpine-baselayout            3.6.8-r0                 apk     
 alpine-baselayout-data       3.6.8-r0                 apk     
 alpine-keys                  2.5-r0                   apk     
-alsa-lib                     1.2.12-r0                apk     
+alsa-lib                     1.2.13-r0                apk     
 aom-libs                     3.11.0-r0                apk     
 apk-tools                    2.14.4-r3                apk     
 at-spi2-core                 2.54.0-r0                apk     
@@ -222,7 +222,7 @@ libxv                        1.0.13-r0                apk
 libxvmc                      1.0.14-r1                apk     
 libxxf86vm                   1.1.6-r0                 apk     
 libzip                       1.11.2-r0                apk     
-llvm19-libs                  19.1.4-r0                apk     
+llvm19-libs                  19.1.6-r0                apk     
 mbedtls2                     2.28.8-r1                apk     
 mesa                         24.2.8-r0                apk     
 mesa-dri-gallium             24.2.8-r0                apk     

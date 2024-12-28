@@ -2,7 +2,7 @@ NAME                       VERSION                  TYPE
 alpine-baselayout          3.6.8-r0                 apk           
 alpine-baselayout-data     3.6.8-r0                 apk           
 alpine-keys                2.5-r0                   apk           
-alsa-lib                   1.2.12-r0                apk           
+alsa-lib                   1.2.13-r0                apk           
 anstream                   0.6.5                    rust-crate    
 anstyle                    1.0.4                    rust-crate    
 anstyle-parse              0.2.3                    rust-crate    
@@ -175,7 +175,7 @@ libxv                      1.0.13-r0                apk
 libxvmc                    1.0.14-r1                apk           
 libxxf86vm                 1.1.6-r0                 apk           
 linux-raw-sys              0.4.12                   rust-crate    
-llvm19-libs                19.1.4-r0                apk           
+llvm19-libs                19.1.6-r0                apk           
 log                        0.4.20                   rust-crate    
 maybe-rayon                0.1.1                    rust-crate    
 memchr                     2.7.1                    rust-crate    
