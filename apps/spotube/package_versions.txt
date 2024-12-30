@@ -55,7 +55,7 @@ gpgv                             2.2.40-1.1                       deb
 grep                             3.8-5                            deb       
 gsettings-desktop-schemas        43.0-1                           deb       
 gstreamer1.0-plugins-base        1.22.0-3+deb12u3                 deb       
-gstreamer1.0-plugins-good        1.22.0-5+deb12u1                 deb       
+gstreamer1.0-plugins-good        1.22.0-5+deb12u2                 deb       
 gtk-update-icon-cache            3.24.38-2~deb12u3                deb       
 gzip                             1.12-1                           deb       
 hicolor-icon-theme               0.17-2                           deb       
