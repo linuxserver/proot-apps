@@ -201,7 +201,7 @@ libsasl                         2.1.28-r6                apk
 libserializer                   1.1.6                    java-archive                  
 libsharpyuv                     1.3.2-r0                 apk                           
 libsm                           1.2.4-r4                 apk                           
-libsndfile                      1.2.2-r0                 apk                           
+libsndfile                      1.2.2-r1                 apk                           
 libsrtp                         2.5.0-r1                 apk                           
 libssl3                         3.3.2-r0                 apk                           
 libstaroffice                   0.0.7-r8                 apk                           

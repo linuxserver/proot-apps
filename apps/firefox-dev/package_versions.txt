@@ -135,7 +135,7 @@ libpsl                     0.21.5-r3                apk
 libpulse                   17.0-r4                  apk           
 libsharpyuv                1.5.0-r0                 apk           
 libsm                      1.2.5-r0                 apk           
-libsndfile                 1.2.2-r0                 apk           
+libsndfile                 1.2.2-r2                 apk           
 libssl3                    3.3.2-r1                 apk           
 libstdc++                  14.2.0-r5                apk           
 libtasn1                   4.19.0-r2                apk           
@@ -191,6 +191,7 @@ mesa-vulkan-layers         24.3.2-r1                apk
 mesa-vulkan-swrast         24.3.2-r1                apk           
 minimal-lexical            0.2.1                    rust-crate    
 mpdecimal                  4.0.0-r0                 apk           
+mpg123-libs                1.32.10-r0               apk           
 musl                       1.2.5-r8                 apk           
 musl-utils                 1.2.5-r3                 apk           
 ncurses-terminfo-base      6.5_p20241006-r3         apk           

@@ -50,6 +50,7 @@ hwdata-pci                 0.390-r0                 apk
 icu-data-full              74.2-r0                  apk     
 icu-libs                   74.2-r0                  apk     
 kguiaddons5                5.116.0-r0               apk     
+lame-libs                  3.100-r5                 apk     
 libasyncns                 0.8-r4                   apk     
 libatk-1.0                 2.54.0-r0                apk     
 libatk-bridge-2.0          2.54.0-r0                apk     
@@ -88,7 +89,7 @@ libpsl                     0.21.5-r3                apk
 libpulse                   17.0-r4                  apk     
 libsharpyuv                1.5.0-r0                 apk     
 libsm                      1.2.5-r0                 apk     
-libsndfile                 1.2.2-r0                 apk     
+libsndfile                 1.2.2-r2                 apk     
 libssl3                    3.3.2-r1                 apk     
 libstdc++                  14.2.0-r5                apk     
 libtasn1                   4.19.0-r2                apk     
@@ -136,6 +137,7 @@ mesa-vulkan-ati            24.3.2-r1                apk
 mesa-vulkan-layers         24.3.2-r1                apk     
 mesa-vulkan-swrast         24.3.2-r1                apk     
 mpdecimal                  4.0.0-r0                 apk     
+mpg123-libs                1.32.10-r0               apk     
 mtdev                      1.1.7-r0                 apk     
 musl                       1.2.5-r8                 apk     
 musl-utils                 1.2.5-r3                 apk     
