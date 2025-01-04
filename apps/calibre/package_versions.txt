@@ -66,7 +66,7 @@ device-mapper-libs         2.03.29-r0               apk
 dnspython                  2.7.0                    python                      
 double-conversion          3.3.0-r0                 apk                         
 duktape-libs               2.7.0-r2                 apk                         
-e2fsprogs-libs             1.47.1-r1                apk                         
+e2fsprogs-libs             1.47.2-r0                apk                         
 either                     1.9.0                    rust-crate  (+1 duplicate)  
 errno                      0.3.8                    rust-crate                  
 espeak-ng                  1.51.1-r1                apk                         
@@ -79,7 +79,7 @@ ffmpeg-libavutil           6.1.2-r1                 apk
 ffmpeg-libswresample       6.1.2-r1                 apk                         
 ffmpeg-libswscale          6.1.2-r1                 apk                         
 fftw-single-libs           3.3.10-r6                apk                         
-file                       5.46-r0                  apk                         
+file                       5.46-r1                  apk                         
 font-liberation            2.1.5-r2                 apk                         
 font-noto                  2024.12.01-r0            apk                         
 font-noto-common           2024.12.01-r0            apk                         
@@ -137,7 +137,7 @@ lab                        0.11.0                   rust-crate
 lame-libs                  3.100-r5                 apk                         
 lazy_static                1.4.0                    rust-crate                  
 lcms2                      2.16-r0                  apk                         
-libSvtAv1Enc               2.2.1-r0                 apk                         
+libSvtAv1Enc               2.3.0-r0                 apk                         
 libassuan                  2.5.7-r0                 apk                         
 libasyncns                 0.8-r4                   apk                         
 libatasmart                0.19-r4                  apk                         
@@ -153,7 +153,7 @@ libbz2                     1.0.8-r6                 apk
 libc                       0.2.149                  rust-crate                  
 libc                       0.2.152                  rust-crate                  
 libcap2                    2.73-r0                  apk                         
-libcom_err                 1.47.1-r1                apk                         
+libcom_err                 1.47.2-r0                apk                         
 libcrypto3                 3.3.2-r1                 apk                         
 libcurl                    8.11.1-r0                apk                         
 libdav1d                   1.5.0-r0                 apk                         
@@ -187,7 +187,7 @@ libjxl                     0.10.3-r0                apk
 libksba                    1.6.7-r0                 apk                         
 libldap                    2.6.8-r0                 apk                         
 libltdl                    2.4.7-r3                 apk                         
-libmagic                   5.46-r0                  apk                         
+libmagic                   5.46-r1                  apk                         
 libmd                      1.1.0-r0                 apk                         
 libmng                     2.0.3-r2                 apk                         
 libmount                   2.40.2-r4                apk                         
@@ -463,8 +463,8 @@ tiff                       4.7.0-r0                 apk
 tslib                      1.23-r0                  apk                         
 tzdata                     2024b-r1                 apk                         
 uchardet-libs              0.0.8-r2                 apk                         
-udisks2                    2.10.1-r2                apk                         
-udisks2-libs               2.10.1-r2                apk                         
+udisks2                    2.10.1-r3                apk                         
+udisks2-libs               2.10.1-r3                apk                         
 unicode-ident              1.0.12                   rust-crate                  
 unicode-width              0.1.11                   rust-crate                  
 utf8parse                  0.2.1                    rust-crate                  

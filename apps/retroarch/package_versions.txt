@@ -29,7 +29,7 @@ ffmpeg4-libavutil            4.4.5-r1                 apk
 ffmpeg4-libswresample        4.4.5-r1                 apk     
 ffmpeg4-libswscale           4.4.5-r1                 apk     
 fftw-single-libs             3.3.10-r6                apk     
-file                         5.46-r0                  apk     
+file                         5.46-r1                  apk     
 font-noto                    2024.12.01-r0            apk     
 font-noto-common             2024.12.01-r0            apk     
 font-noto-math               2024.12.01-r0            apk     
@@ -82,7 +82,7 @@ libinput-libs                1.27.0-r0                apk
 libintl                      0.22.5-r0                apk     
 libjpeg-turbo                3.0.4-r0                 apk     
 libltdl                      2.4.7-r3                 apk     
-libmagic                     5.46-r0                  apk     
+libmagic                     5.46-r1                  apk     
 libmd                        1.1.0-r0                 apk     
 libmount                     2.40.2-r4                apk     
 libncursesw                  6.5_p20241006-r3         apk     
