@@ -363,4 +363,4 @@ xserver-xorg-video-amdgpu       23.0.0-1                        deb
 xserver-xorg-video-ati          1:19.1.0-3                      deb       
 xserver-xorg-video-radeon       1:19.1.0-3                      deb       
 zlib1g                          1:1.2.13.dfsg-1                 deb       
-zoom                            6.3.1.5673                      deb       
+zoom                            6.3.5.6065                      deb       
