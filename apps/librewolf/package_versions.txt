@@ -80,7 +80,7 @@ gtk-update-icon-cache      3.24.43-r2               apk
 harfbuzz                   9.0.0-r1                 apk           
 heck                       0.4.1                    rust-crate    
 hicolor-icon-theme         0.18-r0                  apk           
-hwdata-pci                 0.390-r0                 apk           
+hwdata-pci                 0.391-r0                 apk           
 imath                      3.1.12-r0                apk           
 interpolate_name           0.2.4                    rust-crate    
 itertools                  0.10.5                   rust-crate    
@@ -117,7 +117,7 @@ libhwy                     1.0.7-r0                 apk
 libice                     1.1.2-r0                 apk           
 libidn2                    2.3.7-r0                 apk           
 libintl                    0.22.5-r0                apk           
-libjpeg-turbo              3.0.4-r0                 apk           
+libjpeg-turbo              3.1.0-r0                 apk           
 libjxl                     0.10.3-r0                apk           
 libltdl                    2.4.7-r3                 apk           
 libmagic                   5.46-r1                  apk           
@@ -193,7 +193,7 @@ mpg123-libs                1.32.10-r0               apk
 musl                       1.2.5-r9                 apk           
 musl-utils                 1.2.5-r3                 apk           
 ncurses-terminfo-base      6.5_p20241006-r3         apk           
-netcat-openbsd             1.226.1.1-r0             apk           
+netcat-openbsd             1.228-r0                 apk           
 nettle                     3.10.1-r0                apk           
 new_debug_unreachable      1.0.4                    rust-crate    
 nghttp2-libs               1.64.0-r0                apk           
