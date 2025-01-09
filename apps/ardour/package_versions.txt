@@ -82,7 +82,7 @@ graphite2                  1.3.14-r6                apk
 gst-plugins-base           1.24.10-r0               apk           
 gstreamer                  1.24.10-r0               apk           
 gstreamer-ptp-helper       1.24.10-r0               apk           
-harfbuzz                   9.0.0-r1                 apk           
+harfbuzz                   10.1.0-r0                apk           
 heck                       0.4.1                    rust-crate    
 hwdata-pci                 0.391-r0                 apk           
 imath                      3.1.12-r0                apk           

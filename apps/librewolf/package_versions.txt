@@ -77,7 +77,7 @@ gstreamer                  1.24.10-r0               apk
 gstreamer-ptp-helper       1.24.10-r0               apk           
 gtk+3.0                    3.24.43-r2               apk           
 gtk-update-icon-cache      3.24.43-r2               apk           
-harfbuzz                   9.0.0-r1                 apk           
+harfbuzz                   10.1.0-r0                apk           
 heck                       0.4.1                    rust-crate    
 hicolor-icon-theme         0.18-r0                  apk           
 hwdata-pci                 0.391-r0                 apk           

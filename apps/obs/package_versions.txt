@@ -249,7 +249,7 @@ libpostproc57                             7:6.1.1-3ubuntu5                   deb
 libproc2-0                                2:4.0.4-4ubuntu3.2                 deb     
 libproxy1v5                               0.5.4-4build1                      deb     
 libpsl5t64                                0.21.2-1.1build1                   deb     
-libpulse0                                 1:16.1+dfsg1-2ubuntu10             deb     
+libpulse0                                 1:16.1+dfsg1-2ubuntu10.1           deb     
 libpython3-stdlib                         3.12.3-0ubuntu2                    deb     
 libpython3.12-minimal                     3.12.3-1ubuntu0.3                  deb     
 libpython3.12-stdlib                      3.12.3-1ubuntu0.3                  deb     
@@ -438,8 +438,8 @@ pci.ids                                   0.0~2024.03.31-1                   deb
 perl-base                                 5.38.2-3.2build2                   deb     
 pinentry-curses                           1.2.1-3ubuntu5                     deb     
 procps                                    2:4.0.4-4ubuntu3.2                 deb     
-pulseaudio                                1:16.1+dfsg1-2ubuntu10             deb     
-pulseaudio-utils                          1:16.1+dfsg1-2ubuntu10             deb     
+pulseaudio                                1:16.1+dfsg1-2ubuntu10.1           deb     
+pulseaudio-utils                          1:16.1+dfsg1-2ubuntu10.1           deb     
 python3                                   3.12.3-0ubuntu2                    deb     
 python3-minimal                           3.12.3-0ubuntu2                    deb     
 python3.12                                3.12.3-1ubuntu0.3                  deb     

@@ -321,7 +321,7 @@ udev                            252.31-1~deb12u1                deb
 usr-is-merged                   37~deb12u1                      deb     
 util-linux                      2.38.1-5+deb12u2                deb     
 util-linux-extra                2.38.1-5+deb12u2                deb     
-vivaldi-stable                  7.0.3495.27-1                   deb     
+vivaldi-stable                  7.0.3495.29-1                   deb     
 wget                            1.21.3-1+b2                     deb     
 x11-common                      1:7.7+23                        deb     
 x11-xkb-utils                   7.7+7                           deb     
