@@ -3,9 +3,9 @@ adduser                          3.134                            deb
 adwaita-icon-theme               43-1                             deb       
 apt                              2.6.1                            deb       
 at-spi2-common                   2.46.0-5                         deb       
-avahi-daemon                     0.8-10                           deb       
-avahi-discover                   0.8-10                           deb       
-avahi-utils                      0.8-10                           deb       
+avahi-daemon                     0.8-10+deb12u1                   deb       
+avahi-discover                   0.8-10+deb12u1                   deb       
+avahi-utils                      0.8-10+deb12u1                   deb       
 base-files                       12.4+deb12u8                     deb       
 base-passwd                      3.6.1                            deb       
 bash                             5.2.15-2+b7                      deb       
@@ -54,7 +54,7 @@ glib-networking-services         2.74.0-4                         deb
 gpgv                             2.2.40-1.1                       deb       
 grep                             3.8-5                            deb       
 gsettings-desktop-schemas        43.0-1                           deb       
-gstreamer1.0-plugins-base        1.22.0-3+deb12u3                 deb       
+gstreamer1.0-plugins-base        1.22.0-3+deb12u4                 deb       
 gstreamer1.0-plugins-good        1.22.0-5+deb12u2                 deb       
 gtk-update-icon-cache            3.24.38-2~deb12u3                deb       
 gzip                             1.12-1                           deb       
@@ -84,10 +84,10 @@ libatspi2.0-0                    2.46.0-5                         deb
 libattr1                         1:2.5.1-4                        deb       
 libaudit-common                  1:3.0.9-1                        deb       
 libaudit1                        1:3.0.9-1                        deb       
-libavahi-client3                 0.8-10                           deb       
-libavahi-common-data             0.8-10                           deb       
-libavahi-common3                 0.8-10                           deb       
-libavahi-core7                   0.8-10                           deb       
+libavahi-client3                 0.8-10+deb12u1                   deb       
+libavahi-common-data             0.8-10+deb12u1                   deb       
+libavahi-common3                 0.8-10+deb12u1                   deb       
+libavahi-core7                   0.8-10+deb12u1                   deb       
 libavc1394-0                     0.5.4-5                          deb       
 libavcodec59                     7:5.1.6-0+deb12u1                deb       
 libavdevice59                    7:5.1.6-0+deb12u1                deb       
@@ -191,9 +191,9 @@ libgraphite2-3                   1.3.14-1                         deb
 libgsm1                          1.0.22-1                         deb       
 libgssapi-krb5-2                 1.20.1-2+deb12u2                 deb       
 libgssdp-1.6-0                   1.6.2-2                          deb       
-libgstreamer-gl1.0-0             1.22.0-3+deb12u3                 deb       
+libgstreamer-gl1.0-0             1.22.0-3+deb12u4                 deb       
 libgstreamer-plugins-bad1.0-0    1.22.0-4+deb12u5                 deb       
-libgstreamer-plugins-base1.0-0   1.22.0-3+deb12u3                 deb       
+libgstreamer-plugins-base1.0-0   1.22.0-3+deb12u4                 deb       
 libgstreamer1.0-0                1.22.0-2+deb12u1                 deb       
 libgtk-3-0                       3.24.38-2~deb12u3                deb       
 libgtk-3-common                  3.24.38-2~deb12u3                deb       
@@ -322,8 +322,8 @@ libsodium23                      1.0.18-1                         deb
 libsord-0-0                      0.16.14+git221008-1              deb       
 libsoup-3.0-0                    3.2.2-2                          deb       
 libsoup-3.0-common               3.2.2-2                          deb       
-libsoup2.4-1                     2.74.3-1                         deb       
-libsoup2.4-common                2.74.3-1                         deb       
+libsoup2.4-1                     2.74.3-1+deb12u1                 deb       
+libsoup2.4-common                2.74.3-1+deb12u1                 deb       
 libsoxr0                         0.1.3-4                          deb       
 libspa-0.2-modules               0.3.65-3+deb12u1                 deb       
 libspeex1                        1.2.1-2                          deb       
@@ -331,7 +331,7 @@ libspeexdsp1                     1.2.1-1                          deb
 libsphinxbase3                   0.8+5prealpha+1-16               deb       
 libsqlite3-0                     3.40.1-2+deb12u1                 deb       
 libsratom-0-0                    0.6.14-1                         deb       
-libsrt1.5-gnutls                 1.5.1-1                          deb       
+libsrt1.5-gnutls                 1.5.1-1+deb12u1                  deb       
 libss2                           1.47.0-2                         deb       
 libssh-gcrypt-4                  0.10.6-0+deb12u1                 deb       
 libssh2-1                        1.10.0-3+b1                      deb       
@@ -463,7 +463,7 @@ pulseaudio                       16.1+dfsg1-2+b1                  deb
 pulseaudio-utils                 16.1+dfsg1-2+b1                  deb       
 pygobject                        3.42.2                           python    
 python3                          3.11.2-1+b1                      deb       
-python3-avahi                    0.8-10                           deb       
+python3-avahi                    0.8-10+deb12u1                   deb       
 python3-dbus                     1.3.2-4+b1                       deb       
 python3-gdbm                     3.11.2-3                         deb       
 python3-gi                       3.42.2-3+b1                      deb       
