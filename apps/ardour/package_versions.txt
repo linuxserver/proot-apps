@@ -22,8 +22,8 @@ bash                       5.2.37-r0                apk
 bitflags                   2.4.1                    rust-crate    
 bitstream-io               2.2.0                    rust-crate    
 brotli-libs                1.1.0-r2                 apk           
-busybox                    1.37.0-r10               apk           
-busybox-binsh              1.37.0-r10               apk           
+busybox                    1.37.0-r11               apk           
+busybox-binsh              1.37.0-r11               apk           
 c-ares                     1.34.4-r0                apk           
 ca-certificates-bundle     20241121-r1              apk           
 cairo                      1.18.2-r1                apk           
@@ -275,7 +275,7 @@ speexdsp                   1.2.1-r2                 apk
 spirv-tools                1.3.290.0-r0             apk           
 sqlite-libs                3.47.2-r0                apk           
 sratom                     0.6.16-r0                apk           
-ssl_client                 1.37.0-r10               apk           
+ssl_client                 1.37.0-r11               apk           
 syn                        2.0.48                   rust-crate    
 tdb-libs                   1.4.12-r0                apk           
 terminal_size              0.3.0                    rust-crate    
