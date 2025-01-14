@@ -30,7 +30,7 @@ fontconfig-config               2.15.0-2                         deb
 fonts-noto                      20201225-2                       deb             
 fonts-noto-core                 20201225-2                       deb             
 fonts-noto-mono                 20201225-2                       deb             
-gcc-14-base                     14.2.0-12                        deb             
+gcc-14-base                     14.2.0-13                        deb             
 gpgv                            2.2.45-2                         deb             
 grep                            3.11-4                           deb             
 gzip                            1.12-1.2                         deb             
@@ -48,7 +48,7 @@ libasound2-data                 1.2.13-1                         deb
 libasound2-plugins              1.2.12-2+b1                      deb             
 libasound2t64                   1.2.13-1+b1                      deb             
 libasyncns0                     0.8-6+b5                         deb             
-libatomic1                      14.2.0-12                        deb             
+libatomic1                      14.2.0-13                        deb             
 libattr1                        1:2.5.2-2                        deb             
 libaudit-common                 1:4.0.2-2                        deb             
 libaudit1                       1:4.0.2-2                        deb             
@@ -96,7 +96,7 @@ libfontenc1                     1:1.1.8-1+b2                     deb
 libfreetype6                    2.13.3+dfsg-1                    deb             
 libfribidi0                     1.0.16-1                         deb             
 libgbm1                         24.3.3-1                         deb             
-libgcc-s1                       14.2.0-12                        deb             
+libgcc-s1                       14.2.0-13                        deb             
 libgcrypt20                     1.11.0-6                         deb             
 libgdk-pixbuf-2.0-0             2.42.12+dfsg-1+b1                deb             
 libgdk-pixbuf2.0-common         2.42.12+dfsg-1                   deb             
@@ -110,7 +110,7 @@ libglx-mesa0                    24.3.3-1                         deb
 libglx0                         1.7.0-1+b2                       deb             
 libgmp10                        2:6.3.0+dfsg-3                   deb             
 libgnutls30t64                  3.8.8-2                          deb             
-libgomp1                        14.2.0-12                        deb             
+libgomp1                        14.2.0-13                        deb             
 libgpg-error0                   1.51-2                           deb             
 libgraphite2-3                  1.3.14-2+b1                      deb             
 libgsm1                         1.0.22-1+b2                      deb             
@@ -202,13 +202,13 @@ libsqlite3-0                    3.46.1-1                         deb
 libss2                          1.47.2~rc1-2                     deb             
 libssh2-1t64                    1.11.1-1                         deb             
 libssl3t64                      3.4.0-2                          deb             
-libstdc++6                      14.2.0-12                        deb             
+libstdc++6                      14.2.0-13                        deb             
 libsvtav1enc2                   2.3.0+dfsg-1                     deb             
 libswresample5                  7:7.1-3+b1                       deb             
 libsystemd-shared               257.2-1                          deb             
 libsystemd0                     257.2-1                          deb             
 libtasn1-6                      4.19.0-3+b3                      deb             
-libtdb1                         2.10.0+samba4.21.3+dfsg-4        deb             
+libtdb1                         2:1.4.12+samba4.21.3+dfsg-5      deb             
 libthai-data                    0.1.29-2                         deb             
 libthai0                        0.1.29-2+b1                      deb             
 libtheora0                      1.1.1+dfsg.1-17                  deb             
