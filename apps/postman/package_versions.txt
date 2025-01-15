@@ -654,7 +654,7 @@ libzvbi-common                             0.2.41-1                        deb
 libzvbi0                                   0.2.41-1                        deb                      
 lie                                        3.1.1                           npm                      
 lie                                        3.3.0                           npm                      
-linux-libc-dev                             6.1.123-1                       deb                      
+linux-libc-dev                             6.1.124-1                       deb                      
 liquid-json                                0.3.1                           npm                      
 ljharb-monorepo-symlink-test               0.0.0                           npm                      
 localforage                                1.10.0                          npm                      

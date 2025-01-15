@@ -387,7 +387,7 @@ libzmq5                         4.3.4-6                         deb
 libzstd1                        1.5.4+dfsg2-5                   deb       
 libzvbi-common                  0.2.41-1                        deb       
 libzvbi0                        0.2.41-1                        deb       
-linux-libc-dev                  6.1.123-1                       deb       
+linux-libc-dev                  6.1.124-1                       deb       
 login                           1:4.13+dfsg1-1+b1               deb       
 logsave                         1.47.0-2                        deb       
 manpages                        6.03-2                          deb       
