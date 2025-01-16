@@ -3,7 +3,7 @@ adduser                         3.134                           deb
 adwaita-icon-theme              43-1                            deb     
 apt                             2.6.1                           deb     
 at-spi2-common                  2.46.0-5                        deb     
-base-files                      12.4+deb12u8                    deb     
+base-files                      12.4+deb12u9                    deb     
 base-passwd                     3.6.1                           deb     
 bash                            5.2.15-2+b7                     deb     
 bitwarden                       2025.1.0                        deb     

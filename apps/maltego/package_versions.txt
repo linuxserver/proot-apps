@@ -16,7 +16,7 @@ asm-tree                                                9.2                     
 asyncutil                                               0.1.0                                                                         java-archive                    
 at-spi2-common                                          2.46.0-5                                                                      deb                             
 automation                                              1.0-SNAPSHOT                                                                  java-archive                    
-base-files                                              12.4+deb12u8                                                                  deb                             
+base-files                                              12.4+deb12u9                                                                  deb                             
 base-passwd                                             3.6.1                                                                         deb                             
 bash                                                    5.2.15-2+b7                                                                   deb                             
 batik-anim                                              1.14                                                                          java-archive                    
@@ -63,7 +63,7 @@ bean-utils                                              1.0-SNAPSHOT            
 bookmarks-ui                                            1.0-SNAPSHOT                                                                  java-archive                    
 boot                                                    UNKNOWN                                                                       java-archive                    
 branding                                                1.0-SNAPSHOT                                                                  java-archive                    
-bsdutils                                                1:2.38.1-5+deb12u2                                                            deb                             
+bsdutils                                                1:2.38.1-5+deb12u3                                                            deb                             
 ca-certificates                                         20230311                                                                      deb                             
 ca-certificates-java                                    20230710~deb12u1                                                              deb                             
 ca-certificates-java                                    UNKNOWN                                                                       java-archive                    
@@ -268,7 +268,7 @@ libavahi-common-data                                    0.8-10+deb12u1          
 libavahi-common3                                        0.8-10+deb12u1                                                                deb                             
 libavcodec59                                            7:5.1.6-0+deb12u1                                                             deb                             
 libavutil57                                             7:5.1.6-0+deb12u1                                                             deb                             
-libblkid1                                               2.38.1-5+deb12u2                                                              deb                             
+libblkid1                                               2.38.1-5+deb12u3                                                              deb                             
 libbrotli1                                              1.0.9-2+b6                                                                    deb                             
 libbsd0                                                 0.11.7-2                                                                      deb                             
 libbz2-1.0                                              1.0.8-5+b1                                                                    deb                             
@@ -361,7 +361,7 @@ liblz4-1                                                1.9.4-1                 
 liblzma5                                                5.4.1-0.2                                                                     deb                             
 libmd0                                                  1.0.4-2                                                                       deb                             
 libmfx1                                                 22.5.4-1                                                                      deb                             
-libmount1                                               2.38.1-5+deb12u2                                                              deb                             
+libmount1                                               2.38.1-5+deb12u3                                                              deb                             
 libmp3lame0                                             3.100-6                                                                       deb                             
 libmpg123-0                                             1.31.2-1+deb12u1                                                              deb                             
 libncursesw6                                            6.4-4                                                                         deb                             
@@ -412,7 +412,7 @@ libsensors5                                             1:3.6.0-7.1             
 libsepol2                                               3.4-2.1                                                                       deb                             
 libshine3                                               3.1.1-2                                                                       deb                             
 libsm6                                                  2:1.2.3-1                                                                     deb                             
-libsmartcols1                                           2.38.1-5+deb12u2                                                              deb                             
+libsmartcols1                                           2.38.1-5+deb12u3                                                              deb                             
 libsnappy1v5                                            1.1.9-3                                                                       deb                             
 libsndfile1                                             1.2.0-1                                                                       deb                             
 libsoxr0                                                0.1.3-4                                                                       deb                             
@@ -439,7 +439,7 @@ libtwolame0                                             0.4.0-2                 
 libudev1                                                252.33-1~deb12u1                                                              deb                             
 libunistring2                                           1.0-2                                                                         deb                             
 libunwind8                                              1.6.2-3                                                                       deb                             
-libuuid1                                                2.38.1-5+deb12u2                                                              deb                             
+libuuid1                                                2.38.1-5+deb12u3                                                              deb                             
 libva-drm2                                              2.17.0-1                                                                      deb                             
 libva-x11-2                                             2.17.0-1                                                                      deb                             
 libva2                                                  2.17.0-1                                                                      deb                             
@@ -512,7 +512,7 @@ lucene-queryparser                                      5.5.5 b3441673c21c837620
 lucene-sandbox                                          5.5.5 b3441673c21c83762035dc21d3827ad16aa17b68- sarowe - 2017-10-20 08:57:52  java-archive                    
 lucene-spatial                                          5.5.5 b3441673c21c83762035dc21d3827ad16aa17b68- sarowe - 2017-10-20 08:57:53  java-archive                    
 lucene-spatial3d                                        5.5.5 b3441673c21c83762035dc21d3827ad16aa17b68- sarowe - 2017-10-20 08:57:53  java-archive                    
-maltego                                                 4.8.1                                                                         deb                             
+maltego                                                 4.9.0                                                                         deb                             
 matching                                                1.0-SNAPSHOT                                                                  java-archive                    
 mawk                                                    1.3.4.20200120-3.1                                                            deb                             
 media-types                                             10.0.0                                                                        deb                             
@@ -521,7 +521,7 @@ mesa-va-drivers                                         22.3.6-1+deb12u1        
 mesa-vulkan-drivers                                     22.3.6-1+deb12u1                                                              deb                             
 microprofile-config-api                                 2.0                                                                           java-archive                    
 modules-flamingo                                        1.0-SNAPSHOT                                                                  java-archive                    
-mount                                                   2.38.1-5+deb12u2                                                              deb                             
+mount                                                   2.38.1-5+deb12u3                                                              deb                             
 mslinks                                                 1.0.5                                                                         java-archive                    
 mtgx                                                    1.0-SNAPSHOT                                                                  java-archive                    
 nbnetauthenticator                                      1.0-SNAPSHOT                                                                  java-archive                    
@@ -775,7 +775,7 @@ truffle-api                                             20.3.0                  
 truffle-api                                             UNKNOWN                                                                       java-archive                    
 tx-inputs-global                                        1.0-SNAPSHOT                                                                  java-archive                    
 tx-inputs-global-ui                                     1.0-SNAPSHOT                                                                  java-archive                    
-tx3-java-api                                            1.1.16                                                                        java-archive                    
+tx3-java-api                                            1.1.20                                                                        java-archive                    
 txw2                                                    2.2.11                                                                        java-archive  (+1 duplicate)    
 typing                                                  1.0-SNAPSHOT                                                                  java-archive                    
 typing-descriptor                                       1.0-SNAPSHOT                                                                  java-archive                    
@@ -789,8 +789,8 @@ updater                                                 UNKNOWN                 
 updater_maltego                                         UNKNOWN                                                                       java-archive                    
 usr-is-merged                                           37~deb12u1                                                                    deb                             
 util                                                    1.0-SNAPSHOT                                                                  java-archive                    
-util-linux                                              2.38.1-5+deb12u2                                                              deb                             
-util-linux-extra                                        2.38.1-5+deb12u2                                                              deb                             
+util-linux                                              2.38.1-5+deb12u3                                                              deb                             
+util-linux-extra                                        2.38.1-5+deb12u3                                                              deb                             
 util-ui                                                 1.0-SNAPSHOT                                                                  java-archive                    
 view-ball                                               1.0-SNAPSHOT                                                                  java-archive                    
 view-customization-api                                  1.0-SNAPSHOT                                                                  java-archive                    
