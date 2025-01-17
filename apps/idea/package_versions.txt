@@ -543,14 +543,13 @@ mutability-annotations-compat          UNKNOWN                         java-arch
 ncurses-base                           6.4-4                           deb                            
 ncurses-bin                            6.4-4                           deb                            
 netcat-openbsd                         1.219-1                         deb                            
-netty-codec-protobuf                   4.2.0.Alpha4                    java-archive                   
 nexus-indexer                          3.0.4                           java-archive                   
 nexus-indexer-artifact                 1.0.1                           java-archive                   
 noarg-compiler-plugin                  2.0.21-release-482              java-archive                   
 noarg-compiler-plugin                  UNKNOWN                         java-archive                   
 objective-c                            1.0.0                           npm                            
 ocl-icd-libopencl1                     2.3.1-1                         deb                            
-openjdk                                21.0.5+8-b631.28                binary                         
+openjdk                                21.0.5+8-b631.30                binary                         
 openjdk-17-jdk                         17.0.13+11-2~deb12u1            deb                            
 openjdk-17-jdk-headless                17.0.13+11-2~deb12u1            deb                            
 openjdk-17-jre                         17.0.13+11-2~deb12u1            deb                            
