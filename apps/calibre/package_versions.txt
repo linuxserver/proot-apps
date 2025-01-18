@@ -111,7 +111,7 @@ gstreamer                  1.24.10-r0               apk
 gstreamer-ptp-helper       1.24.10-r0               apk                         
 gtk+3.0                    3.24.43-r2               apk                         
 gtk-update-icon-cache      3.24.43-r2               apk                         
-harfbuzz                   10.1.0-r0                apk                         
+harfbuzz                   10.2.0-r0                apk                         
 harfbuzz-subset            10.2.0-r0                apk                         
 heck                       0.4.1                    rust-crate                  
 hicolor-icon-theme         0.18-r0                  apk                         
@@ -290,7 +290,7 @@ musl                       1.2.5-r9                 apk
 musl-utils                 1.2.5-r9                 apk                         
 ncurses-terminfo-base      6.5_p20241006-r3         apk                         
 ndctl-libs                 80-r0                    apk                         
-netcat-openbsd             1.228-r0                 apk                         
+netcat-openbsd             1.228.1-r0               apk                         
 netifaces                  0.11.0                   python                      
 nettle                     3.10.1-r0                apk                         
 new_debug_unreachable      1.0.4                    rust-crate                  
