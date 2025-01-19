@@ -9,8 +9,8 @@ at-spi2-core               2.54.1-r0                apk
 avahi-libs                 0.8-r19                  apk     
 bash                       5.2.37-r0                apk     
 brotli-libs                1.1.0-r2                 apk     
-busybox                    1.37.0-r11               apk     
-busybox-binsh              1.37.0-r11               apk     
+busybox                    1.37.0-r13               apk     
+busybox-binsh              1.37.0-r13               apk     
 c-ares                     1.34.4-r0                apk     
 ca-certificates-bundle     20241121-r1              apk     
 cairo                      1.18.2-r1                apk     
@@ -172,7 +172,7 @@ soxr                       0.1.3-r7                 apk
 speexdsp                   1.2.1-r2                 apk     
 spirv-tools                1.4.304.0-r0             apk     
 sqlite-libs                3.48.0-r0                apk     
-ssl_client                 1.37.0-r11               apk     
+ssl_client                 1.37.0-r13               apk     
 tdb-libs                   1.4.12-r0                apk     
 tiff                       4.7.0-r0                 apk     
 wayland-libs-client        1.23.1-r0                apk     
