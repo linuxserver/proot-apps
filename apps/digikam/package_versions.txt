@@ -271,7 +271,7 @@ orc                        0.4.40-r0                apk
 p11-kit                    0.25.3-r0                apk     
 pango                      1.52.2-r0                apk     
 pcre2                      10.43-r0                 apk     
-perl                       5.38.2-r0                apk     
+perl                       5.38.3-r0                apk     
 perl-image-exiftool        12.80-r0                 apk     
 pixman                     0.43.2-r0                apk     
 pkgconf                    2.2.0-r0                 apk     
