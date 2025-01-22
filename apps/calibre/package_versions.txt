@@ -70,7 +70,7 @@ duktape-libs               2.7.0-r2                 apk
 e2fsprogs-libs             1.47.2-r0                apk                         
 either                     1.9.0                    rust-crate  (+1 duplicate)  
 errno                      0.3.8                    rust-crate                  
-espeak-ng                  1.51.1-r1                apk                         
+espeak-ng                  1.52.0-r0                apk                         
 eudev-libs                 3.2.14-r5                apk                         
 feedparser                 6.0.11                   python                      
 fern                       0.6.2                    rust-crate                  

@@ -225,8 +225,8 @@ libpsl5                             0.21.0-1.2build2                         deb
 libpulse0                           1:15.99.1+dfsg1-1ubuntu2.2               deb     
 libpulsedsp                         1:15.99.1+dfsg1-1ubuntu2.2               deb     
 libpython3-stdlib                   3.10.6-1~22.04.1                         deb     
-libpython3.10-minimal               3.10.12-1~22.04.7                        deb     
-libpython3.10-stdlib                3.10.12-1~22.04.7                        deb     
+libpython3.10-minimal               3.10.12-1~22.04.8                        deb     
+libpython3.10-stdlib                3.10.12-1~22.04.8                        deb     
 libqt5core5a                        5.15.3+dfsg-2ubuntu0.2                   deb     
 libqt5dbus5                         5.15.3+dfsg-2ubuntu0.2                   deb     
 libqt5gui5                          5.15.3+dfsg-2ubuntu0.2                   deb     
@@ -411,8 +411,8 @@ pulseaudio                          1:15.99.1+dfsg1-1ubuntu2.2               deb
 pulseaudio-utils                    1:15.99.1+dfsg1-1ubuntu2.2               deb     
 python3                             3.10.6-1~22.04.1                         deb     
 python3-minimal                     3.10.6-1~22.04.1                         deb     
-python3.10                          3.10.12-1~22.04.7                        deb     
-python3.10-minimal                  3.10.12-1~22.04.7                        deb     
+python3.10                          3.10.12-1~22.04.8                        deb     
+python3.10-minimal                  3.10.12-1~22.04.8                        deb     
 qml-module-qt-labs-folderlistmodel  5.15.3+dfsg-1                            deb     
 qml-module-qt-labs-platform         5.15.3+dfsg-1                            deb     
 qml-module-qt-labs-settings         5.15.3+dfsg-1                            deb     
