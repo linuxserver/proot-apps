@@ -13,6 +13,7 @@ RUN \
     dbus-x11 \
     font-noto \
     mesa-dri-gallium \
+    mesa-gles \
     mesa-va-gallium \
     mesa-vulkan-ati \
     mesa-vulkan-layers \
