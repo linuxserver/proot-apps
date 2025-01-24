@@ -216,7 +216,7 @@ libtinfo6                       6.5-2+b1                         deb
 libtwolame0                     0.4.0-2+b2                       deb             
 libudev1                        257.2-2                          deb             
 libunistring5                   1.3-1                            deb             
-libunwind8                      1.7.2-1                          deb             
+libunwind8                      1.8.1-0.1                        deb             
 libuuid1                        2.40.3-1                         deb             
 libva-drm2                      2.22.0-1+b1                      deb             
 libva-x11-2                     2.22.0-1+b1                      deb             
@@ -299,7 +299,7 @@ python3.13                      3.13.1-3                         deb
 python3.13-minimal              3.13.1-3                         deb             
 readline-common                 8.2-6                            deb             
 sed                             4.9-2                            deb             
-shared-mime-info                2.4-5+b1                         deb             
+shared-mime-info                2.4-5+b2                         deb             
 slf4j-api                       2.0.16                           java-archive    
 slf4j-simple                    2.0.16                           java-archive    
 sqv                             1.2.1-5                          deb             
