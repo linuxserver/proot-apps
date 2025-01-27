@@ -87,7 +87,7 @@ font-noto-common           2024.12.01-r0            apk
 font-noto-math             2024.12.01-r0            apk                         
 font-noto-symbols          2024.12.01-r0            apk                         
 fontconfig                 2.15.0-r1                apk                         
-fonttools                  4.55.3                   python                      
+fonttools                  4.55.6                   python                      
 freetype                   2.13.3-r0                apk                         
 fribidi                    1.0.16-r0                apk                         
 gdbm                       1.24-r0                  apk                         
@@ -106,11 +106,11 @@ gpgme                      1.24.1-r0                apk
 gpgsm                      2.4.7-r0                 apk                         
 graphene                   1.10.8-r5                apk                         
 graphite2                  1.3.14-r6                apk                         
-gst-plugins-base           1.24.10-r0               apk                         
-gstreamer                  1.24.10-r0               apk                         
-gstreamer-ptp-helper       1.24.10-r0               apk                         
-gtk+3.0                    3.24.43-r2               apk                         
-gtk-update-icon-cache      3.24.43-r2               apk                         
+gst-plugins-base           1.24.11-r0               apk                         
+gstreamer                  1.24.11-r0               apk                         
+gstreamer-ptp-helper       1.24.11-r0               apk                         
+gtk+3.0                    3.24.48-r0               apk                         
+gtk-update-icon-cache      3.24.48-r0               apk                         
 harfbuzz                   10.2.0-r0                apk                         
 harfbuzz-subset            10.2.0-r0                apk                         
 heck                       0.4.1                    rust-crate                  
@@ -353,8 +353,8 @@ py3-dnspython              2.7.0-r0                 apk
 py3-dnspython-pyc          2.7.0-r0                 apk                         
 py3-feedparser             6.0.11-r2                apk                         
 py3-feedparser-pyc         6.0.11-r2                apk                         
-py3-fonttools              4.55.3-r0                apk                         
-py3-fonttools-pyc          4.55.3-r0                apk                         
+py3-fonttools              4.55.6-r0                apk                         
+py3-fonttools-pyc          4.55.6-r0                apk                         
 py3-html2text              2024.2.26-r1             apk                         
 py3-html2text-pyc          2024.2.26-r1             apk                         
 py3-html5-parser           0.4.12-r1                apk                         

@@ -48,7 +48,7 @@ ca-certificates                         20230311                        deb
 chownr                                  2.0.0                           npm                    
 chrome-remote-interface                 0.33.0                          npm                    
 clojure                                 1.0.0                           npm                    
-codium                                  1.96.4.25017                    deb                    
+codium                                  1.96.4.25026                    deb                    
 coffeescript                            1.0.0                           npm                    
 commander                               2.11.0                          npm                    
 configuration-editing                   1.0.0                           npm                    
@@ -104,9 +104,9 @@ fsharp                                  1.0.0                           npm
 gcc-12-base                             12.2.0-14                       deb                    
 get-system-fonts                        2.0.2                           npm                    
 git                                     1.0.0                           npm                    
-git                                     1:2.39.5-0+deb12u1              deb                    
+git                                     1:2.39.5-0+deb12u2              deb                    
 git-base                                1.0.0                           npm                    
-git-man                                 1:2.39.5-0+deb12u1              deb                    
+git-man                                 1:2.39.5-0+deb12u2              deb                    
 github                                  0.0.1                           npm                    
 github-authentication                   0.0.2                           npm                    
 github-from-package                     0.0.0                           npm                    

@@ -121,8 +121,8 @@ fonts-dejavu-core                                                       2.37-6  
 fonts-noto                                                              20201225-1                      deb                           
 fonts-noto-core                                                         20201225-1                      deb                           
 gcc-12-base                                                             12.2.0-14                       deb                           
-git                                                                     1:2.39.5-0+deb12u1              deb                           
-git-man                                                                 1:2.39.5-0+deb12u1              deb                           
+git                                                                     1:2.39.5-0+deb12u2              deb                           
+git-man                                                                 1:2.39.5-0+deb12u2              deb                           
 gpgv                                                                    2.2.40-1.1                      deb                           
 grep                                                                    3.8-5                           deb                           
 gson                                                                    2.10.1                          java-archive                  

@@ -54,8 +54,8 @@ gst-plugins-base           1.24.11-r0               apk
 gst-plugins-good           1.24.11-r0               apk       
 gstreamer                  1.24.11-r0               apk       
 gstreamer-ptp-helper       1.24.11-r0               apk       
-gtk+3.0                    3.24.43-r2               apk       
-gtk-update-icon-cache      3.24.43-r2               apk       
+gtk+3.0                    3.24.48-r0               apk       
+gtk-update-icon-cache      3.24.48-r0               apk       
 h11                        0.14.0                   python    
 harfbuzz                   9.0.0-r1                 apk       
 hicolor-icon-theme         0.18-r0                  apk       

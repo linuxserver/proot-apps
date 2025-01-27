@@ -69,8 +69,8 @@ gst-plugins-bad            1.24.11-r0               apk
 gst-plugins-base           1.24.11-r0               apk       
 gstreamer                  1.24.11-r0               apk       
 gstreamer-ptp-helper       1.24.11-r0               apk       
-gtk+3.0                    3.24.43-r2               apk       
-gtk-update-icon-cache      3.24.43-r2               apk       
+gtk+3.0                    3.24.48-r0               apk       
+gtk-update-icon-cache      3.24.48-r0               apk       
 harfbuzz                   9.0.0-r1                 apk       
 harfbuzz-icu               9.0.0-r1                 apk       
 hdf5                       1.14.4.2-r1              apk       
