@@ -244,7 +244,7 @@ libopencv-objdetect406              4.6.0+dfsg-12                     deb
 libopencv-video406                  4.6.0+dfsg-12                     deb     
 libopenexr-3-1-30                   3.1.5-5                           deb     
 libopengl0                          1.6.0-1                           deb     
-libopenjp2-7                        2.5.0-2                           deb     
+libopenjp2-7                        2.5.0-2+deb12u1                   deb     
 libopenmpt0                         0.6.9-1                           deb     
 libopus0                            1.3.1-3                           deb     
 liborc-0.4-0                        1:0.4.33-2                        deb     

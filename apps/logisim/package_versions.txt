@@ -64,7 +64,7 @@ libcairo2                       1.18.2-2                         deb
 libcap-ng0                      0.8.5-4                          deb             
 libcap2                         1:2.66-5+b1                      deb             
 libcap2-bin                     1:2.66-5+b1                      deb             
-libcodec2-1.2                   1.2.0-2+b2                       deb             
+libcodec2-1.2                   1.2.0-3                          deb             
 libcom-err2                     1.47.2-1                         deb             
 libcrypt1                       1:4.4.36-5                       deb             
 libcurl3t64-gnutls              8.11.1-1+b1                      deb             
@@ -121,7 +121,7 @@ libhwy1t64                      1.2.0-2+b2                       deb
 libice6                         2:1.1.1-1                        deb             
 libicu72                        72.1-6                           deb             
 libidn2-0                       2.3.7-2+b1                       deb             
-libimath-3-1-29t64              3.1.12-1+b2                      deb             
+libimath-3-1-29t64              3.1.12-1+b3                      deb             
 libjack-jackd2-0                1.9.22~dfsg-4                    deb             
 libjbig0                        2.1-6.1+b2                       deb             
 libjpeg62-turbo                 1:2.1.5-3+b1                     deb             
