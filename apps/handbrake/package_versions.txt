@@ -31,7 +31,7 @@ fonts-noto-core                 20201225-2                       deb
 fonts-noto-mono                 20201225-2                       deb     
 gcc-14-base                     14.2.0-15                        deb     
 grep                            3.11-4                           deb     
-gstreamer1.0-gl                 1.24.11-2                        deb     
+gstreamer1.0-gl                 1.24.11-3                        deb     
 gtk-update-icon-cache           4.16.12+ds-1                     deb     
 gzip                            1.12-1.2                         deb     
 handbrake                       1.9.0+ds1-2                      deb     
@@ -140,8 +140,8 @@ libgraphene-1.0-0               1.10.8-5                         deb
 libgraphite2-3                  1.3.14-2+b1                      deb     
 libgsm1                         1.0.22-1+b2                      deb     
 libgssapi-krb5-2                1.21.3-4                         deb     
-libgstreamer-gl1.0-0            1.24.11-2                        deb     
-libgstreamer-plugins-base1.0-0  1.24.11-2                        deb     
+libgstreamer-gl1.0-0            1.24.11-3                        deb     
+libgstreamer-plugins-base1.0-0  1.24.11-3                        deb     
 libgstreamer1.0-0               1.24.11-2                        deb     
 libgtk-4-1                      4.16.12+ds-1                     deb     
 libgtk-4-bin                    4.16.12+ds-1                     deb     
@@ -171,7 +171,7 @@ liblcms2-2                      2.16-2                           deb
 libldap2                        2.6.9+dfsg-1                     deb     
 liblerc4                        4.0.0+ds-5                       deb     
 liblilv-0-0                     0.24.24-2+b1                     deb     
-libllvm19                       1:19.1.7-1                       deb     
+libllvm19                       1:19.1.7-1+b1                    deb     
 liblocale-gettext-perl          1.07-7+b1                        deb     
 libltdl7                        2.5.4-2                          deb     
 liblz4-1                        1.9.4-4                          deb     

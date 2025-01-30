@@ -109,7 +109,7 @@ libldac                    2.0.2.3-r1               apk
 libltdl                    2.4.7-r3                 apk     
 libmagic                   5.46-r2                  apk     
 libmd                      1.1.0-r0                 apk     
-libmm-glib                 1.22.0-r1                apk     
+libmm-glib                 1.22.0-r2                apk     
 libmodplug                 0.8.9.0-r3               apk     
 libmount                   2.40.4-r0                apk     
 libncursesw                6.5_p20241006-r3         apk     
