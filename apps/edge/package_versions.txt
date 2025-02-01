@@ -31,9 +31,9 @@ fonts-liberation                1:2.1.5-3                        deb
 fonts-noto                      20201225-2                       deb     
 fonts-noto-core                 20201225-2                       deb     
 fonts-noto-mono                 20201225-2                       deb     
-gcc-14-base                     14.2.0-15                        deb     
+gcc-14-base                     14.2.0-16                        deb     
 grep                            3.11-4                           deb     
-gtk-update-icon-cache           4.16.12+ds-1                     deb     
+gtk-update-icon-cache           4.16.12+ds-3                     deb     
 gzip                            1.12-1.2                         deb     
 hicolor-icon-theme              0.18-2                           deb     
 hostname                        3.25                             deb     
@@ -51,7 +51,7 @@ libasound2t64                   1.2.13-1+b1                      deb
 libasyncns0                     0.8-6+b5                         deb     
 libatk-bridge2.0-0t64           2.55.0.1-1                       deb     
 libatk1.0-0t64                  2.55.0.1-1                       deb     
-libatomic1                      14.2.0-15                        deb     
+libatomic1                      14.2.0-16                        deb     
 libatspi2.0-0t64                2.55.0.1-1                       deb     
 libattr1                        1:2.5.2-2                        deb     
 libaudit-common                 1:4.0.2-2                        deb     
@@ -106,7 +106,7 @@ libfontenc1                     1:1.1.8-1+b2                     deb
 libfreetype6                    2.13.3+dfsg-1                    deb     
 libfribidi0                     1.0.16-1                         deb     
 libgbm1                         24.3.4-2                         deb     
-libgcc-s1                       14.2.0-15                        deb     
+libgcc-s1                       14.2.0-16                        deb     
 libgcrypt20                     1.11.0-7                         deb     
 libgdk-pixbuf-2.0-0             2.42.12+dfsg-2                   deb     
 libgdk-pixbuf2.0-common         2.42.12+dfsg-2                   deb     
@@ -120,13 +120,13 @@ libglx-mesa0                    24.3.4-2                         deb
 libglx0                         1.7.0-1+b2                       deb     
 libgmp10                        2:6.3.0+dfsg-3                   deb     
 libgnutls30t64                  3.8.8-2                          deb     
-libgomp1                        14.2.0-15                        deb     
+libgomp1                        14.2.0-16                        deb     
 libgpg-error0                   1.51-3                           deb     
 libgraphite2-3                  1.3.14-2+b1                      deb     
 libgsm1                         1.0.22-1+b2                      deb     
 libgssapi-krb5-2                1.21.3-4                         deb     
-libgstreamer-plugins-base1.0-0  1.24.11-3                        deb     
-libgstreamer1.0-0               1.24.11-2                        deb     
+libgstreamer-plugins-base1.0-0  1.24.12-1                        deb     
+libgstreamer1.0-0               1.24.12-1                        deb     
 libgtk-3-0t64                   3.24.48-4                        deb     
 libgtk-3-common                 3.24.48-4                        deb     
 libharfbuzz0b                   10.2.0-1                         deb     
@@ -217,7 +217,7 @@ libsqlite3-0                    3.46.1-1                         deb
 libss2                          1.47.2-1                         deb     
 libssh2-1t64                    1.11.1-1                         deb     
 libssl3t64                      3.4.0-2                          deb     
-libstdc++6                      14.2.0-15                        deb     
+libstdc++6                      14.2.0-16                        deb     
 libsvtav1enc2                   2.3.0+dfsg-1                     deb     
 libswresample5                  7:7.1-3+b2                       deb     
 libsystemd-shared               257.2-3                          deb     
