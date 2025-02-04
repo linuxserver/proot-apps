@@ -182,7 +182,7 @@ jetty-session                                                           12.0.15 
 jetty-util                                                              12.0.15                         java-archive                  
 joni                                                                    2.2.1                           java-archive                  
 jre                                                                     1.3.4.202210170008              java-archive                  
-jrt-fs                                                                  17.0.13                         java-archive                  
+jrt-fs                                                                  17.0.14                         java-archive                  
 jrt-fs                                                                  21.0.5                          java-archive                  
 jsch                                                                    0.1.55                          java-archive                  
 jsoup                                                                   1.14.2                          java-archive                  
@@ -509,10 +509,10 @@ ncurses-bin                                                             6.4-4   
 netcat-openbsd                                                          1.219-1                         deb                           
 ocl-icd-libopencl1                                                      2.3.1-1                         deb                           
 openjdk                                                                 21.0.5                          binary                        
-openjdk-17-jdk                                                          17.0.13+11-2~deb12u1            deb                           
-openjdk-17-jdk-headless                                                 17.0.13+11-2~deb12u1            deb                           
-openjdk-17-jre                                                          17.0.13+11-2~deb12u1            deb                           
-openjdk-17-jre-headless                                                 17.0.13+11-2~deb12u1            deb                           
+openjdk-17-jdk                                                          17.0.14+7-1~deb12u1             deb                           
+openjdk-17-jdk-headless                                                 17.0.14+7-1~deb12u1             deb                           
+openjdk-17-jre                                                          17.0.14+7-1~deb12u1             deb                           
+openjdk-17-jre-headless                                                 17.0.14+7-1~deb12u1             deb                           
 openssh-client                                                          1:9.2p1-2+deb12u4               deb                           
 openssl                                                                 3.0.15-1~deb12u1                deb                           
 opentest4j                                                              1.3.0                           java-archive                  

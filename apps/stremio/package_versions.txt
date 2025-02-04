@@ -143,7 +143,7 @@ libgssapi-krb5-2                    1.19.2-2ubuntu0.4                        deb
 libgstreamer-plugins-base1.0-0      1.20.1-1ubuntu0.4                        deb     
 libgstreamer1.0-0                   1.20.3-0ubuntu1.1                        deb     
 libgudev-1.0-0                      1:237-2build1                            deb     
-libharfbuzz0b                       2.7.4-1ubuntu3.1                         deb     
+libharfbuzz0b                       2.7.4-1ubuntu3.2                         deb     
 libhogweed6                         3.7.3-1build2                            deb     
 libice6                             2:1.0.10-1build2                         deb     
 libicu70                            70.1-2                                   deb     
