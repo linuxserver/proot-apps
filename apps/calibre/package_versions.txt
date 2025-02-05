@@ -20,7 +20,7 @@ av-metrics                 0.9.1                    rust-crate
 av1-grain                  0.2.3                    rust-crate                  
 avahi-libs                 0.8-r19                  apk                         
 bash                       5.2.37-r0                apk                         
-beautifulsoup4             4.13.1                   python                      
+beautifulsoup4             4.13.2                   python                      
 bitflags                   2.4.1                    rust-crate  (+1 duplicate)  
 bitstream-io               2.2.0                    rust-crate                  
 bluez-libs                 5.79-r0                  apk                         
@@ -339,8 +339,8 @@ pulseaudio                 17.0-r4                  apk
 pulseaudio-alsa            17.0-r4                  apk                         
 py3-apsw                   3.47.2.0-r0              apk                         
 py3-apsw-pyc               3.47.2.0-r0              apk                         
-py3-beautifulsoup4         4.13.1-r0                apk                         
-py3-beautifulsoup4-pyc     4.13.1-r0                apk                         
+py3-beautifulsoup4         4.13.2-r0                apk                         
+py3-beautifulsoup4-pyc     4.13.2-r0                apk                         
 py3-chardet                5.2.0-r1                 apk                         
 py3-chardet-pyc            5.2.0-r1                 apk                         
 py3-css-parser             1.0.10-r1                apk                         
