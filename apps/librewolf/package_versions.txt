@@ -43,7 +43,7 @@ crossbeam-epoch            0.9.18                   rust-crate
 crossbeam-queue            0.3.11                   rust-crate    
 crossbeam-utils            0.8.19                   rust-crate    
 cups-libs                  2.4.11-r0                apk           
-curl                       8.11.1-r1                apk           
+curl                       8.12.0-r0                apk           
 dbus                       1.16.0-r0                apk           
 dbus-daemon-launch-helper  1.16.0-r0                apk           
 dbus-libs                  1.16.0-r0                apk           
@@ -57,10 +57,10 @@ ffmpeg-libavutil           6.1.2-r1                 apk
 ffmpeg-libswresample       6.1.2-r1                 apk           
 fftw-single-libs           3.3.10-r6                apk           
 file                       5.46-r1                  apk           
-font-noto                  2024.12.01-r0            apk           
-font-noto-common           2024.12.01-r0            apk           
-font-noto-math             2024.12.01-r0            apk           
-font-noto-symbols          2024.12.01-r0            apk           
+font-noto                  2025.02.01-r0            apk           
+font-noto-common           2025.02.01-r0            apk           
+font-noto-math             2025.02.01-r0            apk           
+font-noto-symbols          2025.02.01-r0            apk           
 fontconfig                 2.15.0-r1                apk           
 freetype                   2.13.3-r0                apk           
 fribidi                    1.0.16-r0                apk           
@@ -101,7 +101,7 @@ libbz2                     1.0.8-r6                 apk
 libc                       0.2.152                  rust-crate    
 libcap2                    2.73-r0                  apk           
 libcrypto3                 3.3.2-r4                 apk           
-libcurl                    8.11.1-r1                apk           
+libcurl                    8.12.0-r0                apk           
 libdav1d                   1.5.0-r0                 apk           
 libdeflate                 1.23-r0                  apk           
 libdrm                     2.4.124-r0               apk           
