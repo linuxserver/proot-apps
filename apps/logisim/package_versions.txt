@@ -250,7 +250,7 @@ libxcb-shm0                     1.17.0-2+b1                      deb
 libxcb-sync1                    1.17.0-2+b1                      deb             
 libxcb-xfixes0                  1.17.0-2+b1                      deb             
 libxcb1                         1.17.0-2+b1                      deb             
-libxcvt0                        0.1.2-1+b2                       deb             
+libxcvt0                        0.1.3-1                          deb             
 libxdmcp6                       1:1.1.5-1                        deb             
 libxext6                        2:1.3.4-1+b3                     deb             
 libxfixes3                      1:6.0.0-2+b4                     deb             
@@ -278,7 +278,7 @@ logisim-evolution               3.9.0                            deb
 logisim-evolution               3.9.0-all                        java-archive    
 logsave                         1.47.2-1                         deb             
 mawk                            1.3.4.20240905-1                 deb             
-media-types                     10.1.0                           deb             
+media-types                     11.0.0                           deb             
 mesa-libgallium                 24.3.4-3                         deb             
 mesa-va-drivers                 24.3.4-3                         deb             
 mesa-vulkan-drivers             24.3.4-3                         deb             

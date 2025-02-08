@@ -23,7 +23,7 @@ ca-certificates-bundle     20241121-r1              apk
 cairo                      1.18.2-r1                apk     
 cdparanoia-libs            10.2-r14                 apk     
 cjson                      1.7.18-r0                apk     
-curl                       8.11.1-r0                apk     
+curl                       8.12.0-r0                apk     
 dbus                       1.14.10-r4               apk     
 dbus-daemon-launch-helper  1.14.10-r4               apk     
 dbus-libs                  1.14.10-r4               apk     
@@ -78,7 +78,7 @@ libbsd                     0.12.2-r0                apk
 libbz2                     1.0.8-r6                 apk     
 libcap2                    2.71-r0                  apk     
 libcrypto3                 3.3.2-r4                 apk     
-libcurl                    8.11.1-r0                apk     
+libcurl                    8.12.0-r0                apk     
 libdav1d                   1.5.0-r0                 apk     
 libde265                   1.0.15-r0                apk     
 libdeflate                 1.22-r0                  apk     
@@ -228,7 +228,7 @@ sord-libs                  0.16.16-r0               apk
 soxr                       0.1.3-r7                 apk     
 speexdsp                   1.2.1-r2                 apk     
 spirv-tools                1.3.290.0-r0             apk     
-sqlite-libs                3.47.1-r0                apk     
+sqlite-libs                3.48.0-r0                apk     
 sratom                     0.6.16-r0                apk     
 ssl_client                 1.37.0-r9                apk     
 tdb-libs                   1.4.12-r0                apk     
