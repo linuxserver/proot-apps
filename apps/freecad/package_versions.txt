@@ -456,7 +456,7 @@ libzipios++0v5                      0.1.5.9+cvs.2007.04.28-11       deb
 libzstd1                            1.5.4+dfsg2-5                   deb       
 libzvbi-common                      0.2.41-1                        deb       
 libzvbi0                            0.2.41-1                        deb       
-linux-libc-dev                      6.1.124-1                       deb       
+linux-libc-dev                      6.1.128-1                       deb       
 login                               1:4.13+dfsg1-1+b1               deb       
 logsave                             1.47.0-2                        deb       
 lxml                                4.9.2                           python    

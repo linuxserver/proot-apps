@@ -21,8 +21,8 @@ bash                       5.2.37-r0                apk
 bitflags                   2.4.1                    rust-crate    
 bitstream-io               2.2.0                    rust-crate    
 brotli-libs                1.1.0-r2                 apk           
-busybox                    1.37.0-r13               apk           
-busybox-binsh              1.37.0-r13               apk           
+busybox                    1.37.0-r14               apk           
+busybox-binsh              1.37.0-r14               apk           
 c-ares                     1.34.4-r0                apk           
 ca-certificates-bundle     20241121-r1              apk           
 cairo                      1.18.2-r1                apk           
@@ -230,10 +230,10 @@ profiling                  1.0.13                   rust-crate
 profiling-procmacros       1.0.13                   rust-crate    
 pulseaudio                 17.0-r4                  apk           
 pulseaudio-alsa            17.0-r4                  apk           
-pyc                        3.12.8-r1                apk           
-python3                    3.12.8-r1                apk           
-python3-pyc                3.12.8-r1                apk           
-python3-pycache-pyc0       3.12.8-r1                apk           
+pyc                        3.12.9-r0                apk           
+python3                    3.12.9-r0                apk           
+python3-pyc                3.12.9-r0                apk           
+python3-pycache-pyc0       3.12.9-r0                apk           
 quote                      1.0.35                   rust-crate    
 rand                       0.8.5                    rust-crate    
 rand_chacha                0.3.1                    rust-crate    
@@ -253,8 +253,8 @@ simd_helpers               0.1.0                    rust-crate
 soxr                       0.1.3-r7                 apk           
 speexdsp                   1.2.1-r2                 apk           
 spirv-tools                1.4.304.0-r0             apk           
-sqlite-libs                3.48.0-r1                apk           
-ssl_client                 1.37.0-r13               apk           
+sqlite-libs                3.49.0-r1                apk           
+ssl_client                 1.37.0-r14               apk           
 syn                        2.0.48                   rust-crate    
 tdb-libs                   1.4.12-r0                apk           
 terminal_size              0.3.0                    rust-crate    
