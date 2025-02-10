@@ -9,7 +9,7 @@ anstyle                    1.0.4                    rust-crate
 anstyle-parse              0.2.3                    rust-crate    
 anstyle-query              1.0.2                    rust-crate    
 anyhow                     1.0.79                   rust-crate    
-aom-libs                   3.11.0-r0                apk           
+aom-libs                   3.11.0-r1                apk           
 apk-tools                  2.14.7-r0                apk           
 arg_enum_proc_macro        0.3.4                    rust-crate    
 arrayvec                   0.7.4                    rust-crate    
@@ -131,7 +131,7 @@ libpciaccess               0.18.1-r0                apk
 libpng                     1.6.45-r0                apk           
 libpsl                     0.21.5-r3                apk           
 libpulse                   17.0-r4                  apk           
-librewolf                  134.0.1_p1-r0            apk           
+librewolf                  134.0.2_p1-r0            apk           
 libsharpyuv                1.5.0-r0                 apk           
 libsm                      1.2.5-r0                 apk           
 libsndfile                 1.2.2-r2                 apk           

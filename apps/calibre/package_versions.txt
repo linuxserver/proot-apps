@@ -10,7 +10,7 @@ anstyle                    1.0.4                    rust-crate
 anstyle-parse              0.2.3                    rust-crate                  
 anstyle-query              1.0.2                    rust-crate                  
 anyhow                     1.0.79                   rust-crate                  
-aom-libs                   3.11.0-r0                apk                         
+aom-libs                   3.11.0-r1                apk                         
 apk-tools                  2.14.7-r0                apk                         
 apsw                       3.47.2.0                 python                      
 arg_enum_proc_macro        0.3.4                    rust-crate                  
