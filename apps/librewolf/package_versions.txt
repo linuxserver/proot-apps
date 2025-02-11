@@ -16,7 +16,7 @@ arrayvec                   0.7.4                    rust-crate
 at-spi2-core               2.54.1-r0                apk           
 av-metrics                 0.9.1                    rust-crate    
 av1-grain                  0.2.3                    rust-crate    
-avahi-libs                 0.8-r19                  apk           
+avahi-libs                 0.8-r20                  apk           
 bash                       5.2.37-r0                apk           
 bitflags                   2.4.1                    rust-crate    
 bitstream-io               2.2.0                    rust-crate    
@@ -69,7 +69,7 @@ gdk-pixbuf                 2.42.12-r1               apk
 getrandom                  0.2.12                   rust-crate    
 giflib                     5.2.2-r0                 apk           
 glib                       2.82.4-r0                apk           
-gmp                        6.3.0-r2                 apk           
+gmp                        6.3.0-r3                 apk           
 gnutls                     3.8.8-r0                 apk           
 graphene                   1.10.8-r5                apk           
 graphite2                  1.3.14-r6                apk           
@@ -102,7 +102,7 @@ libc                       0.2.152                  rust-crate
 libcap2                    2.73-r0                  apk           
 libcrypto3                 3.3.2-r4                 apk           
 libcurl                    8.12.0-r0                apk           
-libdav1d                   1.5.0-r0                 apk           
+libdav1d                   1.5.1-r0                 apk           
 libdeflate                 1.23-r0                  apk           
 libdrm                     2.4.124-r0               apk           
 libeconf                   0.6.3-r0                 apk           
