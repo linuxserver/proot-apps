@@ -262,7 +262,7 @@ libzmq                     4.3.5-r2                 apk
 linux-raw-sys              0.4.12                   rust-crate                  
 llvm19-libs                19.1.7-r0                apk                         
 log                        0.4.20                   rust-crate                  
-lxml                       5.3.0                    python                      
+lxml                       5.3.1                    python                      
 markdown                   3.7                      python                      
 maybe-rayon                0.1.1                    rust-crate                  
 mbedtls                    3.6.2-r0                 apk                         
@@ -365,8 +365,8 @@ py3-ifaddr                 0.2.0-r4                 apk
 py3-ifaddr-pyc             0.2.0-r4                 apk                         
 py3-jeepney                0.8.0-r4                 apk                         
 py3-jeepney-pyc            0.8.0-r4                 apk                         
-py3-lxml                   5.3.0-r0                 apk                         
-py3-lxml-pyc               5.3.0-r0                 apk                         
+py3-lxml                   5.3.1-r0                 apk                         
+py3-lxml-pyc               5.3.1-r0                 apk                         
 py3-markdown               3.7-r0                   apk                         
 py3-markdown-pyc           3.7-r0                   apk                         
 py3-mechanize              0.4.10-r0                apk                         
