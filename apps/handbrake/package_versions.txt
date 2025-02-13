@@ -1,6 +1,6 @@
 NAME                            VERSION                          TYPE   
 adduser                         3.137                            deb     
-adwaita-icon-theme              48~beta-2                        deb     
+adwaita-icon-theme              48~beta-3                        deb     
 apt                             2.9.26                           deb     
 base-files                      13.6                             deb     
 base-passwd                     3.6.6                            deb     
@@ -32,7 +32,7 @@ fonts-noto-mono                 20201225-2                       deb
 gcc-14-base                     14.2.0-16                        deb     
 grep                            3.11-4                           deb     
 gstreamer1.0-gl                 1.24.12-1                        deb     
-gtk-update-icon-cache           4.16.12+ds-3                     deb     
+gtk-update-icon-cache           4.17.4+ds-3                      deb     
 gzip                            1.13-1                           deb     
 handbrake                       1.9.0+ds1-2                      deb     
 hicolor-icon-theme              0.18-2                           deb     
@@ -144,10 +144,10 @@ libgssapi-krb5-2                1.21.3-4                         deb
 libgstreamer-gl1.0-0            1.24.12-1                        deb     
 libgstreamer-plugins-base1.0-0  1.24.12-1                        deb     
 libgstreamer1.0-0               1.24.12-1                        deb     
-libgtk-4-1                      4.16.12+ds-3                     deb     
-libgtk-4-bin                    4.16.12+ds-3                     deb     
-libgtk-4-common                 4.16.12+ds-3                     deb     
-libgtk-4-media-gstreamer        4.16.12+ds-3                     deb     
+libgtk-4-1                      4.17.4+ds-3                      deb     
+libgtk-4-bin                    4.17.4+ds-3                      deb     
+libgtk-4-common                 4.17.4+ds-3                      deb     
+libgtk-4-media-gstreamer        4.17.4+ds-3                      deb     
 libgudev-1.0-0                  238-6                            deb     
 libharfbuzz-subset0             10.2.0-1                         deb     
 libharfbuzz0b                   10.2.0-1                         deb     
@@ -225,8 +225,8 @@ librabbitmq4                    0.15.0-1                         deb
 librav1e0.7                     0.7.1-9                          deb     
 libreadline8t64                 8.2-6                            deb     
 librist4                        0.2.11+dfsg-1                    deb     
-librsvg2-2                      2.59.2+dfsg-1                    deb     
-librsvg2-common                 2.59.2+dfsg-1                    deb     
+librsvg2-2                      2.59.90+dfsg-2                   deb     
+librsvg2-common                 2.59.90+dfsg-2                   deb     
 librtmp1                        2.4+20151223.gitfa8646d.1-2+b5   deb     
 librubberband2                  3.3.0+dfsg-2+b3                  deb     
 libsamplerate0                  0.2.2-4+b2                       deb     

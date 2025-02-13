@@ -157,7 +157,7 @@ jitsi-utils                            1.0-112-gd92472a                java-arch
 jnaerator-runtime                      UNKNOWN                         java-archive                   
 jps-builders                           UNKNOWN                         java-archive                   
 jrt-fs                                 17.0.14                         java-archive                   
-jrt-fs                                 21.0.5                          java-archive                   
+jrt-fs                                 21.0.6                          java-archive                   
 js-plain-objects-compiler-plugin       UNKNOWN                         java-archive                   
 json                                   1.0.0                           npm                            
 jsr305                                 3.0.2                           java-archive                   
@@ -549,7 +549,7 @@ noarg-compiler-plugin                  2.0.21-release-482              java-arch
 noarg-compiler-plugin                  UNKNOWN                         java-archive                   
 objective-c                            1.0.0                           npm                            
 ocl-icd-libopencl1                     2.3.1-1                         deb                            
-openjdk                                21.0.5+8-b631.30                binary                         
+openjdk                                21.0.6+8-b631.39                binary                         
 openjdk-17-jdk                         17.0.14+7-1~deb12u1             deb                            
 openjdk-17-jdk-headless                17.0.14+7-1~deb12u1             deb                            
 openjdk-17-jre                         17.0.14+7-1~deb12u1             deb                            
