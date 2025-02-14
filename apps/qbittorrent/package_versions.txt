@@ -180,7 +180,7 @@ ssl_client                 1.37.0-r9                apk
 tdb-libs                   1.4.12-r0                apk     
 tiff                       4.7.0-r0                 apk     
 tslib                      1.23-r0                  apk     
-tzdata                     2024b-r1                 apk     
+tzdata                     2025a-r0                 apk     
 wayland-libs-client        1.23.1-r0                apk     
 wayland-libs-cursor        1.23.1-r0                apk     
 wayland-libs-egl           1.23.1-r0                apk     
