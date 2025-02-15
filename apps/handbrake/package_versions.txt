@@ -366,7 +366,7 @@ passwd                          1:4.16.0-7                       deb
 perl-base                       5.40.0-8                         deb     
 pocketsphinx-en-us              0.8+5prealpha+1-15               deb     
 procps                          2:4.0.4-7                        deb     
-psmisc                          23.7-1                           deb     
+psmisc                          23.7-2                           deb     
 pulseaudio                      17.0+dfsg1-2                     deb     
 pulseaudio-utils                17.0+dfsg1-2                     deb     
 python3                         3.13.1-2                         deb     

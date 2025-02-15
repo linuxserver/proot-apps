@@ -17,7 +17,7 @@ cairo                      1.18.2-r1                apk
 cairo-gobject              1.18.2-r1                apk     
 cdparanoia-libs            10.2-r14                 apk     
 cups-libs                  2.4.11-r0                apk     
-curl                       8.12.0-r0                apk     
+curl                       8.12.1-r0                apk     
 dbus                       1.16.0-r0                apk     
 dbus-daemon-launch-helper  1.16.0-r0                apk     
 dbus-libs                  1.16.0-r0                apk     
@@ -60,7 +60,7 @@ libbsd                     0.12.2-r0                apk
 libbz2                     1.0.8-r6                 apk     
 libcap2                    2.73-r0                  apk     
 libcrypto3                 3.3.2-r4                 apk     
-libcurl                    8.12.0-r0                apk     
+libcurl                    8.12.1-r0                apk     
 libdrm                     2.4.124-r0               apk     
 libeconf                   0.6.3-r0                 apk     
 libelf                     0.192-r0                 apk     
@@ -140,7 +140,7 @@ mesa-vulkan-swrast         24.3.4-r0                apk
 mpdecimal                  4.0.0-r0                 apk     
 mpg123-libs                1.32.10-r0               apk     
 mtdev                      1.1.7-r0                 apk     
-musl                       1.2.5-r9                 apk     
+musl                       1.2.5-r10                apk     
 musl-utils                 1.2.5-r9                 apk     
 ncurses-terminfo-base      6.5_p20250118-r0         apk     
 netcat-openbsd             1.228.1-r0               apk     
