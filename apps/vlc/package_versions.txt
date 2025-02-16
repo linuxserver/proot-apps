@@ -44,17 +44,17 @@ acl-libs                              2.3.2-r1                 apk
 alpine-baselayout                     3.6.8-r1                 apk       
 alpine-baselayout-data                3.6.8-r1                 apk       
 alpine-keys                           2.5-r0                   apk       
-alpine-release                        3.21.2-r0                apk       
+alpine-release                        3.21.3-r0                apk       
 alsa-lib                              1.2.12-r0                apk       
 aom-libs                              3.11.0-r0                apk       
-apk-tools                             2.14.6-r2                apk       
+apk-tools                             2.14.6-r3                apk       
 at-spi2-core                          2.54.1-r0                apk       
 avahi-libs                            0.8-r19                  apk       
 bash                                  5.2.37-r0                apk       
 brotli-libs                           1.1.0-r2                 apk       
 bubblewrap                            0.11.0-r0                apk       
-busybox                               1.37.0-r9                apk       
-busybox-binsh                         1.37.0-r9                apk       
+busybox                               1.37.0-r12               apk       
+busybox-binsh                         1.37.0-r12               apk       
 c-ares                                1.34.3-r0                apk       
 ca-certificates                       20241121-r1              apk       
 ca-certificates-bundle                20241121-r1              apk       
@@ -139,7 +139,7 @@ libbsd                                0.12.2-r0                apk
 libbz2                                1.0.8-r6                 apk       
 libcap2                               2.71-r0                  apk       
 libcddb                               1.3.2-r7                 apk       
-libcrypto3                            3.3.2-r4                 apk       
+libcrypto3                            3.3.3-r0                 apk       
 libcurl                               8.12.1-r0                apk       
 libdav1d                              1.5.0-r0                 apk       
 libdc1394                             2.2.7-r0                 apk       
@@ -216,7 +216,7 @@ libsoup3                              3.6.1-r0                 apk
 libsrt                                1.5.3-r0                 apk       
 libsrtp                               2.6.0-r0                 apk       
 libssh                                0.11.1-r0                apk       
-libssl3                               3.3.2-r4                 apk       
+libssl3                               3.3.3-r0                 apk       
 libstdc++                             14.2.0-r4                apk       
 libtag                                1.13.1-r0                apk       
 libtasn1                              4.20.0-r0                apk       
@@ -287,7 +287,7 @@ mpdecimal                             4.0.0-r0                 apk
 mpg123-libs                           1.32.9-r0                apk       
 mtdev                                 1.1.7-r0                 apk       
 musl                                  1.2.5-r9                 apk       
-musl-utils                            1.2.5-r8                 apk       
+musl-utils                            1.2.5-r9                 apk       
 ncurses-terminfo-base                 6.5_p20241006-r3         apk       
 neon                                  0.33.0-r0                apk       
 netcat-openbsd                        1.226.1.1-r0             apk       
@@ -349,7 +349,7 @@ speex                                 1.2.1-r2                 apk
 speexdsp                              1.2.1-r2                 apk       
 spirv-tools                           1.3.290.0-r0             apk       
 sqlite-libs                           3.48.0-r0                apk       
-ssl_client                            1.37.0-r9                apk       
+ssl_client                            1.37.0-r12               apk       
 talloc                                2.4.2-r1                 apk       
 tdb-libs                              1.4.12-r0                apk       
 tevent                                0.16.1-r0                apk       

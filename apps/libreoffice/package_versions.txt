@@ -10,10 +10,10 @@ XMergeBridge                    UNKNOWN                  java-archive
 alpine-baselayout               3.6.8-r1                 apk                           
 alpine-baselayout-data          3.6.8-r1                 apk                           
 alpine-keys                     2.5-r0                   apk                           
-alpine-release                  3.21.2-r0                apk                           
+alpine-release                  3.21.3-r0                apk                           
 alsa-lib                        1.2.12-r0                apk                           
 aom-libs                        3.11.0-r0                apk                           
-apk-tools                       2.14.6-r2                apk                           
+apk-tools                       2.14.6-r3                apk                           
 at-spi2-core                    2.54.1-r0                apk                           
 avahi-libs                      0.8-r19                  apk                           
 bash                            5.2.37-r0                apk                           
@@ -23,8 +23,8 @@ boost1.84-program_options       1.84.0-r2                apk
 boost1.84-thread                1.84.0-r2                apk                           
 box2d                           2.4.1-r2                 apk                           
 brotli-libs                     1.1.0-r2                 apk                           
-busybox                         1.37.0-r9                apk                           
-busybox-binsh                   1.37.0-r9                apk                           
+busybox                         1.37.0-r12               apk                           
+busybox-binsh                   1.37.0-r12               apk                           
 c-ares                          1.34.3-r0                apk                           
 ca-certificates                 20241121-r1              apk                           
 ca-certificates-bundle          20241121-r1              apk                           
@@ -125,7 +125,7 @@ libbz2                          1.0.8-r6                 apk
 libcap2                         2.71-r0                  apk                           
 libcdr                          0.1.7-r13                apk                           
 libcom_err                      1.47.1-r1                apk                           
-libcrypto3                      3.3.2-r4                 apk                           
+libcrypto3                      3.3.3-r0                 apk                           
 libcurl                         8.12.1-r0                apk                           
 libdav1d                        1.5.0-r0                 apk                           
 libdc1394                       2.2.7-r0                 apk                           
@@ -209,7 +209,7 @@ libsharpyuv                     1.4.0-r0                 apk
 libsm                           1.2.4-r4                 apk                           
 libsndfile                      1.2.2-r2                 apk                           
 libsrtp                         2.6.0-r0                 apk                           
-libssl3                         3.3.2-r4                 apk                           
+libssl3                         3.3.3-r0                 apk                           
 libstaroffice                   0.0.7-r8                 apk                           
 libstdc++                       14.2.0-r4                apk                           
 libtasn1                        4.20.0-r0                apk                           
@@ -277,7 +277,7 @@ mkfontscale                     1.2.3-r1                 apk
 mpdecimal                       4.0.0-r0                 apk                           
 mpg123-libs                     1.32.9-r0                apk                           
 musl                            1.2.5-r9                 apk                           
-musl-utils                      1.2.5-r8                 apk                           
+musl-utils                      1.2.5-r9                 apk                           
 mythes                          1.2.4-r3                 apk                           
 nashorn                         1.8.0_442-b06            java-archive                  
 ncurses-terminfo-base           6.5_p20241006-r3         apk                           
@@ -338,7 +338,7 @@ soxr                            0.1.3-r7                 apk
 spandsp                         0.0.6-r5                 apk                           
 speexdsp                        1.2.1-r2                 apk                           
 sqlite-libs                     3.48.0-r0                apk                           
-ssl_client                      1.37.0-r9                apk                           
+ssl_client                      1.37.0-r12               apk                           
 sunec                           1.8.0_442                java-archive                  
 sunjce_provider                 1.8.0_442                java-archive                  
 sunpkcs11                       1.8.0_442                java-archive                  
