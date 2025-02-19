@@ -554,7 +554,7 @@ openjdk-17-jdk                         17.0.14+7-1~deb12u1             deb
 openjdk-17-jdk-headless                17.0.14+7-1~deb12u1             deb                            
 openjdk-17-jre                         17.0.14+7-1~deb12u1             deb                            
 openjdk-17-jre-headless                17.0.14+7-1~deb12u1             deb                            
-openssh-client                         1:9.2p1-2+deb12u4               deb                            
+openssh-client                         1:9.2p1-2+deb12u5               deb                            
 openssl                                3.0.15-1~deb12u1                deb                            
 org.eclipse.sisu.inject                0.9.0.M3                        java-archive                   
 org.eclipse.sisu.plexus                0.9.0.M3                        java-archive                   
