@@ -117,6 +117,7 @@ base64-arraybuffer                         0.1.4                           npm
 base64-arraybuffer                         0.1.5                           npm                      
 base64-js                                  1.5.1                           npm                      
 base64id                                   2.0.0                           npm                      
+bash                                       5.2.15                          binary                   
 bash                                       5.2.15-2+b7                     deb                      
 baz                                        UNKNOWN                         npm                      
 bcrypt-pbkdf                               1.0.2                           npm                      
@@ -284,6 +285,7 @@ graphql                                    15.8.0                          npm
 graphql-ws                                 5.12.1                          npm                      
 grep                                       3.8-5                           deb                      
 gtk-update-icon-cache                      3.24.38-2~deb12u3               deb                      
+gzip                                       1.12                            binary                   
 gzip                                       1.12-1                          deb                      
 handlebars                                 4.7.8                           npm                      
 har-schema                                 2.0.0                           npm                      

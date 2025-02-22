@@ -52,6 +52,7 @@ async-profiler                         UNKNOWN                         java-arch
 at-spi2-common                         2.46.0-5                        deb                            
 base-files                             12.4+deb12u9                    deb                            
 base-passwd                            3.6.1                           deb                            
+bash                                   5.2.15                          binary                         
 bash                                   5.2.15-2+b7                     deb                            
 bat                                    1.0.0                           npm                            
 bouncy-castle-pgp                      1.78.1                          java-archive                   
@@ -123,6 +124,7 @@ gtk-update-icon-cache                  3.24.38-2~deb12u3               deb
 guava                                  25.1-android                    java-archive                   
 guava                                  33.2.1-jre                      java-archive                   
 guice                                  5.1.0                           java-archive                   
+gzip                                   1.12                            binary                         
 gzip                                   1.12-1                          deb                            
 handlebars                             1.0.0                           npm                            
 hcl                                    0.5.0                           npm                            

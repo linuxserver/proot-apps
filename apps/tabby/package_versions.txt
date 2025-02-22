@@ -13,6 +13,7 @@ at-spi2-common                    2.46.0-5                        deb
 balanced-match                    1.0.0                           npm                      
 base-files                        12.4+deb12u9                    deb                      
 base-passwd                       3.6.1                           deb                      
+bash                              5.2.15                          binary                   
 bash                              5.2.15-2+b7                     deb                      
 brace-expansion                   1.1.11                          npm                      
 bsdutils                          1:2.38.1-5+deb12u3              deb                      
@@ -57,6 +58,7 @@ gnome-keyring                     42.1-1+b2                       deb
 gpgv                              2.2.40-1.1                      deb                      
 grep                              3.8-5                           deb                      
 gtk-update-icon-cache             3.24.38-2~deb12u3               deb                      
+gzip                              1.12                            binary                   
 gzip                              1.12-1                          deb                      
 hicolor-icon-theme                0.17-2                          deb                      
 hostname                          3.23+nmu1                       deb                      

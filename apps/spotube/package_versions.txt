@@ -8,6 +8,7 @@ avahi-discover                   0.8-10+deb12u1                   deb
 avahi-utils                      0.8-10+deb12u1                   deb       
 base-files                       12.4+deb12u9                     deb       
 base-passwd                      3.6.1                            deb       
+bash                             5.2.15                           binary    
 bash                             5.2.15-2+b7                      deb       
 bsdutils                         1:2.38.1-5+deb12u3               deb       
 bubblewrap                       0.8.0-2+deb12u1                  deb       
@@ -57,6 +58,7 @@ gsettings-desktop-schemas        43.0-1                           deb
 gstreamer1.0-plugins-base        1.22.0-3+deb12u4                 deb       
 gstreamer1.0-plugins-good        1.22.0-5+deb12u2                 deb       
 gtk-update-icon-cache            3.24.38-2~deb12u3                deb       
+gzip                             1.12                             binary    
 gzip                             1.12-1                           deb       
 hicolor-icon-theme               0.17-2                           deb       
 hostname                         3.23+nmu1                        deb       
