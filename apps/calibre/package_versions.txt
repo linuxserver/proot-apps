@@ -12,7 +12,7 @@ anstyle-query              1.0.2                    rust-crate
 anyhow                     1.0.79                   rust-crate                  
 aom-libs                   3.11.0-r1                apk                         
 apk-tools                  2.14.7-r0                apk                         
-apsw                       3.47.2.0                 python                      
+apsw                       3.49.0.0                 python                      
 arg_enum_proc_macro        0.3.4                    rust-crate                  
 arrayvec                   0.7.4                    rust-crate  (+1 duplicate)  
 at-spi2-core               2.54.1-r0                apk                         
@@ -337,8 +337,8 @@ profiling-procmacros       1.0.13                   rust-crate
 psutil                     7.0.0                    python                      
 pulseaudio                 17.0-r4                  apk                         
 pulseaudio-alsa            17.0-r4                  apk                         
-py3-apsw                   3.47.2.0-r0              apk                         
-py3-apsw-pyc               3.47.2.0-r0              apk                         
+py3-apsw                   3.49.0.0-r0              apk                         
+py3-apsw-pyc               3.49.0.0-r0              apk                         
 py3-beautifulsoup4         4.13.3-r0                apk                         
 py3-beautifulsoup4-pyc     4.13.3-r0                apk                         
 py3-chardet                5.2.0-r1                 apk                         

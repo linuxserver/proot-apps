@@ -160,7 +160,7 @@ libimath-3-1-29t64              3.1.12-1+b3                      deb
 libjack-jackd2-0                1.9.22~dfsg-4                    deb     
 libjansson4                     2.14-2+b3                        deb     
 libjbig0                        2.1-6.1+b2                       deb     
-libjpeg62-turbo                 1:2.1.5-3+b1                     deb     
+libjpeg62-turbo                 1:2.1.5-3.1                      deb     
 libjxl0.10                      0.10.4-2                         deb     
 libk5crypto3                    1.21.3-4                         deb     
 libkeyutils1                    1.6.3-4                          deb     
@@ -273,7 +273,7 @@ libtheoradec1                   1.2.0~alpha1+dfsg-5              deb
 libtheoraenc1                   1.2.0~alpha1+dfsg-5              deb     
 libtiff6                        4.5.1+git230720-5                deb     
 libtinfo6                       6.5+20250125-2                   deb     
-libturbojpeg0                   1:2.1.5-3+b1                     deb     
+libturbojpeg0                   1:2.1.5-3.1                      deb     
 libtwolame0                     0.4.0-2+b2                       deb     
 libudev1                        257.2-3                          deb     
 libudfread0                     1.1.2-1+b2                       deb     
