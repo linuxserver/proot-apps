@@ -2,7 +2,6 @@ ARG REPO
 FROM ghcr.io/${REPO}:debian-bookworm AS rootfs
 ARG REPO
 
-# Install packages
 RUN \
   echo "**** install packages ****" && \
   apt-get update && \
