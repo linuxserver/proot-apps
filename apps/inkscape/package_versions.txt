@@ -42,7 +42,7 @@ fribidi                         1.0.16-r0                apk
 gc                              8.2.8-r0                 apk     
 gdbm                            1.24-r0                  apk     
 gdk-pixbuf                      2.42.12-r1               apk     
-glib                            2.82.4-r0                apk     
+glib                            2.82.5-r0                apk     
 glibmm2.66                      2.66.7-r0                apk     
 gmp                             6.3.0-r2                 apk     
 gnutls                          3.8.8-r0                 apk     

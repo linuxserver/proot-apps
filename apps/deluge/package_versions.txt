@@ -53,7 +53,7 @@ fuse3                      3.16.2-r1                apk
 fuse3-libs                 3.16.2-r1                apk       
 gdbm                       1.24-r0                  apk       
 gdk-pixbuf                 2.42.12-r1               apk       
-glib                       2.82.4-r0                apk       
+glib                       2.82.5-r0                apk       
 gmp                        6.3.0-r2                 apk       
 gnutls                     3.8.8-r0                 apk       
 gobject-introspection      1.82.0-r2                apk       
