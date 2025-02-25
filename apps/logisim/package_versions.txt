@@ -270,7 +270,7 @@ libzstd1                        1.5.6+dfsg-2                     deb
 libzvbi-common                  0.2.43-2                         deb             
 libzvbi0t64                     0.2.43-2                         deb             
 login                           1:4.16.0-2+really2.40.4-2        deb             
-login.defs                      1:4.17.2-5                       deb             
+login.defs                      1:4.17.2-6                       deb             
 logisim-evolution               3.9.0                            deb             
 logisim-evolution               3.9.0-all                        java-archive    
 logsave                         1.47.2-1                         deb             
@@ -287,7 +287,7 @@ netcat-openbsd                  1.228-1                          deb
 ocl-icd-libopencl1              2.3.2-1+b2                       deb             
 openssl                         3.4.1-1                          deb             
 openssl-provider-legacy         3.4.1-1                          deb             
-passwd                          1:4.17.2-5                       deb             
+passwd                          1:4.17.2-6                       deb             
 perl-base                       5.40.0-8                         deb             
 pulseaudio                      17.0+dfsg1-2                     deb             
 pulseaudio-utils                17.0+dfsg1-2                     deb             

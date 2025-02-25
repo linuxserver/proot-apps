@@ -261,11 +261,11 @@ libzmq                     4.3.5-r2                 apk
 lilv-libs                  0.24.24-r1               apk     
 linux-pam                  1.6.1-r1                 apk     
 llvm19-libs                19.1.4-r0                apk     
-mariadb                    11.4.4-r1                apk     
-mariadb-client             11.4.4-r1                apk     
-mariadb-client-perl        11.4.4-r1                apk     
-mariadb-common             11.4.4-r1                apk     
-mariadb-server-utils       11.4.4-r1                apk     
+mariadb                    11.4.5-r0                apk     
+mariadb-client             11.4.5-r0                apk     
+mariadb-client-perl        11.4.5-r0                apk     
+mariadb-common             11.4.5-r0                apk     
+mariadb-server-utils       11.4.5-r0                apk     
 mbedtls                    3.6.2-r0                 apk     
 mesa                       24.2.8-r0                apk     
 mesa-dri-gallium           24.2.8-r0                apk     
