@@ -33,7 +33,7 @@ fonts-noto-core                 20201225-2                       deb
 fonts-noto-mono                 20201225-2                       deb     
 gcc-14-base                     14.2.0-17                        deb     
 grep                            3.11-4                           deb     
-gtk-update-icon-cache           4.17.5+ds-1                      deb     
+gtk-update-icon-cache           4.17.5+ds-2                      deb     
 gzip                            1.13-1                           deb     
 hicolor-icon-theme              0.18-2                           deb     
 hostname                        3.25                             deb     

@@ -89,8 +89,8 @@ libcaca0                                  0.99.beta20-4build2                deb
 libcairo-gobject2                         1.18.0-3build1                     deb     
 libcairo2                                 1.18.0-3build1                     deb     
 libcap-ng0                                0.8.4-2build2                      deb     
-libcap2                                   1:2.66-5ubuntu2.1                  deb     
-libcap2-bin                               1:2.66-5ubuntu2.1                  deb     
+libcap2                                   1:2.66-5ubuntu2.2                  deb     
+libcap2-bin                               1:2.66-5ubuntu2.2                  deb     
 libcdio-cdda2t64                          10.2+2.0.1-1.1build2               deb     
 libcdio-paranoia2t64                      10.2+2.0.1-1.1build2               deb     
 libcdio19t64                              2.1.0-4.1ubuntu1.2                 deb     
