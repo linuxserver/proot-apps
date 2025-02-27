@@ -110,7 +110,7 @@ libglvnd0                       1.6.0-1                         deb
 libglx-mesa0                    22.3.6-1+deb12u1                deb       
 libglx0                         1.6.0-1                         deb       
 libgmp10                        2:6.2.1+dfsg1-1.1               deb       
-libgnutls30                     3.7.9-2+deb12u3                 deb       
+libgnutls30                     3.7.9-2+deb12u4                 deb       
 libgomp1                        12.2.0-14                       deb       
 libgpg-error0                   1.46-1                          deb       
 libgraphite2-3                  1.3.14-1                        deb       
@@ -216,7 +216,7 @@ libstdc++6                      12.2.0-14                       deb
 libsvtav1enc1                   1.4.1+dfsg-1                    deb       
 libswresample4                  7:5.1.6-0+deb12u1               deb       
 libsystemd0                     252.33-1~deb12u1                deb       
-libtasn1-6                      4.19.0-2                        deb       
+libtasn1-6                      4.19.0-2+deb12u1                deb       
 libtdb1                         1.4.8-2                         deb       
 libthai-data                    0.1.29-1                        deb       
 libthai0                        0.1.29-1                        deb       

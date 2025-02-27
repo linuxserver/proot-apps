@@ -168,7 +168,7 @@ libglvnd0                           1.6.0-1                         deb
 libglx-mesa0                        22.3.6-1+deb12u1                deb       
 libglx0                             1.6.0-1                         deb       
 libgmp10                            2:6.2.1+dfsg1-1.1               deb       
-libgnutls30                         3.7.9-2+deb12u3                 deb       
+libgnutls30                         3.7.9-2+deb12u4                 deb       
 libgomp1                            12.2.0-14                       deb       
 libgpg-error0                       1.46-1                          deb       
 libgprofng0                         2.40-2                          deb       
@@ -357,7 +357,7 @@ libsvtav1enc1                       1.4.1+dfsg-1                    deb
 libswresample4                      7:5.1.6-0+deb12u1               deb       
 libsystemd0                         252.33-1~deb12u1                deb       
 libsz2                              1.0.6-1+b1                      deb       
-libtasn1-6                          4.19.0-2                        deb       
+libtasn1-6                          4.19.0-2+deb12u1                deb       
 libtbb12                            2021.8.0-2                      deb       
 libtbbbind-2-5                      2021.8.0-2                      deb       
 libtbbmalloc2                       2021.8.0-2                      deb       

@@ -185,7 +185,7 @@ libglx-mesa0                     22.3.6-1+deb12u1                 deb
 libglx0                          1.6.0-1                          deb       
 libgme0                          0.6.3-6                          deb       
 libgmp10                         2:6.2.1+dfsg1-1.1                deb       
-libgnutls30                      3.7.9-2+deb12u3                  deb       
+libgnutls30                      3.7.9-2+deb12u4                  deb       
 libgomp1                         12.2.0-14                        deb       
 libgpg-error0                    1.46-1                           deb       
 libgpm2                          1.20.7-10+b1                     deb       
@@ -345,7 +345,7 @@ libswscale6                      7:5.1.6-0+deb12u1                deb
 libsystemd0                      252.33-1~deb12u1                 deb       
 libtag1v5                        1.13-2                           deb       
 libtag1v5-vanilla                1.13-2                           deb       
-libtasn1-6                       4.19.0-2                         deb       
+libtasn1-6                       4.19.0-2+deb12u1                 deb       
 libtdb1                          1.4.8-2                          deb       
 libtext-iconv-perl               1.7-8                            deb       
 libthai-data                     0.1.29-1                         deb       
