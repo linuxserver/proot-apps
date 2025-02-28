@@ -112,7 +112,7 @@ libdconf1                                 0.40.0-4build2                     deb
 libdebconfclient0                         0.271ubuntu3                       deb     
 libdecor-0-0                              0.2.2-1build2                      deb     
 libdeflate0                               1.19-1build1.1                     deb     
-libdevmapper1.02.1                        2:1.02.185-3ubuntu3.1              deb     
+libdevmapper1.02.1                        2:1.02.185-3ubuntu3.2              deb     
 libdouble-conversion3                     3.3.0-1build1                      deb     
 libdrm-amdgpu1                            2.4.122-1~ubuntu0.24.04.1          deb     
 libdrm-common                             2.4.122-1~ubuntu0.24.04.1          deb     
@@ -171,8 +171,8 @@ libice6                                   2:1.0.10-1build3                   deb
 libicu74                                  74.2-1ubuntu3.1                    deb     
 libidn2-0                                 2.3.7-2build1                      deb     
 libiec61883-0                             1.2.0-6build1                      deb     
-libinput-bin                              1.25.0-1ubuntu2                    deb     
-libinput10                                1.25.0-1ubuntu2                    deb     
+libinput-bin                              1.25.0-1ubuntu3                    deb     
+libinput10                                1.25.0-1ubuntu3                    deb     
 libjack-jackd2-0                          1.9.21~dfsg-3ubuntu3               deb     
 libjansson4                               2.14-2build2                       deb     
 libjbig0                                  2.1-6.1ubuntu2                     deb     
