@@ -130,7 +130,7 @@ interpolate_name           0.2.4                    rust-crate
 itertools                  0.10.5                   rust-crate                  
 itertools                  0.12.0                   rust-crate                  
 ivf                        0.1.3                    rust-crate                  
-jeepney                    0.8.0                    python                      
+jeepney                    0.9.0                    python                      
 json-c                     0.18-r0                  apk                         
 keyutils-libs              1.6.3-r4                 apk                         
 kmod-libs                  33-r2                    apk                         
@@ -329,7 +329,7 @@ pixman                     0.43.4-r1                apk
 pkgconf                    2.3.0-r0                 apk                         
 podofo                     0.10.4-r0                apk                         
 polkit-noelogind-libs      126-r0                   apk                         
-poppler                    25.01.0-r0               apk                         
+poppler                    25.02.0-r0               apk                         
 ppv-lite86                 0.2.17                   rust-crate                  
 proc-macro2                1.0.76                   rust-crate                  
 profiling                  1.0.13                   rust-crate                  
@@ -363,8 +363,8 @@ py3-html5lib               1.1-r6                   apk
 py3-html5lib-pyc           1.1-r6                   apk                         
 py3-ifaddr                 0.2.0-r4                 apk                         
 py3-ifaddr-pyc             0.2.0-r4                 apk                         
-py3-jeepney                0.8.0-r4                 apk                         
-py3-jeepney-pyc            0.8.0-r4                 apk                         
+py3-jeepney                0.9.0-r0                 apk                         
+py3-jeepney-pyc            0.9.0-r0                 apk                         
 py3-lxml                   5.3.1-r0                 apk                         
 py3-lxml-pyc               5.3.1-r0                 apk                         
 py3-markdown               3.7-r0                   apk                         
