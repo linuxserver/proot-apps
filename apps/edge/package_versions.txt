@@ -73,7 +73,7 @@ libcap2                         1:2.73-4                         deb
 libcap2-bin                     1:2.73-4                         deb     
 libcloudproviders0              0.3.6-1+b1                       deb     
 libcodec2-1.2                   1.2.0-3                          deb     
-libcolord2                      1.4.7-2                          deb     
+libcolord2                      1.4.7-3                          deb     
 libcom-err2                     1.47.2-1                         deb     
 libcrypt1                       1:4.4.38-1                       deb     
 libcups2t64                     2.4.10-2+b1                      deb     
@@ -155,9 +155,9 @@ libmpg123-0t64                  1.32.10-1                        deb
 libncursesw6                    6.5+20250216-1                   deb     
 libnettle8t64                   3.10.1-1                         deb     
 libnghttp2-14                   1.64.0-1                         deb     
-libnghttp3-9                    1.6.0-2                          deb     
-libngtcp2-16                    1.9.1-1                          deb     
-libngtcp2-crypto-gnutls8        1.9.1-1                          deb     
+libnghttp3-9                    1.8.0-1                          deb     
+libngtcp2-16                    1.11.0-1                         deb     
+libngtcp2-crypto-gnutls8        1.11.0-1                         deb     
 libnspr4                        2:4.36-1                         deb     
 libnss3                         2:3.108-1                        deb     
 libnuma1                        2.0.18-1+b1                      deb     
