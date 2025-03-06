@@ -1,5 +1,5 @@
 NAME                            VERSION                          TYPE   
-adduser                         3.142                            deb     
+adduser                         3.144                            deb     
 adwaita-icon-theme              48~beta-3                        deb     
 apt                             2.9.30                           deb     
 base-files                      13.6                             deb     
@@ -40,10 +40,10 @@ init-system-helpers             1.68                             deb
 iso-codes                       4.17.0-1                         deb     
 keyboard-configuration          1.234                            deb     
 libaacs0                        0.11.1-4+b1                      deb     
-libabsl20230802                 20230802.1-4                     deb     
+libabsl20230802                 20230802.1-4.2                   deb     
 libacl1                         2.3.2-2+b1                       deb     
 libaom3                         3.12.0-1                         deb     
-libapparmor1                    4.1.0~beta5-2+b1                 deb     
+libapparmor1                    4.1.0~beta5-3                    deb     
 libapt-pkg7.0                   2.9.30                           deb     
 libasound2-data                 1.2.13-1                         deb     
 libasound2-plugins              1.2.12-2+b1                      deb     
@@ -172,7 +172,7 @@ liblerc4                        4.0.0+ds-5                       deb
 liblilv-0-0                     0.24.26-1                        deb     
 libllvm19                       1:19.1.7-1+b1                    deb     
 liblocale-gettext-perl          1.07-7+b1                        deb     
-libltdl7                        2.5.4-3                          deb     
+libltdl7                        2.5.4-4                          deb     
 liblz4-1                        1.10.0-3                         deb     
 liblzma5                        5.6.3-1+b1                       deb     
 liblzo2-2                       2.10-3+b1                        deb     
@@ -216,7 +216,7 @@ libproc2-0                      2:4.0.4-7                        deb
 libpsl5t64                      0.21.2-1.1+b1                    deb     
 libpulse0                       17.0+dfsg1-2                     deb     
 libpulsedsp                     17.0+dfsg1-2                     deb     
-libpython3-stdlib               3.13.2-1                         deb     
+libpython3-stdlib               3.13.2-2                         deb     
 libpython3.13-minimal           3.13.2-1                         deb     
 libpython3.13-stdlib            3.13.2-1                         deb     
 librabbitmq4                    0.15.0-1                         deb     
@@ -365,8 +365,8 @@ procps                          2:4.0.4-7                        deb
 psmisc                          23.7-2                           deb     
 pulseaudio                      17.0+dfsg1-2                     deb     
 pulseaudio-utils                17.0+dfsg1-2                     deb     
-python3                         3.13.2-1                         deb     
-python3-minimal                 3.13.2-1                         deb     
+python3                         3.13.2-2                         deb     
+python3-minimal                 3.13.2-2                         deb     
 python3.13                      3.13.2-1                         deb     
 python3.13-minimal              3.13.2-1                         deb     
 readline-common                 8.2-6                            deb     
