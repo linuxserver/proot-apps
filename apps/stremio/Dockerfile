@@ -13,7 +13,7 @@ RUN \
     "https://dl.strem.io/shell-linux/v4.4.168/stremio_4.4.168-1_amd64.deb" && \
   curl -o \
     /tmp/libssl.deb -L \
-    "http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.23_amd64.deb" && \
+    "https://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.24_amd64.deb" && \
   dpkg -i \
     /tmp/libssl.deb && \
   mkdir -p \
