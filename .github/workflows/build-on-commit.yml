@@ -32,6 +32,7 @@ jobs:
           - name: alpine-edge
           - name: debian-bookworm
           - name: debian-sid
+          - name: ubuntu-jammy
           - name: ubuntu-noble
   meta:
     name: Ingest Metadata
