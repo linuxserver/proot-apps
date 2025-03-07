@@ -110,8 +110,8 @@ graphite2                  1.3.14-r6                apk
 gst-plugins-base           1.24.12-r0               apk                         
 gstreamer                  1.24.12-r0               apk                         
 gstreamer-ptp-helper       1.24.12-r0               apk                         
-gtk+3.0                    3.24.48-r0               apk                         
-gtk-update-icon-cache      3.24.48-r0               apk                         
+gtk+3.0                    3.24.49-r0               apk                         
+gtk-update-icon-cache      3.24.49-r0               apk                         
 harfbuzz                   10.2.0-r0                apk                         
 harfbuzz-subset            10.2.0-r0                apk                         
 heck                       0.4.1                    rust-crate                  
@@ -119,7 +119,7 @@ hicolor-icon-theme         0.18-r0                  apk
 html2text                  2024.2.26                python                      
 html5-parser               0.4.12                   python                      
 html5lib                   1.1                      python                      
-hwdata-pci                 0.392-r0                 apk                         
+hwdata-pci                 0.393-r0                 apk                         
 hyphen                     2.8.8-r3                 apk                         
 icu-data-en                74.2-r0                  apk                         
 icu-libs                   74.2-r0                  apk                         
@@ -327,7 +327,7 @@ pcre2                      10.43-r0                 apk
 pillow                     11.1.0                   python                      
 pinentry                   1.3.1-r0                 apk                         
 pixman                     0.43.4-r1                apk                         
-pkgconf                    2.4.0-r0                 apk                         
+pkgconf                    2.4.1-r0                 apk                         
 podofo                     0.10.4-r0                apk                         
 polkit-noelogind-libs      126-r0                   apk                         
 poppler                    25.02.0-r0               apk                         

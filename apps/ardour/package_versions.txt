@@ -85,7 +85,7 @@ gstreamer                  1.24.12-r0               apk
 gstreamer-ptp-helper       1.24.12-r0               apk           
 harfbuzz                   10.2.0-r0                apk           
 heck                       0.4.1                    rust-crate    
-hwdata-pci                 0.392-r0                 apk           
+hwdata-pci                 0.393-r0                 apk           
 imath                      3.1.12-r0                apk           
 interpolate_name           0.2.4                    rust-crate    
 itertools                  0.10.5                   rust-crate    
