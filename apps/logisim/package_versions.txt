@@ -57,8 +57,8 @@ libblkid1                       2.40.4-4                         deb
 libbrotli1                      1.1.0-2+b7                       deb             
 libbsd0                         0.12.2-2                         deb             
 libbz2-1.0                      1.0.8-6                          deb             
-libc-bin                        2.40-7                           deb             
-libc6                           2.40-7                           deb             
+libc-bin                        2.41-3                           deb             
+libc6                           2.41-3                           deb             
 libcairo-gobject2               1.18.2-2                         deb             
 libcairo2                       1.18.2-2                         deb             
 libcap-ng0                      0.8.5-4                          deb             
@@ -192,8 +192,8 @@ libssl3t64                      3.4.1-1                          deb
 libstdc++6                      14.2.0-17                        deb             
 libsvtav1enc2                   2.3.0+dfsg-1                     deb             
 libswresample5                  7:7.1-4                          deb             
-libsystemd-shared               257.3-1                          deb             
-libsystemd0                     257.3-1                          deb             
+libsystemd-shared               257.4-1                          deb             
+libsystemd0                     257.4-1                          deb             
 libtasn1-6                      4.20.0-2                         deb             
 libtdb1                         2:1.4.12+samba4.21.4+dfsg-1      deb             
 libthai-data                    0.1.29-2                         deb             
@@ -203,7 +203,7 @@ libtheoraenc1                   1.2.0~alpha1+dfsg-5              deb
 libtiff6                        4.5.1+git230720-5                deb             
 libtinfo6                       6.5+20250216-1                   deb             
 libtwolame0                     0.4.0-2+b2                       deb             
-libudev1                        257.3-1                          deb             
+libudev1                        257.4-1                          deb             
 libunistring5                   1.3-1                            deb             
 libunwind8                      1.8.1-0.1                        deb             
 libuuid1                        2.40.4-4                         deb             
@@ -292,11 +292,11 @@ swingx-core                     1.6.8                            java-archive
 swingx-graphics                 1.6.8                            java-archive    
 swingx-painters                 1.6.8                            java-archive    
 swingx-plaf                     1.6.8                            java-archive    
-systemd                         257.3-1                          deb             
+systemd                         257.4-1                          deb             
 sysvinit-utils                  3.14-1                           deb             
 tar                             1.35+dfsg-3.1                    deb             
 tzdata                          2025a-2                          deb             
-udev                            257.3-1                          deb             
+udev                            257.4-1                          deb             
 util-linux                      2.40.4-4                         deb             
 x11-common                      1:7.7+24                         deb             
 x11-xkb-utils                   7.7+9                            deb             

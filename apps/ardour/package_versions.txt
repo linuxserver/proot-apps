@@ -75,7 +75,7 @@ fribidi                    1.0.16-r0                apk
 gdbm                       1.24-r0                  apk           
 getrandom                  0.2.12                   rust-crate    
 giflib                     5.2.2-r0                 apk           
-glib                       2.82.5-r1                apk           
+glib                       2.84.0-r0                apk           
 glibmm2.66                 2.66.7-r0                apk           
 glslang-libs               1.4.304.0-r0             apk           
 graphene                   1.10.8-r5                apk           
