@@ -91,7 +91,7 @@ harfbuzz-icu                    9.0.0-r1                 apk
 harfbuzz-subset                 9.0.0-r1                 apk                           
 hicolor-icon-theme              0.18-r0                  apk                           
 hsqldb                          build-7.6.7.2            java-archive                  
-hwdata-pci                      0.390-r0                 apk                           
+hwdata-pci                      0.393-r0                 apk                           
 hyphen                          2.8.8-r3                 apk                           
 icu-data-en                     74.2-r0                  apk                           
 icu-libs                        74.2-r0                  apk                           
@@ -242,7 +242,7 @@ libxi                           1.8.2-r0                 apk
 libxinerama                     1.1.5-r4                 apk                           
 libxkbcommon                    1.7.0-r1                 apk                           
 libxml                          1.1.7                    java-archive                  
-libxml2                         2.13.4-r3                apk                           
+libxml2                         2.13.4-r4                apk                           
 libxmu                          1.2.1-r0                 apk                           
 libxrandr                       1.5.4-r1                 apk                           
 libxrender                      0.9.11-r5                apk                           

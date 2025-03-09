@@ -61,7 +61,7 @@ harfbuzz                   9.0.0-r1                 apk
 hicolor-icon-theme         0.18-r0                  apk       
 httpcore                   1.0.5                    python    
 httpx                      0.27.2                   python    
-hwdata-pci                 0.390-r0                 apk       
+hwdata-pci                 0.393-r0                 apk       
 idna                       3.10                     python    
 lame-libs                  3.100-r5                 apk       
 lcms2                      2.16-r0                  apk       
@@ -144,7 +144,7 @@ libxft                     2.3.8-r3                 apk
 libxi                      1.8.2-r0                 apk       
 libxinerama                1.1.5-r4                 apk       
 libxkbcommon               1.7.0-r1                 apk       
-libxml2                    2.13.4-r3                apk       
+libxml2                    2.13.4-r4                apk       
 libxmu                     1.2.1-r0                 apk       
 libxrandr                  1.5.4-r1                 apk       
 libxrender                 0.9.11-r5                apk       

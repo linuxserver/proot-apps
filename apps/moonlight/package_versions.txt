@@ -61,7 +61,7 @@ gtk+3.0                    3.24.49-r0               apk
 gtk-update-icon-cache      3.24.49-r0               apk     
 harfbuzz                   9.0.0-r1                 apk     
 hicolor-icon-theme         0.18-r0                  apk     
-hwdata-pci                 0.390-r0                 apk     
+hwdata-pci                 0.393-r0                 apk     
 icu-data-en                74.2-r0                  apk     
 icu-libs                   74.2-r0                  apk     
 imath                      3.1.12-r0                apk     
@@ -150,7 +150,7 @@ libxi                      1.8.2-r0                 apk
 libxinerama                1.1.5-r4                 apk     
 libxkbcommon               1.7.0-r1                 apk     
 libxkbcommon-x11           1.7.0-r1                 apk     
-libxml2                    2.13.4-r3                apk     
+libxml2                    2.13.4-r4                apk     
 libxmu                     1.2.1-r0                 apk     
 libxrandr                  1.5.4-r1                 apk     
 libxrender                 0.9.11-r5                apk     
