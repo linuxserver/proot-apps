@@ -1,5 +1,5 @@
 NAME                            VERSION                          TYPE   
-adduser                         3.144                            deb     
+adduser                         3.145                            deb     
 adwaita-icon-theme              48~beta-3                        deb     
 apt                             2.9.30                           deb     
 at-spi2-common                  2.55.2-1                         deb     
@@ -58,8 +58,8 @@ libaudit1                       1:4.0.2-2+b1                     deb
 libavahi-client3                0.8-16                           deb     
 libavahi-common-data            0.8-16                           deb     
 libavahi-common3                0.8-16                           deb     
-libavcodec61                    7:7.1-4                          deb     
-libavutil59                     7:7.1-4                          deb     
+libavcodec61                    7:7.1.1-1                        deb     
+libavutil59                     7:7.1.1-1                        deb     
 libblkid1                       2.40.4-4                         deb     
 libbrotli1                      1.1.0-2+b7                       deb     
 libbsd0                         0.12.2-2                         deb     
@@ -209,7 +209,7 @@ libssh2-1t64                    1.11.1-1                         deb
 libssl3t64                      3.4.1-1                          deb     
 libstdc++6                      14.2.0-17                        deb     
 libsvtav1enc2                   2.3.0+dfsg-1                     deb     
-libswresample5                  7:7.1-4                          deb     
+libswresample5                  7:7.1.1-1                        deb     
 libsystemd-shared               257.4-1                          deb     
 libsystemd0                     257.4-1                          deb     
 libtasn1-6                      4.20.0-2                         deb     
