@@ -10,10 +10,10 @@ ca-certificates                 20241223                         deb
 coreutils                       9.5-1+b1                         deb     
 curl                            8.12.1-3                         deb     
 dash                            0.5.12-12                        deb     
-dbus-bin                        1.16.2-1                         deb     
-dbus-daemon                     1.16.2-1                         deb     
-dbus-session-bus-common         1.16.2-1                         deb     
-dbus-x11                        1.16.2-1                         deb     
+dbus-bin                        1.16.2-2                         deb     
+dbus-daemon                     1.16.2-2                         deb     
+dbus-session-bus-common         1.16.2-2                         deb     
+dbus-x11                        1.16.2-2                         deb     
 dconf-gsettings-backend         0.40.0-5                         deb     
 dconf-service                   0.40.0-5                         deb     
 debconf                         1.5.89                           deb     
@@ -23,8 +23,8 @@ desktop-file-utils              0.28-1                           deb
 diffutils                       1:3.10-2                         deb     
 dpkg                            1.22.15                          deb     
 findutils                       4.10.0-3                         deb     
-fontconfig                      2.15.0-2                         deb     
-fontconfig-config               2.15.0-2                         deb     
+fontconfig                      2.15.0-2.1                       deb     
+fontconfig-config               2.15.0-2.1                       deb     
 fonts-noto                      20201225-2                       deb     
 fonts-noto-core                 20201225-2                       deb     
 fonts-noto-mono                 20201225-2                       deb     
@@ -38,7 +38,7 @@ hicolor-icon-theme              0.18-2                           deb
 hostname                        3.25                             deb     
 init-system-helpers             1.68                             deb     
 iso-codes                       4.17.0-1                         deb     
-keyboard-configuration          1.234                            deb     
+keyboard-configuration          1.235                            deb     
 libaacs0                        0.11.1-4+b1                      deb     
 libabsl20230802                 20230802.1-4.2                   deb     
 libacl1                         2.3.2-2+b1                       deb     
@@ -69,8 +69,8 @@ libbrotli1                      1.1.0-2+b7                       deb
 libbs2b0                        3.1.0+dfsg-8+b1                  deb     
 libbsd0                         0.12.2-2                         deb     
 libbz2-1.0                      1.0.8-6                          deb     
-libc-bin                        2.41-3                           deb     
-libc6                           2.41-3                           deb     
+libc-bin                        2.41-4                           deb     
+libc6                           2.41-4                           deb     
 libcairo-gobject2               1.18.2-2                         deb     
 libcairo-script-interpreter2    1.18.2-2                         deb     
 libcairo2                       1.18.2-2                         deb     
@@ -89,7 +89,7 @@ libcurl3t64-gnutls              8.12.1-3                         deb
 libdatrie1                      0.2.13-3+b1                      deb     
 libdav1d7                       1.5.1-1                          deb     
 libdb5.3t64                     5.3.28+dfsg2-9                   deb     
-libdbus-1-3                     1.16.2-1                         deb     
+libdbus-1-3                     1.16.2-2                         deb     
 libdconf1                       0.40.0-5                         deb     
 libdebconfclient0               0.277                            deb     
 libdeflate0                     1.23-1+b1                        deb     
@@ -111,7 +111,7 @@ libfftw3-double3                3.3.10-2+b1                      deb
 libfftw3-single3                3.3.10-2+b1                      deb     
 libflac14                       1.5.0+ds-2                       deb     
 libflite1                       2.2-7                            deb     
-libfontconfig1                  2.15.0-2                         deb     
+libfontconfig1                  2.15.0-2.1                       deb     
 libfontenc1                     1:1.1.8-1+b2                     deb     
 libfreetype6                    2.13.3+dfsg-1                    deb     
 libfribidi0                     1.0.16-1                         deb     
@@ -154,7 +154,7 @@ libhogweed6t64                  3.10.1-1                         deb
 libhwy1t64                      1.2.0-2+b2                       deb     
 libice6                         2:1.1.1-1                        deb     
 libicu72                        72.1-6                           deb     
-libidn2-0                       2.3.7-2+b1                       deb     
+libidn2-0                       2.3.8-1                          deb     
 libimath-3-1-29t64              3.1.12-1+b3                      deb     
 libjack-jackd2-0                1.9.22~dfsg-4                    deb     
 libjansson4                     2.14-2+b3                        deb     

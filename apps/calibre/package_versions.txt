@@ -68,7 +68,7 @@ device-mapper-libs         2.03.30-r0               apk
 dnspython                  2.7.0                    python                      
 double-conversion          3.3.0-r0                 apk                         
 duktape-libs               2.7.0-r2                 apk                         
-e2fsprogs-libs             1.47.2-r0                apk                         
+e2fsprogs-libs             1.47.2-r1                apk                         
 either                     1.9.0                    rust-crate  (+1 duplicate)  
 errno                      0.3.8                    rust-crate                  
 espeak-ng                  1.52.0-r0                apk                         
@@ -155,7 +155,7 @@ libbz2                     1.0.8-r6                 apk
 libc                       0.2.149                  rust-crate                  
 libc                       0.2.152                  rust-crate                  
 libcap2                    2.73-r0                  apk                         
-libcom_err                 1.47.2-r0                apk                         
+libcom_err                 1.47.2-r1                apk                         
 libcrypto3                 3.3.2-r4                 apk                         
 libcurl                    8.12.1-r0                apk                         
 libdav1d                   1.5.1-r0                 apk                         
