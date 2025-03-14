@@ -201,7 +201,7 @@ libopenmpt                 0.7.13-r0                apk
 libpanelw                  6.5_p20250216-r0         apk                         
 libpciaccess               0.18.1-r0                apk                         
 libpcre2-16                10.43-r0                 apk                         
-libpng                     1.6.46-r0                apk                         
+libpng                     1.6.47-r0                apk                         
 libproxy                   0.5.9-r0                 apk                         
 libpsl                     0.21.5-r3                apk                         
 libpulse                   17.0-r5                  apk                         

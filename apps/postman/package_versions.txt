@@ -27,16 +27,16 @@ NAME                                       VERSION                         TYPE
 @postman/pem                               1.14.6                          npm                      
 @postman/proto-loader                      0.7.13-postman.3                npm                      
 @postman/protobufjs                        7.3.2-postman.3                 npm                      
-@postman/runtime                           0.4.13                          npm                      
+@postman/runtime                           0.4.14                          npm                      
 @postman/runtime.auth                      0.1.13                          npm                      
 @postman/runtime.collection                0.1.13                          npm                      
 @postman/runtime.core                      0.4.0                           npm                      
 @postman/runtime.documentation             0.1.13                          npm                      
 @postman/runtime.event-channel             0.2.0                           npm                      
-@postman/runtime.events                    0.1.17                          npm                      
+@postman/runtime.events                    0.2.0                           npm                      
 @postman/runtime.folder                    0.1.13                          npm                      
 @postman/runtime.grpc-client               0.2.5                           npm                      
-@postman/runtime.grpc-request              0.2.9                           npm                      
+@postman/runtime.grpc-request              0.2.10                          npm                      
 @postman/runtime.grpc-utils                0.2.3                           npm                      
 @postman/runtime.mqtt-client               0.3.1                           npm                      
 @postman/runtime.mqtt-request              0.4.1                           npm                      
@@ -80,7 +80,7 @@ NAME                                       VERSION                         TYPE
 @types/node                                22.5.5                          npm                      
 @types/readable-stream                     4.0.10                          npm                      
 @types/ws                                  8.5.10                          npm                      
-Postman                                    11.36.1                         npm                      
+Postman                                    11.36.3                         npm                      
 abbrev                                     2.0.0                           npm                      
 abort-controller                           3.0.0                           npm                      
 accepts                                    1.3.8                           npm                      
@@ -104,12 +104,13 @@ assert-plus                                1.0.0                           npm
 async                                      0.2.10                          npm                      
 async                                      1.5.2                           npm                      
 async                                      2.6.4                           npm     (+1 duplicate)   
-async                                      3.2.5                           npm                      
+async                                      3.2.6                           npm                      
 async-limiter                              1.0.1                           npm                      
 asynckit                                   0.4.0                           npm                      
 at-spi2-common                             2.46.0-5                        deb                      
 aws-sign2                                  0.7.0                           npm                      
-aws4                                       1.13.1                          npm                      
+aws4                                       1.13.1                          npm     (+1 duplicate)   
+aws4                                       1.13.2                          npm                      
 backo2                                     1.0.2                           npm                      
 balanced-match                             1.0.2                           npm                      
 base-files                                 12.4+deb12u9                    deb                      
@@ -306,6 +307,7 @@ http-proxy-agent                           7.0.2                           npm
 http-reasons                               0.1.0                           npm                      
 http-signature                             1.2.0                           npm                      
 http-signature                             1.3.6                           npm                      
+http-signature                             1.4.0                           npm                      
 httpntlm                                   1.8.13                          npm                      
 httpreq                                    0.5.2                           npm                      
 https-proxy-agent                          5.0.1                           npm                      
@@ -340,7 +342,7 @@ isstream                                   0.1.2                           npm
 iterall                                    1.3.0                           npm                      
 jackspeak                                  3.4.3                           npm                      
 jose                                       4.15.4                          npm                      
-jose                                       5.6.3                           npm                      
+jose                                       5.10.0                          npm                      
 js-base64                                  3.7.6                           npm                      
 js-md4                                     0.3.2                           npm                      
 js-message                                 1.0.5                           npm                      
@@ -684,7 +686,7 @@ media-types                                10.0.0                          deb
 mesa-va-drivers                            22.3.6-1+deb12u1                deb                      
 mesa-vulkan-drivers                        22.3.6-1+deb12u1                deb                      
 mime-db                                    1.52.0                          npm                      
-mime-format                                2.0.1                           npm                      
+mime-format                                2.0.2                           npm                      
 mime-types                                 2.1.35                          npm                      
 mimic-response                             3.1.0                           npm                      
 minimalistic-assert                        1.0.1                           npm                      
@@ -766,11 +768,13 @@ pkg-config                                 1.8.1-1                         deb
 pkgconf                                    1.8.1-1                         deb                      
 pkgconf-bin                                1.8.1-1                         deb                      
 polka                                      0.5.2                           npm                      
-postman-collection                         4.5.0                           npm                      
+postman-collection                         5.0.0                           npm                      
 postman-request                            2.88.1-postman.40               npm                      
-postman-runtime                            7.43.0                          npm                      
-postman-sandbox                            5.1.2                           npm                      
+postman-request                            2.88.1-postman.42               npm                      
+postman-runtime                            7.43.2                          npm                      
+postman-sandbox                            6.0.0                           npm                      
 postman-url-encoder                        3.0.5                           npm                      
+postman-url-encoder                        3.0.6                           npm                      
 postman-ws                                 7.4.5-postman.1                 npm                      
 prebuild-install                           7.1.1                           npm                      
 proc-log                                   4.2.0                           npm                      
@@ -783,6 +787,7 @@ pulseaudio                                 16.1+dfsg1-2+b1                 deb
 pulseaudio-utils                           16.1+dfsg1-2+b1                 deb                      
 pump                                       3.0.0                           npm                      
 punycode                                   2.3.0                           npm                      
+punycode                                   2.3.1                           npm                      
 python3                                    3.11.2-1+b1                     deb                      
 python3-distutils                          3.11.2-3                        deb                      
 python3-lib2to3                            3.11.2-3                        deb                      
@@ -820,7 +825,8 @@ safer-buffer                               2.1.2                           npm
 sanitize-filename                          1.6.3                           npm                      
 sed                                        4.9-1                           deb                      
 semver                                     5.7.2                           npm                      
-semver                                     7.6.3                           npm     (+4 duplicates)  
+semver                                     7.6.3                           npm     (+3 duplicates)  
+semver                                     7.7.1                           npm                      
 serialised-error                           1.1.3                           npm                      
 serialize-error                            2.1.0                           npm                      
 set-immediate-shim                         1.0.1                           npm                      
@@ -852,6 +858,7 @@ split2                                     3.2.2                           npm
 split2                                     4.2.0                           npm                      
 sprintf-js                                 1.1.3                           npm                      
 sshpk                                      1.17.0                          npm                      
+sshpk                                      1.18.0                          npm                      
 ssri                                       10.0.6                          npm                      
 stack-trace                                0.0.10                          npm                      
 stack-trace                                0.0.9                           npm                      
@@ -912,7 +919,7 @@ util-linux-extra                           2.38.1-5+deb12u3                deb
 uuid                                       3.4.0                           npm                      
 uuid                                       8.3.2                           npm     (+4 duplicates)  
 uuid-dev                                   2.38.1-5+deb12u3                deb                      
-uvm                                        3.0.0                           npm                      
+uvm                                        4.0.0                           npm                      
 vary                                       1.1.2                           npm                      
 verror                                     1.10.0                          npm                      
 webidl-conversions                         3.0.1                           npm                      

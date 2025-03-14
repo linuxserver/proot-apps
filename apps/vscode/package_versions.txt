@@ -28,7 +28,7 @@ NAME                                    VERSION                         TYPE
 @xterm/addon-webgl                      0.19.0-beta.98                  npm                      
 @xterm/headless                         5.6.0-beta.98                   npm                      
 @xterm/xterm                            5.6.0-beta.98                   npm                      
-Code                                    1.98.1                          npm                      
+Code                                    1.98.2                          npm                      
 adduser                                 3.134                           deb                      
 adwaita-icon-theme                      43-1                            deb                      
 agent-base                              7.1.1                           npm                      
@@ -51,7 +51,7 @@ ca-certificates                         20230311                        deb
 chownr                                  2.0.0                           npm                      
 chrome-remote-interface                 0.33.0                          npm                      
 clojure                                 1.0.0                           npm                      
-code                                    1.98.1-1741624510               deb                      
+code                                    1.98.2-1741788907               deb                      
 coffeescript                            1.0.0                           npm                      
 commander                               2.11.0                          npm                      
 configuration-editing                   1.0.0                           npm                      
@@ -465,7 +465,7 @@ ncurses-base                            6.4-4                           deb
 ncurses-bin                             6.4-4                           deb                      
 netcat-openbsd                          1.219-1                         deb                      
 node-abi                                3.8.0                           npm                      
-node-pty                                1.1.0-beta30                    npm                      
+node-pty                                1.1.0-beta31                    npm                      
 npm                                     1.0.1                           npm                      
 objective-c                             1.0.0                           npm                      
 ocl-icd-libopencl1                      2.3.1-1                         deb                      
