@@ -119,9 +119,7 @@ libexpat                   2.6.4-r0                 apk
 libffi                     3.4.7-r0                 apk           
 libflac                    1.4.3-r1                 apk           
 libgcc                     14.2.0-r5                apk           
-libgcrypt                  1.10.3-r1                apk           
 libgomp                    14.2.0-r5                apk           
-libgpg-error               1.51-r0                  apk           
 libhwy                     1.0.7-r1                 apk           
 libice                     1.1.2-r0                 apk           
 libidn2                    2.3.7-r0                 apk           
@@ -183,7 +181,7 @@ libxrandr                  1.5.4-r1                 apk
 libxrender                 0.9.12-r0                apk           
 libxscrnsaver              1.2.4-r3                 apk           
 libxshmfence               1.3.3-r0                 apk           
-libxslt                    1.1.42-r1                apk           
+libxslt                    1.1.43-r0                apk           
 libxt                      1.3.1-r0                 apk           
 libxtst                    1.2.5-r0                 apk           
 libxv                      1.0.13-r0                apk           
