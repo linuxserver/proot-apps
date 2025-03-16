@@ -8,7 +8,7 @@ bash                                5.2.15-2+b7                       deb
 bsdutils                            1:2.38.1-5+deb12u3                deb       
 ca-certificates                     20230311                          deb       
 coreutils                           9.1-1                             deb       
-curl                                7.88.1-10+deb12u8                 deb       
+curl                                7.88.1-10+deb12u12                deb       
 dash                                0.5.12-2                          deb       
 dbus-bin                            1.14.10-1~deb12u1                 deb       
 dbus-daemon                         1.14.10-1~deb12u1                 deb       
@@ -89,8 +89,8 @@ libcjson1                           1.7.15-1+deb12u2                  deb
 libcodec2-1.0                       1.0.5-1                           deb       
 libcom-err2                         1.47.0-2                          deb       
 libcrypt1                           1:4.4.33-2                        deb       
-libcurl3-gnutls                     7.88.1-10+deb12u8                 deb       
-libcurl4                            7.88.1-10+deb12u8                 deb       
+libcurl3-gnutls                     7.88.1-10+deb12u12                deb       
+libcurl4                            7.88.1-10+deb12u12                deb       
 libdatrie1                          0.2.13-2+b1                       deb       
 libdav1d6                           1.0.0-2+deb12u1                   deb       
 libdb5.3                            5.3.28+dfsg2-1                    deb       
@@ -202,7 +202,7 @@ liblz4-1                            1.9.4-1                           deb
 liblzma5                            5.4.1-0.2                         deb       
 libmagic-mgc                        1:5.44-3                          deb       
 libmagic1                           1:5.44-3                          deb       
-libmariadb3                         1:10.11.6-0+deb12u1               deb       
+libmariadb3                         1:10.11.11-0+deb12u1              deb       
 libmbedcrypto7                      2.28.3-1                          deb       
 libmd0                              1.0.4-2                           deb       
 libmd4c0                            0.4.8-1                           deb       
@@ -268,7 +268,7 @@ libpng16-16                         1.6.39-2                          deb
 libpocketsphinx3                    0.8+5prealpha+1-15                deb       
 libpoppler126                       22.12.0-2+b1                      deb       
 libpostproc56                       7:5.1.6-0+deb12u1                 deb       
-libpq5                              15.10-0+deb12u1                   deb       
+libpq5                              15.12-0+deb12u2                   deb       
 libproj25                           9.1.1-1+b1                        deb       
 libprotobuf32                       3.21.12-3                         deb       
 libpsl5                             0.21.2-1                          deb       
@@ -298,7 +298,7 @@ libqt5websockets5                   5.15.8-2                          deb
 libqt5widgets5                      5.15.8+dfsg-11+deb12u2            deb       
 libqt5xml5                          5.15.8+dfsg-11+deb12u2            deb       
 libquadmath0                        12.2.0-14                         deb       
-librabbitmq4                        0.11.0-1+b1                       deb       
+librabbitmq4                        0.11.0-1+deb12u1                  deb       
 librav1e0                           0.5.1-6                           deb       
 libraw1394-11                       2.1.2-2                           deb       
 libreadline8                        8.2-1.3                           deb       
@@ -450,7 +450,7 @@ libzvbi-common                      0.2.41-1                          deb
 libzvbi0                            0.2.41-1                          deb       
 login                               1:4.13+dfsg1-1+b1                 deb       
 logsave                             1.47.0-2                          deb       
-mariadb-common                      1:10.11.6-0+deb12u1               deb       
+mariadb-common                      1:10.11.11-0+deb12u1              deb       
 mawk                                1.3.4.20200120-3.1                deb       
 media-types                         10.0.0                            deb       
 melt                                7.12.0-1+b1                       deb       

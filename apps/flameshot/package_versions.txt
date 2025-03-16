@@ -18,7 +18,7 @@ cairo                      1.18.2-r1                apk
 cairo-gobject              1.18.2-r1                apk     
 cdparanoia-libs            10.2-r14                 apk     
 cups-libs                  2.4.11-r0                apk     
-curl                       8.12.1-r0                apk     
+curl                       8.12.1-r1                apk     
 dbus                       1.16.2-r1                apk     
 dbus-daemon-launch-helper  1.16.2-r1                apk     
 dbus-libs                  1.16.2-r1                apk     
@@ -31,7 +31,7 @@ font-noto                  2025.02.01-r0            apk
 font-noto-common           2025.02.01-r0            apk     
 font-noto-math             2025.02.01-r0            apk     
 font-noto-symbols          2025.02.01-r0            apk     
-fontconfig                 2.15.0-r1                apk     
+fontconfig                 2.15.0-r2                apk     
 freetype                   2.13.3-r0                apk     
 fribidi                    1.0.16-r0                apk     
 gdbm                       1.24-r0                  apk     
@@ -62,13 +62,13 @@ libbsd                     0.12.2-r0                apk
 libbz2                     1.0.8-r6                 apk     
 libcap2                    2.73-r0                  apk     
 libcrypto3                 3.3.2-r4                 apk     
-libcurl                    8.12.1-r0                apk     
+libcurl                    8.12.1-r1                apk     
 libdrm                     2.4.124-r0               apk     
 libeconf                   0.6.3-r0                 apk     
 libelf                     0.192-r0                 apk     
 libepoxy                   1.5.10-r1                apk     
 libevdev                   1.13.3-r0                apk     
-libexpat                   2.6.4-r0                 apk     
+libexpat                   2.7.0-r0                 apk     
 libffi                     3.4.7-r0                 apk     
 libflac                    1.4.3-r1                 apk     
 libgcc                     14.2.0-r5                apk     

@@ -59,7 +59,7 @@ cpp                                     1.0.0                           npm
 csharp                                  1.0.0                           npm                      
 css                                     1.0.0                           npm                      
 css-language-features                   1.0.0                           npm                      
-curl                                    7.88.1-10+deb12u8               deb                      
+curl                                    7.88.1-10+deb12u12              deb                      
 dart                                    1.0.0                           npm                      
 dash                                    0.5.12-2                        deb                      
 dbus-bin                                1.14.10-1~deb12u1               deb                      
@@ -196,8 +196,8 @@ libcolord2                              1.4.6-2.2                       deb
 libcom-err2                             1.47.0-2                        deb                      
 libcrypt1                               1:4.4.33-2                      deb                      
 libcups2                                2.4.2-3+deb12u8                 deb                      
-libcurl3-gnutls                         7.88.1-10+deb12u8               deb                      
-libcurl4                                7.88.1-10+deb12u8               deb                      
+libcurl3-gnutls                         7.88.1-10+deb12u12              deb                      
+libcurl4                                7.88.1-10+deb12u12              deb                      
 libdatrie1                              0.2.13-2+b1                     deb                      
 libdav1d6                               1.0.0-2+deb12u1                 deb                      
 libdb5.3                                5.3.28+dfsg2-1                  deb                      

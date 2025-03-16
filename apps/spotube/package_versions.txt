@@ -289,7 +289,7 @@ libpython3-stdlib                3.11.2-1+b1                      deb
 libpython3.11-minimal            3.11.2-6+deb12u5                 deb       
 libpython3.11-stdlib             3.11.2-6+deb12u5                 deb       
 libquadmath0                     12.2.0-14                        deb       
-librabbitmq4                     0.11.0-1+b1                      deb       
+librabbitmq4                     0.11.0-1+deb12u1                 deb       
 librav1e0                        0.5.1-6                          deb       
 libraw1394-11                    2.1.2-2                          deb       
 libreadline8                     8.2-1.3                          deb       
@@ -475,7 +475,7 @@ python3.11-minimal               3.11.2-6+deb12u5                 deb
 readline-common                  8.2-1.3                          deb       
 sed                              4.9-1                            deb       
 shared-mime-info                 2.2-1                            deb       
-spotube                          4.0.0+39                         deb       
+spotube                          4.0.1+40                         deb       
 sysvinit-utils                   3.06-4                           deb       
 tar                              1.34+dfsg-1.2+deb12u1            deb       
 tzdata                           2024b-0+deb12u1                  deb       
