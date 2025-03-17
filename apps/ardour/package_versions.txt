@@ -30,7 +30,7 @@ cairo                      1.18.2-r1                apk
 cairomm1.14                1.14.5-r0                apk           
 cdparanoia-libs            10.2-r14                 apk           
 cfg-if                     1.0.0                    rust-crate    
-cjson                      1.7.18-r0                apk           
+cjson                      1.7.18-r1                apk           
 clap                       4.4.14                   rust-crate    
 clap_builder               4.4.14                   rust-crate    
 clap_complete              4.4.6                    rust-crate    
