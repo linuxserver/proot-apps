@@ -85,7 +85,7 @@ gstreamer                       1.24.11-r0               apk
 gstreamer-ptp-helper            1.24.11-r0               apk                           
 gtk+3.0                         3.24.49-r0               apk                           
 gtk-update-icon-cache           3.24.49-r0               apk                           
-gtk4.0                          4.16.12-r0               apk                           
+gtk4.0                          4.16.13-r0               apk                           
 harfbuzz                        9.0.0-r1                 apk                           
 harfbuzz-icu                    9.0.0-r1                 apk                           
 harfbuzz-subset                 9.0.0-r1                 apk                           
@@ -138,7 +138,7 @@ libelf                          0.191-r0                 apk
 libepoxy                        1.5.10-r1                apk                           
 libepubgen                      0.1.1-r2                 apk                           
 libetonyek                      0.1.11-r0                apk                           
-libexpat                        2.6.4-r0                 apk                           
+libexpat                        2.7.0-r0                 apk                           
 libexttextcat                   3.4.6-r0                 apk                           
 libffi                          3.4.7-r0                 apk                           
 libflac                         1.4.3-r1                 apk                           
@@ -287,7 +287,7 @@ nettle                          3.10-r1                  apk
 nghttp2-libs                    1.64.0-r0                apk                           
 npth                            1.6-r4                   apk                           
 nspr                            4.36-r0                  apk                           
-nss                             3.107-r0                 apk                           
+nss                             3.109-r0                 apk                           
 officebean                      UNKNOWN                  java-archive                  
 openal-soft-libs                1.24.1-r0                apk                           
 openexr-libiex                  3.3.2-r0                 apk                           

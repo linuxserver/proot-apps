@@ -142,7 +142,7 @@ libfido2-1                      1.12.0-2+b1                     deb
 libflac12                       1.4.2+ds-2                      deb                            
 libfontconfig1                  2.14.1-4                        deb                            
 libfontenc1                     1:1.1.4-1                       deb                            
-libfreetype6                    2.12.1+dfsg-5+deb12u3           deb                            
+libfreetype6                    2.12.1+dfsg-5+deb12u4           deb                            
 libfribidi0                     1.0.8-2.1                       deb                            
 libgbm1                         22.3.6-1+deb12u1                deb                            
 libgcc-s1                       12.2.0-14                       deb                            

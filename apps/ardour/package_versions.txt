@@ -235,7 +235,7 @@ orc                        0.4.40-r1                apk
 pango                      1.54.0-r1                apk           
 pangomm2.46                2.46.4-r1                apk           
 paste                      1.0.14                   rust-crate    
-pcre2                      10.43-r0                 apk           
+pcre2                      10.43-r1                 apk           
 pixman                     0.43.4-r1                apk           
 ppv-lite86                 0.2.17                   rust-crate    
 proc-macro2                1.0.76                   rust-crate    

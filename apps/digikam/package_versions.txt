@@ -157,7 +157,7 @@ libepoxy                   1.5.10-r1                apk
 libevdev                   1.13.3-r0                apk     
 libevent                   2.1.12-r7                apk     
 libexif                    0.6.24-r2                apk     
-libexpat                   2.6.4-r0                 apk     
+libexpat                   2.7.0-r0                 apk     
 libffi                     3.4.7-r0                 apk     
 libflac                    1.4.3-r1                 apk     
 libgcc                     14.2.0-r4                apk     
@@ -291,7 +291,7 @@ nettle                     3.10-r1                  apk
 nghttp2-libs               1.64.0-r0                apk     
 npth                       1.6-r4                   apk     
 nspr                       4.36-r0                  apk     
-nss                        3.107-r0                 apk     
+nss                        3.109-r0                 apk     
 numactl                    2.0.18-r0                apk     
 onetbb                     2022.0.0-r0              apk     
 onevpl-libs                2023.3.1-r2              apk     

@@ -29,7 +29,7 @@ ffmpeg-libavutil           6.1.2-r1                 apk
 ffmpeg-libswresample       6.1.2-r1                 apk     
 fftw-single-libs           3.3.10-r6                apk     
 file                       5.46-r2                  apk     
-firefox                    135.0-r0                 apk     
+firefox                    136.0-r0                 apk     
 font-noto                  24.7.1-r0                apk     
 font-noto-common           24.7.1-r0                apk     
 font-noto-math             24.7.1-r0                apk     
@@ -53,8 +53,6 @@ gtk-update-icon-cache      3.24.49-r0               apk
 harfbuzz                   9.0.0-r1                 apk     
 hicolor-icon-theme         0.18-r0                  apk     
 hwdata-pci                 0.393-r0                 apk     
-icu-data-en                74.2-r0                  apk     
-icu-libs                   74.2-r0                  apk     
 imath                      3.1.12-r0                apk     
 lame-libs                  3.100-r5                 apk     
 lcms2                      2.16-r0                  apk     
@@ -75,7 +73,7 @@ libeconf                   0.6.3-r0                 apk
 libelf                     0.191-r0                 apk     
 libepoxy                   1.5.10-r1                apk     
 libevent                   2.1.12-r7                apk     
-libexpat                   2.6.4-r0                 apk     
+libexpat                   2.7.0-r0                 apk     
 libffi                     3.4.7-r0                 apk     
 libflac                    1.4.3-r1                 apk     
 libgcc                     14.2.0-r4                apk     
@@ -160,7 +158,7 @@ netcat-openbsd             1.226.1.1-r0             apk
 nettle                     3.10-r1                  apk     
 nghttp2-libs               1.64.0-r0                apk     
 nspr                       4.36-r0                  apk     
-nss                        3.107-r0                 apk     
+nss                        3.109-r0                 apk     
 numactl                    2.0.18-r0                apk     
 onevpl-libs                2023.3.1-r2              apk     
 openexr-libiex             3.3.2-r0                 apk     

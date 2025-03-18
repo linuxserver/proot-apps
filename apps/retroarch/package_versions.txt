@@ -211,8 +211,8 @@ libxfixes                    6.0.1-r4                 apk
 libxft                       2.3.8-r3                 apk     
 libxi                        1.8.2-r0                 apk     
 libxinerama                  1.1.5-r4                 apk     
-libxkbcommon                 1.8.0-r0                 apk     
-libxkbcommon-x11             1.8.0-r0                 apk     
+libxkbcommon                 1.8.1-r0                 apk     
+libxkbcommon-x11             1.8.1-r0                 apk     
 libxml2                      2.13.6-r0                apk     
 libxmu                       1.2.1-r0                 apk     
 libxrandr                    1.5.4-r1                 apk     
@@ -252,7 +252,7 @@ opus                         1.5.2-r1                 apk
 orc                          0.4.40-r1                apk     
 p11-kit                      0.25.5-r2                apk     
 pango                        1.54.0-r1                apk     
-pcre2                        10.43-r0                 apk     
+pcre2                        10.43-r1                 apk     
 pixman                       0.43.4-r1                apk     
 pkgconf                      2.4.3-r0                 apk     
 pugixml                      1.15-r0                  apk     

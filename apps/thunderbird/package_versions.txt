@@ -66,7 +66,7 @@ libeconf                   0.6.3-r0                 apk
 libelf                     0.191-r0                 apk     
 libepoxy                   1.5.10-r1                apk     
 libevent                   2.1.12-r7                apk     
-libexpat                   2.6.4-r0                 apk     
+libexpat                   2.7.0-r0                 apk     
 libffi                     3.4.7-r0                 apk     
 libflac                    1.4.3-r1                 apk     
 libgcc                     14.2.0-r4                apk     
@@ -150,7 +150,7 @@ netcat-openbsd             1.226.1.1-r0             apk
 nettle                     3.10-r1                  apk     
 nghttp2-libs               1.64.0-r0                apk     
 nspr                       4.36-r0                  apk     
-nss                        3.107-r0                 apk     
+nss                        3.109-r0                 apk     
 opus                       1.5.2-r1                 apk     
 orc                        0.4.40-r1                apk     
 p11-kit                    0.25.5-r2                apk     
