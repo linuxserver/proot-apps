@@ -50,7 +50,7 @@ assignment-compiler-plugin             2.0.21-release-482              java-arch
 assignment-compiler-plugin             UNKNOWN                         java-archive                   
 async-profiler                         UNKNOWN                         java-archive                   
 at-spi2-common                         2.46.0-5                        deb                            
-base-files                             12.4+deb12u9                    deb                            
+base-files                             12.4+deb12u10                   deb                            
 base-passwd                            3.6.1                           deb                            
 bash                                   5.2.15                          binary                         
 bash                                   5.2.15-2+b7                     deb                            
@@ -241,8 +241,8 @@ libblkid1                              2.38.1-5+deb12u3                deb
 libbrotli1                             1.0.9-2+b6                      deb                            
 libbsd0                                0.11.7-2                        deb                            
 libbz2-1.0                             1.0.8-5+b1                      deb                            
-libc-bin                               2.36-9+deb12u9                  deb                            
-libc6                                  2.36-9+deb12u9                  deb                            
+libc-bin                               2.36-9+deb12u10                 deb                            
+libc6                                  2.36-9+deb12u10                 deb                            
 libcairo-gobject2                      1.16.0-7                        deb                            
 libcairo2                              1.16.0-7                        deb                            
 libcap-ng0                             0.8.3-1+b3                      deb                            
@@ -625,7 +625,7 @@ tls-channel                            UNKNOWN                         java-arch
 trove4j                                UNKNOWN                         java-archive                   
 twig-language-2                        0.9.4                           npm                            
 typescript                             1.0.0                           npm                            
-tzdata                                 2024b-0+deb12u1                 deb                            
+tzdata                                 2025a-0+deb12u1                 deb                            
 udev                                   252.36-1~deb12u1                deb                            
 usr-is-merged                          37~deb12u1                      deb                            
 util-linux                             2.38.1-5+deb12u3                deb                            

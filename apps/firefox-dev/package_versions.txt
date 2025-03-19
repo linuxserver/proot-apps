@@ -219,7 +219,7 @@ openexr-libopenexrcore     3.3.2-r0                 apk
 opus                       1.5.2-r1                 apk           
 orc                        0.4.40-r1                apk           
 p11-kit                    0.25.5-r2                apk           
-pango                      1.54.0-r1                apk           
+pango                      1.56.3-r0                apk           
 paste                      1.0.14                   rust-crate    
 pcre2                      10.43-r1                 apk           
 pixman                     0.43.4-r1                apk           

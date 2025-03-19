@@ -37,7 +37,7 @@ clucene                         2.3.3.4-r22              apk
 clucene-contribs                2.3.3.4-r22              apk                           
 commonwizards                   UNKNOWN                  java-archive                  
 cups-libs                       2.4.11-r0                apk                           
-curl                            8.12.1-r0                apk                           
+curl                            8.12.1-r1                apk                           
 dbus                            1.14.10-r4               apk                           
 dbus-daemon-launch-helper       1.14.10-r4               apk                           
 dbus-libs                       1.14.10-r4               apk                           
@@ -126,7 +126,7 @@ libcap2                         2.71-r0                  apk
 libcdr                          0.1.7-r13                apk                           
 libcom_err                      1.47.1-r1                apk                           
 libcrypto3                      3.3.3-r0                 apk                           
-libcurl                         8.12.1-r0                apk                           
+libcurl                         8.12.1-r1                apk                           
 libdav1d                        1.5.0-r0                 apk                           
 libdc1394                       2.2.7-r0                 apk                           
 libde265                        1.0.15-r0                apk                           
@@ -181,7 +181,7 @@ liborcus                        0.19.2-r0                apk
 libpagemaker                    0.0.4-r9                 apk                           
 libpanelw                       6.5_p20241006-r3         apk                           
 libpciaccess                    0.18.1-r0                apk                           
-libpng                          1.6.44-r0                apk                           
+libpng                          1.6.47-r0                apk                           
 libpq                           17.4-r0                  apk                           
 libpsl                          0.21.5-r3                apk                           
 libpulse                        17.0-r4                  apk                           

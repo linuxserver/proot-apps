@@ -151,7 +151,7 @@ nghttp2-libs               1.65.0-r0                apk
 opus                       1.5.2-r1                 apk     
 orc                        0.4.40-r1                apk     
 p11-kit                    0.25.5-r2                apk     
-pango                      1.54.0-r1                apk     
+pango                      1.56.3-r0                apk     
 pcre2                      10.43-r1                 apk     
 pixman                     0.43.4-r1                apk     
 pkgconf                    2.4.3-r0                 apk     

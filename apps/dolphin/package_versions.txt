@@ -20,7 +20,7 @@ cairo-gobject              1.18.2-r1                apk
 cdparanoia-libs            10.2-r14                 apk     
 cjson                      1.7.18-r0                apk     
 cups-libs                  2.4.11-r0                apk     
-curl                       8.12.1-r0                apk     
+curl                       8.12.1-r1                apk     
 dbus                       1.14.10-r4               apk     
 dbus-daemon-launch-helper  1.14.10-r4               apk     
 dbus-libs                  1.14.10-r4               apk     
@@ -78,7 +78,7 @@ libbsd                     0.12.2-r0                apk
 libbz2                     1.0.8-r6                 apk     
 libcap2                    2.71-r0                  apk     
 libcrypto3                 3.3.3-r0                 apk     
-libcurl                    8.12.1-r0                apk     
+libcurl                    8.12.1-r1                apk     
 libdav1d                   1.5.0-r0                 apk     
 libdeflate                 1.22-r0                  apk     
 libdrm                     2.4.123-r1               apk     
@@ -108,7 +108,7 @@ libopenmpt                 0.7.12-r0                apk
 libpanelw                  6.5_p20241006-r3         apk     
 libpciaccess               0.18.1-r0                apk     
 libpcre2-16                10.43-r0                 apk     
-libpng                     1.6.44-r0                apk     
+libpng                     1.6.47-r0                apk     
 libproxy                   0.5.9-r0                 apk     
 libpsl                     0.21.5-r3                apk     
 libpulse                   17.0-r4                  apk     

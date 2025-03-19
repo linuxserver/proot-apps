@@ -33,7 +33,7 @@ adwaita-icon-theme                      43-1                            deb
 agent-base                              7.1.1                           npm                      
 apt                                     2.6.1                           deb                      
 at-spi2-common                          2.46.0-5                        deb                      
-base-files                              12.4+deb12u9                    deb                      
+base-files                              12.4+deb12u10                   deb                      
 base-passwd                             3.6.1                           deb                      
 base64-js                               1.5.1                           npm                      
 bash                                    5.2.15                          binary                   
@@ -50,7 +50,7 @@ ca-certificates                         20230311                        deb
 chownr                                  2.0.0                           npm                      
 chrome-remote-interface                 0.33.0                          npm                      
 clojure                                 1.0.0                           npm                      
-codium                                  1.98.2.25072                    deb                      
+codium                                  1.98.2.25078                    deb                      
 coffeescript                            1.0.0                           npm                      
 commander                               2.11.0                          npm                      
 configuration-editing                   1.0.0                           npm                      
@@ -183,8 +183,8 @@ libblkid1                               2.38.1-5+deb12u3                deb
 libbrotli1                              1.0.9-2+b6                      deb                      
 libbsd0                                 0.11.7-2                        deb                      
 libbz2-1.0                              1.0.8-5+b1                      deb                      
-libc-bin                                2.36-9+deb12u9                  deb                      
-libc6                                   2.36-9+deb12u9                  deb                      
+libc-bin                                2.36-9+deb12u10                 deb                      
+libc6                                   2.36-9+deb12u10                 deb                      
 libcairo-gobject2                       1.16.0-7                        deb                      
 libcairo2                               1.16.0-7                        deb                      
 libcap-ng0                              0.8.3-1+b3                      deb                      
@@ -226,7 +226,7 @@ libfido2-1                              1.12.0-2+b1                     deb
 libflac12                               1.4.2+ds-2                      deb                      
 libfontconfig1                          2.14.1-4                        deb                      
 libfontenc1                             1:1.1.4-1                       deb                      
-libfreetype6                            2.12.1+dfsg-5+deb12u3           deb                      
+libfreetype6                            2.12.1+dfsg-5+deb12u4           deb                      
 libfribidi0                             1.0.8-2.1                       deb                      
 libgbm1                                 22.3.6-1+deb12u1                deb                      
 libgcc-s1                               12.2.0-14                       deb                      
@@ -531,7 +531,7 @@ tunnel-forwarding                       1.0.0                           npm
 typescript                              1.0.0                           npm                      
 typescript                              5.8.2                           npm                      
 typescript-language-features            1.0.0                           npm                      
-tzdata                                  2024b-0+deb12u1                 deb                      
+tzdata                                  2025a-0+deb12u1                 deb                      
 udev                                    252.36-1~deb12u1                deb                      
 undici                                  7.2.3                           npm                      
 universalify                            2.0.1                           npm                      

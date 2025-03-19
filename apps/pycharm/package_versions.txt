@@ -5,7 +5,7 @@ adduser                         3.134                           deb
 annotations                     UNKNOWN                         java-archive                   
 apt                             2.6.1                           deb                            
 asciidoctor-vscode              3.3.2-dev                       npm                            
-base-files                      12.4+deb12u9                    deb                            
+base-files                      12.4+deb12u10                   deb                            
 base-passwd                     3.6.1                           deb                            
 bash                            5.2.15                          binary                         
 bash                            5.2.15-2+b7                     deb                            
@@ -408,7 +408,7 @@ testFramework                   UNKNOWN                         java-archive
 tls-channel                     UNKNOWN                         java-archive                   
 twig-language-2                 0.9.4                           npm                            
 typescript                      1.0.0                           npm                            
-tzdata                          2024b-0+deb12u1                 deb                            
+tzdata                          2025a-0+deb12u1                 deb                            
 udev                            252.36-1~deb12u1                deb                            
 usr-is-merged                   37~deb12u1                      deb                            
 util-linux                      2.38.1-5+deb12u3                deb                            
