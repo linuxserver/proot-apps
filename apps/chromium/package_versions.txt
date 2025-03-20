@@ -17,7 +17,7 @@ ca-certificates-bundle     20241121-r1              apk
 cairo                      1.18.2-r1                apk     
 cairo-gobject              1.18.2-r1                apk     
 cdparanoia-libs            10.2-r14                 apk     
-chromium                   134.0.6998.88-r0         apk     
+chromium                   134.0.6998.88-r1         apk     
 cjson                      1.7.18-r0                apk     
 crc32c                     1.1.2-r1                 apk     
 cups-libs                  2.4.11-r0                apk     
@@ -190,7 +190,7 @@ openexr-libiex             3.3.2-r0                 apk
 openexr-libilmthread       3.3.2-r0                 apk     
 openexr-libopenexr         3.3.2-r0                 apk     
 openexr-libopenexrcore     3.3.2-r0                 apk     
-openh264                   2.5.0-r0                 apk     
+openh264                   2.6.0-r0                 apk     
 opus                       1.5.2-r1                 apk     
 orc                        0.4.40-r1                apk     
 p11-kit                    0.25.5-r2                apk     

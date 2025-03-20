@@ -247,7 +247,7 @@ openexr-libiex                        3.3.2-r0                 apk
 openexr-libilmthread                  3.3.2-r0                 apk     
 openexr-libopenexr                    3.3.2-r0                 apk     
 openexr-libopenexrcore                3.3.2-r0                 apk     
-openh264                              2.5.0-r0                 apk     
+openh264                              2.6.0-r0                 apk     
 opus                                  1.5.2-r1                 apk     
 orc                                   0.4.40-r1                apk     
 p11-kit                               0.25.5-r2                apk     
@@ -284,7 +284,7 @@ sqlite-libs                           3.48.0-r0                apk
 sratom                                0.6.16-r0                apk     
 ssl_client                            1.37.0-r12               apk     
 tdb-libs                              1.4.12-r0                apk     
-telegram-desktop                      5.9.0-r0                 apk     
+telegram-desktop                      5.9.0-r1                 apk     
 tiff                                  4.7.0-r0                 apk     
 tslib                                 1.23-r0                  apk     
 tzdata                                2025a-r0                 apk     
