@@ -2,7 +2,7 @@ NAME                            VERSION                          TYPE
 adduser                         3.145                            deb     
 adwaita-icon-theme              48.0-1                           deb     
 apt                             2.9.33                           deb     
-at-spi2-common                  2.56.0-2                         deb     
+at-spi2-common                  2.56.0-3                         deb     
 base-files                      13.7                             deb     
 base-passwd                     3.6.6                            deb     
 bash                            5.2.37-1.1+b1                    deb     
@@ -48,10 +48,10 @@ libasound2-data                 1.2.13-1                         deb
 libasound2-plugins              1.2.12-2+b1                      deb     
 libasound2t64                   1.2.13-1+b1                      deb     
 libasyncns0                     0.8-6+b5                         deb     
-libatk-bridge2.0-0t64           2.56.0-2                         deb     
-libatk1.0-0t64                  2.56.0-2                         deb     
+libatk-bridge2.0-0t64           2.56.0-3                         deb     
+libatk1.0-0t64                  2.56.0-3                         deb     
 libatomic1                      14.2.0-19                        deb     
-libatspi2.0-0t64                2.56.0-2                         deb     
+libatspi2.0-0t64                2.56.0-3                         deb     
 libattr1                        1:2.5.2-3                        deb     
 libaudit-common                 1:4.0.2-2                        deb     
 libaudit1                       1:4.0.2-2+b2                     deb     
@@ -121,8 +121,8 @@ libgsm1                         1.0.22-1+b2                      deb
 libgssapi-krb5-2                1.21.3-5                         deb     
 libgstreamer-plugins-base1.0-0  1.26.0-1                         deb     
 libgstreamer1.0-0               1.26.0-1                         deb     
-libgtk-3-0t64                   3.24.49-1                        deb     
-libgtk-3-common                 3.24.49-1                        deb     
+libgtk-3-0t64                   3.24.49-2                        deb     
+libgtk-3-common                 3.24.49-2                        deb     
 libharfbuzz0b                   10.2.0-1+b1                      deb     
 libhogweed6t64                  3.10.1-1                         deb     
 libhwy1t64                      1.2.0-2+b2                       deb     
@@ -180,7 +180,7 @@ libpsl5t64                      0.21.2-1.1+b1                    deb
 libpulse0                       17.0+dfsg1-2+b1                  deb     
 libpulsedsp                     17.0+dfsg1-2+b1                  deb     
 librav1e0.7                     0.7.1-9+b1                       deb     
-librsvg2-2                      2.59.90+dfsg-2                   deb     
+librsvg2-2                      2.60.0+dfsg-1                    deb     
 librtmp1                        2.4+20151223.gitfa8646d.1-2+b5   deb     
 libsamplerate0                  0.2.2-4+b2                       deb     
 libsasl2-2                      2.1.28+dfsg1-9                   deb     
