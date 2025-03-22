@@ -33,7 +33,7 @@ fonts-liberation                1:1.07.4-11                     deb
 fonts-noto                      20201225-1                      deb       
 fonts-noto-core                 20201225-1                      deb       
 gcc-12-base                     12.2.0-14                       deb       
-google-chrome-stable            134.0.6998.117-1                deb       
+google-chrome-stable            134.0.6998.165-1                deb       
 gpgv                            2.2.40-1.1                      deb       
 grep                            3.8-5                           deb       
 gtk-update-icon-cache           3.24.38-2~deb12u3               deb       
