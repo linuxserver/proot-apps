@@ -1,5 +1,5 @@
 NAME                            VERSION                          TYPE           
-adduser                         3.147                            deb             
+adduser                         3.149                            deb             
 apt                             2.9.33                           deb             
 base-files                      13.7                             deb             
 base-passwd                     3.6.6                            deb             
@@ -11,7 +11,7 @@ commons-cli                     1.8.0                            java-archive
 commons-lang3                   3.14.0                           java-archive    
 commons-text                    1.12.0                           java-archive    
 coreutils                       9.5-1+b1                         deb             
-curl                            8.13.0~rc2-1                     deb             
+curl                            8.13.0~rc2-2                     deb             
 dash                            0.5.12-12                        deb             
 dbus-bin                        1.16.2-2                         deb             
 dbus-daemon                     1.16.2-2                         deb             
@@ -67,7 +67,7 @@ libcap2-bin                     1:2.75-3                         deb
 libcodec2-1.2                   1.2.0-3                          deb             
 libcom-err2                     1.47.2-1+b1                      deb             
 libcrypt1                       1:4.4.38-1                       deb             
-libcurl3t64-gnutls              8.13.0~rc2-1                     deb             
+libcurl3t64-gnutls              8.13.0~rc2-2                     deb             
 libdatrie1                      0.2.13-3+b1                      deb             
 libdav1d7                       1.5.1-1                          deb             
 libdb5.3t64                     5.3.28+dfsg2-9                   deb             
@@ -109,7 +109,7 @@ libgraphite2-3                  1.3.14-2+b1                      deb
 libgsm1                         1.0.22-1+b2                      deb             
 libgssapi-krb5-2                1.21.3-5                         deb             
 libgstreamer-plugins-base1.0-0  1.26.0-1                         deb             
-libgstreamer1.0-0               1.26.0-1                         deb             
+libgstreamer1.0-0               1.26.0-3                         deb             
 libharfbuzz0b                   10.2.0-1+b1                      deb             
 libhogweed6t64                  3.10.1-1                         deb             
 libhwy1t64                      1.2.0-2+b2                       deb             
