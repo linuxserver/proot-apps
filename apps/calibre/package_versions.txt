@@ -183,7 +183,7 @@ libice                     1.1.2-r0                 apk
 libidn                     1.42-r0                  apk                         
 libidn2                    2.3.7-r0                 apk                         
 libimagequant              4.2.2-r0                 apk                         
-libinput-libs              1.27.1-r0                apk                         
+libinput-libs              1.28.0-r0                apk                         
 libintl                    0.22.5-r0                apk                         
 libjpeg-turbo              3.1.0-r0                 apk                         
 libjxl                     0.10.3-r1                apk                         
@@ -220,7 +220,7 @@ libstemmer                 2.2.0-r0                 apk
 libtasn1                   4.20.0-r0                apk                         
 libtheora                  1.1.1-r18                apk                         
 libunistring               1.3-r0                   apk                         
-libusb                     1.0.27-r0                apk                         
+libusb                     1.0.28-r0                apk                         
 libuuid                    2.41-r0                  apk                         
 libva                      2.22.0-r1                apk                         
 libva-intel-driver         2.4.1-r2                 apk                         
@@ -468,7 +468,7 @@ thread_local               1.1.7                    rust-crate
 tiff                       4.7.0-r0                 apk                         
 tslib                      1.23-r0                  apk                         
 typing-extensions          4.12.2                   python                      
-tzdata                     2025a-r0                 apk                         
+tzdata                     2025b-r0                 apk                         
 uchardet-libs              0.0.8-r2                 apk                         
 udisks2                    2.10.1-r3                apk                         
 udisks2-libs               2.10.1-r3                apk                         

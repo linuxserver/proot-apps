@@ -201,7 +201,7 @@ libtiff6                        4.5.1+git230720-5                deb
 libtinfo6                       6.5+20250216-2                   deb             
 libtwolame0                     0.4.0-2+b2                       deb             
 libudev1                        257.4-3                          deb             
-libunistring5                   1.3-1                            deb             
+libunistring5                   1.3-2                            deb             
 libunwind8                      1.8.1-0.1                        deb             
 libuuid1                        2.40.4-5                         deb             
 libva-drm2                      2.22.0-3                         deb             
