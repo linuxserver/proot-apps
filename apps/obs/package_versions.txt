@@ -120,11 +120,11 @@ libdrm-intel1                             2.4.122-1~ubuntu0.24.04.1          deb
 libdrm-radeon1                            2.4.122-1~ubuntu0.24.04.1          deb     
 libdrm2                                   2.4.122-1~ubuntu0.24.04.1          deb     
 libduktape207                             2.7.0+tests-0ubuntu3               deb     
-libdw1t64                                 0.190-1.1build4.1                  deb     
+libdw1t64                                 0.190-1.1ubuntu0.1                 deb     
 libedit2                                  3.1-20230828-1build1               deb     
 libegl-mesa0                              24.2.8-1ubuntu1~24.04.1            deb     
 libegl1                                   1.7.0-1build1                      deb     
-libelf1t64                                0.190-1.1build4.1                  deb     
+libelf1t64                                0.190-1.1ubuntu0.1                 deb     
 libepoxy0                                 1.5.10-1build1                     deb     
 libevdev2                                 1.13.1+dfsg-1build1                deb     
 libexpat1                                 2.6.1-2ubuntu0.2                   deb     

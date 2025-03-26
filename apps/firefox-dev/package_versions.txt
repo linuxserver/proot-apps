@@ -58,7 +58,7 @@ ffmpeg-libavutil           6.1.2-r1                 apk
 ffmpeg-libswresample       6.1.2-r1                 apk           
 fftw-single-libs           3.3.10-r6                apk           
 file                       5.46-r2                  apk           
-firefox-developer-edition  137.0_beta9-r0           apk           
+firefox-developer-edition  137.0_beta10-r0          apk           
 font-noto                  2025.02.01-r0            apk           
 font-noto-common           2025.02.01-r0            apk           
 font-noto-math             2025.02.01-r0            apk           
@@ -176,7 +176,7 @@ libxv                      1.0.13-r0                apk
 libxvmc                    1.0.14-r1                apk           
 libxxf86vm                 1.1.6-r0                 apk           
 linux-raw-sys              0.4.12                   rust-crate    
-llvm19-libs                19.1.7-r0                apk           
+llvm19-libs                19.1.7-r1                apk           
 log                        0.4.20                   rust-crate    
 maybe-rayon                0.1.1                    rust-crate    
 memchr                     2.7.1                    rust-crate    
