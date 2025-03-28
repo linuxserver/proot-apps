@@ -42,3 +42,4 @@ COPY ./remove /remove
 
 FROM scratch
 COPY --from=rootfs / /
+
