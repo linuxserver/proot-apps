@@ -162,7 +162,7 @@ libxvmc                    1.0.14-r1                apk
 libxxf86vm                 1.1.5-r6                 apk     
 libzmq                     4.3.5-r2                 apk     
 lilv-libs                  0.24.24-r1               apk     
-llvm19-libs                19.1.4-r0                apk     
+llvm19-libs                19.1.4-r1                apk     
 lz4-libs                   1.10.0-r0                apk     
 lzo                        2.10-r5                  apk     
 mbedtls                    3.6.2-r0                 apk     

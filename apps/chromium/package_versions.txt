@@ -158,7 +158,7 @@ libxv                      1.0.12-r5                apk
 libxvmc                    1.0.14-r1                apk     
 libxxf86vm                 1.1.5-r6                 apk     
 libzmq                     4.3.5-r2                 apk     
-llvm19-libs                19.1.4-r0                apk     
+llvm19-libs                19.1.4-r1                apk     
 mbedtls                    3.6.2-r0                 apk     
 mesa                       24.2.8-r0                apk     
 mesa-dri-gallium           24.2.8-r0                apk     

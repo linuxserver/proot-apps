@@ -256,7 +256,7 @@ libxvmc                         1.0.14-r1                apk
 libxxf86vm                      1.1.5-r6                 apk                           
 libzbar                         0.23.93-r1               apk                           
 libzmf                          0.0.2-r19                apk                           
-llvm19-libs                     19.1.4-r0                apk                           
+llvm19-libs                     19.1.4-r1                apk                           
 local_policy                    UNKNOWN                  java-archive  (+1 duplicate)  
 localedata                      UNKNOWN                  java-archive                  
 management-agent                UNKNOWN                  java-archive                  

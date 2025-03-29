@@ -267,7 +267,7 @@ libxxf86vm                            1.1.5-r6                 apk
 libzbar                               0.23.93-r1               apk       
 linux-pam                             1.6.1-r1                 apk       
 live-media                            2023.01.19-r0            apk       
-llvm19-libs                           19.1.4-r0                apk       
+llvm19-libs                           19.1.4-r1                apk       
 lmdb                                  0.9.33-r0                apk       
 lua5.2-libs                           5.2.4-r13                apk       
 lz4-libs                              1.10.0-r0                apk       

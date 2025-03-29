@@ -29,7 +29,7 @@ ffmpeg-libavutil           6.1.2-r1                 apk
 ffmpeg-libswresample       6.1.2-r1                 apk     
 fftw-single-libs           3.3.10-r6                apk     
 file                       5.46-r2                  apk     
-firefox                    136.0.3-r0               apk     
+firefox                    136.0.4-r0               apk     
 font-noto                  24.7.1-r0                apk     
 font-noto-common           24.7.1-r0                apk     
 font-noto-math             24.7.1-r0                apk     
@@ -136,7 +136,7 @@ libxtst                    1.2.5-r0                 apk
 libxv                      1.0.12-r5                apk     
 libxvmc                    1.0.14-r1                apk     
 libxxf86vm                 1.1.5-r6                 apk     
-llvm19-libs                19.1.4-r0                apk     
+llvm19-libs                19.1.4-r1                apk     
 mesa                       24.2.8-r0                apk     
 mesa-dri-gallium           24.2.8-r0                apk     
 mesa-egl                   24.2.8-r0                apk     
