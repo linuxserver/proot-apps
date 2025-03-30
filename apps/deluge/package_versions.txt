@@ -340,7 +340,7 @@ xcb-util-keysyms           0.4.1-r0                 apk
 xcb-util-renderutil        0.3.10-r0                apk       
 xcb-util-wm                0.4.2-r0                 apk       
 xdg-desktop-portal         1.18.4-r1                apk       
-xdg-desktop-portal-gtk     1.15.1-r1                apk       
+xdg-desktop-portal-gtk     1.15.3-r0                apk       
 xdg-document-portal        1.18.4-r1                apk       
 xdg-utils                  1.2.1-r1                 apk       
 xf86-video-amdgpu          23.0.0-r3                apk       

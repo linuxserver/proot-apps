@@ -47,11 +47,11 @@ gstreamer                  1.24.12-r0               apk
 gstreamer-ptp-helper       1.24.12-r0               apk     
 gtk+3.0                    3.24.49-r1               apk     
 gtk-update-icon-cache      3.24.49-r1               apk     
-harfbuzz                   10.2.0-r0                apk     
+harfbuzz                   10.2.0-r1                apk     
 hicolor-icon-theme         0.18-r0                  apk     
 hwdata-pci                 0.393-r0                 apk     
-icu-data-full              74.2-r0                  apk     
-icu-libs                   74.2-r0                  apk     
+icu-data-full              76.1-r0                  apk     
+icu-libs                   76.1-r0                  apk     
 kguiaddons5                5.116.0-r0               apk     
 lame-libs                  3.100-r5                 apk     
 libasyncns                 0.8-r4                   apk     
@@ -117,7 +117,7 @@ libxi                      1.8.2-r0                 apk
 libxinerama                1.1.5-r4                 apk     
 libxkbcommon               1.8.1-r0                 apk     
 libxkbcommon-x11           1.8.1-r0                 apk     
-libxml2                    2.13.6-r0                apk     
+libxml2                    2.13.7-r0                apk     
 libxmu                     1.2.1-r0                 apk     
 libxrandr                  1.5.4-r1                 apk     
 libxrender                 0.9.12-r0                apk     
@@ -161,8 +161,8 @@ pyc                        3.12.9-r0                apk
 python3                    3.12.9-r0                apk     
 python3-pyc                3.12.9-r0                apk     
 python3-pycache-pyc0       3.12.9-r0                apk     
-qt5-qtbase                 5.15.10_git20230714-r3   apk     
-qt5-qtbase-x11             5.15.10_git20230714-r3   apk     
+qt5-qtbase                 5.15.10_git20230714-r4   apk     
+qt5-qtbase-x11             5.15.10_git20230714-r4   apk     
 qt5-qtdeclarative          5.15.10_git20230629-r0   apk     
 qt5-qtsvg                  5.15.10_git20230612-r1   apk     
 qt5-qtwayland              5.15.10_git20230714-r1   apk     
@@ -194,6 +194,6 @@ xf86-video-intel           2.99.917_git20221028-r7  apk
 xkeyboard-config           2.43-r0                  apk     
 xprop                      1.2.8-r0                 apk     
 xset                       1.2.5-r1                 apk     
-xz-libs                    5.6.4-r0                 apk     
+xz-libs                    5.8.0-r0                 apk     
 zlib                       1.3.1-r2                 apk     
 zstd-libs                  1.5.7-r0                 apk     
