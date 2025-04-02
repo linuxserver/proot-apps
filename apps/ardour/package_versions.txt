@@ -123,7 +123,7 @@ libgomp                    14.2.0-r5                apk
 libhwy                     1.0.7-r1                 apk           
 libice                     1.1.2-r0                 apk           
 libidn2                    2.3.7-r0                 apk           
-libintl                    0.22.5-r0                apk           
+libintl                    0.24-r0                  apk           
 libjpeg-turbo              3.1.0-r0                 apk           
 libjxl                     0.10.3-r1                apk           
 liblo                      0.31-r1                  apk           
@@ -175,7 +175,7 @@ libxfixes                  6.0.1-r4                 apk
 libxft                     2.3.8-r3                 apk           
 libxi                      1.8.2-r0                 apk           
 libxinerama                1.1.5-r4                 apk           
-libxml2                    2.13.7-r0                apk           
+libxml2                    2.13.7-r1                apk           
 libxmu                     1.2.1-r0                 apk           
 libxrandr                  1.5.4-r1                 apk           
 libxrender                 0.9.12-r0                apk           
@@ -190,7 +190,7 @@ libxxf86vm                 1.1.6-r0                 apk
 libzmq                     4.3.5-r2                 apk           
 lilv-libs                  0.24.26-r0               apk           
 linux-raw-sys              0.4.12                   rust-crate    
-llvm19-libs                19.1.7-r1                apk           
+llvm19-libs                19.1.7-r5                apk           
 log                        0.4.20                   rust-crate    
 lrdf                       0.6.1-r2                 apk           
 lz4-libs                   1.10.0-r0                apk           
@@ -288,10 +288,10 @@ v_frame                    0.3.7                    rust-crate
 vamp-sdk-libs              2.10.0-r2                apk           
 vidstab                    1.1.1-r0                 apk           
 vulkan-loader              1.4.304.1-r1             apk           
-wayland-libs-client        1.23.1-r0                apk           
-wayland-libs-cursor        1.23.1-r0                apk           
-wayland-libs-egl           1.23.1-r0                apk           
-wayland-libs-server        1.23.1-r0                apk           
+wayland-libs-client        1.23.1-r3                apk           
+wayland-libs-cursor        1.23.1-r3                apk           
+wayland-libs-egl           1.23.1-r3                apk           
+wayland-libs-server        1.23.1-r3                apk           
 webrtc-audio-processing-1  1.3-r1                   apk           
 x264-libs                  0.164.3108-r0            apk           
 x265-libs                  3.6-r0                   apk           

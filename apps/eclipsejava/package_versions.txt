@@ -1,5 +1,4 @@
 NAME                                                                  VERSION                         TYPE                         
-Java(TM) Native Access                                                7.0.2                           dotnet        (+1 duplicate)  
 JavaEWAH                                                              1.2.3                           java-archive                  
 adduser                                                               3.134                           deb                           
 adwaita-icon-theme                                                    43-1                            deb                           

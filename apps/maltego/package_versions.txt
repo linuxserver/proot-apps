@@ -1,6 +1,4 @@
 NAME                                                    VERSION                                                                       TYPE                           
-Java(TM) Native Access                                  6.1.1                                                                         dotnet        (+1 duplicate)    
-NetBeans Platform Launcher                              12.5.0.0                                                                      dotnet        (+3 duplicates)   
 SparseBitSet                                            1.3                                                                           java-archive                    
 adduser                                                 3.134                                                                         deb                             
 adwaita-icon-theme                                      43-1                                                                          deb                             
