@@ -15,8 +15,8 @@ apk-tools                  2.14.7-r0                apk
 apsw                       3.49.1.0                 python                      
 arg_enum_proc_macro        0.3.4                    rust-crate                  
 arrayvec                   0.7.4                    rust-crate  (+1 duplicate)  
-at-spi2-core               2.56.0-r0                apk                         
-at-spi2-core-libs          2.56.0-r0                apk                         
+at-spi2-core               2.56.1-r0                apk                         
+at-spi2-core-libs          2.56.1-r0                apk                         
 av-metrics                 0.9.1                    rust-crate                  
 av1-grain                  0.2.3                    rust-crate                  
 avahi-libs                 0.8-r20                  apk                         
@@ -33,8 +33,8 @@ c-ares                     1.34.4-r0                apk
 ca-certificates-bundle     20241121-r1              apk                         
 cairo                      1.18.2-r1                apk                         
 cairo-gobject              1.18.2-r1                apk                         
-calibre                    8.0.1-r0                 apk                         
-calibre-pyc                8.0.1-r0                 apk                         
+calibre                    8.0.1-r1                 apk                         
+calibre-pyc                8.0.1-r1                 apk                         
 cdparanoia-libs            10.2-r14                 apk                         
 cfg-if                     1.0.0                    rust-crate  (+1 duplicate)  
 chardet                    5.2.0                    python                      
@@ -113,8 +113,8 @@ gstreamer                  1.24.12-r0               apk
 gstreamer-ptp-helper       1.24.12-r0               apk                         
 gtk+3.0                    3.24.49-r1               apk                         
 gtk-update-icon-cache      3.24.49-r1               apk                         
-harfbuzz                   10.2.0-r0                apk                         
-harfbuzz-subset            10.2.0-r0                apk                         
+harfbuzz                   10.2.0-r1                apk                         
+harfbuzz-subset            10.2.0-r1                apk                         
 heck                       0.4.1                    rust-crate                  
 hicolor-icon-theme         0.18-r0                  apk                         
 html2text                  2024.2.26                python                      
@@ -122,8 +122,8 @@ html5-parser               0.4.12                   python
 html5lib                   1.1                      python                      
 hwdata-pci                 0.393-r0                 apk                         
 hyphen                     2.8.8-r3                 apk                         
-icu-data-en                74.2-r0                  apk                         
-icu-libs                   74.2-r0                  apk                         
+icu-data-en                76.1-r0                  apk                         
+icu-libs                   76.1-r0                  apk                         
 ifaddr                     0.2.0                    python                      
 imagequant                 4.2.2                    rust-crate                  
 imagequant-sys             4.0.3                    rust-crate                  
@@ -144,8 +144,8 @@ libSvtAv1Enc               2.3.0-r0                 apk
 libassuan                  2.5.7-r0                 apk                         
 libasyncns                 0.8-r4                   apk                         
 libatasmart                0.19-r4                  apk                         
-libatk-1.0                 2.56.0-r0                apk                         
-libatk-bridge-2.0          2.56.0-r0                apk                         
+libatk-1.0                 2.56.1-r0                apk                         
+libatk-bridge-2.0          2.56.1-r0                apk                         
 libb2                      0.98.1-r3                apk                         
 libblkid                   2.41-r0                  apk                         
 libblockdev                3.1.1-r2                 apk                         
@@ -184,7 +184,7 @@ libidn                     1.42-r0                  apk
 libidn2                    2.3.7-r0                 apk                         
 libimagequant              4.2.2-r0                 apk                         
 libinput-libs              1.28.0-r0                apk                         
-libintl                    0.22.5-r0                apk                         
+libintl                    0.24-r0                  apk                         
 libjpeg-turbo              3.1.0-r0                 apk                         
 libjxl                     0.10.3-r1                apk                         
 libksba                    1.6.7-r0                 apk                         
@@ -244,16 +244,16 @@ libxfixes                  6.0.1-r4                 apk
 libxft                     2.3.8-r3                 apk                         
 libxi                      1.8.2-r0                 apk                         
 libxinerama                1.1.5-r4                 apk                         
-libxkbcommon               1.8.1-r0                 apk                         
-libxkbcommon-x11           1.8.1-r0                 apk                         
+libxkbcommon               1.8.1-r2                 apk                         
+libxkbcommon-x11           1.8.1-r2                 apk                         
 libxkbfile                 1.1.3-r0                 apk                         
-libxml2                    2.13.6-r0                apk                         
+libxml2                    2.13.7-r1                apk                         
 libxmu                     1.2.1-r0                 apk                         
 libxrandr                  1.5.4-r1                 apk                         
 libxrender                 0.9.12-r0                apk                         
 libxscrnsaver              1.2.4-r3                 apk                         
 libxshmfence               1.3.3-r0                 apk                         
-libxslt                    1.1.43-r0                apk                         
+libxslt                    1.1.43-r3                apk                         
 libxt                      1.3.1-r0                 apk                         
 libxtst                    1.2.5-r0                 apk                         
 libxv                      1.0.13-r0                apk                         
@@ -262,12 +262,12 @@ libxxf86vm                 1.1.6-r0                 apk
 libxxhash                  0.8.3-r0                 apk                         
 libzmq                     4.3.5-r2                 apk                         
 linux-raw-sys              0.4.12                   rust-crate                  
-llvm19-libs                19.1.7-r1                apk                         
+llvm19-libs                19.1.7-r5                apk                         
 log                        0.4.20                   rust-crate                  
 lxml                       5.3.1                    python                      
 markdown                   3.7                      python                      
 maybe-rayon                0.1.1                    rust-crate                  
-mbedtls                    3.6.2-r0                 apk                         
+mbedtls                    3.6.3-r0                 apk                         
 mechanize                  0.4.10                   python                      
 memchr                     2.7.1                    rust-crate                  
 memoffset                  0.9.0                    rust-crate                  
@@ -367,8 +367,8 @@ py3-ifaddr                 0.2.0-r4                 apk
 py3-ifaddr-pyc             0.2.0-r4                 apk                         
 py3-jeepney                0.9.0-r0                 apk                         
 py3-jeepney-pyc            0.9.0-r0                 apk                         
-py3-lxml                   5.3.1-r0                 apk                         
-py3-lxml-pyc               5.3.1-r0                 apk                         
+py3-lxml                   5.3.1-r3                 apk                         
+py3-lxml-pyc               5.3.1-r3                 apk                         
 py3-markdown               3.7-r0                   apk                         
 py3-markdown-pyc           3.7-r0                   apk                         
 py3-mechanize              0.4.10-r0                apk                         
@@ -396,8 +396,8 @@ py3-six                    1.17.0-r0                apk
 py3-six-pyc                1.17.0-r0                apk                         
 py3-soupsieve              2.6-r0                   apk                         
 py3-soupsieve-pyc          2.6-r0                   apk                         
-py3-typing-extensions      4.12.2-r0                apk                         
-py3-typing-extensions-pyc  4.12.2-r0                apk                         
+py3-typing-extensions      4.13.0-r0                apk                         
+py3-typing-extensions-pyc  4.13.0-r0                apk                         
 py3-webencodings           0.5.1-r8                 apk                         
 py3-webencodings-pyc       0.5.1-r8                 apk                         
 py3-xxhash                 3.4.1-r1                 apk                         
@@ -414,9 +414,9 @@ python-dateutil            2.9.0                    python
 python3                    3.12.9-r0                apk                         
 python3-pyc                3.12.9-r0                apk                         
 python3-pycache-pyc0       3.12.9-r0                apk                         
-qt6-qtbase                 6.8.2-r0                 apk                         
-qt6-qtbase-private-dev     6.8.2-r0                 apk                         
-qt6-qtbase-x11             6.8.2-r0                 apk                         
+qt6-qtbase                 6.8.2-r1                 apk                         
+qt6-qtbase-private-dev     6.8.2-r1                 apk                         
+qt6-qtbase-x11             6.8.2-r1                 apk                         
 qt6-qtconnectivity         6.8.2-r0                 apk                         
 qt6-qtdeclarative          6.8.2-r0                 apk                         
 qt6-qtimageformats         6.8.2-r0                 apk                         
@@ -428,7 +428,7 @@ qt6-qtsvg                  6.8.2-r0                 apk
 qt6-qttools-libs           6.8.2-r1                 apk                         
 qt6-qtwayland              6.8.2-r0                 apk                         
 qt6-qtwebchannel           6.8.2-r0                 apk                         
-qt6-qtwebengine            6.8.2-r1                 apk                         
+qt6-qtwebengine            6.8.2-r2                 apk                         
 qt6-qtwebsockets-libs      6.8.2-r0                 apk                         
 quote                      1.0.35                   rust-crate                  
 rand                       0.8.5                    rust-crate                  
@@ -446,7 +446,7 @@ scan_fmt                   0.2.6                    rust-crate
 scanelf                    1.3.8-r1                 apk                         
 scopeguard                 1.2.0                    rust-crate                  
 sgmllib3k                  1.0.0                    python                      
-shared-mime-info           2.4-r2                   apk                         
+shared-mime-info           2.4-r5                   apk                         
 signal-hook                0.3.17                   rust-crate                  
 signal-hook-registry       1.4.1                    rust-crate                  
 simd_helpers               0.1.0                    rust-crate                  
@@ -467,7 +467,7 @@ thiserror-impl             1.0.56                   rust-crate
 thread_local               1.1.7                    rust-crate                  
 tiff                       4.7.0-r0                 apk                         
 tslib                      1.23-r0                  apk                         
-typing-extensions          4.12.2                   python                      
+typing-extensions          4.13.0                   python                      
 tzdata                     2025b-r0                 apk                         
 uchardet-libs              0.0.8-r2                 apk                         
 udisks2                    2.10.1-r3                apk                         
@@ -477,10 +477,10 @@ unicode-width              0.1.11                   rust-crate
 utf8parse                  0.2.1                    rust-crate                  
 v_frame                    0.3.7                    rust-crate                  
 volume_key                 0.3.12-r7                apk                         
-wayland-libs-client        1.23.1-r0                apk                         
-wayland-libs-cursor        1.23.1-r0                apk                         
-wayland-libs-egl           1.23.1-r0                apk                         
-wayland-libs-server        1.23.1-r0                apk                         
+wayland-libs-client        1.23.1-r3                apk                         
+wayland-libs-cursor        1.23.1-r3                apk                         
+wayland-libs-egl           1.23.1-r3                apk                         
+wayland-libs-server        1.23.1-r3                apk                         
 webencodings               0.5.1                    python                      
 webrtc-audio-processing-1  1.3-r1                   apk                         
 x264-libs                  0.164.3108-r0            apk                         
@@ -500,7 +500,7 @@ xprop                      1.2.8-r0                 apk
 xset                       1.2.5-r1                 apk                         
 xvidcore                   1.3.7-r2                 apk                         
 xxhash                     3.4.1                    python                      
-xz-libs                    5.6.4-r0                 apk                         
+xz-libs                    5.8.0-r0                 apk                         
 y4m                        0.8.0                    rust-crate                  
 zeroconf                   0.144.1                  python                      
 zlib                       1.3.1-r2                 apk                         

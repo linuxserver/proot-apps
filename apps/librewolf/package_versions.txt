@@ -133,7 +133,7 @@ libpciaccess               0.18.1-r0                apk
 libpng                     1.6.47-r0                apk           
 libpsl                     0.21.5-r3                apk           
 libpulse                   17.0-r5                  apk           
-librewolf                  136.0.4_p1-r0            apk           
+librewolf                  137.0_p1-r0              apk           
 libsharpyuv                1.5.0-r0                 apk           
 libsm                      1.2.5-r0                 apk           
 libsndfile                 1.2.2-r2                 apk           

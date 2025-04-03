@@ -7,7 +7,7 @@ base-files                      12.4+deb12u10                   deb
 base-passwd                     3.6.1                           deb       
 bash                            5.2.15                          binary    
 bash                            5.2.15-2+b7                     deb       
-brave-browser                   1.76.82                         deb       
+brave-browser                   1.77.95                         deb       
 brave-keyring                   1.18                            deb       
 bsdutils                        1:2.38.1-5+deb12u3              deb       
 ca-certificates                 20230311                        deb       
