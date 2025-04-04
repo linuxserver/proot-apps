@@ -173,7 +173,7 @@ llvm19-libs                19.1.4-r1                apk
 lmdb                       0.9.33-r0                apk       
 lzo                        2.10-r5                  apk       
 mariadb-connector-c        3.3.10-r0                apk       
-mbedtls                    3.6.2-r0                 apk       
+mbedtls                    3.6.3-r0                 apk       
 mesa                       24.2.8-r0                apk       
 mesa-dri-gallium           24.2.8-r0                apk       
 mesa-egl                   24.2.8-r0                apk       
