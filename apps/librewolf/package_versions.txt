@@ -111,7 +111,7 @@ libeconf                   0.6.3-r0                 apk
 libelf                     0.192-r0                 apk           
 libepoxy                   1.5.10-r1                apk           
 libevent                   2.1.12-r8                apk           
-libexpat                   2.7.0-r0                 apk           
+libexpat                   2.7.1-r0                 apk           
 libffi                     3.4.7-r0                 apk           
 libflac                    1.4.3-r1                 apk           
 libgcc                     14.2.0-r5                apk           

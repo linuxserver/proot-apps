@@ -384,7 +384,7 @@ xkeyboard-config           2.43-r0                  apk
 xprop                      1.2.8-r0                 apk     
 xset                       1.2.5-r1                 apk     
 xvidcore                   1.3.7-r2                 apk     
-xz-libs                    5.6.3-r0                 apk     
+xz-libs                    5.6.3-r1                 apk     
 zimg                       3.0.5-r2                 apk     
 zix-libs                   0.4.2-r0                 apk     
 zlib                       1.3.1-r2                 apk     

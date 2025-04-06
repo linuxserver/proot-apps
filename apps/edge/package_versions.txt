@@ -133,7 +133,7 @@ libjbig0                        2.1-6.1+b2                      deb
 libjpeg62-turbo                 1:2.1.5-3.1                     deb     
 libjxl0.11                      0.11.1-4                        deb     
 libk5crypto3                    1.21.3-5                        deb     
-libkeyutils1                    1.6.3-4                         deb     
+libkeyutils1                    1.6.3-5                         deb     
 libkmod2                        34.2-1                          deb     
 libkrb5-3                       1.21.3-5                        deb     
 libkrb5support0                 1.21.3-5                        deb     

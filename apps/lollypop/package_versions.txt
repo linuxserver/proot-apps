@@ -254,7 +254,7 @@ xf86-video-intel           2.99.917_git20221028-r7  apk
 xkeyboard-config           2.43-r0                  apk       
 xprop                      1.2.8-r0                 apk       
 xset                       1.2.5-r1                 apk       
-xz-libs                    5.6.3-r0                 apk       
+xz-libs                    5.6.3-r1                 apk       
 yt-dlp                     2025.3.31                python    
 yt-dlp-core                2025.03.31-r0            apk       
 yt-dlp-core-pyc            2025.03.31-r0            apk       
