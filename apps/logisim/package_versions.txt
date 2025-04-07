@@ -38,7 +38,7 @@ init-system-helpers             1.68                            deb
 iso-codes                       4.17.0-1                        deb             
 jrt-fs                          21.0.4                          java-archive    
 keyboard-configuration          1.236                           deb             
-libabsl20240722                 20240722.0-1.5                  deb             
+libabsl20240722                 20240722.0-3                    deb             
 libacl1                         2.3.2-2+b1                      deb             
 libaom3                         3.12.0-1                        deb             
 libapparmor1                    4.1.0~beta5-6                   deb             
@@ -98,7 +98,7 @@ libgdk-pixbuf-2.0-0             2.42.12+dfsg-2                  deb
 libgdk-pixbuf2.0-common         2.42.12+dfsg-2                  deb             
 libgl1                          1.7.0-1+b2                      deb             
 libgl1-mesa-dri                 25.0.3-1                        deb             
-libglib2.0-0t64                 2.84.0-2                        deb             
+libglib2.0-0t64                 2.84.1-1                        deb             
 libglvnd0                       1.7.0-1+b2                      deb             
 libglx-mesa0                    25.0.3-1                        deb             
 libglx0                         1.7.0-1+b2                      deb             
@@ -196,7 +196,7 @@ libthai-data                    0.1.29-2                        deb
 libthai0                        0.1.29-2+b1                     deb             
 libtheoradec1                   1.2.0~alpha1+dfsg-6             deb             
 libtheoraenc1                   1.2.0~alpha1+dfsg-6             deb             
-libtiff6                        4.7.0-2                         deb             
+libtiff6                        4.7.0-3                         deb             
 libtinfo6                       6.5+20250216-2                  deb             
 libtwolame0                     0.4.0-2+b2                      deb             
 libudev1                        257.4-9                         deb             
