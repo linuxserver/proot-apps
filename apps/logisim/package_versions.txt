@@ -268,7 +268,7 @@ mount                           2.40.4-5                        deb
 ncurses-base                    6.5+20250216-2                  deb             
 ncurses-bin                     6.5+20250216-2                  deb             
 netcat-openbsd                  1.228-1                         deb             
-ocl-icd-libopencl1              2.3.2-1+b2                      deb             
+ocl-icd-libopencl1              2.3.3-1                         deb             
 openssl                         3.4.1-1                         deb             
 openssl-provider-legacy         3.4.1-1                         deb             
 passwd                          1:4.17.3-2                      deb             
