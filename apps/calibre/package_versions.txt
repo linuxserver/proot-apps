@@ -87,7 +87,7 @@ font-noto                  2025.02.01-r0            apk
 font-noto-common           2025.02.01-r0            apk                         
 font-noto-math             2025.02.01-r0            apk                         
 font-noto-symbols          2025.02.01-r0            apk                         
-fontconfig                 2.15.0-r2                apk                         
+fontconfig                 2.15.0-r3                apk                         
 fonttools                  4.56.0                   python                      
 freetype                   2.13.3-r0                apk                         
 fribidi                    1.0.16-r0                apk                         
@@ -147,7 +147,7 @@ libatasmart                0.19-r4                  apk
 libatk-1.0                 2.56.1-r0                apk                         
 libatk-bridge-2.0          2.56.1-r0                apk                         
 libb2                      0.98.1-r3                apk                         
-libblkid                   2.41-r0                  apk                         
+libblkid                   2.41-r1                  apk                         
 libblockdev                3.1.1-r2                 apk                         
 libbluray                  1.3.4-r1                 apk                         
 libbsd                     0.12.2-r0                apk                         
@@ -193,7 +193,7 @@ libltdl                    2.5.4-r0                 apk
 libmagic                   5.46-r2                  apk                         
 libmd                      1.1.0-r0                 apk                         
 libmng                     2.0.3-r2                 apk                         
-libmount                   2.41-r0                  apk                         
+libmount                   2.41-r1                  apk                         
 libmtp                     1.1.22-r0                apk                         
 libncursesw                6.5_p20250216-r0         apk                         
 libnvme                    1.12-r0                  apk                         
@@ -221,7 +221,7 @@ libtasn1                   4.20.0-r0                apk
 libtheora                  1.1.1-r18                apk                         
 libunistring               1.3-r0                   apk                         
 libusb                     1.0.28-r0                apk                         
-libuuid                    2.41-r0                  apk                         
+libuuid                    2.41-r1                  apk                         
 libva                      2.22.0-r1                apk                         
 libva-intel-driver         2.4.1-r2                 apk                         
 libvdpau                   1.5-r4                   apk                         
@@ -404,16 +404,16 @@ py3-xxhash                 3.4.1-r1                 apk
 py3-xxhash-pyc             3.4.1-r1                 apk                         
 py3-zeroconf               0.146.3-r0               apk                         
 py3-zeroconf-pyc           0.146.3-r0               apk                         
-pyc                        3.12.9-r0                apk                         
+pyc                        3.12.9-r1                apk                         
 pycryptodome               3.22.0                   python                      
 pygments                   2.19.1                   python                      
 pyqt6                      6.7.1                    python                      
 pyqt6-sip                  13.9.0                   python                      
 pyqt6-webengine            6.7.0                    python                      
 python-dateutil            2.9.0                    python                      
-python3                    3.12.9-r0                apk                         
-python3-pyc                3.12.9-r0                apk                         
-python3-pycache-pyc0       3.12.9-r0                apk                         
+python3                    3.12.9-r1                apk                         
+python3-pyc                3.12.9-r1                apk                         
+python3-pycache-pyc0       3.12.9-r1                apk                         
 qt6-qtbase                 6.8.2-r1                 apk                         
 qt6-qtbase-private-dev     6.8.2-r1                 apk                         
 qt6-qtbase-x11             6.8.2-r1                 apk                         
