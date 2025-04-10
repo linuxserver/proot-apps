@@ -110,7 +110,7 @@ libelf1                             0.186-1ubuntu0.1                         deb
 libepoxy0                           1.5.10-1                                 deb       
 libevdev2                           1.12.1+dfsg-1                            deb       
 libevent-2.1-7                      2.1.12-stable-1build3                    deb       
-libexpat1                           2.4.7-1ubuntu0.5                         deb       
+libexpat1                           2.4.7-1ubuntu0.6                         deb       
 libext2fs2                          1.46.5-2ubuntu1.2                        deb       
 libfdk-aac2                         2.0.2-1                                  deb       
 libffi8                             3.4.2-4                                  deb       

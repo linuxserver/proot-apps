@@ -157,7 +157,7 @@ libllvm15                       1:15.0.6-4+b1                    deb
 liblocale-gettext-perl          1.07-5                           deb       
 libltdl7                        2.4.7-7~deb12u1                  deb       
 liblz4-1                        1.9.4-1                          deb       
-liblzma5                        5.4.1-0.2                        deb       
+liblzma5                        5.4.1-1                          deb       
 libmd0                          1.0.4-2                          deb       
 libmfx1                         22.5.4-1                         deb       
 libmount1                       2.38.1-5+deb12u3                 deb       
@@ -325,7 +325,7 @@ shared-mime-info                2.2-1                            deb
 spotify-client                  1:1.2.60.564.gcc6305cb           deb       
 sysvinit-utils                  3.06-4                           deb       
 tar                             1.34+dfsg-1.2+deb12u1            deb       
-tzdata                          2025a-0+deb12u1                  deb       
+tzdata                          2025b-0+deb12u1                  deb       
 udev                            252.36-1~deb12u1                 deb       
 usr-is-merged                   37~deb12u1                       deb       
 util-linux                      2.38.1-5+deb12u3                 deb       

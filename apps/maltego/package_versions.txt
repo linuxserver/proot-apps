@@ -358,7 +358,7 @@ libllvm15                                               1:15.0.6-4+b1           
 liblocale-gettext-perl                                  1.07-5                                                                        deb                             
 libltdl7                                                2.4.7-7~deb12u1                                                               deb                             
 liblz4-1                                                1.9.4-1                                                                       deb                             
-liblzma5                                                5.4.1-0.2                                                                     deb                             
+liblzma5                                                5.4.1-1                                                                       deb                             
 libmd0                                                  1.0.4-2                                                                       deb                             
 libmfx1                                                 22.5.4-1                                                                      deb                             
 libmount1                                               2.38.1-5+deb12u3                                                              deb                             
@@ -780,7 +780,7 @@ txw2                                                    2.2.11                  
 typing                                                  1.0-SNAPSHOT                                                                  java-archive                    
 typing-descriptor                                       1.0-SNAPSHOT                                                                  java-archive                    
 typing-editing                                          1.0-SNAPSHOT                                                                  java-archive                    
-tzdata                                                  2025a-0+deb12u1                                                               deb                             
+tzdata                                                  2025b-0+deb12u1                                                               deb                             
 udev                                                    252.36-1~deb12u1                                                              deb                             
 ui-graph                                                1.0-SNAPSHOT                                                                  java-archive                    
 undertow-core                                           2.2.19.Final                                                                  java-archive                    

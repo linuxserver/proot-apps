@@ -53,7 +53,7 @@ gcr                        3.41.2-r1                apk
 gcr-base                   3.41.2-r1                apk       
 gdbm                       1.24-r0                  apk       
 gdk-pixbuf                 2.42.12-r1               apk       
-giflib                     5.2.2-r0                 apk       
+giflib                     5.2.2-r1                 apk       
 glib                       2.82.5-r0                apk       
 glib-networking            2.80.1-r0                apk       
 glu                        9.0.3-r3                 apk       
