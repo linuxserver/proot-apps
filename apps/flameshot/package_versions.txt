@@ -172,7 +172,7 @@ scanelf                    1.3.8-r1                 apk
 shared-mime-info           2.4-r5                   apk     
 soxr                       0.1.3-r7                 apk     
 speexdsp                   1.2.1-r2                 apk     
-spirv-tools                1.4.304.0-r0             apk     
+spirv-tools                1.4.309.0-r0             apk     
 sqlite-libs                3.49.1-r0                apk     
 ssl_client                 1.37.0-r15               apk     
 tdb-libs                   1.4.12-r0                apk     
