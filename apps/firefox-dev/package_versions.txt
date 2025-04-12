@@ -53,9 +53,9 @@ either                     1.9.0                    rust-crate
 errno                      0.3.8                    rust-crate    
 eudev-libs                 3.2.14-r5                apk           
 fern                       0.6.2                    rust-crate    
-ffmpeg-libavcodec          6.1.2-r1                 apk           
-ffmpeg-libavutil           6.1.2-r1                 apk           
-ffmpeg-libswresample       6.1.2-r1                 apk           
+ffmpeg-libavcodec          6.1.2-r2                 apk           
+ffmpeg-libavutil           6.1.2-r2                 apk           
+ffmpeg-libswresample       6.1.2-r2                 apk           
 fftw-single-libs           3.3.10-r6                apk           
 file                       5.46-r2                  apk           
 firefox-developer-edition  138.0_beta5-r0           apk           
@@ -100,7 +100,7 @@ libSvtAv1Enc               2.3.0-r0                 apk
 libasyncns                 0.8-r4                   apk           
 libatk-1.0                 2.56.1-r0                apk           
 libatk-bridge-2.0          2.56.1-r0                apk           
-libblkid                   2.41-r1                  apk           
+libblkid                   2.41-r2                  apk           
 libbsd                     0.12.2-r0                apk           
 libbz2                     1.0.8-r6                 apk           
 libc                       0.2.152                  rust-crate    
@@ -128,7 +128,7 @@ libjxl                     0.10.3-r1                apk
 libltdl                    2.5.4-r0                 apk           
 libmagic                   5.46-r2                  apk           
 libmd                      1.1.0-r0                 apk           
-libmount                   2.41-r1                  apk           
+libmount                   2.41-r2                  apk           
 libncursesw                6.5_p20250216-r0         apk           
 libogg                     1.3.5-r5                 apk           
 libpanelw                  6.5_p20250216-r0         apk           
@@ -144,7 +144,7 @@ libstdc++                  14.2.0-r5                apk
 libtasn1                   4.20.0-r0                apk           
 libtheora                  1.1.1-r18                apk           
 libunistring               1.3-r0                   apk           
-libuuid                    2.41-r1                  apk           
+libuuid                    2.41-r2                  apk           
 libva                      2.22.0-r1                apk           
 libva-intel-driver         2.4.1-r2                 apk           
 libvdpau                   1.5-r4                   apk           
@@ -232,10 +232,10 @@ profiling                  1.0.13                   rust-crate
 profiling-procmacros       1.0.13                   rust-crate    
 pulseaudio                 17.0-r5                  apk           
 pulseaudio-alsa            17.0-r5                  apk           
-pyc                        3.12.9-r1                apk           
-python3                    3.12.9-r1                apk           
-python3-pyc                3.12.9-r1                apk           
-python3-pycache-pyc0       3.12.9-r1                apk           
+pyc                        3.12.10-r0               apk           
+python3                    3.12.10-r0               apk           
+python3-pyc                3.12.10-r0               apk           
+python3-pycache-pyc0       3.12.10-r0               apk           
 quote                      1.0.35                   rust-crate    
 rand                       0.8.5                    rust-crate    
 rand_chacha                0.3.1                    rust-crate    

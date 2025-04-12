@@ -216,10 +216,10 @@ polkit-noelogind-libs      125-r0                   apk
 polkit-qt6                 0.200.0-r0               apk     
 pulseaudio                 17.0-r4                  apk     
 pulseaudio-alsa            17.0-r4                  apk     
-pyc                        3.12.9-r0                apk     
-python3                    3.12.9-r0                apk     
-python3-pyc                3.12.9-r0                apk     
-python3-pycache-pyc0       3.12.9-r0                apk     
+pyc                        3.12.10-r0               apk     
+python3                    3.12.10-r0               apk     
+python3-pyc                3.12.10-r0               apk     
+python3-pycache-pyc0       3.12.10-r0               apk     
 qt6-qt5compat              6.8.0-r0                 apk     
 qt6-qtbase                 6.8.0-r1                 apk     
 qt6-qtbase-x11             6.8.0-r1                 apk     

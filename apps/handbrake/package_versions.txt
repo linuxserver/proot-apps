@@ -43,7 +43,7 @@ libaacs0                        0.11.1-4+b1                     deb
 libabsl20240722                 20240722.0-3                    deb     
 libacl1                         2.3.2-2+b1                      deb     
 libaom3                         3.12.0-1                        deb     
-libapparmor1                    4.1.0~beta5-6                   deb     
+libapparmor1                    4.1.0-1                         deb     
 libapt-pkg7.0                   3.0.0                           deb     
 libasound2-data                 1.2.13-1                        deb     
 libasound2-plugins              1.2.12-2+b1                     deb     
@@ -75,8 +75,8 @@ libcairo-gobject2               1.18.4-1+b1                     deb
 libcairo-script-interpreter2    1.18.4-1+b1                     deb     
 libcairo2                       1.18.4-1+b1                     deb     
 libcap-ng0                      0.8.5-4+b1                      deb     
-libcap2                         1:2.75-4                        deb     
-libcap2-bin                     1:2.75-4                        deb     
+libcap2                         1:2.75-5                        deb     
+libcap2-bin                     1:2.75-5                        deb     
 libchromaprint1                 1.5.1-7                         deb     
 libcjson1                       1.7.18-3+b1                     deb     
 libcloudproviders0              0.3.6-2                         deb     
