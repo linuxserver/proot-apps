@@ -350,7 +350,7 @@ libpangoft2-1.0-0                                                     1.50.12+ds
 libpciaccess0                                                         0.17-2                          deb                           
 libpcre2-8-0                                                          10.42-1                         deb                           
 libpcsclite1                                                          1.9.9-2                         deb                           
-libperl5.36                                                           5.36.0-7+deb12u1                deb                           
+libperl5.36                                                           5.36.0-7+deb12u2                deb                           
 libpixman-1-0                                                         0.42.2-1                        deb                           
 libpng16-16                                                           1.6.39-2                        deb                           
 libproc2-0                                                            2:4.0.2-3                       deb                           
@@ -1021,9 +1021,9 @@ osgi-resource-locator                                                 1.0.3     
 passwd                                                                1:4.13+dfsg1-1+b1               deb                           
 pb                                                                    2.3.6.v20201214                 java-archive                  
 pdepublishing-ant                                                     UNKNOWN                         java-archive                  
-perl                                                                  5.36.0-7+deb12u1                deb                           
-perl-base                                                             5.36.0-7+deb12u1                deb                           
-perl-modules-5.36                                                     5.36.0-7+deb12u1                deb                           
+perl                                                                  5.36.0-7+deb12u2                deb                           
+perl-base                                                             5.36.0-7+deb12u2                deb                           
+perl-modules-5.36                                                     5.36.0-7+deb12u2                deb                           
 platform                                                              5.16.0                          java-archive                  
 platform                                                              UNKNOWN                         java-archive                  
 plexus-build-api                                                      0.0.7                           java-archive                  

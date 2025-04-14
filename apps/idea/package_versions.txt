@@ -360,7 +360,7 @@ libpangoft2-1.0-0                      1.50.12+ds-1                    deb
 libpciaccess0                          0.17-2                          deb                            
 libpcre2-8-0                           10.42-1                         deb                            
 libpcsclite1                           1.9.9-2                         deb                            
-libperl5.36                            5.36.0-7+deb12u1                deb                            
+libperl5.36                            5.36.0-7+deb12u2                deb                            
 libpixman-1-0                          0.42.2-1                        deb                            
 libpng16-16                            1.6.39-2                        deb                            
 libpsl5                                0.21.2-1                        deb                            
@@ -567,9 +567,9 @@ parcelize-compiler-plugin              UNKNOWN                         java-arch
 parcelize-runtime                      2.0.21-release-482              java-archive                   
 passwd                                 1:4.13+dfsg1-1+b1               deb                            
 perl                                   1.0.0                           npm                            
-perl                                   5.36.0-7+deb12u1                deb                            
-perl-base                              5.36.0-7+deb12u1                deb                            
-perl-modules-5.36                      5.36.0-7+deb12u1                deb                            
+perl                                   5.36.0-7+deb12u2                deb                            
+perl-base                              5.36.0-7+deb12u2                deb                            
+perl-modules-5.36                      5.36.0-7+deb12u2                deb                            
 php                                    1.0.0                           npm                            
 plexus-cipher                          2.0                             java-archive  (+1 duplicate)   
 plexus-classworlds                     2.6.0                           java-archive                   

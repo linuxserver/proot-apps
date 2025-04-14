@@ -213,7 +213,7 @@ libpcre2-32-0                   10.42-1                         deb
 libpcre2-8-0                    10.42-1                         deb       
 libpcre2-dev                    10.42-1                         deb       
 libpcre2-posix3                 10.42-1                         deb       
-libperl5.36                     5.36.0-7+deb12u1                deb       
+libperl5.36                     5.36.0-7+deb12u2                deb       
 libpixman-1-0                   0.42.2-1                        deb       
 libpkgconf3                     1.8.1-1                         deb       
 libpng16-16                     1.6.39-2                        deb       
@@ -356,9 +356,9 @@ netcat-openbsd                  1.219-1                         deb
 ocl-icd-libopencl1              2.3.1-1                         deb       
 openssl                         3.0.15-1~deb12u1                deb       
 passwd                          1:4.13+dfsg1-1+b1               deb       
-perl                            5.36.0-7+deb12u1                deb       
-perl-base                       5.36.0-7+deb12u1                deb       
-perl-modules-5.36               5.36.0-7+deb12u1                deb       
+perl                            5.36.0-7+deb12u2                deb       
+perl-base                       5.36.0-7+deb12u2                deb       
+perl-modules-5.36               5.36.0-7+deb12u2                deb       
 pkg-config                      1.8.1-1                         deb       
 pkgconf                         1.8.1-1                         deb       
 pkgconf-bin                     1.8.1-1                         deb       
