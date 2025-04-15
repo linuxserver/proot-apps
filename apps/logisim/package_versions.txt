@@ -43,9 +43,9 @@ libacl1                         2.3.2-2+b1                      deb
 libaom3                         3.12.0-1                        deb             
 libapparmor1                    4.1.0-1                         deb             
 libapt-pkg7.0                   3.0.0                           deb             
-libasound2-data                 1.2.13-1                        deb             
+libasound2-data                 1.2.14-1                        deb             
 libasound2-plugins              1.2.12-2+b1                     deb             
-libasound2t64                   1.2.13-1+b1                     deb             
+libasound2t64                   1.2.14-1                        deb             
 libasyncns0                     0.8-6+b5                        deb             
 libatomic1                      14.2.0-19                       deb             
 libattr1                        1:2.5.2-3                       deb             
@@ -120,7 +120,7 @@ libjbig0                        2.1-6.1+b2                      deb
 libjpeg62-turbo                 1:2.1.5-3.1                     deb             
 libjxl0.11                      0.11.1-4                        deb             
 libk5crypto3                    1.21.3-5                        deb             
-libkeyutils1                    1.6.3-5                         deb             
+libkeyutils1                    1.6.3-6                         deb             
 libkmod2                        34.2-1                          deb             
 libkrb5-3                       1.21.3-5                        deb             
 libkrb5support0                 1.21.3-5                        deb             

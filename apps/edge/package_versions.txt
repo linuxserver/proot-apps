@@ -133,7 +133,7 @@ libjbig0                        2.1-6.1+b2                      deb
 libjpeg62-turbo                 1:2.1.5-3.1                     deb     
 libjxl0.11                      0.11.1-4                        deb     
 libk5crypto3                    1.21.3-5                        deb     
-libkeyutils1                    1.6.3-5                         deb     
+libkeyutils1                    1.6.3-6                         deb     
 libkmod2                        34.2-1                          deb     
 libkrb5-3                       1.21.3-5                        deb     
 libkrb5support0                 1.21.3-5                        deb     
@@ -175,7 +175,7 @@ libpciaccess0                   0.17-3+b3                       deb
 libpcre2-8-0                    10.45-1                         deb     
 libpixman-1-0                   0.44.0-3                        deb     
 libpng16-16t64                  1.6.47-1.1                      deb     
-libproc2-0                      2:4.0.4-7                       deb     
+libproc2-0                      2:4.0.4-8                       deb     
 libpsl5t64                      0.21.2-1.1+b1                   deb     
 libpulse0                       17.0+dfsg1-2+b1                 deb     
 libpulsedsp                     17.0+dfsg1-2+b1                 deb     
@@ -298,7 +298,7 @@ openssl                         3.5.0-1                         deb
 openssl-provider-legacy         3.5.0-1                         deb     
 passwd                          1:4.17.4-1                      deb     
 perl-base                       5.40.1-2                        deb     
-procps                          2:4.0.4-7                       deb     
+procps                          2:4.0.4-8                       deb     
 pulseaudio                      17.0+dfsg1-2+b1                 deb     
 pulseaudio-utils                17.0+dfsg1-2+b1                 deb     
 sed                             4.9-2                           deb     
