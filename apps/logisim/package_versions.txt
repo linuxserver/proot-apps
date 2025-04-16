@@ -209,8 +209,8 @@ libva-drm2                      2.22.0-3                        deb
 libva-x11-2                     2.22.0-3                        deb             
 libva2                          2.22.0-3                        deb             
 libvdpau1                       1.5-3+b1                        deb             
-libvorbis0a                     1.3.7-2+b1                      deb             
-libvorbisenc2                   1.3.7-2+b1                      deb             
+libvorbis0a                     1.3.7-3                         deb             
+libvorbisenc2                   1.3.7-3                         deb             
 libvpl2                         1:2.14.0-1+b1                   deb             
 libvpx9                         1.15.0-2                        deb             
 libvulkan1                      1.4.309.0-1                     deb             

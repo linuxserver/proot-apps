@@ -45,9 +45,9 @@ libacl1                         2.3.2-2+b1                      deb
 libaom3                         3.12.0-1                        deb     
 libapparmor1                    4.1.0-1                         deb     
 libapt-pkg7.0                   3.0.0                           deb     
-libasound2-data                 1.2.13-1                        deb     
+libasound2-data                 1.2.14-1                        deb     
 libasound2-plugins              1.2.12-2+b1                     deb     
-libasound2t64                   1.2.13-1+b1                     deb     
+libasound2t64                   1.2.14-1                        deb     
 libass9                         1:0.17.3-1+b1                   deb     
 libasyncns0                     0.8-6+b5                        deb     
 libatomic1                      14.2.0-19                       deb     
