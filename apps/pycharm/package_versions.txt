@@ -1,5 +1,5 @@
 NAME                            VERSION                         TYPE           
-Java-WebSocket                  1.5.5                           java-archive    
+Java-WebSocket                  1.6.0                           java-archive    
 adduser                         3.134                           deb             
 annotations                     UNKNOWN                         java-archive    
 apt                             2.6.1                           deb             
@@ -9,10 +9,9 @@ base-passwd                     3.6.1                           deb
 bash                            5.2.15                          binary          
 bash                            5.2.15-2+b7                     deb             
 bat                             1.0.0                           npm             
-bouncy-castle-pgp               1.78.1                          java-archive    
+bouncy-castle-pgp               1.80                            java-archive    
 bsdutils                        1:2.38.1-5+deb12u3              deb             
 ca-certificates                 20230311                        deb             
-classesLogAgent                 UNKNOWN                         java-archive    
 clojure                         1.0.0                           npm             
 cmake                           0.0.17                          npm             
 coffeescript                    1.0.0                           npm             
@@ -66,7 +65,7 @@ ini                             1.0.0                           npm
 init-system-helpers             1.65.2                          deb             
 iso-codes                       4.15.0-1                        deb             
 java                            1.0.0                           npm             
-java-websocket                  1.5.5                           java-archive    
+java-websocket                  1.6.0                           java-archive    
 javascript                      1.0.0                           npm             
 jitsi-utils                     1.0-112-gd92472a                java-archive    
 jnaerator-runtime               UNKNOWN                         java-archive    
@@ -346,7 +345,7 @@ ncurses-bin                     6.4-4                           deb
 netcat-openbsd                  1.219-1                         deb             
 objective-c                     1.0.0                           npm             
 ocl-icd-libopencl1              2.3.1-1                         deb             
-openjdk                         21.0.6+8-b631.39                binary          
+openjdk                         21.0.6+9-b895.109               binary          
 openssh-client                  1:9.2p1-2+deb12u5               deb             
 openssl                         3.0.15-1~deb12u1                deb             
 passwd                          1:4.13+dfsg1-1+b1               deb             
@@ -398,12 +397,10 @@ shaderlab                       1.0.0                           npm
 shared-mime-info                2.2-1                           deb             
 shellscript                     1.0.0                           npm             
 sql                             1.0.0                           npm             
-stats                           UNKNOWN                         java-archive    
 swift                           1.0.0                           npm             
 sysvinit-utils                  3.06-4                          deb             
 tar                             1.34+dfsg-1.2+deb12u1           deb             
 terraform                       2.31.0                          npm             
-testFramework                   UNKNOWN                         java-archive    
 tls-channel                     UNKNOWN                         java-archive    
 twig-language-2                 0.9.4                           npm             
 typescript                      1.0.0                           npm             
