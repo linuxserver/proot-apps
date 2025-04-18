@@ -3,7 +3,7 @@ alpine-baselayout          3.6.8-r1                 apk
 alpine-baselayout-data     3.6.8-r1                 apk           
 alpine-keys                2.5-r0                   apk           
 alpine-release             3.22.0_alpha20250108-r0  apk           
-alsa-lib                   1.2.13-r0                apk           
+alsa-lib                   1.2.14-r0                apk           
 anstream                   0.6.5                    rust-crate    
 anstyle                    1.0.4                    rust-crate    
 anstyle-parse              0.2.3                    rust-crate    
@@ -44,7 +44,7 @@ crossbeam-epoch            0.9.18                   rust-crate
 crossbeam-queue            0.3.11                   rust-crate    
 crossbeam-utils            0.8.19                   rust-crate    
 cups-libs                  2.4.11-r0                apk           
-curl                       8.13.0-r0                apk           
+curl                       8.13.0-r1                apk           
 dbus                       1.16.2-r1                apk           
 dbus-daemon-launch-helper  1.16.2-r1                apk           
 dbus-libs                  1.16.2-r1                apk           
@@ -58,7 +58,7 @@ ffmpeg-libavutil           6.1.2-r2                 apk
 ffmpeg-libswresample       6.1.2-r2                 apk           
 fftw-single-libs           3.3.10-r6                apk           
 file                       5.46-r2                  apk           
-firefox-developer-edition  138.0_beta7-r0           apk           
+firefox-developer-edition  138.0_beta8-r0           apk           
 font-noto                  2025.02.01-r0            apk           
 font-noto-common           2025.02.01-r0            apk           
 font-noto-math             2025.02.01-r0            apk           
@@ -100,13 +100,13 @@ libSvtAv1Enc               2.3.0-r0                 apk
 libasyncns                 0.8-r4                   apk           
 libatk-1.0                 2.56.1-r0                apk           
 libatk-bridge-2.0          2.56.1-r0                apk           
-libblkid                   2.41-r2                  apk           
+libblkid                   2.41-r3                  apk           
 libbsd                     0.12.2-r0                apk           
 libbz2                     1.0.8-r6                 apk           
 libc                       0.2.152                  rust-crate    
 libcap2                    2.73-r0                  apk           
 libcrypto3                 3.3.2-r4                 apk           
-libcurl                    8.13.0-r0                apk           
+libcurl                    8.13.0-r1                apk           
 libdav1d                   1.5.1-r0                 apk           
 libdeflate                 1.23-r0                  apk           
 libdrm                     2.4.124-r0               apk           
@@ -128,10 +128,10 @@ libjxl                     0.10.3-r1                apk
 libltdl                    2.5.4-r0                 apk           
 libmagic                   5.46-r2                  apk           
 libmd                      1.1.0-r0                 apk           
-libmount                   2.41-r2                  apk           
-libncursesw                6.5_p20250216-r0         apk           
+libmount                   2.41-r3                  apk           
+libncursesw                6.5_p20250405-r0         apk           
 libogg                     1.3.5-r5                 apk           
-libpanelw                  6.5_p20250216-r0         apk           
+libpanelw                  6.5_p20250405-r0         apk           
 libpciaccess               0.18.1-r0                apk           
 libpng                     1.6.47-r0                apk           
 libpsl                     0.21.5-r3                apk           
@@ -144,7 +144,7 @@ libstdc++                  14.2.0-r5                apk
 libtasn1                   4.20.0-r0                apk           
 libtheora                  1.1.1-r18                apk           
 libunistring               1.3-r0                   apk           
-libuuid                    2.41-r2                  apk           
+libuuid                    2.41-r3                  apk           
 libva                      2.22.0-r1                apk           
 libva-intel-driver         2.4.1-r2                 apk           
 libvdpau                   1.5-r4                   apk           
@@ -197,7 +197,7 @@ mpdecimal                  4.0.0-r0                 apk
 mpg123-libs                1.32.10-r0               apk           
 musl                       1.2.5-r10                apk           
 musl-utils                 1.2.5-r9                 apk           
-ncurses-terminfo-base      6.5_p20250216-r0         apk           
+ncurses-terminfo-base      6.5_p20250405-r0         apk           
 netcat-openbsd             1.228.1-r0               apk           
 nettle                     3.10.1-r0                apk           
 new_debug_unreachable      1.0.4                    rust-crate    
