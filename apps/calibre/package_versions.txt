@@ -33,8 +33,8 @@ c-ares                     1.34.5-r0                apk
 ca-certificates-bundle     20241121-r1              apk                         
 cairo                      1.18.2-r1                apk                         
 cairo-gobject              1.18.2-r1                apk                         
-calibre                    8.0.1-r1                 apk                         
-calibre-pyc                8.0.1-r1                 apk                         
+calibre                    8.3.0-r0                 apk                         
+calibre-pyc                8.3.0-r0                 apk                         
 cdparanoia-libs            10.2-r14                 apk                         
 cfg-if                     1.0.0                    rust-crate  (+1 duplicate)  
 chardet                    5.2.0                    python                      
@@ -147,7 +147,7 @@ libatasmart                0.19-r4                  apk
 libatk-1.0                 2.56.1-r0                apk                         
 libatk-bridge-2.0          2.56.1-r0                apk                         
 libb2                      0.98.1-r3                apk                         
-libblkid                   2.41-r3                  apk                         
+libblkid                   2.41-r4                  apk                         
 libblockdev                3.1.1-r2                 apk                         
 libbluray                  1.3.4-r1                 apk                         
 libbsd                     0.12.2-r0                apk                         
@@ -193,7 +193,7 @@ libltdl                    2.5.4-r0                 apk
 libmagic                   5.46-r2                  apk                         
 libmd                      1.1.0-r0                 apk                         
 libmng                     2.0.3-r2                 apk                         
-libmount                   2.41-r3                  apk                         
+libmount                   2.41-r4                  apk                         
 libmtp                     1.1.22-r0                apk                         
 libncursesw                6.5_p20250405-r0         apk                         
 libnvme                    1.13-r0                  apk                         
@@ -221,7 +221,7 @@ libtasn1                   4.20.0-r0                apk
 libtheora                  1.1.1-r18                apk                         
 libunistring               1.3-r0                   apk                         
 libusb                     1.0.28-r0                apk                         
-libuuid                    2.41-r3                  apk                         
+libuuid                    2.41-r4                  apk                         
 libva                      2.22.0-r1                apk                         
 libva-intel-driver         2.4.1-r2                 apk                         
 libvdpau                   1.5-r4                   apk                         
