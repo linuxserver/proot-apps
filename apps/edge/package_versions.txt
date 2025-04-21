@@ -7,7 +7,7 @@ base-files                      13.7                            deb
 base-passwd                     3.6.7                           deb     
 bash                            5.2.37-1.1+b2                   deb     
 bsdutils                        1:2.41-3                        deb     
-ca-certificates                 20241223                        deb     
+ca-certificates                 20250419                        deb     
 coreutils                       9.6-2                           deb     
 curl                            8.13.0-2                        deb     
 dash                            0.5.12-12                       deb     
@@ -41,7 +41,7 @@ iso-codes                       4.18.0-1                        deb
 keyboard-configuration          1.236                           deb     
 libabsl20240722                 20240722.0-3                    deb     
 libacl1                         2.3.2-2+b1                      deb     
-libaom3                         3.12.0-1                        deb     
+libaom3                         3.12.1-1                        deb     
 libapparmor1                    4.1.0-1                         deb     
 libapt-pkg7.0                   3.0.0                           deb     
 libasound2-data                 1.2.14-1                        deb     
