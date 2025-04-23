@@ -82,9 +82,9 @@ libltdl                    2.5.4-r0                 apk
 libmagic                   5.46-r2                  apk     
 libmd                      1.1.0-r0                 apk     
 libmount                   2.41-r4                  apk     
-libncursesw                6.5_p20250405-r0         apk     
+libncursesw                6.5_p20250412-r0         apk     
 libogg                     1.3.5-r5                 apk     
-libpanelw                  6.5_p20250405-r0         apk     
+libpanelw                  6.5_p20250412-r0         apk     
 libpciaccess               0.18.1-r0                apk     
 libpcre2-16                10.43-r1                 apk     
 libpng                     1.6.47-r0                apk     
@@ -144,7 +144,7 @@ mpg123-libs                1.32.10-r0               apk
 mtdev                      1.1.7-r0                 apk     
 musl                       1.2.5-r10                apk     
 musl-utils                 1.2.5-r9                 apk     
-ncurses-terminfo-base      6.5_p20250405-r0         apk     
+ncurses-terminfo-base      6.5_p20250412-r0         apk     
 netcat-openbsd             1.228.1-r0               apk     
 nettle                     3.10.1-r0                apk     
 nghttp2-libs               1.65.0-r0                apk     
