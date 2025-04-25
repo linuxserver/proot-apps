@@ -111,7 +111,7 @@ libpsl                     0.21.5-r3                apk
 libpulse                   17.0-r4                  apk       
 libraw1394                 2.1.2-r5                 apk       
 librsvg                    2.59.2-r0                apk       
-libsecret                  0.21.5-r0                apk       
+libsecret                  0.21.7-r0                apk       
 libsharpyuv                1.4.0-r0                 apk       
 libshout                   2.4.6-r3                 apk       
 libsm                      1.2.4-r4                 apk       

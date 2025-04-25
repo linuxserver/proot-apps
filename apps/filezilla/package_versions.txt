@@ -93,7 +93,7 @@ libpcre2-32                10.43-r0                 apk
 libpng                     1.6.47-r0                apk     
 libpsl                     0.21.5-r3                apk     
 libpulse                   17.0-r4                  apk     
-libsecret                  0.21.5-r0                apk     
+libsecret                  0.21.7-r0                apk     
 libsharpyuv                1.4.0-r0                 apk     
 libsm                      1.2.4-r4                 apk     
 libsndfile                 1.2.2-r2                 apk     
