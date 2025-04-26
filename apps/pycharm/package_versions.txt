@@ -6,7 +6,6 @@ apt                             2.6.1                           deb
 asciidoctor-vscode              3.3.2-dev                       npm             
 base-files                      12.4+deb12u10                   deb             
 base-passwd                     3.6.1                           deb             
-bash                            5.2.15                          binary          
 bash                            5.2.15-2+b7                     deb             
 bat                             1.0.0                           npm             
 bouncy-castle-pgp               1.80                            java-archive    
@@ -53,7 +52,6 @@ go                              1.0.0                           npm
 gpgv                            2.2.40-1.1                      deb             
 grep                            3.8-5                           deb             
 groovy                          1.0.0                           npm             
-gzip                            1.12                            binary          
 gzip                            1.12-1                          deb             
 handlebars                      1.0.0                           npm             
 hcl                             0.5.0                           npm             

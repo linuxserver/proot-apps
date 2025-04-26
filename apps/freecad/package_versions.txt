@@ -5,7 +5,6 @@ apt                                 2.6.1                           deb
 attrs                               22.2.0                          python    
 base-files                          12.4+deb12u10                   deb       
 base-passwd                         3.6.1                           deb       
-bash                                5.2.15                          binary    
 bash                                5.2.15-2+b7                     deb       
 beniget                             0.4.1                           python    
 binutils                            2.40-2                          deb       
@@ -54,7 +53,6 @@ gcc-12                              12.2.0-14                       deb
 gcc-12-base                         12.2.0-14                       deb       
 gpgv                                2.2.40-1.1                      deb       
 grep                                3.8-5                           deb       
-gzip                                1.12                            binary    
 gzip                                1.12-1                          deb       
 hostname                            3.23+nmu1                       deb       
 ibverbs-providers                   44.0-2                          deb       

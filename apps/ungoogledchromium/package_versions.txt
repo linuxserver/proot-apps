@@ -5,11 +5,10 @@ at-spi2-common                  2.46.0-5                        deb
 at-spi2-core                    2.46.0-5                        deb       
 base-files                      12.4+deb12u10                   deb       
 base-passwd                     3.6.1                           deb       
-bash                            5.2.15                          binary    
 bash                            5.2.15-2+b7                     deb       
 bsdutils                        1:2.38.1-5+deb12u3              deb       
 ca-certificates                 20230311                        deb       
-chrome                          135.0.7049.95                   binary    
+chrome                          135.0.7049.114                  binary    
 coreutils                       9.1-1                           deb       
 curl                            7.88.1-10+deb12u12              deb       
 dash                            0.5.12-2                        deb       
@@ -36,7 +35,6 @@ gcc-12-base                     12.2.0-14                       deb
 gpgv                            2.2.40-1.1                      deb       
 grep                            3.8-5                           deb       
 gsettings-desktop-schemas       43.0-1                          deb       
-gzip                            1.12                            binary    
 gzip                            1.12-1                          deb       
 hicolor-icon-theme              0.17-2                          deb       
 hostname                        3.23+nmu1                       deb       

@@ -116,7 +116,7 @@ libsharpyuv                1.4.0-r0                 apk
 libshout                   2.4.6-r3                 apk       
 libsm                      1.2.4-r4                 apk       
 libsndfile                 1.2.2-r2                 apk       
-libsoup3                   3.6.1-r0                 apk       
+libsoup3                   3.6.5-r0                 apk       
 libssl3                    3.3.3-r0                 apk       
 libstdc++                  14.2.0-r4                apk       
 libtag                     1.13.1-r0                apk       

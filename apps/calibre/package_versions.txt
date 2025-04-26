@@ -147,7 +147,7 @@ libatasmart                0.19-r4                  apk
 libatk-1.0                 2.56.1-r0                apk                         
 libatk-bridge-2.0          2.56.1-r0                apk                         
 libb2                      0.98.1-r3                apk                         
-libblkid                   2.41-r5                  apk                         
+libblkid                   2.41-r6                  apk                         
 libblockdev                3.1.1-r2                 apk                         
 libbluray                  1.3.4-r1                 apk                         
 libbsd                     0.12.2-r0                apk                         
@@ -193,7 +193,7 @@ libltdl                    2.5.4-r0                 apk
 libmagic                   5.46-r2                  apk                         
 libmd                      1.1.0-r0                 apk                         
 libmng                     2.0.3-r2                 apk                         
-libmount                   2.41-r5                  apk                         
+libmount                   2.41-r6                  apk                         
 libmtp                     1.1.22-r0                apk                         
 libncursesw                6.5_p20250412-r0         apk                         
 libnvme                    1.13-r0                  apk                         
@@ -221,7 +221,7 @@ libtasn1                   4.20.0-r0                apk
 libtheora                  1.1.1-r18                apk                         
 libunistring               1.3-r0                   apk                         
 libusb                     1.0.28-r0                apk                         
-libuuid                    2.41-r5                  apk                         
+libuuid                    2.41-r6                  apk                         
 libva                      2.22.0-r1                apk                         
 libva-intel-driver         2.4.1-r2                 apk                         
 libvdpau                   1.5-r4                   apk                         
@@ -262,7 +262,7 @@ libxxf86vm                 1.1.6-r0                 apk
 libxxhash                  0.8.3-r0                 apk                         
 libzmq                     4.3.5-r2                 apk                         
 linux-raw-sys              0.4.12                   rust-crate                  
-llvm20-libs                20.1.2-r2                apk                         
+llvm20-libs                20.1.3-r0                apk                         
 log                        0.4.20                   rust-crate                  
 lxml                       5.3.1                    python                      
 markdown                   3.8                      python                      

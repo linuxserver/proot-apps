@@ -16,7 +16,6 @@ at-spi2-common                                          2.46.0-5                
 automation                                              1.0-SNAPSHOT                                                                  java-archive                    
 base-files                                              12.4+deb12u10                                                                 deb                             
 base-passwd                                             3.6.1                                                                         deb                             
-bash                                                    5.2.15                                                                        binary                          
 bash                                                    5.2.15-2+b7                                                                   deb                             
 batik-anim                                              1.14                                                                          java-archive                    
 batik-anim                                              1.17                                                                          java-archive                    
@@ -175,7 +174,6 @@ gson                                                    2.9.1                   
 gtk-update-icon-cache                                   3.24.38-2~deb12u3                                                             deb                             
 guava                                                   27.1-jre                                                                      java-archive                    
 guided-tour                                             1.0-SNAPSHOT                                                                  java-archive                    
-gzip                                                    1.12                                                                          binary                          
 gzip                                                    1.12-1                                                                        deb                             
 hicolor-icon-theme                                      0.17-2                                                                        deb                             
 hostname                                                3.23+nmu1                                                                     deb                             

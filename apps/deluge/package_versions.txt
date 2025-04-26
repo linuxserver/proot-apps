@@ -303,11 +303,11 @@ python3                    3.12.10-r0               apk
 python3-pyc                3.12.10-r0               apk       
 python3-pycache-pyc0       3.12.10-r0               apk       
 pyxdg                      0.28                     python    
-qt6-qtbase                 6.8.0-r1                 apk       
-qt6-qtbase-x11             6.8.0-r1                 apk       
-qt6-qtdeclarative          6.8.0-r0                 apk       
-qt6-qtsvg                  6.8.0-r0                 apk       
-qt6-qtwayland              6.8.0-r1                 apk       
+qt6-qtbase                 6.8.2-r0                 apk       
+qt6-qtbase-x11             6.8.2-r0                 apk       
+qt6-qtdeclarative          6.8.2-r0                 apk       
+qt6-qtsvg                  6.8.2-r0                 apk       
+qt6-qtwayland              6.8.2-r0                 apk       
 readline                   8.2.13-r0                apk       
 rencode                    1.0.6                    python    
 roc-toolkit-libs           0.4.0-r0                 apk       
