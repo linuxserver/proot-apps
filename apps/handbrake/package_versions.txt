@@ -106,7 +106,7 @@ libegl1                         1.7.0-1+b2                      deb
 libelf1t64                      0.192-4                         deb     
 libepoxy0                       1.5.10-2                        deb     
 libexpat1                       2.7.1-1                         deb     
-libffi8                         3.4.8-1                         deb     
+libffi8                         3.4.8-2                         deb     
 libfftw3-double3                3.3.10-2+b1                     deb     
 libfftw3-single3                3.3.10-2+b1                     deb     
 libflac14                       1.5.0+ds-2                      deb     
@@ -124,7 +124,7 @@ libgfortran5                    14.2.0-19                       deb
 libgl1                          1.7.0-1+b2                      deb     
 libgl1-mesa-dri                 25.0.4-1                        deb     
 libgles2                        1.7.0-1+b2                      deb     
-libglib2.0-0t64                 2.84.1-1                        deb     
+libglib2.0-0t64                 2.84.1-2                        deb     
 libglvnd0                       1.7.0-1+b2                      deb     
 libglx-mesa0                    25.0.4-1                        deb     
 libglx0                         1.7.0-1+b2                      deb     
@@ -141,7 +141,7 @@ libgsm1                         1.0.22-1+b2                     deb
 libgssapi-krb5-2                1.21.3-5                        deb     
 libgstreamer-gl1.0-0            1.26.1-1                        deb     
 libgstreamer-plugins-base1.0-0  1.26.1-1                        deb     
-libgstreamer1.0-0               1.26.0-3                        deb     
+libgstreamer1.0-0               1.26.1-1                        deb     
 libgtk-4-1                      4.18.4+ds-2                     deb     
 libgtk-4-bin                    4.18.4+ds-2                     deb     
 libgtk-4-common                 4.18.4+ds-2                     deb     
@@ -160,7 +160,7 @@ libjpeg62-turbo                 1:2.1.5-3.1                     deb
 libjxl0.11                      0.11.1-4                        deb     
 libk5crypto3                    1.21.3-5                        deb     
 libkeyutils1                    1.6.3-6                         deb     
-libkmod2                        34.2-1                          deb     
+libkmod2                        34.2-2                          deb     
 libkrb5-3                       1.21.3-5                        deb     
 libkrb5support0                 1.21.3-5                        deb     
 liblapack3                      3.12.1-2                        deb     
