@@ -8,7 +8,7 @@ bash                            5.2.37-1.1+b2                   deb
 bsdutils                        1:2.41-3                        deb     
 ca-certificates                 20250419                        deb     
 coreutils                       9.6-2                           deb     
-curl                            8.13.0-4                        deb     
+curl                            8.13.0-5                        deb     
 dash                            0.5.12-12                       deb     
 dbus-bin                        1.16.2-2                        deb     
 dbus-daemon                     1.16.2-2                        deb     
@@ -75,8 +75,8 @@ libcairo-gobject2               1.18.4-1+b1                     deb
 libcairo-script-interpreter2    1.18.4-1+b1                     deb     
 libcairo2                       1.18.4-1+b1                     deb     
 libcap-ng0                      0.8.5-4+b1                      deb     
-libcap2                         1:2.75-6                        deb     
-libcap2-bin                     1:2.75-6                        deb     
+libcap2                         1:2.75-7                        deb     
+libcap2-bin                     1:2.75-7                        deb     
 libchromaprint1                 1.5.1-7                         deb     
 libcjson1                       1.7.18-3+b1                     deb     
 libcloudproviders0              0.3.6-2                         deb     
@@ -85,7 +85,7 @@ libcolord2                      1.4.7-3                         deb
 libcom-err2                     1.47.2-1+b1                     deb     
 libcrypt1                       1:4.4.38-1                      deb     
 libcups2t64                     2.4.10-2+b1                     deb     
-libcurl4t64                     8.13.0-4                        deb     
+libcurl4t64                     8.13.0-5                        deb     
 libdatrie1                      0.2.13-3+b1                     deb     
 libdav1d7                       1.5.1-1                         deb     
 libdb5.3t64                     5.3.28+dfsg2-9                  deb     
