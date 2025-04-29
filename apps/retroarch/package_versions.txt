@@ -6,8 +6,8 @@ alpine-release               3.22.0_alpha20250108-r0  apk
 alsa-lib                     1.2.14-r0                apk     
 aom-libs                     3.11.0-r1                apk     
 apk-tools                    2.14.7-r0                apk     
-at-spi2-core                 2.56.1-r0                apk     
-at-spi2-core-libs            2.56.1-r0                apk     
+at-spi2-core                 2.56.2-r0                apk     
+at-spi2-core-libs            2.56.2-r0                apk     
 avahi-libs                   0.8-r20                  apk     
 bash                         5.2.37-r0                apk     
 brotli-libs                  1.1.0-r2                 apk     
@@ -60,8 +60,8 @@ icu-data-full                76.1-r0                  apk
 icu-libs                     76.1-r0                  apk     
 lame-libs                    3.100-r5                 apk     
 libasyncns                   0.8-r4                   apk     
-libatk-1.0                   2.56.1-r0                apk     
-libatk-bridge-2.0            2.56.1-r0                apk     
+libatk-1.0                   2.56.2-r0                apk     
+libatk-bridge-2.0            2.56.2-r0                apk     
 libblkid                     2.41-r6                  apk     
 libbsd                       0.12.2-r0                apk     
 libbz2                       1.0.8-r6                 apk     
