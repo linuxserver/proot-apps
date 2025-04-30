@@ -691,7 +691,7 @@ pandora                                                 1.0-SNAPSHOT            
 pandora-api                                             1.4.4                                                                         java-archive                    
 pandora-core                                            1.4.4                                                                         java-archive                    
 passwd                                                  1:4.13+dfsg1-1+b1                                                             deb                             
-perl-base                                               5.36.0-7+deb12u1                                                              deb                             
+perl-base                                               5.36.0-7+deb12u2                                                              deb                             
 poi                                                     5.2.5                                                                         java-archive                    
 poi-ooxml                                               5.2.5                                                                         java-archive                    
 poi-ooxml-lite                                          5.2.5                                                                         java-archive                    

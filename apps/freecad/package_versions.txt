@@ -477,7 +477,7 @@ ocl-icd-libopencl1                  2.3.1-1                         deb
 openssl                             3.0.15-1~deb12u1                deb       
 packaging                           23.0                            python    
 passwd                              1:4.13+dfsg1-1+b1               deb       
-perl-base                           5.36.0-7+deb12u1                deb       
+perl-base                           5.36.0-7+deb12u2                deb       
 pillow                              9.4.0                           python    
 pivy                                0.6.8                           python    
 ply                                 3.11                            python    

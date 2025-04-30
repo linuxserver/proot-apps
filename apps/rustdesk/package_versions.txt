@@ -310,7 +310,7 @@ netcat-openbsd                  1.219-1                         deb
 ocl-icd-libopencl1              2.3.1-1                         deb     
 openssl                         3.0.15-1~deb12u1                deb     
 passwd                          1:4.13+dfsg1-1+b1               deb     
-perl-base                       5.36.0-7+deb12u1                deb     
+perl-base                       5.36.0-7+deb12u2                deb     
 pipewire                        0.3.65-3+deb12u1                deb     
 pipewire-bin                    0.3.65-3+deb12u1                deb     
 procps                          2:4.0.2-3                       deb     

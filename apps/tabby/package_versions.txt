@@ -354,7 +354,7 @@ p11-kit                           0.24.1-2                        deb
 p11-kit-modules                   0.24.1-2                        deb     
 passwd                            1:4.13+dfsg1-1+b1               deb     
 path-is-absolute                  1.0.1                           npm     
-perl-base                         5.36.0-7+deb12u1                deb     
+perl-base                         5.36.0-7+deb12u2                deb     
 pinentry-gnome3                   1.2.1-1                         deb     
 pkginfo                           0.3.1                           npm     
 procps                            2:4.0.2-3                       deb     
