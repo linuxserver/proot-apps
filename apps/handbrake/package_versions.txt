@@ -344,7 +344,7 @@ mesa-vulkan-drivers             25.0.4-1                        deb
 mount                           2.41-4                          deb     
 ncurses-base                    6.5+20250216-2                  deb     
 ncurses-bin                     6.5+20250216-2                  deb     
-netcat-openbsd                  1.228-1                         deb     
+netcat-openbsd                  1.229-1                         deb     
 ocl-icd-libopencl1              2.3.3-1                         deb     
 openssl                         3.5.0-1                         deb     
 openssl-provider-legacy         3.5.0-1                         deb     
