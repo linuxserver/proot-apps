@@ -30,7 +30,7 @@ fontconfig-config               2.14.1-4                        deb
 fonts-dejavu-core               2.37-6                          deb     
 fonts-noto                      20201225-1                      deb     
 fonts-noto-core                 20201225-1                      deb     
-freetube                        0.23.4                          deb     
+freetube                        0.23.5                          deb     
 gcc-12-base                     12.2.0-14                       deb     
 gpgv                            2.2.40-1.1                      deb     
 grep                            3.8-5                           deb     

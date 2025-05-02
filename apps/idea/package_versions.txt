@@ -159,7 +159,7 @@ jcl-over-slf4j                         1.7.36                          java-arch
 jgoodies-common                        1.4.0 2012-07-24 10:26:20       java-archive                   
 jitsi-utils                            1.0-112-gd92472a                java-archive                   
 jnaerator-runtime                      UNKNOWN                         java-archive                   
-jrt-fs                                 17.0.14                         java-archive                   
+jrt-fs                                 17.0.15                         java-archive                   
 jrt-fs                                 21.0.6                          java-archive                   
 js-plain-objects-compiler-plugin       UNKNOWN                         java-archive                   
 json                                   1.0.0                           npm                            
@@ -583,10 +583,10 @@ noarg-compiler-plugin                  UNKNOWN                         java-arch
 objective-c                            1.0.0                           npm                            
 ocl-icd-libopencl1                     2.3.1-1                         deb                            
 openjdk                                21.0.6+9-b895.109               binary                         
-openjdk-17-jdk                         17.0.14+7-1~deb12u1             deb                            
-openjdk-17-jdk-headless                17.0.14+7-1~deb12u1             deb                            
-openjdk-17-jre                         17.0.14+7-1~deb12u1             deb                            
-openjdk-17-jre-headless                17.0.14+7-1~deb12u1             deb                            
+openjdk-17-jdk                         17.0.15+6-1~deb12u1             deb                            
+openjdk-17-jdk-headless                17.0.15+6-1~deb12u1             deb                            
+openjdk-17-jre                         17.0.15+6-1~deb12u1             deb                            
+openjdk-17-jre-headless                17.0.15+6-1~deb12u1             deb                            
 openssh-client                         1:9.2p1-2+deb12u5               deb                            
 openssl                                3.0.15-1~deb12u1                deb                            
 org.eclipse.sisu.inject                0.9.0.M3                        java-archive  (+1 duplicate)   
