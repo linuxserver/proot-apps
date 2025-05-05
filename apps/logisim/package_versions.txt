@@ -117,7 +117,7 @@ libice6                         2:1.1.1-1                       deb
 libidn2-0                       2.3.8-2                         deb             
 libjack-jackd2-0                1.9.22~dfsg-4                   deb             
 libjbig0                        2.1-6.1+b2                      deb             
-libjpeg62-turbo                 1:2.1.5-3.1                     deb             
+libjpeg62-turbo                 1:2.1.5-4                       deb             
 libjxl0.11                      0.11.1-4                        deb             
 libk5crypto3                    1.21.3-5                        deb             
 libkeyutils1                    1.6.3-6                         deb             
