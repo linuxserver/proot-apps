@@ -428,7 +428,7 @@ qt6-qttools-libs           6.8.2-r1                 apk
 qt6-qtwayland              6.8.2-r0                 apk                         
 qt6-qtwebchannel           6.8.2-r0                 apk                         
 qt6-qtwebengine            6.8.2-r3                 apk                         
-qt6-qtwebsockets-libs      6.8.2-r0                 apk                         
+qt6-qtwebsockets-libs      6.8.2-r1                 apk                         
 quote                      1.0.35                   rust-crate                  
 rand                       0.8.5                    rust-crate                  
 rand_chacha                0.3.1                    rust-crate                  
