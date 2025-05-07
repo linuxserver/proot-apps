@@ -125,7 +125,7 @@ libice                     1.1.2-r0                 apk
 libidn2                    2.3.7-r0                 apk           
 libintl                    0.24-r0                  apk           
 libjpeg-turbo              3.1.0-r0                 apk           
-libjxl                     0.10.3-r1                apk           
+libjxl                     0.10.3-r2                apk           
 liblo                      0.31-r1                  apk           
 libltdl                    2.5.4-r0                 apk           
 libmagic                   5.46-r2                  apk           

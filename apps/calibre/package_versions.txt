@@ -64,7 +64,7 @@ dbus                       1.16.2-r1                apk
 dbus-daemon-launch-helper  1.16.2-r1                apk                         
 dbus-libs                  1.16.2-r1                apk                         
 dbus-x11                   1.16.2-r1                apk                         
-device-mapper-libs         2.03.31-r0               apk                         
+device-mapper-libs         2.03.32-r0               apk                         
 dnspython                  2.7.0                    python                      
 double-conversion          3.3.1-r0                 apk                         
 duktape-libs               2.7.0-r2                 apk                         
@@ -186,7 +186,7 @@ libimagequant              4.2.2-r0                 apk
 libinput-libs              1.28.1-r0                apk                         
 libintl                    0.24-r0                  apk                         
 libjpeg-turbo              3.1.0-r0                 apk                         
-libjxl                     0.10.3-r1                apk                         
+libjxl                     0.10.3-r2                apk                         
 libksba                    1.6.7-r0                 apk                         
 libldap                    2.6.8-r0                 apk                         
 libltdl                    2.5.4-r0                 apk                         
