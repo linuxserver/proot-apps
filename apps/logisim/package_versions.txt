@@ -1,5 +1,5 @@
 NAME                            VERSION                         TYPE           
-adduser                         3.151                           deb             
+adduser                         3.152                           deb             
 apt                             3.0.1                           deb             
 base-files                      13.7                            deb             
 base-passwd                     3.6.7                           deb             
