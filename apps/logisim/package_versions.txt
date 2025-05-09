@@ -298,8 +298,8 @@ x11-common                      1:7.7+24                        deb
 x11-xkb-utils                   7.7+9                           deb             
 xdg-utils                       1.2.1-2                         deb             
 xkb-data                        2.42-1                          deb             
-xserver-common                  2:21.1.16-1                     deb             
-xserver-xorg-core               2:21.1.16-1                     deb             
+xserver-common                  2:21.1.16-1.1                   deb             
+xserver-xorg-core               2:21.1.16-1.1                   deb             
 xserver-xorg-video-amdgpu       23.0.0-1                        deb             
 xserver-xorg-video-ati          1:22.0.0-1                      deb             
 xserver-xorg-video-radeon       1:22.0.0-1                      deb             

@@ -286,7 +286,7 @@ v4l-utils-libs             1.28.1-r1                apk
 v_frame                    0.3.7                    rust-crate    
 vamp-sdk-libs              2.10.0-r2                apk           
 vidstab                    1.1.1-r0                 apk           
-vulkan-loader              1.4.304.1-r1             apk           
+vulkan-loader              1.4.313.0-r0             apk           
 wayland-libs-client        1.23.1-r3                apk           
 wayland-libs-cursor        1.23.1-r3                apk           
 wayland-libs-egl           1.23.1-r3                apk           
