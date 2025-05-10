@@ -510,7 +510,7 @@ lucene-queryparser                                      5.5.5 b3441673c21c837620
 lucene-sandbox                                          5.5.5 b3441673c21c83762035dc21d3827ad16aa17b68- sarowe - 2017-10-20 08:57:52  java-archive                    
 lucene-spatial                                          5.5.5 b3441673c21c83762035dc21d3827ad16aa17b68- sarowe - 2017-10-20 08:57:53  java-archive                    
 lucene-spatial3d                                        5.5.5 b3441673c21c83762035dc21d3827ad16aa17b68- sarowe - 2017-10-20 08:57:53  java-archive                    
-maltego                                                 4.9.2                                                                         deb                             
+maltego                                                 4.9.3                                                                         deb                             
 matching                                                1.0-SNAPSHOT                                                                  java-archive                    
 mawk                                                    1.3.4.20200120-3.1                                                            deb                             
 media-types                                             10.0.0                                                                        deb                             
