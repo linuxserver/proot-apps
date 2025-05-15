@@ -126,7 +126,7 @@ libxi                      1.8.2-r0                 apk
 libxinerama                1.1.5-r4                 apk     
 libxkbcommon               1.7.0-r1                 apk     
 libxkbcommon-x11           1.7.0-r1                 apk     
-libxml2                    2.13.4-r5                apk     
+libxml2                    2.13.4-r6                apk     
 libxmu                     1.2.1-r0                 apk     
 libxrandr                  1.5.4-r1                 apk     
 libxrender                 0.9.11-r5                apk     

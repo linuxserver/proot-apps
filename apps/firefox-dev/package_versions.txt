@@ -76,12 +76,12 @@ gnutls                     3.8.8-r0                 apk
 gobject-introspection      1.84.0-r0                apk           
 graphene                   1.10.8-r5                apk           
 graphite2                  1.3.14-r6                apk           
-gst-plugins-base           1.24.12-r0               apk           
-gstreamer                  1.24.12-r0               apk           
-gstreamer-ptp-helper       1.24.12-r0               apk           
+gst-plugins-base           1.26.1-r0                apk           
+gstreamer                  1.26.1-r0                apk           
+gstreamer-ptp-helper       1.26.1-r0                apk           
 gtk+3.0                    3.24.49-r1               apk           
 gtk-update-icon-cache      3.24.49-r1               apk           
-harfbuzz                   11.2.0-r0                apk           
+harfbuzz                   11.2.1-r0                apk           
 heck                       0.4.1                    rust-crate    
 hicolor-icon-theme         0.18-r0                  apk           
 hwdata-pci                 0.395-r0                 apk           
