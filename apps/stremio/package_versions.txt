@@ -164,7 +164,7 @@ libkrb5-3                           1.19.2-2ubuntu0.6                        deb
 libkrb5support0                     1.19.2-2ubuntu0.6                        deb     
 liblapack3                          3.10.0-2ubuntu1                          deb     
 liblcms2-2                          2.12~rc1-2build2                         deb     
-libldap-2.5-0                       2.5.18+dfsg-0ubuntu0.22.04.3             deb     
+libldap-2.5-0                       2.5.19+dfsg-0ubuntu0.22.04.1             deb     
 liblilv-0-0                         0.24.12-2                                deb     
 libllvm15                           1:15.0.7-0ubuntu0.22.04.3                deb     
 liblocale-gettext-perl              1.07-4build3                             deb     
