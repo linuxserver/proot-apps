@@ -90,7 +90,7 @@ font-noto-symbols          2025.05.01-r0            apk
 fontconfig                 2.15.0-r3                apk                         
 fonttools                  4.57.0                   python                      
 freetype                   2.13.3-r0                apk                         
-fribidi                    1.0.16-r0                apk                         
+fribidi                    1.0.16-r1                apk                         
 gdbm                       1.24-r0                  apk                         
 gdk-pixbuf                 2.42.12-r1               apk                         
 getrandom                  0.2.12                   rust-crate                  
@@ -189,7 +189,7 @@ libjpeg-turbo              3.1.0-r0                 apk
 libjxl                     0.10.3-r2                apk                         
 libksba                    1.6.7-r0                 apk                         
 libldap                    2.6.8-r0                 apk                         
-libltdl                    2.5.4-r0                 apk                         
+libltdl                    2.5.4-r1                 apk                         
 libmagic                   5.46-r2                  apk                         
 libmd                      1.1.0-r0                 apk                         
 libmng                     2.0.3-r2                 apk                         
@@ -437,7 +437,7 @@ rav1e                      0.7.1                    rust-crate
 rav1e-libs                 0.7.1-r0                 apk                         
 rayon                      1.8.0                    rust-crate  (+1 duplicate)  
 rayon-core                 1.12.0                   rust-crate  (+1 duplicate)  
-readline                   8.2.13-r0                apk                         
+readline                   8.2.13-r1                apk                         
 regex                      2024.11.6                python                      
 rgb                        0.8.36                   rust-crate                  
 rustix                     0.38.28                  rust-crate                  
