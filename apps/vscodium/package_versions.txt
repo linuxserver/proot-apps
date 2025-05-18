@@ -335,7 +335,7 @@ libspeexdsp1                            1.2.1-1                         deb
 libsqlite3-0                            3.40.1-2+deb12u1                deb                    
 libss2                                  1.47.0-2                        deb                    
 libssh2-1                               1.10.0-3+b1                     deb                    
-libssl3                                 3.0.15-1~deb12u1                deb                    
+libssl3                                 3.0.16-1~deb12u1                deb                    
 libstdc++6                              12.2.0-14                       deb                    
 libsvtav1enc1                           1.4.1+dfsg-1                    deb                    
 libswresample4                          7:5.1.6-0+deb12u1               deb                    
@@ -454,8 +454,8 @@ objective-c                             1.0.0                           npm
 ocl-icd-libopencl1                      2.3.1-1                         deb                    
 once                                    1.4.0                           npm                    
 open                                    8.4.2                           npm                    
-openssh-client                          1:9.2p1-2+deb12u5               deb                    
-openssl                                 3.0.15-1~deb12u1                deb                    
+openssh-client                          1:9.2p1-2+deb12u6               deb                    
+openssl                                 3.0.16-1~deb12u1                deb                    
 opentype.js                             0.8.0                           npm                    
 passwd                                  1:4.13+dfsg1-1+b1               deb                    
 pend                                    1.2.0                           npm                    

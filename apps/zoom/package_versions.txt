@@ -31,7 +31,7 @@ fontconfig-config               2.14.1-4                        deb
 fonts-dejavu-core               2.37-6                          deb       
 fonts-noto                      20201225-1                      deb       
 fonts-noto-core                 20201225-1                      deb       
-gcc-12-base                     12.2.0-14                       deb       
+gcc-12-base                     12.2.0-14+deb12u1               deb       
 gir1.2-atk-1.0                  2.46.0-5                        deb       
 gir1.2-freedesktop              1.74.0-3                        deb       
 gir1.2-gdkpixbuf-2.0            2.42.10+dfsg-1+deb12u1          deb       
@@ -61,7 +61,7 @@ libasound2-plugins              1.2.7.1-1                       deb
 libasyncns0                     0.8-6+b3                        deb       
 libatk-bridge2.0-0              2.46.0-5                        deb       
 libatk1.0-0                     2.46.0-5                        deb       
-libatomic1                      12.2.0-14                       deb       
+libatomic1                      12.2.0-14+deb12u1               deb       
 libatspi2.0-0                   2.46.0-5                        deb       
 libattr1                        1:2.5.1-4                       deb       
 libaudit-common                 1:3.0.9-1                       deb       
@@ -117,7 +117,7 @@ libfontenc1                     1:1.1.4-1                       deb
 libfreetype6                    2.12.1+dfsg-5+deb12u4           deb       
 libfribidi0                     1.0.8-2.1                       deb       
 libgbm1                         22.3.6-1+deb12u1                deb       
-libgcc-s1                       12.2.0-14                       deb       
+libgcc-s1                       12.2.0-14+deb12u1               deb       
 libgcrypt20                     1.10.1-3                        deb       
 libgdk-pixbuf-2.0-0             2.42.10+dfsg-1+deb12u1          deb       
 libgdk-pixbuf2.0-common         2.42.10+dfsg-1+deb12u1          deb       
@@ -131,7 +131,7 @@ libglx-mesa0                    22.3.6-1+deb12u1                deb
 libglx0                         1.6.0-1                         deb       
 libgmp10                        2:6.2.1+dfsg1-1.1               deb       
 libgnutls30                     3.7.9-2+deb12u4                 deb       
-libgomp1                        12.2.0-14                       deb       
+libgomp1                        12.2.0-14+deb12u1               deb       
 libgpg-error0                   1.46-1                          deb       
 libgraphite2-3                  1.3.14-1                        deb       
 libgsm1                         1.0.22-1                        deb       
@@ -228,7 +228,7 @@ libsqlite3-0                    3.40.1-2+deb12u1                deb
 libss2                          1.47.0-2                        deb       
 libssh2-1                       1.10.0-3+b1                     deb       
 libssl3                         3.0.15-1~deb12u1                deb       
-libstdc++6                      12.2.0-14                       deb       
+libstdc++6                      12.2.0-14+deb12u1               deb       
 libsvtav1enc1                   1.4.1+dfsg-1                    deb       
 libswresample4                  7:5.1.6-0+deb12u1               deb       
 libsystemd0                     252.36-1~deb12u1                deb       

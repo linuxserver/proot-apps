@@ -222,10 +222,10 @@ libpulse0                       16.1+dfsg1-2+b1                 deb
 libpulsedsp                     16.1+dfsg1-2+b1                 deb             
 libpython3-dev                  3.11.2-1+b1                     deb             
 libpython3-stdlib               3.11.2-1+b1                     deb             
-libpython3.11                   3.11.2-6+deb12u5                deb             
-libpython3.11-dev               3.11.2-6+deb12u5                deb             
-libpython3.11-minimal           3.11.2-6+deb12u5                deb             
-libpython3.11-stdlib            3.11.2-6+deb12u5                deb             
+libpython3.11                   3.11.2-6+deb12u6                deb             
+libpython3.11-dev               3.11.2-6+deb12u6                deb             
+libpython3.11-minimal           3.11.2-6+deb12u6                deb             
+libpython3.11-stdlib            3.11.2-6+deb12u6                deb             
 librav1e0                       0.5.1-6                         deb             
 libreadline8                    8.2-1.3                         deb             
 librsvg2-2                      2.54.7+dfsg-1~deb12u1           deb             
@@ -251,7 +251,7 @@ libspeexdsp1                    1.2.1-1                         deb
 libsqlite3-0                    3.40.1-2+deb12u1                deb             
 libss2                          1.47.0-2                        deb             
 libssh2-1                       1.10.0-3+b1                     deb             
-libssl3                         3.0.15-1~deb12u1                deb             
+libssl3                         3.0.16-1~deb12u1                deb             
 libstdc++6                      12.2.0-14                       deb             
 libsvtav1enc1                   1.4.1+dfsg-1                    deb             
 libswresample4                  7:5.1.6-0+deb12u1               deb             
@@ -324,7 +324,7 @@ libz3-4                         4.8.12-3.1                      deb
 libzstd1                        1.5.4+dfsg2-5                   deb             
 libzvbi-common                  0.2.41-1                        deb             
 libzvbi0                        0.2.41-1                        deb             
-linux-libc-dev                  6.1.135-1                       deb             
+linux-libc-dev                  6.1.137-1                       deb             
 log                             1.0.0                           npm             
 login                           1:4.13+dfsg1-1+b1               deb             
 logsave                         1.47.0-2                        deb             
@@ -344,8 +344,8 @@ netcat-openbsd                  1.219-1                         deb
 objective-c                     1.0.0                           npm             
 ocl-icd-libopencl1              2.3.1-1                         deb             
 openjdk                         21.0.6+9-b895.109               binary          
-openssh-client                  1:9.2p1-2+deb12u5               deb             
-openssl                         3.0.15-1~deb12u1                deb             
+openssh-client                  1:9.2p1-2+deb12u6               deb             
+openssl                         3.0.16-1~deb12u1                deb             
 passwd                          1:4.13+dfsg1-1+b1               deb             
 perl                            1.0.0                           npm             
 perl                            5.36.0-7+deb12u2                deb             
@@ -376,9 +376,9 @@ python3-setuptools-whl          66.1.1-1+deb12u1                deb
 python3-virtualenv              20.17.1+ds-1                    deb             
 python3-wheel                   0.38.4-2                        deb             
 python3-wheel-whl               0.38.4-2                        deb             
-python3.11                      3.11.2-6+deb12u5                deb             
-python3.11-dev                  3.11.2-6+deb12u5                deb             
-python3.11-minimal              3.11.2-6+deb12u5                deb             
+python3.11                      3.11.2-6+deb12u6                deb             
+python3.11-dev                  3.11.2-6+deb12u6                deb             
+python3.11-minimal              3.11.2-6+deb12u6                deb             
 quiche-jna-stubs                UNKNOWN                         java-archive    
 r                               1.0.0                           npm             
 razor                           1.0.0                           npm             

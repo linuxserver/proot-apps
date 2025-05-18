@@ -136,11 +136,11 @@ libgirepository-1.0-1           1.74.0-3                        deb
 libgl1                          1.6.0-1                         deb       
 libgl1-mesa-dri                 22.3.6-1+deb12u1                deb       
 libglapi-mesa                   22.3.6-1+deb12u1                deb       
-libglib2.0-0                    2.74.6-2+deb12u5                deb       
-libglib2.0-bin                  2.74.6-2+deb12u5                deb       
-libglib2.0-data                 2.74.6-2+deb12u5                deb       
-libglib2.0-dev                  2.74.6-2+deb12u5                deb       
-libglib2.0-dev-bin              2.74.6-2+deb12u5                deb       
+libglib2.0-0                    2.74.6-2+deb12u6                deb       
+libglib2.0-bin                  2.74.6-2+deb12u6                deb       
+libglib2.0-data                 2.74.6-2+deb12u6                deb       
+libglib2.0-dev                  2.74.6-2+deb12u6                deb       
+libglib2.0-dev-bin              2.74.6-2+deb12u6                deb       
 libglvnd0                       1.6.0-1                         deb       
 libglx-mesa0                    22.3.6-1+deb12u1                deb       
 libglx0                         1.6.0-1                         deb       
@@ -340,7 +340,7 @@ libz3-4                         4.8.12-3.1                      deb
 libzstd1                        1.5.4+dfsg2-5                   deb       
 libzvbi-common                  0.2.41-1                        deb       
 libzvbi0                        0.2.41-1                        deb       
-linux-libc-dev                  6.1.135-1                       deb       
+linux-libc-dev                  6.1.137-1                       deb       
 login                           1:4.13+dfsg1-1+b1               deb       
 logsave                         1.47.0-2                        deb       
 mawk                            1.3.4.20200120-3.1              deb       

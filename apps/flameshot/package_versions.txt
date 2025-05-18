@@ -138,7 +138,7 @@ mesa-va-gallium            25.1.0-r1                apk
 mesa-vulkan-ati            25.1.0-r1                apk     
 mesa-vulkan-layers         25.1.0-r1                apk     
 mesa-vulkan-swrast         25.1.0-r1                apk     
-mpdecimal                  4.0.0-r0                 apk     
+mpdecimal                  4.0.1-r0                 apk     
 mpg123-libs                1.32.10-r0               apk     
 mtdev                      1.1.7-r0                 apk     
 musl                       1.2.5-r10                apk     

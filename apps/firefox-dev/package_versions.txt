@@ -58,7 +58,7 @@ ffmpeg-libavutil           6.1.2-r2                 apk
 ffmpeg-libswresample       6.1.2-r2                 apk           
 fftw-single-libs           3.3.10-r6                apk           
 file                       5.46-r2                  apk           
-firefox-developer-edition  139.0_beta7-r0           apk           
+firefox-developer-edition  139.0_beta9-r0           apk           
 font-noto                  2025.05.01-r0            apk           
 font-noto-common           2025.05.01-r0            apk           
 font-noto-math             2025.05.01-r0            apk           
@@ -192,7 +192,7 @@ mesa-vulkan-ati            25.1.0-r1                apk
 mesa-vulkan-layers         25.1.0-r1                apk           
 mesa-vulkan-swrast         25.1.0-r1                apk           
 minimal-lexical            0.2.1                    rust-crate    
-mpdecimal                  4.0.0-r0                 apk           
+mpdecimal                  4.0.1-r0                 apk           
 mpg123-libs                1.32.10-r0               apk           
 musl                       1.2.5-r10                apk           
 musl-utils                 1.2.5-r9                 apk           
