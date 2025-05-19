@@ -59,8 +59,8 @@ icu-data-en                74.2-r0                  apk
 icu-libs                   74.2-r0                  apk       
 imath                      3.1.12-r0                apk       
 jansson                    2.14-r4                  apk       
-kodi                       21.2-r0                  apk       
-kodi-x11                   21.2-r0                  apk       
+kodi                       21.2-r1                  apk       
+kodi-x11                   21.2-r1                  apk       
 lame-libs                  3.100-r5                 apk       
 lcms2                      2.16-r0                  apk       
 ldb                        2.9.2-r0                 apk       
