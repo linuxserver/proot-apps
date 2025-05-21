@@ -1,4 +1,5 @@
 NAME                                                                  VERSION                         TYPE                         
+Java(TM) Native Access                                                5                               binary        (+1 duplicate)  
 JavaEWAH                                                              1.2.3                           java-archive                  
 adduser                                                               3.134                           deb                           
 adwaita-icon-theme                                                    43-1                            deb                           
@@ -177,6 +178,7 @@ jetty-security                                                        12.0.16   
 jetty-server                                                          12.0.16                         java-archive                  
 jetty-session                                                         12.0.16                         java-archive                  
 jetty-util                                                            12.0.16                         java-archive                  
+jnidispatch                                                           UNKNOWN                         binary                        
 joni                                                                  2.2.3                           java-archive                  
 jre                                                                   1.3.4.202210170008              java-archive                  
 jrt-fs                                                                17.0.15                         java-archive                  

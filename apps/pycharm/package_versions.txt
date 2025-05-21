@@ -1,9 +1,12 @@
 NAME                            VERSION                         TYPE           
 Java-WebSocket                  1.6.0                           java-archive    
+_ctypes                         UNKNOWN                         binary          
 adduser                         3.134                           deb             
 annotations                     UNKNOWN                         java-archive    
 apt                             2.6.1                           deb             
 asciidoctor-vscode              3.3.2-dev                       npm             
+attach_amd64                    UNKNOWN                         binary          
+attach_x86                      UNKNOWN                         binary          
 base-files                      12.4+deb12u10                   deb             
 base-passwd                     3.6.1                           deb             
 bash                            5.2.15-2+b7                     deb             
@@ -61,6 +64,8 @@ html                            1.0.0                           npm
 ice4j                           3.0-54-g2baae57                 java-archive    
 ini                             1.0.0                           npm             
 init-system-helpers             1.65.2                          deb             
+inject_dll_amd64                UNKNOWN                         binary          
+inject_dll_x86                  UNKNOWN                         binary          
 iso-codes                       4.15.0-1                        deb             
 java                            1.0.0                           npm             
 java-websocket                  1.6.0                           java-archive    
@@ -386,6 +391,8 @@ readline-common                 8.2-1.3                         deb
 restructuredtext                1.0.0                           npm             
 rpcsvc-proto                    1.4.3-1                         deb             
 ruby                            1.0.0                           npm             
+run_code_on_dllmain_amd64       UNKNOWN                         binary          
+run_code_on_dllmain_x86         UNKNOWN                         binary          
 rust                            1.0.0                           npm             
 scss                            1.0.0                           npm             
 search-result                   1.0.0                           npm             

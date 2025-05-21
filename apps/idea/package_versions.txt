@@ -148,6 +148,7 @@ j2objc-annotations                     1.1                             java-arch
 jackson-core                           2.16.0                          java-archive                   
 jacocoagent                            0.8.12                          java-archive                   
 jansi                                  2.4.1                           java-archive                   
+jansi                                  UNKNOWN                         binary        (+1 duplicate)   
 java                                   1.0.0                           npm                            
 java-common                            0.74                            deb                            
 java-websocket                         1.6.0                           java-archive                   
