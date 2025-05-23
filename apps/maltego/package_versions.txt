@@ -14,9 +14,9 @@ asm-tree                                                9.2                     
 asyncutil                                               0.1.0                                                                         java-archive                    
 at-spi2-common                                          2.46.0-5                                                                      deb                             
 automation                                              1.0-SNAPSHOT                                                                  java-archive                    
-base-files                                              12.4+deb12u10                                                                 deb                             
+base-files                                              12.4+deb12u11                                                                 deb                             
 base-passwd                                             3.6.1                                                                         deb                             
-bash                                                    5.2.15-2+b7                                                                   deb                             
+bash                                                    5.2.15-2+b8                                                                   deb                             
 batik-anim                                              1.14                                                                          java-archive                    
 batik-anim                                              1.17                                                                          java-archive                    
 batik-awt-util                                          1.14                                                                          java-archive                    
@@ -120,7 +120,7 @@ dbus-daemon                                             1.14.10-1~deb12u1       
 dbus-session-bus-common                                 1.14.10-1~deb12u1                                                             deb                             
 dbus-x11                                                1.14.10-1~deb12u1                                                             deb                             
 debconf                                                 1.5.82                                                                        deb                             
-debian-archive-keyring                                  2023.3+deb12u1                                                                deb                             
+debian-archive-keyring                                  2023.3+deb12u2                                                                deb                             
 debianutils                                             5.7-0.5~deb12u1                                                               deb                             
 default-jre                                             2:1.17-74                                                                     deb                             
 default-jre-headless                                    2:1.17-74                                                                     deb                             
@@ -499,7 +499,7 @@ licensing                                               1.0-SNAPSHOT            
 licensing-ui                                            1.0-SNAPSHOT                                                                  java-archive                    
 listenablefuture                                        9999.0-empty-to-avoid-conflict-with-guava                                     java-archive                    
 log4j-api                                               2.21.1                                                                        java-archive                    
-login                                                   1:4.13+dfsg1-1+b1                                                             deb                             
+login                                                   1:4.13+dfsg1-1+deb12u1                                                        deb                             
 logsave                                                 1.47.0-2                                                                      deb                             
 lucene-analyzers-common                                 5.5.5 b3441673c21c83762035dc21d3827ad16aa17b68- sarowe - 2017-10-20 08:57:36  java-archive                    
 lucene-core                                             3.6.2                                                                         java-archive                    
@@ -690,7 +690,7 @@ osgi.core                                               8.0.0                   
 pandora                                                 1.0-SNAPSHOT                                                                  java-archive                    
 pandora-api                                             1.4.4                                                                         java-archive                    
 pandora-core                                            1.4.4                                                                         java-archive                    
-passwd                                                  1:4.13+dfsg1-1+b1                                                             deb                             
+passwd                                                  1:4.13+dfsg1-1+deb12u1                                                        deb                             
 perl-base                                               5.36.0-7+deb12u2                                                              deb                             
 poi                                                     5.2.5                                                                         java-archive                    
 poi-ooxml                                               5.2.5                                                                         java-archive                    

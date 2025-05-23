@@ -222,10 +222,10 @@ py3-pillow-pyc             11.0.0-r0                apk
 py3-simplejson             3.19.3-r0                apk       
 py3-simplejson-pyc         3.19.3-r0                apk       
 pybluez                    0.23                     python    
-pyc                        3.12.10-r0               apk       
-python3                    3.12.10-r0               apk       
-python3-pyc                3.12.10-r0               apk       
-python3-pycache-pyc0       3.12.10-r0               apk       
+pyc                        3.12.10-r1               apk       
+python3                    3.12.10-r1               apk       
+python3-pyc                3.12.10-r1               apk       
+python3-pycache-pyc0       3.12.10-r1               apk       
 rav1e-libs                 0.7.1-r0                 apk       
 readline                   8.2.13-r0                apk       
 roc-toolkit-libs           0.4.0-r0                 apk       

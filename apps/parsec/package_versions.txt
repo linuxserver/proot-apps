@@ -1,9 +1,9 @@
 NAME                            VERSION                         TYPE   
 adduser                         3.134                           deb     
 apt                             2.6.1                           deb     
-base-files                      12.4+deb12u10                   deb     
+base-files                      12.4+deb12u11                   deb     
 base-passwd                     3.6.1                           deb     
-bash                            5.2.15-2+b7                     deb     
+bash                            5.2.15-2+b8                     deb     
 bsdutils                        1:2.38.1-5+deb12u3              deb     
 ca-certificates                 20230311                        deb     
 coreutils                       9.1-1                           deb     
@@ -14,7 +14,7 @@ dbus-daemon                     1.14.10-1~deb12u1               deb
 dbus-session-bus-common         1.14.10-1~deb12u1               deb     
 dbus-x11                        1.14.10-1~deb12u1               deb     
 debconf                         1.5.82                          deb     
-debian-archive-keyring          2023.3+deb12u1                  deb     
+debian-archive-keyring          2023.3+deb12u2                  deb     
 debianutils                     5.7-0.5~deb12u1                 deb     
 desktop-file-utils              0.26-1                          deb     
 diffutils                       1:3.8-4                         deb     
@@ -264,7 +264,7 @@ libz3-4                         4.8.12-3.1                      deb
 libzstd1                        1.5.4+dfsg2-5                   deb     
 libzvbi-common                  0.2.41-1                        deb     
 libzvbi0                        0.2.41-1                        deb     
-login                           1:4.13+dfsg1-1+b1               deb     
+login                           1:4.13+dfsg1-1+deb12u1          deb     
 logsave                         1.47.0-2                        deb     
 mawk                            1.3.4.20200120-3.1              deb     
 media-types                     10.0.0                          deb     
@@ -277,7 +277,7 @@ netcat-openbsd                  1.219-1                         deb
 ocl-icd-libopencl1              2.3.1-1                         deb     
 openssl                         3.0.16-1~deb12u1                deb     
 parsec                          150-97c                         deb     
-passwd                          1:4.13+dfsg1-1+b1               deb     
+passwd                          1:4.13+dfsg1-1+deb12u1          deb     
 perl-base                       5.36.0-7+deb12u2                deb     
 pulseaudio                      16.1+dfsg1-2+b1                 deb     
 pulseaudio-utils                16.1+dfsg1-2+b1                 deb     

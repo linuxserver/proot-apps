@@ -211,11 +211,11 @@ py3-urllib3                 1.26.20-r0               apk
 py3-urllib3-pyc             1.26.20-r0               apk       
 py3-yaml                    6.0.2-r0                 apk       
 py3-yaml-pyc                6.0.2-r0                 apk       
-pyc                         3.12.10-r0               apk       
+pyc                         3.12.10-r1               apk       
 pygobject                   3.50.0                   python    
-python3                     3.12.10-r0               apk       
-python3-pyc                 3.12.10-r0               apk       
-python3-pycache-pyc0        3.12.10-r0               apk       
+python3                     3.12.10-r1               apk       
+python3-pyc                 3.12.10-r1               apk       
+python3-pycache-pyc0        3.12.10-r1               apk       
 pyyaml                      6.0.2                    python    
 readline                    8.2.13-r0                apk       
 requests                    2.32.3                   python    

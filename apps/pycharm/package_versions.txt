@@ -7,9 +7,9 @@ apt                             2.6.1                           deb
 asciidoctor-vscode              3.3.2-dev                       npm             
 attach_amd64                    UNKNOWN                         binary          
 attach_x86                      UNKNOWN                         binary          
-base-files                      12.4+deb12u10                   deb             
+base-files                      12.4+deb12u11                   deb             
 base-passwd                     3.6.1                           deb             
-bash                            5.2.15-2+b7                     deb             
+bash                            5.2.15-2+b8                     deb             
 bat                             1.0.0                           npm             
 bouncy-castle-pgp               1.80                            java-archive    
 bsdutils                        1:2.38.1-5+deb12u3              deb             
@@ -29,7 +29,7 @@ dbus-daemon                     1.14.10-1~deb12u1               deb
 dbus-session-bus-common         1.14.10-1~deb12u1               deb             
 dbus-x11                        1.14.10-1~deb12u1               deb             
 debconf                         1.5.82                          deb             
-debian-archive-keyring          2023.3+deb12u1                  deb             
+debian-archive-keyring          2023.3+deb12u2                  deb             
 debianutils                     5.7-0.5~deb12u1                 deb             
 desktop-file-utils              0.26-1                          deb             
 diff                            1.0.0                           npm             
@@ -331,7 +331,7 @@ libzvbi-common                  0.2.41-1                        deb
 libzvbi0                        0.2.41-1                        deb             
 linux-libc-dev                  6.1.137-1                       deb             
 log                             1.0.0                           npm             
-login                           1:4.13+dfsg1-1+b1               deb             
+login                           1:4.13+dfsg1-1+deb12u1          deb             
 logsave                         1.47.0-2                        deb             
 lua                             1.0.0                           npm             
 make                            1.0.0                           npm             
@@ -351,7 +351,7 @@ ocl-icd-libopencl1              2.3.1-1                         deb
 openjdk                         21.0.6+9-b895.109               binary          
 openssh-client                  1:9.2p1-2+deb12u6               deb             
 openssl                         3.0.16-1~deb12u1                deb             
-passwd                          1:4.13+dfsg1-1+b1               deb             
+passwd                          1:4.13+dfsg1-1+deb12u1          deb             
 perl                            1.0.0                           npm             
 perl                            5.36.0-7+deb12u2                deb             
 perl-base                       5.36.0-7+deb12u2                deb             

@@ -33,10 +33,10 @@ adwaita-icon-theme                      43-1                            deb
 agent-base                              7.1.1                           npm                    
 apt                                     2.6.1                           deb                    
 at-spi2-common                          2.46.0-5                        deb                    
-base-files                              12.4+deb12u10                   deb                    
+base-files                              12.4+deb12u11                   deb                    
 base-passwd                             3.6.1                           deb                    
 base64-js                               1.5.1                           npm                    
-bash                                    5.2.15-2+b7                     deb                    
+bash                                    5.2.15-2+b8                     deb                    
 bat                                     1.0.0                           npm                    
 bindings                                1.5.0                           npm                    
 bl                                      4.1.0                           npm                    
@@ -68,7 +68,7 @@ dbus-x11                                1.14.10-1~deb12u1               deb
 dconf-gsettings-backend                 0.40.0-4                        deb                    
 dconf-service                           0.40.0-4                        deb                    
 debconf                                 1.5.82                          deb                    
-debian-archive-keyring                  2023.3+deb12u1                  deb                    
+debian-archive-keyring                  2023.3+deb12u2                  deb                    
 debianutils                             5.7-0.5~deb12u1                 deb                    
 debug                                   4.4.0                           npm                    
 debug-auto-launch                       1.0.0                           npm                    
@@ -415,7 +415,7 @@ libzstd1                                1.5.4+dfsg2-5                   deb
 libzvbi-common                          0.2.41-1                        deb                    
 libzvbi0                                0.2.41-1                        deb                    
 log                                     1.0.0                           npm                    
-login                                   1:4.13+dfsg1-1+b1               deb                    
+login                                   1:4.13+dfsg1-1+deb12u1          deb                    
 logsave                                 1.47.0-2                        deb                    
 lru-cache                               6.0.0                           npm                    
 lua                                     1.0.0                           npm                    
@@ -457,7 +457,7 @@ open                                    8.4.2                           npm
 openssh-client                          1:9.2p1-2+deb12u6               deb                    
 openssl                                 3.0.16-1~deb12u1                deb                    
 opentype.js                             0.8.0                           npm                    
-passwd                                  1:4.13+dfsg1-1+b1               deb                    
+passwd                                  1:4.13+dfsg1-1+deb12u1          deb                    
 pend                                    1.2.0                           npm                    
 perl                                    1.0.0                           npm                    
 perl                                    5.36.0-7+deb12u2                deb                    

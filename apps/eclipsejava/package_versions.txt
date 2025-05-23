@@ -44,9 +44,9 @@ archetype-common                                                      3.2.1     
 archetype-descriptor                                                  3.2.1                           java-archive                  
 asm                                                                   9.7.1                           java-archive                  
 at-spi2-common                                                        2.46.0-5                        deb                           
-base-files                                                            12.4+deb12u10                   deb                           
+base-files                                                            12.4+deb12u11                   deb                           
 base-passwd                                                           3.6.1                           deb                           
-bash                                                                  5.2.15-2+b7                     deb                           
+bash                                                                  5.2.15-2+b8                     deb                           
 batik-constants                                                       1.18                            java-archive                  
 batik-css                                                             1.18                            java-archive                  
 batik-i18n                                                            1.18                            java-archive                  
@@ -96,7 +96,7 @@ dbus-x11                                                              1.14.10-1~
 dconf-gsettings-backend                                               0.40.0-4                        deb                           
 dconf-service                                                         0.40.0-4                        deb                           
 debconf                                                               1.5.82                          deb                           
-debian-archive-keyring                                                2023.3+deb12u1                  deb                           
+debian-archive-keyring                                                2023.3+deb12u2                  deb                           
 debianutils                                                           5.7-0.5~deb12u1                 deb                           
 default-jdk                                                           2:1.17-74                       deb                           
 default-jdk-headless                                                  2:1.17-74                       deb                           
@@ -470,7 +470,7 @@ logback-classic                                                       1.5.17    
 logback-core                                                          1.5.17                          java-archive                  
 loggers                                                               UNKNOWN                         java-archive                  
 logging                                                               1.2.0                           java-archive                  
-login                                                                 1:4.13+dfsg1-1+b1               deb                           
+login                                                                 1:4.13+dfsg1-1+deb12u1          deb                           
 logsave                                                               1.47.0-2                        deb                           
 maven-artifact                                                        3.9.9                           java-archive                  
 maven-artifact-transfer                                               0.13.1                          java-archive                  
@@ -1018,7 +1018,7 @@ org.ow2.sat4j.core                                                    2.3.6     
 org.ow2.sat4j.pb                                                      2.3.6                           java-archive                  
 osgi                                                                  2.15.0                          java-archive                  
 osgi-resource-locator                                                 1.0.3                           java-archive                  
-passwd                                                                1:4.13+dfsg1-1+b1               deb                           
+passwd                                                                1:4.13+dfsg1-1+deb12u1          deb                           
 pb                                                                    2.3.6.v20201214                 java-archive                  
 pdepublishing-ant                                                     UNKNOWN                         java-archive                  
 perl                                                                  5.36.0-7+deb12u2                deb                           

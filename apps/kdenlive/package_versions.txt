@@ -290,10 +290,10 @@ polkit-qt6                 0.200.0-r0               apk
 pulseaudio                 17.0-r4                  apk     
 pulseaudio-alsa            17.0-r4                  apk     
 purpose                    6.8.0-r0                 apk     
-pyc                        3.12.10-r0               apk     
-python3                    3.12.10-r0               apk     
-python3-pyc                3.12.10-r0               apk     
-python3-pycache-pyc0       3.12.10-r0               apk     
+pyc                        3.12.10-r1               apk     
+python3                    3.12.10-r1               apk     
+python3-pyc                3.12.10-r1               apk     
+python3-pycache-pyc0       3.12.10-r1               apk     
 qqc2-desktop-style         6.8.0-r0                 apk     
 qt5-qtbase                 5.15.10_git20230714-r3   apk     
 qt5-qtbase-x11             5.15.10_git20230714-r3   apk     
