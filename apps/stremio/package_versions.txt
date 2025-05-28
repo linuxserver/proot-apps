@@ -128,7 +128,7 @@ libgfortran5                        12.3.0-1ubuntu1~22.04                    deb
 libgl1                              1.4.0-1                                  deb     
 libgl1-mesa-dri                     23.2.1-1ubuntu3.1~22.04.3                deb     
 libglapi-mesa                       23.2.1-1ubuntu3.1~22.04.3                deb     
-libglib2.0-0                        2.72.4-0ubuntu2.4                        deb     
+libglib2.0-0                        2.72.4-0ubuntu2.5                        deb     
 libglvnd0                           1.4.0-1                                  deb     
 libglx-mesa0                        23.2.1-1ubuntu3.1~22.04.3                deb     
 libglx0                             1.4.0-1                                  deb     

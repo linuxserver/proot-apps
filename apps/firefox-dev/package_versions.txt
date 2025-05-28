@@ -22,8 +22,8 @@ bash                       5.2.37-r0                apk
 bitflags                   2.4.1                    rust-crate    
 bitstream-io               2.2.0                    rust-crate    
 brotli-libs                1.1.0-r2                 apk           
-busybox                    1.37.0-r17               apk           
-busybox-binsh              1.37.0-r17               apk           
+busybox                    1.37.0-r18               apk           
+busybox-binsh              1.37.0-r18               apk           
 c-ares                     1.34.5-r0                apk           
 ca-certificates-bundle     20241121-r1              apk           
 cairo                      1.18.2-r1                apk           
@@ -100,7 +100,7 @@ libSvtAv1Enc               2.3.0-r0                 apk
 libasyncns                 0.8-r4                   apk           
 libatk-1.0                 2.56.2-r0                apk           
 libatk-bridge-2.0          2.56.2-r0                apk           
-libblkid                   2.41-r7                  apk           
+libblkid                   2.41-r9                  apk           
 libbsd                     0.12.2-r0                apk           
 libbz2                     1.0.8-r6                 apk           
 libc                       0.2.152                  rust-crate    
@@ -128,7 +128,7 @@ libjxl                     0.10.3-r2                apk
 libltdl                    2.5.4-r1                 apk           
 libmagic                   5.46-r2                  apk           
 libmd                      1.1.0-r0                 apk           
-libmount                   2.41-r7                  apk           
+libmount                   2.41-r9                  apk           
 libncursesw                6.5_p20250503-r0         apk           
 libogg                     1.3.5-r5                 apk           
 libpanelw                  6.5_p20250503-r0         apk           
@@ -144,7 +144,7 @@ libstdc++                  14.2.0-r6                apk
 libtasn1                   4.20.0-r0                apk           
 libtheora                  1.1.1-r18                apk           
 libunistring               1.3-r0                   apk           
-libuuid                    2.41-r7                  apk           
+libuuid                    2.41-r9                  apk           
 libva                      2.22.0-r1                apk           
 libva-intel-driver         2.4.1-r2                 apk           
 libvdpau                   1.5-r4                   apk           
@@ -255,7 +255,7 @@ soxr                       0.1.3-r7                 apk
 speexdsp                   1.2.1-r2                 apk           
 spirv-tools                1.4.313.0-r0             apk           
 sqlite-libs                3.49.2-r0                apk           
-ssl_client                 1.37.0-r17               apk           
+ssl_client                 1.37.0-r18               apk           
 syn                        2.0.48                   rust-crate    
 tdb-libs                   1.4.12-r0                apk           
 terminal_size              0.3.0                    rust-crate    
