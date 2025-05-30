@@ -93,7 +93,7 @@ libavcodec59                     7:5.1.6-0+deb12u1                deb
 libavdevice59                    7:5.1.6-0+deb12u1                deb       
 libavfilter8                     7:5.1.6-0+deb12u1                deb       
 libavformat59                    7:5.1.6-0+deb12u1                deb       
-libavif15                        0.11.1-1                         deb       
+libavif15                        0.11.1-1+deb12u1                 deb       
 libavutil57                      7:5.1.6-0+deb12u1                deb       
 libayatana-appindicator3-1       0.5.92-1                         deb       
 libayatana-ido3-0.4-0            0.9.3-1                          deb       
@@ -373,7 +373,7 @@ libvisual-0.4-0                  0.4.0-19                         deb
 libvorbis0a                      1.3.7-1                          deb       
 libvorbisenc2                    1.3.7-1                          deb       
 libvorbisfile3                   1.3.7-1                          deb       
-libvpx7                          1.12.0-1+deb12u3                 deb       
+libvpx7                          1.12.0-1+deb12u4                 deb       
 libvulkan1                       1.3.239.0-1                      deb       
 libwavpack1                      5.6.0-1                          deb       
 libwayland-client0               1.21.0-1                         deb       
