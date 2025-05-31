@@ -200,8 +200,8 @@ py3-certifi                2024.8.30-r0             apk
 py3-certifi-pyc            2024.8.30-r0             apk       
 py3-curio                  1.6-r2                   apk       
 py3-curio-pyc              1.6-r2                   apk       
-py3-gobject3               3.50.0-r1                apk       
-py3-gobject3-pyc           3.50.0-r1                apk       
+py3-gobject3               3.50.1-r0                apk       
+py3-gobject3-pyc           3.50.1-r0                apk       
 py3-gst                    1.24.11-r0               apk       
 py3-gst-pyc                1.24.11-r0               apk       
 py3-h11                    0.14.0-r4                apk       
@@ -222,7 +222,7 @@ py3-soupsieve              2.6-r0                   apk
 py3-soupsieve-pyc          2.6-r0                   apk       
 pyc                        3.12.10-r1               apk       
 pycairo                    1.27.0                   python    
-pygobject                  3.50.0                   python    
+pygobject                  3.50.1                   python    
 pylast                     5.3.0                    python    
 python3                    3.12.10-r1               apk       
 python3-pyc                3.12.10-r1               apk       

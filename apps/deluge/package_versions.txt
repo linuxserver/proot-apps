@@ -238,8 +238,8 @@ py3-cryptography           44.0.0-r0                apk
 py3-cryptography-pyc       44.0.0-r0                apk       
 py3-distro                 1.9.0-r2                 apk       
 py3-distro-pyc             1.9.0-r2                 apk       
-py3-gobject3               3.50.0-r1                apk       
-py3-gobject3-pyc           3.50.0-r1                apk       
+py3-gobject3               3.50.1-r0                apk       
+py3-gobject3-pyc           3.50.1-r0                apk       
 py3-h2                     4.1.0-r3                 apk       
 py3-h2-pyc                 4.1.0-r3                 apk       
 py3-hpack                  4.0.0-r9                 apk       
@@ -294,7 +294,7 @@ pyasn1-modules             0.4.1                    python
 pyc                        3.12.10-r1               apk       
 pycairo                    1.27.0                   python    
 pycparser                  2.22                     python    
-pygobject                  3.50.0                   python    
+pygobject                  3.50.1                   python    
 pyhamcrest                 2.1.0                    python    
 pyopenssl                  24.1.0                   python    
 pyparsing                  3.1.4                    python    

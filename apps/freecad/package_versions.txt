@@ -353,7 +353,7 @@ libstdc++-12-dev                    12.2.0-14+deb12u1               deb
 libstdc++6                          12.2.0-14+deb12u1               deb       
 libsvtav1enc1                       1.4.1+dfsg-1                    deb       
 libswresample4                      7:5.1.6-0+deb12u1               deb       
-libsystemd0                         252.36-1~deb12u1                deb       
+libsystemd0                         252.38-1~deb12u1                deb       
 libsz2                              1.0.6-1+b1                      deb       
 libtasn1-6                          4.19.0-2+deb12u1                deb       
 libtbb12                            2021.8.0-2                      deb       
@@ -374,7 +374,7 @@ libtsan2                            12.2.0-14+deb12u1               deb
 libtwolame0                         0.4.0-2                         deb       
 libubsan1                           12.2.0-14+deb12u1               deb       
 libucx0                             1.13.1-1                        deb       
-libudev1                            252.36-1~deb12u1                deb       
+libudev1                            252.38-1~deb12u1                deb       
 libunistring2                       1.0-2                           deb       
 libunwind8                          1.6.2-3                         deb       
 libuuid1                            2.38.1-5+deb12u3                deb       
@@ -557,7 +557,7 @@ sysvinit-utils                      3.06-4                          deb
 tar                                 1.34+dfsg-1.2+deb12u1           deb       
 tk8.6-blt2.5                        2.5.3+dfsg-4.1                  deb       
 tzdata                              2025b-0+deb12u1                 deb       
-udev                                252.36-1~deb12u1                deb       
+udev                                252.38-1~deb12u1                deb       
 ufolib2                             0.14.0                          python    
 unicode-data                        15.0.0-1                        deb       
 usr-is-merged                       37~deb12u1                      deb       
