@@ -83,14 +83,14 @@ funty                      2.0.0                    rust-crate
 gdbm                       1.24-r0                  apk           
 getrandom                  0.2.12                   rust-crate    
 giflib                     5.2.2-r1                 apk           
-glib                       2.84.2-r0                apk           
+glib                       2.84.2-r1                apk           
 glibmm2.66                 2.66.8-r0                apk           
 glslang-libs               1.4.309.0-r0             apk           
 graphene                   1.10.8-r5                apk           
 graphite2                  1.3.14-r6                apk           
-gst-plugins-base           1.26.1-r0                apk           
-gstreamer                  1.26.1-r0                apk           
-gstreamer-ptp-helper       1.26.1-r0                apk           
+gst-plugins-base           1.26.2-r0                apk           
+gstreamer                  1.26.2-r0                apk           
+gstreamer-ptp-helper       1.26.2-r0                apk           
 harfbuzz                   11.2.1-r0                apk           
 heck                       0.4.1                    rust-crate    
 hwdata-pci                 0.395-r0                 apk           
@@ -127,8 +127,8 @@ libelf                     0.193-r0                 apk
 libexpat                   2.7.1-r0                 apk           
 libffi                     3.4.8-r0                 apk           
 libflac                    1.4.3-r1                 apk           
-libgcc                     14.3.0-r0                apk           
-libgomp                    14.3.0-r0                apk           
+libgcc                     14.3.0-r1                apk           
+libgomp                    14.3.0-r1                apk           
 libhwy                     1.0.7-r1                 apk           
 libice                     1.1.2-r0                 apk           
 libidn2                    2.3.7-r0                 apk           
@@ -159,7 +159,7 @@ libsodium                  1.0.20-r0                apk
 libsrt                     1.5.3-r1                 apk           
 libssh                     0.11.1-r0                apk           
 libssl3                    3.3.2-r4                 apk           
-libstdc++                  14.3.0-r0                apk           
+libstdc++                  14.3.0-r1                apk           
 libtag                     2.1-r0                   apk           
 libtheora                  1.1.1-r18                apk           
 libunibreak                6.1-r0                   apk           
@@ -199,7 +199,7 @@ libxxf86vm                 1.1.6-r0                 apk
 libzmq                     4.3.5-r2                 apk           
 lilv-libs                  0.24.26-r0               apk           
 linux-raw-sys              0.4.12                   rust-crate    
-llvm20-libs                20.1.5-r0                apk           
+llvm20-libs                20.1.6-r0                apk           
 log                        0.4.20                   rust-crate    
 lrdf                       0.6.1-r2                 apk           
 lz4-libs                   1.10.0-r0                apk           
