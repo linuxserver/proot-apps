@@ -18,7 +18,7 @@ busybox-binsh              1.37.0-r12               apk
 c-ares                     1.34.5-r0                apk       
 ca-certificates            20241121-r1              apk       
 ca-certificates-bundle     20241121-r1              apk       
-cairo                      1.18.2-r1                apk       
+cairo                      1.18.4-r0                apk       
 cairo-gobject              1.18.4-r0                apk       
 cdparanoia-libs            10.2-r14                 apk       
 certifi                    2024.8.30                python    

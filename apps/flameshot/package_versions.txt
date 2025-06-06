@@ -18,7 +18,7 @@ cairo                      1.18.4-r0                apk
 cairo-gobject              1.18.4-r0                apk     
 cdparanoia-libs            10.2-r14                 apk     
 cups-libs                  2.4.11-r0                apk     
-curl                       8.14.0-r2                apk     
+curl                       8.14.1-r0                apk     
 dbus                       1.16.2-r1                apk     
 dbus-daemon-launch-helper  1.16.2-r1                apk     
 dbus-libs                  1.16.2-r1                apk     
@@ -62,7 +62,7 @@ libbsd                     0.12.2-r0                apk
 libbz2                     1.0.8-r6                 apk     
 libcap2                    2.76-r0                  apk     
 libcrypto3                 3.3.2-r4                 apk     
-libcurl                    8.14.0-r2                apk     
+libcurl                    8.14.1-r0                apk     
 libdrm                     2.4.124-r0               apk     
 libeconf                   0.6.3-r0                 apk     
 libelf                     0.193-r0                 apk     
@@ -156,10 +156,10 @@ pixman                     0.46.0-r0                apk
 pkgconf                    2.4.3-r0                 apk     
 pulseaudio                 17.0-r5                  apk     
 pulseaudio-alsa            17.0-r5                  apk     
-pyc                        3.12.10-r1               apk     
-python3                    3.12.10-r1               apk     
-python3-pyc                3.12.10-r1               apk     
-python3-pycache-pyc0       3.12.10-r1               apk     
+pyc                        3.12.11-r0               apk     
+python3                    3.12.11-r0               apk     
+python3-pyc                3.12.11-r0               apk     
+python3-pycache-pyc0       3.12.11-r0               apk     
 qt5-qtbase                 5.15.10_git20230714-r4   apk     
 qt5-qtbase-x11             5.15.10_git20230714-r4   apk     
 qt5-qtdeclarative          5.15.10_git20230629-r0   apk     

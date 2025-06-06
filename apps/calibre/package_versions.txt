@@ -24,7 +24,7 @@ bash                       5.2.37-r0                apk
 beautifulsoup4             4.13.4                   python                      
 bitflags                   2.4.1                    rust-crate  (+1 duplicate)  
 bitstream-io               2.2.0                    rust-crate                  
-bluez-libs                 5.83-r0                  apk                         
+bluez-libs                 5.83-r1                  apk                         
 brotli-libs                1.1.0-r2                 apk                         
 busybox                    1.37.0-r18               apk                         
 busybox-binsh              1.37.0-r18               apk                         
@@ -59,7 +59,7 @@ cryptsetup-libs            2.7.5-r1                 apk
 css-parser                 1.0.10                   python                      
 cssselect                  1.2.0                    python                      
 cups-libs                  2.4.11-r0                apk                         
-curl                       8.14.0-r2                apk                         
+curl                       8.14.1-r0                apk                         
 dbus                       1.16.2-r1                apk                         
 dbus-daemon-launch-helper  1.16.2-r1                apk                         
 dbus-libs                  1.16.2-r1                apk                         
@@ -158,7 +158,7 @@ libc                       0.2.152                  rust-crate
 libcap2                    2.76-r0                  apk                         
 libcom_err                 1.47.2-r2                apk                         
 libcrypto3                 3.3.2-r4                 apk                         
-libcurl                    8.14.0-r2                apk                         
+libcurl                    8.14.1-r0                apk                         
 libdav1d                   1.5.1-r0                 apk                         
 libdeflate                 1.23-r0                  apk                         
 libdotconf                 1.3-r0                   apk                         
@@ -403,16 +403,16 @@ py3-xxhash                 3.4.1-r1                 apk
 py3-xxhash-pyc             3.4.1-r1                 apk                         
 py3-zeroconf               0.147.0-r0               apk                         
 py3-zeroconf-pyc           0.147.0-r0               apk                         
-pyc                        3.12.10-r1               apk                         
+pyc                        3.12.11-r0               apk                         
 pycryptodome               3.23.0                   python                      
 pygments                   2.19.1                   python                      
 pyqt6                      6.8.1                    python                      
 pyqt6-sip                  13.9.0                   python                      
 pyqt6-webengine            6.7.0                    python                      
 python-dateutil            2.9.0                    python                      
-python3                    3.12.10-r1               apk                         
-python3-pyc                3.12.10-r1               apk                         
-python3-pycache-pyc0       3.12.10-r1               apk                         
+python3                    3.12.11-r0               apk                         
+python3-pyc                3.12.11-r0               apk                         
+python3-pycache-pyc0       3.12.11-r0               apk                         
 qt6-qtbase                 6.8.3-r0                 apk                         
 qt6-qtbase-private-dev     6.8.3-r0                 apk                         
 qt6-qtbase-x11             6.8.3-r0                 apk                         

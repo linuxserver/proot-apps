@@ -50,7 +50,7 @@ crossbeam-deque            0.8.5                    rust-crate
 crossbeam-epoch            0.9.18                   rust-crate    
 crossbeam-queue            0.3.11                   rust-crate    
 crossbeam-utils            0.8.19                   rust-crate    
-curl                       8.14.0-r2                apk           
+curl                       8.14.1-r0                apk           
 dbus                       1.16.2-r1                apk           
 dbus-daemon-launch-helper  1.16.2-r1                apk           
 dbus-libs                  1.16.2-r1                apk           
@@ -117,7 +117,7 @@ libc                       0.2.152                  rust-crate
 libc                       0.2.172                  rust-crate    
 libcap2                    2.76-r0                  apk           
 libcrypto3                 3.3.2-r4                 apk           
-libcurl                    8.14.0-r2                apk           
+libcurl                    8.14.1-r0                apk           
 libdav1d                   1.5.1-r0                 apk           
 libdeflate                 1.23-r0                  apk           
 libdovi                    3.3.1-r1                 apk           
@@ -251,10 +251,10 @@ profiling                  1.0.13                   rust-crate
 profiling-procmacros       1.0.13                   rust-crate    
 pulseaudio                 17.0-r5                  apk           
 pulseaudio-alsa            17.0-r5                  apk           
-pyc                        3.12.10-r1               apk           
-python3                    3.12.10-r1               apk           
-python3-pyc                3.12.10-r1               apk           
-python3-pycache-pyc0       3.12.10-r1               apk           
+pyc                        3.12.11-r0               apk           
+python3                    3.12.11-r0               apk           
+python3-pyc                3.12.11-r0               apk           
+python3-pycache-pyc0       3.12.11-r0               apk           
 quote                      1.0.35                   rust-crate    
 radium                     0.7.0                    rust-crate    
 rand                       0.8.5                    rust-crate    
