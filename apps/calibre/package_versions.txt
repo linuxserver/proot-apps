@@ -172,9 +172,9 @@ libexpat                   2.7.1-r0                 apk
 libfdisk                   2.41-r9                  apk                         
 libffi                     3.4.8-r0                 apk                         
 libflac                    1.4.3-r1                 apk                         
-libgcc                     14.3.0-r1                apk                         
+libgcc                     14.3.0-r2                apk                         
 libgcrypt                  1.10.3-r1                apk                         
-libgomp                    14.3.0-r1                apk                         
+libgomp                    14.3.0-r2                apk                         
 libgpg-error               1.55-r0                  apk                         
 libgudev                   238-r0                   apk                         
 libhunspell                1.7.2-r4                 apk                         
@@ -215,7 +215,7 @@ libsodium                  1.0.20-r0                apk
 libsrt                     1.5.3-r1                 apk                         
 libssh                     0.11.1-r0                apk                         
 libssl3                    3.3.2-r4                 apk                         
-libstdc++                  14.3.0-r1                apk                         
+libstdc++                  14.3.0-r2                apk                         
 libstemmer                 2.2.0-r0                 apk                         
 libtasn1                   4.20.0-r0                apk                         
 libtheora                  1.1.1-r18                apk                         
