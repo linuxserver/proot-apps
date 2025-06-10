@@ -151,11 +151,6 @@ include:
     arch: linux/amd64,linux/arm64
     icon: freedoom.png
     description: "The Freedoom project aims to produce three base-game data files (IWADs) for Doom-compatible engines. With it comes the capability to also play the wide range of mods created for Doom by a vibrant community."
-  - name: freetube
-    full_name: FreeTube
-    arch: linux/amd64,linux/arm64
-    icon: freetube.svg
-    description: "FreeTube is an open source desktop YouTube player built with privacy in mind."
   - name: geany
     full_name: Geany
     arch: linux/amd64,linux/arm64
