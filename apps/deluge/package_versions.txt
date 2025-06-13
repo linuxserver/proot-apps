@@ -291,7 +291,7 @@ py3-zope-interface         6.0-r1                   apk
 py3-zope-interface-pyc     6.0-r1                   apk       
 pyasn1                     0.6.1                    python    
 pyasn1-modules             0.4.1                    python    
-pyc                        3.12.10-r1               apk       
+pyc                        3.12.11-r0               apk       
 pycairo                    1.27.0                   python    
 pycparser                  2.22                     python    
 pygobject                  3.50.1                   python    
@@ -299,9 +299,9 @@ pyhamcrest                 2.1.0                    python
 pyopenssl                  24.1.0                   python    
 pyparsing                  3.1.4                    python    
 pyserial                   3.5                      python    
-python3                    3.12.10-r1               apk       
-python3-pyc                3.12.10-r1               apk       
-python3-pycache-pyc0       3.12.10-r1               apk       
+python3                    3.12.11-r0               apk       
+python3-pyc                3.12.11-r0               apk       
+python3-pycache-pyc0       3.12.11-r0               apk       
 pyxdg                      0.28                     python    
 qt6-qtbase                 6.8.2-r0                 apk       
 qt6-qtbase-x11             6.8.2-r0                 apk       

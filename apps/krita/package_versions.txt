@@ -198,11 +198,11 @@ poppler                    24.02.0-r2               apk
 poppler-qt5                24.02.0-r1               apk     
 pulseaudio                 17.0-r4                  apk     
 pulseaudio-alsa            17.0-r4                  apk     
-pyc                        3.12.10-r1               apk     
+pyc                        3.12.11-r0               apk     
 pystring                   1.1.4-r0                 apk     
-python3                    3.12.10-r1               apk     
-python3-pyc                3.12.10-r1               apk     
-python3-pycache-pyc0       3.12.10-r1               apk     
+python3                    3.12.11-r0               apk     
+python3-pyc                3.12.11-r0               apk     
+python3-pycache-pyc0       3.12.11-r0               apk     
 qt5-qtbase                 5.15.10_git20230714-r3   apk     
 qt5-qtbase-sqlite          5.15.10_git20230714-r3   apk     
 qt5-qtbase-x11             5.15.10_git20230714-r3   apk     

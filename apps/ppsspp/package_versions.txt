@@ -172,10 +172,10 @@ pkgconf                    2.3.0-r0                 apk
 ppsspp                     1.17.1-r2                apk     
 pulseaudio                 17.0-r4                  apk     
 pulseaudio-alsa            17.0-r4                  apk     
-pyc                        3.12.10-r1               apk     
-python3                    3.12.10-r1               apk     
-python3-pyc                3.12.10-r1               apk     
-python3-pycache-pyc0       3.12.10-r1               apk     
+pyc                        3.12.11-r0               apk     
+python3                    3.12.11-r0               apk     
+python3-pyc                3.12.11-r0               apk     
+python3-pycache-pyc0       3.12.11-r0               apk     
 qt5-qtbase                 5.15.10_git20230714-r3   apk     
 qt5-qtbase-x11             5.15.10_git20230714-r3   apk     
 qt5-qtdeclarative          5.15.10_git20230629-r0   apk     

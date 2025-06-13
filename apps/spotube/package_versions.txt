@@ -192,7 +192,7 @@ libgsm1                          1.0.22-1                         deb
 libgssapi-krb5-2                 1.20.1-2+deb12u3                 deb       
 libgssdp-1.6-0                   1.6.2-2                          deb       
 libgstreamer-gl1.0-0             1.22.0-3+deb12u4                 deb       
-libgstreamer-plugins-bad1.0-0    1.22.0-4+deb12u5                 deb       
+libgstreamer-plugins-bad1.0-0    1.22.0-4+deb12u6                 deb       
 libgstreamer-plugins-base1.0-0   1.22.0-3+deb12u4                 deb       
 libgstreamer1.0-0                1.22.0-2+deb12u1                 deb       
 libgtk-3-0                       3.24.38-2~deb12u3                deb       

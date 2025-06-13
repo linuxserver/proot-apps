@@ -202,10 +202,10 @@ pixman                     0.43.4-r1                apk
 pkgconf                    2.3.0-r0                 apk     
 pulseaudio                 17.0-r4                  apk     
 pulseaudio-alsa            17.0-r4                  apk     
-pyc                        3.12.10-r1               apk     
-python3                    3.12.10-r1               apk     
-python3-pyc                3.12.10-r1               apk     
-python3-pycache-pyc0       3.12.10-r1               apk     
+pyc                        3.12.11-r0               apk     
+python3                    3.12.11-r0               apk     
+python3-pyc                3.12.11-r0               apk     
+python3-pycache-pyc0       3.12.11-r0               apk     
 qt6-qtbase                 6.8.2-r0                 apk     
 qt6-qtbase-x11             6.8.2-r0                 apk     
 qt6-qtdeclarative          6.8.2-r0                 apk     
