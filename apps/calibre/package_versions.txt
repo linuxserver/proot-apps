@@ -170,7 +170,7 @@ libevdev                   1.13.3-r0                apk
 libevent                   2.1.12-r8                apk                         
 libexpat                   2.7.1-r0                 apk                         
 libfdisk                   2.41-r9                  apk                         
-libffi                     3.4.8-r0                 apk                         
+libffi                     3.5.1-r0                 apk                         
 libflac                    1.4.3-r1                 apk                         
 libgcc                     14.3.0-r3                apk                         
 libgcrypt                  1.10.3-r1                apk                         
@@ -287,7 +287,7 @@ mpfr4                      4.2.2-r0                 apk
 mpg123-libs                1.32.10-r0               apk                         
 msgpack                    1.0.8                    python                      
 mtdev                      1.1.7-r0                 apk                         
-musl                       1.2.5-r11                apk                         
+musl                       1.2.5-r12                apk                         
 musl-utils                 1.2.5-r9                 apk                         
 ncurses-terminfo-base      6.5_p20250503-r0         apk                         
 ndctl-libs                 80-r1                    apk                         
