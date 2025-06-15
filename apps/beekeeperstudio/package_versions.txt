@@ -13,7 +13,7 @@ beekeeper-studio                 5.2.12                          deb
 beekeeper-studio                 5.2.12                          npm     
 better-sqlite3                   11.1.2                          npm     
 bsdutils                         1:2.38.1-5+deb12u3              deb     
-ca-certificates                  20230311                        deb     
+ca-certificates                  20230311+deb12u1                deb     
 coreutils                        9.1-1                           deb     
 cpu-features                     0.0.10                          npm     
 curl                             7.88.1-10+deb12u12              deb     

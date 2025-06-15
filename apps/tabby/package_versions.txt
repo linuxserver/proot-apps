@@ -15,7 +15,7 @@ base-passwd                       3.6.1                           deb
 bash                              5.2.15-2+b8                     deb     
 brace-expansion                   1.1.11                          npm     
 bsdutils                          1:2.38.1-5+deb12u3              deb     
-ca-certificates                   20230311                        deb     
+ca-certificates                   20230311+deb12u1                deb     
 cli                               0.4.5                           npm     
 cliff                             0.1.10                          npm     
 colors                            0.6.2                           npm     

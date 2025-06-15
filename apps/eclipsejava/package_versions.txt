@@ -59,7 +59,7 @@ biz.aQute.bnd.util                                                    7.1.0     
 biz.aQute.bndlib                                                      7.1.0                           java-archive                  
 bsdutils                                                              1:2.38.1-5+deb12u3              deb                           
 byte-buddy-agent                                                      1.17.5                          java-archive                  
-ca-certificates                                                       20230311                        deb                           
+ca-certificates                                                       20230311+deb12u1                deb                           
 ca-certificates-java                                                  20230710~deb12u1                deb                           
 ca-certificates-java                                                  UNKNOWN                         java-archive                  
 classic                                                               1.5.18                          java-archive                  

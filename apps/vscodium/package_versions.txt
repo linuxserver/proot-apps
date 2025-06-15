@@ -45,7 +45,7 @@ bsdutils                                1:2.38.1-5+deb12u3              deb
 buffer                                  5.7.1                           npm                    
 buffer-crc32                            0.2.13                          npm                    
 builtin-notebook-renderers              1.0.0                           npm                    
-ca-certificates                         20230311                        deb                    
+ca-certificates                         20230311+deb12u1                deb                    
 chownr                                  2.0.0                           npm                    
 chrome-remote-interface                 0.33.0                          npm                    
 clojure                                 1.0.0                           npm                    

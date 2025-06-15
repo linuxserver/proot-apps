@@ -10,7 +10,7 @@ binutils                        2.40-2                          deb
 binutils-common                 2.40-2                          deb     
 binutils-x86-64-linux-gnu       2.40-2                          deb     
 bsdutils                        1:2.38.1-5+deb12u3              deb     
-ca-certificates                 20230311                        deb     
+ca-certificates                 20230311+deb12u1                deb     
 coreutils                       9.1-1                           deb     
 curl                            7.88.1-10+deb12u12              deb     
 dash                            0.5.12-2                        deb     
