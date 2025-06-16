@@ -31,7 +31,7 @@ fonts-noto-mono                 20201225-2                      deb
 gcc-14-base                     14.2.0-19                       deb     
 grep                            3.11-4                          deb     
 gstreamer1.0-gl                 1.26.2-1                        deb     
-gtk-update-icon-cache           4.18.5+ds-1                     deb     
+gtk-update-icon-cache           4.18.6+ds-2                     deb     
 gzip                            1.13-1                          deb     
 handbrake                       1.9.2+ds1-1                     deb     
 hicolor-icon-theme              0.18-2                          deb     
@@ -142,10 +142,10 @@ libgssapi-krb5-2                1.21.3-5                        deb
 libgstreamer-gl1.0-0            1.26.2-1                        deb     
 libgstreamer-plugins-base1.0-0  1.26.2-1                        deb     
 libgstreamer1.0-0               1.26.2-1                        deb     
-libgtk-4-1                      4.18.5+ds-1                     deb     
-libgtk-4-bin                    4.18.5+ds-1                     deb     
-libgtk-4-common                 4.18.5+ds-1                     deb     
-libgtk-4-media-gstreamer        4.18.5+ds-1                     deb     
+libgtk-4-1                      4.18.6+ds-2                     deb     
+libgtk-4-bin                    4.18.6+ds-2                     deb     
+libgtk-4-common                 4.18.6+ds-2                     deb     
+libgtk-4-media-gstreamer        4.18.6+ds-2                     deb     
 libgudev-1.0-0                  238-6                           deb     
 libharfbuzz-subset0             10.2.0-1+b1                     deb     
 libharfbuzz0b                   10.2.0-1+b1                     deb     
