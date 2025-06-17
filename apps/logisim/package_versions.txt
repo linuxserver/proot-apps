@@ -128,7 +128,7 @@ liblastlog2-2                   2.41-5                          deb
 liblcms2-2                      2.16-2                          deb             
 libldap2                        2.6.10+dfsg-1                   deb             
 liblerc4                        4.0.0+ds-5                      deb             
-libllvm19                       1:19.1.7-3                      deb             
+libllvm19                       1:19.1.7-3+b1                   deb             
 liblocale-gettext-perl          1.07-7+b1                       deb             
 libltdl7                        2.5.4-4                         deb             
 liblz4-1                        1.10.0-4                        deb             
