@@ -55,7 +55,7 @@ libcap2                      2.76-r0                  apk
 libcrypto3                   3.3.2-r4                 apk     
 libcurl                      8.14.1-r1                apk     
 libdav1d                     1.5.1-r0                 apk     
-libdrm                       2.4.124-r0               apk     
+libdrm                       2.4.125-r0               apk     
 libeconf                     0.6.3-r0                 apk     
 libelf                       0.193-r0                 apk     
 libexpat                     2.7.1-r0                 apk     
@@ -232,7 +232,7 @@ orc                          0.4.40-r1                apk
 p11-kit                      0.25.5-r2                apk     
 pango                        1.56.3-r0                apk     
 pcre2                        10.43-r1                 apk     
-pixman                       0.46.0-r0                apk     
+pixman                       0.46.2-r0                apk     
 pugixml                      1.15-r0                  apk     
 pulseaudio                   17.0-r5                  apk     
 pulseaudio-alsa              17.0-r5                  apk     

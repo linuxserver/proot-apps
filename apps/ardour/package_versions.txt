@@ -127,7 +127,7 @@ libcurl                    8.14.1-r1                apk
 libdav1d                   1.5.1-r0                 apk                         
 libdeflate                 1.24-r0                  apk                         
 libdovi                    3.3.2-r0                 apk                         
-libdrm                     2.4.124-r0               apk                         
+libdrm                     2.4.125-r0               apk                         
 libeconf                   0.6.3-r0                 apk                         
 libelf                     0.193-r0                 apk                         
 libexpat                   2.7.1-r0                 apk                         
@@ -252,7 +252,7 @@ pangomm2.46                2.46.4-r1                apk
 paste                      1.0.15                   rust-crate                  
 pastey                     0.1.0                    rust-crate                  
 pcre2                      10.43-r1                 apk                         
-pixman                     0.46.0-r0                apk                         
+pixman                     0.46.2-r0                apk                         
 ppv-lite86                 0.2.21                   rust-crate                  
 proc-macro2                1.0.95                   rust-crate                  
 profiling                  1.0.16                   rust-crate                  
