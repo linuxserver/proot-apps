@@ -250,9 +250,9 @@ libproxy1v5                               0.5.4-4build1                      deb
 libpsl5t64                                0.21.2-1.1build1                   deb     
 libpulse0                                 1:16.1+dfsg1-2ubuntu10.1           deb     
 libpython3-stdlib                         3.12.3-0ubuntu2                    deb     
-libpython3.12-minimal                     3.12.3-1ubuntu0.6                  deb     
-libpython3.12-stdlib                      3.12.3-1ubuntu0.6                  deb     
-libpython3.12t64                          3.12.3-1ubuntu0.6                  deb     
+libpython3.12-minimal                     3.12.3-1ubuntu0.7                  deb     
+libpython3.12-stdlib                      3.12.3-1ubuntu0.7                  deb     
+libpython3.12t64                          3.12.3-1ubuntu0.7                  deb     
 libqrcodegencpp1                          1.8.0-1.2build1                    deb     
 libqt6core6t64                            6.4.2+dfsg-21.1build5              deb     
 libqt6dbus6t64                            6.4.2+dfsg-21.1build5              deb     
@@ -442,8 +442,8 @@ pulseaudio                                1:16.1+dfsg1-2ubuntu10.1           deb
 pulseaudio-utils                          1:16.1+dfsg1-2ubuntu10.1           deb     
 python3                                   3.12.3-0ubuntu2                    deb     
 python3-minimal                           3.12.3-0ubuntu2                    deb     
-python3.12                                3.12.3-1ubuntu0.6                  deb     
-python3.12-minimal                        3.12.3-1ubuntu0.6                  deb     
+python3.12                                3.12.3-1ubuntu0.7                  deb     
+python3.12-minimal                        3.12.3-1ubuntu0.7                  deb     
 qt6-qpa-plugins                           6.4.2+dfsg-21.1build5              deb     
 qt6-wayland                               6.4.2-5build3                      deb     
 readline-common                           8.2-4build1                        deb     
