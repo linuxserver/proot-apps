@@ -211,7 +211,7 @@ nom                        7.1.3                    rust-crate
 nom                        8.0.0                    rust-crate    
 noop_proc_macro            0.3.0                    rust-crate    
 nspr                       4.36-r0                  apk           
-nss                        3.112-r0                 apk           
+nss                        3.113-r0                 apk           
 num-bigint                 0.4.6                    rust-crate    
 num-derive                 0.4.2                    rust-crate    
 num-integer                0.1.46                   rust-crate    

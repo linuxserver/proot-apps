@@ -276,7 +276,7 @@ linux-raw-sys              0.9.4                    rust-crate
 llvm20-libs                20.1.7-r0                apk                         
 log                        0.4.27                   rust-crate                  
 lxml                       5.3.1                    python                      
-markdown                   3.8                      python                      
+markdown                   3.8.2                    python                      
 maybe-rayon                0.1.1                    rust-crate                  
 mbedtls                    3.6.3.1-r0               apk                         
 mechanize                  0.4.10                   python                      
@@ -312,7 +312,7 @@ nom                        8.0.0                    rust-crate
 noop_proc_macro            0.3.0                    rust-crate                  
 npth                       1.8-r0                   apk                         
 nspr                       4.36-r0                  apk                         
-nss                        3.112-r0                 apk                         
+nss                        3.113-r0                 apk                         
 num-bigint                 0.4.6                    rust-crate                  
 num-derive                 0.4.2                    rust-crate                  
 num-integer                0.1.46                   rust-crate                  
@@ -381,8 +381,8 @@ py3-jeepney                0.9.0-r0                 apk
 py3-jeepney-pyc            0.9.0-r0                 apk                         
 py3-lxml                   5.3.1-r3                 apk                         
 py3-lxml-pyc               5.3.1-r3                 apk                         
-py3-markdown               3.8-r0                   apk                         
-py3-markdown-pyc           3.8-r0                   apk                         
+py3-markdown               3.8.2-r0                 apk                         
+py3-markdown-pyc           3.8.2-r0                 apk                         
 py3-mechanize              0.4.10-r0                apk                         
 py3-mechanize-pyc          0.4.10-r0                apk                         
 py3-msgpack                1.0.8-r1                 apk                         
