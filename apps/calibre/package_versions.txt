@@ -394,8 +394,8 @@ py3-psutil                 7.0.0-r0                 apk
 py3-psutil-pyc             7.0.0-r0                 apk           
 py3-pycryptodome           3.23.0-r0                apk           
 py3-pycryptodome-pyc       3.23.0-r0                apk           
-py3-pygments               2.19.1-r1                apk           
-py3-pygments-pyc           2.19.1-r1                apk           
+py3-pygments               2.19.2-r0                apk           
+py3-pygments-pyc           2.19.2-r0                apk           
 py3-pyqt6-sip              13.9.0-r0                apk           
 py3-pyqt6-webengine        6.7.0-r0                 apk           
 py3-qt6                    6.8.1-r0                 apk           
@@ -418,7 +418,7 @@ py3-zeroconf               0.147.0-r0               apk
 py3-zeroconf-pyc           0.147.0-r0               apk           
 pyc                        3.12.11-r0               apk           
 pycryptodome               3.23.0                   python        
-pygments                   2.19.1                   python        
+pygments                   2.19.2                   python        
 pyqt6                      6.8.1                    python        
 pyqt6-sip                  13.9.0                   python        
 pyqt6-webengine            6.7.0                    python        
