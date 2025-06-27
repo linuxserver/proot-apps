@@ -38,7 +38,7 @@ hicolor-icon-theme              0.18-2                          deb
 hostname                        3.25                            deb     
 init-system-helpers             1.68                            deb     
 iso-codes                       4.18.0-1                        deb     
-keyboard-configuration          1.237                           deb     
+keyboard-configuration          1.238                           deb     
 libabsl20240722                 20240722.0-4                    deb     
 libacl1                         2.3.2-2+b1                      deb     
 libaom3                         3.12.1-1                        deb     
@@ -205,8 +205,8 @@ libssl3t64                      3.5.0-2                         deb
 libstdc++6                      14.2.0-19                       deb     
 libsvtav1enc2                   2.3.0+dfsg-1                    deb     
 libswresample5                  7:7.1.1-1+b1                    deb     
-libsystemd-shared               257.6-1                         deb     
-libsystemd0                     257.6-1                         deb     
+libsystemd-shared               257.7-1                         deb     
+libsystemd0                     257.7-1                         deb     
 libtasn1-6                      4.20.0-2                        deb     
 libtdb1                         2:1.4.13+samba4.22.2+dfsg-1     deb     
 libthai-data                    0.1.29-2                        deb     
@@ -216,7 +216,7 @@ libtheoraenc1                   1.2.0~alpha1+dfsg-6             deb
 libtiff6                        4.7.0-3                         deb     
 libtinfo6                       6.5+20250216-2                  deb     
 libtwolame0                     0.4.0-2+b2                      deb     
-libudev1                        257.6-1                         deb     
+libudev1                        257.7-1                         deb     
 libunistring5                   1.3-2                           deb     
 libunwind8                      1.8.1-0.1                       deb     
 libuuid1                        2.41-5                          deb     
@@ -286,7 +286,7 @@ mawk                            1.3.4.20250131-1                deb
 mesa-libgallium                 25.0.7-2                        deb     
 mesa-va-drivers                 25.0.7-2                        deb     
 mesa-vulkan-drivers             25.0.7-2                        deb     
-microsoft-edge-stable           137.0.3296.93-1                 deb     
+microsoft-edge-stable           138.0.3351.55-1                 deb     
 mount                           2.41-5                          deb     
 ncurses-base                    6.5+20250216-2                  deb     
 ncurses-bin                     6.5+20250216-2                  deb     
@@ -302,11 +302,11 @@ pulseaudio-utils                17.0+dfsg1-2+b1                 deb
 sed                             4.9-2                           deb     
 shared-mime-info                2.4-5+b2                        deb     
 sqv                             1.3.0-3                         deb     
-systemd                         257.6-1                         deb     
+systemd                         257.7-1                         deb     
 sysvinit-utils                  3.14-4                          deb     
 tar                             1.35+dfsg-3.1                   deb     
 tzdata                          2025b-3                         deb     
-udev                            257.6-1                         deb     
+udev                            257.7-1                         deb     
 util-linux                      2.41-5                          deb     
 wget                            1.25.0-2                        deb     
 x11-common                      1:7.7+24                        deb     

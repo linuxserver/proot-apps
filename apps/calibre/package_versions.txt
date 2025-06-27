@@ -63,7 +63,7 @@ crossbeam-epoch            0.9.18                   rust-crate
 crossbeam-queue            0.3.12                   rust-crate    
 crossbeam-utils            0.8.16                   rust-crate    
 crossbeam-utils            0.8.21                   rust-crate    
-cryptsetup-libs            2.7.5-r1                 apk           
+cryptsetup-libs            2.8.0-r0                 apk           
 css-parser                 1.0.10                   python        
 cssselect                  1.2.0                    python        
 cups-libs                  2.4.11-r0                apk           
@@ -437,7 +437,7 @@ qt6-qtmultimedia-ffmpeg    6.8.3-r0                 apk
 qt6-qtpositioning          6.8.3-r0                 apk           
 qt6-qtserialport           6.8.3-r0                 apk           
 qt6-qtsvg                  6.8.3-r0                 apk           
-qt6-qttools-libs           6.8.3-r0                 apk           
+qt6-qttools-libs           6.8.3-r1                 apk           
 qt6-qtwayland              6.8.3-r0                 apk           
 qt6-qtwebchannel           6.8.3-r0                 apk           
 qt6-qtwebengine            6.8.3-r1                 apk           
