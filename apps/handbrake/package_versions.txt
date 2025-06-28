@@ -75,8 +75,8 @@ libcairo-gobject2               1.18.4-1+b1                     deb
 libcairo-script-interpreter2    1.18.4-1+b1                     deb     
 libcairo2                       1.18.4-1+b1                     deb     
 libcap-ng0                      0.8.5-4+b1                      deb     
-libcap2                         1:2.75-8                        deb     
-libcap2-bin                     1:2.75-8                        deb     
+libcap2                         1:2.75-9                        deb     
+libcap2-bin                     1:2.75-9                        deb     
 libchromaprint1                 1.5.1-7                         deb     
 libcjson1                       1.7.18-3.1                      deb     
 libcloudproviders0              0.3.6-2                         deb     

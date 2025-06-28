@@ -255,7 +255,7 @@ libharfbuzz0b                           6.0.0+dfsg-3                    deb
 libhogweed6                             3.8.1-2                         deb                    
 libhwy1                                 1.0.3-3+deb12u1                 deb                    
 libice6                                 2:1.0.10-1                      deb                    
-libicu72                                72.1-3                          deb                    
+libicu72                                72.1-3+deb12u1                  deb                    
 libidn2-0                               2.3.3-1+b1                      deb                    
 libjack-jackd2-0                        1.9.21~dfsg-3                   deb                    
 libjbig0                                2.1-6.1                         deb                    
