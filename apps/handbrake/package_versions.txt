@@ -38,7 +38,7 @@ hicolor-icon-theme              0.18-2                          deb
 hostname                        3.25                            deb     
 init-system-helpers             1.68                            deb     
 iso-codes                       4.18.0-1                        deb     
-keyboard-configuration          1.238                           deb     
+keyboard-configuration          1.239                           deb     
 libaacs0                        0.11.1-4+b1                     deb     
 libabsl20240722                 20240722.0-4                    deb     
 libacl1                         2.3.2-2+b1                      deb     
@@ -245,7 +245,7 @@ libsphinxbase3t64               0.8+5prealpha+1-21+b1           deb
 libsqlite3-0                    3.46.1-6                        deb     
 libsratom-0-0                   0.6.18-1                        deb     
 libsrt1.5-gnutls                1.5.4-1                         deb     
-libssh-4                        0.11.1-2                        deb     
+libssh-4                        0.11.2-1                        deb     
 libssh2-1t64                    1.11.1-1                        deb     
 libssl3t64                      3.5.0-2                         deb     
 libstdc++6                      14.2.0-19                       deb     
