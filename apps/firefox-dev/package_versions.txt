@@ -107,7 +107,7 @@ libSvtAv1Enc               2.3.0-r0                 apk
 libasyncns                 0.8-r4                   apk           
 libatk-1.0                 2.56.3-r0                apk           
 libatk-bridge-2.0          2.56.3-r0                apk           
-libblkid                   2.41-r9                  apk           
+libblkid                   2.41.1-r0                apk           
 libbsd                     0.12.2-r0                apk           
 libbz2                     1.0.8-r6                 apk           
 libc                       0.2.172                  rust-crate    
@@ -135,7 +135,7 @@ libjxl                     0.10.3-r2                apk
 libltdl                    2.5.4-r1                 apk           
 libmagic                   5.46-r2                  apk           
 libmd                      1.1.0-r0                 apk           
-libmount                   2.41-r9                  apk           
+libmount                   2.41.1-r0                apk           
 libncursesw                6.5_p20250614-r0         apk           
 libogg                     1.3.5-r5                 apk           
 libpanelw                  6.5_p20250614-r0         apk           
@@ -144,14 +144,14 @@ libpng                     1.6.49-r0                apk
 libpsl                     0.21.5-r3                apk           
 libpulse                   17.0-r5                  apk           
 libsharpyuv                1.5.0-r0                 apk           
-libsm                      1.2.5-r0                 apk           
+libsm                      1.2.6-r0                 apk           
 libsndfile                 1.2.2-r2                 apk           
 libssl3                    3.3.2-r4                 apk           
 libstdc++                  14.3.0-r5                apk           
 libtasn1                   4.20.0-r0                apk           
 libtheora                  1.1.1-r18                apk           
 libunistring               1.3-r0                   apk           
-libuuid                    2.41-r9                  apk           
+libuuid                    2.41.1-r0                apk           
 libva                      2.22.0-r1                apk           
 libva-intel-driver         2.4.1-r2                 apk           
 libvdpau                   1.5-r4                   apk           
@@ -160,7 +160,7 @@ libvpx                     1.15.1-r1                apk
 libwebp                    1.5.0-r0                 apk           
 libwebpdemux               1.5.0-r0                 apk           
 libwebpmux                 1.5.0-r0                 apk           
-libx11                     1.8.11-r0                apk           
+libx11                     1.8.12-r0                apk           
 libxau                     1.0.12-r0                apk           
 libxcb                     1.17.0-r0                apk           
 libxcomposite              0.4.6-r5                 apk           
@@ -169,7 +169,7 @@ libxdamage                 1.1.6-r5                 apk
 libxdmcp                   1.1.5-r1                 apk           
 libxext                    1.3.6-r2                 apk           
 libxfixes                  6.0.1-r4                 apk           
-libxft                     2.3.8-r3                 apk           
+libxft                     2.3.9-r0                 apk           
 libxi                      1.8.2-r0                 apk           
 libxinerama                1.1.5-r4                 apk           
 libxkbcommon               1.10.0-r0                apk           
@@ -263,7 +263,7 @@ simd_helpers               0.1.0                    rust-crate
 soxr                       0.1.3-r7                 apk           
 speexdsp                   1.2.1-r2                 apk           
 spirv-tools                1.4.313.0-r0             apk           
-sqlite-libs                3.50.1-r0                apk           
+sqlite-libs                3.50.2-r0                apk           
 ssl_client                 1.37.0-r18               apk           
 stable_deref_trait         1.2.0                    rust-crate    
 syn                        2.0.102                  rust-crate    
