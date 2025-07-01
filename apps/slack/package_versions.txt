@@ -484,7 +484,7 @@ sed                             4.9-1                            deb
 shared-mime-info                2.2-1                            deb     
 slack-desktop                   4.43.51                          deb     
 sound-theme-freedesktop         0.8-2                            deb     
-sudo                            1.9.13p3-1+deb12u1               deb     
+sudo                            1.9.13p3-1+deb12u2               deb     
 systemd                         252.38-1~deb12u1                 deb     
 systemd-sysv                    252.38-1~deb12u1                 deb     
 sysvinit-utils                  3.06-4                           deb     
