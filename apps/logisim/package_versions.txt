@@ -1,9 +1,9 @@
 NAME                            VERSION                         TYPE           
 adduser                         3.152                           deb             
-apt                             3.0.2                           deb             
+apt                             3.0.3                           deb             
 base-files                      13.8                            deb             
 base-passwd                     3.6.7                           deb             
-bash                            5.2.37-2+b2                     deb             
+bash                            5.2.37-2+b3                     deb             
 bsdutils                        1:2.41-5                        deb             
 ca-certificates                 20250419                        deb             
 colorpicker                     2.0.1                           java-archive    
@@ -42,7 +42,7 @@ libabsl20240722                 20240722.0-4                    deb
 libacl1                         2.3.2-2+b1                      deb             
 libaom3                         3.12.1-1                        deb             
 libapparmor1                    4.1.0-1                         deb             
-libapt-pkg7.0                   3.0.2                           deb             
+libapt-pkg7.0                   3.0.3                           deb             
 libasound2-data                 1.2.14-1                        deb             
 libasound2-plugins              1.2.12-2+b1                     deb             
 libasound2t64                   1.2.14-1                        deb             
@@ -57,8 +57,8 @@ libblkid1                       2.41-5                          deb
 libbrotli1                      1.1.0-2+b7                      deb             
 libbsd0                         0.12.2-2                        deb             
 libbz2-1.0                      1.0.8-6                         deb             
-libc-bin                        2.41-8                          deb             
-libc6                           2.41-8                          deb             
+libc-bin                        2.41-9                          deb             
+libc6                           2.41-9                          deb             
 libcairo-gobject2               1.18.4-1+b1                     deb             
 libcairo2                       1.18.4-1+b1                     deb             
 libcap-ng0                      0.8.5-4+b1                      deb             
@@ -72,7 +72,7 @@ libdatrie1                      0.2.13-4                        deb
 libdav1d7                       1.5.1-1                         deb             
 libdb5.3t64                     5.3.28+dfsg2-9                  deb             
 libdbus-1-3                     1.16.2-2                        deb             
-libdebconfclient0               0.278                           deb             
+libdebconfclient0               0.279                           deb             
 libdeflate0                     1.23-2                          deb             
 libdrm-amdgpu1                  2.4.124-2                       deb             
 libdrm-common                   2.4.124-2                       deb             
@@ -146,10 +146,10 @@ libopenjp2-7                    2.5.3-2                         deb
 libopus0                        1.5.2-2                         deb             
 liborc-0.4-0t64                 1:0.4.41-1                      deb             
 libp11-kit0                     0.25.5-3                        deb             
-libpam-modules                  1.7.0-3                         deb             
-libpam-modules-bin              1.7.0-3                         deb             
-libpam-runtime                  1.7.0-3                         deb             
-libpam0g                        1.7.0-3                         deb             
+libpam-modules                  1.7.0-5                         deb             
+libpam-modules-bin              1.7.0-5                         deb             
+libpam-runtime                  1.7.0-5                         deb             
+libpam0g                        1.7.0-5                         deb             
 libpango-1.0-0                  1.56.3-1                        deb             
 libpangocairo-1.0-0             1.56.3-1                        deb             
 libpangoft2-1.0-0               1.56.3-1                        deb             
@@ -291,7 +291,7 @@ swingx-plaf                     1.6.8                           java-archive
 systemd                         257.7-1                         deb             
 sysvinit-utils                  3.14-4                          deb             
 tar                             1.35+dfsg-3.1                   deb             
-tzdata                          2025b-3                         deb             
+tzdata                          2025b-4                         deb             
 udev                            257.7-1                         deb             
 util-linux                      2.41-5                          deb             
 x11-common                      1:7.7+24                        deb             
