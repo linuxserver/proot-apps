@@ -11,7 +11,7 @@ RUN \
   dpkg --add-architecture i386 && \
   apt update && \
   apt install -y --install-recommends \
-    wine wine32:i386 && \
+    wine wine32:i386 libgles2-mesa-dev locales winetricks && \
   wget https://winegui.melroy.org/downloads/WineGUI-v2.8.1.deb && \
   dpkg -i WineGUI-v2.8.1.deb && \
   rm WineGUI-v2.8.1.deb && \
@@ -24,12 +24,18 @@ RUN \
   mv \
     /usr/share/applications/winegui.desktop \
     /usr/share/applications/winegui-pa.desktop && \
+  echo "**** gen locales ****" && \
+  locale-gen en_US.UTF-8 && \
   echo "**** set bin name ****" && \
   echo "winegui-pa" > /bin-name && \
   echo "**** cleanup ****" && \
   rm -rf \
     /tmp/* \
     /var/lib/apt/lists/*
+
+ENV LANG=en_US.UTF-8
+ENV LANGUAGE=en_US:en
+ENV LC_ALL=en_US.UTF-8
 
 COPY ./entrypoint /entrypoint
 COPY ./install /install
