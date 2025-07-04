@@ -1,7 +1,7 @@
 NAME                            VERSION                         TYPE   
 adduser                         3.134                           deb     
 adwaita-icon-theme              43-1                            deb     
-anydesk                         7.0.0                           deb     
+anydesk                         7.0.1                           deb     
 apt                             2.6.1                           deb     
 at-spi2-common                  2.46.0-5                        deb     
 base-files                      12.4+deb12u11                   deb     
