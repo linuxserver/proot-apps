@@ -204,7 +204,7 @@ libjs-jquery-ui                     1.13.2+dfsg-1                   deb
 libjs-sphinxdoc                     5.3.0-4                         deb       
 libjs-underscore                    1.13.4~dfsg+~1.11.4-3           deb       
 libjsoncpp25                        1.9.5-4                         deb       
-libjxl0.7                           0.7.0-10                        deb       
+libjxl0.7                           0.7.0-10+deb12u1                deb       
 libjxr0                             1.2~git20170615.f752187-5       deb       
 libk5crypto3                        1.20.1-2+deb12u3                deb       
 libkeyutils1                        1.6.3-2                         deb       

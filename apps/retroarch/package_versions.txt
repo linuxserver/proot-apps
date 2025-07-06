@@ -45,7 +45,7 @@ gst-plugins-base             1.26.3-r0                apk
 gstreamer                    1.26.3-r0                apk     
 gstreamer-ptp-helper         1.26.3-r0                apk     
 harfbuzz                     11.2.1-r0                apk     
-hwdata-pci                   0.396-r0                 apk     
+hwdata-pci                   0.397-r0                 apk     
 lame-libs                    3.100-r5                 apk     
 libasyncns                   0.8-r4                   apk     
 libblkid                     2.41.1-r0                apk     
@@ -228,7 +228,7 @@ nettle                       3.10.1-r0                apk
 nghttp2-libs                 1.66.0-r0                apk     
 numactl                      2.0.18-r0                apk     
 opus                         1.5.2-r1                 apk     
-orc                          0.4.40-r1                apk     
+orc                          0.4.41-r0                apk     
 p11-kit                      0.25.5-r2                apk     
 pango                        1.56.3-r0                apk     
 pcre2                        10.43-r1                 apk     
@@ -240,7 +240,7 @@ pyc                          3.12.11-r0               apk
 python3                      3.12.11-r0               apk     
 python3-pyc                  3.12.11-r0               apk     
 python3-pycache-pyc0         3.12.11-r0               apk     
-readline                     8.2.13-r1                apk     
+readline                     8.3.0-r0                 apk     
 retroarch                    1.20.0-r2                apk     
 retroarch-assets             1.20.0-r0                apk     
 retroarch-joypad-autoconfig  1.20.0-r0                apk     

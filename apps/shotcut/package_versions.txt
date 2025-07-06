@@ -178,7 +178,7 @@ libjbig0                            2.1-6.1                           deb
 libjpeg62-turbo                     1:2.1.5-2                         deb     
 libjs-three                         111+dfsg1-3                       deb     
 libjson-c5                          0.16-2                            deb     
-libjxl0.7                           0.7.0-10                          deb     
+libjxl0.7                           0.7.0-10+deb12u1                  deb     
 libk5crypto3                        1.20.1-2+deb12u3                  deb     
 libkeyutils1                        1.6.3-2                           deb     
 libkmlbase1                         1.3.0-10                          deb     

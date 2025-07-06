@@ -215,7 +215,7 @@ libjavascriptcoregtk-4.1-0       2.48.3-1~deb12u1                 deb
 libjbig0                         2.1-6.1                          deb       
 libjpeg62-turbo                  1:2.1.5-2                        deb       
 libjsoncpp25                     1.9.5-4                          deb       
-libjxl0.7                        0.7.0-10                         deb       
+libjxl0.7                        0.7.0-10+deb12u1                 deb       
 libk5crypto3                     1.20.1-2+deb12u3                 deb       
 libkeyutils1                     1.6.3-2                          deb       
 libkmod2                         30+20221128-1                    deb       
