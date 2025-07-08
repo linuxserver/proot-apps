@@ -245,7 +245,7 @@ rav1e                      0.8.1                    rust-crate
 rav1e-libs                 0.8.1-r0                 apk           
 rayon                      1.10.0                   rust-crate    
 rayon-core                 1.12.1                   rust-crate    
-readline                   8.3.0-r0                 apk           
+readline                   8.3.0-r1                 apk           
 rustix                     1.0.7                    rust-crate    
 scan_fmt                   0.2.6                    rust-crate    
 scanelf                    1.3.8-r1                 apk           
@@ -271,10 +271,10 @@ unicode-ident              1.0.18                   rust-crate
 unicode-width              0.2.1                    rust-crate    
 utf8parse                  0.2.2                    rust-crate    
 v_frame                    0.3.9                    rust-crate    
-wayland-libs-client        1.23.1-r3                apk           
-wayland-libs-cursor        1.23.1-r3                apk           
-wayland-libs-egl           1.23.1-r3                apk           
-wayland-libs-server        1.23.1-r3                apk           
+wayland-libs-client        1.24.0-r0                apk           
+wayland-libs-cursor        1.24.0-r0                apk           
+wayland-libs-egl           1.24.0-r0                apk           
+wayland-libs-server        1.24.0-r0                apk           
 webrtc-audio-processing-1  1.3-r1                   apk           
 x264-libs                  0.164.3108-r0            apk           
 x265-libs                  3.6-r0                   apk           
