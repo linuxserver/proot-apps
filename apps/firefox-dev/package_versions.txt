@@ -91,8 +91,8 @@ harfbuzz                   11.2.1-r0                apk
 heck                       0.5.0                    rust-crate    
 hicolor-icon-theme         0.18-r0                  apk           
 hwdata-pci                 0.397-r0                 apk           
-icu-data-en                76.1-r0                  apk           
-icu-libs                   76.1-r0                  apk           
+icu-data-en                76.1-r1                  apk           
+icu-libs                   76.1-r1                  apk           
 interpolate_name           0.2.4                    rust-crate    
 is_terminal_polyfill       1.70.1                   rust-crate    
 itertools                  0.10.5                   rust-crate    
@@ -182,7 +182,7 @@ libxv                      1.0.13-r0                apk
 libxvmc                    1.0.14-r1                apk           
 libxxf86vm                 1.1.6-r0                 apk           
 linux-raw-sys              0.9.4                    rust-crate    
-llvm20-libs                20.1.7-r0                apk           
+llvm20-libs                20.1.7-r3                apk           
 log                        0.4.27                   rust-crate    
 maybe-rayon                0.1.1                    rust-crate    
 memchr                     2.7.5                    rust-crate    

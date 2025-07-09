@@ -284,7 +284,7 @@ libsqlite3-0                        3.37.2-2ubuntu0.4                        deb
 libsratom-0-0                       0.6.8-1                                  deb     
 libsrt1.4-gnutls                    1.4.4-4                                  deb     
 libss2                              1.46.5-2ubuntu1.2                        deb     
-libssh-4                            0.9.6-2ubuntu0.22.04.3                   deb     
+libssh-4                            0.9.6-2ubuntu0.22.04.4                   deb     
 libssh-gcrypt-4                     0.9.6-2ubuntu0.22.04.4                   deb     
 libssl1.1                           1.1.1f-1ubuntu2.24                       deb     
 libssl3                             3.0.2-0ubuntu1.19                        deb     

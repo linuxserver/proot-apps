@@ -180,7 +180,7 @@ libxv                      1.0.13-r0                apk
 libxvmc                    1.0.14-r1                apk           
 libxxf86vm                 1.1.6-r0                 apk           
 linux-raw-sys              0.9.4                    rust-crate    
-llvm20-libs                20.1.7-r0                apk           
+llvm20-libs                20.1.7-r3                apk           
 log                        0.4.27                   rust-crate    
 maybe-rayon                0.1.1                    rust-crate    
 memchr                     2.7.5                    rust-crate    
