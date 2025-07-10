@@ -239,7 +239,7 @@ libpciaccess0                             0.17-3ubuntu0.24.04.2              deb
 libpcre2-16-0                             10.42-4ubuntu2.1                   deb     
 libpcre2-8-0                              10.42-4ubuntu2.1                   deb     
 libpgm-5.3-0t64                           5.3.128~dfsg-2.1build1             deb     
-libpipewire-0.3-0t64                      1.0.5-1ubuntu3                     deb     
+libpipewire-0.3-0t64                      1.0.5-1ubuntu3.1                   deb     
 libpixman-1-0                             0.42.2-1build1                     deb     
 libplacebo338                             6.338.2-2build1                    deb     
 libpng16-16t64                            1.6.43-5build1                     deb     
@@ -304,7 +304,7 @@ libsord-0-0                               0.16.16-2build1                    deb
 libsoup-3.0-0                             3.4.4-5ubuntu0.4                   deb     
 libsoup-3.0-common                        3.4.4-5ubuntu0.4                   deb     
 libsoxr0                                  0.1.3-4build3                      deb     
-libspa-0.2-modules                        1.0.5-1ubuntu3                     deb     
+libspa-0.2-modules                        1.0.5-1ubuntu3.1                   deb     
 libspeex1                                 1.2.1-2ubuntu2.24.04.1             deb     
 libspeexdsp1                              1.2.1-1ubuntu3                     deb     
 libsphinxbase3t64                         0.8+5prealpha+1-17build2           deb     
