@@ -72,8 +72,8 @@ hpack                      4.0.0                    python
 hwdata-pci                 0.393-r0                 apk       
 hyperframe                 6.0.1                    python    
 hyperlink                  21.0.0                   python    
-icu-data-en                74.2-r0                  apk       
-icu-libs                   74.2-r0                  apk       
+icu-data-en                74.2-r1                  apk       
+icu-libs                   74.2-r1                  apk       
 idna                       3.10                     python    
 incremental                22.10.0                  python    
 iso-codes-lang             4.17.0-r0                apk       

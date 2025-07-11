@@ -93,8 +93,8 @@ hicolor-icon-theme              0.18-r0                  apk
 hsqldb                          build-7.6.7.2            java-archive                  
 hwdata-pci                      0.393-r0                 apk                           
 hyphen                          2.8.8-r3                 apk                           
-icu-data-en                     74.2-r0                  apk                           
-icu-libs                        74.2-r0                  apk                           
+icu-data-en                     74.2-r1                  apk                           
+icu-libs                        74.2-r1                  apk                           
 imath                           3.1.12-r0                apk                           
 iso-codes                       4.17.0-r0                apk                           
 jaccess                         UNKNOWN                  java-archive                  

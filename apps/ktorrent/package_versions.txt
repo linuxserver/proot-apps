@@ -56,8 +56,8 @@ harfbuzz                   9.0.0-r1                 apk
 hicolor-icon-theme         0.18-r0                  apk     
 hunspell                   1.7.2-r4                 apk     
 hwdata-pci                 0.393-r0                 apk     
-icu-data-full              74.2-r0                  apk     
-icu-libs                   74.2-r0                  apk     
+icu-data-full              74.2-r1                  apk     
+icu-libs                   74.2-r1                  apk     
 iso-codes-lang             4.17.0-r0                apk     
 karchive                   6.8.0-r0                 apk     
 kauth                      6.8.0-r0                 apk     

@@ -61,8 +61,8 @@ gtkmm3                          3.24.10-r0               apk
 harfbuzz                        9.0.0-r1                 apk     
 hicolor-icon-theme              0.18-r0                  apk     
 hwdata-pci                      0.393-r0                 apk     
-icu-data-en                     74.2-r0                  apk     
-icu-libs                        74.2-r0                  apk     
+icu-data-en                     74.2-r1                  apk     
+icu-libs                        74.2-r1                  apk     
 inkscape                        1.4-r0                   apk     
 inkscape-icon-theme-hicolor     1.4-r0                   apk     
 inkscape-icon-theme-multicolor  1.4-r0                   apk     

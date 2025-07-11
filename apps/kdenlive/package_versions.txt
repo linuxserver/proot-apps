@@ -76,8 +76,8 @@ hicolor-icon-theme         0.18-r0                  apk
 hunspell                   1.7.2-r4                 apk     
 hwdata-pci                 0.393-r0                 apk     
 hwloc                      2.11.2-r0                apk     
-icu-data-full              74.2-r0                  apk     
-icu-libs                   74.2-r0                  apk     
+icu-data-full              74.2-r1                  apk     
+icu-libs                   74.2-r1                  apk     
 imath                      3.1.12-r0                apk     
 iso-codes-lang             4.17.0-r0                apk     
 jack                       1.9.22-r4                apk     
