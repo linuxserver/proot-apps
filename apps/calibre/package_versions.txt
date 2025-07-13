@@ -270,7 +270,7 @@ libxxf86vm                 1.1.6-r0                 apk
 libxxhash                  0.8.3-r0                 apk           
 libzmq                     4.3.5-r2                 apk           
 linux-raw-sys              0.9.4                    rust-crate    
-llvm20-libs                20.1.7-r3                apk           
+llvm20-libs                20.1.8-r0                apk           
 log                        0.4.27                   rust-crate    
 lxml                       5.3.1                    python        
 markdown                   3.8.2                    python        
