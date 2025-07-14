@@ -245,7 +245,7 @@ rav1e                      0.8.1                    rust-crate
 rav1e-libs                 0.8.1-r0                 apk           
 rayon                      1.10.0                   rust-crate    
 rayon-core                 1.12.1                   rust-crate    
-readline                   8.3.0-r2                 apk           
+readline                   8.3.1-r0                 apk           
 rustix                     1.0.7                    rust-crate    
 scan_fmt                   0.2.6                    rust-crate    
 scanelf                    1.3.8-r1                 apk           

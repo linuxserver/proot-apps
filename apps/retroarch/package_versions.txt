@@ -240,7 +240,7 @@ pyc                          3.12.11-r0               apk
 python3                      3.12.11-r0               apk     
 python3-pyc                  3.12.11-r0               apk     
 python3-pycache-pyc0         3.12.11-r0               apk     
-readline                     8.3.0-r2                 apk     
+readline                     8.3.1-r0                 apk     
 retroarch                    1.20.0-r2                apk     
 retroarch-assets             1.20.0-r0                apk     
 retroarch-joypad-autoconfig  1.20.0-r0                apk     

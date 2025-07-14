@@ -118,8 +118,8 @@ libfribidi0                     1.0.16-1                        deb
 libgbm1                         25.0.7-2                        deb     
 libgcc-s1                       14.2.0-19                       deb     
 libgcrypt20                     1.11.0-7                        deb     
-libgdk-pixbuf-2.0-0             2.42.12+dfsg-3                  deb     
-libgdk-pixbuf2.0-common         2.42.12+dfsg-3                  deb     
+libgdk-pixbuf-2.0-0             2.42.12+dfsg-4                  deb     
+libgdk-pixbuf2.0-common         2.42.12+dfsg-4                  deb     
 libgfortran5                    14.2.0-19                       deb     
 libgl1                          1.7.0-1+b2                      deb     
 libgl1-mesa-dri                 25.0.7-2                        deb     
@@ -175,7 +175,7 @@ libltdl7                        2.5.4-4                         deb
 liblz4-1                        1.10.0-4                        deb     
 liblzma5                        5.8.1-1                         deb     
 liblzo2-2                       2.10-3+b1                       deb     
-libmbedcrypto16                 3.6.3-1                         deb     
+libmbedcrypto16                 3.6.4-1                         deb     
 libmd0                          1.1.0-2+b1                      deb     
 libmount1                       2.41-5                          deb     
 libmp3lame0                     3.100-6+b3                      deb     
