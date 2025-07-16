@@ -181,7 +181,7 @@ libjpeg8                                  8c-2ubuntu11                       deb
 libjson-c5                                0.17-1build1                       deb     
 libjson-glib-1.0-0                        1.8.0-2build2                      deb     
 libjson-glib-1.0-common                   1.8.0-2build2                      deb     
-libjxl0.7                                 0.7.0-10.2ubuntu6                  deb     
+libjxl0.7                                 0.7.0-10.2ubuntu6.1                deb     
 libk5crypto3                              1.20.1-6ubuntu2.6                  deb     
 libkeyutils1                              1.6.3-3build1                      deb     
 libkmod2                                  31+20240202-2ubuntu7.1             deb     
