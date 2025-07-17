@@ -468,7 +468,7 @@ sqlite-libs                3.50.2-r0                apk
 ssl_client                 1.37.0-r19               apk           
 stable_deref_trait         1.2.0                    rust-crate    
 syn                        2.0.102                  rust-crate    
-tdb-libs                   1.4.12-r0                apk           
+tdb-libs                   1.4.13-r0                apk           
 terminal_size              0.4.2                    rust-crate    
 thiserror                  1.0.69                   rust-crate    
 thiserror                  2.0.12                   rust-crate    

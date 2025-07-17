@@ -10,7 +10,7 @@ XMergeBridge                    UNKNOWN                  java-archive
 alpine-baselayout               3.6.8-r1                 apk                           
 alpine-baselayout-data          3.6.8-r1                 apk                           
 alpine-keys                     2.5-r0                   apk                           
-alpine-release                  3.21.3-r0                apk                           
+alpine-release                  3.21.4-r0                apk                           
 alsa-lib                        1.2.12-r0                apk                           
 aom-libs                        3.11.0-r0                apk                           
 apk-tools                       2.14.6-r3                apk                           
@@ -27,7 +27,7 @@ busybox                         1.37.0-r12               apk
 busybox-binsh                   1.37.0-r12               apk                           
 c-ares                          1.34.5-r0                apk                           
 ca-certificates                 20250619-r0              apk                           
-ca-certificates-bundle          20241121-r1              apk                           
+ca-certificates-bundle          20250619-r0              apk                           
 cairo                           1.18.4-r0                apk                           
 cairo-gobject                   1.18.4-r0                apk                           
 cdparanoia-libs                 10.2-r14                 apk                           
@@ -125,7 +125,7 @@ libbz2                          1.0.8-r6                 apk
 libcap2                         2.71-r0                  apk                           
 libcdr                          0.1.7-r13                apk                           
 libcom_err                      1.47.1-r1                apk                           
-libcrypto3                      3.3.3-r0                 apk                           
+libcrypto3                      3.3.4-r0                 apk                           
 libcurl                         8.12.1-r1                apk                           
 libdav1d                        1.5.0-r0                 apk                           
 libdc1394                       2.2.7-r0                 apk                           
@@ -209,7 +209,7 @@ libsharpyuv                     1.4.0-r0                 apk
 libsm                           1.2.4-r4                 apk                           
 libsndfile                      1.2.2-r2                 apk                           
 libsrtp                         2.6.0-r0                 apk                           
-libssl3                         3.3.3-r0                 apk                           
+libssl3                         3.3.4-r0                 apk                           
 libstaroffice                   0.0.7-r8                 apk                           
 libstdc++                       14.2.0-r4                apk                           
 libtasn1                        4.20.0-r0                apk                           
