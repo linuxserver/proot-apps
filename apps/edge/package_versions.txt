@@ -38,7 +38,7 @@ hicolor-icon-theme              0.18-2                          deb
 hostname                        3.25                            deb     
 init-system-helpers             1.68                            deb     
 iso-codes                       4.18.0-1                        deb     
-keyboard-configuration          1.239                           deb     
+keyboard-configuration          1.240                           deb     
 libabsl20240722                 20240722.0-4                    deb     
 libacl1                         2.3.2-2+b1                      deb     
 libaom3                         3.12.1-1                        deb     

@@ -152,7 +152,7 @@ orc                        0.4.41-r0                apk
 p11-kit                    0.25.5-r2                apk     
 pango                      1.56.4-r0                apk     
 pcre2                      10.43-r1                 apk     
-pixman                     0.46.2-r0                apk     
+pixman                     0.46.4-r0                apk     
 pkgconf                    2.5.1-r0                 apk     
 pulseaudio                 17.0-r5                  apk     
 pulseaudio-alsa            17.0-r5                  apk     
