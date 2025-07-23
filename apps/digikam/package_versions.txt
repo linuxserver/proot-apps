@@ -266,7 +266,7 @@ mariadb-client             11.4.5-r0                apk
 mariadb-client-perl        11.4.5-r0                apk     
 mariadb-common             11.4.5-r0                apk     
 mariadb-server-utils       11.4.5-r0                apk     
-mbedtls                    3.6.3-r0                 apk     
+mbedtls                    3.6.4-r0                 apk     
 mesa                       24.2.8-r0                apk     
 mesa-dri-gallium           24.2.8-r0                apk     
 mesa-egl                   24.2.8-r0                apk     

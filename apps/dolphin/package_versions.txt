@@ -164,7 +164,7 @@ libzmq                     4.3.5-r2                 apk
 llvm19-libs                19.1.4-r1                apk     
 lz4-libs                   1.10.0-r0                apk     
 lzo                        2.10-r5                  apk     
-mbedtls                    3.6.3-r0                 apk     
+mbedtls                    3.6.4-r0                 apk     
 mbedtls2                   2.28.10-r0               apk     
 mesa                       24.2.8-r0                apk     
 mesa-dri-gallium           24.2.8-r0                apk     
