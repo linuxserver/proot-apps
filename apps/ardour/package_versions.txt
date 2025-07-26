@@ -22,7 +22,7 @@ aubio                      0.4.9-r4                 apk
 av-metrics                 0.9.1                    rust-crate                  
 av-scenechange             0.14.1                   rust-crate                  
 av1-grain                  0.2.4                    rust-crate                  
-bash                       5.3.0-r0                 apk                         
+bash                       5.3.3-r0                 apk                         
 bitflags                   2.9.1                    rust-crate                  
 bitstream-io               2.6.0                    rust-crate                  
 bitstream-io               4.2.0                    rust-crate                  

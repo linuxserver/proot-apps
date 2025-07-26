@@ -8,7 +8,7 @@ apk-tools                  2.14.7-r0                apk
 at-spi2-core               2.56.3-r0                apk     
 at-spi2-core-libs          2.56.3-r0                apk     
 avahi-libs                 0.8-r21                  apk     
-bash                       5.3.0-r0                 apk     
+bash                       5.3.3-r0                 apk     
 brotli-libs                1.1.0-r2                 apk     
 busybox                    1.37.0-r20               apk     
 busybox-binsh              1.37.0-r20               apk     

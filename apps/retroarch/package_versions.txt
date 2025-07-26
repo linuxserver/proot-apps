@@ -6,7 +6,7 @@ alpine-release               3.22.0_alpha20250108-r0  apk
 alsa-lib                     1.2.14-r0                apk     
 aom-libs                     3.12.1-r0                apk     
 apk-tools                    2.14.7-r0                apk     
-bash                         5.3.0-r0                 apk     
+bash                         5.3.3-r0                 apk     
 brotli-libs                  1.1.0-r2                 apk     
 busybox                      1.37.0-r20               apk     
 busybox-binsh                1.37.0-r20               apk     
