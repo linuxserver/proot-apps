@@ -62,10 +62,10 @@ libc6                           2.41-10                         deb
 libcairo-gobject2               1.18.4-1+b1                     deb             
 libcairo2                       1.18.4-1+b1                     deb             
 libcap-ng0                      0.8.5-4+b1                      deb             
-libcap2                         1:2.75-9                        deb             
-libcap2-bin                     1:2.75-9                        deb             
+libcap2                         1:2.75-9+b1                     deb             
+libcap2-bin                     1:2.75-9+b1                     deb             
 libcodec2-1.2                   1.2.0-3                         deb             
-libcom-err2                     1.47.2-3+b1                     deb             
+libcom-err2                     1.47.2-3+b2                     deb             
 libcrypt1                       1:4.4.38-1                      deb             
 libcurl4t64                     8.14.1-2                        deb             
 libdatrie1                      0.2.13-4                        deb             
