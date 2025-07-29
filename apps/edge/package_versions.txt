@@ -69,8 +69,8 @@ libc6                           2.41-10                         deb
 libcairo-gobject2               1.18.4-1+b1                     deb     
 libcairo2                       1.18.4-1+b1                     deb     
 libcap-ng0                      0.8.5-4+b1                      deb     
-libcap2                         1:2.75-9+b1                     deb     
-libcap2-bin                     1:2.75-9+b1                     deb     
+libcap2                         1:2.75-10                       deb     
+libcap2-bin                     1:2.75-10                       deb     
 libcloudproviders0              0.3.6-2                         deb     
 libcodec2-1.2                   1.2.0-3                         deb     
 libcolord2                      1.4.7-3                         deb     
