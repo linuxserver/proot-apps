@@ -292,7 +292,7 @@ minimal-lexical            0.2.1                    rust-crate
 minizip                    1.3.1-r0                 apk           
 mpdecimal                  4.0.1-r0                 apk           
 mpfr4                      4.2.2-r0                 apk           
-mpg123-libs                1.33.0-r0                apk           
+mpg123-libs                1.33.1-r0                apk           
 msgpack                    1.0.8                    python        
 mtdev                      1.1.7-r0                 apk           
 musl                       1.2.5-r15                apk           
@@ -515,4 +515,4 @@ y4m                        0.8.0                    rust-crate
 zeroconf                   0.147.0                  python        
 zerocopy                   0.8.25                   rust-crate    
 zlib                       1.3.1-r2                 apk           
-zstd-libs                  1.5.7-r1                 apk           
+zstd-libs                  1.5.7-r2                 apk           
