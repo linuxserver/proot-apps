@@ -6,7 +6,7 @@ alpine-baselayout          3.6.8-r1                 apk
 alpine-baselayout-data     3.6.8-r1                 apk           
 alpine-keys                2.5-r0                   apk           
 alpine-release             3.22.0_alpha20250108-r0  apk           
-alsa-lib                   1.2.14-r0                apk           
+alsa-lib                   1.2.14-r1                apk           
 anstream                   0.6.19                   rust-crate    
 anstyle                    1.0.11                   rust-crate    
 anstyle-parse              0.2.7                    rust-crate    
@@ -102,7 +102,7 @@ fontconfig                 2.15.0-r5                apk
 fonttools                  4.59.0                   python        
 freetype                   2.13.3-r0                apk           
 fribidi                    1.0.16-r1                apk           
-gdbm                       1.24-r0                  apk           
+gdbm                       1.25-r0                  apk           
 gdk-pixbuf                 2.42.12-r2               apk           
 getrandom                  0.3.3                    rust-crate    
 glib                       2.84.3-r0                apk           
@@ -204,7 +204,7 @@ libmng                     2.0.3-r2                 apk
 libmount                   2.41.1-r0                apk           
 libmtp                     1.1.22-r0                apk           
 libncursesw                6.5_p20250705-r0         apk           
-libnvme                    1.14-r0                  apk           
+libnvme                    1.15-r0                  apk           
 libogg                     1.3.6-r0                 apk           
 libopenmpt                 0.8.2-r0                 apk           
 libpanelw                  6.5_p20250705-r0         apk           
@@ -215,7 +215,7 @@ libproxy                   0.5.10-r0                apk
 libpsl                     0.21.5-r3                apk           
 libpulse                   17.0-r5                  apk           
 librist                    0.2.10-r1                apk           
-libsasl                    2.1.28-r8                apk           
+libsasl                    2.1.28-r9                apk           
 libsharpyuv                1.6.0-r0                 apk           
 libsm                      1.2.6-r0                 apk           
 libsndfile                 1.2.2-r2                 apk           
@@ -295,7 +295,7 @@ mpfr4                      4.2.2-r0                 apk
 mpg123-libs                1.33.1-r0                apk           
 msgpack                    1.0.8                    python        
 mtdev                      1.1.7-r0                 apk           
-musl                       1.2.5-r15                apk           
+musl                       1.2.5-r17                apk           
 musl-utils                 1.2.5-r9                 apk           
 ncurses-terminfo-base      6.5_p20250705-r0         apk           
 ndctl-libs                 80-r1                    apk           
@@ -475,7 +475,7 @@ thiserror                  2.0.12                   rust-crate
 thiserror-impl             1.0.69                   rust-crate    
 thiserror-impl             2.0.12                   rust-crate    
 thread_local               1.1.7                    rust-crate    
-tiff                       4.7.0-r0                 apk           
+tiff                       4.7.0-r1                 apk           
 tslib                      1.23-r0                  apk           
 typing-extensions          4.14.1                   python        
 tzdata                     2025b-r0                 apk           

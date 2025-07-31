@@ -5,7 +5,7 @@ alpine-baselayout          3.6.8-r1                 apk
 alpine-baselayout-data     3.6.8-r1                 apk           
 alpine-keys                2.5-r0                   apk           
 alpine-release             3.22.0_alpha20250108-r0  apk           
-alsa-lib                   1.2.14-r0                apk           
+alsa-lib                   1.2.14-r1                apk           
 anstream                   0.6.19                   rust-crate    
 anstyle                    1.0.11                   rust-crate    
 anstyle-parse              0.2.7                    rust-crate    
@@ -72,7 +72,7 @@ font-noto-symbols          2025.05.01-r0            apk
 fontconfig                 2.15.0-r5                apk           
 freetype                   2.13.3-r0                apk           
 fribidi                    1.0.16-r1                apk           
-gdbm                       1.24-r0                  apk           
+gdbm                       1.25-r0                  apk           
 gdk-pixbuf                 2.42.12-r2               apk           
 getrandom                  0.3.3                    rust-crate    
 glib                       2.84.3-r0                apk           
@@ -196,7 +196,7 @@ mesa-vulkan-swrast         25.1.6-r1                apk
 minimal-lexical            0.2.1                    rust-crate    
 mpdecimal                  4.0.1-r0                 apk           
 mpg123-libs                1.33.1-r0                apk           
-musl                       1.2.5-r15                apk           
+musl                       1.2.5-r17                apk           
 musl-utils                 1.2.5-r9                 apk           
 ncurses-terminfo-base      6.5_p20250705-r0         apk           
 netcat-openbsd             1.229.1-r0               apk           
@@ -266,7 +266,7 @@ thiserror                  1.0.69                   rust-crate
 thiserror                  2.0.12                   rust-crate    
 thiserror-impl             1.0.69                   rust-crate    
 thiserror-impl             2.0.12                   rust-crate    
-tiff                       4.7.0-r0                 apk           
+tiff                       4.7.0-r1                 apk           
 unicode-ident              1.0.18                   rust-crate    
 unicode-width              0.2.1                    rust-crate    
 utf8parse                  0.2.2                    rust-crate    
