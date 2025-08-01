@@ -238,7 +238,7 @@ libspeexdsp1                     1.2.1-1                         deb
 libsqlite3-0                     3.40.1-2+deb12u1                deb     
 libss2                           1.47.0-2                        deb     
 libssh2-1                        1.10.0-3+b1                     deb     
-libssl3                          3.0.16-1~deb12u1                deb     
+libssl3                          3.0.17-1~deb12u1                deb     
 libstdc++6                       12.2.0-14+deb12u1               deb     
 libsvtav1enc1                    1.4.1+dfsg-1                    deb     
 libswresample4                   7:5.1.6-0+deb12u1               deb     
@@ -330,8 +330,8 @@ ncurses-base                     6.4-4                           deb
 ncurses-bin                      6.4-4                           deb     
 netcat-openbsd                   1.219-1                         deb     
 ocl-icd-libopencl1               2.3.1-1                         deb     
-openssh-client                   1:9.2p1-2+deb12u6               deb     
-openssl                          3.0.16-1~deb12u1                deb     
+openssh-client                   1:9.2p1-2+deb12u7               deb     
+openssl                          3.0.17-1~deb12u1                deb     
 oracledb                         6.7.2                           npm     
 os-dns-native                    1.2.1                           npm     
 passwd                           1:4.13+dfsg1-1+deb12u1          deb     

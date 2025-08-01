@@ -73,7 +73,7 @@ font-noto-symbols          2025.05.01-r0            apk
 fontconfig                 2.15.0-r5                apk           
 freetype                   2.13.3-r0                apk           
 fribidi                    1.0.16-r1                apk           
-gdbm                       1.25-r0                  apk           
+gdbm                       1.26-r0                  apk           
 gdk-pixbuf                 2.42.12-r2               apk           
 getrandom                  0.3.3                    rust-crate    
 glib                       2.84.3-r0                apk           
@@ -121,8 +121,8 @@ libevent                   2.1.12-r8                apk
 libexpat                   2.7.1-r0                 apk           
 libffi                     3.5.1-r0                 apk           
 libflac                    1.4.3-r2                 apk           
-libgcc                     15.1.1_git20250719-r3    apk           
-libgomp                    15.1.1_git20250719-r3    apk           
+libgcc                     15.1.1_git20250726-r0    apk           
+libgomp                    15.1.1_git20250726-r0    apk           
 libhwy                     1.0.7-r1                 apk           
 libice                     1.1.2-r0                 apk           
 libidn2                    2.3.8-r0                 apk           
@@ -144,7 +144,7 @@ libsharpyuv                1.6.0-r0                 apk
 libsm                      1.2.6-r0                 apk           
 libsndfile                 1.2.2-r2                 apk           
 libssl3                    3.3.2-r4                 apk           
-libstdc++                  15.1.1_git20250719-r3    apk           
+libstdc++                  15.1.1_git20250726-r0    apk           
 libtasn1                   4.20.0-r0                apk           
 libtheora                  1.1.1-r18                apk           
 libunistring               1.3-r0                   apk           
