@@ -255,7 +255,7 @@ libsrt1.5-gnutls                1.5.1-1+deb12u1                 deb
 libss2                          1.47.0-2                        deb     
 libssh-gcrypt-4                 0.10.6-0+deb12u1                deb     
 libssh2-1                       1.10.0-3+b1                     deb     
-libssl3                         3.0.16-1~deb12u1                deb     
+libssl3                         3.0.17-1~deb12u1                deb     
 libstdc++6                      12.2.0-14+deb12u1               deb     
 libsvtav1enc1                   1.4.1+dfsg-1                    deb     
 libswresample4                  7:5.1.6-0+deb12u1               deb     
@@ -355,7 +355,7 @@ ncurses-bin                     6.4-4                           deb
 netcat-openbsd                  1.219-1                         deb     
 ocl-icd-libopencl1              2.3.1-1                         deb     
 onlyoffice-desktopeditors       9.0.3-29                        deb     
-openssl                         3.0.16-1~deb12u1                deb     
+openssl                         3.0.17-1~deb12u1                deb     
 passwd                          1:4.13+dfsg1-1+deb12u1          deb     
 perl-base                       5.36.0-7+deb12u2                deb     
 procps                          2:4.0.2-3                       deb     

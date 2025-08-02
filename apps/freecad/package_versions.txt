@@ -348,7 +348,7 @@ libspnav0                           1.0-1                           deb
 libsqlite3-0                        3.40.1-2+deb12u1                deb       
 libss2                              1.47.0-2                        deb       
 libssh2-1                           1.10.0-3+b1                     deb       
-libssl3                             3.0.16-1~deb12u1                deb       
+libssl3                             3.0.17-1~deb12u1                deb       
 libstdc++-12-dev                    12.2.0-14+deb12u1               deb       
 libstdc++6                          12.2.0-14+deb12u1               deb       
 libsvtav1enc1                       1.4.1+dfsg-1                    deb       
@@ -474,7 +474,7 @@ netcat-openbsd                      1.219-1                         deb
 numpy                               1.24.2                          python    
 occt-misc                           7.6.3+dfsg1-7                   deb       
 ocl-icd-libopencl1                  2.3.1-1                         deb       
-openssl                             3.0.16-1~deb12u1                deb       
+openssl                             3.0.17-1~deb12u1                deb       
 packaging                           23.0                            python    
 passwd                              1:4.13+dfsg1-1+deb12u1          deb       
 perl-base                           5.36.0-7+deb12u2                deb       

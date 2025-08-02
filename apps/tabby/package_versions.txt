@@ -251,7 +251,7 @@ libspeexdsp1                      1.2.1-1                         deb
 libsqlite3-0                      3.40.1-2+deb12u1                deb     
 libss2                            1.47.0-2                        deb     
 libssh2-1                         1.10.0-3+b1                     deb     
-libssl3                           3.0.16-1~deb12u1                deb     
+libssl3                           3.0.17-1~deb12u1                deb     
 libstdc++6                        12.2.0-14+deb12u1               deb     
 libsvtav1enc1                     1.4.1+dfsg-1                    deb     
 libswresample4                    7:5.1.6-0+deb12u1               deb     
@@ -346,7 +346,7 @@ netcat-openbsd                    1.219-1                         deb
 node-pty                          1.0.0                           npm     
 ocl-icd-libopencl1                2.3.1-1                         deb     
 once                              1.4.0                           npm     
-openssl                           3.0.16-1~deb12u1                deb     
+openssl                           3.0.17-1~deb12u1                deb     
 p-limit                           2.2.0                           npm     
 p-locate                          3.0.0                           npm     
 p-try                             2.2.0                           npm     
