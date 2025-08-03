@@ -112,7 +112,7 @@ libexpat                   2.7.0-r0                 apk
 libffi                     3.4.7-r0                 apk       
 libflac                    1.4.3-r1                 apk       
 libgcc                     14.2.0-r4                apk       
-libgnome-desktop-3         44.1-r0                  apk       
+libgnome-desktop-3         44.3-r0                  apk       
 libgomp                    14.2.0-r4                apk       
 libice                     1.1.1-r6                 apk       
 libidn2                    2.3.7-r0                 apk       
