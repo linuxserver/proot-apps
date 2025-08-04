@@ -59,7 +59,7 @@ libdrm                       2.4.125-r0               apk
 libeconf                     0.7.10-r0                apk     
 libelf                       0.193-r0                 apk     
 libexpat                     2.7.1-r0                 apk     
-libffi                       3.5.1-r0                 apk     
+libffi                       3.5.2-r0                 apk     
 libflac                      1.4.3-r2                 apk     
 libgcc                       15.1.1_git20250726-r0    apk     
 libgomp                      15.1.1_git20250726-r0    apk     
