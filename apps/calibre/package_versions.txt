@@ -336,7 +336,7 @@ pixman                     0.46.4-r0                apk
 pkgconf                    2.5.1-r0                 apk           
 podofo                     0.10.4-r0                apk           
 polkit-noelogind-libs      126-r0                   apk           
-poppler                    25.07.0-r0               apk           
+poppler                    25.08.0-r0               apk           
 ppv-lite86                 0.2.21                   rust-crate    
 proc-macro2                1.0.95                   rust-crate    
 profiling                  1.0.16                   rust-crate    

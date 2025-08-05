@@ -254,7 +254,7 @@ spirv-tools                  1.4.313.0-r0             apk
 sqlite-libs                  3.50.4-r0                apk     
 ssl_client                   1.37.0-r21               apk     
 tdb-libs                     1.4.13-r0                apk     
-vulkan-loader                1.4.313.0-r0             apk     
+vulkan-loader                1.4.321.0-r0             apk     
 wayland-libs-client          1.24.0-r0                apk     
 wayland-libs-cursor          1.24.0-r0                apk     
 wayland-libs-egl             1.24.0-r0                apk     
