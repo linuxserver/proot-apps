@@ -181,7 +181,7 @@ libfdisk                   2.41.1-r0                apk
 libffi                     3.5.2-r0                 apk           
 libflac                    1.4.3-r2                 apk           
 libgcc                     15.1.1_git20250726-r0    apk           
-libgcrypt                  1.10.3-r1                apk           
+libgcrypt                  1.11.2-r0                apk           
 libgomp                    15.1.1_git20250726-r0    apk           
 libgpg-error               1.55-r0                  apk           
 libgudev                   238-r1                   apk           
@@ -463,7 +463,7 @@ soupsieve                  2.7                      python
 soxr                       0.1.3-r7                 apk           
 speech-dispatcher          0.12.1-r0                apk           
 speexdsp                   1.2.1-r2                 apk           
-spirv-tools                1.4.313.0-r0             apk           
+spirv-tools                1.4.321.0-r0             apk           
 sqlite-libs                3.50.4-r0                apk           
 ssl_client                 1.37.0-r21               apk           
 stable_deref_trait         1.2.0                    rust-crate    

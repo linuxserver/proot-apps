@@ -246,11 +246,11 @@ retroarch-assets             1.20.0-r0                apk
 retroarch-joypad-autoconfig  1.20.0-r0                apk     
 scanelf                      1.3.8-r1                 apk     
 sdl2-compat                  2.32.56-r1               apk     
-sdl3                         3.2.18-r0                apk     
+sdl3                         3.2.20-r0                apk     
 snappy                       1.2.2-r0                 apk     
 soxr                         0.1.3-r7                 apk     
 speexdsp                     1.2.1-r2                 apk     
-spirv-tools                  1.4.313.0-r0             apk     
+spirv-tools                  1.4.321.0-r0             apk     
 sqlite-libs                  3.50.4-r0                apk     
 ssl_client                   1.37.0-r21               apk     
 tdb-libs                     1.4.13-r0                apk     
