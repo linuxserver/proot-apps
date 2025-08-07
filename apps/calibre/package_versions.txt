@@ -32,8 +32,8 @@ bitflags                   2.9.1                    rust-crate
 bitstream-io               4.2.0                    rust-crate    
 bluez-libs                 5.83-r1                  apk           
 brotli-libs                1.1.0-r2                 apk           
-busybox                    1.37.0-r21               apk           
-busybox-binsh              1.37.0-r21               apk           
+busybox                    1.37.0-r22               apk           
+busybox-binsh              1.37.0-r22               apk           
 bytemuck                   1.14.0                   rust-crate    
 c-ares                     1.34.5-r0                apk           
 ca-certificates-bundle     20241121-r1              apk           
@@ -98,7 +98,7 @@ font-noto                  2025.05.01-r0            apk
 font-noto-common           2025.05.01-r0            apk           
 font-noto-math             2025.05.01-r0            apk           
 font-noto-symbols          2025.05.01-r0            apk           
-fontconfig                 2.15.0-r5                apk           
+fontconfig                 2.17.1-r0                apk           
 fonttools                  4.59.0                   python        
 freetype                   2.13.3-r0                apk           
 fribidi                    1.0.16-r1                apk           
@@ -130,7 +130,7 @@ hicolor-icon-theme         0.18-r0                  apk
 html2text                  2025.4.15                python        
 html5-parser               0.4.12                   python        
 html5lib                   1.1                      python        
-hwdata-pci                 0.397-r0                 apk           
+hwdata-pci                 0.398-r0                 apk           
 hyphen                     2.8.8-r3                 apk           
 icu-data-en                76.1-r1                  apk           
 icu-libs                   76.1-r1                  apk           
@@ -465,7 +465,7 @@ speech-dispatcher          0.12.1-r0                apk
 speexdsp                   1.2.1-r2                 apk           
 spirv-tools                1.4.321.0-r0             apk           
 sqlite-libs                3.50.4-r0                apk           
-ssl_client                 1.37.0-r21               apk           
+ssl_client                 1.37.0-r22               apk           
 stable_deref_trait         1.2.0                    rust-crate    
 syn                        2.0.102                  rust-crate    
 tdb-libs                   1.4.13-r0                apk           
@@ -475,7 +475,7 @@ thiserror                  2.0.12                   rust-crate
 thiserror-impl             1.0.69                   rust-crate    
 thiserror-impl             2.0.12                   rust-crate    
 thread_local               1.1.7                    rust-crate    
-tiff                       4.7.0-r1                 apk           
+tiff                       4.7.0-r2                 apk           
 tslib                      1.23-r0                  apk           
 typing-extensions          4.14.1                   python        
 tzdata                     2025b-r0                 apk           
@@ -505,7 +505,7 @@ xdg-utils                  1.2.1-r1                 apk
 xf86-video-amdgpu          23.0.0-r3                apk           
 xf86-video-ati             22.0.0-r3                apk           
 xf86-video-intel           2.99.917_git20221028-r7  apk           
-xkeyboard-config           2.43-r0                  apk           
+xkeyboard-config           2.45-r0                  apk           
 xprop                      1.2.8-r0                 apk           
 xset                       1.2.5-r1                 apk           
 xvidcore                   1.3.7-r2                 apk           

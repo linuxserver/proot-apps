@@ -62,7 +62,7 @@ libavfilter10                   7:7.1.1-1+b1                    deb
 libavformat61                   7:7.1.1-1+b1                    deb     
 libavutil59                     7:7.1.1-1+b1                    deb     
 libbdplus0                      0.2.0-4+b1                      deb     
-libblas3                        3.12.1-4                        deb     
+libblas3                        3.12.1-5                        deb     
 libblkid1                       2.41-5                          deb     
 libbluray2                      1:1.3.4-1+b2                    deb     
 libbrotli1                      1.1.0-2+b7                      deb     
@@ -163,7 +163,7 @@ libkeyutils1                    1.6.3-6                         deb
 libkmod2                        34.2-2                          deb     
 libkrb5-3                       1.21.3-5                        deb     
 libkrb5support0                 1.21.3-5                        deb     
-liblapack3                      3.12.1-4                        deb     
+liblapack3                      3.12.1-5                        deb     
 liblastlog2-2                   2.41-5                          deb     
 liblcms2-2                      2.16-2                          deb     
 libldap2                        2.6.10+dfsg-1                   deb     
