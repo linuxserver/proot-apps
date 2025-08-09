@@ -1,8 +1,6 @@
 NAME                              VERSION                         TYPE   
 @luminati-io/socksv5              0.0.7                           npm     
 @serialport/bindings-cpp          11.0.3                          npm     
-@serialport/parser-delimiter      11.0.0                          npm     
-@serialport/parser-readline       11.0.0                          npm     
 @tabby-gang/windows-process-tree  0.6.1                           npm     
 adduser                           3.134                           deb     
 adwaita-icon-theme                43-1                            deb     
@@ -39,7 +37,6 @@ diffutils                         1:3.8-4                         deb
 dpkg                              1.21.22                         deb     
 e2fsprogs                         1.47.0-2                        deb     
 eyes                              0.1.8                           npm     
-find-up                           3.0.0                           npm     
 findutils                         4.9.0-4                         deb     
 fontconfig                        2.14.1-4                        deb     
 fontconfig-config                 2.14.1-4                        deb     
@@ -330,7 +327,6 @@ libz3-4                           4.8.12-3.1                      deb
 libzstd1                          1.5.4+dfsg2-5                   deb     
 libzvbi-common                    0.2.41-1                        deb     
 libzvbi0                          0.2.41-1                        deb     
-locate-path                       3.0.0                           npm     
 login                             1:4.13+dfsg1-1+deb12u1          deb     
 logsave                           1.47.0-2                        deb     
 mawk                              1.3.4.20200120-3.1              deb     
@@ -347,9 +343,6 @@ node-pty                          1.0.0                           npm
 ocl-icd-libopencl1                2.3.1-1                         deb     
 once                              1.4.0                           npm     
 openssl                           3.0.17-1~deb12u1                deb     
-p-limit                           2.2.0                           npm     
-p-locate                          3.0.0                           npm     
-p-try                             2.2.0                           npm     
 p11-kit                           0.24.1-2                        deb     
 p11-kit-modules                   0.24.1-2                        deb     
 passwd                            1:4.13+dfsg1-1+deb12u1          deb     
@@ -376,6 +369,7 @@ sprintf                           0.1.3                           npm
 sprintf                           0.1.5                           npm     
 stack-trace                       0.0.10                          npm     
 sysvinit-utils                    3.06-4                          deb     
+tabby-auto-sudo-password          1.0.197-nightly.1               npm     
 tabby-community-color-schemes     1.0.197-nightly.1               npm     
 tabby-core                        1.0.197-nightly.1               npm     
 tabby-electron                    1.0.197-nightly.1               npm     
@@ -387,7 +381,7 @@ tabby-settings                    1.0.197-nightly.1               npm
 tabby-ssh                         1.0.197-nightly.1               npm     
 tabby-telnet                      1.0.197-nightly.1               npm     
 tabby-terminal                    1.0.197-nightly.1               npm     
-tabby-terminal                    1.0.223                         deb     
+tabby-terminal                    1.0.224                         deb     
 tar                               1.34+dfsg-1.2+deb12u1           deb     
 term-size                         1.2.0                           npm     
 tmp                               0.2.1                           npm     

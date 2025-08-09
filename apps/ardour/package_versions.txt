@@ -270,7 +270,7 @@ rubberband-libs            4.0.0-r0                 apk
 rustix                     1.0.7                    rust-crate                  
 scan_fmt                   0.2.6                    rust-crate                  
 scanelf                    1.3.8-r1                 apk                         
-sdl2-compat                2.32.56-r1               apk                         
+sdl2-compat                2.32.56-r2               apk                         
 sdl3                       3.2.20-r0                apk                         
 serd-libs                  0.32.4-r0                apk                         
 shaderc                    2025.3-r0                apk                         
