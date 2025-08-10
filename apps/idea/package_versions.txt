@@ -465,7 +465,7 @@ libspeexdsp1                            1.2.1-1                                 
 libsqlite3-0                            3.40.1-2+deb12u1                           deb                            
 libss2                                  1.47.0-2                                   deb                            
 libssh2-1                               1.10.0-3+b1                                deb                            
-libssl3                                 3.0.17-1~deb12u1                           deb                            
+libssl3                                 3.0.17-1~deb12u2                           deb                            
 libstdc++6                              12.2.0-14+deb12u1                          deb                            
 libsvtav1enc1                           1.4.1+dfsg-1                               deb                            
 libswresample4                          7:5.1.6-0+deb12u1                          deb                            
@@ -629,7 +629,7 @@ openjdk-17-jdk-headless                 17.0.15+6-1~deb12u1                     
 openjdk-17-jre                          17.0.15+6-1~deb12u1                        deb                            
 openjdk-17-jre-headless                 17.0.15+6-1~deb12u1                        deb                            
 openssh-client                          1:9.2p1-2+deb12u7                          deb                            
-openssl                                 3.0.17-1~deb12u1                           deb                            
+openssl                                 3.0.17-1~deb12u2                           deb                            
 org.eclipse.sisu.inject                 0.9.0.M3                                   java-archive                   
 org.eclipse.sisu.plexus                 0.9.0.M3                                   java-archive                   
 org.jacoco.agent.rt                     0.8.13                                     java-archive                   

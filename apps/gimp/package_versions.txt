@@ -42,7 +42,7 @@ fribidi                    1.0.16-r0                apk
 gdbm                       1.24-r0                  apk     
 gdk-pixbuf                 2.42.12-r1               apk     
 gegl                       0.4.48-r0                apk     
-gexiv2                     0.14.5-r0                apk     
+gexiv2                     0.14.6-r0                apk     
 giflib                     5.2.2-r1                 apk     
 gimp                       2.10.38-r3               apk     
 glib                       2.82.5-r0                apk     

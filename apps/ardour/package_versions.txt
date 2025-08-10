@@ -54,7 +54,7 @@ crossbeam-deque            0.8.6                    rust-crate
 crossbeam-epoch            0.9.18                   rust-crate                  
 crossbeam-queue            0.3.12                   rust-crate                  
 crossbeam-utils            0.8.21                   rust-crate                  
-curl                       8.15.0-r0                apk                         
+curl                       8.15.0-r1                apk                         
 dbus                       1.16.2-r1                apk                         
 dbus-daemon-launch-helper  1.16.2-r1                apk                         
 dbus-libs                  1.16.2-r1                apk                         
@@ -88,7 +88,7 @@ fribidi                    1.0.16-r1                apk
 funty                      2.0.0                    rust-crate                  
 gdbm                       1.26-r0                  apk                         
 getrandom                  0.3.3                    rust-crate                  
-glib                       2.84.3-r0                apk                         
+glib                       2.84.4-r0                apk                         
 glibmm2.66                 2.66.8-r0                apk                         
 glslang-libs               1.4.321.0-r0             apk                         
 graphene                   1.10.8-r5                apk                         
@@ -120,7 +120,7 @@ libbz2                     1.0.8-r6                 apk
 libc                       0.2.172                  rust-crate  (+1 duplicate)  
 libcap2                    2.76-r0                  apk                         
 libcrypto3                 3.3.2-r4                 apk                         
-libcurl                    8.15.0-r0                apk                         
+libcurl                    8.15.0-r1                apk                         
 libdav1d                   1.5.1-r0                 apk                         
 libdovi                    3.3.2-r0                 apk                         
 libdrm                     2.4.125-r0               apk                         
@@ -208,15 +208,15 @@ lz4-libs                   1.10.0-r0                apk
 maybe-rayon                0.1.1                    rust-crate                  
 mbedtls                    3.6.4-r0                 apk                         
 memchr                     2.7.5                    rust-crate                  
-mesa                       25.1.7-r0                apk                         
-mesa-dri-gallium           25.1.7-r0                apk                         
-mesa-egl                   25.1.7-r0                apk                         
-mesa-gbm                   25.1.7-r0                apk                         
-mesa-gl                    25.1.7-r0                apk                         
-mesa-va-gallium            25.1.7-r0                apk                         
-mesa-vulkan-ati            25.1.7-r0                apk                         
-mesa-vulkan-layers         25.1.7-r0                apk                         
-mesa-vulkan-swrast         25.1.7-r0                apk                         
+mesa                       25.1.7-r1                apk                         
+mesa-dri-gallium           25.1.7-r1                apk                         
+mesa-egl                   25.1.7-r1                apk                         
+mesa-gbm                   25.1.7-r1                apk                         
+mesa-gl                    25.1.7-r1                apk                         
+mesa-va-gallium            25.1.7-r1                apk                         
+mesa-vulkan-ati            25.1.7-r1                apk                         
+mesa-vulkan-layers         25.1.7-r1                apk                         
+mesa-vulkan-swrast         25.1.7-r1                apk                         
 minimal-lexical            0.2.1                    rust-crate                  
 mpdecimal                  4.0.1-r0                 apk                         
 mpg123-libs                1.33.1-r0                apk                         
