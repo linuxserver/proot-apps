@@ -121,8 +121,8 @@ libgsm1                         1.0.22-1+b2                     deb
 libgssapi-krb5-2                1.21.3-5                        deb     
 libgstreamer-plugins-base1.0-0  1.26.2-1                        deb     
 libgstreamer1.0-0               1.26.2-2                        deb     
-libgtk-3-0t64                   3.24.49-3                       deb     
-libgtk-3-common                 3.24.49-3                       deb     
+libgtk-3-0t64                   3.24.50-1                       deb     
+libgtk-3-common                 3.24.50-1                       deb     
 libharfbuzz0b                   10.2.0-1+b1                     deb     
 libhogweed6t64                  3.10.1-1                        deb     
 libhwy1t64                      1.2.0-2+b2                      deb     
