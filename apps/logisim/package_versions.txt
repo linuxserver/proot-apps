@@ -1,9 +1,9 @@
 NAME                            VERSION                         TYPE           
 adduser                         3.152                           deb             
 apt                             3.0.3                           deb             
-base-files                      13.8                            deb             
+base-files                      14                              deb             
 base-passwd                     3.6.7                           deb             
-bash                            5.2.37-2+b3                     deb             
+bash                            5.2.37-2+b5                     deb             
 bsdutils                        1:2.41-5                        deb             
 ca-certificates                 20250419                        deb             
 colorpicker                     2.0.1                           java-archive    
@@ -19,7 +19,7 @@ dbus-session-bus-common         1.16.2-2                        deb
 dbus-x11                        1.16.2-2                        deb             
 debconf                         1.5.91                          deb             
 debian-archive-keyring          2025.1                          deb             
-debianutils                     5.23.1                          deb             
+debianutils                     5.23.2                          deb             
 desktop-file-utils              0.28-1                          deb             
 diffutils                       1:3.10-4                        deb             
 dpkg                            1.22.21                         deb             
@@ -29,7 +29,6 @@ fontconfig-config               2.15.0-2.3                      deb
 fonts-noto                      20201225-2                      deb             
 fonts-noto-core                 20201225-2                      deb             
 fonts-noto-mono                 20201225-2                      deb             
-gcc-14-base                     14.2.0-19                       deb             
 gcc-15-base                     15.2.0-1                        deb             
 grep                            3.11-4                          deb             
 gzip                            1.13-1                          deb             
@@ -58,8 +57,8 @@ libblkid1                       2.41-5                          deb
 libbrotli1                      1.1.0-2+b7                      deb             
 libbsd0                         0.12.2-2                        deb             
 libbz2-1.0                      1.0.8-6                         deb             
-libc-bin                        2.41-10                         deb             
-libc6                           2.41-10                         deb             
+libc-bin                        2.41-12                         deb             
+libc6                           2.41-12                         deb             
 libcairo-gobject2               1.18.4-1+b1                     deb             
 libcairo2                       1.18.4-1+b1                     deb             
 libcap-ng0                      0.8.5-4+b1                      deb             
@@ -99,7 +98,7 @@ libgdk-pixbuf-2.0-0             2.42.12+dfsg-4                  deb
 libgdk-pixbuf2.0-common         2.42.12+dfsg-4                  deb             
 libgl1                          1.7.0-1+b2                      deb             
 libgl1-mesa-dri                 25.0.7-2                        deb             
-libglib2.0-0t64                 2.84.4-1                        deb             
+libglib2.0-0t64                 2.84.4-2                        deb             
 libglvnd0                       1.7.0-1+b2                      deb             
 libglx-mesa0                    25.0.7-2                        deb             
 libglx0                         1.7.0-1+b2                      deb             
@@ -143,7 +142,7 @@ libnghttp2-14                   1.64.0-1.1                      deb
 libnghttp3-9                    1.8.0-1                         deb             
 libnuma1                        2.0.19-1                        deb             
 libogg0                         1.3.5-3+b2                      deb             
-libopenjp2-7                    2.5.3-2                         deb             
+libopenjp2-7                    2.5.3-2.1                       deb             
 libopus0                        1.5.2-2                         deb             
 liborc-0.4-0t64                 1:0.4.41-1                      deb             
 libp11-kit0                     0.25.5-3                        deb             
@@ -183,7 +182,7 @@ libsndfile1                     1.2.2-2+b1                      deb
 libsoxr0                        0.1.3-4+b2                      deb             
 libspeex1                       1.2.1-3                         deb             
 libspeexdsp1                    1.2.1-3                         deb             
-libsqlite3-0                    3.46.1-6                        deb             
+libsqlite3-0                    3.46.1-7                        deb             
 libssh2-1t64                    1.11.1-1                        deb             
 libssl3t64                      3.5.2-1                         deb             
 libstdc++6                      15.2.0-1                        deb             
@@ -210,7 +209,7 @@ libva2                          2.22.0-3                        deb
 libvdpau1                       1.5-3+b1                        deb             
 libvorbis0a                     1.3.7-3                         deb             
 libvorbisenc2                   1.3.7-3                         deb             
-libvpl2                         1:2.14.0-1+b1                   deb             
+libvpl2                         1:2.15.0-1                      deb             
 libvpx9                         1.15.0-2.1                      deb             
 libvulkan1                      1.4.321.0-1                     deb             
 libwayland-client0              1.24.0-2                        deb             
@@ -273,7 +272,7 @@ ocl-icd-libopencl1              2.3.3-1                         deb
 openssl                         3.5.2-1                         deb             
 openssl-provider-legacy         3.5.2-1                         deb             
 passwd                          1:4.17.4-2                      deb             
-perl-base                       5.40.1-5                        deb             
+perl-base                       5.40.1-6                        deb             
 pulseaudio                      17.0+dfsg1-2+b1                 deb             
 pulseaudio-utils                17.0+dfsg1-2+b1                 deb             
 sed                             4.9-2                           deb             

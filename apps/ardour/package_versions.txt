@@ -105,6 +105,7 @@ itertools                  0.10.5                   rust-crate
 itertools                  0.14.0                   rust-crate                  
 ivf                        0.1.4                    rust-crate                  
 jack                       1.9.22-r4                apk                         
+json-c                     0.18-r0                  apk                         
 lab                        0.11.0                   rust-crate                  
 lame                       3.100-r5                 apk                         
 lame-libs                  3.100-r5                 apk                         
@@ -297,7 +298,7 @@ tinyvec                    1.9.0                    rust-crate
 unicode-ident              1.0.18                   rust-crate                  
 unicode-width              0.2.1                    rust-crate                  
 utf8parse                  0.2.2                    rust-crate                  
-v4l-utils-libs             1.30.1-r0                apk                         
+v4l-utils-libs             1.30.1-r1                apk                         
 v_frame                    0.3.9                    rust-crate                  
 vamp-sdk-libs              2.10.0-r3                apk                         
 vidstab                    1.1.1-r0                 apk                         
