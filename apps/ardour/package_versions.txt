@@ -22,7 +22,7 @@ aubio                      0.4.9-r4                 apk
 av-metrics                 0.9.1                    rust-crate                  
 av-scenechange             0.14.1                   rust-crate                  
 av1-grain                  0.2.4                    rust-crate                  
-bash                       5.3.3-r0                 apk                         
+bash                       5.3.3-r1                 apk                         
 bitflags                   2.9.1                    rust-crate                  
 bitstream-io               2.6.0                    rust-crate                  
 bitstream-io               4.2.0                    rust-crate                  
@@ -221,7 +221,7 @@ mesa-vulkan-swrast         25.1.8-r0                apk
 minimal-lexical            0.2.1                    rust-crate                  
 mpdecimal                  4.0.1-r0                 apk                         
 mpg123-libs                1.33.1-r0                apk                         
-musl                       1.2.5-r18                apk                         
+musl                       1.2.5-r19                apk                         
 musl-utils                 1.2.5-r9                 apk                         
 ncurses-terminfo-base      6.5_p20250705-r0         apk                         
 netcat-openbsd             1.229.1-r0               apk                         
@@ -282,7 +282,7 @@ sord-libs                  0.16.18-r0               apk
 soxr                       0.1.3-r7                 apk                         
 speexdsp                   1.2.1-r2                 apk                         
 spirv-tools                1.4.321.0-r0             apk                         
-sqlite-libs                3.50.4-r0                apk                         
+sqlite-libs                3.50.4-r1                apk                         
 sratom                     0.6.18-r0                apk                         
 ssl_client                 1.37.0-r22               apk                         
 stable_deref_trait         1.2.0                    rust-crate                  
