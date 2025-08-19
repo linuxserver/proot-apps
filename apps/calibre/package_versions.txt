@@ -177,7 +177,7 @@ libepoxy                   1.5.10-r1                apk
 libevdev                   1.13.3-r0                apk           
 libevent                   2.1.12-r8                apk           
 libexpat                   2.7.1-r0                 apk           
-libfdisk                   2.41.1-r0                apk           
+libfdisk                   2.41.1-r1                apk           
 libffi                     3.5.2-r0                 apk           
 libflac                    1.4.3-r2                 apk           
 libgcc                     15.2.0-r0                apk           
