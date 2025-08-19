@@ -444,6 +444,11 @@ include:
     arch: linux/amd64
     icon: yandex.svg
     description: "Yandex Browser is a freeware web browser developed by the Russian technology corporation Yandex that uses the Blink web browser."
+  - name: zen
+    full_name: Zen Browser
+    arch: linux/amd64,linux/arm64
+    icon: zen.svg
+    description: "Zen Browser is a free and open-source fork of Mozilla Firefox with a focus on privacy, customizability and design."
   - name: zim
     full_name: Zim Desktop Wiki
     arch: linux/amd64,linux/arm64

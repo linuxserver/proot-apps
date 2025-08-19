@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Zen
+/opt/zen/zen "$@"
