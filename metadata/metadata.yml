@@ -429,6 +429,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: webcord.png
     description: "WebCord can be summarized as a pack of security and privacy hardenings, Discord features reimplementations, Electron / Chromium / Discord bugs workarounds, stylesheets, internal pages and wrapped https://discord.com page, designed to conform with ToS as much as it is possible."
+  - name: winegui
+    full_name: WineGUI
+    arch: linux/amd64
+    icon: winegui.svg
+    description: "A user-interface friendly Wine (A compatibility layer capable of running Windows applications under Linux) Manager. THIS DOES NOT WORK IN DOCKER ENVIRONMENTS!"
   - name: wpsoffice
     full_name: WPS Office
     arch: linux/amd64
