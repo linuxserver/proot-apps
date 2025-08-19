@@ -182,6 +182,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: inkscape.svg
     description: "Inkscape is professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers."
+  - name: joplin
+    full_name: Joplin
+    arch: linux/amd64
+    icon: joplin.svg
+    description: "Joplin is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks."
   - name: kdenlive
     full_name: Kdenlive
     arch: linux/amd64
