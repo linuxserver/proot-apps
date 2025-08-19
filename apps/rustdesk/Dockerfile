@@ -13,6 +13,10 @@ RUN \
     "https://github.com/rustdesk/rustdesk/releases/download/${RD_VERSION}/rustdesk-${RD_VERSION}-$(uname -m).deb" && \
   apt install -y --no-install-recommends \
     /tmp/rustdesk.deb && \
+  echo "**** fake sudo ****" && \
+  echo '#!/bin/bash' > /usr/bin/sudo && \
+  echo '"$@"' >> /usr/bin/sudo && \
+  chmod +x /usr/bin/sudo && \
   echo "**** customize desktop file ****" && \
   sed -i \
     -e "/^Exec=/c Exec=/bin/sh -c \"\$HOME\/.local\/bin\/proot-apps run ghcr.io/${REPO}:rustdesk %U\"" \
