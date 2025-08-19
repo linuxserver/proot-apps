@@ -429,7 +429,7 @@ include:
     full_name: WineGUI
     arch: linux/amd64
     icon: winegui.svg
-    description: "A user-interface friendly Wine (A compatibility layer capable of running Windows applications under Linux) Manager."
+    description: "A user-interface friendly Wine (A compatibility layer capable of running Windows applications under Linux) Manager. THIS DOES NOT WORK IN DOCKER ENVIRONMENTS!"
   - name: wpsoffice
     full_name: WPS Office
     arch: linux/amd64
