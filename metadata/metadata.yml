@@ -358,8 +358,7 @@ include:
     full_name: Spotify
     arch: linux/amd64
     icon: spotify.svg
-    description: "Spotify is a digital music service that gives you access to millions of songs."
-    disabled: True
+    description: "Spotify is a digital music service that gives you access to millions of songs. YOU MUST LOGIN WITH QR CODE!"
   - name: spotube
     full_name: Spotube
     arch: linux/amd64
