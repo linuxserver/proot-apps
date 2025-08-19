@@ -112,6 +112,7 @@ proot-apps update firefox
 | handbrake | ghcr.io/linuxserver/proot-apps:handbrake | linux/amd64,linux/arm64 | HandBrake is an open-source, GPL-licensed, multiplatform, multithreaded video transcoder.|
 | idea | ghcr.io/linuxserver/proot-apps:idea | linux/amd64,linux/arm64 | IntelliJ IDEA Community Edition is an Integrated Development Environment (IDE) for Java and Kotlin designed to maximize developer productivity.|
 | inkscape | ghcr.io/linuxserver/proot-apps:inkscape | linux/amd64,linux/arm64 | Inkscape is professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers.|
+| joplin | ghcr.io/linuxserver/proot-apps:joplin | linux/amd64 | Joplin is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks.|
 | kdenlive | ghcr.io/linuxserver/proot-apps:kdenlive | linux/amd64 | Kdenlive is a powerful free and open source cross-platform video editing program made by the KDE community. Feature rich and production ready.|
 | keepassxc | ghcr.io/linuxserver/proot-apps:keepassxc | linux/amd64,linux/arm64 | KeePassXC is a modern, secure, and open-source password manager that stores and manages your most sensitive information.|
 | kicad | ghcr.io/linuxserver/proot-apps:kicad | linux/amd64,linux/arm64 | KiCad - A Cross Platform and Open Source Electronics Design Automation Suite.|
