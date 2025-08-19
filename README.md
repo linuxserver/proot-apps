@@ -144,6 +144,7 @@ proot-apps update firefox
 | ryujinx | ghcr.io/linuxserver/proot-apps:ryujinx | linux/amd64,linux/arm64 | Ryujinx is an open-source Nintendo Switch emulator.|
 | shortwave | ghcr.io/linuxserver/proot-apps:shortwave | linux/amd64,linux/arm64 | Shortwave is an internet radio player that provides access to a station database with over 30,000 stations.|
 | shotcut | ghcr.io/linuxserver/proot-apps:shotcut | linux/amd64,linux/arm64 | Shotcut is a free, open source, cross-platform video editor.|
+| spotify | ghcr.io/linuxserver/proot-apps:spotify | linux/amd64 | Spotify is a digital music service that gives you access to millions of songs. YOU MUST LOGIN WITH QR CODE!|
 | spotube | ghcr.io/linuxserver/proot-apps:spotube | linux/amd64 | Spotube is an open source, cross-platform Spotify client compatible across multiple platforms utilizing Spotify's data API and YouTube, Piped.video or JioSaavn as an audio source, eliminating the need for Spotify Premium|
 | sqlitebrowser | ghcr.io/linuxserver/proot-apps:sqlitebrowser | linux/amd64,linux/arm64 | DB Browser for SQLite is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.|
 | stremio | ghcr.io/linuxserver/proot-apps:stremio | linux/amd64 | Stremio offers a secure, modern and seamless entertainment experience. With its easy-to-use interface and diverse content library, including 4K HDR support, users can enjoy their favorite movies and TV shows across all their devices.|
