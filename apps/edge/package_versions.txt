@@ -58,8 +58,8 @@ libaudit1                       1:4.0.5-1                     deb
 libavahi-client3                0.8-16                        deb     
 libavahi-common-data            0.8-16                        deb     
 libavahi-common3                0.8-16                        deb     
-libavcodec61                    7:7.1.1-1+b4                  deb     
-libavutil59                     7:7.1.1-1+b4                  deb     
+libavcodec61                    7:7.1.1-1+b5                  deb     
+libavutil59                     7:7.1.1-1+b5                  deb     
 libblkid1                       2.41-5                        deb     
 libbrotli1                      1.1.0-2+b7                    deb     
 libbsd0                         0.12.2-2                      deb     
@@ -109,14 +109,14 @@ libgdk-pixbuf-2.0-0             2.42.12+dfsg-5                deb
 libgdk-pixbuf2.0-common         2.42.12+dfsg-5                deb     
 libgl1                          1.7.0-1+b2                    deb     
 libgl1-mesa-dri                 25.0.7-2                      deb     
-libglib2.0-0t64                 2.84.4-2                      deb     
+libglib2.0-0t64                 2.84.4-3                      deb     
 libglvnd0                       1.7.0-1+b2                    deb     
 libglx-mesa0                    25.0.7-2                      deb     
 libglx0                         1.7.0-1+b2                    deb     
 libgmp10                        2:6.3.0+dfsg-3                deb     
 libgnutls30t64                  3.8.10-2                      deb     
 libgomp1                        15.2.0-1                      deb     
-libgraphite2-3                  1.3.14-2+b1                   deb     
+libgraphite2-3                  1.3.14-3                      deb     
 libgsm1                         1.0.22-1+b2                   deb     
 libgssapi-krb5-2                1.21.3-5                      deb     
 libgstreamer-plugins-base1.0-0  1.26.5-2                      deb     
@@ -127,8 +127,8 @@ libharfbuzz0b                   10.2.0-1+b1                   deb
 libhogweed6t64                  3.10.1-1                      deb     
 libhwy1t64                      1.2.0-2+b2                    deb     
 libice6                         2:1.1.1-1                     deb     
-libidn2-0                       2.3.8-3                       deb     
-libjack-jackd2-0                1.9.22~dfsg-4                 deb     
+libidn2-0                       2.3.8-4                       deb     
+libjack-jackd2-0                1.9.22~dfsg-5                 deb     
 libjbig0                        2.1-6.1+b2                    deb     
 libjpeg62-turbo                 1:2.1.5-4                     deb     
 libjxl0.11                      0.11.1-4                      deb     
@@ -204,7 +204,7 @@ libssh2-1t64                    1.11.1-1                      deb
 libssl3t64                      3.5.2-1                       deb     
 libstdc++6                      15.2.0-1                      deb     
 libsvtav1enc2                   2.3.0+dfsg-1                  deb     
-libswresample5                  7:7.1.1-1+b4                  deb     
+libswresample5                  7:7.1.1-1+b5                  deb     
 libsystemd-shared               258~rc2-2                     deb     
 libsystemd0                     258~rc2-2                     deb     
 libtasn1-6                      4.20.0-2                      deb     
@@ -227,7 +227,7 @@ libvdpau1                       1.5-3+b1                      deb
 libvorbis0a                     1.3.7-3                       deb     
 libvorbisenc2                   1.3.7-3                       deb     
 libvpl2                         1:2.15.0-1                    deb     
-libvpx9                         1.15.0-2.1                    deb     
+libvpx11                        1.15.2-2                      deb     
 libvulkan1                      1.4.321.0-1                   deb     
 libwayland-client0              1.24.0-2+b1                   deb     
 libwayland-cursor0              1.24.0-2+b1                   deb     
