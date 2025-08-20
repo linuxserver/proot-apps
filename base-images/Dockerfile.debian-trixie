@@ -1,0 +1,49 @@
+FROM debian:trixie-slim AS rootfs
+
+ARG REPO
+
+# Install packages
+RUN \
+  echo "**** install packages ****" && \
+  apt-get update && \
+  DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+    ca-certificates \
+    curl \
+    dbus-x11 \
+    desktop-file-utils \
+    fonts-noto \
+    libvulkan1 \
+    mesa-va-drivers \
+    mesa-vulkan-drivers \
+    netcat-openbsd \
+    pulseaudio \
+    xdg-utils \
+    xserver-xorg-video-amdgpu \
+    xserver-xorg-video-ati \
+    $(if [ $(uname -m) == "x86_64" ];then echo "xserver-xorg-video-intel";fi) && \
+  echo "**** setup xdg-open tunnel ****" && \
+  mkdir -p /usr/share/applications && \
+  curl -o \
+    /usr/share/applications/xdg-open.desktop -L \
+    "https://raw.githubusercontent.com/${REPO}/bins/xdg-open/xdg-open.desktop" && \
+  curl -o \
+    /usr/bin/xdg-open -L \
+    "https://raw.githubusercontent.com/${REPO}/bins/xdg-open/xdg-open" && \
+  chmod +x /usr/bin/xdg-open && \
+  update-desktop-database && \
+  echo "**** cleanup ****" && \
+  apt-get remove -y \
+    desktop-file-utils && \
+  apt-get autoclean && \
+  rm -rf \
+    /root/.cache \
+    /var/lib/apt/lists/* \
+    /var/tmp/* \
+    /tmp/* && \
+  echo "**** wrap dpkg for user installs ****" && \
+  mv \
+    /usr/bin/dpkg \
+    /usr/bin/dpkg-real
+
+# add local files
+COPY /debian-root /

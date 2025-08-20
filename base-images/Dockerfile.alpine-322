@@ -1,0 +1,42 @@
+FROM alpine:3.22 AS rootfs
+
+ARG REPO
+
+# Install packages
+RUN \
+  echo "**** install packages ****" && \
+  apk add --no-cache --upgrade --virtual=build-dependencies \
+    desktop-file-utils && \
+  apk add --no-cache \
+    bash \
+    curl \
+    dbus-x11 \
+    font-noto \
+    mesa-dri-gallium \
+    mesa-gles \
+    mesa-va-gallium \
+    mesa-vulkan-ati \
+    mesa-vulkan-layers \
+    mesa-vulkan-swrast \
+    netcat-openbsd \
+    pulseaudio \
+    xdg-utils \
+    xf86-video-amdgpu \
+    xf86-video-ati \
+    $(if [ $(uname -m) == "x86_64" ];then echo "xf86-video-intel mesa-vulkan-intel";fi) \
+    $(if [ $(uname -m) == "aarch64" ];then echo "mesa-vulkan-broadcom mesa-vulkan-panfrost mesa-vulkan-freedreno";fi) && \
+  echo "**** setup xdg-open tunnel ****" && \
+  mkdir -p /usr/share/applications && \
+  curl -o \
+    /usr/share/applications/xdg-open.desktop -L \
+    "https://raw.githubusercontent.com/${REPO}/bins/xdg-open/xdg-open.desktop" && \
+  curl -o \
+    /usr/bin/xdg-open -L \
+    "https://raw.githubusercontent.com/${REPO}/bins/xdg-open/xdg-open" && \
+  chmod +x /usr/bin/xdg-open && \
+  update-desktop-database && \
+  echo "**** cleanup ****" && \
+  apk del --purge \
+    build-dependencies && \
+  rm -rf \
+    /tmp/*
