@@ -1,24 +1,24 @@
 ARG REPO
-FROM ghcr.io/${REPO}:debian-bookworm AS rootfs
+FROM ghcr.io/${REPO}:debian-trixie AS rootfs
 ARG REPO
 
 # Install packages
 RUN \
   echo "**** install packages ****" && \
   apt-get update && \
-  apt-get install -y --no-install-recommends \
-    libvulkan1 && \
+  apt-get install -y \
+     libicu76 && \
   ARCH=$(uname -m| sed 's/x86_64/x64/g'| sed 's/aarch64/arm64/') && \
-  RYU_VERSION=$(curl -sX GET "https://api.github.com/repos/ryujinx-mirror/ryujinx/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]') && \
+  RYU_DL=$(curl -i -s "https://update.ryujinx.app/download/query?os=linux&arch=${ARCH}&rc=stable" \
+    | awk '/location:/ {print $2}' | tr -d '\r') && \
   curl \
     -o /tmp/ryujinx.tar.gz -L \
-    "https://github.com/ryujinx-mirror/ryujinx/releases/download/${RYU_VERSION}/ryujinx-${RYU_VERSION}-linux_${ARCH}.tar.gz" && \
+    "${RYU_DL}" && \
   mkdir -p \
     /opt/ryujinx/ && \
   tar -xf \
     /tmp/ryujinx.tar.gz -C \
-    /opt/ryujinx/ && \
+    /opt/ryujinx/ --strip-components=1 && \
   echo "**** customize desktop file ****" && \
   DEST="/usr/share/applications/ryujinx-pa.desktop" && \
   echo '[Desktop Entry]' > "${DEST}" && \

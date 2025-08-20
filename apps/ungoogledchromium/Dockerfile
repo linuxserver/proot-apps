@@ -1,5 +1,5 @@
 ARG REPO
-FROM ghcr.io/${REPO}:debian-bookworm AS rootfs
+FROM ghcr.io/${REPO}:debian-trixie AS rootfs
 ARG REPO
 
 # Install packages
@@ -20,11 +20,11 @@ RUN \
     /usr/share/icons/hicolor/scalable/apps/ungoogledchromium.svg -L \
     "https://github.com/linuxserver/proot-apps/raw/master/metadata/img/ungoogledchromium.svg" && \
   UGC_VERSION=$(curl -sX GET "https://api.github.com/repos/ungoogled-software/ungoogled-chromium-portablelinux/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]' | sed 's|^Audacity-||') && \
+    | awk '/tag_name/{print $4;exit}' FS='[""]') && \
   cd /tmp && \
   curl -o \
     /tmp/ugc.tar.xz -L \
-    "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/${UGC_VERSION}/ungoogled-chromium_${UGC_VERSION}_linux.tar.xz" && \
+    "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/${UGC_VERSION}/ungoogled-chromium-${UGC_VERSION}-x86_64_linux.tar.xz" && \
   mkdir -p \
     /opt/ungoogledchromium && \
   tar xf \

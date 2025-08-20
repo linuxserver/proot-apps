@@ -1,5 +1,5 @@
 ARG REPO
-FROM ghcr.io/${REPO}:debian-bookworm AS rootfs
+FROM ghcr.io/${REPO}:debian-trixie AS rootfs
 ARG REPO
 
 # Install packages
@@ -12,7 +12,8 @@ RUN \
     libgtk-3-0 && \
   ZOTERO_VERSION=$(curl -sL https://www.zotero.org/download/ \
     |awk -F'linux-x86_64' '/linux-x86_64/ {print $2}' \
-    | awk -F'"' '{print $3}') && \
+    | awk -F'"' '{print $3}' \
+    | tail -n1) && \
   curl -o \
     /tmp/zotero.tar.bz2  -L \
     "https://download.zotero.org/client/release/${ZOTERO_VERSION}/Zotero-${ZOTERO_VERSION}_linux-x86_64.tar.bz2" && \

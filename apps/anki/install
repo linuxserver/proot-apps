@@ -4,7 +4,7 @@
 echo "Adding icon"
 mkdir -p $HOME/.local/share/icons/hicolor/scalable/apps/
 cp \
-  /usr/local/share/pixmaps/anki.png \
+  /usr/share/pixmaps/anki.png \
   $HOME/.local/share/icons/hicolor/scalable/apps/
 echo "Adding start menu entry"
 mkdir -p $HOME/.local/share/applications/
