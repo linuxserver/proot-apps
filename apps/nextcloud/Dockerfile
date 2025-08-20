@@ -1,5 +1,5 @@
 ARG REPO
-FROM ghcr.io/${REPO}:debian-bookworm AS rootfs
+FROM ghcr.io/${REPO}:debian-trixie AS rootfs
 ARG REPO
 
 # Install packages
@@ -7,6 +7,7 @@ RUN \
   echo "**** install packages ****" && \
   apt-get update && \
   apt-get install -y --no-install-recommends \
+    libgpg-error0 \
     libopengl0 && \
   NEXTCLOUD_VERSION=$(curl -sX GET "https://api.github.com/repos/nextcloud-releases/desktop/releases/latest" \
     | awk '/tag_name/{print $4;exit}' FS='[""]') && \
