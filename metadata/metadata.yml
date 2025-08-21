@@ -247,6 +247,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: maltego.svg
     description: "Maltego is link analysis software used for open-source intelligence, forensics and other investigations."
+  - name: mayo
+    full_name: Mayo
+    arch: linux/amd64,linux/arm64
+    icon: mayo.svg
+    description: "Mayo is an open-source 3D CAD viewer and converter based on Open CASCADE Technology and Qt."
   - name: melonds
     full_name: melonDS
     arch: linux/amd64,linux/arm64
