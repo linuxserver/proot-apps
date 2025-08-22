@@ -188,8 +188,8 @@ libssl3t64                      3.5.2-1                       deb
 libstdc++6                      15.2.0-1                      deb             
 libsvtav1enc2                   2.3.0+dfsg-1                  deb             
 libswresample5                  7:7.1.1-1+b5                  deb             
-libsystemd-shared               258~rc2-2                     deb             
-libsystemd0                     258~rc2-2                     deb             
+libsystemd-shared               258~rc3-1                     deb             
+libsystemd0                     258~rc3-1                     deb             
 libtasn1-6                      4.20.0-2                      deb             
 libtdb1                         2:1.4.13+samba4.22.3+dfsg-4   deb             
 libthai-data                    0.1.29-2                      deb             
@@ -199,7 +199,7 @@ libtheoraenc1                   1.2.0~alpha1+dfsg-6           deb
 libtiff6                        4.7.0-3                       deb             
 libtinfo6                       6.5+20250216-2                deb             
 libtwolame0                     0.4.0-2+b2                    deb             
-libudev1                        258~rc2-2                     deb             
+libudev1                        258~rc3-1                     deb             
 libunistring5                   1.3-2                         deb             
 libunwind8                      1.8.1-0.1                     deb             
 libuuid1                        2.41-5                        deb             
@@ -288,11 +288,11 @@ swingx-core                     1.6.8                         java-archive
 swingx-graphics                 1.6.8                         java-archive    
 swingx-painters                 1.6.8                         java-archive    
 swingx-plaf                     1.6.8                         java-archive    
-systemd                         258~rc2-2                     deb             
+systemd                         258~rc3-1                     deb             
 sysvinit-utils                  3.14-4                        deb             
 tar                             1.35+dfsg-3.1                 deb             
 tzdata                          2025b-4                       deb             
-udev                            258~rc2-2                     deb             
+udev                            258~rc3-1                     deb             
 util-linux                      2.41-5                        deb             
 x11-common                      1:7.7+24                      deb             
 x11-xkb-utils                   7.7+9                         deb             

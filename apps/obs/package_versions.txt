@@ -248,9 +248,9 @@ libproc2-0                                2:4.0.4-4ubuntu3.2                 deb
 libproxy1v5                               0.5.4-4build1                      deb     
 libpsl5t64                                0.21.2-1.1build1                   deb     
 libpulse0                                 1:16.1+dfsg1-2ubuntu10.1           deb     
-libpython3.12-minimal                     3.12.3-1ubuntu0.7                  deb     
-libpython3.12-stdlib                      3.12.3-1ubuntu0.7                  deb     
-libpython3.12t64                          3.12.3-1ubuntu0.7                  deb     
+libpython3.12-minimal                     3.12.3-1ubuntu0.8                  deb     
+libpython3.12-stdlib                      3.12.3-1ubuntu0.8                  deb     
+libpython3.12t64                          3.12.3-1ubuntu0.8                  deb     
 libqrcodegencpp1                          1.8.0-1.2build1                    deb     
 libqt6core6t64                            6.4.2+dfsg-21.1build5              deb     
 libqt6dbus6t64                            6.4.2+dfsg-21.1build5              deb     
@@ -325,7 +325,7 @@ libtdb1                                   1.4.10-1build1                     deb
 libthai-data                              0.1.29-2build1                     deb     
 libthai0                                  0.1.29-2build1                     deb     
 libtheora0                                1.1.1+dfsg.1-16.1build3            deb     
-libtiff6                                  4.5.1+git230720-4ubuntu2.2         deb     
+libtiff6                                  4.5.1+git230720-4ubuntu2.3         deb     
 libtinfo6                                 6.4+20240113-1ubuntu2              deb     
 libts0t64                                 1.22-1.1build1                     deb     
 libtwolame0                               0.4.0-2build3                      deb     
