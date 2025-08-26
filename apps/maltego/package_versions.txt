@@ -85,8 +85,7 @@ com-yworks-y-files                                      UNKNOWN                 
 common-image                                            3.11.0                                                                        java-archive                    
 common-io                                               3.11.0                                                                        java-archive                    
 common-lang                                             3.11.0                                                                        java-archive                    
-commons-beanutils                                       1.11.0                                                                        java-archive                    
-commons-beanutils                                       1.9.4                                                                         java-archive  (+2 duplicates)   
+commons-beanutils                                       1.11.0                                                                        java-archive  (+3 duplicates)   
 commons-codec                                           1.15                                                                          java-archive  (+2 duplicates)   
 commons-codec                                           1.18.0                                                                        java-archive                    
 commons-codec                                           1.9                                                                           java-archive  (+1 duplicate)    
@@ -96,13 +95,11 @@ commons-compress                                        1.19                    
 commons-compress                                        1.27.1                                                                        java-archive                    
 commons-digester                                        2.1                                                                           java-archive                    
 commons-io                                              2.16.1                                                                        java-archive  (+6 duplicates)   
-commons-lang                                            2.1                                                                           java-archive  (+2 duplicates)   
-commons-lang                                            2.6                                                                           java-archive  (+7 duplicates)   
-commons-lang3                                           3.12.0                                                                        java-archive                    
-commons-lang3                                           3.4                                                                           java-archive                    
-commons-logging                                         1.2                                                                           java-archive  (+6 duplicates)   
+commons-lang3                                           3.18.0                                                                        java-archive  (+1 duplicate)    
+commons-logging                                         1.2                                                                           java-archive  (+3 duplicates)   
+commons-logging                                         1.3.5                                                                         java-archive  (+2 duplicates)   
 commons-math3                                           3.6.1                                                                         java-archive                    
-commons-text                                            1.10.0                                                                        java-archive  (+1 duplicate)    
+commons-text                                            1.13.1                                                                        java-archive                    
 commons-validator                                       1.7                                                                           java-archive                    
 core                                                    1.0-SNAPSHOT                                                                  java-archive                    
 core                                                    UNKNOWN                                                                       java-archive                    
@@ -511,7 +508,7 @@ lucene-queryparser                                      5.5.5 b3441673c21c837620
 lucene-sandbox                                          5.5.5 b3441673c21c83762035dc21d3827ad16aa17b68- sarowe - 2017-10-20 08:57:52  java-archive                    
 lucene-spatial                                          5.5.5 b3441673c21c83762035dc21d3827ad16aa17b68- sarowe - 2017-10-20 08:57:53  java-archive                    
 lucene-spatial3d                                        5.5.5 b3441673c21c83762035dc21d3827ad16aa17b68- sarowe - 2017-10-20 08:57:53  java-archive                    
-maltego                                                 4.10.0                                                                        deb                             
+maltego                                                 4.10.1                                                                        deb                             
 matching                                                1.0-SNAPSHOT                                                                  java-archive                    
 mawk                                                    1.3.4.20200120-3.1                                                            deb                             
 media-types                                             10.0.0                                                                        deb                             
@@ -689,8 +686,8 @@ org.apache.felix.main                                   7.0.0                   
 osgi.cmpn                                               7.0.0                                                                         java-archive                    
 osgi.core                                               8.0.0                                                                         java-archive                    
 pandora                                                 1.0-SNAPSHOT                                                                  java-archive                    
-pandora-api                                             1.4.6                                                                         java-archive                    
-pandora-core                                            1.4.6                                                                         java-archive                    
+pandora-api                                             1.4.8                                                                         java-archive                    
+pandora-core                                            1.4.8                                                                         java-archive                    
 passwd                                                  1:4.13+dfsg1-1+deb12u1                                                        deb                             
 perl-base                                               5.36.0-7+deb12u2                                                              deb                             
 poi                                                     5.4.1                                                                         java-archive                    
@@ -740,7 +737,7 @@ smallrye-config                                         2.3.0                   
 smallrye-config-common                                  2.3.0                                                                         java-archive                    
 smallrye-config-core                                    2.3.0                                                                         java-archive                    
 sound                                                   1.0-SNAPSHOT                                                                  java-archive                    
-spatial-types                                           1.5.1                                                                         java-archive  (+1 duplicate)    
+spatial-types                                           1.5.2                                                                         java-archive  (+1 duplicate)    
 spatial4j                                               0.5                                                                           java-archive  (+1 duplicate)    
 spring-boot-jarmode-layertools                          2.7.9                                                                         java-archive                    
 stax2-api                                               4.2.1                                                                         java-archive  (+3 duplicates)   
@@ -774,7 +771,7 @@ truffle-api                                             20.3.0                  
 truffle-api                                             UNKNOWN                                                                       java-archive                    
 tx-inputs-global                                        1.0-SNAPSHOT                                                                  java-archive                    
 tx-inputs-global-ui                                     1.0-SNAPSHOT                                                                  java-archive                    
-tx3-java-api                                            1.1.25                                                                        java-archive                    
+tx3-java-api                                            1.1.26                                                                        java-archive                    
 txw2                                                    2.2.11                                                                        java-archive  (+1 duplicate)    
 typing                                                  1.0-SNAPSHOT                                                                  java-archive                    
 typing-descriptor                                       1.0-SNAPSHOT                                                                  java-archive                    

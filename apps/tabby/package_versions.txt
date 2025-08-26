@@ -360,7 +360,7 @@ python3.11-minimal                3.11.2-6+deb12u6                deb
 readline-common                   8.2-1.3                         deb     
 rimraf                            3.0.2                           npm     
 run-script-os                     1.1.6                           npm     
-russh                             0.1.24+0.51.0-beta.3            npm     
+russh                             0.1.26+0.54.3                   npm     
 sed                               4.9-1                           deb     
 shared-mime-info                  2.2-1                           deb     
 simple-app                        0.1.0                           npm     
@@ -381,7 +381,7 @@ tabby-settings                    1.0.197-nightly.1               npm
 tabby-ssh                         1.0.197-nightly.1               npm     
 tabby-telnet                      1.0.197-nightly.1               npm     
 tabby-terminal                    1.0.197-nightly.1               npm     
-tabby-terminal                    1.0.226                         deb     
+tabby-terminal                    1.0.227                         deb     
 tar                               1.34+dfsg-1.2+deb12u1           deb     
 term-size                         1.2.0                           npm     
 tmp                               0.2.1                           npm     

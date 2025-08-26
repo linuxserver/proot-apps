@@ -26,7 +26,7 @@ av-scenechange             0.14.1                   rust-crate
 av1-grain                  0.2.4                    rust-crate    
 avahi-libs                 0.8-r22                  apk           
 bash                       5.3.3-r1                 apk           
-beautifulsoup4             4.13.4                   python        
+beautifulsoup4             4.13.5                   python        
 bitflags                   2.4.1                    rust-crate    
 bitflags                   2.9.1                    rust-crate    
 bitstream-io               4.2.0                    rust-crate    
@@ -310,7 +310,7 @@ nom                        8.0.0                    rust-crate
 noop_proc_macro            0.3.0                    rust-crate    
 npth                       1.8-r0                   apk           
 nspr                       4.36-r0                  apk           
-nss                        3.115-r0                 apk           
+nss                        3.115.1-r0               apk           
 num-bigint                 0.4.6                    rust-crate    
 num-derive                 0.4.2                    rust-crate    
 num-integer                0.1.46                   rust-crate    
@@ -347,8 +347,8 @@ pulseaudio                 17.0-r5                  apk
 pulseaudio-alsa            17.0-r5                  apk           
 py3-apsw                   3.50.4.0-r0              apk           
 py3-apsw-pyc               3.50.4.0-r0              apk           
-py3-beautifulsoup4         4.13.4-r1                apk           
-py3-beautifulsoup4-pyc     4.13.4-r1                apk           
+py3-beautifulsoup4         4.13.5-r0                apk           
+py3-beautifulsoup4-pyc     4.13.5-r0                apk           
 py3-chardet                5.2.0-r1                 apk           
 py3-chardet-pyc            5.2.0-r1                 apk           
 py3-css-parser             1.0.10-r1                apk           
