@@ -60,9 +60,9 @@ equator-macro              0.4.2                    rust-crate
 errno                      0.3.12                   rust-crate    
 eudev-libs                 3.2.14-r5                apk           
 fern                       0.7.1                    rust-crate    
-ffmpeg-libavcodec          6.1.2-r5                 apk           
-ffmpeg-libavutil           6.1.2-r5                 apk           
-ffmpeg-libswresample       6.1.2-r5                 apk           
+ffmpeg-libavcodec          7.1.1-r0                 apk           
+ffmpeg-libavutil           7.1.1-r0                 apk           
+ffmpeg-libswresample       7.1.1-r0                 apk           
 fftw-single-libs           3.3.10-r7                apk           
 file                       5.46-r2                  apk           
 firefox-developer-edition  143.0_beta3-r0           apk           

@@ -60,9 +60,9 @@ equator-macro              0.4.2                    rust-crate
 errno                      0.3.12                   rust-crate    
 eudev-libs                 3.2.14-r5                apk           
 fern                       0.7.1                    rust-crate    
-ffmpeg-libavcodec          6.1.2-r5                 apk           
-ffmpeg-libavutil           6.1.2-r5                 apk           
-ffmpeg-libswresample       6.1.2-r5                 apk           
+ffmpeg-libavcodec          7.1.1-r0                 apk           
+ffmpeg-libavutil           7.1.1-r0                 apk           
+ffmpeg-libswresample       7.1.1-r0                 apk           
 fftw-single-libs           3.3.10-r7                apk           
 file                       5.46-r2                  apk           
 font-noto                  2025.05.01-r0            apk           
@@ -137,7 +137,7 @@ libpciaccess               0.18.1-r1                apk
 libpng                     1.6.49-r0                apk           
 libpsl                     0.21.5-r3                apk           
 libpulse                   17.0-r5                  apk           
-librewolf                  142.0_p1-r0              apk           
+librewolf                  142.0_p1-r1              apk           
 libsharpyuv                1.6.0-r0                 apk           
 libsm                      1.2.6-r0                 apk           
 libsndfile                 1.2.2-r2                 apk           
