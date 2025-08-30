@@ -106,14 +106,14 @@ jline-terminal-jansi                      3.24.1                          java-a
 jline-terminal-jna                        3.24.1                          java-archive                   
 jline-terminal-jni                        3.24.1                          java-archive                   
 jnaerator-runtime                         UNKNOWN                         java-archive                   
-jrt-fs                                    21.0.7                          java-archive                   
+jrt-fs                                    21.0.8                          java-archive                   
 json                                      1.0.0                           npm                            
 json                                      20240205                        java-archive                   
 jsonrpc                                   0.21.1.v20230829-0012           java-archive                   
 jsr305                                    3.0.2                           java-archive  (+2 duplicates)  
 jstun                                     0.7.5.20200723                  java-archive                   
 julia                                     1.0.0                           npm                            
-jvm                                       UNKNOWN                         java-archive                   
+jvm                                       UNKNOWN                         java-archive  (+1 duplicate)   
 kconfig-lang                              1.2.0                           npm                            
 keyboard-configuration                    1.221                           deb                            
 kotlinx-coroutines-slf4j                  1.10.1-intellij                 java-archive                   
@@ -382,7 +382,6 @@ media-types                               10.0.0                          deb
 mesa-va-drivers                           22.3.6-1+deb12u1                deb                            
 mesa-vulkan-drivers                       22.3.6-1+deb12u1                deb                            
 ml-completion-prev-exprs-models           UNKNOWN                         java-archive                   
-model                                     UNKNOWN                         java-archive                   
 module-descriptors                        0.1.2                           java-archive                   
 morfologik-fsa                            2.1.9                           java-archive                   
 morfologik-fsa-builders                   2.1.9                           java-archive                   
@@ -394,7 +393,7 @@ ncurses-bin                               6.4-4                           deb
 netcat-openbsd                            1.219-1                         deb                            
 objective-c                               1.0.0                           npm                            
 ocl-icd-libopencl1                        2.3.1-1                         deb                            
-openjdk                                   21.0.7+6-b1038.58               binary                         
+openjdk                                   21.0.8+9-b1038.68               binary                         
 openssh-client                            1:9.2p1-2+deb12u7               deb                            
 openssl                                   3.0.17-1~deb12u2                deb                            
 oshi-core                                 6.6.0                           java-archive                   

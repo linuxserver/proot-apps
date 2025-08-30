@@ -327,8 +327,8 @@ py3-qt6                            6.8.1-r0                 apk
 py3-qt6-pyc                        6.8.1-r0                 apk           
 py3-referencing                    0.36.2-r1                apk           
 py3-referencing-pyc                0.36.2-r1                apk           
-py3-requests                       2.32.4-r0                apk           
-py3-requests-pyc                   2.32.4-r0                apk           
+py3-requests                       2.32.5-r0                apk           
+py3-requests-pyc                   2.32.5-r0                apk           
 py3-rpds-py                        0.25.1-r0                apk           
 py3-rpds-py-pyc                    0.25.1-r0                apk           
 py3-send2trash                     1.8.3-r1                 apk           
@@ -377,7 +377,7 @@ rayon                              1.8.0                    rust-crate
 rayon-core                         1.12.0                   rust-crate    
 readline                           8.2.13-r1                apk           
 referencing                        0.36.2                   python        
-requests                           2.32.4                   python        
+requests                           2.32.5                   python        
 rpds-py                            0.25.1                   python        
 rustix                             0.38.28                  rust-crate    
 scan_fmt                           0.2.6                    rust-crate    
