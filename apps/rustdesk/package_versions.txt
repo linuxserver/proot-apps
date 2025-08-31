@@ -282,7 +282,7 @@ libxi6                          2:1.8-1+b1                      deb
 libxinerama1                    2:1.1.4-3                       deb     
 libxkbcommon0                   1.5.0-1                         deb     
 libxkbfile1                     1:1.1.0-1                       deb     
-libxml2                         2.9.14+dfsg-1.3~deb12u2         deb     
+libxml2                         2.9.14+dfsg-1.3~deb12u4         deb     
 libxmu6                         2:1.1.3-3                       deb     
 libxpm4                         1:3.5.12-1.1+deb12u1            deb     
 libxrandr2                      2:1.5.2-2+b1                    deb     
