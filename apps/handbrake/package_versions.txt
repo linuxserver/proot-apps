@@ -8,7 +8,7 @@ bash                            5.2.37-2+b5                   deb
 bsdutils                        1:2.41-5                      deb     
 ca-certificates                 20250419                      deb     
 coreutils                       9.7-3                         deb     
-curl                            8.16.0~rc2-1                  deb     
+curl                            8.16.0~rc2-2                  deb     
 dash                            0.5.12-12                     deb     
 dbus-bin                        1.16.2-2                      deb     
 dbus-daemon                     1.16.2-2                      deb     
@@ -85,7 +85,7 @@ libcolord2                      1.4.7-3                       deb
 libcom-err2                     1.47.2-3+b3                   deb     
 libcrypt1                       1:4.4.38-1                    deb     
 libcups2t64                     2.4.10-3                      deb     
-libcurl4t64                     8.16.0~rc2-1                  deb     
+libcurl4t64                     8.16.0~rc2-2                  deb     
 libdatrie1                      0.2.13-4                      deb     
 libdav1d7                       1.5.1-1                       deb     
 libdb5.3t64                     5.3.28+dfsg2-9                deb     
@@ -146,7 +146,7 @@ libgtk-4-1                      4.18.6+ds-2                   deb
 libgtk-4-bin                    4.18.6+ds-2                   deb     
 libgtk-4-common                 4.18.6+ds-2                   deb     
 libgtk-4-media-gstreamer        4.18.6+ds-2                   deb     
-libgudev-1.0-0                  238-6                         deb     
+libgudev-1.0-0                  238-7                         deb     
 libharfbuzz-subset0             10.2.0-1+b1                   deb     
 libharfbuzz0b                   10.2.0-1+b1                   deb     
 libhogweed6t64                  3.10.1-1                      deb     
@@ -171,7 +171,7 @@ liblerc4                        4.0.0+ds-5                    deb
 liblilv-0-0                     0.24.26-1                     deb     
 libllvm19                       1:19.1.7-3+b2                 deb     
 liblocale-gettext-perl          1.07-7+b1                     deb     
-libltdl7                        2.5.4-4                       deb     
+libltdl7                        2.5.4-5                       deb     
 liblz4-1                        1.10.0-4                      deb     
 liblzma5                        5.8.1-1                       deb     
 liblzo2-2                       2.10-3+b1                     deb     

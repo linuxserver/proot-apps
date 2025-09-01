@@ -9,7 +9,7 @@ bash                            5.2.37-2+b5                   deb
 bsdutils                        1:2.41-5                      deb     
 ca-certificates                 20250419                      deb     
 coreutils                       9.7-3                         deb     
-curl                            8.16.0~rc2-1                  deb     
+curl                            8.16.0~rc2-2                  deb     
 dash                            0.5.12-12                     deb     
 dbus-bin                        1.16.2-2                      deb     
 dbus-daemon                     1.16.2-2                      deb     
@@ -77,7 +77,7 @@ libcolord2                      1.4.7-3                       deb
 libcom-err2                     1.47.2-3+b3                   deb     
 libcrypt1                       1:4.4.38-1                    deb     
 libcups2t64                     2.4.10-3                      deb     
-libcurl4t64                     8.16.0~rc2-1                  deb     
+libcurl4t64                     8.16.0~rc2-2                  deb     
 libdatrie1                      0.2.13-4                      deb     
 libdav1d7                       1.5.1-1                       deb     
 libdb5.3t64                     5.3.28+dfsg2-9                deb     
@@ -143,7 +143,7 @@ libldap2                        2.6.10+dfsg-1                 deb
 liblerc4                        4.0.0+ds-5                    deb     
 libllvm19                       1:19.1.7-3+b2                 deb     
 liblocale-gettext-perl          1.07-7+b1                     deb     
-libltdl7                        2.5.4-4                       deb     
+libltdl7                        2.5.4-5                       deb     
 liblz4-1                        1.10.0-4                      deb     
 liblzma5                        5.8.1-1                       deb     
 libmd0                          1.1.0-2+b1                    deb     
