@@ -147,8 +147,8 @@ libgtk-4-bin                    4.18.6+ds-2                   deb
 libgtk-4-common                 4.18.6+ds-2                   deb     
 libgtk-4-media-gstreamer        4.18.6+ds-2                   deb     
 libgudev-1.0-0                  238-7                         deb     
-libharfbuzz-subset0             10.2.0-1+b1                   deb     
-libharfbuzz0b                   10.2.0-1+b1                   deb     
+libharfbuzz-subset0             11.4.5-1                      deb     
+libharfbuzz0b                   11.4.5-1                      deb     
 libhogweed6t64                  3.10.1-1                      deb     
 libhwy1t64                      1.2.0-2+b2                    deb     
 libice6                         2:1.1.1-1                     deb     
@@ -258,9 +258,7 @@ libtasn1-6                      4.20.0-2                      deb
 libtdb1                         2:1.4.13+samba4.22.4+dfsg-1   deb     
 libthai-data                    0.1.29-2                      deb     
 libthai0                        0.1.29-2+b1                   deb     
-libtheoradec1                   1.2.0~alpha1+dfsg-6           deb     
 libtheoradec2                   1.2.0+dfsg-5                  deb     
-libtheoraenc1                   1.2.0~alpha1+dfsg-6           deb     
 libtheoraenc2                   1.2.0+dfsg-5                  deb     
 libtiff6                        4.7.0-4                       deb     
 libtinfo6                       6.5+20250216-2                deb     
@@ -365,7 +363,7 @@ tar                             1.35+dfsg-3.1                 deb
 tzdata                          2025b-4                       deb     
 udev                            258~rc3-1                     deb     
 util-linux                      2.41-5                        deb     
-x11-common                      1:7.7+24                      deb     
+x11-common                      1:7.7+25                      deb     
 x11-xkb-utils                   7.7+9                         deb     
 xdg-utils                       1.2.1-2                       deb     
 xkb-data                        2.42-1                        deb     
