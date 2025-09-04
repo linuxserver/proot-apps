@@ -269,7 +269,7 @@ libxcursor                   1.2.3-r0                 apk
 libxdamage                   1.1.6-r5                 apk           
 libxdmcp                     1.1.5-r1                 apk           
 libxext                      1.3.6-r2                 apk           
-libxfixes                    6.0.1-r4                 apk           
+libxfixes                    6.0.2-r0                 apk           
 libxft                       2.3.9-r0                 apk           
 libxi                        1.8.2-r0                 apk           
 libxinerama                  1.1.5-r4                 apk           
@@ -366,7 +366,7 @@ rustix                       1.0.7                    rust-crate
 scan_fmt                     0.2.6                    rust-crate    
 scanelf                      1.3.8-r1                 apk           
 sdl2-compat                  2.32.56-r2               apk           
-sdl3                         3.2.20-r0                apk           
+sdl3                         3.2.22-r0                apk           
 shared-mime-info             2.4-r6                   apk           
 signal-hook                  0.3.18                   rust-crate    
 signal-hook-registry         1.4.5                    rust-crate    
