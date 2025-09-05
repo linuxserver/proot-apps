@@ -51,7 +51,7 @@ gtk+3.0                    3.24.50-r0               apk
 gtk-update-icon-cache      3.24.50-r0               apk     
 harfbuzz                   11.3.2-r0                apk     
 hicolor-icon-theme         0.18-r0                  apk     
-hwdata-pci                 0.398-r0                 apk     
+hwdata-pci                 0.399-r0                 apk     
 icu-data-en                76.1-r1                  apk     
 icu-libs                   76.1-r1                  apk     
 kdsingleapplication        1.1.0-r0                 apk     

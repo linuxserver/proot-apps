@@ -130,7 +130,7 @@ hicolor-icon-theme         0.18-r0                  apk
 html2text                  2025.4.15                python        
 html5-parser               0.4.12                   python        
 html5lib                   1.1                      python        
-hwdata-pci                 0.398-r0                 apk           
+hwdata-pci                 0.399-r0                 apk           
 hyphen                     2.8.8-r3                 apk           
 icu-data-en                76.1-r1                  apk           
 icu-libs                   76.1-r1                  apk           

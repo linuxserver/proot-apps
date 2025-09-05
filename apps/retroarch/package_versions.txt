@@ -100,7 +100,7 @@ gtk-update-icon-cache        3.24.50-r0               apk
 harfbuzz                     11.3.2-r0                apk           
 heck                         0.5.0                    rust-crate    
 hicolor-icon-theme           0.18-r0                  apk           
-hwdata-pci                   0.398-r0                 apk           
+hwdata-pci                   0.399-r0                 apk           
 icu-data-en                  76.1-r1                  apk           
 icu-libs                     76.1-r1                  apk           
 interpolate_name             0.2.4                    rust-crate    
