@@ -91,7 +91,7 @@ coreutils                               9.1-1                                   
 cpp                                     1.0.0                                      npm                            
 csharp                                  1.0.0                                      npm                            
 css                                     1.0.0                                      npm                            
-curl                                    7.88.1-10+deb12u12                         deb                            
+curl                                    7.88.1-10+deb12u14                         deb                            
 dart                                    1.0.0                                      npm                            
 dash                                    0.5.12-2                                   deb                            
 dbus-bin                                1.14.10-1~deb12u1                          deb                            
@@ -324,8 +324,8 @@ libcodec2-1.0                           1.0.5-1                                 
 libcom-err2                             1.47.0-2                                   deb                            
 libcrypt1                               1:4.4.33-2                                 deb                            
 libcups2                                2.4.2-3+deb12u8                            deb                            
-libcurl3-gnutls                         7.88.1-10+deb12u12                         deb                            
-libcurl4                                7.88.1-10+deb12u12                         deb                            
+libcurl3-gnutls                         7.88.1-10+deb12u14                         deb                            
+libcurl4                                7.88.1-10+deb12u14                         deb                            
 libdatrie1                              0.2.13-2+b1                                deb                            
 libdav1d6                               1.0.0-2+deb12u1                            deb                            
 libdb5.3                                5.3.28+dfsg2-1                             deb                            
@@ -431,7 +431,7 @@ libpangoft2-1.0-0                       1.50.12+ds-1                            
 libpciaccess0                           0.17-2                                     deb                            
 libpcre2-8-0                            10.42-1                                    deb                            
 libpcsclite1                            1.9.9-2                                    deb                            
-libperl5.36                             5.36.0-7+deb12u2                           deb                            
+libperl5.36                             5.36.0-7+deb12u3                           deb                            
 libpixman-1-0                           0.42.2-1                                   deb                            
 libpng16-16                             1.6.39-2                                   deb                            
 libpsl5                                 0.21.2-1                                   deb                            
@@ -642,9 +642,9 @@ parcelize-runtime                       2.1.21-release-317                      
 parcelize-runtime                       2.2.20-ij252-17                            java-archive                   
 passwd                                  1:4.13+dfsg1-1+deb12u1                     deb                            
 perl                                    1.0.0                                      npm                            
-perl                                    5.36.0-7+deb12u2                           deb                            
-perl-base                               5.36.0-7+deb12u2                           deb                            
-perl-modules-5.36                       5.36.0-7+deb12u2                           deb                            
+perl                                    5.36.0-7+deb12u3                           deb                            
+perl-base                               5.36.0-7+deb12u3                           deb                            
+perl-modules-5.36                       5.36.0-7+deb12u3                           deb                            
 php                                     1.0.0                                      npm                            
 plexus-archiver                         4.8.0                                      java-archive                   
 plexus-cipher                           2.0                                        java-archive  (+2 duplicates)  

@@ -236,7 +236,6 @@ liblcms2-2                      2.14-2build1                       deb     (+1 d
 libldap-common                  2.6.7+dfsg-1~exp1ubuntu8.2         deb                     
 libldap2                        2.6.7+dfsg-1~exp1ubuntu8.2         deb     (+1 duplicate)  
 liblerc4                        4.0.0+ds-4ubuntu2                  deb                     
-libllvm19                       1:19.1.1-1ubuntu1~24.04.2          deb                     
 libllvm20                       1:20.1.2-0ubuntu1~24.04.2          deb     (+1 duplicate)  
 liblocale-gettext-perl          1.07-6ubuntu5                      deb                     
 libltdl7                        2.4.7-7build1                      deb     (+1 duplicate)  

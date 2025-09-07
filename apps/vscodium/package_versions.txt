@@ -60,7 +60,7 @@ cpp                                     1.0.0                           npm
 csharp                                  1.0.0                           npm                    
 css                                     1.0.0                           npm                    
 css-language-features                   1.0.0                           npm                    
-curl                                    7.88.1-10+deb12u12              deb                    
+curl                                    7.88.1-10+deb12u14              deb                    
 dart                                    1.0.0                           npm                    
 dash                                    0.5.12-2                        deb                    
 dbus-bin                                1.14.10-1~deb12u1               deb                    
@@ -200,8 +200,8 @@ libcolord2                              1.4.6-2.2                       deb
 libcom-err2                             1.47.0-2                        deb                    
 libcrypt1                               1:4.4.33-2                      deb                    
 libcups2                                2.4.2-3+deb12u8                 deb                    
-libcurl3-gnutls                         7.88.1-10+deb12u12              deb                    
-libcurl4                                7.88.1-10+deb12u12              deb                    
+libcurl3-gnutls                         7.88.1-10+deb12u14              deb                    
+libcurl4                                7.88.1-10+deb12u14              deb                    
 libdatrie1                              0.2.13-2+b1                     deb                    
 libdav1d6                               1.0.0-2+deb12u1                 deb                    
 libdb5.3                                5.3.28+dfsg2-1                  deb                    
@@ -306,7 +306,7 @@ libpangocairo-1.0-0                     1.50.12+ds-1                    deb
 libpangoft2-1.0-0                       1.50.12+ds-1                    deb                    
 libpciaccess0                           0.17-2                          deb                    
 libpcre2-8-0                            10.42-1                         deb                    
-libperl5.36                             5.36.0-7+deb12u2                deb                    
+libperl5.36                             5.36.0-7+deb12u3                deb                    
 libpixman-1-0                           0.42.2-1                        deb                    
 libpng16-16                             1.6.39-2                        deb                    
 libproc2-0                              2:4.0.2-3                       deb                    
@@ -466,9 +466,9 @@ opentype.js                             0.8.0                           npm
 passwd                                  1:4.13+dfsg1-1+deb12u1          deb                    
 pend                                    1.2.0                           npm                    
 perl                                    1.0.0                           npm                    
-perl                                    5.36.0-7+deb12u2                deb                    
-perl-base                               5.36.0-7+deb12u2                deb                    
-perl-modules-5.36                       5.36.0-7+deb12u2                deb                    
+perl                                    5.36.0-7+deb12u3                deb                    
+perl-base                               5.36.0-7+deb12u3                deb                    
+perl-modules-5.36                       5.36.0-7+deb12u3                deb                    
 php                                     1.0.0                           npm                    
 php-language-features                   1.0.0                           npm                    
 picomatch                               2.3.1                           npm                    
