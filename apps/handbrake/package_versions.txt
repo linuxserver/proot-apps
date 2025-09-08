@@ -31,7 +31,7 @@ fonts-noto-mono                 20201225-2                    deb
 gcc-15-base                     15.2.0-3                      deb     
 grep                            3.11-4                        deb     
 gstreamer1.0-gl                 1.26.5-2+b1                   deb     
-gtk-update-icon-cache           4.18.6+ds-2                   deb     
+gtk-update-icon-cache           4.18.6+ds-3                   deb     
 gzip                            1.13-1                        deb     
 handbrake                       1.9.2+ds1-1+b3                deb     
 hicolor-icon-theme              0.18-2                        deb     
@@ -142,10 +142,10 @@ libgssapi-krb5-2                1.21.3-5                      deb
 libgstreamer-gl1.0-0            1.26.5-2+b1                   deb     
 libgstreamer-plugins-base1.0-0  1.26.5-2+b1                   deb     
 libgstreamer1.0-0               1.26.5-2                      deb     
-libgtk-4-1                      4.18.6+ds-2                   deb     
-libgtk-4-bin                    4.18.6+ds-2                   deb     
-libgtk-4-common                 4.18.6+ds-2                   deb     
-libgtk-4-media-gstreamer        4.18.6+ds-2                   deb     
+libgtk-4-1                      4.18.6+ds-3                   deb     
+libgtk-4-bin                    4.18.6+ds-3                   deb     
+libgtk-4-common                 4.18.6+ds-3                   deb     
+libgtk-4-media-gstreamer        4.18.6+ds-3                   deb     
 libgudev-1.0-0                  238-7                         deb     
 libharfbuzz-subset0             11.4.5-1                      deb     
 libharfbuzz0b                   11.4.5-1                      deb     
@@ -157,7 +157,7 @@ libjack-jackd2-0                1.9.22~dfsg-5                 deb
 libjansson4                     2.14-2+b3                     deb     
 libjbig0                        2.1-6.1+b2                    deb     
 libjpeg62-turbo                 1:2.1.5-4                     deb     
-libjxl0.11                      0.11.1-4                      deb     
+libjxl0.11                      0.11.1-6                      deb     
 libk5crypto3                    1.21.3-5                      deb     
 libkeyutils1                    1.6.3-6                       deb     
 libkmod2                        34.2-2                        deb     
@@ -189,7 +189,7 @@ libnorm1t64                     1.5.9+dfsg-3.1+b2             deb
 libnuma1                        2.0.19-1                      deb     
 libogg0                         1.3.6-1                       deb     
 libopenjp2-7                    2.5.3-2.1                     deb     
-libopenmpt0t64                  0.8.2-2                       deb     
+libopenmpt0t64                  0.8.3-1                       deb     
 libopus0                        1.5.2-2                       deb     
 liborc-0.4-0t64                 1:0.4.41-1                    deb     
 libp11-kit0                     0.25.5-3                      deb     
@@ -234,7 +234,7 @@ libsharpyuv0                    1.5.0-0.1                     deb
 libshine3                       3.1.1-2+b2                    deb     
 libsm6                          2:1.2.6-1                     deb     
 libsmartcols1                   2.41-5                        deb     
-libsnappy1v5                    1.2.2-1                       deb     
+libsnappy1v5                    1.2.2-2                       deb     
 libsndfile1                     1.2.2-2+b1                    deb     
 libsodium23                     1.0.18-1+b2                   deb     
 libsord-0-0                     0.16.18-1                     deb     
@@ -258,8 +258,8 @@ libtasn1-6                      4.20.0-2                      deb
 libtdb1                         2:1.4.13+samba4.22.4+dfsg-1   deb     
 libthai-data                    0.1.29-2                      deb     
 libthai0                        0.1.29-2+b1                   deb     
-libtheoradec2                   1.2.0+dfsg-5                  deb     
-libtheoraenc2                   1.2.0+dfsg-5                  deb     
+libtheoradec2                   1.2.0+dfsg-6                  deb     
+libtheoraenc2                   1.2.0+dfsg-6                  deb     
 libtiff6                        4.7.0-4                       deb     
 libtinfo6                       6.5+20250216-2                deb     
 libturbojpeg0                   1:2.1.5-4                     deb     

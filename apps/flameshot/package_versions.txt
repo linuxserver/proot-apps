@@ -38,7 +38,7 @@ freetype                   2.13.3-r0                apk
 fribidi                    1.0.16-r1                apk     
 gdbm                       1.26-r0                  apk     
 gdk-pixbuf                 2.42.12-r2               apk     
-glib                       2.86.0-r0                apk     
+glib                       2.84.4-r1                apk     
 gmp                        6.3.0-r4                 apk     
 gnutls                     3.8.8-r0                 apk     
 gobject-introspection      1.84.0-r1                apk     
@@ -55,7 +55,7 @@ hwdata-pci                 0.399-r0                 apk
 icu-data-en                76.1-r1                  apk     
 icu-libs                   76.1-r1                  apk     
 kdsingleapplication        1.1.0-r0                 apk     
-kguiaddons                 6.16.0-r0                apk     
+kguiaddons                 6.17.0-r0                apk     
 lame-libs                  3.100-r5                 apk     
 libasyncns                 0.8-r4                   apk     
 libatk-1.0                 2.56.4-r1                apk     
