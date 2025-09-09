@@ -103,7 +103,7 @@ libdvdread8t64                  6.1.3-2                       deb
 libedit2                        3.1-20250104-1                deb     
 libegl-mesa0                    25.2.2-1                      deb     
 libegl1                         1.7.0-1+b2                    deb     
-libelf1t64                      0.193-2                       deb     
+libelf1t64                      0.193-3                       deb     
 libepoxy0                       1.5.10-2                      deb     
 libexpat1                       2.7.1-2                       deb     
 libffi8                         3.5.2-2                       deb     
@@ -136,7 +136,7 @@ libgpg-error-l10n               1.55-2                        deb
 libgpg-error0                   1.55-2                        deb     
 libgpm2                         1.20.7-12                     deb     
 libgraphene-1.0-0               1.10.8-5                      deb     
-libgraphite2-3                  1.3.14-3                      deb     
+libgraphite2-3                  1.3.14-4                      deb     
 libgsm1                         1.0.22-1+b2                   deb     
 libgssapi-krb5-2                1.21.3-5                      deb     
 libgstreamer-gl1.0-0            1.26.5-2+b1                   deb     
