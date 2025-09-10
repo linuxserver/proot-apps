@@ -53,9 +53,9 @@ assignment-compiler-plugin              2.2.20-ij252-17                         
 assignment-compiler-plugin              UNKNOWN                                    java-archive                   
 async-profiler                          UNKNOWN                                    java-archive                   
 at-spi2-common                          2.46.0-5                                   deb                            
-base-files                              12.4+deb12u11                              deb                            
+base-files                              12.4+deb12u12                              deb                            
 base-passwd                             3.6.1                                      deb                            
-bash                                    5.2.15-2+b8                                deb                            
+bash                                    5.2.15-2+b9                                deb                            
 bat                                     1.0.0                                      npm                            
 bouncy-castle-pgp                       1.80                                       java-archive                   
 bsdutils                                1:2.38.1-5+deb12u3                         deb                            
@@ -113,7 +113,7 @@ diff                                    1.0.0                                   
 diffutils                               1:3.8-4                                    deb                            
 docker                                  1.0.0                                      npm                            
 dpkg                                    1.21.22                                    deb                            
-e2fsprogs                               1.47.0-2                                   deb                            
+e2fsprogs                               1.47.0-2+b2                                deb                            
 eclipse                                 3.31.0.v20220831-1439                      java-archive                   
 emoji-java                              5.1.1                                      java-archive                   
 erlang-ls                               0.0.43                                     npm                            
@@ -134,7 +134,7 @@ git                                     1:2.39.5-0+deb12u2                      
 git-base                                1.0.0                                      npm                            
 git-man                                 1:2.39.5-0+deb12u2                         deb                            
 go                                      1.0.0                                      npm                            
-gpgv                                    2.2.40-1.1                                 deb                            
+gpgv                                    2.2.40-1.1+deb12u1                         deb                            
 gragent                                 1.0.0                                      java-archive                   
 grep                                    3.8-5                                      deb                            
 groovy                                  1.0.0                                      npm                            
@@ -161,7 +161,7 @@ indexer-core                            6.2.2                                   
 indriya                                 1.3                                        java-archive                   
 ini                                     1.0.0                                      npm                            
 ini4j                                   0.5.5-2                                    java-archive  (+1 duplicate)   
-init-system-helpers                     1.65.2                                     deb                            
+init-system-helpers                     1.65.2+deb12u1                             deb                            
 intellij-test-discovery                 UNKNOWN                                    java-archive                   
 iso-codes                               4.15.0-1                                   deb                            
 j2objc-annotations                      1.1                                        java-archive                   
@@ -312,8 +312,8 @@ libblkid1                               2.38.1-5+deb12u3                        
 libbrotli1                              1.0.9-2+b6                                 deb                            
 libbsd0                                 0.11.7-2                                   deb                            
 libbz2-1.0                              1.0.8-5+b1                                 deb                            
-libc-bin                                2.36-9+deb12u10                            deb                            
-libc6                                   2.36-9+deb12u10                            deb                            
+libc-bin                                2.36-9+deb12u13                            deb                            
+libc6                                   2.36-9+deb12u13                            deb                            
 libcairo-gobject2                       1.16.0-7                                   deb                            
 libcairo2                               1.16.0-7                                   deb                            
 libcap-ng0                              0.8.3-1+b3                                 deb                            
@@ -321,7 +321,7 @@ libcap2                                 1:2.66-4+deb12u2                        
 libcap2-bin                             1:2.66-4+deb12u2                           deb                            
 libcbor0.8                              0.8.0-2+b1                                 deb                            
 libcodec2-1.0                           1.0.5-1                                    deb                            
-libcom-err2                             1.47.0-2                                   deb                            
+libcom-err2                             1.47.0-2+b2                                deb                            
 libcrypt1                               1:4.4.33-2                                 deb                            
 libcups2                                2.4.2-3+deb12u8                            deb                            
 libcurl3-gnutls                         7.88.1-10+deb12u14                         deb                            
@@ -346,7 +346,7 @@ libelf1                                 0.188-2.1                               
 libepoxy0                               1.5.10-1                                   deb                            
 liberror-perl                           0.17029-2                                  deb                            
 libexpat1                               2.5.0-1+deb12u2                            deb                            
-libext2fs2                              1.47.0-2                                   deb                            
+libext2fs2                              1.47.0-2+b2                                deb                            
 libffi8                                 3.4.4-1                                    deb                            
 libfftw3-single3                        3.3.10-1                                   deb                            
 libfido2-1                              1.12.0-2+b1                                deb                            
@@ -463,7 +463,7 @@ libsoxr0                                0.1.3-4                                 
 libspeex1                               1.2.1-2                                    deb                            
 libspeexdsp1                            1.2.1-1                                    deb                            
 libsqlite3-0                            3.40.1-2+deb12u2                           deb                            
-libss2                                  1.47.0-2                                   deb                            
+libss2                                  1.47.0-2+b2                                deb                            
 libssh2-1                               1.10.0-3+b1                                deb                            
 libssl3                                 3.0.17-1~deb12u2                           deb                            
 libstdc++6                              12.2.0-14+deb12u1                          deb                            
@@ -544,7 +544,7 @@ libzvbi0                                0.2.41-1                                
 listenablefuture                        9999.0-empty-to-avoid-conflict-with-guava  java-archive                   
 log                                     1.0.0                                      npm                            
 login                                   1:4.13+dfsg1-1+deb12u1                     deb                            
-logsave                                 1.47.0-2                                   deb                            
+logsave                                 1.47.0-2+b2                                deb                            
 lombok-compiler-plugin                  2.1.21-release-317                         java-archive                   
 lombok-compiler-plugin                  2.2.20-ij252-17                            java-archive                   
 lombok-compiler-plugin                  UNKNOWN                                    java-archive                   
@@ -711,7 +711,7 @@ tls-channel                             UNKNOWN                                 
 trove4j                                 UNKNOWN                                    java-archive                   
 twig-language-2                         0.9.4                                      npm                            
 typescript                              1.0.0                                      npm                            
-tzdata                                  2025b-0+deb12u1                            deb                            
+tzdata                                  2025b-0+deb12u2                            deb                            
 udev                                    252.39-1~deb12u1                           deb                            
 ui                                      UNKNOWN                                    java-archive                   
 unit-api                                1.0                                        java-archive                   

@@ -3,9 +3,9 @@ adduser                             3.134                           deb
 appdirs                             1.4.4                           python    
 apt                                 2.6.1                           deb       
 attrs                               22.2.0                          python    
-base-files                          12.4+deb12u11                   deb       
+base-files                          12.4+deb12u12                   deb       
 base-passwd                         3.6.1                           deb       
-bash                                5.2.15-2+b8                     deb       
+bash                                5.2.15-2+b9                     deb       
 beniget                             0.4.1                           python    
 binutils                            2.40-2                          deb       
 binutils-common                     2.40-2                          deb       
@@ -32,7 +32,7 @@ decorator                           5.1.1                           python
 desktop-file-utils                  0.26-1                          deb       
 diffutils                           1:3.8-4                         deb       
 dpkg                                1.21.22                         deb       
-e2fsprogs                           1.47.0-2                        deb       
+e2fsprogs                           1.47.0-2+b2                     deb       
 findutils                           4.9.0-4                         deb       
 fontconfig                          2.14.1-4                        deb       
 fontconfig-config                   2.14.1-4                        deb       
@@ -51,12 +51,12 @@ gast                                0.5.2                           python
 gcc                                 4:12.2.0-3                      deb       
 gcc-12                              12.2.0-14+deb12u1               deb       
 gcc-12-base                         12.2.0-14+deb12u1               deb       
-gpgv                                2.2.40-1.1                      deb       
+gpgv                                2.2.40-1.1+deb12u1              deb       
 grep                                3.8-5                           deb       
 gzip                                1.12-1                          deb       
 hostname                            3.23+nmu1                       deb       
 ibverbs-providers                   44.0-2                          deb       
-init-system-helpers                 1.65.2                          deb       
+init-system-helpers                 1.65.2+deb12u1                  deb       
 iso-codes                           4.15.0-1                        deb       
 keyboard-configuration              1.221                           deb       
 kiwisolver                          0.0.0                           python    
@@ -104,7 +104,7 @@ libcc1-0                            12.2.0-14+deb12u1               deb
 libclang1-14                        1:14.0.6-12                     deb       
 libcodec2-1.0                       1.0.5-1                         deb       
 libcoin80c                          4.0.0+ds-3                      deb       
-libcom-err2                         1.47.0-2                        deb       
+libcom-err2                         1.47.0-2+b2                     deb       
 libcrypt-dev                        1:4.4.33-2                      deb       
 libcrypt1                           1:4.4.33-2                      deb       
 libctf-nobfd0                       2.40-2                          deb       
@@ -137,7 +137,7 @@ libevent-core-2.1-7                 2.1.12-stable-8                 deb
 libevent-pthreads-2.1-7             2.1.12-stable-8                 deb       
 libexpat1                           2.5.0-1+deb12u2                 deb       
 libexpat1-dev                       2.5.0-1+deb12u2                 deb       
-libext2fs2                          1.47.0-2                        deb       
+libext2fs2                          1.47.0-2+b2                     deb       
 libfabric1                          1.17.0-3                        deb       
 libffi8                             3.4.4-1                         deb       
 libfftw3-single3                    3.3.10-1                        deb       
@@ -346,7 +346,7 @@ libspeex1                           1.2.1-2                         deb
 libspeexdsp1                        1.2.1-1                         deb       
 libspnav0                           1.0-1                           deb       
 libsqlite3-0                        3.40.1-2+deb12u2                deb       
-libss2                              1.47.0-2                        deb       
+libss2                              1.47.0-2+b2                     deb       
 libssh2-1                           1.10.0-3+b1                     deb       
 libssl3                             3.0.17-1~deb12u2                deb       
 libstdc++-12-dev                    12.2.0-14+deb12u1               deb       
@@ -458,7 +458,7 @@ libzvbi-common                      0.2.41-1                        deb
 libzvbi0                            0.2.41-1                        deb       
 linux-libc-dev                      6.1.148-1                       deb       
 login                               1:4.13+dfsg1-1+deb12u1          deb       
-logsave                             1.47.0-2                        deb       
+logsave                             1.47.0-2+b2                     deb       
 lxml                                4.9.2                           python    
 lz4                                 4.0.2+dfsg                      python    
 matplotlib                          3.6.3                           python    
@@ -477,7 +477,7 @@ ocl-icd-libopencl1                  2.3.1-1                         deb
 openssl                             3.0.17-1~deb12u2                deb       
 packaging                           23.0                            python    
 passwd                              1:4.13+dfsg1-1+deb12u1          deb       
-perl-base                           5.36.0-7+deb12u2                deb       
+perl-base                           5.36.0-7+deb12u3                deb       
 pillow                              9.4.0                           python    
 pivy                                0.6.8                           python    
 ply                                 3.11                            python    
@@ -556,7 +556,7 @@ sympy                               1.11.1                          python
 sysvinit-utils                      3.06-4                          deb       
 tar                                 1.34+dfsg-1.2+deb12u1           deb       
 tk8.6-blt2.5                        2.5.3+dfsg-4.1                  deb       
-tzdata                              2025b-0+deb12u1                 deb       
+tzdata                              2025b-0+deb12u2                 deb       
 udev                                252.39-1~deb12u1                deb       
 ufolib2                             0.14.0                          python    
 unicode-data                        15.0.0-1                        deb       

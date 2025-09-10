@@ -9,9 +9,9 @@ asciidoctor-vscode                        3.3.2-dev                       npm
 assertj-swing                             3.17.1                          java-archive  (+1 duplicate)   
 attach_amd64                              UNKNOWN                         binary                         
 attach_x86                                UNKNOWN                         binary                         
-base-files                                12.4+deb12u11                   deb                            
+base-files                                12.4+deb12u12                   deb                            
 base-passwd                               3.6.1                           deb                            
-bash                                      5.2.15-2+b8                     deb                            
+bash                                      5.2.15-2+b9                     deb                            
 bat                                       1.0.0                           npm                            
 bouncy-castle-pgp                         1.80                            java-archive                   
 bsdutils                                  1:2.38.1-5+deb12u3              deb                            
@@ -50,7 +50,7 @@ diffutils                                 1:3.8-4                         deb
 distlib                                   0.3.6                           python                         
 docker                                    1.0.0                           npm                            
 dpkg                                      1.21.22                         deb                            
-e2fsprogs                                 1.47.0-2                        deb                            
+e2fsprogs                                 1.47.0-2+b2                     deb                            
 emoji-java                                5.1.1                           java-archive                   
 erlang-ls                                 0.0.43                          npm                            
 fest-reflect                              1.4.1                           java-archive  (+1 duplicate)   
@@ -68,7 +68,7 @@ git                                       1:2.39.5-0+deb12u2              deb
 git-base                                  1.0.0                           npm                            
 git-man                                   1:2.39.5-0+deb12u2              deb                            
 go                                        1.0.0                           npm                            
-gpgv                                      2.2.40-1.1                      deb                            
+gpgv                                      2.2.40-1.1+deb12u1              deb                            
 grep                                      3.8-5                           deb                            
 groovy                                    1.0.0                           npm                            
 grpc-stub                                 1.73.0                          java-archive                   
@@ -83,7 +83,7 @@ ice4j                                     3.0-54-g2baae57                 java-a
 indriya                                   1.3                             java-archive                   
 ini                                       1.0.0                           npm                            
 ini4j                                     0.5.5-2                         java-archive  (+1 duplicate)   
-init-system-helpers                       1.65.2                          deb                            
+init-system-helpers                       1.65.2+deb12u1                  deb                            
 inject_dll_amd64                          UNKNOWN                         binary                         
 inject_dll_x86                            UNKNOWN                         binary                         
 iso-codes                                 4.15.0-1                        deb                            
@@ -148,7 +148,7 @@ libcap2                                   1:2.66-4+deb12u2                deb
 libcap2-bin                               1:2.66-4+deb12u2                deb                            
 libcbor0.8                                0.8.0-2+b1                      deb                            
 libcodec2-1.0                             1.0.5-1                         deb                            
-libcom-err2                               1.47.0-2                        deb                            
+libcom-err2                               1.47.0-2+b2                     deb                            
 libcrypt-dev                              1:4.4.33-2                      deb                            
 libcrypt1                                 1:4.4.33-2                      deb                            
 libcurl3-gnutls                           7.88.1-10+deb12u14              deb                            
@@ -174,7 +174,7 @@ libepoxy0                                 1.5.10-1                        deb
 liberror-perl                             0.17029-2                       deb                            
 libexpat1                                 2.5.0-1+deb12u2                 deb                            
 libexpat1-dev                             2.5.0-1+deb12u2                 deb                            
-libext2fs2                                1.47.0-2                        deb                            
+libext2fs2                                1.47.0-2+b2                     deb                            
 libffi8                                   3.4.4-1                         deb                            
 libfftw3-single3                          3.3.10-1                        deb                            
 libfido2-1                                1.12.0-2+b1                     deb                            
@@ -292,7 +292,7 @@ libsoxr0                                  0.1.3-4                         deb
 libspeex1                                 1.2.1-2                         deb                            
 libspeexdsp1                              1.2.1-1                         deb                            
 libsqlite3-0                              3.40.1-2+deb12u2                deb                            
-libss2                                    1.47.0-2                        deb                            
+libss2                                    1.47.0-2+b2                     deb                            
 libssh2-1                                 1.10.0-3+b1                     deb                            
 libssl3                                   3.0.17-1~deb12u2                deb                            
 libstdc++6                                12.2.0-14+deb12u1               deb                            
@@ -371,7 +371,7 @@ libzvbi0                                  0.2.41-1                        deb
 linux-libc-dev                            6.1.148-1                       deb                            
 log                                       1.0.0                           npm                            
 login                                     1:4.13+dfsg1-1+deb12u1          deb                            
-logsave                                   1.47.0-2                        deb                            
+logsave                                   1.47.0-2+b2                     deb                            
 lsp4j                                     0.21.1.v20230829-0012           java-archive                   
 lua                                       1.0.0                           npm                            
 make                                      1.0.0                           npm                            
@@ -463,7 +463,7 @@ tips-pycharm-community                    2.1                             java-a
 tls-channel                               UNKNOWN                         java-archive                   
 twig-language-2                           0.9.4                           npm                            
 typescript                                1.0.0                           npm                            
-tzdata                                    2025b-0+deb12u1                 deb                            
+tzdata                                    2025b-0+deb12u2                 deb                            
 udev                                      252.39-1~deb12u1                deb                            
 ui                                        UNKNOWN                         java-archive                   
 unit-api                                  1.0                             java-archive                   

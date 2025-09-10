@@ -3,9 +3,9 @@ adduser                         3.134                           deb
 adwaita-icon-theme              43-1                            deb       
 apt                             2.6.1                           deb       
 at-spi2-common                  2.46.0-5                        deb       
-base-files                      12.4+deb12u11                   deb       
+base-files                      12.4+deb12u12                   deb       
 base-passwd                     3.6.1                           deb       
-bash                            5.2.15-2+b8                     deb       
+bash                            5.2.15-2+b9                     deb       
 bsdutils                        1:2.38.1-5+deb12u3              deb       
 btime                           1.0.0                           npm       
 ca-certificates                 20230311+deb12u1                deb       
@@ -24,7 +24,7 @@ debianutils                     5.7-0.5~deb12u1                 deb
 desktop-file-utils              0.26-1                          deb       
 diffutils                       1:3.8-4                         deb       
 dpkg                            1.21.22                         deb       
-e2fsprogs                       1.47.0-2                        deb       
+e2fsprogs                       1.47.0-2+b2                     deb       
 findutils                       4.9.0-4                         deb       
 fontconfig                      2.14.1-4                        deb       
 fontconfig-config               2.14.1-4                        deb       
@@ -39,13 +39,13 @@ gir1.2-freedesktop              1.74.0-3                        deb
 gir1.2-glib-2.0                 1.74.0-3                        deb       
 git                             1:2.39.5-0+deb12u2              deb       
 git-man                         1:2.39.5-0+deb12u2              deb       
-gpgv                            2.2.40-1.1                      deb       
+gpgv                            2.2.40-1.1+deb12u1              deb       
 grep                            3.8-5                           deb       
 gtk-update-icon-cache           3.24.38-2~deb12u3               deb       
 gzip                            1.12-1                          deb       
 hicolor-icon-theme              0.17-2                          deb       
 hostname                        3.23+nmu1                       deb       
-init-system-helpers             1.65.2                          deb       
+init-system-helpers             1.65.2+deb12u1                  deb       
 iso-codes                       4.15.0-1                        deb       
 keyboard-configuration          1.221                           deb       
 libacl1                         2.3.1-3                         deb       
@@ -87,7 +87,7 @@ libcap2                         1:2.66-4+deb12u2                deb
 libcap2-bin                     1:2.66-4+deb12u2                deb       
 libcodec2-1.0                   1.0.5-1                         deb       
 libcolord2                      1.4.6-2.2                       deb       
-libcom-err2                     1.47.0-2                        deb       
+libcom-err2                     1.47.0-2+b2                     deb       
 libcrypt-dev                    1:4.4.33-2                      deb       
 libcrypt1                       1:4.4.33-2                      deb       
 libcups2                        2.4.2-3+deb12u8                 deb       
@@ -115,7 +115,7 @@ libelf1                         0.188-2.1                       deb
 libepoxy0                       1.5.10-1                        deb       
 liberror-perl                   0.17029-2                       deb       
 libexpat1                       2.5.0-1+deb12u2                 deb       
-libext2fs2                      1.47.0-2                        deb       
+libext2fs2                      1.47.0-2+b2                     deb       
 libffi-dev                      3.4.4-1                         deb       
 libffi8                         3.4.4-1                         deb       
 libfftw3-single3                3.3.10-1                        deb       
@@ -247,7 +247,7 @@ libsoxr0                        0.1.3-4                         deb
 libspeex1                       1.2.1-2                         deb       
 libspeexdsp1                    1.2.1-1                         deb       
 libsqlite3-0                    3.40.1-2+deb12u2                deb       
-libss2                          1.47.0-2                        deb       
+libss2                          1.47.0-2+b2                     deb       
 libssh2-1                       1.10.0-3+b1                     deb       
 libssl3                         3.0.17-1~deb12u2                deb       
 libstdc++6                      12.2.0-14+deb12u1               deb       
@@ -339,7 +339,7 @@ libzvbi-common                  0.2.41-1                        deb
 libzvbi0                        0.2.41-1                        deb       
 linux-libc-dev                  6.1.148-1                       deb       
 login                           1:4.13+dfsg1-1+deb12u1          deb       
-logsave                         1.47.0-2                        deb       
+logsave                         1.47.0-2+b2                     deb       
 mawk                            1.3.4.20200120-3.1              deb       
 media-types                     10.0.0                          deb       
 mesa-va-drivers                 22.3.6-1+deb12u1                deb       
@@ -375,7 +375,7 @@ sgml-base                       1.31                            deb
 shared-mime-info                2.2-1                           deb       
 sysvinit-utils                  3.06-4                          deb       
 tar                             1.34+dfsg-1.2+deb12u1           deb       
-tzdata                          2025b-0+deb12u1                 deb       
+tzdata                          2025b-0+deb12u2                 deb       
 udev                            252.39-1~deb12u1                deb       
 usr-is-merged                   37~deb12u1                      deb       
 util-linux                      2.38.1-5+deb12u3                deb       

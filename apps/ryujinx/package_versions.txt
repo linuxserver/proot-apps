@@ -1,7 +1,7 @@
 NAME                            VERSION                               TYPE   
 adduser                         3.152                                 deb     
 apt                             3.0.3                                 deb     
-base-files                      13.8                                  deb     
+base-files                      13.8+deb13u1                          deb     
 base-passwd                     3.6.7                                 deb     
 bash                            5.2.37-2+b5                           deb     
 bsdutils                        1:2.41-5                              deb     
@@ -29,7 +29,7 @@ gcc-14-base                     14.2.0-19                             deb
 grep                            3.11-4                                deb     
 gzip                            1.13-1                                deb     
 hostname                        3.25                                  deb     
-init-system-helpers             1.68                                  deb     
+init-system-helpers             1.69~deb13u1                          deb     
 iso-codes                       4.18.0-1                              deb     
 keyboard-configuration          1.240                                 deb     
 libabsl20240722                 20240722.0-4                          deb     
@@ -149,7 +149,7 @@ libpango-1.0-0                  1.56.3-1                              deb
 libpangocairo-1.0-0             1.56.3-1                              deb     
 libpangoft2-1.0-0               1.56.3-1                              deb     
 libpciaccess0                   0.17-3+b3                             deb     
-libpcre2-8-0                    10.45-1                               deb     
+libpcre2-8-0                    10.46-1~deb13u1                       deb     
 libpixman-1-0                   0.44.0-3                              deb     
 libpng16-16t64                  1.6.48-1                              deb     
 libpsl5t64                      0.21.2-1.1+b1                         deb     
@@ -273,7 +273,7 @@ sqv                             1.3.0-3                               deb
 systemd                         257.8-1~deb13u1                       deb     
 sysvinit-utils                  3.14-4                                deb     
 tar                             1.35+dfsg-3.1                         deb     
-tzdata                          2025b-4                               deb     
+tzdata                          2025b-4+deb13u1                       deb     
 udev                            257.8-1~deb13u1                       deb     
 util-linux                      2.41-5                                deb     
 x11-common                      1:7.7+24                              deb     
