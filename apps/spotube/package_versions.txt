@@ -123,7 +123,7 @@ libcodec2-1.0                    1.0.5-1                          deb
 libcolord2                       1.4.6-2.2                        deb       
 libcom-err2                      1.47.0-2+b2                      deb       
 libcrypt1                        1:4.4.33-2                       deb       
-libcups2                         2.4.2-3+deb12u8                  deb       
+libcups2                         2.4.2-3+deb12u9                  deb       
 libcurl4                         7.88.1-10+deb12u14               deb       
 libdaemon0                       0.14-7.1                         deb       
 libdatrie1                       0.2.13-2+b1                      deb       
@@ -473,7 +473,7 @@ python3.11-minimal               3.11.2-6+deb12u6                 deb
 readline-common                  8.2-1.3                          deb       
 sed                              4.9-1                            deb       
 shared-mime-info                 2.2-1                            deb       
-spotube                          4.0.2+41                         deb       
+spotube                          5.0.0+42                         deb       
 sysvinit-utils                   3.06-4                           deb       
 tar                              1.34+dfsg-1.2+deb12u1            deb       
 tzdata                           2025b-0+deb12u2                  deb       

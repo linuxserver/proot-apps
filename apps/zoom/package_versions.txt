@@ -86,7 +86,7 @@ libcodec2-1.0                   1.0.5-1                         deb
 libcolord2                      1.4.6-2.2                       deb       
 libcom-err2                     1.47.0-2+b2                     deb       
 libcrypt1                       1:4.4.33-2                      deb       
-libcups2                        2.4.2-3+deb12u8                 deb       
+libcups2                        2.4.2-3+deb12u9                 deb       
 libcurl4                        7.88.1-10+deb12u14              deb       
 libdatrie1                      0.2.13-2+b1                     deb       
 libdav1d6                       1.0.0-2+deb12u1                 deb       

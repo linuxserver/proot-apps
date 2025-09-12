@@ -76,7 +76,7 @@ libcodec2-1.2                   1.2.0-3                               deb
 libcolord2                      1.4.7-3                               deb     
 libcom-err2                     1.47.2-3+b3                           deb     
 libcrypt1                       1:4.4.38-1                            deb     
-libcups2t64                     2.4.10-3                              deb     
+libcups2t64                     2.4.10-3+deb13u1                      deb     
 libcurl4t64                     8.14.1-2                              deb     
 libdatrie1                      0.2.13-3+b1                           deb     
 libdav1d7                       1.5.1-1                               deb     
@@ -204,8 +204,8 @@ libssl3t64                      3.5.1-1                               deb
 libstdc++6                      14.2.0-19                             deb     
 libsvtav1enc2                   2.3.0+dfsg-1                          deb     
 libswresample5                  7:7.1.1-1+b1                          deb     
-libsystemd-shared               257.8-1~deb13u1                       deb     
-libsystemd0                     257.8-1~deb13u1                       deb     
+libsystemd-shared               257.8-1~deb13u2                       deb     
+libsystemd0                     257.8-1~deb13u2                       deb     
 libtasn1-6                      4.20.0-2                              deb     
 libtdb1                         2:1.4.13+samba4.22.4+dfsg-1~deb13u1   deb     
 libthai-data                    0.1.29-2                              deb     
@@ -215,7 +215,7 @@ libtheoraenc1                   1.2.0~alpha1+dfsg-6                   deb
 libtiff6                        4.7.0-3                               deb     
 libtinfo6                       6.5+20250216-2                        deb     
 libtwolame0                     0.4.0-2+b2                            deb     
-libudev1                        257.8-1~deb13u1                       deb     
+libudev1                        257.8-1~deb13u2                       deb     
 libunistring5                   1.3-2                                 deb     
 libunwind8                      1.8.1-0.1                             deb     
 libuuid1                        2.41-5                                deb     
@@ -300,11 +300,11 @@ pulseaudio-utils                17.0+dfsg1-2+b1                       deb
 sed                             4.9-2                                 deb     
 shared-mime-info                2.4-5+b2                              deb     
 sqv                             1.3.0-3                               deb     
-systemd                         257.8-1~deb13u1                       deb     
+systemd                         257.8-1~deb13u2                       deb     
 sysvinit-utils                  3.14-4                                deb     
 tar                             1.35+dfsg-3.1                         deb     
 tzdata                          2025b-4+deb13u1                       deb     
-udev                            257.8-1~deb13u1                       deb     
+udev                            257.8-1~deb13u2                       deb     
 util-linux                      2.41-5                                deb     
 x11-common                      1:7.7+24                              deb     
 x11-xkb-utils                   7.7+9                                 deb     
