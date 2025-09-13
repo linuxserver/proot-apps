@@ -39,8 +39,8 @@ c-ares                     1.34.5-r0                apk
 ca-certificates-bundle     20241121-r1              apk           
 cairo                      1.18.4-r0                apk           
 cairo-gobject              1.18.4-r0                apk           
-calibre                    8.7.0-r1                 apk           
-calibre-pyc                8.7.0-r1                 apk           
+calibre                    8.7.0-r2                 apk           
+calibre-pyc                8.7.0-r2                 apk           
 cdparanoia-libs            10.2-r14                 apk           
 cfg-if                     1.0.0                    rust-crate    
 cfg-if                     1.0.1                    rust-crate    
@@ -66,7 +66,7 @@ crossbeam-utils            0.8.21                   rust-crate
 cryptsetup-libs            2.8.1-r0                 apk           
 css-parser                 1.0.10                   python        
 cssselect                  1.2.0                    python        
-cups-libs                  2.4.12-r0                apk           
+cups-libs                  2.4.13-r0                apk           
 curl                       8.16.0-r0                apk           
 dbus                       1.16.2-r1                apk           
 dbus-daemon-launch-helper  1.16.2-r1                apk           
@@ -356,8 +356,8 @@ py3-css-parser             1.0.10-r1                apk
 py3-css-parser-pyc         1.0.10-r1                apk           
 py3-cssselect              1.2.0-r3                 apk           
 py3-cssselect-pyc          1.2.0-r3                 apk           
-py3-dateutil               2.9.0-r1                 apk           
-py3-dateutil-pyc           2.9.0-r1                 apk           
+py3-dateutil               2.9.0-r2                 apk           
+py3-dateutil-pyc           2.9.0-r2                 apk           
 py3-dnspython              2.8.0-r0                 apk           
 py3-dnspython-pyc          2.8.0-r0                 apk           
 py3-feedparser             6.0.12-r0                apk           
