@@ -103,7 +103,7 @@ fonttools                  4.59.0                   python
 freetype                   2.13.3-r0                apk           
 fribidi                    1.0.16-r2                apk           
 gdbm                       1.26-r0                  apk           
-gdk-pixbuf                 2.42.12-r2               apk           
+gdk-pixbuf                 2.44.1-r0                apk           
 getrandom                  0.3.3                    rust-crate    
 glib                       2.84.4-r2                apk           
 gmp                        6.3.0-r4                 apk           
@@ -111,7 +111,7 @@ gnupg-dirmngr              2.4.8-r1                 apk
 gnupg-gpgconf              2.4.8-r1                 apk           
 gnupg-keyboxd              2.4.8-r1                 apk           
 gnutls                     3.8.8-r0                 apk           
-gobject-introspection      1.84.0-r1                apk           
+gobject-introspection      1.86.0-r0                apk           
 gpg                        2.4.8-r1                 apk           
 gpg-agent                  2.4.8-r1                 apk           
 gpgme                      1.24.2-r2                apk           

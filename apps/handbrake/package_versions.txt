@@ -1,6 +1,6 @@
 NAME                            VERSION                       TYPE   
 adduser                         3.152                         deb     
-adwaita-icon-theme              49~rc-1                       deb     
+adwaita-icon-theme              49.0-1                        deb     
 apt                             3.1.5                         deb     
 base-files                      14                            deb     
 base-passwd                     3.6.7                         deb     
@@ -254,7 +254,7 @@ libswscale8                     7:7.1.1-1+b9                  deb
 libsystemd-shared               258~rc4-1                     deb     
 libsystemd0                     258~rc4-1                     deb     
 libtasn1-6                      4.20.0-2                      deb     
-libtdb1                         2:1.4.13+samba4.22.4+dfsg-1   deb     
+libtdb1                         2:1.4.14+samba4.23.0+dfsg-1   deb     
 libthai-data                    0.1.29-2                      deb     
 libthai0                        0.1.29-2+b1                   deb     
 libtheoradec2                   1.2.0+dfsg-6                  deb     
