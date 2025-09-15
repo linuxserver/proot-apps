@@ -83,7 +83,7 @@ libcdio19                           2.1.0-4                           deb
 libcfitsio10                        4.2.0-3                           deb     
 libcharls2                          2.4.1-1                           deb     
 libchromaprint1                     1.5.1-2+b1                        deb     
-libcjson1                           1.7.15-1+deb12u3                  deb     
+libcjson1                           1.7.15-1+deb12u4                  deb     
 libcodec2-1.0                       1.0.5-1                           deb     
 libcom-err2                         1.47.0-2+b2                       deb     
 libcrypt1                           1:4.4.33-2                        deb     

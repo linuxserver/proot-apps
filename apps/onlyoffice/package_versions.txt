@@ -85,7 +85,7 @@ libcap2                         1:2.66-4+deb12u2                deb
 libcap2-bin                     1:2.66-4+deb12u2                deb     
 libcdio19                       2.1.0-4                         deb     
 libchromaprint1                 1.5.1-2+b1                      deb     
-libcjson1                       1.7.15-1+deb12u3                deb     
+libcjson1                       1.7.15-1+deb12u4                deb     
 libcodec2-1.0                   1.0.5-1                         deb     
 libcolord2                      1.4.6-2.2                       deb     
 libcom-err2                     1.47.0-2+b2                     deb     
