@@ -237,7 +237,7 @@ sonnet                     6.8.0-r0                 apk
 sound-theme-freedesktop    0.8-r1                   apk     
 soxr                       0.1.3-r7                 apk     
 speexdsp                   1.2.1-r2                 apk     
-sqlite-libs                3.48.0-r3                apk     
+sqlite-libs                3.48.0-r4                apk     
 ssl_client                 1.37.0-r12               apk     
 tdb-libs                   1.4.12-r0                apk     
 tiff                       4.7.0-r0                 apk     
