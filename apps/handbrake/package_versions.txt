@@ -105,7 +105,7 @@ libegl-mesa0                    25.2.2-1                     deb
 libegl1                         1.7.0-1+b2                   deb     
 libelf1t64                      0.193-3                      deb     
 libepoxy0                       1.5.10-2                     deb     
-libexpat1                       2.7.1-2                      deb     
+libexpat1                       2.7.2-1                      deb     
 libffi8                         3.5.2-2                      deb     
 libfftw3-double3                3.3.10-2+b1                  deb     
 libfftw3-single3                3.3.10-2+b1                  deb     
@@ -254,7 +254,7 @@ libswscale8                     7:7.1.1-1+b9                 deb
 libsystemd-shared               258~rc4-1                    deb     
 libsystemd0                     258~rc4-1                    deb     
 libtasn1-6                      4.20.0-2                     deb     
-libtdb1                         2:1.4.14+samba4.23.0+dfsg-2  deb     
+libtdb1                         2:1.4.14+samba4.23.0+dfsg-3  deb     
 libthai-data                    0.1.29-2                     deb     
 libthai0                        0.1.29-2+b1                  deb     
 libtheoradec2                   1.2.0+dfsg-6                 deb     

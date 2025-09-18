@@ -27,7 +27,7 @@ fonts-dejavu-core               2.37-6                          deb
 fonts-noto                      20201225-1                      deb     
 fonts-noto-core                 20201225-1                      deb     
 gcc-12-base                     12.2.0-14+deb12u1               deb     
-google-earth-pro-stable         7.3.6.10201-r0                  deb     
+google-earth-pro-stable         7.3.6.10441-r0                  deb     
 gpgv                            2.2.40-1.1+deb12u1              deb     
 grep                            3.8-5                           deb     
 gzip                            1.12-1                          deb     

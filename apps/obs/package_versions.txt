@@ -14,8 +14,8 @@ dbus-bin                                  1.14.10-4ubuntu4.1                 deb
 dbus-daemon                               1.14.10-4ubuntu4.1                 deb     
 dbus-session-bus-common                   1.14.10-4ubuntu4.1                 deb     
 dbus-x11                                  1.14.10-4ubuntu4.1                 deb     
-dconf-gsettings-backend                   0.40.0-4build2                     deb     
-dconf-service                             0.40.0-4build2                     deb     
+dconf-gsettings-backend                   0.40.0-4ubuntu0.1                  deb     
+dconf-service                             0.40.0-4ubuntu0.1                  deb     
 debconf                                   1.5.86ubuntu1                      deb     
 debianutils                               5.17build1                         deb     
 desktop-file-utils                        0.27-2build1                       deb     
@@ -108,7 +108,7 @@ libdav1d7                                 1.4.1-1build1                      deb
 libdb5.3t64                               5.3.28+dfsg2-7                     deb     
 libdbus-1-3                               1.14.10-4ubuntu4.1                 deb     
 libdc1394-25                              2.2.6-4build1                      deb     
-libdconf1                                 0.40.0-4build2                     deb     
+libdconf1                                 0.40.0-4ubuntu0.1                  deb     
 libdebconfclient0                         0.271ubuntu3                       deb     
 libdecor-0-0                              0.2.2-1build2                      deb     
 libdeflate0                               1.19-1build1.1                     deb     
