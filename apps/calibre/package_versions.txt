@@ -321,7 +321,7 @@ numactl                    2.0.18-r0                apk
 once_cell                  1.18.0                   rust-crate    
 once_cell                  1.21.3                   rust-crate    
 onevpl-libs                2023.3.1-r2              apk           
-openjpeg                   2.5.3-r0                 apk           
+openjpeg                   2.5.3-r1                 apk           
 optipng                    0.7.8-r0                 apk           
 opus                       1.5.2-r1                 apk           
 orc                        0.4.41-r0                apk           
@@ -368,8 +368,8 @@ py3-html2text              2025.4.15-r0             apk
 py3-html2text-pyc          2025.4.15-r0             apk           
 py3-html5-parser           0.4.12-r1                apk           
 py3-html5-parser-pyc       0.4.12-r1                apk           
-py3-html5lib               1.1-r6                   apk           
-py3-html5lib-pyc           1.1-r6                   apk           
+py3-html5lib               1.1-r7                   apk           
+py3-html5lib-pyc           1.1-r7                   apk           
 py3-ifaddr                 0.2.0-r4                 apk           
 py3-ifaddr-pyc             0.2.0-r4                 apk           
 py3-jeepney                0.9.0-r0                 apk           
@@ -476,7 +476,7 @@ thiserror                  2.0.12                   rust-crate
 thiserror-impl             1.0.69                   rust-crate    
 thiserror-impl             2.0.12                   rust-crate    
 thread_local               1.1.7                    rust-crate    
-tiff                       4.7.0-r2                 apk           
+tiff                       4.7.1-r0                 apk           
 tslib                      1.23-r0                  apk           
 typing-extensions          4.15.0                   python        
 tzdata                     2025b-r0                 apk           
