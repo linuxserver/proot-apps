@@ -344,7 +344,7 @@ sunjce_provider                 1.8.0_452                java-archive
 sunpkcs11                       1.8.0_452                java-archive                  
 table                           UNKNOWN                  java-archive                  
 tdb-libs                        1.4.12-r0                apk                           
-tiff                            4.7.0-r0                 apk                           
+tiff                            4.7.1-r0                 apk                           
 tslib                           1.23-r0                  apk                           
 tzdata                          2025b-r0                 apk                           
 unoil                           UNKNOWN                  java-archive                  

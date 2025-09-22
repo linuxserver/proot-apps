@@ -365,7 +365,7 @@ qt6-qtsvg                          6.8.3-r0                 apk
 qt6-qttools-libs                   6.8.3-r0                 apk           
 qt6-qtwayland                      6.8.3-r0                 apk           
 qt6-qtwebchannel                   6.8.3-r0                 apk           
-qt6-qtwebengine                    6.8.3-r1                 apk           
+qt6-qtwebengine                    6.8.3-r2                 apk           
 qt6-qtwebsockets-libs              6.8.3-r0                 apk           
 quote                              1.0.35                   rust-crate    
 rand                               0.8.5                    rust-crate    
@@ -400,7 +400,7 @@ tdb-libs                           1.4.12-r0                apk
 terminal_size                      0.3.0                    rust-crate    
 thiserror                          1.0.56                   rust-crate    
 thiserror-impl                     1.0.56                   rust-crate    
-tiff                               4.7.0-r0                 apk           
+tiff                               4.7.1-r0                 apk           
 tslib                              1.23-r0                  apk           
 typing-extensions                  4.13.2                   python        
 tzdata                             2025b-r0                 apk           

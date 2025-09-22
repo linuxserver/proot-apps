@@ -238,7 +238,7 @@ speexdsp                   1.2.1-r2                 apk
 sqlite-libs                3.48.0-r4                apk       
 ssl_client                 1.37.0-r12               apk       
 tdb-libs                   1.4.12-r0                apk       
-tiff                       4.7.0-r0                 apk       
+tiff                       4.7.1-r0                 apk       
 totem-pl-parser            3.26.6-r4                apk       
 wavpack-libs               5.7.0-r0                 apk       
 wayland-libs-client        1.23.1-r0                apk       

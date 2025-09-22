@@ -191,7 +191,7 @@ libsensors-config               1:3.6.2-2                    deb
 libsensors5                     1:3.6.2-2                    deb     
 libsepol2                       3.8.1-1                      deb     
 libsharpyuv0                    1.5.0-0.1                    deb     
-libshine3                       3.1.1-2+b2                   deb     
+libshine3                       3.1.1-3                      deb     
 libsm6                          2:1.2.6-1                    deb     
 libsmartcols1                   2.41.1-2                     deb     
 libsnappy1v5                    1.2.2-2                      deb     
