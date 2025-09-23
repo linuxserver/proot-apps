@@ -136,7 +136,7 @@ libgpg-error-l10n               1.55-2                       deb
 libgpg-error0                   1.55-2                       deb     
 libgpm2                         1.20.7-12                    deb     
 libgraphene-1.0-0               1.10.8-5                     deb     
-libgraphite2-3                  1.3.14-7                     deb     
+libgraphite2-3                  1.3.14-9                     deb     
 libgsm1                         1.0.22-1+b2                  deb     
 libgssapi-krb5-2                1.21.3-5                     deb     
 libgstreamer-gl1.0-0            1.26.6-1                     deb     
@@ -191,7 +191,7 @@ libopenjp2-7                    2.5.3-2.1                    deb
 libopenmpt0t64                  0.8.3-1                      deb     
 libopus0                        1.5.2-2                      deb     
 liborc-0.4-0t64                 1:0.4.41-1                   deb     
-libp11-kit0                     0.25.5-3                     deb     
+libp11-kit0                     0.25.9-2                     deb     
 libpam-modules                  1.7.0-5                      deb     
 libpam-modules-bin              1.7.0-5                      deb     
 libpam-runtime                  1.7.0-5                      deb     
@@ -259,7 +259,7 @@ libthai-data                    0.1.29-2                     deb
 libthai0                        0.1.29-2+b1                  deb     
 libtheoradec2                   1.2.0+dfsg-6                 deb     
 libtheoraenc2                   1.2.0+dfsg-6                 deb     
-libtiff6                        4.7.0-5                      deb     
+libtiff6                        4.7.1-1                      deb     
 libtinfo6                       6.5+20250216-2               deb     
 libturbojpeg0                   1:2.1.5-4                    deb     
 libtwolame0                     0.4.0-2+b2                   deb     
@@ -290,7 +290,6 @@ libwrap0                        7.6.q-36                     deb
 libx11-6                        2:1.8.12-1                   deb     
 libx11-data                     2:1.8.12-1                   deb     
 libx11-xcb1                     2:1.8.12-1                   deb     
-libx264-164                     2:0.164.3108+git31e19f9-3    deb     
 libx264-165                     2:0.165.3222+gitb35605ac-2   deb     
 libx265-215                     4.1-2                        deb     
 libxau6                         1:1.0.11-1                   deb     

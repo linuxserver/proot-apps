@@ -143,7 +143,7 @@ libelf                             0.193-r0                 apk
 libepoxy                           1.5.10-r1                apk           
 libevdev                           1.13.3-r0                apk           
 libevent                           2.1.12-r8                apk           
-libexpat                           2.7.1-r0                 apk           
+libexpat                           2.7.2-r0                 apk           
 libffi                             3.4.8-r0                 apk           
 libflac                            1.4.3-r1                 apk           
 libgcc                             14.2.0-r6                apk           

@@ -368,7 +368,7 @@ libz3-4                                   4.8.12-3.1                      deb
 libzstd1                                  1.5.4+dfsg2-5                   deb                            
 libzvbi-common                            0.2.41-1                        deb                            
 libzvbi0                                  0.2.41-1                        deb                            
-linux-libc-dev                            6.1.148-1                       deb                            
+linux-libc-dev                            6.1.153-1                       deb                            
 log                                       1.0.0                           npm                            
 login                                     1:4.13+dfsg1-1+deb12u1          deb                            
 logsave                                   1.47.0-2+b2                     deb                            
@@ -393,7 +393,7 @@ ncurses-bin                               6.4-4                           deb
 netcat-openbsd                            1.219-1                         deb                            
 objective-c                               1.0.0                           npm                            
 ocl-icd-libopencl1                        2.3.1-1                         deb                            
-openjdk                                   21.0.8+9-b1038.68               binary                         
+openjdk                                   21.0.8+9-b1038.71               binary                         
 openssh-client                            1:9.2p1-2+deb12u7               deb                            
 openssl                                   3.0.17-1~deb12u2                deb                            
 oshi-core                                 6.6.0                           java-archive                   
