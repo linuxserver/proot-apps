@@ -212,7 +212,6 @@ libpsl5t64                      0.21.2-1.1+b1                deb
 libpulse0                       17.0+dfsg1-2+b1              deb     
 libpulsedsp                     17.0+dfsg1-2+b1              deb     
 librabbitmq4                    0.15.0-1                     deb     
-librav1e0.7                     0.7.1-9+b2                   deb     
 librav1e0.8                     0.8.1-2                      deb     
 librist4                        0.2.11+dfsg-1                deb     
 librsvg2-2                      2.60.0+dfsg-1+b1             deb     
@@ -291,7 +290,7 @@ libwrap0                        7.6.q-36                     deb
 libx11-6                        2:1.8.12-1                   deb     
 libx11-data                     2:1.8.12-1                   deb     
 libx11-xcb1                     2:1.8.12-1                   deb     
-libx264-165                     2:0.165.3222+gitb35605ac-2   deb     
+libx264-165                     2:0.165.3222+gitb35605ac-3   deb     
 libx265-215                     4.1-2                        deb     
 libxau6                         1:1.0.11-1                   deb     
 libxaw7                         2:1.0.16-1                   deb     
