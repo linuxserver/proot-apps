@@ -86,11 +86,11 @@ espeak-ng                  1.52.0-r0                apk
 eudev-libs                 3.2.14-r5                apk           
 feedparser                 6.0.12                   python        
 fern                       0.7.1                    rust-crate    
-ffmpeg-libavcodec          7.1.1-r1                 apk           
-ffmpeg-libavformat         7.1.1-r1                 apk           
-ffmpeg-libavutil           7.1.1-r1                 apk           
-ffmpeg-libswresample       7.1.1-r1                 apk           
-ffmpeg-libswscale          7.1.1-r1                 apk           
+ffmpeg-libavcodec          7.1.2-r0                 apk           
+ffmpeg-libavformat         7.1.2-r0                 apk           
+ffmpeg-libavutil           7.1.2-r0                 apk           
+ffmpeg-libswresample       7.1.2-r0                 apk           
+ffmpeg-libswscale          7.1.2-r0                 apk           
 fftw-single-libs           3.3.10-r7                apk           
 file                       5.46-r2                  apk           
 font-liberation            2.1.5-r2                 apk           
@@ -99,7 +99,7 @@ font-noto-common           2025.05.01-r0            apk
 font-noto-math             2025.05.01-r0            apk           
 font-noto-symbols          2025.05.01-r0            apk           
 fontconfig                 2.17.1-r0                apk           
-fonttools                  4.59.0                   python        
+fonttools                  4.60.0                   python        
 freetype                   2.13.3-r0                apk           
 fribidi                    1.0.16-r2                apk           
 gdbm                       1.26-r0                  apk           
@@ -148,8 +148,8 @@ keyutils-libs              1.6.3-r4                 apk
 kmod-libs                  34.2-r1                  apk           
 lab                        0.11.0                   rust-crate    
 lame-libs                  3.100-r5                 apk           
-lcms2                      2.16-r0                  apk           
-libSvtAv1Enc               2.3.0-r0                 apk           
+lcms2                      2.17-r0                  apk           
+libSvtAv1Enc               3.1.2-r0                 apk           
 libassuan                  3.0.2-r0                 apk           
 libasyncns                 0.8-r4                   apk           
 libatasmart                0.19-r4                  apk           
@@ -234,6 +234,7 @@ libva                      2.22.0-r1                apk
 libva-intel-driver         2.4.1-r2                 apk           
 libvdpau                   1.5-r4                   apk           
 libvorbis                  1.3.7-r2                 apk           
+libvpl                     2.15.0-r0                apk           
 libvpx                     1.15.2-r0                apk           
 libwebp                    1.6.0-r0                 apk           
 libwebpdemux               1.6.0-r0                 apk           
@@ -320,7 +321,6 @@ num-traits                 0.2.19                   rust-crate
 numactl                    2.0.18-r0                apk           
 once_cell                  1.18.0                   rust-crate    
 once_cell                  1.21.3                   rust-crate    
-onevpl-libs                2023.3.1-r2              apk           
 openjpeg                   2.5.3-r1                 apk           
 optipng                    0.7.8-r0                 apk           
 opus                       1.5.2-r1                 apk           
@@ -362,8 +362,8 @@ py3-dnspython              2.8.0-r0                 apk
 py3-dnspython-pyc          2.8.0-r0                 apk           
 py3-feedparser             6.0.12-r0                apk           
 py3-feedparser-pyc         6.0.12-r0                apk           
-py3-fonttools              4.59.0-r0                apk           
-py3-fonttools-pyc          4.59.0-r0                apk           
+py3-fonttools              4.60.0-r0                apk           
+py3-fonttools-pyc          4.60.0-r0                apk           
 py3-html2text              2025.4.15-r0             apk           
 py3-html2text-pyc          2025.4.15-r0             apk           
 py3-html5-parser           0.4.12-r1                apk           
@@ -494,7 +494,7 @@ wayland-libs-egl           1.24.0-r0                apk
 webencodings               0.5.1                    python        
 webrtc-audio-processing-1  1.3-r1                   apk           
 x264-libs                  0.164.3108-r0            apk           
-x265-libs                  3.6-r0                   apk           
+x265-libs                  4.1-r0                   apk           
 xcb-util                   0.4.1-r3                 apk           
 xcb-util-cursor            0.1.5-r0                 apk           
 xcb-util-image             0.4.1-r0                 apk           
