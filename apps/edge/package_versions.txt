@@ -95,7 +95,7 @@ libegl-mesa0                    25.2.3-1                     deb
 libegl1                         1.7.0-1+b2                   deb     
 libelf1t64                      0.193-3                      deb     
 libepoxy0                       1.5.10-2                     deb     
-libexpat1                       2.7.2-1                      deb     
+libexpat1                       2.7.3-1                      deb     
 libffi8                         3.5.2-2                      deb     
 libfftw3-single3                3.3.10-2+b1                  deb     
 libflac14                       1.5.0+ds-2                   deb     

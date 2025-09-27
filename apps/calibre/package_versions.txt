@@ -86,11 +86,10 @@ espeak-ng                  1.52.0-r0                apk
 eudev-libs                 3.2.14-r5                apk           
 feedparser                 6.0.12                   python        
 fern                       0.7.1                    rust-crate    
-ffmpeg-libavcodec          7.1.2-r0                 apk           
-ffmpeg-libavformat         7.1.2-r0                 apk           
-ffmpeg-libavutil           7.1.2-r0                 apk           
-ffmpeg-libswresample       7.1.2-r0                 apk           
-ffmpeg-libswscale          7.1.2-r0                 apk           
+ffmpeg7-libavcodec         7.1.2-r1                 apk           
+ffmpeg7-libavformat        7.1.2-r1                 apk           
+ffmpeg7-libavutil          7.1.2-r1                 apk           
+ffmpeg7-libswresample      7.1.2-r1                 apk           
 fftw-single-libs           3.3.10-r7                apk           
 file                       5.46-r2                  apk           
 font-liberation            2.1.5-r2                 apk           
@@ -427,8 +426,7 @@ qt6-qtbase-x11             6.9.2-r0                 apk
 qt6-qtconnectivity         6.9.2-r0                 apk           
 qt6-qtdeclarative          6.9.2-r0                 apk           
 qt6-qtimageformats         6.9.2-r0                 apk           
-qt6-qtmultimedia           6.9.2-r0                 apk           
-qt6-qtmultimedia-ffmpeg    6.9.2-r0                 apk           
+qt6-qtmultimedia           6.9.2-r1                 apk           
 qt6-qtpositioning          6.9.2-r0                 apk           
 qt6-qtserialport           6.9.2-r0                 apk           
 qt6-qtsvg                  6.9.2-r0                 apk           
