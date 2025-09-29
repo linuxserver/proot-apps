@@ -208,7 +208,7 @@ libswresample5                  7:7.1.2-1+b1                 deb
 libsystemd-shared               258-1                        deb     
 libsystemd0                     258-1                        deb     
 libtasn1-6                      4.20.0-2                     deb     
-libtdb1                         2:1.4.14+samba4.23.0+dfsg-3  deb     
+libtdb1                         2:1.4.14+samba4.23.1+dfsg-1  deb     
 libthai-data                    0.1.29-2                     deb     
 libthai0                        0.1.29-2+b1                  deb     
 libtheoradec2                   1.2.0+dfsg-6                 deb     

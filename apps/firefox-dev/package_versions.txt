@@ -60,12 +60,12 @@ equator-macro              0.4.2                    rust-crate
 errno                      0.3.12                   rust-crate    
 eudev-libs                 3.2.14-r5                apk           
 fern                       0.7.1                    rust-crate    
-ffmpeg-libavcodec          8.0-r0                   apk           
-ffmpeg-libavutil           8.0-r0                   apk           
-ffmpeg-libswresample       8.0-r0                   apk           
+ffmpeg7-libavcodec         7.1.2-r1                 apk           
+ffmpeg7-libavutil          7.1.2-r1                 apk           
+ffmpeg7-libswresample      7.1.2-r1                 apk           
 fftw-single-libs           3.3.10-r7                apk           
 file                       5.46-r2                  apk           
-firefox-developer-edition  144.0_beta5-r0           apk           
+firefox-developer-edition  144.0_beta5-r1           apk           
 font-noto                  2025.05.01-r0            apk           
 font-noto-common           2025.05.01-r0            apk           
 font-noto-math             2025.05.01-r0            apk           
