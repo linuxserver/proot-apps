@@ -78,7 +78,7 @@ libdeflate                 1.22-r0                  apk
 libdrm                     2.4.123-r1               apk     
 libeconf                   0.6.3-r0                 apk     
 libelf                     0.191-r0                 apk     
-libexpat                   2.7.2-r0                 apk     
+libexpat                   2.7.3-r0                 apk     
 libffi                     3.4.7-r0                 apk     
 libflac                    1.4.3-r1                 apk     
 libgcc                     14.2.0-r4                apk     

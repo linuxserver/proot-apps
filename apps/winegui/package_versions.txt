@@ -335,7 +335,7 @@ libtdb1                         1.4.10-1build1                     deb
 libthai-data                    0.1.29-2build1                     deb                     
 libthai0                        0.1.29-2build1                     deb     (+1 duplicate)  
 libtheora0                      1.1.1+dfsg.1-16.1build3            deb     (+1 duplicate)  
-libtiff6                        4.5.1+git230720-4ubuntu2.3         deb     (+1 duplicate)  
+libtiff6                        4.5.1+git230720-4ubuntu2.4         deb     (+1 duplicate)  
 libtinfo6                       6.4+20240113-1ubuntu2              deb     (+1 duplicate)  
 libtwolame0                     0.4.0-2build3                      deb     (+1 duplicate)  
 libudev1                        255.4-1ubuntu8.10                  deb     (+1 duplicate)  
