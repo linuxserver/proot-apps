@@ -50,7 +50,7 @@ click                              8.1.8                    python
 colorchoice                        1.0.0                    rust-crate    
 console                            0.15.8                   rust-crate    
 crossbeam                          0.8.4                    rust-crate    
-crossbeam-channel                  0.5.11                   rust-crate    
+crossbeam-channel                  0.5.14                   rust-crate    
 crossbeam-deque                    0.8.5                    rust-crate    
 crossbeam-epoch                    0.9.18                   rust-crate    
 crossbeam-queue                    0.3.11                   rust-crate    
@@ -372,7 +372,7 @@ rand                               0.8.5                    rust-crate
 rand_chacha                        0.3.1                    rust-crate    
 rand_core                          0.6.4                    rust-crate    
 rav1e                              0.7.1                    rust-crate    
-rav1e-libs                         0.7.1-r1                 apk           
+rav1e-libs                         0.7.1-r2                 apk           
 rayon                              1.8.0                    rust-crate    
 rayon-core                         1.12.0                   rust-crate    
 readline                           8.2.13-r1                apk           
