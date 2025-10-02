@@ -321,7 +321,7 @@ libspeexdsp1                    1.2.1-1ubuntu3                     deb     (+1 d
 libsqlite3-0                    3.45.1-1ubuntu2.5                  deb     (+1 duplicate)  
 libss2                          1.47.0-2.4~exp1ubuntu4.1           deb                     
 libssh-4                        0.10.6-2ubuntu0.1                  deb     (+1 duplicate)  
-libssl3t64                      3.0.13-0ubuntu3.5                  deb     (+1 duplicate)  
+libssl3t64                      3.0.13-0ubuntu3.6                  deb     (+1 duplicate)  
 libstdc++6                      14.2.0-4ubuntu2~24.04              deb     (+1 duplicate)  
 libstemmer0d                    2.2.0-4build1                      deb                     
 libsvtav1enc1d1                 1.7.0+dfsg-2build1                 deb     (+1 duplicate)  
@@ -430,7 +430,7 @@ ncurses-base                    6.4+20240113-1ubuntu2              deb
 ncurses-bin                     6.4+20240113-1ubuntu2              deb                     
 netcat-openbsd                  1.226-1ubuntu2                     deb                     
 ocl-icd-libopencl1              2.3.2-1build1                      deb     (+1 duplicate)  
-openssl                         3.0.13-0ubuntu3.5                  deb                     
+openssl                         3.0.13-0ubuntu3.6                  deb                     
 p7zip                           16.02+transitional.1               deb                     
 passwd                          1:4.13+dfsg1-4ubuntu3.2            deb                     
 perl-base                       5.38.2-3.2ubuntu0.2                deb                     

@@ -121,8 +121,8 @@ graphite2                  1.3.14-r6                apk
 gst-plugins-base           1.26.6-r0                apk           
 gstreamer                  1.26.6-r0                apk           
 gstreamer-ptp-helper       1.26.6-r0                apk           
-gtk+3.0                    3.24.50-r0               apk           
-gtk-update-icon-cache      3.24.50-r0               apk           
+gtk+3.0                    3.24.51-r0               apk           
+gtk-update-icon-cache      3.24.51-r0               apk           
 harfbuzz                   11.3.2-r0                apk           
 harfbuzz-subset            11.3.2-r0                apk           
 heck                       0.5.0                    rust-crate    
@@ -144,6 +144,7 @@ itertools                  0.14.0                   rust-crate
 ivf                        0.1.4                    rust-crate    
 jeepney                    0.9.0                    python        
 json-c                     0.18-r1                  apk           
+json-glib                  1.10.8-r0                apk           
 keyutils-libs              1.6.3-r4                 apk           
 kmod-libs                  34.2-r1                  apk           
 lab                        0.11.0                   rust-crate    
@@ -157,7 +158,7 @@ libatk-1.0                 2.58.0-r0                apk
 libatk-bridge-2.0          2.58.0-r0                apk           
 libb2                      0.98.1-r3                apk           
 libblkid                   2.41.1-r1                apk           
-libblockdev                3.1.1-r2                 apk           
+libblockdev                3.4.0-r0                 apk           
 libbluray                  1.3.4-r1                 apk           
 libbsd                     0.12.2-r0                apk           
 libbytesize                2.11-r0                  apk           
@@ -469,7 +470,7 @@ sqlite-libs                3.50.4-r1                apk
 ssl_client                 1.37.0-r23               apk           
 stable_deref_trait         1.2.0                    rust-crate    
 syn                        2.0.102                  rust-crate    
-tdb-libs                   1.4.13-r0                apk           
+tdb-libs                   1.4.14-r0                apk           
 terminal_size              0.4.2                    rust-crate    
 thiserror                  1.0.69                   rust-crate    
 thiserror                  2.0.12                   rust-crate    
@@ -481,8 +482,8 @@ tslib                      1.23-r0                  apk
 typing-extensions          4.15.0                   python        
 tzdata                     2025b-r0                 apk           
 uchardet-libs              0.0.8-r2                 apk           
-udisks2                    2.10.1-r3                apk           
-udisks2-libs               2.10.1-r3                apk           
+udisks2                    2.10.2-r0                apk           
+udisks2-libs               2.10.2-r0                apk           
 unicode-ident              1.0.18                   rust-crate    
 unicode-width              0.2.1                    rust-crate    
 utf8parse                  0.2.2                    rust-crate    
@@ -512,6 +513,7 @@ xvidcore                   1.3.7-r2                 apk
 xxhash                     3.5.0                    python        
 xz-libs                    5.8.1-r0                 apk           
 y4m                        0.8.0                    rust-crate    
+yaml                       0.2.5-r2                 apk           
 zeroconf                   0.147.2                  python        
 zerocopy                   0.8.25                   rust-crate    
 zlib                       1.3.1-r2                 apk           
