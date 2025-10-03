@@ -10,7 +10,7 @@ NAME                                    VERSION                         TYPE
 @vscode/deviceid                        0.1.1                           npm                    
 @vscode/iconv-lite-umd                  0.7.0                           npm                    
 @vscode/policy-watcher                  1.3.2                           npm                    
-@vscode/proxy-agent                     0.33.0                          npm                    
+@vscode/proxy-agent                     0.34.0                          npm                    
 @vscode/ripgrep                         1.15.14                         npm                    
 @vscode/spdlog                          0.15.2                          npm                    
 @vscode/sqlite3                         5.1.8-vscode                    npm                    
@@ -28,7 +28,7 @@ NAME                                    VERSION                         TYPE
 @xterm/addon-webgl                      0.19.0-beta.118                 npm                    
 @xterm/headless                         5.6.0-beta.118                  npm                    
 @xterm/xterm                            5.6.0-beta.118                  npm                    
-Code                                    1.104.2                         npm                    
+Code                                    1.104.3                         npm                    
 adduser                                 3.134                           deb                    
 adwaita-icon-theme                      43-1                            deb                    
 agent-base                              7.1.1                           npm                    
@@ -51,7 +51,7 @@ ca-certificates                         20230311+deb12u1                deb
 chownr                                  2.0.0                           npm                    
 chrome-remote-interface                 0.33.0                          npm                    
 clojure                                 1.0.0                           npm                    
-code                                    1.104.2-1758714318              deb                    
+code                                    1.104.3-1759409451              deb                    
 coffeescript                            1.0.0                           npm                    
 commander                               2.11.0                          npm                    
 commander                               8.3.0                           npm                    
@@ -356,7 +356,7 @@ libspeexdsp1                            1.2.1-1                         deb
 libsqlite3-0                            3.40.1-2+deb12u2                deb                    
 libss2                                  1.47.0-2+b2                     deb                    
 libssh2-1                               1.10.0-3+b1                     deb                    
-libssl3                                 3.0.17-1~deb12u2                deb                    
+libssl3                                 3.0.17-1~deb12u3                deb                    
 libstdc++6                              12.2.0-14+deb12u1               deb                    
 libsvtav1enc1                           1.4.1+dfsg-1                    deb                    
 libswresample4                          7:5.1.7-0+deb12u1               deb                    
@@ -476,7 +476,7 @@ ocl-icd-libopencl1                      2.3.1-1                         deb
 once                                    1.4.0                           npm                    
 open                                    10.1.2                          npm                    
 openssh-client                          1:9.2p1-2+deb12u7               deb                    
-openssl                                 3.0.17-1~deb12u2                deb                    
+openssl                                 3.0.17-1~deb12u3                deb                    
 opentype.js                             0.8.0                           npm                    
 passwd                                  1:4.13+dfsg1-1+deb12u1          deb                    
 pend                                    1.2.0                           npm                    
