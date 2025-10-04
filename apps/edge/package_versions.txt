@@ -123,7 +123,7 @@ libgstreamer-plugins-base1.0-0  1.26.6-3                     deb
 libgstreamer1.0-0               1.26.6-2                     deb     
 libgtk-3-0t64                   3.24.50-2                    deb     
 libgtk-3-common                 3.24.50-2                    deb     
-libharfbuzz0b                   11.5.0-1                     deb     
+libharfbuzz0b                   12.1.0-1                     deb     
 libhogweed6t64                  3.10.2-1                     deb     
 libhwy1t64                      1.2.0-2+b2                   deb     
 libice6                         2:1.1.1-1                    deb     
