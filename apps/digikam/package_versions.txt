@@ -2,7 +2,7 @@ NAME                       VERSION                  TYPE
 alpine-baselayout          3.6.8-r1                 apk     
 alpine-baselayout-data     3.6.8-r1                 apk     
 alpine-keys                2.5-r0                   apk     
-alpine-release             3.21.4-r0                apk     
+alpine-release             3.21.5-r0                apk     
 alsa-lib                   1.2.12-r0                apk     
 aom-libs                   3.11.0-r0                apk     
 apk-tools                  2.14.6-r3                apk     
@@ -11,10 +11,10 @@ avahi-libs                 0.8-r19                  apk
 bash                       5.2.37-r0                apk     
 breeze-icons               6.8.0-r0                 apk     
 brotli-libs                1.1.0-r2                 apk     
-busybox                    1.37.0-r12               apk     
-busybox-binsh              1.37.0-r12               apk     
+busybox                    1.37.0-r13               apk     
+busybox-binsh              1.37.0-r13               apk     
 c-ares                     1.34.5-r0                apk     
-ca-certificates-bundle     20250619-r0              apk     
+ca-certificates-bundle     20250911-r0              apk     
 cairo                      1.18.4-r0                apk     
 cairo-gobject              1.18.4-r0                apk     
 cdparanoia-libs            10.2-r14                 apk     
@@ -144,7 +144,7 @@ libcanberra                0.30-r11                 apk
 libcanberra-gstreamer      0.30-r11                 apk     
 libcanberra-pulse          0.30-r11                 apk     
 libcap2                    2.71-r0                  apk     
-libcrypto3                 3.3.4-r0                 apk     
+libcrypto3                 3.3.5-r0                 apk     
 libcurl                    8.14.1-r2                apk     
 libdav1d                   1.5.0-r0                 apk     
 libde265                   1.0.15-r0                apk     
@@ -212,7 +212,7 @@ libsndfile                 1.2.2-r2                 apk
 libsodium                  1.0.20-r0                apk     
 libsrt                     1.5.3-r0                 apk     
 libssh                     0.11.1-r0                apk     
-libssl3                    3.3.4-r0                 apk     
+libssl3                    3.3.5-r0                 apk     
 libstdc++                  14.2.0-r4                apk     
 libtasn1                   4.20.0-r0                apk     
 libtheora                  1.1.1-r18                apk     
@@ -245,7 +245,7 @@ libxkbcommon               1.7.0-r1                 apk
 libxkbcommon-x11           1.7.0-r1                 apk     
 libxkbfile                 1.1.3-r0                 apk     
 libxml2                    2.13.4-r6                apk     
-libxml2-utils              2.13.4-r6                apk     
+libxml2-utils              2.13.9-r0                apk     
 libxmu                     1.2.1-r0                 apk     
 libxrandr                  1.5.4-r1                 apk     
 libxrender                 0.9.11-r5                apk     
@@ -355,7 +355,7 @@ speexdsp                   1.2.1-r2                 apk
 spirv-tools                1.3.296.0-r0             apk     
 sqlite-libs                3.48.0-r4                apk     
 sratom                     0.6.16-r0                apk     
-ssl_client                 1.37.0-r12               apk     
+ssl_client                 1.37.0-r13               apk     
 tdb-libs                   1.4.12-r0                apk     
 tiff                       4.7.1-r0                 apk     
 tslib                      1.23-r0                  apk     
