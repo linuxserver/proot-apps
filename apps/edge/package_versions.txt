@@ -148,7 +148,7 @@ liblzma5                        5.8.1-1.1                    deb
 libmd0                          1.1.0-2+b1                   deb     
 libmount1                       2.41.2-2                     deb     
 libmp3lame0                     3.100-6+b3                   deb     
-libmpg123-0t64                  1.33.2-1                     deb     
+libmpg123-0t64                  1.33.3-1                     deb     
 libncursesw6                    6.5+20250216-2               deb     
 libnettle8t64                   3.10.2-1                     deb     
 libnghttp2-14                   1.64.0-1.1+b1                deb     

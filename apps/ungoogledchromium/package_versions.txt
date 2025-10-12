@@ -8,7 +8,7 @@ base-passwd                     3.6.7                                 deb
 bash                            5.2.37-2+b5                           deb       
 bsdutils                        1:2.41-5                              deb       
 ca-certificates                 20250419                              deb       
-chrome                          141.0.7390.65                         binary    
+chrome                          141.0.7390.76                         binary    
 coreutils                       9.7-3                                 deb       
 curl                            8.14.1-2                              deb       
 dash                            0.5.12-12                             deb       
@@ -210,7 +210,7 @@ libthai-data                    0.1.29-2                              deb
 libthai0                        0.1.29-2+b1                           deb       
 libtheoradec1                   1.2.0~alpha1+dfsg-6                   deb       
 libtheoraenc1                   1.2.0~alpha1+dfsg-6                   deb       
-libtiff6                        4.7.0-3                               deb       
+libtiff6                        4.7.0-3+deb13u1                       deb       
 libtinfo6                       6.5+20250216-2                        deb       
 libtwolame0                     0.4.0-2+b2                            deb       
 libudev1                        257.8-1~deb13u2                       deb       

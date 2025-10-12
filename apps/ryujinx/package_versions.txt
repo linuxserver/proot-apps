@@ -191,7 +191,7 @@ libthai-data                    0.1.29-2                              deb
 libthai0                        0.1.29-2+b1                           deb     
 libtheoradec1                   1.2.0~alpha1+dfsg-6                   deb     
 libtheoraenc1                   1.2.0~alpha1+dfsg-6                   deb     
-libtiff6                        4.7.0-3                               deb     
+libtiff6                        4.7.0-3+deb13u1                       deb     
 libtinfo6                       6.5+20250216-2                        deb     
 libtwolame0                     0.4.0-2+b2                            deb     
 libudev1                        257.8-1~deb13u2                       deb     
