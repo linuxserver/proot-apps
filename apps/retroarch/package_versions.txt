@@ -16,8 +16,8 @@ apk-tools                    2.14.7-r0                apk
 arg_enum_proc_macro          0.3.4                    rust-crate    
 arrayvec                     0.7.6                    rust-crate    
 as-slice                     0.2.1                    rust-crate    
-at-spi2-core                 2.58.0-r0                apk           
-at-spi2-core-libs            2.58.0-r0                apk           
+at-spi2-core                 2.58.1-r0                apk           
+at-spi2-core-libs            2.58.1-r0                apk           
 av-metrics                   0.9.1                    rust-crate    
 av-scenechange               0.14.1                   rust-crate    
 av1-grain                    0.2.4                    rust-crate    
@@ -113,8 +113,8 @@ lame-libs                    3.100-r5                 apk
 lcms2                        2.17-r0                  apk           
 libSvtAv1Enc                 3.1.2-r0                 apk           
 libasyncns                   0.8-r4                   apk           
-libatk-1.0                   2.58.0-r0                apk           
-libatk-bridge-2.0            2.58.0-r0                apk           
+libatk-1.0                   2.58.1-r0                apk           
+libatk-bridge-2.0            2.58.1-r0                apk           
 libb2                        0.98.1-r3                apk           
 libblkid                     2.41.1-r1                apk           
 libbluray                    1.4.0-r0                 apk           
@@ -312,7 +312,7 @@ miniupnpc                    2.3.2-r0                 apk
 mpdecimal                    4.0.1-r0                 apk           
 mpg123-libs                  1.33.2-r0                apk           
 mtdev                        1.1.7-r0                 apk           
-musl                         1.2.5-r20                apk           
+musl                         1.2.6_git20250919-r0     apk           
 musl-utils                   1.2.5-r9                 apk           
 ncurses-terminfo-base        6.5_p20250816-r0         apk           
 netcat-openbsd               1.229.1-r0               apk           
@@ -346,10 +346,10 @@ profiling-procmacros         1.0.16                   rust-crate
 pugixml                      1.15-r0                  apk           
 pulseaudio                   17.0-r5                  apk           
 pulseaudio-alsa              17.0-r5                  apk           
-pyc                          3.12.11-r0               apk           
-python3                      3.12.11-r0               apk           
-python3-pyc                  3.12.11-r0               apk           
-python3-pycache-pyc0         3.12.11-r0               apk           
+pyc                          3.12.12-r0               apk           
+python3                      3.12.12-r0               apk           
+python3-pyc                  3.12.12-r0               apk           
+python3-pycache-pyc0         3.12.12-r0               apk           
 qt6-qtbase                   6.9.3-r0                 apk           
 qt6-qtbase-x11               6.9.3-r0                 apk           
 quote                        1.0.40                   rust-crate    
