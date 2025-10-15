@@ -210,7 +210,7 @@ libretro-meteor              0_git20201228-r0         apk
 libretro-mgba                0_git20250125-r0         apk           
 libretro-mrboom              0_git20241021-r1         apk           
 libretro-mu                  0_git20220317-r0         apk           
-libretro-mupen64plus         0_git20250121-r0         apk           
+libretro-mupen64plus         0_git20250820-r0         apk           
 libretro-neocd               0_git20220325-r1         apk           
 libretro-nestopia            0_git20250119-r0         apk           
 libretro-nxengine            0_git20220301-r0         apk           
@@ -312,7 +312,7 @@ miniupnpc                    2.3.2-r0                 apk
 mpdecimal                    4.0.1-r0                 apk           
 mpg123-libs                  1.33.2-r0                apk           
 mtdev                        1.1.7-r0                 apk           
-musl                         1.2.6_git20250919-r1     apk           
+musl                         1.2.5-r21                apk           
 musl-utils                   1.2.5-r9                 apk           
 ncurses-terminfo-base        6.5_p20250816-r0         apk           
 netcat-openbsd               1.229.1-r0               apk           
