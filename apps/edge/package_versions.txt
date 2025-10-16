@@ -72,7 +72,7 @@ libcap-ng0                      0.8.5-4+b1                   deb
 libcap2                         1:2.75-10+b1                 deb     
 libcap2-bin                     1:2.75-10+b1                 deb     
 libcloudproviders0              0.3.6-3                      deb     
-libcodec2-1.2                   1.2.0-3                      deb     
+libcodec2-1.2                   1.2.0-4                      deb     
 libcolord2                      1.4.8-1                      deb     
 libcom-err2                     1.47.2-3+b3                  deb     
 libcrypt1                       1:4.4.38-1                   deb     
@@ -109,7 +109,7 @@ libgdk-pixbuf-2.0-0             2.44.3+dfsg-3                deb
 libgdk-pixbuf2.0-common         2.44.3+dfsg-3                deb     
 libgl1                          1.7.0-1+b2                   deb     
 libgl1-mesa-dri                 25.2.4-1                     deb     
-libglib2.0-0t64                 2.84.4-3                     deb     
+libglib2.0-0t64                 2.86.0-5                     deb     
 libglvnd0                       1.7.0-1+b2                   deb     
 libglx-mesa0                    25.2.4-1                     deb     
 libglx0                         1.7.0-1+b2                   deb     
@@ -156,7 +156,7 @@ libnghttp3-9                    1.12.0-1                     deb
 libngtcp2-16                    1.16.0-1                     deb     
 libngtcp2-crypto-ossl0          1.16.0-1                     deb     
 libnspr4                        2:4.37-1                     deb     
-libnss3                         2:3.116-1                    deb     
+libnss3                         2:3.117-1                    deb     
 libnuma1                        2.0.19-1                     deb     
 libogg0                         1.3.6-1                      deb     
 libopenjp2-7                    2.5.3-2.1                    deb     
@@ -206,8 +206,8 @@ libssl3t64                      3.5.4-1                      deb
 libstdc++6                      15.2.0-4                     deb     
 libsvtav1enc2                   2.3.0+dfsg-1                 deb     
 libswresample5                  7:7.1.2-1+b1                 deb     
-libsystemd-shared               258-1                        deb     
-libsystemd0                     258-1                        deb     
+libsystemd-shared               258.1-1                      deb     
+libsystemd0                     258.1-1                      deb     
 libtasn1-6                      4.20.0-2                     deb     
 libtdb1                         2:1.4.14+samba4.23.1+dfsg-1  deb     
 libthai-data                    0.1.29-2                     deb     
@@ -217,7 +217,7 @@ libtheoraenc2                   1.2.0+dfsg-6                 deb
 libtiff6                        4.7.1-1                      deb     
 libtinfo6                       6.5+20250216-2               deb     
 libtwolame0                     0.4.0-2+b2                   deb     
-libudev1                        258-1                        deb     
+libudev1                        258.1-1                      deb     
 libunistring5                   1.3-2                        deb     
 libunwind8                      1.8.1-0.1                    deb     
 libuuid1                        2.41.2-2                     deb     
@@ -302,11 +302,11 @@ pulseaudio-utils                17.0+dfsg1-2+b1              deb
 sed                             4.9-2                        deb     
 shared-mime-info                2.4-5+b3                     deb     
 sqv                             1.3.0-3                      deb     
-systemd                         258-1                        deb     
+systemd                         258.1-1                      deb     
 sysvinit-utils                  3.14-4                       deb     
 tar                             1.35+dfsg-3.1                deb     
 tzdata                          2025b-5                      deb     
-udev                            258-1                        deb     
+udev                            258.1-1                      deb     
 util-linux                      2.41.2-2                     deb     
 wget                            1.25.0-2                     deb     
 x11-common                      1:7.7+25                     deb     
