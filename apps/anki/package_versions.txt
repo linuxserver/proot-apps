@@ -224,7 +224,7 @@ log                                0.4.20                   rust-crate
 markdown                           3.8                      python        
 markupsafe                         3.0.2                    python        
 maybe-rayon                        0.1.1                    rust-crate    
-mbedtls                            3.6.4-r0                 apk           
+mbedtls                            3.6.5-r0                 apk           
 memchr                             2.7.1                    rust-crate    
 mesa                               25.1.9-r0                apk           
 mesa-dri-gallium                   25.1.9-r0                apk           

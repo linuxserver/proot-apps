@@ -2,6 +2,7 @@ NAME                                                    VERSION                 
 SparseBitSet                                            1.3                                                                           java-archive                    
 adduser                                                 3.134                                                                         deb                             
 adwaita-icon-theme                                      43-1                                                                          deb                             
+analytics                                               1.0-SNAPSHOT                                                                  java-archive                    
 animal-sniffer-annotations                              1.17                                                                          java-archive                    
 annotations                                             UNKNOWN                                                                       java-archive                    
 api                                                     1.0-SNAPSHOT                                                                  java-archive                    
@@ -200,9 +201,9 @@ ipaddress                                               5.3.3                   
 iso-codes                                               4.15.0-1                                                                      deb                             
 isorelax                                                20090621                                                                      java-archive  (+3 duplicates)   
 j2objc-annotations                                      1.1                                                                           java-archive                    
-jackson-annotations                                     2.17.1                                                                        java-archive  (+2 duplicates)   
-jackson-core                                            2.17.1                                                                        java-archive  (+2 duplicates)   
-jackson-databind                                        2.17.1                                                                        java-archive  (+4 duplicates)   
+jackson-annotations                                     2.17.1                                                                        java-archive  (+4 duplicates)   
+jackson-core                                            2.17.1                                                                        java-archive  (+4 duplicates)   
+jackson-databind                                        2.17.1                                                                        java-archive  (+6 duplicates)   
 jackson-datatype-jsr310                                 2.17.1                                                                        java-archive  (+1 duplicate)    
 jai-codec                                               1.1.3                                                                         java-archive                    
 jai-core                                                1.1.3                                                                         java-archive                    
@@ -508,7 +509,7 @@ lucene-queryparser                                      5.5.5 b3441673c21c837620
 lucene-sandbox                                          5.5.5 b3441673c21c83762035dc21d3827ad16aa17b68- sarowe - 2017-10-20 08:57:52  java-archive                    
 lucene-spatial                                          5.5.5 b3441673c21c83762035dc21d3827ad16aa17b68- sarowe - 2017-10-20 08:57:53  java-archive                    
 lucene-spatial3d                                        5.5.5 b3441673c21c83762035dc21d3827ad16aa17b68- sarowe - 2017-10-20 08:57:53  java-archive                    
-maltego                                                 4.10.1                                                                        deb                             
+maltego                                                 4.11.0                                                                        deb                             
 matching                                                1.0-SNAPSHOT                                                                  java-archive                    
 mawk                                                    1.3.4.20200120-3.1                                                            deb                             
 media-types                                             10.0.0                                                                        deb                             
@@ -771,7 +772,7 @@ truffle-api                                             20.3.0                  
 truffle-api                                             UNKNOWN                                                                       java-archive                    
 tx-inputs-global                                        1.0-SNAPSHOT                                                                  java-archive                    
 tx-inputs-global-ui                                     1.0-SNAPSHOT                                                                  java-archive                    
-tx3-java-api                                            1.1.26                                                                        java-archive                    
+tx3-java-api                                            1.1.30                                                                        java-archive                    
 txw2                                                    2.2.11                                                                        java-archive  (+1 duplicate)    
 typing                                                  1.0-SNAPSHOT                                                                  java-archive                    
 typing-descriptor                                       1.0-SNAPSHOT                                                                  java-archive                    

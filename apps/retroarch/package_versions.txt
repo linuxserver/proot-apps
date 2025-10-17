@@ -294,7 +294,7 @@ linux-raw-sys                0.9.4                    rust-crate
 llvm21-libs                  21.1.2-r1                apk           
 log                          0.4.27                   rust-crate    
 maybe-rayon                  0.1.1                    rust-crate    
-mbedtls                      3.6.4-r0                 apk           
+mbedtls                      3.6.5-r0                 apk           
 mbedtls2                     2.28.10-r0               apk           
 memchr                       2.7.5                    rust-crate    
 mesa                         25.2.4-r0                apk           

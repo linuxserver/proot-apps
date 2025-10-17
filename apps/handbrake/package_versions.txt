@@ -141,7 +141,7 @@ libgsm1                         1.0.22-1+b2                  deb
 libgssapi-krb5-2                1.21.3-5                     deb     
 libgstreamer-gl1.0-0            1.26.7-1                     deb     
 libgstreamer-plugins-base1.0-0  1.26.7-1                     deb     
-libgstreamer1.0-0               1.26.6-2                     deb     
+libgstreamer1.0-0               1.26.7-1                     deb     
 libgtk-4-1                      4.20.2+ds-1                  deb     
 libgtk-4-bin                    4.20.2+ds-1                  deb     
 libgtk-4-common                 4.20.2+ds-1                  deb     
@@ -254,7 +254,7 @@ libswscale8                     7:7.1.2-1+b1                 deb
 libsystemd-shared               258.1-1                      deb     
 libsystemd0                     258.1-1                      deb     
 libtasn1-6                      4.20.0-2                     deb     
-libtdb1                         2:1.4.14+samba4.23.1+dfsg-1  deb     
+libtdb1                         2:1.4.14+samba4.23.2+dfsg-1  deb     
 libthai-data                    0.1.29-2                     deb     
 libthai0                        0.1.29-2+b1                  deb     
 libtheoradec2                   1.2.0+dfsg-6                 deb     
@@ -343,7 +343,7 @@ mount                           2.41.2-2                     deb
 ncurses-base                    6.5+20250216-2               deb     
 ncurses-bin                     6.5+20250216-2               deb     
 netcat-openbsd                  1.229-1                      deb     
-ocl-icd-libopencl1              2.3.3-1                      deb     
+ocl-icd-libopencl1              2.3.4-1                      deb     
 openssl                         3.5.4-1                      deb     
 openssl-provider-legacy         3.5.4-1                      deb     
 passwd                          1:4.18.0-1                   deb     

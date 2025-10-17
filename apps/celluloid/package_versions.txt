@@ -200,7 +200,7 @@ lilv-libs                  0.24.24-r1               apk
 llvm19-libs                19.1.4-r1                apk     
 luajit                     2.1_p20240815-r0         apk     
 lz4-libs                   1.10.0-r0                apk     
-mbedtls                    3.6.4-r0                 apk     
+mbedtls                    3.6.5-r0                 apk     
 mesa                       24.2.8-r0                apk     
 mesa-dri-gallium           24.2.8-r0                apk     
 mesa-egl                   24.2.8-r0                apk     

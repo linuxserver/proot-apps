@@ -178,7 +178,7 @@ libepoxy                   1.5.10-r1                apk
 libevdev                   1.13.3-r0                apk           
 libevent                   2.1.12-r8                apk           
 libexpat                   2.7.3-r0                 apk           
-libfdisk                   2.41.1-r1                apk           
+libfdisk                   2.41.2-r0                apk           
 libffi                     3.5.2-r0                 apk           
 libflac                    1.4.3-r2                 apk           
 libgcc                     15.2.0-r0                apk           
@@ -278,7 +278,7 @@ log                        0.4.27                   rust-crate
 lxml                       6.0.1                    python        
 markdown                   3.9                      python        
 maybe-rayon                0.1.1                    rust-crate    
-mbedtls                    3.6.4-r0                 apk           
+mbedtls                    3.6.5-r0                 apk           
 mechanize                  0.4.10                   python        
 memchr                     2.7.5                    rust-crate    
 memoffset                  0.9.0                    rust-crate    
