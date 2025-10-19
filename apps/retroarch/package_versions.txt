@@ -376,7 +376,7 @@ simd_helpers                 0.1.0                    rust-crate
 snappy                       1.2.2-r0                 apk           
 soxr                         0.1.3-r7                 apk           
 speexdsp                     1.2.1-r2                 apk           
-spirv-tools                  1.4.321.0-r0             apk           
+spirv-tools                  1.4.321.0-r1             apk           
 sqlite-libs                  3.50.4-r1                apk           
 ssl_client                   1.37.0-r24               apk           
 stable_deref_trait           1.2.0                    rust-crate    

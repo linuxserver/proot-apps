@@ -340,7 +340,7 @@ pixman                     0.46.4-r0                apk
 pkgconf                    2.5.1-r0                 apk           
 podofo                     0.10.4-r0                apk           
 polkit-noelogind-libs      126-r0                   apk           
-poppler                    25.09.1-r0               apk           
+poppler                    25.10.0-r0               apk           
 ppv-lite86                 0.2.21                   rust-crate    
 proc-macro2                1.0.95                   rust-crate    
 profiling                  1.0.16                   rust-crate    
@@ -466,7 +466,7 @@ soupsieve                  2.7                      python
 soxr                       0.1.3-r7                 apk           
 speech-dispatcher          0.12.1-r0                apk           
 speexdsp                   1.2.1-r2                 apk           
-spirv-tools                1.4.321.0-r0             apk           
+spirv-tools                1.4.321.0-r1             apk           
 sqlite-libs                3.50.4-r1                apk           
 ssl_client                 1.37.0-r24               apk           
 stable_deref_trait         1.2.0                    rust-crate    
