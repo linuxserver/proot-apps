@@ -68,7 +68,7 @@ libcap2                    2.76-r0                  apk
 libcrypto3                 3.3.2-r4                 apk     
 libcurl                    8.16.0-r1                apk     
 libdrm                     2.4.127-r0               apk     
-libeconf                   0.7.10-r0                apk     
+libeconf                   0.8.0-r0                 apk     
 libelf                     0.193-r0                 apk     
 libepoxy                   1.5.10-r1                apk     
 libevdev                   1.13.3-r0                apk     
