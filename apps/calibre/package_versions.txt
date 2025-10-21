@@ -175,15 +175,15 @@ libdrm                     2.4.127-r0               apk
 libeconf                   0.8.0-r0                 apk           
 libelf                     0.193-r0                 apk           
 libepoxy                   1.5.10-r1                apk           
-libevdev                   1.13.3-r0                apk           
+libevdev                   1.13.5-r0                apk           
 libevent                   2.1.12-r8                apk           
 libexpat                   2.7.3-r0                 apk           
 libfdisk                   2.41.2-r0                apk           
 libffi                     3.5.2-r0                 apk           
 libflac                    1.4.3-r2                 apk           
-libgcc                     15.2.0-r0                apk           
+libgcc                     15.2.0-r1                apk           
 libgcrypt                  1.11.2-r0                apk           
-libgomp                    15.2.0-r0                apk           
+libgomp                    15.2.0-r1                apk           
 libgpg-error               1.55-r0                  apk           
 libgudev                   238-r1                   apk           
 libhunspell                1.7.2-r4                 apk           
@@ -192,7 +192,7 @@ libice                     1.1.2-r0                 apk
 libidn                     1.43-r0                  apk           
 libidn2                    2.3.8-r0                 apk           
 libimagequant              4.2.2-r0                 apk           
-libinput-libs              1.28.1-r0                apk           
+libinput-libs              1.29.1-r0                apk           
 libintl                    0.24.1-r1                apk           
 libjpeg-turbo              3.1.2-r0                 apk           
 libjxl                     0.11.1-r1                apk           
@@ -224,7 +224,7 @@ libsodium                  1.0.20-r0                apk
 libsrt                     1.5.3-r1                 apk           
 libssh                     0.11.3-r0                apk           
 libssl3                    3.3.2-r4                 apk           
-libstdc++                  15.2.0-r0                apk           
+libstdc++                  15.2.0-r1                apk           
 libstemmer                 2.2.0-r0                 apk           
 libtasn1                   4.20.0-r0                apk           
 libtheora                  1.2.0-r0                 apk           
