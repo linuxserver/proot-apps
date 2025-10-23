@@ -37,7 +37,7 @@ fontconfig                 2.17.1-r0                apk
 freetype                   2.13.3-r0                apk     
 fribidi                    1.0.16-r2                apk     
 gdbm                       1.26-r0                  apk     
-gdk-pixbuf                 2.44.3-r1                apk     
+gdk-pixbuf                 2.44.4-r0                apk     
 glib                       2.86.0-r1                apk     
 gmp                        6.3.0-r4                 apk     
 gnutls                     3.8.8-r0                 apk     
@@ -55,7 +55,7 @@ hwdata-pci                 0.400-r0                 apk
 icu-data-en                76.1-r1                  apk     
 icu-libs                   76.1-r1                  apk     
 kdsingleapplication        1.1.0-r0                 apk     
-kguiaddons                 6.18.0-r0                apk     
+kguiaddons                 6.19.0-r0                apk     
 lame-libs                  3.100-r5                 apk     
 libasyncns                 0.8-r4                   apk     
 libatk-1.0                 2.58.1-r0                apk     
