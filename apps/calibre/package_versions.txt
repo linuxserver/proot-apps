@@ -427,7 +427,7 @@ qt6-qtbase                 6.9.3-r0                 apk
 qt6-qtbase-private-dev     6.9.3-r0                 apk           
 qt6-qtbase-x11             6.9.3-r0                 apk           
 qt6-qtconnectivity         6.9.3-r0                 apk           
-qt6-qtdeclarative          6.9.3-r0                 apk           
+qt6-qtdeclarative          6.9.3-r1                 apk           
 qt6-qtimageformats         6.9.3-r0                 apk           
 qt6-qtmultimedia           6.9.3-r0                 apk           
 qt6-qtmultimedia-ffmpeg    6.9.3-r0                 apk           

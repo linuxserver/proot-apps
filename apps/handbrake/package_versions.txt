@@ -109,7 +109,7 @@ libexpat1                       2.7.3-1                      deb
 libffi8                         3.5.2-2                      deb     
 libfftw3-double3                3.3.10-2+b1                  deb     
 libfftw3-single3                3.3.10-2+b1                  deb     
-libflac14                       1.5.0+ds-2                   deb     
+libflac14                       1.5.0+ds-3                   deb     
 libflite1                       2.2-7                        deb     
 libfontconfig1                  2.15.0-2.4                   deb     
 libfontenc1                     1:1.1.8-1+b2                 deb     
@@ -342,7 +342,7 @@ mesa-vulkan-drivers             25.2.5-1                     deb
 mount                           2.41.2-4                     deb     
 ncurses-base                    6.5+20250216-2               deb     
 ncurses-bin                     6.5+20250216-2               deb     
-netcat-openbsd                  1.229-1                      deb     
+netcat-openbsd                  1.234-1                      deb     
 ocl-icd-libopencl1              2.3.4-1                      deb     
 openssl                         3.5.4-1                      deb     
 openssl-provider-legacy         3.5.4-1                      deb     

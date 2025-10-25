@@ -20,6 +20,7 @@ carrotsearch-hppc                         0.9.1                           java-a
 client                                    UNKNOWN                         java-archive                   
 clikt                                     UNKNOWN                         java-archive                   
 clojure                                   1.0.0                           npm                            
+cloud                                     UNKNOWN                         java-archive                   
 cloud-config-client                       UNKNOWN                         java-archive                   
 cmake                                     0.0.17                          npm                            
 coffeescript                              1.0.0                           npm                            
@@ -29,6 +30,7 @@ completion-ranking-python-with-full-line  UNKNOWN                         java-a
 completion-ranking-sh                     UNKNOWN                         java-archive                   
 configuration                             UNKNOWN                         java-archive                   
 core                                      6.6.0                           java-archive                   
+core                                      UNKNOWN                         java-archive                   
 coreutils                                 9.1-1                           deb                            
 cpp                                       1.0.0                           npm                            
 csharp                                    1.0.0                           npm                            
@@ -393,7 +395,7 @@ ncurses-bin                               6.4-4                           deb
 netcat-openbsd                            1.219-1                         deb                            
 objective-c                               1.0.0                           npm                            
 ocl-icd-libopencl1                        2.3.1-1                         deb                            
-openjdk                                   21.0.8+9-b1038.72               binary                         
+openjdk                                   21.0.8+9-b1038.73               binary                         
 openssh-client                            1:9.2p1-2+deb12u7               deb                            
 openssl                                   3.0.17-1~deb12u3                deb                            
 oshi-core                                 6.6.0                           java-archive                   

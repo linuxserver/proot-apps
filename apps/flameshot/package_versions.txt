@@ -169,7 +169,7 @@ python3-pyc                3.12.12-r0               apk
 python3-pycache-pyc0       3.12.12-r0               apk     
 qt6-qtbase                 6.9.3-r0                 apk     
 qt6-qtbase-x11             6.9.3-r0                 apk     
-qt6-qtdeclarative          6.9.3-r0                 apk     
+qt6-qtdeclarative          6.9.3-r1                 apk     
 qt6-qtsvg                  6.9.3-r0                 apk     
 qt6-qtwayland              6.9.3-r0                 apk     
 readline                   8.3.1-r0                 apk     
