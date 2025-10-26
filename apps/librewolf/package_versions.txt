@@ -125,7 +125,7 @@ libice                     1.1.2-r0                 apk
 libidn2                    2.3.8-r0                 apk           
 libintl                    0.24.1-r1                apk           
 libjpeg-turbo              3.1.2-r0                 apk           
-libjxl                     0.11.1-r1                apk           
+libjxl                     0.11.1-r2                apk           
 libltdl                    2.5.4-r1                 apk           
 libmagic                   5.46-r2                  apk           
 libmd                      1.1.0-r0                 apk           
@@ -151,7 +151,7 @@ libva                      2.22.0-r1                apk
 libva-intel-driver         2.4.1-r2                 apk           
 libvdpau                   1.5-r4                   apk           
 libvorbis                  1.3.7-r2                 apk           
-libvpl                     2.15.0-r0                apk           
+libvpl                     2.15.0-r1                apk           
 libvpx                     1.15.2-r0                apk           
 libwebp                    1.6.0-r0                 apk           
 libwebpdemux               1.6.0-r0                 apk           
@@ -201,7 +201,7 @@ mpg123-libs                1.33.2-r0                apk
 musl                       1.2.5-r21                apk           
 musl-utils                 1.2.5-r9                 apk           
 ncurses-terminfo-base      6.5_p20251010-r0         apk           
-netcat-openbsd             1.229.1-r0               apk           
+netcat-openbsd             1.234.1-r0               apk           
 nettle                     3.10.2-r0                apk           
 new_debug_unreachable      1.0.6                    rust-crate    
 nghttp2-libs               1.67.1-r0                apk           

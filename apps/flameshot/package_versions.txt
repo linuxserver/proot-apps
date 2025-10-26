@@ -79,7 +79,7 @@ libgcc                     15.2.0-r1                apk
 libgomp                    15.2.0-r1                apk     
 libice                     1.1.2-r0                 apk     
 libidn2                    2.3.8-r0                 apk     
-libinput-libs              1.29.1-r0                apk     
+libinput-libs              1.29.2-r0                apk     
 libintl                    0.24.1-r1                apk     
 libjpeg-turbo              3.1.2-r0                 apk     
 libltdl                    2.5.4-r1                 apk     
@@ -150,7 +150,7 @@ mtdev                      1.1.7-r0                 apk
 musl                       1.2.5-r21                apk     
 musl-utils                 1.2.5-r9                 apk     
 ncurses-terminfo-base      6.5_p20251010-r0         apk     
-netcat-openbsd             1.229.1-r0               apk     
+netcat-openbsd             1.234.1-r0               apk     
 nettle                     3.10.2-r0                apk     
 nghttp2-libs               1.67.1-r0                apk     
 nghttp3                    1.11.0-r0                apk     
