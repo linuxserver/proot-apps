@@ -98,7 +98,7 @@ libepoxy0                       1.5.10-2                     deb
 libexpat1                       2.7.3-1                      deb     
 libffi8                         3.5.2-2                      deb     
 libfftw3-single3                3.3.10-2+b1                  deb     
-libflac14                       1.5.0+ds-3                   deb     
+libflac14                       1.5.0+ds-4                   deb     
 libfontconfig1                  2.15.0-2.4                   deb     
 libfontenc1                     1:1.1.8-1+b2                 deb     
 libfreetype6                    2.13.3+dfsg-1                deb     
@@ -265,7 +265,7 @@ libxi6                          2:1.8.2-1                    deb
 libxinerama1                    2:1.1.4-3+b4                 deb     
 libxkbcommon0                   1.7.0-2.1                    deb     
 libxkbfile1                     1:1.1.0-1+b4                 deb     
-libxml2-16                      2.15.1+dfsg-0.2              deb     
+libxml2-16                      2.15.1+dfsg-0.3              deb     
 libxmu6                         2:1.1.3-3+b4                 deb     
 libxpm4                         1:3.5.17-1+b3                deb     
 libxrandr2                      2:1.5.4-1+b3                 deb     
