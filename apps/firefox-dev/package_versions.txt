@@ -60,9 +60,9 @@ equator-macro              0.4.2                    rust-crate
 errno                      0.3.12                   rust-crate    
 eudev-libs                 3.2.14-r5                apk           
 fern                       0.7.1                    rust-crate    
-ffmpeg7-libavcodec         7.1.2-r3                 apk           
-ffmpeg7-libavutil          7.1.2-r3                 apk           
-ffmpeg7-libswresample      7.1.2-r3                 apk           
+ffmpeg7-libavcodec         7.1.2-r4                 apk           
+ffmpeg7-libavutil          7.1.2-r4                 apk           
+ffmpeg7-libswresample      7.1.2-r4                 apk           
 fftw-single-libs           3.3.10-r7                apk           
 file                       5.46-r2                  apk           
 firefox-developer-edition  145.0_beta4-r0           apk           
@@ -109,13 +109,13 @@ libblkid                   2.41.2-r0                apk
 libbsd                     0.12.2-r0                apk           
 libbz2                     1.0.8-r6                 apk           
 libc                       0.2.172                  rust-crate    
-libcap2                    2.76-r0                  apk           
+libcap2                    2.77-r0                  apk           
 libcrypto3                 3.3.2-r4                 apk           
 libcurl                    8.16.0-r1                apk           
 libdav1d                   1.5.1-r0                 apk           
 libdrm                     2.4.127-r0               apk           
 libeconf                   0.8.0-r0                 apk           
-libelf                     0.193-r0                 apk           
+libelf                     0.194-r0                 apk           
 libepoxy                   1.5.10-r1                apk           
 libevent                   2.1.12-r8                apk           
 libexpat                   2.7.3-r0                 apk           
@@ -128,7 +128,7 @@ libice                     1.1.2-r0                 apk
 libidn2                    2.3.8-r0                 apk           
 libintl                    0.24.1-r1                apk           
 libjpeg-turbo              3.1.2-r0                 apk           
-libjxl                     0.11.1-r2                apk           
+libjxl                     0.11.1-r3                apk           
 libltdl                    2.5.4-r1                 apk           
 libmagic                   5.46-r2                  apk           
 libmd                      1.1.0-r0                 apk           

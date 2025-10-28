@@ -64,12 +64,12 @@ libb2                      0.98.1-r3                apk
 libblkid                   2.41.2-r0                apk     
 libbsd                     0.12.2-r0                apk     
 libbz2                     1.0.8-r6                 apk     
-libcap2                    2.76-r0                  apk     
+libcap2                    2.77-r0                  apk     
 libcrypto3                 3.3.2-r4                 apk     
 libcurl                    8.16.0-r1                apk     
 libdrm                     2.4.127-r0               apk     
 libeconf                   0.8.0-r0                 apk     
-libelf                     0.193-r0                 apk     
+libelf                     0.194-r0                 apk     
 libepoxy                   1.5.10-r1                apk     
 libevdev                   1.13.5-r0                apk     
 libexpat                   2.7.3-r0                 apk     

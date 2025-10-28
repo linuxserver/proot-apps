@@ -14,8 +14,8 @@ dbus-bin                        1.16.2-2                     deb
 dbus-daemon                     1.16.2-2                     deb     
 dbus-session-bus-common         1.16.2-2                     deb     
 dbus-x11                        1.16.2-2                     deb     
-dconf-gsettings-backend         0.49.0-1                     deb     
-dconf-service                   0.49.0-1                     deb     
+dconf-gsettings-backend         0.49.0-2                     deb     
+dconf-service                   0.49.0-2                     deb     
 debconf                         1.5.91                       deb     
 debian-archive-keyring          2025.1                       deb     
 debianutils                     5.23.2                       deb     
@@ -31,14 +31,14 @@ fonts-noto-mono                 20201225-2                   deb
 gcc-15-base                     15.2.0-7                     deb     
 grep                            3.12-1                       deb     
 gstreamer1.0-gl                 1.26.7-1                     deb     
-gtk-update-icon-cache           4.20.2+ds-1                  deb     
+gtk-update-icon-cache           4.20.2+ds-2                  deb     
 gzip                            1.13-1                       deb     
 handbrake                       1.9.2+ds1-1+b4               deb     
 hicolor-icon-theme              0.18-2                       deb     
 hostname                        3.25                         deb     
 init-system-helpers             1.69                         deb     
 iso-codes                       4.18.0-1                     deb     
-keyboard-configuration          1.243                        deb     
+keyboard-configuration          1.244                        deb     
 libaacs0                        0.11.1-4+b1                  deb     
 libabsl20240722                 20240722.0-4                 deb     
 libacl1                         2.3.2-2+b1                   deb     
@@ -81,7 +81,7 @@ libchromaprint1                 1.6.0-2                      deb
 libcjson1                       1.7.18-4                     deb     
 libcloudproviders0              0.3.6-3                      deb     
 libcodec2-1.2                   1.2.0-4                      deb     
-libcolord2                      1.4.8-1                      deb     
+libcolord2                      1.4.8-2                      deb     
 libcom-err2                     1.47.2-3+b3                  deb     
 libcrypt1                       1:4.4.38-1                   deb     
 libcups2t64                     2.4.14-1                     deb     
@@ -90,7 +90,7 @@ libdatrie1                      0.2.13-4                     deb
 libdav1d7                       1.5.1-1                      deb     
 libdb5.3t64                     5.3.28+dfsg2-10              deb     
 libdbus-1-3                     1.16.2-2                     deb     
-libdconf1                       0.49.0-1                     deb     
+libdconf1                       0.49.0-2                     deb     
 libdebconfclient0               0.280                        deb     
 libdeflate0                     1.23-2                       deb     
 libdrm-amdgpu1                  2.4.127-1                    deb     
@@ -130,7 +130,7 @@ libglx-mesa0                    25.2.5-1                     deb
 libglx0                         1.7.0-1+b2                   deb     
 libgme0                         0.6.3-7+b2                   deb     
 libgmp10                        2:6.3.0+dfsg-5               deb     
-libgnutls30t64                  3.8.10-2                     deb     
+libgnutls30t64                  3.8.10-3                     deb     
 libgomp1                        15.2.0-7                     deb     
 libgpg-error-l10n               1.56-2                       deb     
 libgpg-error0                   1.56-2                       deb     
@@ -142,9 +142,9 @@ libgssapi-krb5-2                1.21.3-5                     deb
 libgstreamer-gl1.0-0            1.26.7-1                     deb     
 libgstreamer-plugins-base1.0-0  1.26.7-1                     deb     
 libgstreamer1.0-0               1.26.7-1                     deb     
-libgtk-4-1                      4.20.2+ds-1                  deb     
-libgtk-4-bin                    4.20.2+ds-1                  deb     
-libgtk-4-common                 4.20.2+ds-1                  deb     
+libgtk-4-1                      4.20.2+ds-2                  deb     
+libgtk-4-bin                    4.20.2+ds-2                  deb     
+libgtk-4-common                 4.20.2+ds-2                  deb     
 libgudev-1.0-0                  238-7                        deb     
 libharfbuzz-subset0             12.1.0-1                     deb     
 libharfbuzz0b                   12.1.0-1                     deb     

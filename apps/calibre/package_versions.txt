@@ -45,7 +45,7 @@ cdparanoia-libs            10.2-r14                 apk
 cfg-if                     1.0.0                    rust-crate    
 cfg-if                     1.0.1                    rust-crate    
 chardet                    5.2.0                    python        
-cjson                      1.7.18-r1                apk           
+cjson                      1.7.19-r1                apk           
 clap                       4.5.40                   rust-crate    
 clap_builder               4.5.40                   rust-crate    
 clap_complete              4.5.54                   rust-crate    
@@ -86,11 +86,11 @@ espeak-ng                  1.52.0-r0                apk
 eudev-libs                 3.2.14-r5                apk           
 feedparser                 6.0.12                   python        
 fern                       0.7.1                    rust-crate    
-ffmpeg-libavcodec          8.0-r2                   apk           
-ffmpeg-libavformat         8.0-r2                   apk           
-ffmpeg-libavutil           8.0-r2                   apk           
-ffmpeg-libswresample       8.0-r2                   apk           
-ffmpeg-libswscale          8.0-r2                   apk           
+ffmpeg-libavcodec          8.0-r3                   apk           
+ffmpeg-libavformat         8.0-r3                   apk           
+ffmpeg-libavutil           8.0-r3                   apk           
+ffmpeg-libswresample       8.0-r3                   apk           
+ffmpeg-libswscale          8.0-r3                   apk           
 fftw-single-libs           3.3.10-r7                apk           
 file                       5.46-r2                  apk           
 font-liberation            2.1.5-r2                 apk           
@@ -165,7 +165,7 @@ libbytesize                2.11-r0                  apk
 libbz2                     1.0.8-r6                 apk           
 libc                       0.2.149                  rust-crate    
 libc                       0.2.172                  rust-crate    
-libcap2                    2.76-r0                  apk           
+libcap2                    2.77-r0                  apk           
 libcom_err                 1.47.3-r0                apk           
 libcrypto3                 3.3.2-r4                 apk           
 libcurl                    8.16.0-r1                apk           
@@ -173,7 +173,7 @@ libdav1d                   1.5.1-r0                 apk
 libdotconf                 1.4.1-r0                 apk           
 libdrm                     2.4.127-r0               apk           
 libeconf                   0.8.0-r0                 apk           
-libelf                     0.193-r0                 apk           
+libelf                     0.194-r0                 apk           
 libepoxy                   1.5.10-r1                apk           
 libevdev                   1.13.5-r0                apk           
 libevent                   2.1.12-r8                apk           
@@ -195,7 +195,7 @@ libimagequant              4.2.2-r0                 apk
 libinput-libs              1.29.2-r0                apk           
 libintl                    0.24.1-r1                apk           
 libjpeg-turbo              3.1.2-r0                 apk           
-libjxl                     0.11.1-r2                apk           
+libjxl                     0.11.1-r3                apk           
 libksba                    1.6.7-r0                 apk           
 libldap                    2.6.10-r0                apk           
 libltdl                    2.5.4-r1                 apk           
@@ -323,7 +323,7 @@ num-traits                 0.2.19                   rust-crate
 numactl                    2.0.18-r0                apk           
 once_cell                  1.18.0                   rust-crate    
 once_cell                  1.21.3                   rust-crate    
-openjpeg                   2.5.3-r1                 apk           
+openjpeg                   2.5.4-r1                 apk           
 optipng                    0.7.8-r0                 apk           
 opus                       1.5.2-r1                 apk           
 orc                        0.4.41-r0                apk           
@@ -387,8 +387,8 @@ py3-msgpack-pyc            1.0.8-r1                 apk
 py3-netifaces              0.11.0-r3                apk           
 py3-pillow                 11.3.0-r1                apk           
 py3-pillow-pyc             11.3.0-r1                apk           
-py3-psutil                 7.0.0-r1                 apk           
-py3-psutil-pyc             7.0.0-r1                 apk           
+py3-psutil                 7.0.0-r2                 apk           
+py3-psutil-pyc             7.0.0-r2                 apk           
 py3-pycryptodome           3.23.0-r0                apk           
 py3-pycryptodome-pyc       3.23.0-r0                apk           
 py3-pygments               2.19.2-r0                apk           

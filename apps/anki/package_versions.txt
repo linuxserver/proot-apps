@@ -40,7 +40,7 @@ cdparanoia-libs                    10.2-r14                 apk
 certifi                            2025.4.26                python        
 cfg-if                             1.0.0                    rust-crate    
 charset-normalizer                 3.4.2                    python        
-cjson                              1.7.18-r1                apk           
+cjson                              1.7.19-r0                apk           
 clap                               4.4.14                   rust-crate    
 clap_builder                       4.4.14                   rust-crate    
 clap_complete                      4.4.6                    rust-crate    
