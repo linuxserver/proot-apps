@@ -251,8 +251,8 @@ libstdc++6                      15.2.0-7                     deb
 libsvtav1enc2                   2.3.0+dfsg-1                 deb     
 libswresample5                  7:7.1.2-1+b1                 deb     
 libswscale8                     7:7.1.2-1+b1                 deb     
-libsystemd-shared               258.1-1                      deb     
-libsystemd0                     258.1-1                      deb     
+libsystemd-shared               258.1-2                      deb     
+libsystemd0                     258.1-2                      deb     
 libtasn1-6                      4.20.0-2                     deb     
 libtdb1                         2:1.4.14+samba4.23.2+dfsg-1  deb     
 libthai-data                    0.1.29-2                     deb     
@@ -263,7 +263,7 @@ libtiff6                        4.7.1-1                      deb
 libtinfo6                       6.5+20250216-2               deb     
 libturbojpeg0                   1:2.1.5-4                    deb     
 libtwolame0                     0.4.0-2+b2                   deb     
-libudev1                        258.1-1                      deb     
+libudev1                        258.1-2                      deb     
 libudfread3                     1.2.0-2                      deb     
 libunibreak6                    6.1-3                        deb     
 libunistring5                   1.3-2                        deb     
@@ -356,11 +356,11 @@ pulseaudio-utils                17.0+dfsg1-2+b1              deb
 sed                             4.9-2                        deb     
 shared-mime-info                2.4-5+b3                     deb     
 sqv                             1.3.0-3                      deb     
-systemd                         258.1-1                      deb     
+systemd                         258.1-2                      deb     
 sysvinit-utils                  3.14-4                       deb     
 tar                             1.35+dfsg-3.1                deb     
 tzdata                          2025b-5                      deb     
-udev                            258.1-1                      deb     
+udev                            258.1-2                      deb     
 util-linux                      2.41.2-4                     deb     
 x11-common                      1:7.7+26                     deb     
 x11-xkb-utils                   7.7+9                        deb     

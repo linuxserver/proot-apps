@@ -168,7 +168,7 @@ libxfixes                  6.0.2-r0                 apk
 libxft                     2.3.9-r0                 apk           
 libxi                      1.8.2-r0                 apk           
 libxinerama                1.1.5-r4                 apk           
-libxkbcommon               1.11.0-r0                apk           
+libxkbcommon               1.12.2-r0                apk           
 libxml2                    2.13.9-r0                apk           
 libxmu                     1.2.1-r0                 apk           
 libxrandr                  1.5.4-r1                 apk           

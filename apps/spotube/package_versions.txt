@@ -190,16 +190,12 @@ libgpm2                          1.20.7-10+b1                     deb
 libgraphite2-3                   1.3.14-1                         deb       
 libgsm1                          1.0.22-1                         deb       
 libgssapi-krb5-2                 1.20.1-2+deb12u4                 deb       
-libgssdp-1.6-0                   1.6.2-2                          deb       
 libgstreamer-gl1.0-0             1.22.0-3+deb12u5                 deb       
-libgstreamer-plugins-bad1.0-0    1.22.0-4+deb12u6                 deb       
 libgstreamer-plugins-base1.0-0   1.22.0-3+deb12u5                 deb       
 libgstreamer1.0-0                1.22.0-2+deb12u1                 deb       
 libgtk-3-0                       3.24.38-2~deb12u3                deb       
 libgtk-3-common                  3.24.38-2~deb12u3                deb       
 libgudev-1.0-0                   237-2                            deb       
-libgupnp-1.6-0                   1.6.3-1                          deb       
-libgupnp-igd-1.0-4               1.2.0-3                          deb       
 libharfbuzz-icu0                 6.0.0+dfsg-3                     deb       
 libharfbuzz0b                    6.0.0+dfsg-3                     deb       
 libhogweed6                      3.8.1-2                          deb       
@@ -211,7 +207,7 @@ libicu72                         72.1-3+deb12u1                   deb
 libidn2-0                        2.3.3-1+b1                       deb       
 libiec61883-0                    1.2.0-6+b1                       deb       
 libjack-jackd2-0                 1.9.21~dfsg-3                    deb       
-libjavascriptcoregtk-4.1-0       2.48.5-1~deb12u1                 deb       
+libjavascriptcoregtk-4.1-0       2.50.1-1~deb12u1                 deb       
 libjbig0                         2.1-6.1                          deb       
 libjpeg62-turbo                  1:2.1.5-2                        deb       
 libjsoncpp25                     1.9.5-4                          deb       
@@ -246,7 +242,6 @@ libncurses6                      6.4-4                            deb
 libncursesw6                     6.4-4                            deb       
 libnettle8                       3.8.1-2                          deb       
 libnghttp2-14                    1.52.0-1+deb12u2                 deb       
-libnice10                        0.1.21-1                         deb       
 libnorm1                         1.5.9+dfsg-2                     deb       
 libnotify-bin                    0.8.1-1                          deb       
 libnotify4                       0.8.1-1                          deb       
@@ -380,7 +375,7 @@ libwayland-client0               1.21.0-1                         deb
 libwayland-cursor0               1.21.0-1                         deb       
 libwayland-egl1                  1.21.0-1                         deb       
 libwayland-server0               1.21.0-1                         deb       
-libwebkit2gtk-4.1-0              2.48.5-1~deb12u1                 deb       
+libwebkit2gtk-4.1-0              2.50.1-1~deb12u1                 deb       
 libwebp7                         1.2.4-0.2+deb12u1                deb       
 libwebpdemux2                    1.2.4-0.2+deb12u1                deb       
 libwebpmux3                      1.2.4-0.2+deb12u1                deb       
@@ -404,7 +399,6 @@ libxcb-shape0                    1.15-1                           deb
 libxcb-shm0                      1.15-1                           deb       
 libxcb-sync1                     1.15-1                           deb       
 libxcb-xfixes0                   1.15-1                           deb       
-libxcb-xkb1                      1.15-1                           deb       
 libxcb1                          1.15-1                           deb       
 libxcomposite1                   1:0.4.5-1                        deb       
 libxcursor1                      1:1.2.1-1                        deb       
@@ -417,7 +411,6 @@ libxfont2                        1:2.0.6-1                        deb
 libxft2                          2.3.6-1                          deb       
 libxi6                           2:1.8-1+b1                       deb       
 libxinerama1                     2:1.1.4-3                        deb       
-libxkbcommon-x11-0               1.5.0-1                          deb       
 libxkbcommon0                    1.5.0-1                          deb       
 libxkbfile1                      1:1.1.0-1                        deb       
 libxml2                          2.9.14+dfsg-1.3~deb12u4          deb       
