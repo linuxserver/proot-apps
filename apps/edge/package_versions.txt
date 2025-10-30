@@ -41,7 +41,7 @@ iso-codes                       4.18.0-1                     deb
 keyboard-configuration          1.244                        deb     
 libabsl20240722                 20240722.0-4                 deb     
 libacl1                         2.3.2-2+b1                   deb     
-libaom3                         3.13.1-1                     deb     
+libaom3                         3.13.1-2                     deb     
 libapparmor1                    4.1.0-1                      deb     
 libapt-pkg7.0                   3.1.8                        deb     
 libasound2-data                 1.2.14-2                     deb     
@@ -98,7 +98,7 @@ libepoxy0                       1.5.10-2                     deb
 libexpat1                       2.7.3-1                      deb     
 libffi8                         3.5.2-2                      deb     
 libfftw3-single3                3.3.10-2+b1                  deb     
-libflac14                       1.5.0+ds-4                   deb     
+libflac14                       1.5.0+ds-5                   deb     
 libfontconfig1                  2.15.0-2.4                   deb     
 libfontenc1                     1:1.1.8-1+b2                 deb     
 libfreetype6                    2.13.3+dfsg-1                deb     
@@ -140,7 +140,7 @@ libkrb5support0                 1.21.3-5                     deb
 liblcms2-2                      2.16-2                       deb     
 libldap2                        2.6.10+dfsg-1                deb     
 liblerc4                        4.0.0+ds-5                   deb     
-libllvm19                       1:19.1.7-7                   deb     
+libllvm19                       1:19.1.7-9                   deb     
 liblocale-gettext-perl          1.07-7+b1                    deb     
 libltdl7                        2.5.4-7                      deb     
 liblz4-1                        1.10.0-4                     deb     
@@ -229,7 +229,7 @@ libvorbis0a                     1.3.7-3                      deb
 libvorbisenc2                   1.3.7-3                      deb     
 libvpl2                         1:2.15.0-1                   deb     
 libvpx11                        1.15.2-2                     deb     
-libvulkan1                      1.4.321.0-1                  deb     
+libvulkan1                      1.4.328.1-1                  deb     
 libwayland-client0              1.24.0-2+b1                  deb     
 libwayland-cursor0              1.24.0-2+b1                  deb     
 libwayland-egl1                 1.24.0-2+b1                  deb     
