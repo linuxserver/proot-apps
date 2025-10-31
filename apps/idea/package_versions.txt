@@ -737,8 +737,8 @@ xkb-data                                2.35.1-1                                
 xml                                     1.0.0                                      npm                            
 xml-apis-ext                            1.3                                        java-archive                   
 xmlrpc                                  2.0.1                                      java-archive                   
-xserver-common                          2:21.1.7-3+deb12u10                        deb                            
-xserver-xorg-core                       2:21.1.7-3+deb12u10                        deb                            
+xserver-common                          2:21.1.7-3+deb12u11                        deb                            
+xserver-xorg-core                       2:21.1.7-3+deb12u11                        deb                            
 xserver-xorg-video-amdgpu               23.0.0-1                                   deb                            
 xserver-xorg-video-ati                  1:19.1.0-3                                 deb                            
 xserver-xorg-video-radeon               1:19.1.0-3                                 deb                            

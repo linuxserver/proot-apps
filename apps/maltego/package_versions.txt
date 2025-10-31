@@ -817,8 +817,8 @@ xnio-api                                                3.8.7.Final             
 xnio-nio                                                3.8.7.Final                                                                   java-archive  (+1 duplicate)    
 xpp3                                                    UNKNOWN                                                                       java-archive                    
 xsdlib                                                  2013.6.1                                                                      java-archive  (+3 duplicates)   
-xserver-common                                          2:21.1.7-3+deb12u10                                                           deb                             
-xserver-xorg-core                                       2:21.1.7-3+deb12u10                                                           deb                             
+xserver-common                                          2:21.1.7-3+deb12u11                                                           deb                             
+xserver-xorg-core                                       2:21.1.7-3+deb12u11                                                           deb                             
 xserver-xorg-video-amdgpu                               23.0.0-1                                                                      deb                             
 xserver-xorg-video-ati                                  1:19.1.0-3                                                                    deb                             
 xserver-xorg-video-radeon                               1:19.1.0-3                                                                    deb                             
