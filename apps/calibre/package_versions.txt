@@ -169,7 +169,7 @@ libcap2                    2.77-r0                  apk
 libcom_err                 1.47.3-r0                apk           
 libcrypto3                 3.3.2-r4                 apk           
 libcurl                    8.16.0-r1                apk           
-libdav1d                   1.5.1-r0                 apk           
+libdav1d                   1.5.2-r0                 apk           
 libdotconf                 1.4.1-r0                 apk           
 libdrm                     2.4.127-r0               apk           
 libeconf                   0.8.0-r0                 apk           
@@ -275,7 +275,7 @@ libzmq                     4.3.5-r2                 apk
 linux-raw-sys              0.9.4                    rust-crate    
 llvm21-libs                21.1.2-r1                apk           
 log                        0.4.27                   rust-crate    
-lxml                       6.0.1                    python        
+lxml                       6.0.2                    python        
 markdown                   3.9                      python        
 maybe-rayon                0.1.1                    rust-crate    
 mbedtls                    3.6.5-r0                 apk           
@@ -376,8 +376,8 @@ py3-ifaddr                 0.2.0-r4                 apk
 py3-ifaddr-pyc             0.2.0-r4                 apk           
 py3-jeepney                0.9.0-r0                 apk           
 py3-jeepney-pyc            0.9.0-r0                 apk           
-py3-lxml                   6.0.1-r0                 apk           
-py3-lxml-pyc               6.0.1-r0                 apk           
+py3-lxml                   6.0.2-r1                 apk           
+py3-lxml-pyc               6.0.2-r1                 apk           
 py3-markdown               3.9.0-r0                 apk           
 py3-markdown-pyc           3.9.0-r0                 apk           
 py3-mechanize              0.4.10-r0                apk           
