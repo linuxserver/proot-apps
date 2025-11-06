@@ -67,7 +67,7 @@ cryptsetup-libs            2.8.1-r0                 apk
 css-parser                 1.0.10                   python        
 cssselect                  1.2.0                    python        
 cups-libs                  2.4.13-r0                apk           
-curl                       8.16.0-r1                apk           
+curl                       8.16.0-r2                apk           
 dbus                       1.16.2-r1                apk           
 dbus-daemon-launch-helper  1.16.2-r1                apk           
 dbus-libs                  1.16.2-r1                apk           
@@ -168,7 +168,7 @@ libc                       0.2.172                  rust-crate
 libcap2                    2.77-r0                  apk           
 libcom_err                 1.47.3-r0                apk           
 libcrypto3                 3.3.2-r4                 apk           
-libcurl                    8.16.0-r1                apk           
+libcurl                    8.16.0-r2                apk           
 libdav1d                   1.5.2-r0                 apk           
 libdotconf                 1.4.1-r0                 apk           
 libdrm                     2.4.128-r0               apk           
