@@ -8,7 +8,7 @@ bash                            5.3-1                        deb
 bsdutils                        1:2.41.2-4                   deb     
 ca-certificates                 20250419                     deb     
 coreutils                       9.7-3                        deb     
-curl                            8.17.0~rc3-1                 deb     
+curl                            8.17.0-1                     deb     
 dash                            0.5.12-12                    deb     
 dbus-bin                        1.16.2-2                     deb     
 dbus-daemon                     1.16.2-2                     deb     
@@ -85,7 +85,7 @@ libcolord2                      1.4.8-2                      deb
 libcom-err2                     1.47.2-3+b3                  deb     
 libcrypt1                       1:4.4.38-1                   deb     
 libcups2t64                     2.4.14-1                     deb     
-libcurl4t64                     8.17.0~rc3-1                 deb     
+libcurl4t64                     8.17.0-1                     deb     
 libdatrie1                      0.2.13-4                     deb     
 libdav1d7                       1.5.1-1                      deb     
 libdb5.3t64                     5.3.28+dfsg2-10              deb     
@@ -117,7 +117,7 @@ libfreetype6                    2.13.3+dfsg-1                deb
 libfribidi0                     1.0.16-3                     deb     
 libgbm1                         25.2.6-1                     deb     
 libgcc-s1                       15.2.0-7                     deb     
-libgcrypt20                     1.11.2-2                     deb     
+libgcrypt20                     1.11.2-3                     deb     
 libgdk-pixbuf-2.0-0             2.44.4+dfsg-1                deb     
 libgdk-pixbuf2.0-common         2.44.4+dfsg-1                deb     
 libgfortran5                    15.2.0-7                     deb     
