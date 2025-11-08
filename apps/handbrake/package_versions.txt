@@ -87,7 +87,7 @@ libcrypt1                       1:4.4.38-1                   deb
 libcups2t64                     2.4.14-1                     deb     
 libcurl4t64                     8.17.0-1                     deb     
 libdatrie1                      0.2.13-4                     deb     
-libdav1d7                       1.5.1-1                      deb     
+libdav1d7                       1.5.2-1                      deb     
 libdb5.3t64                     5.3.28+dfsg2-10              deb     
 libdbus-1-3                     1.16.2-2                     deb     
 libdconf1                       0.49.0-2                     deb     
@@ -149,7 +149,7 @@ libgudev-1.0-0                  238-7                        deb
 libharfbuzz-subset0             12.1.0-1                     deb     
 libharfbuzz0b                   12.1.0-1                     deb     
 libhogweed6t64                  3.10.2-1                     deb     
-libhwy1t64                      1.2.0-2+b2                   deb     
+libhwy1t64                      1.2.0-3                      deb     
 libice6                         2:1.1.1-1                    deb     
 libidn2-0                       2.3.8-4                      deb     
 libjack-jackd2-0                1.9.22~dfsg-5                deb     
@@ -323,7 +323,7 @@ libxshmfence1                   1.3.3-1                      deb
 libxt6t64                       1:1.2.1-1.3                  deb     
 libxtst6                        2:1.2.5-1                    deb     
 libxvidcore4                    2:1.3.7-3                    deb     
-libxxf86vm1                     1:1.1.4-1+b4                 deb     
+libxxf86vm1                     1:1.1.4-2                    deb     
 libxxhash0                      0.8.3-2                      deb     
 libz3-4                         4.13.3-1                     deb     
 libzimg2                        3.0.6+ds1-1                  deb     
