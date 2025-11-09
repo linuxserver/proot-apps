@@ -149,7 +149,7 @@ libgudev-1.0-0                  238-7                        deb
 libharfbuzz-subset0             12.1.0-1                     deb     
 libharfbuzz0b                   12.1.0-1                     deb     
 libhogweed6t64                  3.10.2-1                     deb     
-libhwy1t64                      1.2.0-3                      deb     
+libhwy1t64                      1.2.0-4                      deb     
 libice6                         2:1.1.1-1                    deb     
 libidn2-0                       2.3.8-4                      deb     
 libjack-jackd2-0                1.9.22~dfsg-5                deb     
@@ -254,7 +254,7 @@ libswscale8                     7:7.1.2-1+b1                 deb
 libsystemd-shared               258.1-2                      deb     
 libsystemd0                     258.1-2                      deb     
 libtasn1-6                      4.20.0-2                     deb     
-libtdb1                         2:1.4.14+samba4.23.2+dfsg-1  deb     
+libtdb1                         2:1.4.14+samba4.23.3+dfsg-1  deb     
 libthai-data                    0.1.29-2                     deb     
 libthai0                        0.1.29-2+b1                  deb     
 libtheoradec2                   1.2.0+dfsg-6                 deb     
