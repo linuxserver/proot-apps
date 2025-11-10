@@ -75,10 +75,10 @@ ffmpeg4-libswresample        4.4.5-r4                 apk
 ffmpeg4-libswscale           4.4.5-r4                 apk           
 fftw-single-libs             3.3.10-r7                apk           
 file                         5.46-r2                  apk           
-font-noto                    2025.05.01-r0            apk           
-font-noto-common             2025.05.01-r0            apk           
-font-noto-math               2025.05.01-r0            apk           
-font-noto-symbols            2025.05.01-r0            apk           
+font-noto                    2025.11.01-r0            apk           
+font-noto-common             2025.11.01-r0            apk           
+font-noto-math               2025.11.01-r0            apk           
+font-noto-symbols            2025.11.01-r0            apk           
 fontconfig                   2.17.1-r0                apk           
 freetype                     2.13.3-r0                apk           
 fribidi                      1.0.16-r2                apk           
@@ -151,7 +151,7 @@ libogg                       1.3.6-r0                 apk
 libopenmpt                   0.8.3-r0                 apk           
 libpanelw                    6.5_p20251010-r0         apk           
 libpciaccess                 0.18.1-r1                apk           
-libpcre2-16                  10.46-r0                 apk           
+libpcre2-16                  10.47-r0                 apk           
 libpng                       1.6.49-r0                apk           
 libproxy                     0.5.10-r0                apk           
 libpsl                       0.21.5-r3                apk           
