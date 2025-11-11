@@ -37,7 +37,7 @@ gzip                            1.13-1                       deb
 hicolor-icon-theme              0.18-2                       deb     
 hostname                        3.25                         deb     
 init-system-helpers             1.69                         deb     
-iso-codes                       4.18.0-1                     deb     
+iso-codes                       4.19.0-1                     deb     
 keyboard-configuration          1.244                        deb     
 libabsl20240722                 20240722.0-4                 deb     
 libacl1                         2.3.2-2+b1                   deb     
@@ -125,7 +125,7 @@ libgtk-3-0t64                   3.24.51-1                    deb
 libgtk-3-common                 3.24.51-1                    deb     
 libharfbuzz0b                   12.1.0-1                     deb     
 libhogweed6t64                  3.10.2-1                     deb     
-libhwy1t64                      1.2.0-4                      deb     
+libhwy1t64                      1.2.0-5                      deb     
 libice6                         2:1.1.1-1                    deb     
 libidn2-0                       2.3.8-4                      deb     
 libjack-jackd2-0                1.9.22~dfsg-5                deb     
@@ -140,7 +140,7 @@ libkrb5support0                 1.21.3-5                     deb
 liblcms2-2                      2.16-2                       deb     
 libldap2                        2.6.10+dfsg-1                deb     
 liblerc4                        4.0.0+ds-5                   deb     
-libllvm19                       1:19.1.7-10                  deb     
+libllvm19                       1:19.1.7-10.1                deb     
 liblocale-gettext-perl          1.07-7+b1                    deb     
 libltdl7                        2.5.4-7                      deb     
 liblz4-1                        1.10.0-6                     deb     
