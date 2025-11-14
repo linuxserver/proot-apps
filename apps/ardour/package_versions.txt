@@ -29,8 +29,8 @@ bitstream-io               4.2.0                    rust-crate
 bitvec                     1.0.1                    rust-crate                  
 bitvec_helpers             3.1.6                    rust-crate                  
 brotli-libs                1.1.0-r2                 apk                         
-busybox                    1.37.0-r24               apk                         
-busybox-binsh              1.37.0-r24               apk                         
+busybox                    1.37.0-r25               apk                         
+busybox-binsh              1.37.0-r25               apk                         
 c-ares                     1.34.5-r0                apk                         
 ca-certificates-bundle     20241121-r1              apk                         
 cairo                      1.18.4-r0                apk                         
@@ -288,7 +288,7 @@ speexdsp                   1.2.1-r2                 apk
 spirv-tools                1.4.321.0-r1             apk                         
 sqlite-libs                3.51.0-r0                apk                         
 sratom                     0.6.18-r0                apk                         
-ssl_client                 1.37.0-r24               apk                         
+ssl_client                 1.37.0-r25               apk                         
 stable_deref_trait         1.2.0                    rust-crate                  
 syn                        2.0.102                  rust-crate                  
 tap                        1.0.1                    rust-crate                  
