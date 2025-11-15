@@ -291,7 +291,7 @@ libssl3                             3.0.2-0ubuntu1.20                        deb
 libstdc++6                          12.3.0-1ubuntu1~22.04.2                  deb     
 libswresample3                      7:4.4.2-0ubuntu0.22.04.1                 deb     
 libswscale5                         7:4.4.2-0ubuntu0.22.04.1                 deb     
-libsystemd0                         249.11-0ubuntu3.16                       deb     
+libsystemd0                         249.11-0ubuntu3.17                       deb     
 libtasn1-6                          4.18.0-4ubuntu0.1                        deb     
 libtdb1                             1.4.5-2build1                            deb     
 libthai-data                        0.1.29-1build1                           deb     
