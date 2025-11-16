@@ -74,7 +74,7 @@ libcap2-bin                     1:2.75-10+b1                          deb
 libcodec2-1.2                   1.2.0-3                               deb       
 libcom-err2                     1.47.2-3+b3                           deb       
 libcrypt1                       1:4.4.38-1                            deb       
-libcups2t64                     2.4.10-3+deb13u1                      deb       
+libcups2t64                     2.4.10-3+deb13u2                      deb       
 libcurl4t64                     8.14.1-2                              deb       
 libdatrie1                      0.2.13-3+b1                           deb       
 libdav1d7                       1.5.1-1                               deb       
