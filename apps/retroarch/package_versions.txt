@@ -16,8 +16,8 @@ apk-tools                    2.14.7-r0                apk
 arg_enum_proc_macro          0.3.4                    rust-crate    
 arrayvec                     0.7.6                    rust-crate    
 as-slice                     0.2.1                    rust-crate    
-at-spi2-core                 2.58.1-r0                apk           
-at-spi2-core-libs            2.58.1-r0                apk           
+at-spi2-core                 2.58.1-r1                apk           
+at-spi2-core-libs            2.58.1-r1                apk           
 av-metrics                   0.9.1                    rust-crate    
 av-scenechange               0.14.1                   rust-crate    
 av1-grain                    0.2.4                    rust-crate    
@@ -113,8 +113,8 @@ lame-libs                    3.100-r5                 apk
 lcms2                        2.17-r0                  apk           
 libSvtAv1Enc                 3.1.2-r0                 apk           
 libasyncns                   0.8-r4                   apk           
-libatk-1.0                   2.58.1-r0                apk           
-libatk-bridge-2.0            2.58.1-r0                apk           
+libatk-1.0                   2.58.1-r1                apk           
+libatk-bridge-2.0            2.58.1-r1                apk           
 libb2                        0.98.1-r3                apk           
 libblkid                     2.41.2-r0                apk           
 libbluray                    1.4.0-r0                 apk           
