@@ -130,11 +130,11 @@ libdecor-0-0                    0.2.2-1build2                      deb
 libdecor-0-plugin-1-gtk         0.2.2-1build2                      deb                     
 libdeflate0                     1.19-1build1.1                     deb     (+1 duplicate)  
 libdevmapper1.02.1              2:1.02.185-3ubuntu3.2              deb                     
-libdrm-amdgpu1                  2.4.122-1~ubuntu0.24.04.1          deb     (+1 duplicate)  
-libdrm-common                   2.4.122-1~ubuntu0.24.04.1          deb                     
-libdrm-intel1                   2.4.122-1~ubuntu0.24.04.1          deb     (+1 duplicate)  
-libdrm-radeon1                  2.4.122-1~ubuntu0.24.04.1          deb                     
-libdrm2                         2.4.122-1~ubuntu0.24.04.1          deb     (+1 duplicate)  
+libdrm-amdgpu1                  2.4.122-1~ubuntu0.24.04.2          deb     (+1 duplicate)  
+libdrm-common                   2.4.122-1~ubuntu0.24.04.2          deb                     
+libdrm-intel1                   2.4.122-1~ubuntu0.24.04.2          deb     (+1 duplicate)  
+libdrm-radeon1                  2.4.122-1~ubuntu0.24.04.2          deb                     
+libdrm2                         2.4.122-1~ubuntu0.24.04.2          deb     (+1 duplicate)  
 libduktape207                   2.7.0+tests-0ubuntu3               deb     (+1 duplicate)  
 libdv4t64                       1.0.0-17.1build1                   deb                     
 libdw1t64                       0.190-1.1ubuntu0.1                 deb     (+1 duplicate)  
@@ -200,10 +200,10 @@ libgstreamer1.0-0               1.24.2-1ubuntu0.1                  deb     (+1 d
 libgtk-3-0t64                   3.24.41-4ubuntu1.3                 deb     (+1 duplicate)  
 libgtk-3-bin                    3.24.41-4ubuntu1.3                 deb                     
 libgtk-3-common                 3.24.41-4ubuntu1.3                 deb                     
-libgtk-4-1                      4.14.5+ds-0ubuntu0.5               deb                     
-libgtk-4-bin                    4.14.5+ds-0ubuntu0.5               deb                     
-libgtk-4-common                 4.14.5+ds-0ubuntu0.5               deb                     
-libgtk-4-media-gstreamer        4.14.5+ds-0ubuntu0.5               deb                     
+libgtk-4-1                      4.14.5+ds-0ubuntu0.6               deb                     
+libgtk-4-bin                    4.14.5+ds-0ubuntu0.6               deb                     
+libgtk-4-common                 4.14.5+ds-0ubuntu0.6               deb                     
+libgtk-4-media-gstreamer        4.14.5+ds-0ubuntu0.6               deb                     
 libgtkmm-3.0-1t64               3.24.9-1                           deb                     
 libgudev-1.0-0                  1:238-5ubuntu1                     deb     (+1 duplicate)  
 libharfbuzz0b                   8.3.0-2build2                      deb     (+1 duplicate)  

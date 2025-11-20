@@ -40,7 +40,7 @@ fonts-noto-mono                     20201225-2                          deb
 gcc-14-base                         14.2.0-4ubuntu2~24.04               deb                     
 gir1.2-girepository-2.0             1.80.1-1                            deb                     
 gir1.2-glib-2.0                     2.80.0-6ubuntu3.4                   deb                     
-gir1.2-packagekitglib-1.0           1.2.8-2ubuntu1.2                    deb                     
+gir1.2-packagekitglib-1.0           1.2.8-2ubuntu1.4                    deb                     
 glib-networking                     2.80.0-1build1                      deb                     
 glib-networking-common              2.80.0-1build1                      deb                     
 glib-networking-services            2.80.0-1build1                      deb                     
@@ -222,7 +222,7 @@ libopenjp2-7                        2.5.0-2ubuntu0.4                    deb
 libopus0                            1.4-1build1                         deb                     
 liborc-0.4-0t64                     1:0.4.38-1ubuntu0.1                 deb                     
 libp11-kit0                         0.25.3-4ubuntu2.1                   deb                     
-libpackagekit-glib2-18              1.2.8-2ubuntu1.2                    deb                     
+libpackagekit-glib2-18              1.2.8-2ubuntu1.4                    deb                     
 libpam-modules                      1.5.3-5ubuntu5.5                    deb                     
 libpam-modules-bin                  1.5.3-5ubuntu5.5                    deb                     
 libpam-runtime                      1.5.3-5ubuntu5.5                    deb                     
@@ -408,7 +408,7 @@ oauthlib                            3.2.2                               python
 occt-misc                           7.6.3+dfsg1-7.1build1               deb                     
 ocl-icd-libopencl1                  2.3.2-1build1                       deb                     
 openssl                             3.0.13-0ubuntu3.6                   deb                     
-packagekit                          1.2.8-2ubuntu1.2                    deb                     
+packagekit                          1.2.8-2ubuntu1.4                    deb                     
 passwd                              1:4.13+dfsg1-4ubuntu3.2             deb                     
 perl-base                           5.38.2-3.2ubuntu0.2                 deb                     
 polkitd                             124-2ubuntu1.24.04.2                deb                     
