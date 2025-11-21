@@ -31,7 +31,7 @@ fonts-noto-mono                 20201225-2                      deb
 gcc-15-base                     15.2.0-8                        deb     
 grep                            3.12-1                          deb     
 gstreamer1.0-gl                 1.26.8-1                        deb     
-gtk-update-icon-cache           4.20.2+ds-2                     deb     
+gtk-update-icon-cache           4.20.3+ds-1                     deb     
 gzip                            1.13-1                          deb     
 handbrake                       1.9.2+ds1-1+b4                  deb     
 hicolor-icon-theme              0.18-2                          deb     
@@ -124,7 +124,7 @@ libgfortran5                    15.2.0-8                        deb
 libgl1                          1.7.0-1+b2                      deb     
 libgl1-mesa-dri                 25.2.7-1                        deb     
 libgles2                        1.7.0-1+b2                      deb     
-libglib2.0-0t64                 2.86.1-2                        deb     
+libglib2.0-0t64                 2.86.2-1                        deb     
 libglvnd0                       1.7.0-1+b2                      deb     
 libglx-mesa0                    25.2.7-1                        deb     
 libglx0                         1.7.0-1+b2                      deb     
@@ -142,9 +142,9 @@ libgssapi-krb5-2                1.22.1-2                        deb
 libgstreamer-gl1.0-0            1.26.8-1                        deb     
 libgstreamer-plugins-base1.0-0  1.26.8-1                        deb     
 libgstreamer1.0-0               1.26.8-1                        deb     
-libgtk-4-1                      4.20.2+ds-2                     deb     
-libgtk-4-bin                    4.20.2+ds-2                     deb     
-libgtk-4-common                 4.20.2+ds-2                     deb     
+libgtk-4-1                      4.20.3+ds-1                     deb     
+libgtk-4-bin                    4.20.3+ds-1                     deb     
+libgtk-4-common                 4.20.3+ds-1                     deb     
 libgudev-1.0-0                  238-7                           deb     
 libharfbuzz-subset0             12.1.0-1                        deb     
 libharfbuzz0b                   12.1.0-1                        deb     
@@ -166,7 +166,7 @@ liblapack3                      3.12.1-7                        deb
 liblcms2-2                      2.17-1                          deb     
 libldap2                        2.6.10+dfsg-1                   deb     
 liblerc4                        4.0.0+ds-5                      deb     
-liblilv-0-0                     0.24.26-1                       deb     
+liblilv-0-0                     0.26.0-1                        deb     
 libllvm19                       1:19.1.7-10.1                   deb     
 liblocale-gettext-perl          1.07-7+b1                       deb     
 libltdl7                        2.5.4-7                         deb     

@@ -64,7 +64,7 @@ either                     1.15.0                   rust-crate
 equator                    0.4.2                    rust-crate                  
 equator-macro              0.4.2                    rust-crate                  
 errno                      0.3.12                   rust-crate                  
-eudev-libs                 3.2.14-r5                apk                         
+eudev-libs                 3.2.14-r6                apk                         
 fern                       0.7.1                    rust-crate                  
 ffmpeg                     8.0-r4                   apk                         
 ffmpeg-libavcodec          8.0-r4                   apk                         
@@ -302,7 +302,7 @@ tinyvec                    1.9.0                    rust-crate
 unicode-ident              1.0.18                   rust-crate                  
 unicode-width              0.2.1                    rust-crate                  
 utf8parse                  0.2.2                    rust-crate                  
-v4l-utils-libs             1.30.1-r2                apk                         
+v4l-utils-libs             1.32.0-r0                apk                         
 v_frame                    0.3.9                    rust-crate                  
 vamp-sdk-libs              2.10.0-r3                apk                         
 vidstab                    1.1.1-r0                 apk                         

@@ -83,7 +83,7 @@ equator                    0.4.2                    rust-crate
 equator-macro              0.4.2                    rust-crate    
 errno                      0.3.12                   rust-crate    
 espeak-ng                  1.52.0-r0                apk           
-eudev-libs                 3.2.14-r5                apk           
+eudev-libs                 3.2.14-r6                apk           
 feedparser                 6.0.12                   python        
 fern                       0.7.1                    rust-crate    
 ffmpeg-libavcodec          8.0-r4                   apk           
