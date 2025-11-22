@@ -32,7 +32,7 @@ fonts-noto-core                 20201225-2                      deb
 fonts-noto-mono                 20201225-2                      deb     
 gcc-15-base                     15.2.0-8                        deb     
 grep                            3.12-1                          deb     
-gtk-update-icon-cache           4.20.3+ds-1                     deb     
+gtk-update-icon-cache           4.20.3+ds-2                     deb     
 gzip                            1.13-1                          deb     
 hicolor-icon-theme              0.18-2                          deb     
 hostname                        3.25                            deb     
@@ -149,7 +149,7 @@ libmd0                          1.1.0-2+b1                      deb
 libmount1                       2.41.2-4                        deb     
 libmp3lame0                     3.100-6+b3                      deb     
 libmpg123-0t64                  1.33.3-1                        deb     
-libncursesw6                    6.5+20250216-2                  deb     
+libncursesw6                    6.5+20251115-2                  deb     
 libnettle8t64                   3.10.2-1                        deb     
 libnghttp2-14                   1.64.0-1.1+b1                   deb     
 libnghttp3-9                    1.12.0-1                        deb     
@@ -215,7 +215,7 @@ libthai0                        0.1.29-2+b1                     deb
 libtheoradec2                   1.2.0+dfsg-6                    deb     
 libtheoraenc2                   1.2.0+dfsg-6                    deb     
 libtiff6                        4.7.1-1                         deb     
-libtinfo6                       6.5+20250216-2                  deb     
+libtinfo6                       6.5+20251115-2                  deb     
 libtwolame0                     0.4.0-2+b2                      deb     
 libudev1                        259~rc1-1                       deb     
 libunistring5                   1.3-2                           deb     
