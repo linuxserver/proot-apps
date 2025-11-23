@@ -5,7 +5,7 @@ alpine-baselayout          3.6.8-r1                 apk
 alpine-baselayout-data     3.6.8-r1                 apk           
 alpine-keys                2.5-r0                   apk           
 alpine-release             3.22.0_alpha20250108-r0  apk           
-alsa-lib                   1.2.14-r1                apk           
+alsa-lib                   1.2.14-r2                apk           
 anstream                   0.6.19                   rust-crate    
 anstyle                    1.0.11                   rust-crate    
 anstyle-parse              0.2.7                    rust-crate    
@@ -90,7 +90,7 @@ gtk-update-icon-cache      3.24.51-r0               apk
 harfbuzz                   12.2.0-r0                apk           
 heck                       0.5.0                    rust-crate    
 hicolor-icon-theme         0.18-r0                  apk           
-hwdata-pci                 0.400-r0                 apk           
+hwdata-pci                 0.401-r0                 apk           
 icu-data-en                76.1-r1                  apk           
 icu-libs                   76.1-r1                  apk           
 interpolate_name           0.2.4                    rust-crate    
@@ -160,7 +160,7 @@ libwebpdemux               1.6.0-r0                 apk
 libwebpmux                 1.6.0-r0                 apk           
 libx11                     1.8.12-r1                apk           
 libxau                     1.0.12-r0                apk           
-libxcb                     1.17.0-r0                apk           
+libxcb                     1.17.0-r1                apk           
 libxcomposite              0.4.6-r5                 apk           
 libxcursor                 1.2.3-r0                 apk           
 libxdamage                 1.1.6-r5                 apk           
