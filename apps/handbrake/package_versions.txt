@@ -130,7 +130,7 @@ libglx-mesa0                    25.2.7-1                        deb
 libglx0                         1.7.0-1+b2                      deb     
 libgme0                         0.6.4-1                         deb     
 libgmp10                        2:6.3.0+dfsg-5                  deb     
-libgnutls30t64                  3.8.10-3                        deb     
+libgnutls30t64                  3.8.11-3                        deb     
 libgomp1                        15.2.0-9                        deb     
 libgpg-error-l10n               1.56-2                          deb     
 libgpg-error0                   1.56-2                          deb     
@@ -167,7 +167,7 @@ liblcms2-2                      2.17-1                          deb
 libldap2                        2.6.10+dfsg-1                   deb     
 liblerc4                        4.0.0+ds-5                      deb     
 liblilv-0-0                     0.26.0-1                        deb     
-libllvm19                       1:19.1.7-16                     deb     
+libllvm19                       1:19.1.7-18                     deb     
 liblocale-gettext-perl          1.07-7+b1                       deb     
 libltdl7                        2.5.4-7                         deb     
 liblz4-1                        1.10.0-6                        deb     
@@ -314,7 +314,7 @@ libxi6                          2:1.8.2-1                       deb
 libxinerama1                    2:1.1.4-3+b4                    deb     
 libxkbcommon0                   1.12.3-1                        deb     
 libxkbfile1                     1:1.1.0-1+b4                    deb     
-libxml2-16                      2.15.1+dfsg-0.4                 deb     
+libxml2-16                      2.15.1+dfsg-1                   deb     
 libxmu6                         2:1.1.3-3+b4                    deb     
 libxpm4                         1:3.5.17-1+b3                   deb     
 libxrandr2                      2:1.5.4-1+b3                    deb     
