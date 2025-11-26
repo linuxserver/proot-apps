@@ -9,7 +9,7 @@ bash                            5.3-1                           deb
 bsdutils                        1:2.41.2-4                      deb     
 ca-certificates                 20250419                        deb     
 coreutils                       9.7-3                           deb     
-curl                            8.17.0-2                        deb     
+curl                            8.17.0-3                        deb     
 dash                            0.5.12-12                       deb     
 dbus-bin                        1.16.2-2                        deb     
 dbus-daemon                     1.16.2-2                        deb     
@@ -77,7 +77,7 @@ libcolord2                      1.4.8-2                         deb
 libcom-err2                     1.47.2-3+b3                     deb     
 libcrypt1                       1:4.5.1-1                       deb     
 libcups2t64                     2.4.14-1                        deb     
-libcurl4t64                     8.17.0-2                        deb     
+libcurl4t64                     8.17.0-3                        deb     
 libdatrie1                      0.2.13-4                        deb     
 libdav1d7                       1.5.2-1                         deb     
 libdb5.3t64                     5.3.28+dfsg2-10                 deb     
@@ -149,7 +149,7 @@ libmd0                          1.1.0-2+b1                      deb
 libmount1                       2.41.2-4                        deb     
 libmp3lame0                     3.100-6+b3                      deb     
 libmpg123-0t64                  1.33.3-1                        deb     
-libncursesw6                    6.5+20251122-1                  deb     
+libncursesw6                    6.5+20251123-1                  deb     
 libnettle8t64                   3.10.2-1                        deb     
 libnghttp2-14                   1.64.0-1.1+b1                   deb     
 libnghttp3-9                    1.12.0-1                        deb     
@@ -215,7 +215,7 @@ libthai0                        0.1.29-2+b1                     deb
 libtheoradec2                   1.2.0+dfsg-6                    deb     
 libtheoraenc2                   1.2.0+dfsg-6                    deb     
 libtiff6                        4.7.1-1                         deb     
-libtinfo6                       6.5+20251122-1                  deb     
+libtinfo6                       6.5+20251123-1                  deb     
 libtwolame0                     0.4.0-2+b2                      deb     
 libudev1                        259~rc1-1                       deb     
 libunistring5                   1.3-2                           deb     
