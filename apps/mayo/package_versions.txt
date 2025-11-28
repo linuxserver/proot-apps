@@ -100,7 +100,7 @@ libcolord2                          1.4.7-1build2                       deb
 libcom-err2                         1.47.0-2.4~exp1ubuntu4.1            deb                     
 libcrypt1                           1:4.4.36-4build1                    deb                     
 libcryptsetup12                     2:2.7.0-1ubuntu4.2                  deb                     
-libcups2t64                         2.4.7-1.2ubuntu7.4                  deb                     
+libcups2t64                         2.4.7-1.2ubuntu7.7                  deb                     
 libcurl3t64-gnutls                  8.5.0-2ubuntu10.6                   deb                     
 libcurl4t64                         8.5.0-2ubuntu10.6                   deb                     
 libdatrie1                          0.2.13-3build1                      deb                     
