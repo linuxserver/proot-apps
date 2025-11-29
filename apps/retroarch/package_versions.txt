@@ -142,7 +142,7 @@ libinput-libs                1.30.0-r0                apk
 libintl                      0.24.1-r1                apk           
 libjpeg-turbo                3.1.2-r0                 apk           
 libjxl                       0.11.1-r3                apk           
-libltdl                      2.5.4-r1                 apk           
+libltdl                      2.5.4-r2                 apk           
 libmagic                     5.46-r2                  apk           
 libmd                        1.1.0-r0                 apk           
 libmount                     2.41.2-r0                apk           
@@ -152,7 +152,7 @@ libopenmpt                   0.8.3-r0                 apk
 libpanelw                    6.5_p20251123-r0         apk           
 libpciaccess                 0.18.1-r1                apk           
 libpcre2-16                  10.47-r0                 apk           
-libpng                       1.6.51-r0                apk           
+libpng                       1.6.51-r1                apk           
 libproxy                     0.5.11-r0                apk           
 libpsl                       0.21.5-r3                apk           
 libpulse                     17.0-r5                  apk           

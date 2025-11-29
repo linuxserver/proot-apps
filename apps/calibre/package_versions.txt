@@ -198,7 +198,7 @@ libjpeg-turbo              3.1.2-r0                 apk
 libjxl                     0.11.1-r3                apk           
 libksba                    1.6.7-r0                 apk           
 libldap                    2.6.10-r0                apk           
-libltdl                    2.5.4-r1                 apk           
+libltdl                    2.5.4-r2                 apk           
 libmagic                   5.46-r2                  apk           
 libmd                      1.1.0-r0                 apk           
 libmng                     2.0.3-r2                 apk           
@@ -211,7 +211,7 @@ libopenmpt                 0.8.3-r0                 apk
 libpanelw                  6.5_p20251123-r0         apk           
 libpciaccess               0.18.1-r1                apk           
 libpcre2-16                10.47-r0                 apk           
-libpng                     1.6.51-r0                apk           
+libpng                     1.6.51-r1                apk           
 libproxy                   0.5.11-r0                apk           
 libpsl                     0.21.5-r3                apk           
 libpulse                   17.0-r5                  apk           
@@ -339,7 +339,7 @@ pinentry                   1.3.2-r0                 apk
 pixman                     0.46.4-r0                apk           
 pkgconf                    2.5.1-r0                 apk           
 podofo                     0.10.4-r0                apk           
-polkit-noelogind-libs      126-r0                   apk           
+polkit-noelogind-libs      126-r1                   apk           
 poppler                    25.11.0-r0               apk           
 ppv-lite86                 0.2.21                   rust-crate    
 proc-macro2                1.0.95                   rust-crate    
@@ -484,8 +484,8 @@ tslib                      1.23-r0                  apk
 typing-extensions          4.15.0                   python        
 tzdata                     2025b-r0                 apk           
 uchardet-libs              0.0.8-r2                 apk           
-udisks2                    2.11.0-r0                apk           
-udisks2-libs               2.11.0-r0                apk           
+udisks2                    2.11.0-r1                apk           
+udisks2-libs               2.11.0-r1                apk           
 unicode-ident              1.0.18                   rust-crate    
 unicode-width              0.2.1                    rust-crate    
 utf8parse                  0.2.2                    rust-crate    

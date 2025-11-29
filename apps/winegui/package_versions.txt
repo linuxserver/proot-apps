@@ -116,7 +116,7 @@ libcrypt1                       1:4.4.36-4build1                   deb
 libcryptsetup12                 2:2.7.0-1ubuntu4.2                 deb                     
 libctf-nobfd0                   2.42-4ubuntu2.6                    deb                     
 libctf0                         2.42-4ubuntu2.6                    deb                     
-libcups2t64                     2.4.7-1.2ubuntu7.4                 deb     (+1 duplicate)  
+libcups2t64                     2.4.7-1.2ubuntu7.7                 deb     (+1 duplicate)  
 libcurl3t64-gnutls              8.5.0-2ubuntu10.6                  deb     (+1 duplicate)  
 libcurl4t64                     8.5.0-2ubuntu10.6                  deb     (+1 duplicate)  
 libdatrie1                      0.2.13-3build1                     deb     (+1 duplicate)  
