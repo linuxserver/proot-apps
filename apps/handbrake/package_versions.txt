@@ -273,7 +273,7 @@ libva-drm2                      2.22.0-3                        deb
 libva-x11-2                     2.22.0-3                        deb     
 libva2                          2.22.0-3                        deb     
 libvdpau1                       1.5-3+b1                        deb     
-libvidstab1.1                   1.1.0-2+b2                      deb     
+libvidstab1.1                   1.1.0-2.1                       deb     
 libvorbis0a                     1.3.7-3                         deb     
 libvorbisenc2                   1.3.7-3                         deb     
 libvorbisfile3                  1.3.7-3                         deb     
