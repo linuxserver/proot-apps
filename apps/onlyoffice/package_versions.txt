@@ -355,7 +355,7 @@ ncurses-base                    6.4-4                           deb
 ncurses-bin                     6.4-4                           deb     
 netcat-openbsd                  1.219-1                         deb     
 ocl-icd-libopencl1              2.3.1-1                         deb     
-onlyoffice-desktopeditors       9.1.0-173                       deb     
+onlyoffice-desktopeditors       9.2.0-100                       deb     
 openssl                         3.0.17-1~deb12u3                deb     
 passwd                          1:4.13+dfsg1-1+deb12u1          deb     
 perl-base                       5.36.0-7+deb12u3                deb     
