@@ -474,7 +474,7 @@ xml-core                        0.19                               deb
 xorg-sgml-doctools              1:1.11-1.1                         deb                     
 xserver-common                  2:21.1.12-1ubuntu1.5               deb                     
 xserver-xorg-core               2:21.1.12-1ubuntu1.5               deb                     
-xserver-xorg-video-amdgpu       23.0.0-1build1                     deb                     
+xserver-xorg-video-amdgpu       23.0.0-1ubuntu0.24.04.1            deb                     
 xserver-xorg-video-ati          1:22.0.0-1build1                   deb                     
 xserver-xorg-video-radeon       1:22.0.0-1build1                   deb                     
 xtrans-dev                      1.4.0-1                            deb                     
