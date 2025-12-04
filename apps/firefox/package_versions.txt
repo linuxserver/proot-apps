@@ -252,7 +252,7 @@ readline                   8.3.1-r0                 apk
 rustix                     1.0.7                    rust-crate    
 scan_fmt                   0.2.6                    rust-crate    
 scanelf                    1.3.8-r1                 apk           
-scudo-malloc               21.1.2-r0                apk           
+scudo-malloc               21.1.7-r0                apk           
 shared-mime-info           2.4-r6                   apk           
 signal-hook                0.3.18                   rust-crate    
 signal-hook-registry       1.4.5                    rust-crate    
