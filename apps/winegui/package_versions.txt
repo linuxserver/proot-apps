@@ -116,7 +116,7 @@ libcrypt1                       1:4.4.36-4build1                   deb
 libcryptsetup12                 2:2.7.0-1ubuntu4.2                 deb                     
 libctf-nobfd0                   2.42-4ubuntu2.7                    deb                     
 libctf0                         2.42-4ubuntu2.7                    deb                     
-libcups2t64                     2.4.7-1.2ubuntu7.7                 deb     (+1 duplicate)  
+libcups2t64                     2.4.7-1.2ubuntu7.9                 deb     (+1 duplicate)  
 libcurl3t64-gnutls              8.5.0-2ubuntu10.6                  deb     (+1 duplicate)  
 libcurl4t64                     8.5.0-2ubuntu10.6                  deb     (+1 duplicate)  
 libdatrie1                      0.2.13-3build1                     deb     (+1 duplicate)  
@@ -170,8 +170,8 @@ libgles-dev                     1.7.0-1build1                      deb
 libgles1                        1.7.0-1build1                      deb                     
 libgles2                        1.7.0-1build1                      deb                     
 libgles2-mesa-dev               25.0.7-0ubuntu0.24.04.2            deb                     
-libglib2.0-0t64                 2.80.0-6ubuntu3.4                  deb     (+1 duplicate)  
-libglib2.0-data                 2.80.0-6ubuntu3.4                  deb                     
+libglib2.0-0t64                 2.80.0-6ubuntu3.5                  deb     (+1 duplicate)  
+libglib2.0-data                 2.80.0-6ubuntu3.5                  deb                     
 libglibmm-2.4-1t64              2.66.7-1build1                     deb                     
 libglvnd-core-dev               1.7.0-1build1                      deb                     
 libglvnd-dev                    1.7.0-1build1                      deb                     
@@ -200,10 +200,10 @@ libgstreamer1.0-0               1.24.2-1ubuntu0.1                  deb     (+1 d
 libgtk-3-0t64                   3.24.41-4ubuntu1.3                 deb     (+1 duplicate)  
 libgtk-3-bin                    3.24.41-4ubuntu1.3                 deb                     
 libgtk-3-common                 3.24.41-4ubuntu1.3                 deb                     
-libgtk-4-1                      4.14.5+ds-0ubuntu0.6               deb                     
-libgtk-4-bin                    4.14.5+ds-0ubuntu0.6               deb                     
-libgtk-4-common                 4.14.5+ds-0ubuntu0.6               deb                     
-libgtk-4-media-gstreamer        4.14.5+ds-0ubuntu0.6               deb                     
+libgtk-4-1                      4.14.5+ds-0ubuntu0.7               deb                     
+libgtk-4-bin                    4.14.5+ds-0ubuntu0.7               deb                     
+libgtk-4-common                 4.14.5+ds-0ubuntu0.7               deb                     
+libgtk-4-media-gstreamer        4.14.5+ds-0ubuntu0.7               deb                     
 libgtkmm-3.0-1t64               3.24.9-1                           deb                     
 libgudev-1.0-0                  1:238-5ubuntu1                     deb     (+1 duplicate)  
 libharfbuzz0b                   8.3.0-2build2                      deb     (+1 duplicate)  

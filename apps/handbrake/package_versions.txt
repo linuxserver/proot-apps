@@ -65,7 +65,7 @@ libbdplus0                      0.2.0-4+b1                      deb
 libblas3                        3.12.1-7                        deb     
 libblkid1                       2.41.2-4                        deb     
 libbluray3                      1:1.4.0-3                       deb     
-libbrotli1                      1.1.0-2+b8                      deb     
+libbrotli1                      1.1.0-2+b9                      deb     
 libbs2b0                        3.1.0+dfsg-8+b1                 deb     
 libbsd0                         0.12.2-2                        deb     
 libbz2-1.0                      1.0.8-6                         deb     
@@ -84,7 +84,7 @@ libcodec2-1.2                   1.2.0-4                         deb
 libcolord2                      1.4.8-2                         deb     
 libcom-err2                     1.47.2-3+b4                     deb     
 libcrypt1                       1:4.5.1-1                       deb     
-libcups2t64                     2.4.15-1                        deb     
+libcups2t64                     2.4.16-1                        deb     
 libcurl4t64                     8.17.0-3                        deb     
 libdatrie1                      0.2.14-1                        deb     
 libdav1d7                       1.5.2-1                         deb     
@@ -314,7 +314,7 @@ libxi6                          2:1.8.2-1                       deb
 libxinerama1                    2:1.1.4-3+b4                    deb     
 libxkbcommon0                   1.12.3-1                        deb     
 libxkbfile1                     1:1.1.0-1+b4                    deb     
-libxml2-16                      2.15.1+dfsg-2                   deb     
+libxml2-16                      2.15.1+dfsg-2+b1                deb     
 libxmu6                         2:1.1.3-3+b4                    deb     
 libxpm4                         1:3.5.17-1+b3                   deb     
 libxrandr2                      2:1.5.4-1+b3                    deb     
