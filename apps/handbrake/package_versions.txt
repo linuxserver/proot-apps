@@ -14,8 +14,8 @@ dbus-bin                        1.16.2-2                        deb
 dbus-daemon                     1.16.2-2                        deb     
 dbus-session-bus-common         1.16.2-2                        deb     
 dbus-x11                        1.16.2-2                        deb     
-dconf-gsettings-backend         0.49.0-2                        deb     
-dconf-service                   0.49.0-2                        deb     
+dconf-gsettings-backend         0.49.0-3                        deb     
+dconf-service                   0.49.0-3                        deb     
 debconf                         1.5.91                          deb     
 debian-archive-keyring          2025.1                          deb     
 debianutils                     5.23.2                          deb     
@@ -90,7 +90,7 @@ libdatrie1                      0.2.14-1                        deb
 libdav1d7                       1.5.2-1                         deb     
 libdb5.3t64                     5.3.28+dfsg2-10                 deb     
 libdbus-1-3                     1.16.2-2                        deb     
-libdconf1                       0.49.0-2                        deb     
+libdconf1                       0.49.0-3                        deb     
 libdebconfclient0               0.281                           deb     
 libdeflate0                     1.23-2                          deb     
 libdrm-amdgpu1                  2.4.129-1                       deb     
@@ -166,7 +166,7 @@ liblapack3                      3.12.1-7                        deb
 liblcms2-2                      2.17-1                          deb     
 libldap2                        2.6.10+dfsg-1                   deb     
 liblerc4                        4.0.0+ds-5                      deb     
-liblilv-0-0                     0.26.0-1                        deb     
+liblilv-0-0                     0.26.2-1                        deb     
 libllvm19                       1:19.1.7-19                     deb     
 liblocale-gettext-perl          1.07-7+b1                       deb     
 libltdl7                        2.5.4-7                         deb     
