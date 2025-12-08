@@ -4,10 +4,13 @@ adduser                                 3.134                                   
 adwaita-icon-theme                      43-1                                       deb                            
 agent                                   UNKNOWN                                    java-archive                   
 aho-corasick-double-array-trie          1.2.3                                      java-archive                   
+allopen-compiler-plugin                 2.1.21-release-317                         java-archive                   
 allopen-compiler-plugin                 2.2.20-ij252-24                            java-archive                   
 allopen-compiler-plugin                 UNKNOWN                                    java-archive                   
+android-extensions-compiler             2.1.21-release-317                         java-archive                   
+android-extensions-runtime              2.1.21-release-317                         java-archive                   
 animal-sniffer-annotations              1.14                                       java-archive                   
-annotations                             13.0                                       java-archive  (+1 duplicate)   
+annotations                             13.0                                       java-archive  (+2 duplicates)  
 annotations                             UNKNOWN                                    java-archive                   
 ant                                     1.10.14                                    java-archive                   
 ant-antlr                               1.10.14                                    java-archive                   
@@ -46,8 +49,8 @@ archetype-descriptor                    2.2                                     
 asciidoctor-vscode                      3.3.2-dev                                  npm                            
 assertj-swing                           3.17.1                                     java-archive  (+1 duplicate)   
 assignment-compiler-plugin              2.1.21-release-317                         java-archive                   
+assignment-compiler-plugin              2.2.20-ij252-24                            java-archive                   
 assignment-compiler-plugin              UNKNOWN                                    java-archive                   
-async-profiler                          UNKNOWN                                    java-archive                   
 at-spi2-common                          2.46.0-5                                   deb                            
 base-files                              12.4+deb12u12                              deb                            
 base-passwd                             3.6.1                                      deb                            
@@ -153,6 +156,7 @@ httpclient                              4.5.14                                  
 httpcore                                4.4.16                                     java-archive  (+2 duplicates)  
 ice4j                                   3.0-54-g2baae57                            java-archive                   
 idea_rt                                 UNKNOWN                                    java-archive                   
+indexer-core                            6.2.2                                      java-archive                   
 indriya                                 1.3                                        java-archive                   
 ini                                     1.0.0                                      npm                            
 ini4j                                   0.5.5-2                                    java-archive  (+1 duplicate)   
@@ -201,24 +205,28 @@ jsr305                                  3.0.2                                   
 jstun                                   0.7.5.20200723                             java-archive                   
 julia                                   1.0.0                                      npm                            
 jvm-abi-gen                             2.1.21-release-317                         java-archive                   
+jvm-abi-gen                             2.2.20-ij252-24                            java-archive                   
 kconfig-lang                            1.2.0                                      npm                            
 keyboard-configuration                  1.221                                      deb                            
 kotlin                                  UNKNOWN                                    java-archive                   
-kotlin-annotation-processing            2.1.21-release-317                         java-archive                   
 kotlin-annotation-processing            2.2.20-ij252-24                            java-archive                   
 kotlin-annotation-processing-cli        UNKNOWN                                    java-archive  (+1 duplicate)   
-kotlin-annotation-processing-compiler   2.1.21-release-317                         java-archive                   
 kotlin-annotation-processing-runtime    2.1.21-release-317                         java-archive                   
 kotlin-annotation-processing-runtime    2.2.20-ij252-24                            java-archive                   
 kotlin-annotations-jvm                  UNKNOWN                                    java-archive  (+1 duplicate)   
 kotlin-annotations-jvm-sources          UNKNOWN                                    java-archive  (+1 duplicate)   
 kotlin-ant                              2.1.21-release-317                         java-archive                   
 kotlin-ant                              2.2.20-ij252-24                            java-archive                   
+kotlin-compiler-common                  UNKNOWN                                    java-archive                   
+kotlin-compiler-fe10                    UNKNOWN                                    java-archive                   
+kotlin-compiler-ir                      UNKNOWN                                    java-archive                   
 kotlin-daemon                           2.1.21-release-317                         java-archive                   
 kotlin-daemon                           2.2.20-ij252-24                            java-archive                   
 kotlin-daemon-client                    2.1.21-release-317                         java-archive                   
 kotlin-daemon-client                    2.2.20-ij252-24                            java-archive                   
+kotlin-dataframe-compiler-plugin        UNKNOWN                                    java-archive                   
 kotlin-imports-dumper-compiler-plugin   2.1.21-release-317                         java-archive                   
+kotlin-jps-common                       UNKNOWN                                    java-archive                   
 kotlin-main-kts                         2.1.21-release-317                         java-archive                   
 kotlin-main-kts                         2.2.20-ij252-24                            java-archive                   
 kotlin-metadata                         2.2.0-release-294                          java-archive                   
@@ -228,6 +236,7 @@ kotlin-metadata-jvm-sources             UNKNOWN                                 
 kotlin-preloader                        2.1.21-release-317                         java-archive                   
 kotlin-preloader                        2.2.20-ij252-24                            java-archive                   
 kotlin-reflect                          2.1.21-release-317                         java-archive                   
+kotlin-reflect                          2.2.20-ij252-24                            java-archive                   
 kotlin-reflect-sources                  UNKNOWN                                    java-archive  (+1 duplicate)   
 kotlin-runner                           2.1.21-release-317                         java-archive                   
 kotlin-runner                           2.2.20-ij252-24                            java-archive                   
@@ -270,6 +279,8 @@ kotlin-test-testng-sources              UNKNOWN                                 
 kotlinx-coroutines-core-jvm             UNKNOWN                                    java-archive  (+1 duplicate)   
 kotlinx-coroutines-slf4j                1.10.1-intellij                            java-archive                   
 kotlinx-serialization-compiler-plugin   2.1.21-release-317                         java-archive                   
+kotlinx-serialization-compiler-plugin   2.2.20-ij252-24                            java-archive                   
+kotlinx-serialization-compiler-plugin   UNKNOWN                                    java-archive                   
 ktor-client-logging                     3.1.3                                      java-archive                   
 language-viml                           1.2.1                                      npm                            
 latex                                   1.0.0                                      npm                            
@@ -530,9 +541,16 @@ login                                   1:4.13+dfsg1-1+deb12u1                  
 logsave                                 1.47.0-2+b2                                deb                            
 lombok-compiler-plugin                  2.1.21-release-317                         java-archive                   
 lombok-compiler-plugin                  2.2.20-ij252-24                            java-archive                   
+lombok-compiler-plugin                  UNKNOWN                                    java-archive                   
 lsp4j                                   0.21.1.v20230829-0012                      java-archive                   
 lua                                     1.0.0                                      npm                            
+lucene-analyzers-common                 8.11.1                                     java-archive                   
+lucene-backward-codecs                  8.11.1                                     java-archive                   
 lucene-core                             2.4.1                                      java-archive                   
+lucene-highlighter                      8.11.1                                     java-archive                   
+lucene-memory                           8.11.1                                     java-archive                   
+lucene-queries                          8.11.1                                     java-archive                   
+lucene-sandbox                          8.11.1                                     java-archive                   
 make                                    1.0.0                                      npm                            
 markdown                                1.0.0                                      npm                            
 markdown-math                           1.0.0                                      npm                            
@@ -546,6 +564,7 @@ maven-core                              3.9.9                                   
 maven-dependency-tree                   1.2                                        java-archive                   
 maven-embedder                          3.9.9                                      java-archive                   
 maven-event-listener                    UNKNOWN                                    java-archive                   
+maven-model                             3.8.5                                      java-archive                   
 maven-model                             3.8.8                                      java-archive  (+1 duplicate)   
 maven-model                             3.9.9                                      java-archive                   
 maven-model-builder                     3.8.8                                      java-archive  (+1 duplicate)   
@@ -554,16 +573,18 @@ maven-plugin-api                        3.8.8                                   
 maven-plugin-api                        3.9.9                                      java-archive                   
 maven-repository-metadata               3.8.8                                      java-archive  (+1 duplicate)   
 maven-repository-metadata               3.9.9                                      java-archive                   
+maven-resolver-api                      1.8.0                                      java-archive                   
 maven-resolver-api                      1.9.22                                     java-archive  (+2 duplicates)  
-maven-resolver-connector-basic          1.9.22                                     java-archive  (+2 duplicates)  
+maven-resolver-connector-basic          1.9.22                                     java-archive  (+3 duplicates)  
 maven-resolver-impl                     1.9.22                                     java-archive  (+2 duplicates)  
 maven-resolver-named-locks              1.9.22                                     java-archive  (+2 duplicates)  
 maven-resolver-provider                 3.8.8                                      java-archive  (+1 duplicate)   
 maven-resolver-provider                 3.9.9                                      java-archive                   
 maven-resolver-spi                      1.9.22                                     java-archive  (+2 duplicates)  
-maven-resolver-transport-file           1.9.22                                     java-archive  (+2 duplicates)  
-maven-resolver-transport-http           1.9.22                                     java-archive                   
+maven-resolver-transport-file           1.9.22                                     java-archive  (+3 duplicates)  
+maven-resolver-transport-http           1.9.22                                     java-archive  (+1 duplicate)   
 maven-resolver-transport-wagon          1.9.22                                     java-archive  (+2 duplicates)  
+maven-resolver-util                     1.8.0                                      java-archive                   
 maven-resolver-util                     1.9.22                                     java-archive  (+2 duplicates)  
 maven-settings                          3.8.8                                      java-archive  (+1 duplicate)   
 maven-settings                          3.9.9                                      java-archive                   
@@ -591,6 +612,7 @@ nexus-indexer                           3.0.4                                   
 nexus-indexer-artifact                  1.0.1                                      java-archive                   
 noarg-compiler-plugin                   2.1.21-release-317                         java-archive                   
 noarg-compiler-plugin                   2.2.20-ij252-24                            java-archive                   
+noarg-compiler-plugin                   UNKNOWN                                    java-archive                   
 objective-c                             1.0.0                                      npm                            
 ocl-icd-libopencl1                      2.3.1-1                                    deb                            
 openjdk                                 21.0.9+10-b1038.76                         binary                         
@@ -607,6 +629,7 @@ org.jacoco.core                         0.8.13                                  
 oshi-core                               6.6.0                                      java-archive                   
 parcelize-compiler                      2.1.21-release-317                         java-archive                   
 parcelize-compiler                      2.2.20-ij252-24                            java-archive                   
+parcelize-compiler-plugin               UNKNOWN                                    java-archive                   
 parcelize-runtime                       2.1.21-release-317                         java-archive                   
 parcelize-runtime                       2.2.20-ij252-24                            java-archive                   
 passwd                                  1:4.13+dfsg1-1+deb12u1                     deb                            
@@ -623,11 +646,15 @@ plexus-component-annotations            2.1.0                                   
 plexus-interpolation                    1.26                                       java-archive  (+1 duplicate)   
 plexus-interpolation                    1.27                                       java-archive                   
 plexus-sec-dispatcher                   2.0                                        java-archive  (+2 duplicates)  
+plexus-utils                            3.3.0                                      java-archive                   
 plexus-utils                            3.4.1                                      java-archive  (+1 duplicate)   
 plexus-utils                            3.5.1                                      java-archive                   
 plexus-xml                              3.0.1                                      java-archive                   
 power-assert-compiler-plugin            2.1.21-release-317                         java-archive                   
+power-assert-compiler-plugin            2.2.20-ij252-24                            java-archive                   
 powershell                              1.0.0                                      npm                            
+protobuf-java                           2.6.1                                      java-archive                   
+protobuf-java                           3.24.4-jb.2                                java-archive                   
 publisher                               UNKNOWN                                    java-archive                   
 pug                                     1.0.0                                      npm                            
 pulseaudio                              16.1+dfsg1-2+b1                            deb                            
@@ -644,11 +671,16 @@ razor                                   1.0.0                                   
 readline-common                         8.2-1.3                                    deb                            
 restructuredtext                        1.0.0                                      npm                            
 rhino                                   1.7.15                                     java-archive                   
+rt                                      UNKNOWN                                    java-archive                   
 ruby                                    1.0.0                                      npm                            
 rust                                    1.0.0                                      npm                            
 sa-jdwp                                 UNKNOWN                                    java-archive                   
 sam-with-receiver-compiler-plugin       2.1.21-release-317                         java-archive                   
+sam-with-receiver-compiler-plugin       2.2.20-ij252-24                            java-archive                   
+sam-with-receiver-compiler-plugin       UNKNOWN                                    java-archive                   
 scripting-compiler                      2.1.21-release-317                         java-archive                   
+scripting-compiler                      2.2.20-ij252-24                            java-archive                   
+scripting-compiler-plugin               UNKNOWN                                    java-archive                   
 scss                                    1.0.0                                      npm                            
 search-result                           1.0.0                                      npm                            
 sed                                     4.9-1                                      deb                            
@@ -657,10 +689,9 @@ serialization                           UNKNOWN                                 
 shaderlab                               1.0.0                                      npm                            
 shared-mime-info                        2.2-1                                      deb                            
 shellscript                             1.0.0                                      npm                            
-slf4j-api                               1.7.36                                     java-archive  (+2 duplicates)  
+slf4j-api                               1.7.36                                     java-archive  (+3 duplicates)  
 slf4j-simple                            1.7.36                                     java-archive  (+1 duplicate)   
 sql                                     1.0.0                                      npm                            
-sqlite-jdbc                             3.49.1.0                                   java-archive                   
 swift                                   1.0.0                                      npm                            
 sysvinit-utils                          3.06-4                                     deb                            
 tar                                     1.34+dfsg-1.2+deb12u1                      deb                            

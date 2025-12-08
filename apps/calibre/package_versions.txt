@@ -30,7 +30,7 @@ beautifulsoup4             4.14.3                   python
 bitflags                   2.4.1                    rust-crate    
 bitflags                   2.9.1                    rust-crate    
 bitstream-io               4.2.0                    rust-crate    
-bluez-libs                 5.85-r0                  apk           
+bluez-libs                 5.85-r1                  apk           
 brotli-libs                1.2.0-r0                 apk           
 busybox                    1.37.0-r29               apk           
 busybox-binsh              1.37.0-r29               apk           
@@ -174,7 +174,7 @@ libdav1d                   1.5.2-r0                 apk
 libdotconf                 1.4.1-r0                 apk           
 libdrm                     2.4.129-r0               apk           
 libeconf                   0.8.0-r0                 apk           
-libelf                     0.194-r0                 apk           
+libelf                     0.194-r2                 apk           
 libepoxy                   1.5.10-r1                apk           
 libevdev                   1.13.6-r0                apk           
 libexpat                   2.7.3-r0                 apk           

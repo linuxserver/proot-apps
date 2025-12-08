@@ -127,7 +127,7 @@ libcurl                      8.17.0-r1                apk
 libdav1d                     1.5.2-r0                 apk           
 libdrm                       2.4.129-r0               apk           
 libeconf                     0.8.0-r0                 apk           
-libelf                       0.194-r0                 apk           
+libelf                       0.194-r2                 apk           
 libepoxy                     1.5.10-r1                apk           
 libevdev                     1.13.6-r0                apk           
 libexpat                     2.7.3-r0                 apk           
