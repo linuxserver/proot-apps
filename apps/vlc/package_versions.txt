@@ -194,7 +194,7 @@ libpciaccess                          0.18.1-r0                apk
 libpcre2-16                           10.43-r0                 apk       
 libpcre2-32                           10.43-r0                 apk       
 libplacebo5                           5.264.1-r6               apk       
-libpng                                1.6.47-r0                apk       
+libpng                                1.6.53-r0                apk       
 libprotobuf-lite                      24.4-r4                  apk       
 libproxy                              0.5.9-r0                 apk       
 libpsl                                0.21.5-r3                apk       
