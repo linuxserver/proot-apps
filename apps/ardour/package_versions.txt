@@ -154,7 +154,7 @@ libpciaccess               0.18.1-r1                apk
 libplacebo                 7.351.0-r0               apk                         
 libpng                     1.6.53-r0                apk                         
 libpsl                     0.21.5-r3                apk                         
-libpulse                   17.0-r5                  apk                         
+libpulse                   17.0-r6                  apk                         
 librist                    0.2.10-r1                apk                         
 libsamplerate              0.2.2-r3                 apk                         
 libsharpyuv                1.6.0-r0                 apk                         
@@ -256,8 +256,8 @@ ppv-lite86                 0.2.21                   rust-crate
 proc-macro2                1.0.95                   rust-crate                  
 profiling                  1.0.16                   rust-crate                  
 profiling-procmacros       1.0.16                   rust-crate                  
-pulseaudio                 17.0-r5                  apk                         
-pulseaudio-alsa            17.0-r5                  apk                         
+pulseaudio                 17.0-r6                  apk                         
+pulseaudio-alsa            17.0-r6                  apk                         
 pyc                        3.12.12-r0               apk                         
 python3                    3.12.12-r0               apk                         
 python3-pyc                3.12.12-r0               apk                         
@@ -310,7 +310,7 @@ vulkan-loader              1.4.321.0-r0             apk
 wayland-libs-client        1.24.0-r0                apk                         
 wayland-libs-cursor        1.24.0-r0                apk                         
 wayland-libs-egl           1.24.0-r0                apk                         
-webrtc-audio-processing-1  1.3-r2                   apk                         
+webrtc-audio-processing-1  1.3-r3                   apk                         
 wyz                        0.5.1                    rust-crate                  
 x264-libs                  0.164.3108-r1            apk                         
 x265-libs                  4.1-r0                   apk                         
