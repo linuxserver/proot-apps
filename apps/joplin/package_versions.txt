@@ -60,8 +60,8 @@ libaudit1                       1:3.0.9-1                        deb
 libavahi-client3                0.8-10+deb12u1                   deb     
 libavahi-common-data            0.8-10+deb12u1                   deb     
 libavahi-common3                0.8-10+deb12u1                   deb     
-libavcodec59                    7:5.1.7-0+deb12u1                deb     
-libavutil57                     7:5.1.7-0+deb12u1                deb     
+libavcodec59                    7:5.1.8-0+deb12u1                deb     
+libavutil57                     7:5.1.8-0+deb12u1                deb     
 libayatana-appindicator3-1      0.5.92-1                         deb     
 libayatana-ido3-0.4-0           0.9.3-1                          deb     
 libayatana-indicator3-7         0.9.3-1                          deb     
@@ -187,7 +187,7 @@ libpangoft2-1.0-0               1.50.12+ds-1                     deb
 libpciaccess0                   0.17-2                           deb     
 libpcre2-8-0                    10.42-1                          deb     
 libpixman-1-0                   0.42.2-1                         deb     
-libpng16-16                     1.6.39-2                         deb     
+libpng16-16                     1.6.39-2+deb12u1                 deb     
 libproc2-0                      2:4.0.2-3                        deb     
 libpsl5                         0.21.2-1                         deb     
 libpulse0                       16.1+dfsg1-2+b1                  deb     
@@ -226,7 +226,7 @@ libssh2-1                       1.10.0-3+b1                      deb
 libssl3                         3.0.17-1~deb12u3                 deb     
 libstdc++6                      12.2.0-14+deb12u1                deb     
 libsvtav1enc1                   1.4.1+dfsg-1                     deb     
-libswresample4                  7:5.1.7-0+deb12u1                deb     
+libswresample4                  7:5.1.8-0+deb12u1                deb     
 libsystemd0                     252.39-1~deb12u1                 deb     
 libtasn1-6                      4.19.0-2+deb12u1                 deb     
 libtdb1                         1.4.8-2                          deb     

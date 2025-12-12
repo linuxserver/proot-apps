@@ -209,7 +209,7 @@ libpcre2-8-0                    10.42-1                         deb
 libpgm-5.3-0                    5.3.128~dfsg-2                  deb     
 libpixman-1-0                   0.42.2-1                        deb     
 libplacebo208                   4.208.0-3                       deb     
-libpng16-16                     1.6.39-2                        deb     
+libpng16-16                     1.6.39-2+deb12u1                deb     
 libpocketsphinx3                0.8+5prealpha+1-15              deb     
 libpostproc56                   7:5.1.8-0+deb12u1               deb     
 libproc2-0                      2:4.0.2-3                       deb     
