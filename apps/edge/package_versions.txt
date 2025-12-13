@@ -15,8 +15,8 @@ dbus-bin                        1.16.2-2                        deb
 dbus-daemon                     1.16.2-2                        deb     
 dbus-session-bus-common         1.16.2-2                        deb     
 dbus-x11                        1.16.2-2                        deb     
-dconf-gsettings-backend         0.49.0-3                        deb     
-dconf-service                   0.49.0-3                        deb     
+dconf-gsettings-backend         0.49.0-4                        deb     
+dconf-service                   0.49.0-4                        deb     
 debconf                         1.5.91                          deb     
 debian-archive-keyring          2025.1                          deb     
 debianutils                     5.23.2                          deb     
@@ -83,7 +83,7 @@ libdatrie1                      0.2.14-1                        deb
 libdav1d7                       1.5.2-1                         deb     
 libdb5.3t64                     5.3.28+dfsg2-11                 deb     
 libdbus-1-3                     1.16.2-2                        deb     
-libdconf1                       0.49.0-3                        deb     
+libdconf1                       0.49.0-4                        deb     
 libdebconfclient0               0.282                           deb     
 libdeflate0                     1.23-2                          deb     
 libdrm-amdgpu1                  2.4.129-1                       deb     
@@ -207,8 +207,8 @@ libssl3t64                      3.5.4-1                         deb
 libstdc++6                      15.2.0-11                       deb     
 libsvtav1enc2                   2.3.0+dfsg-1                    deb     
 libswresample5                  7:7.1.3-1                       deb     
-libsystemd-shared               259~rc2-1                       deb     
-libsystemd0                     259~rc2-1                       deb     
+libsystemd-shared               259~rc3-1                       deb     
+libsystemd0                     259~rc3-1                       deb     
 libtasn1-6                      4.20.0-2                        deb     
 libtdb1                         2:1.4.14+samba4.23.3+dfsg-1+b1  deb     
 libthai-data                    0.1.29-2                        deb     
@@ -218,7 +218,7 @@ libtheoraenc2                   1.2.0+dfsg-6                    deb
 libtiff6                        4.7.1-1                         deb     
 libtinfo6                       6.5+20251123-1                  deb     
 libtwolame0                     0.4.0-2+b2                      deb     
-libudev1                        259~rc2-1                       deb     
+libudev1                        259~rc3-1                       deb     
 libunistring5                   1.3-2                           deb     
 libunwind8                      1.8.1-0.1                       deb     
 libuuid1                        2.41.2-4                        deb     
@@ -303,11 +303,11 @@ pulseaudio-utils                17.0+dfsg1-2+b1                 deb
 sed                             4.9-2                           deb     
 shared-mime-info                2.4-5+b3                        deb     
 sqv                             1.3.0-4                         deb     
-systemd                         259~rc2-1                       deb     
+systemd                         259~rc3-1                       deb     
 sysvinit-utils                  3.15-6                          deb     
 tar                             1.35+dfsg-3.1                   deb     
 tzdata                          2025b-5                         deb     
-udev                            259~rc2-1                       deb     
+udev                            259~rc3-1                       deb     
 util-linux                      2.41.2-4                        deb     
 wget                            1.25.0-2                        deb     
 x11-common                      1:7.7+26                        deb     

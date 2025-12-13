@@ -269,7 +269,7 @@ ssl_client                 1.37.0-r13               apk
 tdb-libs                   1.4.12-r0                apk     
 tiff                       4.7.1-r0                 apk     
 tslib                      1.23-r0                  apk     
-tzdata                     2025b-r0                 apk     
+tzdata                     2025c-r0                 apk     
 uchardet-libs              0.0.8-r2                 apk     
 v4l-utils-libs             1.28.1-r1                apk     
 vidstab                    1.1.1-r0                 apk     

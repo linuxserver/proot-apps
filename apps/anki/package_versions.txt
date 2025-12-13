@@ -403,7 +403,7 @@ thiserror-impl                     1.0.56                   rust-crate
 tiff                               4.7.1-r0                 apk           
 tslib                              1.23-r0                  apk           
 typing-extensions                  4.13.2                   python        
-tzdata                             2025b-r0                 apk           
+tzdata                             2025c-r0                 apk           
 unicode-ident                      1.0.12                   rust-crate    
 unicode-width                      0.1.11                   rust-crate    
 urllib3                            1.26.20                  python        
