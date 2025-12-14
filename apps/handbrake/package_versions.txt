@@ -78,7 +78,7 @@ libcairo2                       1.18.4-1+b1                     deb
 libcap-ng0                      0.8.5-4+b2                      deb     
 libcap2                         1:2.75-10+b2                    deb     
 libcap2-bin                     1:2.75-10+b2                    deb     
-libchromaprint1                 1.6.0-2                         deb     
+libchromaprint1                 1.6.0-2+b1                      deb     
 libcjson1                       1.7.18-4                        deb     
 libcloudproviders0              0.3.6-3                         deb     
 libcodec2-1.2                   1.2.0-4                         deb     
