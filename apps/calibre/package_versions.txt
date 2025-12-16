@@ -354,10 +354,10 @@ py3-beautifulsoup4         4.14.3-r0                apk
 py3-beautifulsoup4-pyc     4.14.3-r0                apk           
 py3-chardet                5.2.0-r1                 apk           
 py3-chardet-pyc            5.2.0-r1                 apk           
-py3-css-parser             1.0.10-r1                apk           
-py3-css-parser-pyc         1.0.10-r1                apk           
-py3-cssselect              1.2.0-r3                 apk           
-py3-cssselect-pyc          1.2.0-r3                 apk           
+py3-css-parser             1.0.10-r2                apk           
+py3-css-parser-pyc         1.0.10-r2                apk           
+py3-cssselect              1.2.0-r4                 apk           
+py3-cssselect-pyc          1.2.0-r4                 apk           
 py3-dateutil               2.9.0-r2                 apk           
 py3-dateutil-pyc           2.9.0-r2                 apk           
 py3-dnspython              2.8.0-r0                 apk           
