@@ -162,7 +162,7 @@ libblkid                   2.41.2-r0                apk
 libblockdev                3.4.0-r0                 apk           
 libbluray                  1.4.0-r0                 apk           
 libbsd                     0.12.2-r0                apk           
-libbytesize                2.11-r0                  apk           
+libbytesize                2.11-r1                  apk           
 libbz2                     1.0.8-r6                 apk           
 libc                       0.2.149                  rust-crate    
 libc                       0.2.172                  rust-crate    
