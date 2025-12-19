@@ -393,7 +393,7 @@ ncurses-bin                               6.4-4                           deb
 netcat-openbsd                            1.219-1                         deb                            
 objective-c                               1.0.0                           npm                            
 ocl-icd-libopencl1                        2.3.1-1                         deb                            
-openjdk                                   21.0.9+10-b1038.76              binary                         
+openjdk                                   21.0.9+10-b1038.78              binary                         
 openssh-client                            1:9.2p1-2+deb12u7               deb                            
 openssl                                   3.0.17-1~deb12u3                deb                            
 oshi-core                                 6.6.0                           java-archive                   

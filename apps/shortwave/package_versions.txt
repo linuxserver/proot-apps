@@ -13,7 +13,7 @@ bash                       5.2.37-r0                apk
 brotli-libs                1.1.0-r2                 apk     
 busybox                    1.37.0-r13               apk     
 busybox-binsh              1.37.0-r13               apk     
-c-ares                     1.34.5-r0                apk     
+c-ares                     1.34.6-r0                apk     
 ca-certificates            20250911-r0              apk     
 ca-certificates-bundle     20250911-r0              apk     
 cairo                      1.18.4-r0                apk     
