@@ -178,7 +178,7 @@ libelf                     0.194-r2                 apk
 libepoxy                   1.5.10-r1                apk           
 libevdev                   1.13.6-r0                apk           
 libexpat                   2.7.3-r0                 apk           
-libfdisk                   2.41.2-r0                apk           
+libfdisk                   2.41.3-r0                apk           
 libffi                     3.5.2-r0                 apk           
 libflac                    1.4.3-r2                 apk           
 libgcc                     15.2.0-r2                apk           
@@ -192,7 +192,7 @@ libice                     1.1.2-r0                 apk
 libidn                     1.43-r0                  apk           
 libidn2                    2.3.8-r0                 apk           
 libimagequant              4.2.2-r0                 apk           
-libinput-libs              1.30.0-r0                apk           
+libinput-libs              1.30.1-r0                apk           
 libintl                    0.24.1-r1                apk           
 libjpeg-turbo              3.1.3-r0                 apk           
 libjxl                     0.11.1-r3                apk           
