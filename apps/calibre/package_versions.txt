@@ -358,8 +358,8 @@ py3-css-parser             1.0.10-r2                apk
 py3-css-parser-pyc         1.0.10-r2                apk           
 py3-cssselect              1.2.0-r4                 apk           
 py3-cssselect-pyc          1.2.0-r4                 apk           
-py3-dateutil               2.9.0-r2                 apk           
-py3-dateutil-pyc           2.9.0-r2                 apk           
+py3-dateutil               2.9.0-r3                 apk           
+py3-dateutil-pyc           2.9.0-r3                 apk           
 py3-dnspython              2.8.0-r0                 apk           
 py3-dnspython-pyc          2.8.0-r0                 apk           
 py3-feedparser             6.0.12-r0                apk           

@@ -65,7 +65,7 @@ ffmpeg7-libavutil          7.1.2-r4                 apk
 ffmpeg7-libswresample      7.1.2-r4                 apk           
 fftw-single-libs           3.3.10-r7                apk           
 file                       5.46-r2                  apk           
-firefox-developer-edition  145.0_beta4-r0           apk           
+firefox-developer-edition  147.0_beta6-r0           apk           
 font-noto                  2025.12.01-r0            apk           
 font-noto-common           2025.12.01-r0            apk           
 font-noto-math             2025.12.01-r0            apk           
