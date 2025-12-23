@@ -63,7 +63,7 @@ crossbeam-epoch            0.9.18                   rust-crate
 crossbeam-queue            0.3.12                   rust-crate    
 crossbeam-utils            0.8.16                   rust-crate    
 crossbeam-utils            0.8.21                   rust-crate    
-cryptsetup-libs            2.8.1-r0                 apk           
+cryptsetup-libs            2.8.3-r0                 apk           
 css-parser                 1.0.10                   python        
 cssselect                  1.2.0                    python        
 cups-libs                  2.4.13-r0                apk           
