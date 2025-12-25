@@ -11,11 +11,12 @@ NAME                                    VERSION                         TYPE
 @vscode/iconv-lite-umd                  0.7.1                           npm                    
 @vscode/proxy-agent                     0.36.0                          npm                    
 @vscode/ripgrep                         1.15.14                         npm                    
-@vscode/spdlog                          0.15.2                          npm                    
-@vscode/sqlite3                         5.1.8-vscode                    npm                    
+@vscode/spdlog                          0.15.4                          npm                    
+@vscode/sqlite3                         5.1.10-vscode                   npm                    
 @vscode/sudo-prompt                     9.3.1                           npm                    
-@vscode/tree-sitter-wasm                0.2.0                           npm                    
+@vscode/tree-sitter-wasm                0.3.0                           npm                    
 @vscode/vscode-languagedetection        1.0.21                          npm                    
+@vscodium/native-keymap                 3.3.7-258424                    npm                    
 @vscodium/policy-watcher                1.3.2-252465                    npm                    
 @xterm/addon-clipboard                  0.2.0-beta.119                  npm                    
 @xterm/addon-image                      0.9.0-beta.136                  npm                    
@@ -27,10 +28,10 @@ NAME                                    VERSION                         TYPE
 @xterm/addon-webgl                      0.19.0-beta.136                 npm                    
 @xterm/headless                         5.6.0-beta.136                  npm                    
 @xterm/xterm                            5.6.0-beta.136                  npm                    
-VSCodium                                1.106.37943                     npm                    
+VSCodium                                1.107.18605                     npm                    
 adduser                                 3.134                           deb                    
 adwaita-icon-theme                      43-1                            deb                    
-agent-base                              7.1.1                           npm                    
+agent-base                              7.1.4                           npm                    
 apt                                     2.6.1                           deb                    
 at-spi2-common                          2.46.0-5                        deb                    
 base-files                              12.4+deb12u12                   deb                    
@@ -50,7 +51,7 @@ ca-certificates                         20230311+deb12u1                deb
 chownr                                  2.0.0                           npm                    
 chrome-remote-interface                 0.33.0                          npm                    
 clojure                                 1.0.0                           npm                    
-codium                                  1.106.37943                     deb                    
+codium                                  1.107.18605                     deb                    
 coffeescript                            1.0.0                           npm                    
 commander                               2.11.0                          npm                    
 commander                               8.3.0                           npm                    
@@ -132,7 +133,7 @@ hostname                                3.23+nmu1                       deb
 html                                    1.0.0                           npm                    
 html-language-features                  1.0.0                           npm                    
 http-proxy-agent                        7.0.2                           npm                    
-https-proxy-agent                       7.0.5                           npm                    
+https-proxy-agent                       7.0.6                           npm                    
 ieee754                                 1.2.1                           npm                    
 inherits                                2.0.4                           npm                    
 ini                                     1.0.0                           npm                    
@@ -447,9 +448,8 @@ mkdirp                                  1.0.4                           npm
 mkdirp-classic                          0.5.3                           npm                    
 mount                                   2.38.1-5+deb12u3                deb                    
 ms                                      2.1.3                           npm                    
-napi-build-utils                        1.0.2                           npm                    
-native-is-elevated                      0.7.0                           npm                    
-native-keymap                           3.3.5                           npm                    
+napi-build-utils                        2.0.0                           npm                    
+native-is-elevated                      0.8.0                           npm                    
 native-watchdog                         1.4.2                           npm                    
 ncurses-base                            6.4-4                           deb                    
 ncurses-bin                             6.4-4                           deb                    
@@ -518,7 +518,7 @@ swift                                   1.0.0                           npm
 sysvinit-utils                          3.06-4                          deb                    
 tar                                     1.34+dfsg-1.2+deb12u1           deb                    
 tar                                     6.2.1                           npm                    
-tas-client-umd                          0.2.0                           npm                    
+tas-client                              0.3.1                           npm                    
 terminal-suggest                        1.0.1                           npm                    
 theme-abyss                             1.0.0                           npm                    
 theme-defaults                          1.0.0                           npm                    
