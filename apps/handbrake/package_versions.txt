@@ -104,7 +104,7 @@ libdvdnav4                      7.0.0-2                         deb
 libdvdread8t64                  7.0.1-1                         deb     
 libedit2                        3.1-20250104-1                  deb     
 libegl-mesa0                    25.2.8-2+b2                     deb     
-libegl1                         1.7.0-2                         deb     
+libegl1                         1.7.0-3                         deb     
 libelf1t64                      0.194-1                         deb     
 libepoxy0                       1.5.10-2                        deb     
 libexpat1                       2.7.3-1                         deb     
@@ -123,13 +123,13 @@ libgcrypt20                     1.11.2-3                        deb
 libgdk-pixbuf-2.0-0             2.44.4+dfsg-1                   deb     
 libgdk-pixbuf2.0-common         2.44.4+dfsg-1                   deb     
 libgfortran5                    15.2.0-12                       deb     
-libgl1                          1.7.0-2                         deb     
+libgl1                          1.7.0-3                         deb     
 libgl1-mesa-dri                 25.2.8-2+b2                     deb     
-libgles2                        1.7.0-2                         deb     
+libgles2                        1.7.0-3                         deb     
 libglib2.0-0t64                 2.86.3-1                        deb     
-libglvnd0                       1.7.0-2                         deb     
+libglvnd0                       1.7.0-3                         deb     
 libglx-mesa0                    25.2.8-2+b2                     deb     
-libglx0                         1.7.0-2                         deb     
+libglx0                         1.7.0-3                         deb     
 libgme0                         0.6.4-1                         deb     
 libgmp10                        2:6.3.0+dfsg-5                  deb     
 libgnutls30t64                  3.8.11-3                        deb     
