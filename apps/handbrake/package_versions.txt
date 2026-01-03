@@ -73,9 +73,9 @@ libbz2-1.0                      1.0.8-6                         deb
 libc-bin                        2.42-5                          deb     
 libc-gconv-modules-extra        2.42-5                          deb     
 libc6                           2.42-5                          deb     
-libcairo-gobject2               1.18.4-2                        deb     
-libcairo-script-interpreter2    1.18.4-2                        deb     
-libcairo2                       1.18.4-2                        deb     
+libcairo-gobject2               1.18.4-3                        deb     
+libcairo-script-interpreter2    1.18.4-3                        deb     
+libcairo2                       1.18.4-3                        deb     
 libcap-ng0                      0.8.5-4+b2                      deb     
 libcap2                         1:2.75-10+b2                    deb     
 libcap2-bin                     1:2.75-10+b2                    deb     

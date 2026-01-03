@@ -172,7 +172,7 @@ libcap2                    2.77-r0                  apk
 libcom_err                 1.47.3-r0                apk           
 libcrypto3                 3.5.4-r0                 apk           
 libcurl                    8.17.0-r1                apk           
-libdav1d                   1.5.2-r0                 apk           
+libdav1d                   1.5.3-r0                 apk           
 libdotconf                 1.4.1-r0                 apk           
 libdrm                     2.4.131-r0               apk           
 libeconf                   0.8.0-r0                 apk           
