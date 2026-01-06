@@ -244,7 +244,7 @@ libsm6                          2:1.2.3-1                       deb
 libsmartcols1                   2.38.1-5+deb12u3                deb     
 libsnappy1v5                    1.1.9-3                         deb     
 libsndfile1                     1.2.0-1+deb12u1                 deb     
-libsodium23                     1.0.18-1                        deb     
+libsodium23                     1.0.18-1+deb12u1                deb     
 libsord-0-0                     0.16.14+git221008-1             deb     
 libsoxr0                        0.1.3-4                         deb     
 libspeex1                       1.2.1-2                         deb     

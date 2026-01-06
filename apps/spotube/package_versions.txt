@@ -313,7 +313,7 @@ libsmartcols1                    2.38.1-5+deb12u3                 deb
 libsnappy1v5                     1.1.9-3                          deb       
 libsndfile1                      1.2.0-1+deb12u1                  deb       
 libsndio7.0                      1.9.0-0.3+b2                     deb       
-libsodium23                      1.0.18-1                         deb       
+libsodium23                      1.0.18-1+deb12u1                 deb       
 libsord-0-0                      0.16.14+git221008-1              deb       
 libsoup-3.0-0                    3.2.3-0+deb12u2                  deb       
 libsoup-3.0-common               3.2.3-0+deb12u2                  deb       
