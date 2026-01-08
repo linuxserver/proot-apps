@@ -44,9 +44,9 @@ gir1.2-packagekitglib-1.0           1.2.8-2ubuntu1.4                    deb
 glib-networking                     2.80.0-1build1                      deb                     
 glib-networking-common              2.80.0-1build1                      deb                     
 glib-networking-services            2.80.0-1build1                      deb                     
-gpg                                 2.4.4-2ubuntu17.3                   deb                     
-gpgconf                             2.4.4-2ubuntu17.3                   deb                     
-gpgv                                2.4.4-2ubuntu17.3                   deb                     
+gpg                                 2.4.4-2ubuntu17.4                   deb                     
+gpgconf                             2.4.4-2ubuntu17.4                   deb                     
+gpgv                                2.4.4-2ubuntu17.4                   deb                     
 grep                                3.11-4build1                        deb                     
 gsettings-desktop-schemas           46.1-0ubuntu1                       deb                     
 gtk-update-icon-cache               3.24.41-4ubuntu1.3                  deb                     
