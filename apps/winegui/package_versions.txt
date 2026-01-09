@@ -99,7 +99,7 @@ libbsd0                         0.12.1-1build1.1                   deb     (+1 d
 libbz2-1.0                      1.0.8-5.1build0.1                  deb     (+1 duplicate)  
 libc-bin                        2.39-0ubuntu8.6                    deb                     
 libc6                           2.39-0ubuntu8.6                    deb     (+1 duplicate)  
-libcaca0                        0.99.beta20-4build2                deb                     
+libcaca0                        0.99.beta20-4ubuntu0.1             deb                     
 libcairo-gobject2               1.18.0-3build1                     deb     (+1 duplicate)  
 libcairo-script-interpreter2    1.18.0-3build1                     deb                     
 libcairo2                       1.18.0-3build1                     deb     (+1 duplicate)  
@@ -170,8 +170,8 @@ libgles-dev                     1.7.0-1build1                      deb
 libgles1                        1.7.0-1build1                      deb                     
 libgles2                        1.7.0-1build1                      deb                     
 libgles2-mesa-dev               25.0.7-0ubuntu0.24.04.2            deb                     
-libglib2.0-0t64                 2.80.0-6ubuntu3.5                  deb     (+1 duplicate)  
-libglib2.0-data                 2.80.0-6ubuntu3.5                  deb                     
+libglib2.0-0t64                 2.80.0-6ubuntu3.6                  deb     (+1 duplicate)  
+libglib2.0-data                 2.80.0-6ubuntu3.6                  deb                     
 libglibmm-2.4-1t64              2.66.7-1build1                     deb                     
 libglvnd-core-dev               1.7.0-1build1                      deb                     
 libglvnd-dev                    1.7.0-1build1                      deb                     

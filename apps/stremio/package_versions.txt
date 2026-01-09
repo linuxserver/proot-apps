@@ -272,7 +272,7 @@ libsnapd-glib1                      1.60-0ubuntu1                            deb
 libsnappy1v5                        1.1.8-1build3                            deb     
 libsndfile1                         1.0.31-2ubuntu0.2                        deb     
 libsndio7.0                         1.8.1-1.1                                deb     
-libsodium23                         1.0.18-1build2                           deb     
+libsodium23                         1.0.18-1ubuntu0.22.04.1                  deb     
 libsord-0-0                         0.16.8-2                                 deb     
 libsoup2.4-1                        2.74.2-3ubuntu0.6                        deb     
 libsoup2.4-common                   2.74.2-3ubuntu0.6                        deb     
