@@ -64,11 +64,11 @@ equator-macro                0.4.2                    rust-crate
 errno                        0.3.12                   rust-crate    
 eudev-libs                   3.2.14-r6                apk           
 fern                         0.7.1                    rust-crate    
-ffmpeg-libavcodec            8.0.1-r0                 apk           
-ffmpeg-libavformat           8.0.1-r0                 apk           
-ffmpeg-libavutil             8.0.1-r0                 apk           
-ffmpeg-libswresample         8.0.1-r0                 apk           
-ffmpeg-libswscale            8.0.1-r0                 apk           
+ffmpeg-libavcodec            8.0.1-r1                 apk           
+ffmpeg-libavformat           8.0.1-r1                 apk           
+ffmpeg-libavutil             8.0.1-r1                 apk           
+ffmpeg-libswresample         8.0.1-r1                 apk           
+ffmpeg-libswscale            8.0.1-r1                 apk           
 ffmpeg4-libavcodec           4.4.6-r0                 apk           
 ffmpeg4-libavformat          4.4.6-r0                 apk           
 ffmpeg4-libavutil            4.4.6-r0                 apk           
@@ -251,7 +251,7 @@ libsrt                       1.5.3-r1                 apk
 libssh                       0.11.3-r0                apk           
 libssl3                      3.5.4-r0                 apk           
 libstdc++                    15.2.0-r2                apk           
-libtasn1                     4.20.0-r0                apk           
+libtasn1                     4.21.0-r0                apk           
 libtheora                    1.2.0-r0                 apk           
 libudfread                   1.2.0-r0                 apk           
 libunistring                 1.4.1-r0                 apk           

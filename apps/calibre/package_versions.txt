@@ -87,11 +87,11 @@ espeak-ng                  1.52.0-r0                apk
 eudev-libs                 3.2.14-r6                apk           
 feedparser                 6.0.12                   python        
 fern                       0.7.1                    rust-crate    
-ffmpeg-libavcodec          8.0.1-r0                 apk           
-ffmpeg-libavformat         8.0.1-r0                 apk           
-ffmpeg-libavutil           8.0.1-r0                 apk           
-ffmpeg-libswresample       8.0.1-r0                 apk           
-ffmpeg-libswscale          8.0.1-r0                 apk           
+ffmpeg-libavcodec          8.0.1-r1                 apk           
+ffmpeg-libavformat         8.0.1-r1                 apk           
+ffmpeg-libavutil           8.0.1-r1                 apk           
+ffmpeg-libswresample       8.0.1-r1                 apk           
+ffmpeg-libswscale          8.0.1-r1                 apk           
 fftw-single-libs           3.3.10-r7                apk           
 file                       5.46-r2                  apk           
 font-liberation            2.1.5-r2                 apk           
@@ -227,7 +227,7 @@ libssh                     0.11.3-r0                apk
 libssl3                    3.5.4-r0                 apk           
 libstdc++                  15.2.0-r2                apk           
 libstemmer                 2.2.0-r0                 apk           
-libtasn1                   4.20.0-r0                apk           
+libtasn1                   4.21.0-r0                apk           
 libtheora                  1.2.0-r0                 apk           
 libudfread                 1.2.0-r0                 apk           
 libunistring               1.4.1-r0                 apk           
