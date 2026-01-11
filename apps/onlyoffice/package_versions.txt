@@ -254,7 +254,7 @@ libsqlite3-0                    3.40.1-2+deb12u2                deb
 libsratom-0-0                   0.6.14-1                        deb     
 libsrt1.5-gnutls                1.5.1-1+deb12u1                 deb     
 libss2                          1.47.0-2+b2                     deb     
-libssh-gcrypt-4                 0.10.6-0+deb12u1                deb     
+libssh-gcrypt-4                 0.10.6-0+deb12u2                deb     
 libssh2-1                       1.10.0-3+b1                     deb     
 libssl3                         3.0.17-1~deb12u3                deb     
 libstdc++6                      12.2.0-14+deb12u1               deb     

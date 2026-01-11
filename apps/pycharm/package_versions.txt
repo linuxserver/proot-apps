@@ -64,9 +64,9 @@ fonts-noto                                20201225-1                      deb
 fonts-noto-core                           20201225-1                      deb                            
 fsharp                                    1.0.0                           npm                            
 gcc-12-base                               12.2.0-14+deb12u1               deb                            
-git                                       1:2.39.5-0+deb12u2              deb                            
+git                                       1:2.39.5-0+deb12u3              deb                            
 git-base                                  1.0.0                           npm                            
-git-man                                   1:2.39.5-0+deb12u2              deb                            
+git-man                                   1:2.39.5-0+deb12u3              deb                            
 go                                        1.0.0                           npm                            
 gpgv                                      2.2.40-1.1+deb12u1              deb                            
 grep                                      3.8-5                           deb                            
@@ -368,7 +368,7 @@ libz3-4                                   4.8.12-3.1                      deb
 libzstd1                                  1.5.4+dfsg2-5                   deb                            
 libzvbi-common                            0.2.41-1                        deb                            
 libzvbi0                                  0.2.41-1                        deb                            
-linux-libc-dev                            6.1.158-1                       deb                            
+linux-libc-dev                            6.1.159-1                       deb                            
 log                                       1.0.0                           npm                            
 login                                     1:4.13+dfsg1-1+deb12u1          deb                            
 logsave                                   1.47.0-2+b2                     deb                            

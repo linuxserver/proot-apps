@@ -150,11 +150,11 @@ libgirepository-1.0-1           1.74.0-3                        deb
 libgl1                          1.6.0-1                         deb       
 libgl1-mesa-dri                 22.3.6-1+deb12u1                deb       
 libglapi-mesa                   22.3.6-1+deb12u1                deb       
-libglib2.0-0                    2.74.6-2+deb12u7                deb       
-libglib2.0-bin                  2.74.6-2+deb12u7                deb       
-libglib2.0-data                 2.74.6-2+deb12u7                deb       
-libglib2.0-dev                  2.74.6-2+deb12u7                deb       
-libglib2.0-dev-bin              2.74.6-2+deb12u7                deb       
+libglib2.0-0                    2.74.6-2+deb12u8                deb       
+libglib2.0-bin                  2.74.6-2+deb12u8                deb       
+libglib2.0-data                 2.74.6-2+deb12u8                deb       
+libglib2.0-dev                  2.74.6-2+deb12u8                deb       
+libglib2.0-dev-bin              2.74.6-2+deb12u8                deb       
 libglvnd0                       1.6.0-1                         deb       
 libglx-mesa0                    22.3.6-1+deb12u1                deb       
 libglx0                         1.6.0-1                         deb       
@@ -289,7 +289,7 @@ libsqlite3-0                    3.40.1-2+deb12u2                deb
 libsratom-0-0                   0.6.14-1                        deb       
 libsrt1.5-gnutls                1.5.1-1+deb12u1                 deb       
 libss2                          1.47.0-2+b2                     deb       
-libssh-gcrypt-4                 0.10.6-0+deb12u1                deb       
+libssh-gcrypt-4                 0.10.6-0+deb12u2                deb       
 libssh2-1                       1.10.0-3+b1                     deb       
 libssl3                         3.0.17-1~deb12u3                deb       
 libstdc++6                      12.2.0-14+deb12u1               deb       
@@ -387,7 +387,7 @@ libzmq5                         4.3.4-6                         deb
 libzstd1                        1.5.4+dfsg2-5                   deb       
 libzvbi-common                  0.2.41-1                        deb       
 libzvbi0                        0.2.41-1                        deb       
-linux-libc-dev                  6.1.158-1                       deb       
+linux-libc-dev                  6.1.159-1                       deb       
 login                           1:4.13+dfsg1-1+deb12u1          deb       
 logsave                         1.47.0-2+b2                     deb       
 manpages                        6.03-2                          deb       
