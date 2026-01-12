@@ -81,7 +81,7 @@ libcap2                         1:2.75-10+b2                    deb
 libcap2-bin                     1:2.75-10+b2                    deb     
 libchromaprint1                 1.6.0-2+b1                      deb     
 libcjson1                       1.7.19-1                        deb     
-libcloudproviders0              0.3.6-3                         deb     
+libcloudproviders0              0.4.0-1                         deb     
 libcodec2-1.2                   1.2.0-4                         deb     
 libcolord2                      1.4.8-2                         deb     
 libcom-err2                     1.47.2-3+b4                     deb     
@@ -148,7 +148,7 @@ libgtk-4-1                      4.20.3+ds-3                     deb
 libgtk-4-bin                    4.20.3+ds-3                     deb     
 libgtk-4-common                 4.20.3+ds-3                     deb     
 libgudev-1.0-0                  238-7                           deb     
-libharfbuzz-subset0             12.3.0-3                        deb     
+libharfbuzz-subset0             12.3.0-4                        deb     
 libharfbuzz0b                   12.1.0-1                        deb     
 libhogweed6t64                  3.10.2-1                        deb     
 libhwy1t64                      1.3.0-2                         deb     

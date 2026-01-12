@@ -72,7 +72,7 @@ libcairo2                       1.18.4-1+b1                     deb
 libcap-ng0                      0.8.5-4+b2                      deb     
 libcap2                         1:2.75-10+b2                    deb     
 libcap2-bin                     1:2.75-10+b2                    deb     
-libcloudproviders0              0.3.6-3                         deb     
+libcloudproviders0              0.4.0-1                         deb     
 libcodec2-1.2                   1.2.0-4                         deb     
 libcolord2                      1.4.8-2                         deb     
 libcom-err2                     1.47.2-3+b4                     deb     
