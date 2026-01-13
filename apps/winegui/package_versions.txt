@@ -207,10 +207,10 @@ libgtk-4-media-gstreamer        4.14.5+ds-0ubuntu0.7               deb
 libgtkmm-3.0-1t64               3.24.9-1                           deb                     
 libgudev-1.0-0                  1:238-5ubuntu1                     deb     (+1 duplicate)  
 libharfbuzz0b                   8.3.0-2build2                      deb     (+1 duplicate)  
-libheif-plugin-aomdec           1.17.6-1ubuntu4.1                  deb                     
-libheif-plugin-aomenc           1.17.6-1ubuntu4.1                  deb                     
-libheif-plugin-libde265         1.17.6-1ubuntu4.1                  deb                     
-libheif1                        1.17.6-1ubuntu4.1                  deb                     
+libheif-plugin-aomdec           1.17.6-1ubuntu4.2                  deb                     
+libheif-plugin-aomenc           1.17.6-1ubuntu4.2                  deb                     
+libheif-plugin-libde265         1.17.6-1ubuntu4.2                  deb                     
+libheif1                        1.17.6-1ubuntu4.2                  deb                     
 libhogweed6t64                  3.9.1-2.2build1.1                  deb     (+1 duplicate)  
 libhwy1t64                      1.0.7-8.1build1                    deb                     
 libice6                         2:1.0.10-1build3                   deb                     
@@ -330,7 +330,7 @@ libsystemd-shared               255.4-1ubuntu8.12                  deb
 libsystemd0                     255.4-1ubuntu8.12                  deb     (+1 duplicate)  
 libtag1v5                       1.13.1-1build1                     deb                     
 libtag1v5-vanilla               1.13.1-1build1                     deb                     
-libtasn1-6                      4.19.0-3ubuntu0.24.04.1            deb     (+1 duplicate)  
+libtasn1-6                      4.19.0-3ubuntu0.24.04.2            deb     (+1 duplicate)  
 libtdb1                         1.4.10-1build1                     deb                     
 libthai-data                    0.1.29-2build1                     deb                     
 libthai0                        0.1.29-2build1                     deb     (+1 duplicate)  
