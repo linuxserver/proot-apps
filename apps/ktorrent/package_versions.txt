@@ -146,7 +146,7 @@ libsndfile                 1.2.2-r2                 apk
 libssl3                    3.3.5-r0                 apk     
 libstdc++                  14.2.0-r4                apk     
 libtag                     1.13.1-r0                apk     
-libtasn1                   4.20.0-r0                apk     
+libtasn1                   4.21.0-r0                apk     
 libtheora                  1.1.1-r18                apk     
 libunistring               1.2-r0                   apk     
 libusbmuxd                 2.1.0-r0                 apk     
