@@ -100,7 +100,7 @@ graphite2                  1.3.14-r6                apk
 gst-plugins-base           1.26.10-r0               apk                         
 gstreamer                  1.26.10-r1               apk                         
 gstreamer-ptp-helper       1.26.10-r1               apk                         
-harfbuzz                   12.2.0-r0                apk                         
+harfbuzz                   12.2.0-r1                apk                         
 heck                       0.5.0                    rust-crate                  
 hwdata-pci                 0.401-r0                 apk                         
 interpolate_name           0.2.4                    rust-crate                  
@@ -245,7 +245,7 @@ num-rational               0.4.2                    rust-crate
 num-traits                 0.2.19                   rust-crate                  
 numactl                    2.0.18-r0                apk                         
 once_cell                  1.21.3                   rust-crate                  
-opus                       1.5.2-r1                 apk                         
+opus                       1.6-r0                   apk                         
 orc                        0.4.41-r0                apk                         
 pango                      1.56.4-r0                apk                         
 pangomm2.46                2.46.4-r1                apk                         

@@ -1,7 +1,7 @@
 NAME                            VERSION                         TYPE     
 @electron/remote                2.1.3                           npm       
 @postman/protobufjs             7.5.4-postman.2                 npm       
-Postman                         11.80.0                         npm       
+Postman                         11.80.2                         npm       
 adduser                         3.134                           deb       
 adwaita-icon-theme              43-1                            deb       
 apt                             2.6.1                           deb       
