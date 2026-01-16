@@ -237,7 +237,6 @@ libwmflite                 0.2.13-r1                apk
 libx11                     1.8.12-r1                apk           
 libxau                     1.0.12-r0                apk           
 libxcb                     1.17.0-r1                apk           
-libxcomposite              0.4.6-r5                 apk           
 libxcursor                 1.2.3-r0                 apk           
 libxdamage                 1.1.6-r5                 apk           
 libxdmcp                   1.1.5-r1                 apk           
@@ -247,7 +246,6 @@ libxft                     2.3.9-r0                 apk
 libxinerama                1.1.5-r4                 apk           
 libxkbcommon               1.12.2-r0                apk           
 libxkbcommon-x11           1.12.2-r0                apk           
-libxkbfile                 1.1.3-r0                 apk           
 libxml2                    2.13.9-r0                apk           
 libxmu                     1.2.1-r0                 apk           
 libxrandr                  1.5.4-r1                 apk           
@@ -425,7 +423,7 @@ qt6-qtserialport           6.10.1-r0                apk
 qt6-qtsvg                  6.10.1-r0                apk           
 qt6-qttools-libs           6.10.1-r0                apk           
 qt6-qtwebchannel           6.10.1-r0                apk           
-qt6-qtwebengine            6.10.1-r4                apk           
+qt6-qtwebengine            6.10.1-r5                apk           
 qt6-qtwebsockets-libs      6.10.1-r0                apk           
 quote                      1.0.40                   rust-crate    
 rand                       0.9.1                    rust-crate    
