@@ -232,8 +232,8 @@ libvpl2                         1:2.15.0-1                      deb
 libvpx11                        1.15.2-2                        deb     
 libvulkan1                      1.4.328.1-1                     deb     
 libwayland-client0              1.24.0-2+b1                     deb     
-libwayland-cursor0              1.24.0-2+b1                     deb     
-libwayland-egl1                 1.24.0-2+b1                     deb     
+libwayland-cursor0              1.24.0-2+b2                     deb     
+libwayland-egl1                 1.24.0-2+b2                     deb     
 libwebp7                        1.5.0-0.1                       deb     
 libwebpmux3                     1.5.0-0.1                       deb     
 libwebrtc-audio-processing-1-3  1.3-3+b1                        deb     
@@ -254,8 +254,8 @@ libxcb-shm0                     1.17.0-2+b1                     deb
 libxcb-sync1                    1.17.0-2+b1                     deb     
 libxcb-xfixes0                  1.17.0-2+b1                     deb     
 libxcb1                         1.17.0-2+b1                     deb     
-libxcomposite1                  1:0.4.6-1                       deb     
-libxcursor1                     1:1.2.3-1                       deb     
+libxcomposite1                  1:0.4.6-1+b1                    deb     
+libxcursor1                     1:1.2.3-1+b1                    deb     
 libxcvt0                        0.1.3-1                         deb     
 libxdamage1                     1:1.1.6-1+b2                    deb     
 libxdmcp6                       1:1.1.5-1                       deb     
@@ -263,7 +263,7 @@ libxext6                        2:1.3.4-1+b3                    deb
 libxfixes3                      1:6.0.0-2+b4                    deb     
 libxfont2                       1:2.0.6-1+b3                    deb     
 libxi6                          2:1.8.2-2                       deb     
-libxinerama1                    2:1.1.4-3+b4                    deb     
+libxinerama1                    2:1.1.4-3+b5                    deb     
 libxkbcommon0                   1.12.3-1                        deb     
 libxkbfile1                     1:1.1.0-1+b4                    deb     
 libxml2-16                      2.15.1+dfsg-2+b1                deb     

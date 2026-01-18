@@ -111,7 +111,7 @@ gnupg-keyboxd              2.4.9-r0                 apk
 gnutls                     3.8.11-r0                apk           
 gpg                        2.4.9-r0                 apk           
 gpg-agent                  2.4.9-r0                 apk           
-gpgme                      1.24.2-r3                apk           
+gpgme                      2.0.1-r1                 apk           
 gpgsm                      2.4.9-r0                 apk           
 graphene                   1.10.8-r5                apk           
 graphite2                  1.3.14-r6                apk           
@@ -476,7 +476,7 @@ unicode-ident              1.0.18                   rust-crate
 unicode-width              0.2.1                    rust-crate    
 utf8parse                  0.2.2                    rust-crate    
 v_frame                    0.3.9                    rust-crate    
-volume_key                 0.3.12-r7                apk           
+volume_key                 0.3.12-r8                apk           
 wayland-libs-client        1.24.0-r0                apk           
 wayland-libs-cursor        1.24.0-r0                apk           
 wayland-libs-egl           1.24.0-r0                apk           
@@ -499,7 +499,7 @@ xprop                      1.2.8-r0                 apk
 xset                       1.2.5-r1                 apk           
 xvidcore                   1.3.7-r2                 apk           
 xxhash                     3.5.0                    python        
-xz-libs                    5.8.1-r0                 apk           
+xz-libs                    5.8.2-r0                 apk           
 y4m                        0.8.0                    rust-crate    
 yaml                       0.2.5-r2                 apk           
 zeroconf                   0.147.2                  python        
