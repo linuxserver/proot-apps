@@ -66,9 +66,9 @@ libatspi2.0-0t64                          2.52.0-1build1                     deb
 libattr1                                  1:2.5.2-1build1.1                  deb     
 libaudit-common                           1:3.1.2-2.1build1.1                deb     
 libaudit1                                 1:3.1.2-2.1build1.1                deb     
-libavahi-client3                          0.8-13ubuntu6                      deb     
-libavahi-common-data                      0.8-13ubuntu6                      deb     
-libavahi-common3                          0.8-13ubuntu6                      deb     
+libavahi-client3                          0.8-13ubuntu6.1                    deb     
+libavahi-common-data                      0.8-13ubuntu6.1                    deb     
+libavahi-common3                          0.8-13ubuntu6.1                    deb     
 libavc1394-0                              0.5.4-5build3                      deb     
 libavcodec60                              7:6.1.1-3ubuntu5                   deb     
 libavdevice60                             7:6.1.1-3ubuntu5                   deb     
