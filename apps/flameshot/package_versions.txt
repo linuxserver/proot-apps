@@ -49,7 +49,7 @@ hwdata-pci                 0.401-r0                 apk
 icu-data-en                78.1-r0                  apk     
 icu-libs                   78.1-r0                  apk     
 kdsingleapplication        1.1.0-r0                 apk     
-kguiaddons                 6.21.0-r0                apk     
+kguiaddons                 6.22.1-r0                apk     
 lame-libs                  3.100-r5                 apk     
 libapk                     3.0.3-r1                 apk     
 libasyncns                 0.8-r4                   apk     
