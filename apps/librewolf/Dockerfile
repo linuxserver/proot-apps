@@ -1,11 +1,11 @@
 ARG REPO
-FROM ghcr.io/${REPO}:alpine-edge AS rootfs
+FROM ghcr.io/${REPO}:alpine-323 AS rootfs
 ARG REPO
 
 # Install packages
 RUN \
   echo "**** install packages ****" && \
-  apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing \
+  apk add --no-cache \
     librewolf && \
   echo "**** customize desktop file ****" && \
   sed -i \

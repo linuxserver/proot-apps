@@ -1,5 +1,5 @@
 ARG REPO
-FROM ghcr.io/${REPO}:alpine-321 AS rootfs
+FROM ghcr.io/${REPO}:alpine-323 AS rootfs
 ARG REPO
 
 # Install packages
@@ -9,13 +9,15 @@ RUN \
     breeze-icons \
     digikam \
     exiftool \
+    gcompat \
     imagemagick \
     mariadb \
     mariadb-client \
     mariadb-server-utils \
     openexr \
     perl-image-exiftool \
-    qt5-qtbase-sqlite && \
+    qt6-qtbase-sqlite \
+    sqlite && \
   echo "**** customize desktop file ****" && \
   sed -i \
     -e "/^Exec=/c Exec=/bin/sh -c \"\$HOME\/.local\/bin\/proot-apps run ghcr.io/${REPO}:digikam %U\"" \

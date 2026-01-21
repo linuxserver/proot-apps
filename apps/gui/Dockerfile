@@ -1,5 +1,5 @@
 ARG REPO
-FROM ghcr.io/${REPO}:alpine-321 AS rootfs
+FROM ghcr.io/${REPO}:alpine-323 AS rootfs
 ARG REPO
 
 # add local files
