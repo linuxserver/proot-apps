@@ -32,7 +32,6 @@ jobs:
           - name: alpine-322
           - name: alpine-edge
           - name: debian-bookworm
-          - name: debian-sid
           - name: debian-trixie
           - name: ubuntu-jammy
           - name: ubuntu-noble
