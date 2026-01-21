@@ -30,6 +30,7 @@ jobs:
         include:
           - name: alpine-321
           - name: alpine-322
+          - name: alpine-323
           - name: alpine-edge
           - name: debian-bookworm
           - name: debian-trixie
