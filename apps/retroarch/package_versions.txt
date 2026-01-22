@@ -5,7 +5,7 @@ alpine-baselayout            3.7.1-r10                apk
 alpine-baselayout-data       3.7.1-r10                apk           
 alpine-keys                  2.6-r0                   apk           
 alpine-release               3.24.0_alpha20251224-r0  apk           
-alsa-lib                     1.2.15.1-r0              apk           
+alsa-lib                     1.2.15.3-r0              apk           
 alsa-plugins-pulse           1.2.12-r2                apk           
 anstream                     0.6.19                   rust-crate    
 anstyle                      1.0.11                   rust-crate    
@@ -321,7 +321,7 @@ num-rational                 0.4.2                    rust-crate
 num-traits                   0.2.19                   rust-crate    
 numactl                      2.0.18-r0                apk           
 once_cell                    1.21.3                   rust-crate    
-opus                         1.6-r0                   apk           
+opus                         1.6.1-r0                 apk           
 orc                          0.4.41-r0                apk           
 p11-kit                      0.25.5-r2                apk           
 pango                        1.56.4-r0                apk           

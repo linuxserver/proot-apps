@@ -30,7 +30,7 @@ gcc-12-base                         12.3.0-1ubuntu1~22.04.2                  deb
 glib-networking                     2.72.0-1                                 deb     
 glib-networking-common              2.72.0-1                                 deb     
 glib-networking-services            2.72.0-1                                 deb     
-gpgv                                2.2.27-3ubuntu2.4                        deb     
+gpgv                                2.2.27-3ubuntu2.5                        deb     
 grep                                3.7-1build1                              deb     
 gsettings-desktop-schemas           42.0-1ubuntu1                            deb     
 gzip                                1.10-4ubuntu4.1                          deb     
@@ -128,7 +128,7 @@ libgfortran5                        12.3.0-1ubuntu1~22.04.2                  deb
 libgl1                              1.4.0-1                                  deb     
 libgl1-mesa-dri                     23.2.1-1ubuntu3.1~22.04.3                deb     
 libglapi-mesa                       23.2.1-1ubuntu3.1~22.04.3                deb     
-libglib2.0-0                        2.72.4-0ubuntu2.6                        deb     
+libglib2.0-0                        2.72.4-0ubuntu2.8                        deb     
 libglvnd0                           1.4.0-1                                  deb     
 libglx-mesa0                        23.2.1-1ubuntu3.1~22.04.3                deb     
 libglx0                             1.4.0-1                                  deb     
@@ -216,7 +216,7 @@ libpcre3                            2:8.39-13ubuntu0.22.04.1                 deb
 libpgm-5.3-0                        5.3.128~dfsg-2                           deb     
 libpixman-1-0                       0.40.0-1ubuntu0.22.04.1                  deb     
 libplacebo192                       4.192.1-1                                deb     
-libpng16-16                         1.6.37-3ubuntu0.1                        deb     
+libpng16-16                         1.6.37-3ubuntu0.3                        deb     
 libpocketsphinx3                    0.8.0+real5prealpha+1-14ubuntu1          deb     
 libpostproc55                       7:4.4.2-0ubuntu0.22.04.1                 deb     
 libprocps8                          2:3.3.17-6ubuntu2.1                      deb     
@@ -225,8 +225,8 @@ libpsl5                             0.21.0-1.2build2                         deb
 libpulse0                           1:15.99.1+dfsg1-1ubuntu2.2               deb     
 libpulsedsp                         1:15.99.1+dfsg1-1ubuntu2.2               deb     
 libpython3-stdlib                   3.10.6-1~22.04.1                         deb     
-libpython3.10-minimal               3.10.12-1~22.04.12                       deb     
-libpython3.10-stdlib                3.10.12-1~22.04.12                       deb     
+libpython3.10-minimal               3.10.12-1~22.04.13                       deb     
+libpython3.10-stdlib                3.10.12-1~22.04.13                       deb     
 libqt5core5a                        5.15.3+dfsg-2ubuntu0.2                   deb     
 libqt5dbus5                         5.15.3+dfsg-2ubuntu0.2                   deb     
 libqt5gui5                          5.15.3+dfsg-2ubuntu0.2                   deb     
@@ -411,8 +411,8 @@ pulseaudio                          1:15.99.1+dfsg1-1ubuntu2.2               deb
 pulseaudio-utils                    1:15.99.1+dfsg1-1ubuntu2.2               deb     
 python3                             3.10.6-1~22.04.1                         deb     
 python3-minimal                     3.10.6-1~22.04.1                         deb     
-python3.10                          3.10.12-1~22.04.12                       deb     
-python3.10-minimal                  3.10.12-1~22.04.12                       deb     
+python3.10                          3.10.12-1~22.04.13                       deb     
+python3.10-minimal                  3.10.12-1~22.04.13                       deb     
 qml-module-qt-labs-folderlistmodel  5.15.3+dfsg-1                            deb     
 qml-module-qt-labs-platform         5.15.3+dfsg-1                            deb     
 qml-module-qt-labs-settings         5.15.3+dfsg-1                            deb     
