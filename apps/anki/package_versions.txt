@@ -142,7 +142,7 @@ libcrypto3                         3.5.4-r0                 apk
 libcurl                            8.17.0-r1                apk           
 libdav1d                           1.5.2-r0                 apk           
 libdrm                             2.4.131-r0               apk           
-libeconf                           0.8.0-r0                 apk           
+libeconf                           0.8.3-r0                 apk           
 libelf                             0.194-r0                 apk           
 libepoxy                           1.5.10-r1                apk           
 libevdev                           1.13.6-r0                apk           
@@ -168,7 +168,7 @@ libopenmpt                         0.8.3-r0                 apk
 libpanelw                          6.5_p20251123-r0         apk           
 libpciaccess                       0.18.1-r1                apk           
 libpcre2-16                        10.47-r0                 apk           
-libpng                             1.6.53-r0                apk           
+libpng                             1.6.54-r0                apk           
 libproxy                           0.5.12-r0                apk           
 libpsl                             0.21.5-r3                apk           
 libpulse                           17.0-r5                  apk           
@@ -345,8 +345,8 @@ py3-stringcase                     1.2.0-r8                 apk
 py3-stringcase-pyc                 1.2.0-r8                 apk           
 py3-typing-extensions              4.15.0-r0                apk           
 py3-typing-extensions-pyc          4.15.0-r0                apk           
-py3-urllib3                        2.5.0-r0                 apk           
-py3-urllib3-pyc                    2.5.0-r0                 apk           
+py3-urllib3                        2.6.3-r0                 apk           
+py3-urllib3-pyc                    2.6.3-r0                 apk           
 py3-waitress                       3.0.2-r1                 apk           
 py3-waitress-pyc                   3.0.2-r1                 apk           
 py3-werkzeug                       3.1.3-r0                 apk           
@@ -414,7 +414,7 @@ typing-extensions                  4.15.0                   python
 tzdata                             2025c-r0                 apk           
 unicode-ident                      1.0.18                   rust-crate    
 unicode-width                      0.2.1                    rust-crate    
-urllib3                            2.5.0                    python        
+urllib3                            2.6.3                    python        
 utf8parse                          0.2.2                    rust-crate    
 v_frame                            0.3.9                    rust-crate    
 waitress                           3.0.2                    python        

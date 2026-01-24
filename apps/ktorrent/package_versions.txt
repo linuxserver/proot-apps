@@ -167,7 +167,7 @@ libcurl                    8.17.0-r1                apk
 libdaemon                  0.14-r6                  apk           
 libdav1d                   1.5.2-r0                 apk           
 libdrm                     2.4.131-r0               apk           
-libeconf                   0.8.0-r0                 apk           
+libeconf                   0.8.3-r0                 apk           
 libelf                     0.194-r0                 apk           
 libepoxy                   1.5.10-r1                apk           
 libevdev                   1.13.6-r0                apk           
@@ -199,7 +199,7 @@ libpanelw                  6.5_p20251123-r0         apk
 libpciaccess               0.18.1-r1                apk           
 libpcre2-16                10.47-r0                 apk           
 libplist                   2.7.0-r0                 apk           
-libpng                     1.6.53-r0                apk           
+libpng                     1.6.54-r0                apk           
 libproxy                   0.5.12-r0                apk           
 libpsl                     0.21.5-r3                apk           
 libpulse                   17.0-r5                  apk           

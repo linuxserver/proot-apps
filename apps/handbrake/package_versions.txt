@@ -81,9 +81,9 @@ libcap2                         1:2.75-10+b2                    deb
 libcap2-bin                     1:2.75-10+b2                    deb     
 libchromaprint1                 1.6.0-2+b1                      deb     
 libcjson1                       1.7.19-2                        deb     
-libcloudproviders0              0.4.0-1                         deb     
+libcloudproviders0              0.4.0-2                         deb     
 libcodec2-1.2                   1.2.0-4                         deb     
-libcolord2                      1.4.8-2                         deb     
+libcolord2                      1.4.8-2+b1                      deb     
 libcom-err2                     1.47.2-3+b4                     deb     
 libcrypt1                       1:4.5.1-1                       deb     
 libcups2t64                     2.4.16-1                        deb     
