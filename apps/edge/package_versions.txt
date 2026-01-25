@@ -55,9 +55,9 @@ libatspi2.0-0t64                2.59.0-1                        deb
 libattr1                        1:2.5.2-3                       deb     
 libaudit-common                 1:4.1.2-1                       deb     
 libaudit1                       1:4.1.2-1+b1                    deb     
-libavahi-client3                0.8-17                          deb     
-libavahi-common-data            0.8-17                          deb     
-libavahi-common3                0.8-17                          deb     
+libavahi-client3                0.8-17+b1                       deb     
+libavahi-common-data            0.8-17+b1                       deb     
+libavahi-common3                0.8-17+b1                       deb     
 libavcodec61                    7:7.1.3-1                       deb     
 libavutil59                     7:7.1.3-1                       deb     
 libblkid1                       2.41.2-4                        deb     
@@ -201,7 +201,7 @@ libsndfile1                     1.2.2-3                         deb
 libsoxr0                        0.1.3-4.1                       deb     
 libspeex1                       1.2.1-3                         deb     
 libspeexdsp1                    1.2.1-3                         deb     
-libsqlite3-0                    3.46.1-8                        deb     
+libsqlite3-0                    3.46.1-9                        deb     
 libssh2-1t64                    1.11.1-1                        deb     
 libssl3t64                      3.5.4-1                         deb     
 libstdc++6                      15.2.0-11                       deb     
