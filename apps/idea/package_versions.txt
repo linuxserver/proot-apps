@@ -195,7 +195,7 @@ jline-terminal-jansi                    3.24.1                                  
 jline-terminal-jna                      3.24.1                                     java-archive                   
 jline-terminal-jni                      3.24.1                                     java-archive                   
 jnaerator-runtime                       UNKNOWN                                    java-archive                   
-jrt-fs                                  17.0.17                                    java-archive                   
+jrt-fs                                  17.0.18                                    java-archive                   
 jrt-fs                                  21.0.9                                     java-archive                   
 js-plain-objects-compiler-plugin        UNKNOWN                                    java-archive                   
 json                                    1.0.0                                      npm                            
@@ -624,10 +624,10 @@ noarg-compiler-plugin                   UNKNOWN                                 
 objective-c                             1.0.0                                      npm                            
 ocl-icd-libopencl1                      2.3.1-1                                    deb                            
 openjdk                                 21.0.9+10-b1038.78                         binary                         
-openjdk-17-jdk                          17.0.17+10-1~deb12u1                       deb                            
-openjdk-17-jdk-headless                 17.0.17+10-1~deb12u1                       deb                            
-openjdk-17-jre                          17.0.17+10-1~deb12u1                       deb                            
-openjdk-17-jre-headless                 17.0.17+10-1~deb12u1                       deb                            
+openjdk-17-jdk                          17.0.18+8-1~deb12u1                        deb                            
+openjdk-17-jdk-headless                 17.0.18+8-1~deb12u1                        deb                            
+openjdk-17-jre                          17.0.18+8-1~deb12u1                        deb                            
+openjdk-17-jre-headless                 17.0.18+8-1~deb12u1                        deb                            
 openssh-client                          1:9.2p1-2+deb12u7                          deb                            
 openssl                                 3.0.18-1~deb12u1                           deb                            
 org.eclipse.sisu.inject                 0.9.0.M3                                   java-archive                   
