@@ -38,7 +38,7 @@ cldrdata                        UNKNOWN                  java-archive
 clucene                         2.3.3.4-r22              apk                           
 clucene-contribs                2.3.3.4-r22              apk                           
 commonwizards                   UNKNOWN                  java-archive                  
-cups-libs                       2.4.13-r0                apk                           
+cups-libs                       2.4.16-r0                apk                           
 curl                            8.17.0-r1                apk                           
 dbus                            1.16.2-r1                apk                           
 dbus-daemon-launch-helper       1.16.2-r1                apk                           

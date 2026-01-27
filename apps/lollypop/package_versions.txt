@@ -32,7 +32,7 @@ cfg-if                     1.0.0                    rust-crate
 crossbeam-deque            0.8.3                    rust-crate    
 crossbeam-epoch            0.9.15                   rust-crate    
 crossbeam-utils            0.8.16                   rust-crate    
-cups-libs                  2.4.13-r0                apk           
+cups-libs                  2.4.16-r0                apk           
 curio                      1.6                      python        
 curl                       8.17.0-r1                apk           
 dbus                       1.16.2-r1                apk           
