@@ -411,7 +411,7 @@ libspeexdsp1                                            1.2.1-1                 
 libsqlite3-0                                            3.40.1-2+deb12u2                                                              deb                             
 libss2                                                  1.47.0-2+b2                                                                   deb                             
 libssh2-1                                               1.10.0-3+b1                                                                   deb                             
-libssl3                                                 3.0.18-1~deb12u1                                                              deb                             
+libssl3                                                 3.0.18-1~deb12u2                                                              deb                             
 libstdc++6                                              12.2.0-14+deb12u1                                                             deb                             
 libsvtav1enc1                                           1.4.1+dfsg-1                                                                  deb                             
 libswresample4                                          7:5.1.8-0+deb12u1                                                             deb                             
@@ -524,7 +524,7 @@ opencsv                                                 5.7.1                   
 openjdk-17-jre                                          17.0.18+8-1~deb12u1                                                           deb                             
 openjdk-17-jre-headless                                 17.0.18+8-1~deb12u1                                                           deb                             
 openpdf                                                 1.3.36                                                                        java-archive                    
-openssl                                                 3.0.18-1~deb12u1                                                              deb                             
+openssl                                                 3.0.18-1~deb12u2                                                              deb                             
 org-apache-xml-resolver                                 UNKNOWN                                                                       java-archive                    
 org-netbeans-api-annotations-common                     UNKNOWN                                                                       java-archive                    
 org-netbeans-api-intent                                 UNKNOWN                                                                       java-archive                    

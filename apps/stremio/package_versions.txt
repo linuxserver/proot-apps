@@ -403,7 +403,7 @@ ncurses-bin                         6.3-2ubuntu0.1                           deb
 netcat-openbsd                      1.218-4ubuntu1                           deb     
 nodejs                              12.22.9~dfsg-1ubuntu3.6                  deb     
 ocl-icd-libopencl1                  2.2.14-3                                 deb     
-openssl                             3.0.2-0ubuntu1.20                        deb     
+openssl                             3.0.2-0ubuntu1.21                        deb     
 passwd                              1:4.8.1-2ubuntu2.2                       deb     
 perl-base                           5.34.0-3ubuntu1.5                        deb     
 procps                              2:3.3.17-6ubuntu2.1                      deb     
