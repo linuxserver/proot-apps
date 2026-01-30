@@ -7,7 +7,7 @@ aligned-vec                      0.6.4                    rust-crate
 alpine-baselayout                3.7.1-r8                 apk           
 alpine-baselayout-data           3.7.1-r8                 apk           
 alpine-keys                      2.6-r0                   apk           
-alpine-release                   3.23.2-r0                apk           
+alpine-release                   3.23.3-r0                apk           
 alsa-lib                         1.2.14-r2                apk           
 alsa-plugins-pulse               1.2.12-r2                apk           
 anstream                         0.6.19                   rust-crate    
@@ -38,9 +38,9 @@ cairo                            1.18.4-r0                apk
 cairo-gobject                    1.18.4-r0                apk           
 cdparanoia-libs                  10.2-r14                 apk           
 cfg-if                           1.0.1                    rust-crate    
-chromium                         144.0.7559.96-r0         apk           
-chromium-angle                   144.0.7559.96-r0         apk           
-chromium-common                  144.0.7559.96-r0         apk           
+chromium                         144.0.7559.109-r0        apk           
+chromium-angle                   144.0.7559.109-r0        apk           
+chromium-common                  144.0.7559.109-r0        apk           
 cjson                            1.7.19-r1                apk           
 clap                             4.5.40                   rust-crate    
 clap_builder                     4.5.40                   rust-crate    
@@ -123,7 +123,7 @@ libc                             0.2.172                  rust-crate
 libcamera                        0.6.0-r0                 apk           
 libcamera-ipa                    0.6.0-r0                 apk           
 libcap2                          2.77-r0                  apk           
-libcrypto3                       3.5.4-r0                 apk           
+libcrypto3                       3.5.5-r0                 apk           
 libcurl                          8.17.0-r1                apk           
 libdav1d                         1.5.2-r0                 apk           
 libdrm                           2.4.131-r0               apk           
@@ -161,7 +161,7 @@ libsndfile                       1.2.2-r2                 apk
 libsodium                        1.0.20-r1                apk           
 libsrt                           1.5.3-r1                 apk           
 libssh                           0.11.3-r0                apk           
-libssl3                          3.5.4-r0                 apk           
+libssl3                          3.5.5-r0                 apk           
 libstdc++                        15.2.0-r2                apk           
 libtasn1                         4.21.0-r0                apk           
 libtheora                        1.2.0-r0                 apk           

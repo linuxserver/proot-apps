@@ -5,7 +5,7 @@ aligned-vec                0.6.4                    rust-crate
 alpine-baselayout          3.7.1-r10                apk           
 alpine-baselayout-data     3.7.1-r10                apk           
 alpine-keys                2.6-r0                   apk           
-alpine-release             3.24.0_alpha20251224-r0  apk           
+alpine-release             3.24.0_alpha20260127-r0  apk           
 alsa-lib                   1.2.15.3-r0              apk           
 alsa-plugins-pulse         1.2.12-r2                apk           
 anstream                   0.6.19                   rust-crate    
@@ -14,7 +14,7 @@ anstyle-parse              0.2.7                    rust-crate
 anstyle-query              1.1.3                    rust-crate    
 anyhow                     1.0.98                   rust-crate    
 aom-libs                   3.13.1-r1                apk           
-apk-tools                  3.0.3-r1                 apk           
+apk-tools                  3.0.3-r2                 apk           
 apsw                       3.51.2.0                 python        
 arg_enum_proc_macro        0.3.4                    rust-crate    
 arrayvec                   0.7.4                    rust-crate    
@@ -31,12 +31,12 @@ bitflags                   2.9.1                    rust-crate
 bitstream-io               4.2.0                    rust-crate    
 bluez-libs                 5.85-r1                  apk           
 brotli-libs                1.2.0-r0                 apk           
-busybox                    1.37.0-r30               apk           
-busybox-binsh              1.37.0-r30               apk           
+busybox                    1.37.0-r31               apk           
+busybox-binsh              1.37.0-r31               apk           
 bytemuck                   1.14.0                   rust-crate    
 c-ares                     1.34.6-r0                apk           
 ca-certificates-bundle     20251003-r0              apk           
-cairo                      1.18.4-r0                apk           
+cairo                      1.18.4-r1                apk           
 calibre                    8.16.2-r0                apk           
 calibre-pyc                8.16.2-r0                apk           
 cdparanoia-libs            10.2-r14                 apk           
@@ -125,7 +125,7 @@ hicolor-icon-theme         0.18-r0                  apk
 html2text                  2025.4.15                python        
 html5-parser               0.4.12                   python        
 html5lib                   1.1                      python        
-hwdata-pci                 0.401-r0                 apk           
+hwdata-pci                 0.403-r0                 apk           
 hyphen                     2.8.8-r3                 apk           
 icu-data-en                78.1-r0                  apk           
 icu-libs                   78.1-r0                  apk           
@@ -146,7 +146,7 @@ lab                        0.11.0                   rust-crate
 lame-libs                  3.100-r5                 apk           
 lcms2                      2.17-r0                  apk           
 libSvtAv1Enc               3.1.2-r0                 apk           
-libapk                     3.0.3-r1                 apk           
+libapk                     3.0.3-r2                 apk           
 libassuan                  3.0.2-r0                 apk           
 libasyncns                 0.8-r4                   apk           
 libatasmart                0.19-r4                  apk           
@@ -161,7 +161,7 @@ libc                       0.2.149                  rust-crate
 libc                       0.2.172                  rust-crate    
 libcap2                    2.77-r0                  apk           
 libcom_err                 1.47.3-r0                apk           
-libcrypto3                 3.5.4-r0                 apk           
+libcrypto3                 3.5.5-r0                 apk           
 libcurl                    8.18.0-r0                apk           
 libdav1d                   1.5.3-r0                 apk           
 libdotconf                 1.4.1-r0                 apk           
@@ -174,7 +174,7 @@ libfdisk                   2.41.3-r0                apk
 libffi                     3.5.2-r0                 apk           
 libflac                    1.4.3-r2                 apk           
 libgcc                     15.2.0-r2                apk           
-libgcrypt                  1.11.2-r0                apk           
+libgcrypt                  1.12.0-r0                apk           
 libgomp                    15.2.0-r2                apk           
 libgpg-error               1.57-r0                  apk           
 libgudev                   238-r1                   apk           
@@ -214,7 +214,7 @@ libsndfile                 1.2.2-r2                 apk
 libsodium                  1.0.21-r0                apk           
 libsrt                     1.5.3-r1                 apk           
 libssh                     0.11.3-r0                apk           
-libssl3                    3.5.4-r0                 apk           
+libssl3                    3.5.5-r0                 apk           
 libstdc++                  15.2.0-r2                apk           
 libstemmer                 2.2.0-r0                 apk           
 libtasn1                   4.21.0-r0                apk           
@@ -440,7 +440,7 @@ regex                      2024.11.6                python
 rgb                        0.8.36                   rust-crate    
 rustix                     1.0.7                    rust-crate    
 scan_fmt                   0.2.6                    rust-crate    
-scanelf                    1.3.8-r2                 apk           
+scanelf                    1.3.9-r0                 apk           
 scopeguard                 1.2.0                    rust-crate    
 sgmllib3k                  1.0.0                    python        
 shaderc                    2025.3-r0                apk           
@@ -455,7 +455,7 @@ speech-dispatcher          0.12.1-r1                apk
 speexdsp                   1.2.1-r2                 apk           
 spirv-tools                1.4.321.0-r1             apk           
 sqlite-libs                3.51.2-r1                apk           
-ssl_client                 1.37.0-r30               apk           
+ssl_client                 1.37.0-r31               apk           
 stable_deref_trait         1.2.0                    rust-crate    
 syn                        2.0.102                  rust-crate    
 tdb-libs                   1.4.15-r0                apk           

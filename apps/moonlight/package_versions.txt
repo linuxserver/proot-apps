@@ -4,7 +4,7 @@ aligned-vec                0.6.4                    rust-crate
 alpine-baselayout          3.7.1-r8                 apk                         
 alpine-baselayout-data     3.7.1-r8                 apk                         
 alpine-keys                2.6-r0                   apk                         
-alpine-release             3.23.2-r0                apk                         
+alpine-release             3.23.3-r0                apk                         
 alsa-lib                   1.2.14-r2                apk                         
 alsa-plugins-pulse         1.2.12-r2                apk                         
 anstream                   0.6.19                   rust-crate                  
@@ -128,7 +128,7 @@ libbsd                     0.12.2-r0                apk
 libbz2                     1.0.8-r6                 apk                         
 libc                       0.2.172                  rust-crate  (+1 duplicate)  
 libcap2                    2.77-r0                  apk                         
-libcrypto3                 3.5.4-r0                 apk                         
+libcrypto3                 3.5.5-r0                 apk                         
 libcurl                    8.17.0-r1                apk                         
 libdav1d                   1.5.2-r0                 apk                         
 libdovi                    3.3.2-r0                 apk                         
@@ -171,7 +171,7 @@ libsndfile                 1.2.2-r2                 apk
 libsodium                  1.0.20-r1                apk                         
 libsrt                     1.5.3-r1                 apk                         
 libssh                     0.11.3-r0                apk                         
-libssl3                    3.5.4-r0                 apk                         
+libssl3                    3.5.5-r0                 apk                         
 libstdc++                  15.2.0-r2                apk                         
 libtasn1                   4.21.0-r0                apk                         
 libtheora                  1.2.0-r0                 apk                         
