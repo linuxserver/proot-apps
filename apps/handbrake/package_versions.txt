@@ -148,7 +148,7 @@ libgtk-4-1                      4.20.3+ds-3                     deb
 libgtk-4-bin                    4.20.3+ds-3                     deb     
 libgtk-4-common                 4.20.3+ds-3                     deb     
 libgudev-1.0-0                  238-7+b1                        deb     
-libharfbuzz-subset0             12.3.1-1                        deb     
+libharfbuzz-subset0             12.3.2-1                        deb     
 libharfbuzz0b                   12.1.0-1                        deb     
 libhogweed6t64                  3.10.2-1                        deb     
 libhwy1t64                      1.3.0-2                         deb     
