@@ -167,7 +167,7 @@ libwebpmux                 1.6.0-r0                 apk
 libx11                     1.8.12-r1                apk           
 libxau                     1.0.12-r0                apk           
 libxcb                     1.17.0-r1                apk           
-libxcomposite              0.4.6-r5                 apk           
+libxcomposite              0.4.7-r0                 apk           
 libxcursor                 1.2.3-r0                 apk           
 libxdamage                 1.1.6-r5                 apk           
 libxdmcp                   1.1.5-r1                 apk           
