@@ -242,7 +242,7 @@ packaging                        25.0                     python
 pango                            1.56.4-r0                apk           
 pcre2                            10.47-r0                 apk           
 pillow                           11.3.0                   python        
-pipewire-libs                    1.4.9-r4                 apk           
+pipewire-libs                    1.4.9-r5                 apk           
 pixman                           0.46.4-r0                apk           
 pkgconf                          2.5.1-r0                 apk           
 platformdirs                     4.2.2                    python        

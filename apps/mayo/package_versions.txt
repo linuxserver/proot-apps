@@ -418,10 +418,10 @@ pulseaudio-utils                    1:16.1+dfsg1-2ubuntu10.1            deb
 pygobject                           3.48.2                              python                  
 pyjwt                               2.7.0                               python                  
 pyparsing                           3.1.1                               python                  
-python-apt                          2.7.7+ubuntu5.1                     python                  
-python-apt-common                   2.7.7ubuntu5.1                      deb                     
+python-apt                          2.7.7+ubuntu5.2                     python                  
+python-apt-common                   2.7.7ubuntu5.2                      deb                     
 python3                             3.12.3-0ubuntu2.1                   deb                     
-python3-apt                         2.7.7ubuntu5.1                      deb                     
+python3-apt                         2.7.7ubuntu5.2                      deb                     
 python3-blinker                     1.7.0-1                             deb                     
 python3-cffi-backend                1.16.0-2build1                      deb                     
 python3-cryptography                41.0.7-4ubuntu0.1                   deb                     

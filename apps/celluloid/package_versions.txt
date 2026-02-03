@@ -316,7 +316,7 @@ pango                            1.56.4-r0                apk
 paste                            1.0.15                   rust-crate                  
 pastey                           0.1.0                    rust-crate                  
 pcre2                            10.47-r0                 apk                         
-pipewire-libs                    1.4.9-r4                 apk                         
+pipewire-libs                    1.4.9-r5                 apk                         
 pixman                           0.46.4-r0                apk                         
 pkgconf                          2.5.1-r0                 apk                         
 ppv-lite86                       0.2.21                   rust-crate                  
