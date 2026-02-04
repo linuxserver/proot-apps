@@ -241,7 +241,7 @@ libpgm-5.3-0t64                           5.3.128~dfsg-2.1build1             deb
 libpipewire-0.3-0t64                      1.0.5-1ubuntu3.2                   deb     
 libpixman-1-0                             0.42.2-1build1                     deb     
 libplacebo338                             6.338.2-2build1                    deb     
-libpng16-16t64                            1.6.43-5ubuntu0.3                  deb     
+libpng16-16t64                            1.6.43-5ubuntu0.4                  deb     
 libpocketsphinx3                          0.8.0+real5prealpha+1-15ubuntu5    deb     
 libpostproc57                             7:6.1.1-3ubuntu5                   deb     
 libproc2-0                                2:4.0.4-4ubuntu3.2                 deb     

@@ -37,8 +37,8 @@ bytemuck                   1.14.0                   rust-crate
 c-ares                     1.34.6-r0                apk           
 ca-certificates-bundle     20251003-r0              apk           
 cairo                      1.18.4-r1                apk           
-calibre                    8.16.2-r0                apk           
-calibre-pyc                8.16.2-r0                apk           
+calibre                    8.16.2-r1                apk           
+calibre-pyc                8.16.2-r1                apk           
 cdparanoia-libs            10.2-r14                 apk           
 cfg-if                     1.0.0                    rust-crate    
 cfg-if                     1.0.1                    rust-crate    
@@ -415,7 +415,7 @@ qt6-qtbase-private-dev     6.10.2-r1                apk
 qt6-qtbase-wayland         6.10.2-r1                apk           
 qt6-qtbase-x11             6.10.2-r1                apk           
 qt6-qtconnectivity         6.10.2-r0                apk           
-qt6-qtdeclarative          6.10.2-r0                apk           
+qt6-qtdeclarative          6.10.2-r1                apk           
 qt6-qtimageformats         6.10.2-r0                apk           
 qt6-qtmultimedia           6.10.2-r0                apk           
 qt6-qtmultimedia-ffmpeg    6.10.2-r0                apk           
@@ -424,7 +424,7 @@ qt6-qtserialport           6.10.2-r0                apk
 qt6-qtsvg                  6.10.2-r0                apk           
 qt6-qttools-libs           6.10.2-r0                apk           
 qt6-qtwebchannel           6.10.2-r0                apk           
-qt6-qtwebengine            6.10.2-r0                apk           
+qt6-qtwebengine            6.10.2-r1                apk           
 qt6-qtwebsockets-libs      6.10.2-r0                apk           
 quote                      1.0.40                   rust-crate    
 rand                       0.9.1                    rust-crate    
