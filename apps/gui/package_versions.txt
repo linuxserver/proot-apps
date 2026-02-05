@@ -8,7 +8,7 @@ alpine-keys                 2.6-r0                   apk
 alpine-release              3.23.3-r0                apk       
 alsa-lib                    1.2.14-r2                apk       
 alsa-plugins-pulse          1.2.12-r2                apk       
-aom-libs                    3.13.1-r0                apk       
+aom-libs                    3.13.1-r1                apk       
 apk-tools                   3.0.3-r1                 apk       
 appstream                   1.1.1-r0                 apk       
 at-spi2-core                2.58.3-r0                apk       
@@ -94,7 +94,7 @@ libdrm                      2.4.131-r0               apk
 libeconf                    0.8.3-r0                 apk       
 libelf                      0.194-r0                 apk       
 libepoxy                    1.5.10-r1                apk       
-libexpat                    2.7.3-r0                 apk       
+libexpat                    2.7.4-r0                 apk       
 libffi                      3.5.2-r0                 apk       
 libflac                     1.4.3-r2                 apk       
 libfreeaptx                 0.2.2-r0                 apk       
