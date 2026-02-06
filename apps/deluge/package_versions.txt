@@ -106,8 +106,8 @@ kconfig                          6.19.0-r2                apk
 kcoreaddons                      6.19.0-r3                apk           
 kdbusaddons                      6.19.0-r2                apk           
 kde-default-icon-theme           6.19.0-r3                apk           
-kde-gtk-config                   6.5.4-r0                 apk           
-kdecoration                      6.5.4-r0                 apk           
+kde-gtk-config                   6.5.5-r0                 apk           
+kdecoration                      6.5.5-r0                 apk           
 kguiaddons                       6.19.0-r3                apk           
 ki18n                            6.19.0-r2                apk           
 kwindowsystem                    6.19.0-r2                apk           

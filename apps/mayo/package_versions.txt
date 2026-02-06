@@ -39,7 +39,7 @@ fonts-noto-core                     20201225-2                          deb
 fonts-noto-mono                     20201225-2                          deb                     
 gcc-14-base                         14.2.0-4ubuntu2~24.04               deb                     
 gir1.2-girepository-2.0             1.80.1-1                            deb                     
-gir1.2-glib-2.0                     2.80.0-6ubuntu3.7                   deb                     
+gir1.2-glib-2.0                     2.80.0-6ubuntu3.8                   deb                     
 gir1.2-packagekitglib-1.0           1.2.8-2ubuntu1.4                    deb                     
 glib-networking                     2.80.0-1build1                      deb                     
 glib-networking-common              2.80.0-1build1                      deb                     
@@ -145,9 +145,9 @@ libgdk-pixbuf2.0-common             2.42.10+dfsg-3ubuntu3.2             deb
 libgirepository-1.0-1               1.80.1-1                            deb                     
 libgl1                              1.7.0-1build1                       deb                     
 libgl1-mesa-dri                     25.2.8-0ubuntu0.24.04.1             deb                     
-libglib2.0-0t64                     2.80.0-6ubuntu3.7                   deb                     
-libglib2.0-bin                      2.80.0-6ubuntu3.7                   deb                     
-libglib2.0-data                     2.80.0-6ubuntu3.7                   deb                     
+libglib2.0-0t64                     2.80.0-6ubuntu3.8                   deb                     
+libglib2.0-bin                      2.80.0-6ubuntu3.8                   deb                     
+libglib2.0-data                     2.80.0-6ubuntu3.8                   deb                     
 libglvnd0                           1.7.0-1build1                       deb                     
 libglx-mesa0                        25.2.8-0ubuntu0.24.04.1             deb                     
 libglx0                             1.7.0-1build1                       deb                     
@@ -244,8 +244,8 @@ libpsl5t64                          0.21.2-1.1build1                    deb
 libpugixml1v5                       1.14-0.1build1                      deb                     
 libpulse0                           1:16.1+dfsg1-2ubuntu10.1            deb                     
 libpython3-stdlib                   3.12.3-0ubuntu2.1                   deb                     
-libpython3.12-minimal               3.12.3-1ubuntu0.10                  deb                     
-libpython3.12-stdlib                3.12.3-1ubuntu0.10                  deb                     
+libpython3.12-minimal               3.12.3-1ubuntu0.11                  deb                     
+libpython3.12-stdlib                3.12.3-1ubuntu0.11                  deb                     
 libqt5core5t64                      5.15.13+dfsg-1ubuntu1               deb                     
 libqt5dbus5t64                      5.15.13+dfsg-1ubuntu1               deb                     
 libqt5gui5t64                       5.15.13+dfsg-1ubuntu1               deb                     
@@ -440,8 +440,8 @@ python3-pyparsing                   3.1.1-1                             deb
 python3-six                         1.16.0-4                            deb                     
 python3-software-properties         0.99.49.3                           deb                     
 python3-wadllib                     1.3.6-5                             deb                     
-python3.12                          3.12.3-1ubuntu0.10                  deb                     
-python3.12-minimal                  3.12.3-1ubuntu0.10                  deb                     
+python3.12                          3.12.3-1ubuntu0.11                  deb                     
+python3.12-minimal                  3.12.3-1ubuntu0.11                  deb                     
 qt5-gtk-platformtheme               5.15.13+dfsg-1ubuntu1               deb                     
 qttranslations5-l10n                5.15.13-1                           deb                     
 qtwayland5                          5.15.13-1                           deb                     
