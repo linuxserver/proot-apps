@@ -28,7 +28,7 @@ fontconfig-config               2.15.0-2.4                      deb
 fonts-noto                      20201225-2                      deb     
 fonts-noto-core                 20201225-2                      deb     
 fonts-noto-mono                 20201225-2                      deb     
-gcc-15-base                     15.2.0-12                       deb     
+gcc-15-base                     15.2.0-13                       deb     
 grep                            3.12-1                          deb     
 gstreamer1.0-gl                 1.28.0-1                        deb     
 gtk-update-icon-cache           4.20.3+ds-3                     deb     
@@ -51,7 +51,7 @@ libasound2-plugins              1.2.12-2+b1                     deb
 libasound2t64                   1.2.15-1                        deb     
 libass9                         1:0.17.4-2+b1                   deb     
 libasyncns0                     0.8-7                           deb     
-libatomic1                      15.2.0-12                       deb     
+libatomic1                      15.2.0-13                       deb     
 libattr1                        1:2.5.2-3                       deb     
 libaudit-common                 1:4.1.2-1                       deb     
 libaudit1                       1:4.1.2-1+b1                    deb     
@@ -118,11 +118,11 @@ libfontenc1                     1:1.1.8-1+b2                    deb
 libfreetype6                    2.13.3+dfsg-1                   deb     
 libfribidi0                     1.0.16-3                        deb     
 libgbm1                         25.2.8-2+b2                     deb     
-libgcc-s1                       15.2.0-12                       deb     
+libgcc-s1                       15.2.0-13                       deb     
 libgcrypt20                     1.11.2-3+b1                     deb     
 libgdk-pixbuf-2.0-0             2.44.4+dfsg-1                   deb     
 libgdk-pixbuf2.0-common         2.44.4+dfsg-1                   deb     
-libgfortran5                    15.2.0-12                       deb     
+libgfortran5                    15.2.0-13                       deb     
 libgl1                          1.7.0-3                         deb     
 libgl1-mesa-dri                 25.2.8-2+b2                     deb     
 libgles2                        1.7.0-3                         deb     
@@ -133,7 +133,7 @@ libglx0                         1.7.0-3                         deb
 libgme0                         0.6.4-1                         deb     
 libgmp10                        2:6.3.0+dfsg-5                  deb     
 libgnutls30t64                  3.8.11-3                        deb     
-libgomp1                        15.2.0-12                       deb     
+libgomp1                        15.2.0-13                       deb     
 libgpg-error-l10n               1.58-2                          deb     
 libgpg-error0                   1.58-2                          deb     
 libgpm2                         1.20.7-12+b1                    deb     
@@ -249,7 +249,7 @@ libsrt1.5-gnutls                1.5.4-3                         deb
 libssh-4                        0.11.3-1+b1                     deb     
 libssh2-1t64                    1.11.1-1                        deb     
 libssl3t64                      3.5.4-1                         deb     
-libstdc++6                      15.2.0-12                       deb     
+libstdc++6                      15.2.0-13                       deb     
 libsvtav1enc2                   2.3.0+dfsg-1                    deb     
 libswresample5                  7:7.1.3-1                       deb     
 libswscale8                     7:7.1.3-1                       deb     
