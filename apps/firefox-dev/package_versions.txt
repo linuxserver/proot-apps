@@ -92,7 +92,7 @@ gstreamer-ptp-helper       1.28.0-r0                apk
 gtk+3.0                    3.24.51-r3               apk           
 harfbuzz                   12.2.0-r1                apk           
 heck                       0.5.0                    rust-crate    
-hwdata-pci                 0.403-r0                 apk           
+hwdata-pci                 0.404-r0                 apk           
 icu-data-en                78.1-r0                  apk           
 icu-libs                   78.1-r0                  apk           
 interpolate_name           0.2.4                    rust-crate    
@@ -164,7 +164,7 @@ libvpx                     1.15.2-r0                apk
 libwebp                    1.6.0-r0                 apk           
 libwebpdemux               1.6.0-r0                 apk           
 libwebpmux                 1.6.0-r0                 apk           
-libx11                     1.8.12-r1                apk           
+libx11                     1.8.13-r0                apk           
 libxau                     1.0.12-r0                apk           
 libxcb                     1.17.0-r1                apk           
 libxcomposite              0.4.7-r0                 apk           

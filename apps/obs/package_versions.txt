@@ -299,8 +299,8 @@ libsndfile1                               1.2.2-1ubuntu5.24.04.1             deb
 libsndio7.0                               1.9.0-0.3build3                    deb     
 libsodium23                               1.0.18-1ubuntu0.24.04.1            deb     
 libsord-0-0                               0.16.16-2build1                    deb     
-libsoup-3.0-0                             3.4.4-5ubuntu0.6                   deb     
-libsoup-3.0-common                        3.4.4-5ubuntu0.6                   deb     
+libsoup-3.0-0                             3.4.4-5ubuntu0.7                   deb     
+libsoup-3.0-common                        3.4.4-5ubuntu0.7                   deb     
 libsoxr0                                  0.1.3-4build3                      deb     
 libspa-0.2-modules                        1.0.5-1ubuntu3.2                   deb     
 libspeex1                                 1.2.1-2ubuntu2.24.04.1             deb     

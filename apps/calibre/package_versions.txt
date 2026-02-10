@@ -125,7 +125,7 @@ hicolor-icon-theme         0.18-r0                  apk
 html2text                  2025.4.15                python        
 html5-parser               0.4.12                   python        
 html5lib                   1.1                      python        
-hwdata-pci                 0.403-r0                 apk           
+hwdata-pci                 0.404-r0                 apk           
 hyphen                     2.8.8-r3                 apk           
 icu-data-en                78.1-r0                  apk           
 icu-libs                   78.1-r0                  apk           
@@ -234,7 +234,7 @@ libwebpdemux               1.6.0-r0                 apk
 libwebpmux                 1.6.0-r0                 apk           
 libwmf                     0.2.13-r1                apk           
 libwmflite                 0.2.13-r1                apk           
-libx11                     1.8.12-r1                apk           
+libx11                     1.8.13-r0                apk           
 libxau                     1.0.12-r0                apk           
 libxcb                     1.17.0-r1                apk           
 libxcursor                 1.2.3-r0                 apk           
@@ -410,10 +410,10 @@ python-dateutil            2.9.0                    python
 python3                    3.12.12-r0               apk           
 python3-pyc                3.12.12-r0               apk           
 python3-pycache-pyc0       3.12.12-r0               apk           
-qt6-qtbase                 6.10.2-r1                apk           
-qt6-qtbase-private-dev     6.10.2-r1                apk           
-qt6-qtbase-wayland         6.10.2-r1                apk           
-qt6-qtbase-x11             6.10.2-r1                apk           
+qt6-qtbase                 6.10.2-r2                apk           
+qt6-qtbase-private-dev     6.10.2-r2                apk           
+qt6-qtbase-wayland         6.10.2-r2                apk           
+qt6-qtbase-x11             6.10.2-r2                apk           
 qt6-qtconnectivity         6.10.2-r0                apk           
 qt6-qtdeclarative          6.10.2-r1                apk           
 qt6-qtimageformats         6.10.2-r0                apk           
