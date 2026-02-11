@@ -234,7 +234,7 @@ libmpc3                             1.3.1-1                            deb
 libmpfr6                            4.2.0-1                            deb       
 libmpg123-0                         1.31.2-1+deb12u1                   deb       
 libmtdev1                           1.1.6-1                            deb       
-libmunge2                           0.5.15-2                           deb       
+libmunge2                           0.5.15-2+deb12u1                   deb       
 libncursesw6                        6.4-4                              deb       
 libnetcdf19                         1:4.9.0-3+b1                       deb       
 libnettle8                          3.8.1-2                            deb       

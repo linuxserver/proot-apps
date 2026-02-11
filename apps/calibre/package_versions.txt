@@ -108,7 +108,7 @@ gmp                        6.3.0-r4                 apk
 gnupg-dirmngr              2.4.9-r0                 apk           
 gnupg-gpgconf              2.4.9-r0                 apk           
 gnupg-keyboxd              2.4.9-r0                 apk           
-gnutls                     3.8.11-r0                apk           
+gnutls                     3.8.12-r0                apk           
 gpg                        2.4.9-r0                 apk           
 gpg-agent                  2.4.9-r0                 apk           
 gpgme                      2.0.1-r1                 apk           
@@ -264,7 +264,7 @@ linux-raw-sys              0.9.4                    rust-crate
 llvm21-libs                21.1.8-r0                apk           
 log                        0.4.27                   rust-crate    
 lxml                       6.0.2                    python        
-markdown                   3.10.1                   python        
+markdown                   3.10.2                   python        
 maybe-rayon                0.1.1                    rust-crate    
 mbedtls                    3.6.5-r0                 apk           
 mechanize                  0.4.10                   python        
@@ -308,7 +308,7 @@ num-derive                 0.4.2                    rust-crate
 num-integer                0.1.46                   rust-crate    
 num-rational               0.4.2                    rust-crate    
 num-traits                 0.2.19                   rust-crate    
-numactl                    2.0.18-r0                apk           
+numactl                    2.0.19-r0                apk           
 once_cell                  1.18.0                   rust-crate    
 once_cell                  1.21.3                   rust-crate    
 openjpeg                   2.5.4-r1                 apk           
@@ -365,8 +365,8 @@ py3-jeepney                0.9.0-r0                 apk
 py3-jeepney-pyc            0.9.0-r0                 apk           
 py3-lxml                   6.0.2-r1                 apk           
 py3-lxml-pyc               6.0.2-r1                 apk           
-py3-markdown               3.10.1-r0                apk           
-py3-markdown-pyc           3.10.1-r0                apk           
+py3-markdown               3.10.2-r0                apk           
+py3-markdown-pyc           3.10.2-r0                apk           
 py3-mechanize              0.4.10-r0                apk           
 py3-mechanize-pyc          0.4.10-r0                apk           
 py3-msgpack                1.0.8-r1                 apk           
