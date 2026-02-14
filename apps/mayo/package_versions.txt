@@ -235,7 +235,7 @@ libpciaccess0                       0.17-3ubuntu0.24.04.2               deb
 libpcre2-16-0                       10.42-4ubuntu2.1                    deb                     
 libpcre2-8-0                        10.42-4ubuntu2.1                    deb                     
 libpixman-1-0                       0.42.2-1build1                      deb                     
-libpng16-16t64                      1.6.43-5ubuntu0.4                   deb                     
+libpng16-16t64                      1.6.43-5ubuntu0.5                   deb                     
 libpolkit-agent-1-0                 124-2ubuntu1.24.04.2                deb                     
 libpolkit-gobject-1-0               124-2ubuntu1.24.04.2                deb                     
 libproc2-0                          2:4.0.4-4ubuntu3.2                  deb                     

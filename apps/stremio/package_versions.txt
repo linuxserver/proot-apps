@@ -216,7 +216,7 @@ libpcre3                            2:8.39-13ubuntu0.22.04.1                 deb
 libpgm-5.3-0                        5.3.128~dfsg-2                           deb     
 libpixman-1-0                       0.40.0-1ubuntu0.22.04.1                  deb     
 libplacebo192                       4.192.1-1                                deb     
-libpng16-16                         1.6.37-3ubuntu0.3                        deb     
+libpng16-16                         1.6.37-3ubuntu0.4                        deb     
 libpocketsphinx3                    0.8.0+real5prealpha+1-14ubuntu1          deb     
 libpostproc55                       7:4.4.2-0ubuntu0.22.04.1                 deb     
 libprocps8                          2:3.3.17-6ubuntu2.1                      deb     

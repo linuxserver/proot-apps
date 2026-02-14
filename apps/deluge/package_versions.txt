@@ -137,7 +137,7 @@ libexpat                         2.7.4-r0                 apk
 libffi                           3.5.2-r0                 apk           
 libflac                          1.4.3-r2                 apk           
 libgcc                           15.2.0-r2                apk           
-libgnome-desktop-3               44.4-r0                  apk           
+libgnome-desktop-3               44.5-r0                  apk           
 libgomp                          15.2.0-r2                apk           
 libice                           1.1.2-r0                 apk           
 libidn2                          2.3.8-r0                 apk           
@@ -295,8 +295,8 @@ py3-packaging                    25.0-r0                  apk
 py3-packaging-pyc                25.0-r0                  apk           
 py3-parsing                      3.2.5-r0                 apk           
 py3-parsing-pyc                  3.2.5-r0                 apk           
-py3-pillow                       11.3.0-r1                apk           
-py3-pillow-pyc                   11.3.0-r1                apk           
+py3-pillow                       11.3.0-r2                apk           
+py3-pillow-pyc                   11.3.0-r2                apk           
 py3-pyhamcrest                   2.1.0-r1                 apk           
 py3-pyhamcrest-pyc               2.1.0-r1                 apk           
 py3-pyserial                     3.5-r7                   apk           
