@@ -91,7 +91,7 @@ graphite2                    1.3.14-r6                apk
 gst-plugins-base             1.28.0-r0                apk           
 gstreamer                    1.28.0-r0                apk           
 gstreamer-ptp-helper         1.28.0-r0                apk           
-harfbuzz                     12.2.0-r1                apk           
+harfbuzz                     12.3.2-r0                apk           
 heck                         0.5.0                    rust-crate    
 hicolor-icon-theme           0.18-r0                  apk           
 hwdata-pci                   0.404-r0                 apk           

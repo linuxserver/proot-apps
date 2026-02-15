@@ -90,7 +90,7 @@ gst-plugins-base           1.28.0-r0                apk
 gstreamer                  1.28.0-r0                apk           
 gstreamer-ptp-helper       1.28.0-r0                apk           
 gtk+3.0                    3.24.51-r3               apk           
-harfbuzz                   12.2.0-r1                apk           
+harfbuzz                   12.3.2-r0                apk           
 heck                       0.5.0                    rust-crate    
 hwdata-pci                 0.404-r0                 apk           
 icu-data-en                78.1-r0                  apk           
