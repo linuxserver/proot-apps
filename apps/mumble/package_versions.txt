@@ -137,7 +137,7 @@ libpanelw                                 6.5_p20251123-r0         apk
 libpciaccess                              0.18.1-r1                apk     
 libpcre2-16                               10.47-r0                 apk     
 libpng                                    1.6.54-r0                apk     
-libpq                                     18.1-r0                  apk     
+libpq                                     18.2-r0                  apk     
 libprotobuf                               31.1-r1                  apk     
 libprotobuf-lite                          31.1-r1                  apk     
 libprotoc                                 31.1-r1                  apk     
