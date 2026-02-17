@@ -35,7 +35,7 @@ NAME                                    VERSION                         TYPE
 @xterm/addon-webgl                      0.20.0-beta.108                 npm                    
 @xterm/headless                         6.1.0-beta.109                  npm                    
 @xterm/xterm                            6.1.0-beta.109                  npm                    
-VSCodium                                1.109.31074                     npm                    
+VSCodium                                1.109.41146                     npm                    
 adduser                                 3.134                           deb                    
 adwaita-icon-theme                      43-1                            deb                    
 agent-base                              7.1.4                           npm                    
@@ -57,7 +57,7 @@ ca-certificates                         20230311+deb12u1                deb
 chownr                                  3.0.0                           npm                    
 chrome-remote-interface                 0.33.0                          npm                    
 clojure                                 1.0.0                           npm                    
-codium                                  1.109.31074                     deb                    
+codium                                  1.109.41146                     deb                    
 coffeescript                            1.0.0                           npm                    
 commander                               12.1.0                          npm                    
 commander                               2.11.0                          npm                    
