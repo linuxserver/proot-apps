@@ -31,7 +31,7 @@ fonts-noto-mono                 20201225-2                      deb
 gcc-15-base                     15.2.0-13                       deb     
 grep                            3.12-1                          deb     
 gstreamer1.0-gl                 1.28.0-1                        deb     
-gtk-update-icon-cache           4.21.5+ds-4                     deb     
+gtk-update-icon-cache           4.21.5+ds-5                     deb     
 gzip                            1.13-1                          deb     
 handbrake                       1.9.2+ds1-1+b4                  deb     
 hicolor-icon-theme              0.18-2                          deb     
@@ -144,9 +144,9 @@ libgssapi-krb5-2                1.22.1-2                        deb
 libgstreamer-gl1.0-0            1.28.0-1                        deb     
 libgstreamer-plugins-base1.0-0  1.28.0-1                        deb     
 libgstreamer1.0-0               1.28.0-2                        deb     
-libgtk-4-1                      4.21.5+ds-4                     deb     
-libgtk-4-bin                    4.21.5+ds-4                     deb     
-libgtk-4-common                 4.21.5+ds-4                     deb     
+libgtk-4-1                      4.21.5+ds-5                     deb     
+libgtk-4-bin                    4.21.5+ds-5                     deb     
+libgtk-4-common                 4.21.5+ds-5                     deb     
 libgudev-1.0-0                  238-7+b1                        deb     
 libharfbuzz-subset0             12.3.2-1                        deb     
 libharfbuzz0b                   12.1.0-1                        deb     
@@ -350,7 +350,7 @@ openssl                         3.5.4-1                         deb
 openssl-provider-legacy         3.5.4-1                         deb     
 passwd                          1:4.18.0-2                      deb     
 perl-base                       5.40.1-7                        deb     
-pocketsphinx-en-us              0.8+5prealpha+1-15              deb     
+pocketsphinx-en-us              5.0.4-2                         deb     
 procps                          2:4.0.4-9+b1                    deb     
 psmisc                          23.7-2                          deb     
 pulseaudio                      17.0+dfsg1-2+b1                 deb     
