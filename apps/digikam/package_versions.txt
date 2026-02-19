@@ -414,7 +414,7 @@ qt6-qtshadertools          6.10.1-r0                apk
 qt6-qtspeech               6.10.1-r0                apk                         
 qt6-qtsvg                  6.10.1-r0                apk                         
 qt6-qtwebchannel           6.10.1-r0                apk                         
-qt6-qtwebengine            6.10.1-r4                apk                         
+qt6-qtwebengine            6.10.1-r5                apk                         
 quote                      1.0.40                   rust-crate                  
 radium                     0.7.0                    rust-crate                  
 rand                       0.9.1                    rust-crate                  

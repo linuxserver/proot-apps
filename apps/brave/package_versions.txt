@@ -180,7 +180,7 @@ libpangoft2-1.0-0               1.50.12+ds-1                    deb
 libpciaccess0                   0.17-2                          deb     
 libpcre2-8-0                    10.42-1                         deb     
 libpixman-1-0                   0.42.2-1                        deb     
-libpng16-16                     1.6.39-2+deb12u1                deb     
+libpng16-16                     1.6.39-2+deb12u3                deb     
 libproc2-0                      2:4.0.2-3                       deb     
 libpsl5                         0.21.2-1                        deb     
 libpulse0                       16.1+dfsg1-2+b1                 deb     

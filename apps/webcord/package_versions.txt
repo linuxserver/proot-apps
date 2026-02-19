@@ -301,7 +301,7 @@ libpcre2-8-0                    10.42-1                         deb
 libperl5.36                     5.36.0-7+deb12u3                deb     
 libpixman-1-0                   0.42.2-1                        deb     
 libplist3                       2.2.0-6+b2                      deb     
-libpng16-16                     1.6.39-2+deb12u1                deb     
+libpng16-16                     1.6.39-2+deb12u3                deb     
 libpolkit-agent-1-0             122-3                           deb     
 libpolkit-gobject-1-0           122-3                           deb     
 libpolkit-qt5-1-1               0.114.0-2                       deb     

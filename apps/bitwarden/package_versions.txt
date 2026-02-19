@@ -207,7 +207,7 @@ libpcre2-dev                    10.42-1                         deb
 libpcre2-posix3                 10.42-1                         deb     
 libpixman-1-0                   0.42.2-1                        deb     
 libpkgconf3                     1.8.1-1                         deb     
-libpng16-16                     1.6.39-2+deb12u1                deb     
+libpng16-16                     1.6.39-2+deb12u3                deb     
 libproc2-0                      2:4.0.2-3                       deb     
 libpsl5                         0.21.2-1                        deb     
 libpthread-stubs0-dev           0.4-1                           deb     

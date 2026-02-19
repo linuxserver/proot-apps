@@ -32,7 +32,7 @@ fonts-liberation                1:1.07.4-11                     deb
 fonts-noto                      20201225-1                      deb     
 fonts-noto-core                 20201225-1                      deb     
 gcc-12-base                     12.2.0-14+deb12u1               deb     
-google-chrome-stable            145.0.7632.75-1                 deb     
+google-chrome-stable            145.0.7632.109-1                deb     
 gpgv                            2.2.40-1.1+deb12u2              deb     
 grep                            3.8-5                           deb     
 gtk-update-icon-cache           3.24.38-2~deb12u3               deb     
@@ -179,7 +179,7 @@ libpangoft2-1.0-0               1.50.12+ds-1                    deb
 libpciaccess0                   0.17-2                          deb     
 libpcre2-8-0                    10.42-1                         deb     
 libpixman-1-0                   0.42.2-1                        deb     
-libpng16-16                     1.6.39-2+deb12u1                deb     
+libpng16-16                     1.6.39-2+deb12u3                deb     
 libproc2-0                      2:4.0.2-3                       deb     
 libpsl5                         0.21.2-1                        deb     
 libpulse0                       16.1+dfsg1-2+b1                 deb     

@@ -277,7 +277,7 @@ libpcre2-16-0                       10.42-1                            deb
 libpcre2-8-0                        10.42-1                            deb       
 libpixman-1-0                       0.42.2-1                           deb       
 libpmix2                            4.2.2-1+deb12u1                    deb       
-libpng16-16                         1.6.39-2+deb12u1                   deb       
+libpng16-16                         1.6.39-2+deb12u3                   deb       
 libproj25                           9.1.1-1+b1                         deb       
 libpsl5                             0.21.2-1                           deb       
 libpsm-infinipath1                  3.3+20.604758e7-6.2                deb       

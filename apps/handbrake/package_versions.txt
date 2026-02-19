@@ -350,7 +350,7 @@ openssl                         3.5.4-1                         deb
 openssl-provider-legacy         3.5.4-1                         deb     
 passwd                          1:4.18.0-2                      deb     
 perl-base                       5.40.1-7                        deb     
-pocketsphinx-en-us              5.0.4-2                         deb     
+pocketsphinx-en-us              5.0.4-3                         deb     
 procps                          2:4.0.4-9+b1                    deb     
 psmisc                          23.7-2                          deb     
 pulseaudio                      17.0+dfsg1-2+b1                 deb     
