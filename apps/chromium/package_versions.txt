@@ -38,9 +38,9 @@ cairo                            1.18.4-r0                apk
 cairo-gobject                    1.18.4-r0                apk           
 cdparanoia-libs                  10.2-r14                 apk           
 cfg-if                           1.0.1                    rust-crate    
-chromium                         144.0.7559.132-r1        apk           
-chromium-angle                   144.0.7559.132-r1        apk           
-chromium-common                  144.0.7559.132-r1        apk           
+chromium                         144.0.7559.132-r2        apk           
+chromium-angle                   144.0.7559.132-r2        apk           
+chromium-common                  144.0.7559.132-r2        apk           
 cjson                            1.7.19-r1                apk           
 clap                             4.5.40                   rust-crate    
 clap_builder                     4.5.40                   rust-crate    
