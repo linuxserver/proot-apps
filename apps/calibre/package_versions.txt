@@ -84,11 +84,11 @@ espeak-ng                  1.52.0-r0                apk
 eudev-libs                 3.2.14-r6                apk           
 feedparser                 6.0.12                   python        
 fern                       0.7.1                    rust-crate    
-ffmpeg-libavcodec          8.0.1-r1                 apk           
-ffmpeg-libavformat         8.0.1-r1                 apk           
-ffmpeg-libavutil           8.0.1-r1                 apk           
-ffmpeg-libswresample       8.0.1-r1                 apk           
-ffmpeg-libswscale          8.0.1-r1                 apk           
+ffmpeg-libavcodec          8.0.1-r2                 apk           
+ffmpeg-libavformat         8.0.1-r2                 apk           
+ffmpeg-libavutil           8.0.1-r2                 apk           
+ffmpeg-libswresample       8.0.1-r2                 apk           
+ffmpeg-libswscale          8.0.1-r2                 apk           
 fftw-single-libs           3.3.10-r7                apk           
 file                       5.46-r2                  apk           
 font-liberation            2.1.5-r2                 apk           
@@ -145,7 +145,7 @@ kmod-libs                  34.2-r1                  apk
 lab                        0.11.0                   rust-crate    
 lame-libs                  3.100-r5                 apk           
 lcms2                      2.17-r0                  apk           
-libSvtAv1Enc               3.1.2-r0                 apk           
+libSvtAv1Enc               4.0.1-r0                 apk           
 libapk                     3.0.3-r2                 apk           
 libassuan                  3.0.2-r0                 apk           
 libasyncns                 0.8-r5                   apk           
