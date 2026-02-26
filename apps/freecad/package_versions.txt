@@ -166,7 +166,7 @@ libglvnd0                           1.6.0-1                            deb
 libglx-mesa0                        22.3.6-1+deb12u1                   deb       
 libglx0                             1.6.0-1                            deb       
 libgmp10                            2:6.2.1+dfsg1-1.1                  deb       
-libgnutls30                         3.7.9-2+deb12u5                    deb       
+libgnutls30                         3.7.9-2+deb12u6                    deb       
 libgomp1                            12.2.0-14+deb12u1                  deb       
 libgpg-error0                       1.46-1                             deb       
 libgprofng0                         2.40-2                             deb       

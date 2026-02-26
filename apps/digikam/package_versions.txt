@@ -255,7 +255,7 @@ libpciaccess               0.18.1-r1                apk
 libpcre2-16                10.47-r0                 apk                         
 libplacebo                 7.351.0-r0               apk                         
 libplist                   2.7.0-r0                 apk                         
-libpng                     1.6.54-r0                apk                         
+libpng                     1.6.55-r0                apk                         
 libproxy                   0.5.12-r0                apk                         
 libpsl                     0.21.5-r3                apk                         
 libpulse                   17.0-r5                  apk                         
@@ -414,7 +414,7 @@ qt6-qtshadertools          6.10.1-r0                apk
 qt6-qtspeech               6.10.1-r0                apk                         
 qt6-qtsvg                  6.10.1-r0                apk                         
 qt6-qtwebchannel           6.10.1-r0                apk                         
-qt6-qtwebengine            6.10.1-r6                apk                         
+qt6-qtwebengine            6.10.1-r7                apk                         
 quote                      1.0.40                   rust-crate                  
 radium                     0.7.0                    rust-crate                  
 rand                       0.9.1                    rust-crate                  
