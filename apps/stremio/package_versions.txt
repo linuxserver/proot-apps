@@ -192,7 +192,7 @@ libnode72                           12.22.9~dfsg-1ubuntu3.6                  deb
 libnorm1                            1.5.9+dfsg-2                             deb     
 libnsl2                             1.3.0-2build2                            deb     
 libnspr4                            2:4.35-0ubuntu0.22.04.1                  deb     
-libnss3                             2:3.98-0ubuntu0.22.04.2                  deb     
+libnss3                             2:3.98-0ubuntu0.22.04.3                  deb     
 libnuma1                            2.0.14-3ubuntu2                          deb     
 libogg0                             1.3.5-0ubuntu3                           deb     
 libopenal-data                      1:1.19.1-2build3                         deb     

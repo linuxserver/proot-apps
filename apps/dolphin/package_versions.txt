@@ -301,7 +301,7 @@ thiserror                  1.0.69                   rust-crate
 thiserror                  2.0.12                   rust-crate    
 tiff                       4.7.1-r0                 apk           
 tslib                      1.23-r0                  apk           
-tzdata                     2025c-r0                 apk           
+tzdata                     2026a-r0                 apk           
 unicode-ident              1.0.18                   rust-crate    
 unicode-width              0.2.1                    rust-crate    
 utf8parse                  0.2.2                    rust-crate    

@@ -366,7 +366,7 @@ twisted                          24.11.0                  python
 typeguard                        4.3.0                    python        
 typing-extensions                4.12.2                   python        
 typing-extensions                4.15.0                   python        
-tzdata                           2025c-r0                 apk           
+tzdata                           2026a-r0                 apk           
 wayland-libs-client              1.24.0-r0                apk           
 wayland-libs-cursor              1.24.0-r0                apk           
 wayland-libs-egl                 1.24.0-r0                apk           
