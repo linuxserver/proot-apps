@@ -321,5 +321,5 @@ xz-libs                    5.8.2-r0                 apk
 yt-dlp                     2026.3.3                 python        
 yt-dlp-core                2026.03.03-r0            apk           
 yt-dlp-core-pyc            2026.03.03-r0            apk           
-zlib                       1.3.1-r2                 apk           
+zlib                       1.3.2-r0                 apk           
 zstd-libs                  1.5.7-r2                 apk           
