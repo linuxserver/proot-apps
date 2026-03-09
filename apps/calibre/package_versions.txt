@@ -286,7 +286,7 @@ minizip                    1.3.1-r0                 apk
 mpdecimal                  4.0.1-r0                 apk           
 mpfr4                      4.2.2-r0                 apk           
 mpg123-libs                1.33.4-r0                apk           
-msgpack                    1.0.8                    python        
+msgpack                    1.1.2                    python        
 mtdev                      1.1.7-r0                 apk           
 musl                       1.2.5-r21                apk           
 musl-utils                 1.2.5-r21                apk           
@@ -370,8 +370,8 @@ py3-markdown               3.10.2-r0                apk
 py3-markdown-pyc           3.10.2-r0                apk           
 py3-mechanize              0.4.10-r0                apk           
 py3-mechanize-pyc          0.4.10-r0                apk           
-py3-msgpack                1.0.8-r1                 apk           
-py3-msgpack-pyc            1.0.8-r1                 apk           
+py3-msgpack                1.1.2-r0                 apk           
+py3-msgpack-pyc            1.1.2-r0                 apk           
 py3-netifaces              0.11.0-r3                apk           
 py3-pillow                 12.1.1-r0                apk           
 py3-pillow-pyc             12.1.1-r0                apk           
@@ -425,7 +425,7 @@ qt6-qtserialport           6.10.2-r0                apk
 qt6-qtsvg                  6.10.2-r0                apk           
 qt6-qttools-libs           6.10.2-r0                apk           
 qt6-qtwebchannel           6.10.2-r0                apk           
-qt6-qtwebengine            6.10.2-r5                apk           
+qt6-qtwebengine            6.10.2-r6                apk           
 qt6-qtwebsockets-libs      6.10.2-r0                apk           
 quote                      1.0.40                   rust-crate    
 rand                       0.9.1                    rust-crate    
