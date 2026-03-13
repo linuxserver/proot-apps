@@ -92,7 +92,7 @@ libcolord2                      1.4.8-3                         deb
 libcom-err2                     1.47.2-3+b4                     deb     
 libcrypt1                       1:4.5.1-1                       deb     
 libcups2t64                     2.4.16-1                        deb     
-libcurl3t64-gnutls              8.19.0~rc3-1                    deb     
+libcurl3t64-gnutls              8.19.0-1                        deb     
 libcurl4t64                     8.17.0-3                        deb     
 libdatrie1                      0.2.14-1                        deb     
 libdav1d7                       1.5.2-1                         deb     
@@ -197,7 +197,7 @@ libncursesw6                    6.6+20251231-1                  deb
 libnettle8t64                   3.10.2-1                        deb     
 libnghttp2-14                   1.64.0-1.1+b1                   deb     
 libnghttp3-9                    1.12.0-1                        deb     
-libngtcp2-16                    1.16.0-1                        deb     
+libngtcp2-16                    1.21.0-1                        deb     
 libngtcp2-crypto-gnutls8        1.21.0-1                        deb     
 libngtcp2-crypto-ossl0          1.16.0-1                        deb     
 libnice10                       0.1.23-2                        deb     
