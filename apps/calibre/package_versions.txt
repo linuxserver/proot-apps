@@ -90,7 +90,7 @@ ffmpeg-libavutil           8.0.1-r3                 apk
 ffmpeg-libswresample       8.0.1-r3                 apk           
 ffmpeg-libswscale          8.0.1-r3                 apk           
 fftw-single-libs           3.3.10-r7                apk           
-file                       5.46-r2                  apk           
+file                       5.47-r1                  apk           
 font-liberation            2.1.5-r2                 apk           
 font-noto                  2026.03.01-r0            apk           
 font-noto-common           2026.03.01-r0            apk           
@@ -191,7 +191,7 @@ libjxl                     0.11.1-r5                apk
 libksba                    1.6.7-r0                 apk           
 libldap                    2.6.10-r0                apk           
 libltdl                    2.6.0-r1                 apk           
-libmagic                   5.46-r2                  apk           
+libmagic                   5.47-r1                  apk           
 libmd                      1.1.0-r0                 apk           
 libmng                     2.0.3-r2                 apk           
 libmount                   2.41.3-r0                apk           

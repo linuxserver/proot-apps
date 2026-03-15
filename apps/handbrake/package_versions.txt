@@ -218,7 +218,7 @@ libpangocairo-1.0-0             1.56.3-2                        deb
 libpangoft2-1.0-0               1.56.3-2                        deb     
 libpciaccess0                   0.17-3+b3                       deb     
 libpcre2-8-0                    10.46-1                         deb     
-libpgm-5.3-0t64                 5.3.128~dfsg-2.1+b2             deb     
+libpgm-5.3-0t64                 5.3.128~dfsg-3                  deb     
 libpixman-1-0                   0.46.4-1                        deb     
 libplacebo351                   7.351.0-2+b1                    deb     
 libpng16-16t64                  1.6.53-1                        deb     
