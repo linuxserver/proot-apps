@@ -380,10 +380,10 @@ py3-pycryptodome           3.23.0-r0                apk
 py3-pycryptodome-pyc       3.23.0-r0                apk           
 py3-pygments               2.19.2-r0                apk           
 py3-pygments-pyc           2.19.2-r0                apk           
-py3-pyqt6-sip              13.9.0-r0                apk           
+py3-pyqt6-sip              13.11.1-r0               apk           
 py3-pyqt6-webengine        6.7.0-r0                 apk           
-py3-qt6                    6.9.1-r0                 apk           
-py3-qt6-pyc                6.9.1-r0                 apk           
+py3-qt6                    6.10.2-r0                apk           
+py3-qt6-pyc                6.10.2-r0                apk           
 py3-regex                  2024.11.7-r0             apk           
 py3-regex-pyc              2024.11.7-r0             apk           
 py3-sgmllib3k              1.0.0-r12                apk           
@@ -403,8 +403,8 @@ py3-zeroconf-pyc           0.147.2-r0               apk
 pyc                        3.12.12-r0               apk           
 pycryptodome               3.23.0                   python        
 pygments                   2.19.2                   python        
-pyqt6                      6.9.1                    python        
-pyqt6-sip                  13.9.0                   python        
+pyqt6                      6.10.2                   python        
+pyqt6-sip                  13.11.1                  python        
 pyqt6-webengine            6.7.0                    python        
 python-dateutil            2.9.0                    python        
 python3                    3.12.12-r0               apk           
