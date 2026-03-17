@@ -311,8 +311,8 @@ libsratom-0-0                             0.6.16-1build1                     deb
 libsrt1.5-gnutls                          1.5.3-1build2                      deb     
 libsrt1.5-openssl                         1.5.3-1build2                      deb     
 libss2                                    1.47.0-2.4~exp1ubuntu4.1           deb     
-libssh-4                                  0.10.6-2ubuntu0.3                  deb     
-libssh-gcrypt-4                           0.10.6-2ubuntu0.3                  deb     
+libssh-4                                  0.10.6-2ubuntu0.4                  deb     
+libssh-gcrypt-4                           0.10.6-2ubuntu0.4                  deb     
 libssl3t64                                3.0.13-0ubuntu3.7                  deb     
 libstdc++6                                14.2.0-4ubuntu2~24.04.1            deb     
 libsvtav1enc1d1                           1.7.0+dfsg-2build1                 deb     

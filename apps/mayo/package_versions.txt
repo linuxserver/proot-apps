@@ -424,7 +424,7 @@ python3                             3.12.3-0ubuntu2.1                   deb
 python3-apt                         2.7.7ubuntu5.2                      deb                     
 python3-blinker                     1.7.0-1                             deb                     
 python3-cffi-backend                1.16.0-2build1                      deb                     
-python3-cryptography                41.0.7-4ubuntu0.3                   deb                     
+python3-cryptography                41.0.7-4ubuntu0.4                   deb                     
 python3-dbus                        1.3.2-5build3                       deb                     
 python3-distro                      1.9.0-1                             deb                     
 python3-gi                          3.48.2-1                            deb                     
