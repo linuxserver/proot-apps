@@ -1,7 +1,7 @@
 NAME                            VERSION                         TYPE     
 @electron/remote                2.1.3                           npm       
 @postman/protobufjs             7.5.4-postman.2                 npm       
-Postman                         12.2.1                          npm       
+Postman                         12.2.2                          npm       
 adduser                         3.134                           deb       
 adwaita-icon-theme              43-1                            deb       
 apt                             2.6.1                           deb       
@@ -151,7 +151,7 @@ libgpg-error0                   1.46-1                          deb
 libgraphite2-3                  1.3.14-1                        deb       
 libgsm1                         1.0.22-1                        deb       
 libgssapi-krb5-2                1.20.1-2+deb12u4                deb       
-libgstreamer-plugins-base1.0-0  1.22.0-3+deb12u5                deb       
+libgstreamer-plugins-base1.0-0  1.22.0-3+deb12u6                deb       
 libgstreamer1.0-0               1.22.0-2+deb12u1                deb       
 libgtk-3-0                      3.24.38-2~deb12u3               deb       
 libgtk-3-bin                    3.24.38-2~deb12u3               deb       
