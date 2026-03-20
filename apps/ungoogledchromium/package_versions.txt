@@ -99,7 +99,7 @@ libfftw3-single3                3.3.10-2+b1                           deb
 libflac14                       1.5.0+ds-2                            deb       
 libfontconfig1                  2.15.0-2.3                            deb       
 libfontenc1                     1:1.1.8-1+b2                          deb       
-libfreetype6                    2.13.3+dfsg-1                         deb       
+libfreetype6                    2.13.3+dfsg-1+deb13u1                 deb       
 libfribidi0                     1.0.16-1                              deb       
 libgbm1                         25.0.7-2                              deb       
 libgcc-s1                       14.2.0-19                             deb       

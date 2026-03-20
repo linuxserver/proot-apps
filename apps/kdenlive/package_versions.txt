@@ -194,7 +194,7 @@ libelf                     0.194-r0                 apk
 libepoxy                   1.5.10-r1                apk                         
 libevdev                   1.13.6-r0                apk                         
 libexif                    0.6.25-r0                apk                         
-libexpat                   2.7.4-r0                 apk                         
+libexpat                   2.7.5-r0                 apk                         
 libffi                     3.5.2-r0                 apk                         
 libflac                    1.4.3-r2                 apk                         
 libgcc                     15.2.0-r2                apk                         

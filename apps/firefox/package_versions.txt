@@ -92,7 +92,7 @@ gstreamer-ptp-helper       1.28.1-r0                apk
 gtk+3.0                    3.24.51-r3               apk           
 harfbuzz                   12.3.2-r0                apk           
 heck                       0.5.0                    rust-crate    
-hwdata-pci                 0.404-r0                 apk           
+hwdata-pci                 0.405-r0                 apk           
 icu-data-en                78.1-r0                  apk           
 icu-libs                   78.1-r0                  apk           
 interpolate_name           0.2.4                    rust-crate    
@@ -122,7 +122,7 @@ libeconf                   0.8.3-r0                 apk
 libelf                     0.194-r2                 apk           
 libepoxy                   1.5.10-r1                apk           
 libevent                   2.1.12-r8                apk           
-libexpat                   2.7.4-r0                 apk           
+libexpat                   2.7.5-r0                 apk           
 libffi                     3.5.2-r0                 apk           
 libflac                    1.4.3-r2                 apk           
 libgcc                     15.2.0-r2                apk           
