@@ -49,10 +49,10 @@ crossbeam-queue              0.3.12                   rust-crate
 crossbeam-utils              0.8.21                   rust-crate    
 cups-libs                    2.4.16-r0                apk           
 curl                         8.19.0-r0                apk           
-dbus                         1.16.2-r1                apk           
-dbus-daemon-launch-helper    1.16.2-r1                apk           
-dbus-libs                    1.16.2-r1                apk           
-dbus-x11                     1.16.2-r1                apk           
+dbus                         1.16.2-r2                apk           
+dbus-daemon-launch-helper    1.16.2-r2                apk           
+dbus-libs                    1.16.2-r2                apk           
+dbus-x11                     1.16.2-r2                apk           
 double-conversion            3.4.0-r0                 apk           
 duktape-libs                 2.7.0-r3                 apk           
 either                       1.15.0                   rust-crate    
@@ -378,9 +378,9 @@ unicode-ident                1.0.18                   rust-crate
 unicode-width                0.2.1                    rust-crate    
 utf8parse                    0.2.2                    rust-crate    
 v_frame                      0.3.9                    rust-crate    
-wayland-libs-client          1.24.0-r0                apk           
-wayland-libs-cursor          1.24.0-r0                apk           
-wayland-libs-egl             1.24.0-r0                apk           
+wayland-libs-client          1.25.0-r0                apk           
+wayland-libs-cursor          1.25.0-r0                apk           
+wayland-libs-egl             1.25.0-r0                apk           
 webrtc-audio-processing-1    1.3-r3                   apk           
 x264-libs                    0.164.3108-r1            apk           
 x265-libs                    4.1-r0                   apk           
