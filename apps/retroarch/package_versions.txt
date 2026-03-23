@@ -298,7 +298,7 @@ miniupnpc                    2.3.3-r1                 apk
 mpdecimal                    4.0.1-r0                 apk           
 mpg123-libs                  1.33.4-r0                apk           
 mtdev                        1.1.7-r0                 apk           
-musl                         1.2.5-r21                apk           
+musl                         1.2.6-r0                 apk           
 musl-utils                   1.2.5-r21                apk           
 ncurses-terminfo-base        6.6_p20251231-r0         apk           
 netcat-openbsd               1.234.1-r0               apk           
