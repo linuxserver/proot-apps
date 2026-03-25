@@ -100,7 +100,7 @@ ivf                          0.1.4                    rust-crate
 lab                          0.11.0                   rust-crate    
 lame-libs                    3.100-r5                 apk           
 lcms2                        2.17-r0                  apk           
-libSvtAv1Enc                 4.0.1-r0                 apk           
+libSvtAv1Enc                 4.1.0-r0                 apk           
 libapk                       3.0.3-r2                 apk           
 libasyncns                   0.8-r5                   apk           
 libb2                        0.98.1-r3                apk           
