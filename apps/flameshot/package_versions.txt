@@ -43,7 +43,7 @@ graphite2                  1.3.14-r6                apk
 gst-plugins-base           1.28.1-r1                apk     
 gstreamer                  1.28.1-r0                apk     
 gstreamer-ptp-helper       1.28.1-r0                apk     
-harfbuzz                   12.3.2-r0                apk     
+harfbuzz                   13.2.1-r0                apk     
 hicolor-icon-theme         0.18-r0                  apk     
 hwdata-pci                 0.405-r0                 apk     
 icu-data-en                78.1-r0                  apk     
