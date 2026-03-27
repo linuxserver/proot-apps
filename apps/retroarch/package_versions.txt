@@ -136,7 +136,7 @@ libmd                        1.1.0-r0                 apk
 libmount                     2.41.3-r0                apk           
 libncursesw                  6.6_p20251231-r0         apk           
 libogg                       1.3.6-r0                 apk           
-libopenmpt                   0.8.5-r0                 apk           
+libopenmpt                   0.8.6-r0                 apk           
 libpanelw                    6.6_p20251231-r0         apk           
 libpciaccess                 0.18.1-r1                apk           
 libpcre2-16                  10.47-r0                 apk           

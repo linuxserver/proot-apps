@@ -227,7 +227,7 @@ libopencv_flann            4.12.0-r3                apk
 libopencv_imgproc          4.12.0-r3                apk                         
 libopencv_tracking         4.12.0-r3                apk                         
 libopencv_video            4.12.0-r3                apk                         
-libopenmpt                 0.8.3-r0                 apk                         
+libopenmpt                 0.8.6-r0                 apk                         
 libpanelw                  6.5_p20251123-r0         apk                         
 libpciaccess               0.18.1-r1                apk                         
 libpcre2-16                10.47-r0                 apk                         

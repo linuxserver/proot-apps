@@ -37,7 +37,7 @@ gsettings-desktop-schemas       50~alpha-1                      deb
 gstreamer1.0-gl                 1.28.1-1                        deb     
 gtk-update-icon-cache           4.22.1+ds-3                     deb     
 gzip                            1.13-1                          deb     
-handbrake                       1.11.1+ds1-1                    deb     
+handbrake                       1.11.1+ds1-1+b1                 deb     
 hicolor-icon-theme              0.18-2                          deb     
 hostname                        3.25                            deb     
 ibus-gtk4                       1.5.34~rc1-1                    deb     
@@ -63,11 +63,11 @@ libavahi-client3                0.8-18                          deb
 libavahi-common-data            0.8-18                          deb     
 libavahi-common3                0.8-18                          deb     
 libavcodec61                    7:7.1.3-1                       deb     
-libavcodec62                    7:8.1-3                         deb     
-libavfilter11                   7:8.1-3                         deb     
-libavformat62                   7:8.1-3                         deb     
+libavcodec62                    7:8.1-3+b1                      deb     
+libavfilter11                   7:8.1-3+b1                      deb     
+libavformat62                   7:8.1-3+b1                      deb     
 libavutil59                     7:7.1.3-1                       deb     
-libavutil60                     7:8.1-3                         deb     
+libavutil60                     7:8.1-3+b1                      deb     
 libbdplus0                      0.2.0-4+b2                      deb     
 libblkid1                       2.41.2-4                        deb     
 libbluray3                      1:1.4.1-1                       deb     
@@ -151,7 +151,7 @@ libgsm1                         1.0.23-2                        deb
 libgssapi-krb5-2                1.22.1-2                        deb     
 libgssdp-1.6-0                  1.6.4-5                         deb     
 libgstreamer-gl1.0-0            1.28.1-1                        deb     
-libgstreamer-plugins-bad1.0-0   1.28.1-2+b1                     deb     
+libgstreamer-plugins-bad1.0-0   1.28.1-2+b2                     deb     
 libgstreamer-plugins-base1.0-0  1.28.1-1                        deb     
 libgstreamer1.0-0               1.28.1-1                        deb     
 libgtk-4-1                      4.22.1+ds-3                     deb     
@@ -265,10 +265,10 @@ libssh2-1t64                    1.11.1-1                        deb
 libssl3t64                      3.5.4-1                         deb     
 libstdc++6                      15.2.0-11                       deb     
 libsvtav1enc2                   2.3.0+dfsg-1                    deb     
-libsvtav1enc3                   3.1.2+dfsg-2                    deb     
+libsvtav1enc4                   4.1.0+dfsg-1                    deb     
 libswresample5                  7:7.1.3-1                       deb     
-libswresample6                  7:8.1-3                         deb     
-libswscale9                     7:8.1-3                         deb     
+libswresample6                  7:8.1-3+b1                      deb     
+libswscale9                     7:8.1-3+b1                      deb     
 libsystemd-shared               259~rc3-1                       deb     
 libsystemd0                     259~rc3-1                       deb     
 libtasn1-6                      4.20.0-2                        deb     

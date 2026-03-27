@@ -249,7 +249,7 @@ libopencv_imgcodecs        4.12.0-r3                apk
 libopencv_imgproc          4.12.0-r3                apk                         
 libopencv_ml               4.12.0-r3                apk                         
 libopencv_objdetect        4.12.0-r3                apk                         
-libopenmpt                 0.8.3-r0                 apk                         
+libopenmpt                 0.8.6-r0                 apk                         
 libpanelw                  6.5_p20251123-r0         apk                         
 libpciaccess               0.18.1-r1                apk                         
 libpcre2-16                10.47-r0                 apk                         
@@ -414,7 +414,7 @@ qt6-qtshadertools          6.10.1-r0                apk
 qt6-qtspeech               6.10.1-r0                apk                         
 qt6-qtsvg                  6.10.1-r0                apk                         
 qt6-qtwebchannel           6.10.1-r0                apk                         
-qt6-qtwebengine            6.10.1-r11               apk                         
+qt6-qtwebengine            6.10.1-r12               apk                         
 quote                      1.0.40                   rust-crate                  
 radium                     0.7.0                    rust-crate                  
 rand                       0.9.1                    rust-crate                  
