@@ -58,6 +58,13 @@ get_blob_sha() {
   fi
 }
 
+# Trigger panel reload for selkies-desktop
+function trigger_panel_reload() {
+  if [ -f "$HOME/.config/panel-reload" ]; then
+    touch "$HOME/.config/panel-reload"
+  fi
+}
+
 # Get registry endpoint and auth
 registry_setup() {
   IMAGE=$1
@@ -238,6 +245,7 @@ function update() {
         -R $ROOT_DIR/${IMAGE_FOLDER}/ \
         /install
     fi
+    trigger_panel_reload
   fi
 }
 
@@ -267,6 +275,7 @@ function remove() {
   # Remove app layer
   echo "Removing app root"
   rm -Rf $ROOT_DIR/${IMAGE_FOLDER}/
+  trigger_panel_reload
 }
 
 # Run uninstall
@@ -288,6 +297,7 @@ function uninstall() {
   if [ -f "$ROOT_DIR/${IMAGE_FOLDER}/bin-name" ]; then
     rm -f $HOME/.local/bin/$(cat $ROOT_DIR/${IMAGE_FOLDER}/bin-name)
   fi
+  trigger_panel_reload
 }
 
 # Install
@@ -314,6 +324,7 @@ function install_app() {
   $HOME/.local/bin/proot \
     -R $ROOT_DIR/${IMAGE_FOLDER}/ \
     /install
+  trigger_panel_reload
 }
 
 # Get
