@@ -20,7 +20,7 @@ as-slice                     0.2.1                    rust-crate
 av-metrics                   0.9.1                    rust-crate    
 av-scenechange               0.14.1                   rust-crate    
 av1-grain                    0.2.4                    rust-crate    
-avahi-libs                   0.8-r23                  apk           
+avahi-libs                   0.8-r24                  apk           
 bash                         5.3.9-r1                 apk           
 bitflags                     2.9.1                    rust-crate    
 bitstream-io                 4.2.0                    rust-crate    
@@ -140,7 +140,7 @@ libopenmpt                   0.8.6-r0                 apk
 libpanelw                    6.6_p20251231-r0         apk           
 libpciaccess                 0.18.1-r1                apk           
 libpcre2-16                  10.47-r0                 apk           
-libpng                       1.6.55-r0                apk           
+libpng                       1.6.56-r0                apk           
 libproxy                     0.5.12-r0                apk           
 libpsl                       0.21.5-r3                apk           
 libpulse                     17.0-r7                  apk           
@@ -277,7 +277,7 @@ libxxf86vm                   1.1.7-r0                 apk
 libzip                       1.11.4-r2                apk           
 libzmq                       4.3.5-r2                 apk           
 linux-raw-sys                0.9.4                    rust-crate    
-llvm22-libs                  22.1.1-r0                apk           
+llvm22-libs                  22.1.2-r0                apk           
 log                          0.4.27                   rust-crate    
 maybe-rayon                  0.1.1                    rust-crate    
 mbedtls                      3.6.5-r0                 apk           

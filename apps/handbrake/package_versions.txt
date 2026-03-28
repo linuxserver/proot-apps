@@ -93,7 +93,7 @@ libcolord2                      1.4.8-3                         deb
 libcom-err2                     1.47.2-3+b4                     deb     
 libcrypt1                       1:4.5.1-1                       deb     
 libcups2t64                     2.4.16-1                        deb     
-libcurl3t64-gnutls              8.19.0-1                        deb     
+libcurl3t64-gnutls              8.19.0-3                        deb     
 libcurl4t64                     8.17.0-3                        deb     
 libdatrie1                      0.2.14-1                        deb     
 libdav1d7                       1.5.2-1                         deb     
@@ -149,7 +149,7 @@ libgraphene-1.0-0               1.10.8-5+b1                     deb
 libgraphite2-3                  1.3.14-11                       deb     
 libgsm1                         1.0.23-2                        deb     
 libgssapi-krb5-2                1.22.1-2                        deb     
-libgssdp-1.6-0                  1.6.4-5                         deb     
+libgssdp-1.6-0                  1.6.4-6                         deb     
 libgstreamer-gl1.0-0            1.28.1-1                        deb     
 libgstreamer-plugins-bad1.0-0   1.28.1-2+b2                     deb     
 libgstreamer-plugins-base1.0-0  1.28.1-1                        deb     
