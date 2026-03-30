@@ -294,7 +294,7 @@ mesa-vulkan-ati              26.0.3-r1                apk
 mesa-vulkan-layers           26.0.3-r1                apk           
 mesa-vulkan-swrast           26.0.3-r1                apk           
 minimal-lexical              0.2.1                    rust-crate    
-miniupnpc                    2.3.3-r1                 apk           
+miniupnpc                    2.3.3-r2                 apk           
 mpdecimal                    4.0.1-r0                 apk           
 mpg123-libs                  1.33.4-r0                apk           
 mtdev                        1.1.7-r0                 apk           
