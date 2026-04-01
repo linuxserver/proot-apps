@@ -1,7 +1,7 @@
 NAME                             VERSION                         TYPE                  
 1to2                             1.0.0                           npm   (+2 duplicates)  
 @beekeeperstudio/bks-ai-shell    3.0.8                           npm                    
-@beekeeperstudio/bks-er-diagram  1.0.7                           npm                    
+@beekeeperstudio/bks-er-diagram  1.0.9                           npm                    
 @duckdb/node-bindings-linux-x64  1.4.1-r.4                       npm                    
 @libsql/linux-x64-gnu            0.5.22                          npm                    
 @libsql/linux-x64-musl           0.5.22                          npm                    
@@ -14,8 +14,8 @@ base-files                       12.4+deb12u13                   deb
 base-passwd                      3.6.1                           deb                    
 bash                             5.2.15-2+b10                    deb                    
 bcrypt-pbkdf                     1.0.2                           npm                    
-beekeeper-studio                 5.6.3                           deb                    
-beekeeper-studio                 5.6.3                           npm                    
+beekeeper-studio                 5.6.4                           deb                    
+beekeeper-studio                 5.6.4                           npm                    
 better-sqlite3                   12.5.0                          npm                    
 bindings                         1.5.0                           npm                    
 bsdutils                         1:2.38.1-5+deb12u3              deb                    
