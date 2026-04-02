@@ -6,7 +6,7 @@ at-spi2-common                  2.46.0-5                        deb
 base-files                      12.4+deb12u13                   deb     
 base-passwd                     3.6.1                           deb     
 bash                            5.2.15-2+b10                    deb     
-brave-browser                   1.88.136                        deb     
+brave-browser                   1.88.138                        deb     
 brave-keyring                   1.19                            deb     
 bsdutils                        1:2.38.1-5+deb12u3              deb     
 ca-certificates                 20230311+deb12u1                deb     
@@ -180,7 +180,7 @@ libpangoft2-1.0-0               1.50.12+ds-1                    deb
 libpciaccess0                   0.17-2                          deb     
 libpcre2-8-0                    10.42-1                         deb     
 libpixman-1-0                   0.42.2-1                        deb     
-libpng16-16                     1.6.39-2+deb12u3                deb     
+libpng16-16                     1.6.39-2+deb12u4                deb     
 libproc2-0                      2:4.0.2-3                       deb     
 libpsl5                         0.21.2-1                        deb     
 libpulse0                       16.1+dfsg1-2+b1                 deb     

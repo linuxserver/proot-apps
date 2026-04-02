@@ -458,7 +458,7 @@ systemd-dev                         255.4-1ubuntu8.14                   deb
 systemd-sysv                        255.4-1ubuntu8.14                   deb                     
 sysvinit-utils                      3.08-6ubuntu3                       deb                     
 tar                                 1.35+dfsg-3build1                   deb                     
-tzdata                              2025b-0ubuntu0.24.04.1              deb                     
+tzdata                              2026a-0ubuntu0.24.04.1              deb                     
 ubuntu-keyring                      2023.11.28.1                        deb                     
 ubuntu-mono                         24.04-0ubuntu1                      deb                     
 udev                                255.4-1ubuntu8.14                   deb                     
