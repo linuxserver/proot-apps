@@ -1,5 +1,5 @@
 ARG REPO
-FROM ghcr.io/${REPO}:debian-bookworm AS rootfs
+FROM ghcr.io/${REPO}:debian-trixie AS rootfs
 ARG REPO
 
 # Install packages
@@ -8,13 +8,17 @@ RUN \
   apt-get update && \
   apt-get install -y --no-install-recommends \
     desktop-file-utils \
+    gsettings-desktop-schemas \
     libgbm1 \
     libgl1 \
     libnss3 && \
+  ONLYOFFICE_VERSION=$(curl -sX GET "https://api.github.com/repos/ONLYOFFICE/DesktopEditors/releases/latest" \
+    | awk '/tag_name/{print $4;exit}' FS='[""]') && \
   curl -o \
     /tmp/onlyoffice.deb -L \
-    "https://download.onlyoffice.com/install/desktop/editors/linux/onlyoffice-desktopeditors_amd64.deb" && \
-  apt install -y --no-install-recommends \
+    "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/${ONLYOFFICE_VERSION}/onlyoffice-desktopeditors_amd64.deb" && \
+  apt-get update && \
+  apt-get install -y \
     /tmp/onlyoffice.deb && \
   echo "**** customize desktop file ****" && \
   sed -i \
@@ -28,8 +32,6 @@ RUN \
   echo "**** set bin name ****" && \
   echo "onlyoffice-pa" > /bin-name && \
   echo "**** cleanup ****" && \
-  apt-get remove -y \
-    desktop-file-utils && \
   rm -rf \
     /root/.cache \
     /var/lib/apt/lists/* \
