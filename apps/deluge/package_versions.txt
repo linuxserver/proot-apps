@@ -38,7 +38,7 @@ constantly                       23.10.4                  python
 crossbeam-deque                  0.8.3                    rust-crate    
 crossbeam-epoch                  0.9.15                   rust-crate    
 crossbeam-utils                  0.8.16                   rust-crate    
-cryptography                     46.0.5                   python        
+cryptography                     46.0.7                   python        
 cups-libs                        2.4.16-r0                apk           
 curl                             8.17.0-r1                apk           
 dbus                             1.16.2-r1                apk           
@@ -266,8 +266,8 @@ py3-constantly                   23.10.4-r2               apk
 py3-constantly-pyc               23.10.4-r2               apk           
 py3-cparser                      2.22-r1                  apk           
 py3-cparser-pyc                  2.22-r1                  apk           
-py3-cryptography                 46.0.5-r0                apk           
-py3-cryptography-pyc             46.0.5-r0                apk           
+py3-cryptography                 46.0.7-r0                apk           
+py3-cryptography-pyc             46.0.7-r0                apk           
 py3-distro                       1.9.0-r2                 apk           
 py3-distro-pyc                   1.9.0-r2                 apk           
 py3-gobject3                     3.54.5-r0                apk           
