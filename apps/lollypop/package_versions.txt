@@ -93,7 +93,7 @@ libasyncns                 0.8-r4                   apk
 libatk-1.0                 2.58.3-r0                apk           
 libatk-bridge-2.0          2.58.3-r0                apk           
 libavc1394                 0.5.4-r3                 apk           
-libblkid                   2.41.2-r0                apk           
+libblkid                   2.41.4-r0                apk           
 libbsd                     0.12.2-r0                apk           
 libbz2                     1.0.8-r6                 apk           
 libc                       0.2.154                  rust-crate    
@@ -130,7 +130,7 @@ libltdl                    2.5.4-r2                 apk
 libmagic                   5.46-r2                  apk           
 libmd                      1.1.0-r0                 apk           
 libmodplug                 0.8.9.0-r3               apk           
-libmount                   2.41.2-r0                apk           
+libmount                   2.41.4-r0                apk           
 libncursesw                6.5_p20251123-r0         apk           
 libnice                    0.1.22-r0                apk           
 libogg                     1.3.6-r0                 apk           
@@ -159,7 +159,7 @@ libtheora                  1.2.0-r0                 apk
 libunibreak                6.1-r0                   apk           
 libunistring               1.4.1-r0                 apk           
 libusb                     1.0.29-r0                apk           
-libuuid                    2.41.2-r0                apk           
+libuuid                    2.41.4-r0                apk           
 libva                      2.22.0-r1                apk           
 libva-intel-driver         2.4.1-r2                 apk           
 libvorbis                  1.3.7-r2                 apk           
@@ -210,7 +210,7 @@ mesa-vulkan-layers         25.2.7-r1                apk
 mesa-vulkan-swrast         25.2.7-r1                apk           
 mpdecimal                  4.0.1-r0                 apk           
 mpg123-libs                1.33.3-r0                apk           
-musl                       1.2.5-r21                apk           
+musl                       1.2.5-r22                apk           
 musl-utils                 1.2.5-r21                apk           
 ncurses-terminfo-base      6.5_p20251123-r0         apk           
 neon                       0.35.0-r0                apk           

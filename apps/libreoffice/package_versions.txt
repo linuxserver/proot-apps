@@ -128,7 +128,7 @@ libatk-1.0                      2.58.3-r0                apk
 libatk-bridge-2.0               2.58.3-r0                apk                           
 libb2                           0.98.1-r3                apk                           
 libbase                         1.1.6                    java-archive                  
-libblkid                        2.41.2-r0                apk                           
+libblkid                        2.41.4-r0                apk                           
 libbsd                          0.12.2-r0                apk                           
 libbz2                          1.0.8-r6                 apk                           
 libcap2                         2.77-r0                  apk                           
@@ -181,7 +181,7 @@ libltdl                         2.5.4-r2                 apk
 libmagic                        5.46-r2                  apk                           
 libmd                           1.1.0-r0                 apk                           
 libmodplug                      0.8.9.0-r3               apk                           
-libmount                        2.41.2-r0                apk                           
+libmount                        2.41.4-r0                apk                           
 libmspub                        0.1.4-r23                apk                           
 libmwaw                         0.3.22-r0                apk                           
 libncursesw                     6.5_p20251123-r0         apk                           
@@ -232,7 +232,7 @@ libtheora                       1.2.0-r0                 apk
 libunibreak                     6.1-r0                   apk                           
 libunistring                    1.4.1-r0                 apk                           
 libusb                          1.0.29-r0                apk                           
-libuuid                         2.41.2-r0                apk                           
+libuuid                         2.41.4-r0                apk                           
 libva                           2.22.0-r1                apk                           
 libva-intel-driver              2.4.1-r2                 apk                           
 libverto                        0.3.2-r2                 apk                           
@@ -292,7 +292,7 @@ mkfontscale                     1.2.3-r1                 apk
 mpdecimal                       4.0.1-r0                 apk                           
 mpg123-libs                     1.33.3-r0                apk                           
 mtdev                           1.1.7-r0                 apk                           
-musl                            1.2.5-r21                apk                           
+musl                            1.2.5-r22                apk                           
 musl-utils                      1.2.5-r21                apk                           
 mythes                          1.2.4-r3                 apk                           
 nashorn                         1.8.0_452-b09            java-archive                  

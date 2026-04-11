@@ -92,7 +92,7 @@ libcodec2-1.2                   1.2.0-4                         deb
 libcolord2                      1.4.8-3                         deb     
 libcom-err2                     1.47.2-3+b4                     deb     
 libcrypt1                       1:4.5.1-1                       deb     
-libcups2t64                     2.4.16-1                        deb     
+libcups2t64                     2.4.16-1+b1                     deb     
 libcurl3t64-gnutls              8.19.0-3                        deb     
 libcurl4t64                     8.17.0-3                        deb     
 libdatrie1                      0.2.14-1                        deb     
@@ -223,7 +223,7 @@ libpixman-1-0                   0.46.4-1                        deb
 libplacebo360                   7.360.1-1                       deb     
 libpng16-16t64                  1.6.53-1                        deb     
 libproc2-0                      2:4.0.4-9+b1                    deb     
-libproxy1v5                     0.5.12-1                        deb     
+libproxy1v5                     0.5.12-1+b1                     deb     
 libpsl5t64                      0.21.2-1.1+b1                   deb     
 libpulse0                       17.0+dfsg1-2+b1                 deb     
 libpulsedsp                     17.0+dfsg1-2+b1                 deb     

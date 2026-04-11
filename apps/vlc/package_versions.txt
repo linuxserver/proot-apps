@@ -201,7 +201,7 @@ libatomic                                 15.2.0-r2                apk
 libauth-samba                             4.22.8-r0                apk           
 libavc1394                                0.5.4-r3                 apk           
 libavif                                   1.3.0-r0                 apk           
-libblkid                                  2.41.2-r0                apk           
+libblkid                                  2.41.4-r0                apk           
 libbluray                                 1.4.0-r0                 apk           
 libbsd                                    0.12.2-r0                apk           
 libbz2                                    1.0.8-r6                 apk           
@@ -256,7 +256,7 @@ libmatroska                               1.7.1-r0                 apk
 libmd                                     1.1.0-r0                 apk           
 libmicrodns                               0.2.0-r1                 apk           
 libmodplug                                0.8.9.0-r3               apk           
-libmount                                  2.41.2-r0                apk           
+libmount                                  2.41.4-r0                apk           
 libmpeg2                                  0.5.1-r12                apk           
 libncursesw                               6.5_p20251123-r0         apk           
 libnice                                   0.1.22-r0                apk           
@@ -305,7 +305,7 @@ libunistring                              1.4.1-r0                 apk
 libunwind                                 1.8.1-r0                 apk           
 libupnp                                   1.14.25-r0               apk           
 libusb                                    1.0.29-r0                apk           
-libuuid                                   2.41.2-r0                apk           
+libuuid                                   2.41.4-r0                apk           
 libuv                                     1.51.0-r0                apk           
 libva                                     2.22.0-r1                apk           
 libva-intel-driver                        2.4.1-r2                 apk           
@@ -377,7 +377,7 @@ minimal-lexical                           0.2.1                    rust-crate
 mpdecimal                                 4.0.1-r0                 apk           
 mpg123-libs                               1.33.3-r0                apk           
 mtdev                                     1.1.7-r0                 apk           
-musl                                      1.2.5-r21                apk           
+musl                                      1.2.5-r22                apk           
 musl-utils                                1.2.5-r21                apk           
 ncurses-terminfo-base                     6.5_p20251123-r0         apk           
 neon                                      0.35.0-r0                apk           
