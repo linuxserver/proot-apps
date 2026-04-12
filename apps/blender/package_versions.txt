@@ -163,7 +163,7 @@ libopenmpt                       0.8.6-r0                 apk
 libpanelw                        6.5_p20251123-r0         apk                         
 libpciaccess                     0.18.1-r1                apk                         
 libplacebo                       7.351.0-r0               apk                         
-libpng                           1.6.56-r0                apk                         
+libpng                           1.6.57-r0                apk                         
 libpsl                           0.21.5-r3                apk                         
 libpulse                         17.0-r5                  apk                         
 libraw                           0.21.4-r2                apk                         
@@ -174,7 +174,7 @@ libsm                            1.2.6-r0                 apk
 libsndfile                       1.2.2-r2                 apk                         
 libsodium                        1.0.20-r1                apk                         
 libsrt                           1.5.3-r1                 apk                         
-libssh                           0.11.3-r0                apk                         
+libssh                           0.11.4-r0                apk                         
 libssl3                          3.5.5-r0                 apk                         
 libstdc++                        15.2.0-r2                apk                         
 libsz                            1.1.4-r2                 apk                         
@@ -241,7 +241,7 @@ minimal-lexical                  0.2.1                    rust-crate
 minizip-ng                       4.0.10-r0                apk                         
 mpdecimal                        4.0.1-r0                 apk                         
 mpg123-libs                      1.33.3-r0                apk                         
-musl                             1.2.5-r22                apk                         
+musl                             1.2.5-r23                apk                         
 musl-utils                       1.2.5-r21                apk                         
 ncurses-terminfo-base            6.5_p20251123-r0         apk                         
 netcat-openbsd                   1.234.1-r0               apk                         
@@ -293,11 +293,11 @@ ptex                             2.4.3-r0                 apk
 pugixml                          1.15-r0                  apk                         
 pulseaudio                       17.0-r5                  apk                         
 pulseaudio-alsa                  17.0-r5                  apk                         
-pyc                              3.12.12-r0               apk                         
+pyc                              3.12.13-r0               apk                         
 pystring                         1.1.4-r0                 apk                         
-python3                          3.12.12-r0               apk                         
-python3-pyc                      3.12.12-r0               apk                         
-python3-pycache-pyc0             3.12.12-r0               apk                         
+python3                          3.12.13-r0               apk                         
+python3-pyc                      3.12.13-r0               apk                         
+python3-pycache-pyc0             3.12.13-r0               apk                         
 quote                            1.0.40                   rust-crate                  
 radium                           0.7.0                    rust-crate                  
 rand                             0.9.1                    rust-crate                  

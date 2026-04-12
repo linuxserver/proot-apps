@@ -268,7 +268,7 @@ libpciaccess                              0.18.1-r1                apk
 libpcre2-16                               10.47-r0                 apk           
 libpcre2-32                               10.47-r0                 apk           
 libplacebo5                               5.264.1-r6               apk           
-libpng                                    1.6.56-r0                apk           
+libpng                                    1.6.57-r0                apk           
 libprotobuf                               31.1-r1                  apk           
 libprotobuf-lite                          31.1-r1                  apk           
 libprotoc                                 31.1-r1                  apk           
@@ -293,7 +293,7 @@ libsodium                                 1.0.20-r1                apk
 libsoup3                                  3.6.5-r1                 apk           
 libsrt                                    1.5.3-r1                 apk           
 libsrtp                                   2.7.0-r0                 apk           
-libssh                                    0.11.3-r0                apk           
+libssh                                    0.11.4-r0                apk           
 libssl3                                   3.5.5-r0                 apk           
 libstdc++                                 15.2.0-r2                apk           
 libtag                                    2.1.1-r0                 apk           
@@ -377,7 +377,7 @@ minimal-lexical                           0.2.1                    rust-crate
 mpdecimal                                 4.0.1-r0                 apk           
 mpg123-libs                               1.33.3-r0                apk           
 mtdev                                     1.1.7-r0                 apk           
-musl                                      1.2.5-r22                apk           
+musl                                      1.2.5-r23                apk           
 musl-utils                                1.2.5-r21                apk           
 ncurses-terminfo-base                     6.5_p20251123-r0         apk           
 neon                                      0.35.0-r0                apk           
@@ -436,10 +436,10 @@ py3-six                                   1.17.0-r0                apk
 py3-six-pyc                               1.17.0-r0                apk           
 py3-wxpython                              4.2.1-r5                 apk           
 py3-wxpython-pyc                          4.2.1-r5                 apk           
-pyc                                       3.12.12-r0               apk           
-python3                                   3.12.12-r0               apk           
-python3-pyc                               3.12.12-r0               apk           
-python3-pycache-pyc0                      3.12.12-r0               apk           
+pyc                                       3.12.13-r0               apk           
+python3                                   3.12.13-r0               apk           
+python3-pyc                               3.12.13-r0               apk           
+python3-pycache-pyc0                      3.12.13-r0               apk           
 qt5-qtbase                                5.15.10_git20230714-r4   apk           
 qt5-qtbase-x11                            5.15.10_git20230714-r4   apk           
 qt5-qtdeclarative                         5.15.10_git20230629-r0   apk           
@@ -528,7 +528,7 @@ xcb-util-image                            0.4.1-r0                 apk
 xcb-util-keysyms                          0.4.1-r0                 apk           
 xcb-util-renderutil                       0.3.10-r0                apk           
 xcb-util-wm                               0.4.2-r0                 apk           
-xdg-dbus-proxy                            0.1.6-r0                 apk           
+xdg-dbus-proxy                            0.1.7-r0                 apk           
 xdg-utils                                 1.2.1-r1                 apk           
 xf86-video-amdgpu                         23.0.0-r3                apk           
 xf86-video-ati                            22.0.0-r3                apk           

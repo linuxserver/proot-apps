@@ -217,7 +217,7 @@ libpanelw                                 6.5_p20251123-r0         apk
 libpciaccess                              0.18.1-r1                apk                         
 libpcre2-16                               10.47-r0                 apk                         
 libplacebo                                7.351.0-r0               apk                         
-libpng                                    1.6.56-r0                apk                         
+libpng                                    1.6.57-r0                apk                         
 libprotobuf                               31.1-r1                  apk                         
 libprotobuf-lite                          31.1-r1                  apk                         
 libprotoc                                 31.1-r1                  apk                         
@@ -231,7 +231,7 @@ libsndfile                                1.2.2-r2                 apk
 libsodium                                 1.0.20-r1                apk                         
 libsrt                                    1.5.3-r1                 apk                         
 libsrtp                                   2.7.0-r0                 apk                         
-libssh                                    0.11.3-r0                apk                         
+libssh                                    0.11.4-r0                apk                         
 libssl3                                   3.5.5-r0                 apk                         
 libstdc++                                 15.2.0-r2                apk                         
 libtasn1                                  4.21.0-r0                apk                         
@@ -304,7 +304,7 @@ mkfontscale                               1.2.3-r1                 apk
 mpdecimal                                 4.0.1-r0                 apk                         
 mpg123-libs                               1.33.3-r0                apk                         
 mtdev                                     1.1.7-r0                 apk                         
-musl                                      1.2.5-r22                apk                         
+musl                                      1.2.5-r23                apk                         
 musl-utils                                1.2.5-r21                apk                         
 ncurses-terminfo-base                     6.5_p20251123-r0         apk                         
 netcat-openbsd                            1.234.1-r0               apk                         
@@ -341,10 +341,10 @@ protobuf                                  31.1-r1                  apk
 protoc                                    31.1-r1                  apk                         
 pulseaudio                                17.0-r5                  apk                         
 pulseaudio-alsa                           17.0-r5                  apk                         
-pyc                                       3.12.12-r0               apk                         
-python3                                   3.12.12-r0               apk                         
-python3-pyc                               3.12.12-r0               apk                         
-python3-pycache-pyc0                      3.12.12-r0               apk                         
+pyc                                       3.12.13-r0               apk                         
+python3                                   3.12.13-r0               apk                         
+python3-pyc                               3.12.13-r0               apk                         
+python3-pycache-pyc0                      3.12.13-r0               apk                         
 qt6-qtbase                                6.10.1-r0                apk                         
 qt6-qtbase-x11                            6.10.1-r0                apk                         
 qt6-qtdeclarative                         6.10.1-r0                apk                         

@@ -194,7 +194,7 @@ libpagemaker                    0.0.4-r9                 apk
 libpanelw                       6.5_p20251123-r0         apk                           
 libpciaccess                    0.18.1-r1                apk                           
 libpcre2-16                     10.47-r0                 apk                           
-libpng                          1.6.56-r0                apk                           
+libpng                          1.6.57-r0                apk                           
 libpq                           18.3-r0                  apk                           
 libproxy                        0.5.12-r0                apk                           
 libpsl                          0.21.5-r3                apk                           
@@ -292,7 +292,7 @@ mkfontscale                     1.2.3-r1                 apk
 mpdecimal                       4.0.1-r0                 apk                           
 mpg123-libs                     1.33.3-r0                apk                           
 mtdev                           1.1.7-r0                 apk                           
-musl                            1.2.5-r22                apk                           
+musl                            1.2.5-r23                apk                           
 musl-utils                      1.2.5-r21                apk                           
 mythes                          1.2.4-r3                 apk                           
 nashorn                         1.8.0_452-b09            java-archive                  
@@ -330,10 +330,10 @@ pkgconf                         2.5.1-r0                 apk
 poppler                         25.12.0-r0               apk                           
 pulseaudio                      17.0-r5                  apk                           
 pulseaudio-alsa                 17.0-r5                  apk                           
-pyc                             3.12.12-r0               apk                           
-python3                         3.12.12-r0               apk                           
-python3-pyc                     3.12.12-r0               apk                           
-python3-pycache-pyc0            3.12.12-r0               apk                           
+pyc                             3.12.13-r0               apk                           
+python3                         3.12.13-r0               apk                           
+python3-pyc                     3.12.13-r0               apk                           
+python3-pycache-pyc0            3.12.13-r0               apk                           
 qt6-qtbase                      6.10.1-r0                apk                           
 qt6-qtbase-x11                  6.10.1-r0                apk                           
 qt6-qtdeclarative               6.10.1-r0                apk                           
