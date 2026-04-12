@@ -4,7 +4,7 @@
 echo "Adding icon"
 mkdir -p $HOME/.local/share/icons/hicolor/scalable/apps/
 cp \
-  /usr/share/icons/hicolor/256x256/apps/telegram.png \
+  /usr/share/icons/hicolor/256x256/apps/org.telegram.desktop.png \
   $HOME/.local/share/icons/hicolor/scalable/apps/
 echo "Adding start menu entry"
 mkdir -p $HOME/.local/share/applications/

@@ -11,10 +11,12 @@ RUN \
   echo '[Desktop Entry]' > /usr/share/applications/telegram-pa.desktop && \
   echo 'Name=Telegram PA' >> /usr/share/applications/telegram-pa.desktop && \
   echo 'Exec=/bin/sh -c "$HOME/.local/bin/proot-apps run ghcr.io/'${REPO}':telegram %U"' >> /usr/share/applications/telegram-pa.desktop && \
-  echo 'Icon=telegram' >> /usr/share/applications/telegram-pa.desktop && \
+  echo 'Icon=org.telegram.desktop' >> /usr/share/applications/telegram-pa.desktop && \
   echo 'Terminal=false' >> /usr/share/applications/telegram-pa.desktop && \
   echo 'Type=Application' >> /usr/share/applications/telegram-pa.desktop && \
   echo 'MimeType=x-scheme-handler/tg;' >> /usr/share/applications/telegram-pa.desktop && \
+  echo 'Categories=Chat;Network;InstantMessaging;Qt;' >> /usr/share/applications/telegram-pa.desktop && \
+  echo 'Keywords=tg;chat;im;messaging;messenger;sms;tdesktop;' >> /usr/share/applications/telegram-pa.desktop && \
   echo "**** set bin name ****" && \
   echo "telegram-pa" > /bin-name && \
   echo "**** cleanup ****" && \
