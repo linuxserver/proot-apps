@@ -1,10 +1,13 @@
 ARG REPO
-FROM ghcr.io/${REPO}:debian-bookworm AS rootfs
+FROM ghcr.io/${REPO}:debian-trixie AS rootfs
 ARG REPO
 
 # Install packages
 RUN \
   echo "**** install packages ****" && \
+  apt-get update && \
+  apt-get install -y \
+    libgpg-error0 && \
   FLYCAST_VERSION=$(curl -sX GET "https://api.github.com/repos/flyinghead/flycast/releases/latest" \
     | awk '/tag_name/{print $4;exit}' FS='[""]') && \
   curl -o \

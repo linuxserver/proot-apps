@@ -1,5 +1,5 @@
 ARG REPO
-FROM ghcr.io/${REPO}:debian-bookworm AS rootfs
+FROM ghcr.io/${REPO}:debian-trixie AS rootfs
 ARG REPO
 
 # Install packages
@@ -15,9 +15,9 @@ RUN \
     -e "/^Exec=/c Exec=/bin/sh -c \"\$HOME\/.local\/bin\/proot-apps run ghcr.io/${REPO}:freecad %U\"" \
     -e "s/Name=FreeCAD/Name=FreeCAD PA/g" \
     -e '/^TryExec=/d' \
-    /usr/share/applications/org.freecadweb.FreeCAD.desktop && \
+    /usr/share/applications/org.freecad.FreeCAD.desktop && \
   mv \
-    /usr/share/applications/org.freecadweb.FreeCAD.desktop \
+    /usr/share/applications/org.freecad.FreeCAD.desktop \
     /usr/share/applications/freecad-pa.desktop && \
   echo "**** set bin name ****" && \
   echo "freecad-pa" > /bin-name && \

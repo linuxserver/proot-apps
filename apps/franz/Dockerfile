@@ -1,5 +1,5 @@
 ARG REPO
-FROM ghcr.io/${REPO}:debian-bookworm AS rootfs
+FROM ghcr.io/${REPO}:debian-trixie AS rootfs
 ARG REPO
 
 # Install packages
@@ -12,6 +12,7 @@ RUN \
     /tmp/franz.deb -L \
     "https://github.com/meetfranz/franz/releases/download/${FRANZ_VERSION}/franz_$(echo $FRANZ_VERSION|sed 's/^v//g')_amd64.deb" && \
   apt install -y --no-install-recommends \
+    libdecor-0-plugin-1-gtk \
     /tmp/franz.deb && \
   echo "**** customize desktop file ****" && \
   sed -i \

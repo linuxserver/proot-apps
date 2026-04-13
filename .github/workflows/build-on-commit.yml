@@ -28,11 +28,8 @@ jobs:
     strategy:
       matrix:
         include:
-          - name: alpine-321
-          - name: alpine-322
           - name: alpine-323
           - name: alpine-edge
-          - name: debian-bookworm
           - name: debian-trixie
           - name: ubuntu-jammy
           - name: ubuntu-noble

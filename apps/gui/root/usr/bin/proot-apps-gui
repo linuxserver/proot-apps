@@ -152,10 +152,17 @@ class MainWindow(Gtk.ApplicationWindow):
   def makeImage(self, content):
     loader = GdkPixbuf.PixbufLoader()
     loader.write_bytes(GLib.Bytes.new(content))
-    loader.set_size(192,192)
+    loader.set_size(192, 192)
     loader.close()
     pixBuf = loader.get_pixbuf()
-    logo = Gtk.Image.new_from_pixbuf(pixBuf)
+    width = pixBuf.get_width()
+    height = pixBuf.get_height()
+    stride = pixBuf.get_rowstride()
+    has_alpha = pixBuf.get_has_alpha()
+    format = Gdk.MemoryFormat.R8G8B8A8 if has_alpha else Gdk.MemoryFormat.R8G8B8
+    pixel_bytes = GLib.Bytes.new(pixBuf.get_pixels())
+    texture = Gdk.MemoryTexture.new(width, height, format, pixel_bytes, stride)
+    logo = Gtk.Picture.new_for_paintable(texture)
     logo.set_size_request(192, 192)
     return logo
 
@@ -185,15 +192,18 @@ class MainWindow(Gtk.ApplicationWindow):
     back = Gtk.Button(label='Back')
     self.header.pack_start(back)
     # Setup appinfo containers
-    container = Gtk.Box(orientation=Gtk.Orientation.VERTICAL,spacing=5)
+    container = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=5)
     self.set_child(container)
-    appInfo = Gtk.Box(spacing=5)
+    appInfo = Gtk.Box(spacing=15)
+    appInfo.set_halign(Gtk.Align.CENTER)
     container.append(appInfo)
-    logoContainer = Gtk.CenterBox(orientation=Gtk.Orientation.VERTICAL)
+    logoContainer = Gtk.CenterBox()
     logoContainer.set_size_request(500, 250)
     infoContainer = Gtk.Label()
     infoContainer.set_wrap(True)
     infoContainer.set_justify(Gtk.Justification.CENTER)
+    infoContainer.set_halign(Gtk.Align.CENTER)
+    infoContainer.set_valign(Gtk.Align.CENTER)
     infoContainer.add_css_class('info')
     infoContainer.set_size_request(500, 250)
     appInfo.append(logoContainer)
@@ -201,13 +211,9 @@ class MainWindow(Gtk.ApplicationWindow):
     # Add logo and info
     if app['name'] in self.logos:
       content = self.logos[app['name']]
-      loader = GdkPixbuf.PixbufLoader()
-      loader.write_bytes(GLib.Bytes.new(content))
-      loader.set_size(192,192)
-      loader.close()
-      pixBuf = loader.get_pixbuf()
-      logo = Gtk.Image.new_from_pixbuf(pixBuf)
-      logo.set_size_request(192, 192)
+      logo = self.makeImage(content)
+      logo.set_halign(Gtk.Align.CENTER)
+      logo.set_valign(Gtk.Align.CENTER)
       logoContainer.set_center_widget(logo)
     infoContainer.set_text(app['description'])
     # Add action container for clicks and term

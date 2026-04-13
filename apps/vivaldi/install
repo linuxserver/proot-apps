@@ -4,8 +4,8 @@
 echo "Adding icon"
 mkdir -p $HOME/.local/share/icons/hicolor/scalable/apps/
 cp \
-  /usr/share/icons/hicolor/256x256/apps/vivaldi.png \
-  $HOME/.local/share/icons/hicolor/scalable/apps/
+  /opt/vivaldi/product_logo_256.png \
+  $HOME/.local/share/icons/hicolor/scalable/apps/vivaldi.png
 echo "Adding start menu entry"
 mkdir -p $HOME/.local/share/applications/
 cp \

@@ -1,5 +1,5 @@
 ARG REPO
-FROM ghcr.io/${REPO}:debian-bookworm AS rootfs
+FROM ghcr.io/${REPO}:debian-trixie AS rootfs
 ARG REPO
 
 # Install packages
@@ -9,12 +9,11 @@ RUN \
   apt-get install -y --no-install-recommends \
     jq \
     libpolkit-gobject-1-0 && \
-  URL=$(curl -sL https://anydesk.com/en/downloads/linux \
-    |awk -F'(var downloads=|;)' '/Debian/ {print $2}' \
-    | head -2 | jq -r '.linux.packages[]|select(.name|startswith("Debian")).url') && \
+  DEB=$(curl -sL https://download.anydesk.com/linux/ \
+  | awk -F '(">|<)' '/_amd64.deb/ && !/sum/ {print $3}' |tail -n1) && \
   curl -o \
     /tmp/anydesk.deb -L \
-    "${URL}" && \
+    "https://download.anydesk.com/linux/${DEB}" && \
   apt install -y --no-install-recommends \
     /tmp/anydesk.deb || : && \
   echo "**** customize desktop file ****" && \

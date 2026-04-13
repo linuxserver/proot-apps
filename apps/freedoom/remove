@@ -1,19 +1,14 @@
 #!/bin/bash
 
 ## Desktop and icons install ##
-for APP in freedoom1 freedoom2; do
-  if [[ "${APP}" == "freedoom1" ]]; then
-    PHASE=Phase1
-  else
-    PHASE=Phase2
-  fi
-  echo "Removing icon $APP"
+for PHASE in Phase1 Phase2; do
+  echo "Removing icon $PHASE"
   rm -f \
-    $HOME/.local/share/icons/hicolor/scalable/apps/${APP}.png
-  echo "Removing start menu entry $APP"
+    $HOME/.local/share/icons/hicolor/scalable/apps/io.github.freedoom.${PHASE}.png
+  echo "Removing start menu entry $PHASE"
   rm -f \
     $HOME/.local/share/applications/freedoom-${PHASE}-pa.desktop
-  echo "Removing desktop shortcut $APP"
+  echo "Removing desktop shortcut $PHASE"
   rm -f \
     $HOME/Desktop/freedoom-${PHASE}-pa.desktop
 done

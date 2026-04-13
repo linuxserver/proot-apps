@@ -1,5 +1,5 @@
 ARG REPO
-FROM ghcr.io/${REPO}:debian-bookworm AS rootfs
+FROM ghcr.io/${REPO}:debian-trixie AS rootfs
 ARG REPO
 
 # Install packages
@@ -7,7 +7,8 @@ RUN \
   echo "**** install packages ****" && \
   apt-get update && \
   apt-get install -y --no-install-recommends \
-    libnss3 && \
+    libnss3 \
+    libopengl0 && \
   curl -o \
     /tmp/zoom.deb -L \
     "https://zoom.us/client/latest/zoom_amd64.deb" && \
