@@ -149,7 +149,7 @@ libc                             0.2.172                  rust-crate  (+1 duplic
 libcaca                          0.99_beta20-r4           apk                         
 libcamera                        0.6.0-r0                 apk                         
 libcamera-ipa                    0.6.0-r0                 apk                         
-libcap2                          2.77-r0                  apk                         
+libcap2                          2.78-r0                  apk                         
 libcdio                          2.2.0-r0                 apk                         
 libcdio-paranoia                 10.2.2.0.2-r3            apk                         
 libcrypto3                       3.5.5-r0                 apk                         

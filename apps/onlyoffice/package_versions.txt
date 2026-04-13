@@ -133,8 +133,8 @@ libfribidi0                     1.0.16-1                              deb
 libgbm1                         25.0.7-2                              deb     
 libgcc-s1                       14.2.0-19                             deb     
 libgcrypt20                     1.11.0-7                              deb     
-libgdk-pixbuf-2.0-0             2.42.12+dfsg-4                        deb     
-libgdk-pixbuf2.0-common         2.42.12+dfsg-4                        deb     
+libgdk-pixbuf-2.0-0             2.42.12+dfsg-4+deb13u1                deb     
+libgdk-pixbuf2.0-common         2.42.12+dfsg-4+deb13u1                deb     
 libgfortran5                    14.2.0-19                             deb     
 libgl1                          1.7.0-1+b2                            deb     
 libgl1-mesa-dri                 25.0.7-2                              deb     

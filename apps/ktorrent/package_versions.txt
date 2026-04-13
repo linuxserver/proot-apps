@@ -161,7 +161,7 @@ libc                       0.2.172                  rust-crate
 libcanberra                0.30-r11                 apk           
 libcanberra-gstreamer      0.30-r11                 apk           
 libcanberra-pulse          0.30-r11                 apk           
-libcap2                    2.77-r0                  apk           
+libcap2                    2.78-r0                  apk           
 libcrypto3                 3.5.5-r0                 apk           
 libcurl                    8.17.0-r1                apk           
 libdaemon                  0.14-r6                  apk           

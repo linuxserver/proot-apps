@@ -131,7 +131,7 @@ libbase                         1.1.6                    java-archive
 libblkid                        2.41.4-r0                apk                           
 libbsd                          0.12.2-r0                apk                           
 libbz2                          1.0.8-r6                 apk                           
-libcap2                         2.77-r0                  apk                           
+libcap2                         2.78-r0                  apk                           
 libcdr                          0.1.8-r2                 apk                           
 libcmis                         0.6.2-r0                 apk                           
 libcom_err                      1.47.3-r0                apk                           

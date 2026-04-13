@@ -197,7 +197,7 @@ libc                       0.2.172                  rust-crate  (+1 duplicate)
 libcanberra                0.30-r11                 apk                         
 libcanberra-gstreamer      0.30-r11                 apk                         
 libcanberra-pulse          0.30-r11                 apk                         
-libcap2                    2.77-r0                  apk                         
+libcap2                    2.78-r0                  apk                         
 libcrypto3                 3.5.5-r0                 apk                         
 libcurl                    8.17.0-r1                apk                         
 libdav1d                   1.5.2-r0                 apk                         
@@ -426,7 +426,7 @@ rayon                      1.10.0                   rust-crate
 rayon-core                 1.12.1                   rust-crate                  
 readline                   8.3.1-r0                 apk                         
 rustix                     1.0.7                    rust-crate                  
-sane                       1.4.0-r2                 apk                         
+sane                       1.4.0-r3                 apk                         
 scan_fmt                   0.2.6                    rust-crate                  
 scanelf                    1.3.8-r2                 apk                         
 serd-libs                  0.32.4-r0                apk                         

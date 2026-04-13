@@ -137,7 +137,7 @@ libc                             0.2.154                  rust-crate
 libc                             0.2.172                  rust-crate  (+1 duplicate)  
 libcamera                        0.6.0-r0                 apk                         
 libcamera-ipa                    0.6.0-r0                 apk                         
-libcap2                          2.77-r0                  apk                         
+libcap2                          2.78-r0                  apk                         
 libcdio                          2.2.0-r0                 apk                         
 libcec                           7.1.1-r0                 apk                         
 libcrypto3                       3.5.5-r0                 apk                         

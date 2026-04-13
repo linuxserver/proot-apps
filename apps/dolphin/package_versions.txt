@@ -120,7 +120,7 @@ libbluray                  1.4.0-r0                 apk
 libbsd                     0.12.2-r0                apk           
 libbz2                     1.0.8-r6                 apk           
 libc                       0.2.172                  rust-crate    
-libcap2                    2.77-r0                  apk           
+libcap2                    2.78-r0                  apk           
 libcrypto3                 3.5.5-r0                 apk           
 libcurl                    8.17.0-r1                apk           
 libdav1d                   1.5.2-r0                 apk           
