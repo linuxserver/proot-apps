@@ -300,7 +300,7 @@ include:
   - name: orcaslicer
     full_name: OrcaSlicer
     arch: linux/amd64
-    icon: orcaslicer.png
+    icon: orcaslicer.svg
     description: "OrcaSlicer is an open source Next-Gen Slicing Software for Precision 3D Prints."
   - name: parsec
     full_name: Parsec
