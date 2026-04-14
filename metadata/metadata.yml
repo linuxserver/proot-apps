@@ -297,6 +297,11 @@ include:
     arch: linux/amd64
     icon: opera.svg
     description: "Opera is a multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium, but distinguishes itself from other Chromium-based browsers (Chrome, Edge, etc.) through its user interface and other features."
+  - name: orcaslicer
+    full_name: OrcaSlicer
+    arch: linux/amd64
+    icon: orcaslicer.png
+    description: "OrcaSlicer is an open source Next-Gen Slicing Software for Precision 3D Prints."
   - name: parsec
     full_name: Parsec
     arch: linux/amd64
