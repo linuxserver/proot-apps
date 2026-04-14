@@ -441,7 +441,7 @@ include:
     description: "WebCord can be summarized as a pack of security and privacy hardenings, Discord features reimplementations, Electron / Chromium / Discord bugs workarounds, stylesheets, internal pages and wrapped https://discord.com page, designed to conform with ToS as much as it is possible."
   - name: wechat
     full_name: WeChat
-    arch: linux/amd64,linux/arm64
+    arch: linux/amd64
     icon: wechat.svg
     description: "WeChat or Weixin in Chinese is an instant messaging, social media, and mobile payment app developed by Tencent."
   - name: winegui
