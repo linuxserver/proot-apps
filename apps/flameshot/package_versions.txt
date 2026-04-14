@@ -6,7 +6,7 @@ alpine-release             3.24.0_alpha20260127-r0  apk
 alsa-lib                   1.2.15.3-r0              apk     
 alsa-plugins-pulse         1.2.12-r2                apk     
 apk-tools                  3.0.3-r2                 apk     
-avahi-libs                 0.8-r25                  apk     
+avahi-libs                 0.8-r26                  apk     
 bash                       5.3.9-r1                 apk     
 brotli-libs                1.2.0-r1                 apk     
 busybox                    1.37.0-r31               apk     
