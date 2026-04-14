@@ -133,6 +133,7 @@ proot-apps update firefox
 | obs | ghcr.io/linuxserver/proot-apps:obs | linux/amd64 | OBS Studio is a free and open-source, cross-platform screencasting and streaming app.|
 | obsidian | ghcr.io/linuxserver/proot-apps:obsidian | linux/amd64 | Obsidian is a note-taking app that lets you create, link, and organize your notes on your device, with hundreds of plugins and themes to customize your workflow.|
 | onlyoffice | ghcr.io/linuxserver/proot-apps:onlyoffice | linux/amd64 | Create, view and edit documents of any size and complexity. Work with most popular formats: DOCX, ODT, XLSX, ODS, CSV, PPTX, ODP, etc. Deal with multiple files within one and the same window thanks to the tab-based user interface.|
+| opencloud | ghcr.io/linuxserver/proot-apps:opencloud | linux/amd64 | The OpenCloud Desktop Client enables file synchronization between a local computer and OpenCloud.|
 | opera | ghcr.io/linuxserver/proot-apps:opera | linux/amd64 | Opera is a multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium, but distinguishes itself from other Chromium-based browsers (Chrome, Edge, etc.) through its user interface and other features.|
 | parsec | ghcr.io/linuxserver/proot-apps:parsec | linux/amd64 | Parsec is a remote desktop you'll actually love. Connect to work, games, or projects wherever you are, whenever you want.|
 | postman | ghcr.io/linuxserver/proot-apps:postman | linux/amd64,linux/arm64 | Postman is an application that allows the testing of web APIs.|
