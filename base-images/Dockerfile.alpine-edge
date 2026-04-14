@@ -12,6 +12,7 @@ RUN \
     curl \
     dbus-x11 \
     font-noto \
+    lang \
     mesa-dri-gallium \
     mesa-va-gallium \
     mesa-vulkan-ati \
@@ -22,8 +23,8 @@ RUN \
     xdg-utils \
     xf86-video-amdgpu \
     xf86-video-ati \
-    $(if [ $(uname -m) == "x86_64" ];then echo "xf86-video-intel";fi) \
-    $(if [ $(uname -m) == "aarch64" ];then echo "mesa-vulkan-broadcom mesa-vulkan-panfrost mesa-vulkan-freedreno";fi) && \
+    $(if [ $(uname -m) = "x86_64" ];then echo "xf86-video-intel";fi) \
+    $(if [ $(uname -m) = "aarch64" ];then echo "mesa-vulkan-broadcom mesa-vulkan-panfrost mesa-vulkan-freedreno";fi) && \
   echo "**** setup xdg-open tunnel ****" && \
   mkdir -p /usr/share/applications && \
   curl -o \

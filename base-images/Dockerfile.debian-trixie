@@ -4,6 +4,10 @@ ARG REPO
 
 # Install packages
 RUN \
+  echo "**** enable locales ****" && \
+  sed -i \
+    '/locale/d' \
+    /etc/dpkg/dpkg.cfg.d/docker && \
   echo "**** install packages ****" && \
   apt-get update && \
   DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
@@ -13,6 +17,7 @@ RUN \
     desktop-file-utils \
     fonts-noto \
     libvulkan1 \
+    locales-all \
     mesa-va-drivers \
     mesa-vulkan-drivers \
     netcat-openbsd \
@@ -20,7 +25,7 @@ RUN \
     xdg-utils \
     xserver-xorg-video-amdgpu \
     xserver-xorg-video-ati \
-    $(if [ $(uname -m) == "x86_64" ];then echo "xserver-xorg-video-intel";fi) && \
+    $(if [ $(uname -m) = "x86_64" ];then echo "xserver-xorg-video-intel";fi) && \
   echo "**** setup xdg-open tunnel ****" && \
   mkdir -p /usr/share/applications && \
   curl -o \
