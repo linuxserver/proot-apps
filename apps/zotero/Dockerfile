@@ -9,17 +9,18 @@ RUN \
   apt-get install -y --no-install-recommends \
     lbzip2 \
     libdbus-glib-1-2 \
-    libgtk-3-0 && \
+    libgtk-3-0 \
+    xz-utils && \
   ZOTERO_VERSION=$(curl -sL https://www.zotero.org/download/ \
     |awk -F'linux-x86_64' '/linux-x86_64/ {print $2}' \
     | awk -F'"' '{print $3}' \
     | tail -n1) && \
   curl -o \
-    /tmp/zotero.tar.bz2  -L \
-    "https://download.zotero.org/client/release/${ZOTERO_VERSION}/Zotero-${ZOTERO_VERSION}_linux-x86_64.tar.bz2" && \
+    /tmp/zotero.tar.xz  -L \
+    "https://download.zotero.org/client/release/${ZOTERO_VERSION}/Zotero-${ZOTERO_VERSION}_linux-x86_64.tar.xz" && \
   mkdir /opt/zotero && \
   tar xf \
-    /tmp/zotero.tar.bz2 -C \
+    /tmp/zotero.tar.xz -C \
     /opt/zotero/ --strip-components=1 && \
   echo "**** customize desktop file ****" && \
   sed -i \

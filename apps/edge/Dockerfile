@@ -1,11 +1,13 @@
 ARG REPO
-FROM ghcr.io/${REPO}:debian-sid AS rootfs
+FROM ghcr.io/${REPO}:debian-trixie AS rootfs
 ARG REPO
 
 # Install packages
 RUN \
   echo "**** install packages ****" && \
   apt-get update && \
+  apt-get install -y --no-install-recommends \
+    gpg && \
   curl -o \
     /tmp/edge.deb -L \
     "https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/$(curl -sLq https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/ | awk -F'(<a href="|")' '/href=/ {print $2}' | sort --version-sort | tail -1)" && \
