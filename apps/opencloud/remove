@@ -4,4 +4,4 @@ rm -f $HOME/.local/share/icons/hicolor/scalable/apps/opencloud.png
 echo "Removing start menu entry"
 rm -f $HOME/.local/share/applications/opencloud-pa.desktop
 echo "Removing desktop shortcut"
-rm -f $HOME/Desktop/obsidian-pa.desktop
+rm -f $HOME/Desktop/opencloud-pa.desktop

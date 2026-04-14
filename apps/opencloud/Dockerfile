@@ -17,7 +17,6 @@ RUN \
   curl -o \
     /tmp/opencloud.app -L \
     "https://github.com/opencloud-eu/desktop/releases/download/${OC_VERSION}/OpenCloud_Desktop-${OC_VERSION}-linux-gcc-x86_64.AppImage" && \
-  chmod +x /tmp/opencloud.app && \
   cd /tmp && \
   chmod +x /tmp/opencloud.app && \
   ./opencloud.app --appimage-extract && \

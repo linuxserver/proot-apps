@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start wechat
+/opt/wechat/AppRun "$@"
