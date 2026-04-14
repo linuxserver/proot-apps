@@ -287,6 +287,11 @@ include:
     arch: linux/amd64
     icon: onlyoffice.svg
     description: "Create, view and edit documents of any size and complexity. Work with most popular formats: DOCX, ODT, XLSX, ODS, CSV, PPTX, ODP, etc. Deal with multiple files within one and the same window thanks to the tab-based user interface."
+  - name: opencloud
+    full_name: OpenCloud
+    arch: linux/amd64
+    icon: opencloud.svg
+    description: "The OpenCloud Desktop Client enables file synchronization between a local computer and OpenCloud."
   - name: opera
     full_name: Opera
     arch: linux/amd64

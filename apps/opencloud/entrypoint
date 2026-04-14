@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start OpenCloud
+/opt/opencloud/AppRun "$@"
