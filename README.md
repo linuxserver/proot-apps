@@ -110,6 +110,7 @@ proot-apps update firefox
 | geany | ghcr.io/linuxserver/proot-apps:geany | linux/amd64,linux/arm64 | Geany is a powerful, stable and lightweight programmers text editor.|
 | gimp | ghcr.io/linuxserver/proot-apps:gimp | linux/amd64,linux/arm64 | GIMP is a free and open-source raster graphics editor used for image manipulation (retouching) and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. It is extensible by means of plugins, and scriptable.|
 | handbrake | ghcr.io/linuxserver/proot-apps:handbrake | linux/amd64,linux/arm64 | HandBrake is an open-source, GPL-licensed, multiplatform, multithreaded video transcoder.|
+| helium | ghcr.io/linuxserver/proot-apps:helium | linux/amd64,linux/arm64 | Helium is a Chromium-based web browser made for people, with love. Privacy-first with unbiased ad-blocking.|
 | idea | ghcr.io/linuxserver/proot-apps:idea | linux/amd64,linux/arm64 | IntelliJ IDEA Community Edition is an Integrated Development Environment (IDE) for Java and Kotlin designed to maximize developer productivity.|
 | inkscape | ghcr.io/linuxserver/proot-apps:inkscape | linux/amd64,linux/arm64 | Inkscape is professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers.|
 | joplin | ghcr.io/linuxserver/proot-apps:joplin | linux/amd64 | Joplin is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks.|
