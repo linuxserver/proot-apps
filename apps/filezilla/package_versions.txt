@@ -7,6 +7,7 @@ alsa-lib                   1.2.14-r2                apk
 alsa-plugins-pulse         1.2.12-r2                apk     
 apk-tools                  3.0.3-r1                 apk     
 at-spi2-core               2.58.3-r0                apk     
+at-spi2-core-lang          2.58.3-r0                apk     
 at-spi2-core-libs          2.58.3-r0                apk     
 avahi-libs                 0.8-r23                  apk     
 bash                       5.3.3-r1                 apk     
@@ -29,6 +30,7 @@ eudev-libs                 3.2.14-r6                apk
 fftw-single-libs           3.3.10-r7                apk     
 file                       5.46-r2                  apk     
 filezilla                  3.68.1-r0                apk     
+filezilla-lang             3.68.1-r0                apk     
 font-noto                  2025.12.01-r0            apk     
 font-noto-common           2025.12.01-r0            apk     
 font-noto-math             2025.12.01-r0            apk     
@@ -38,17 +40,23 @@ freetype                   2.14.1-r0                apk
 fribidi                    1.0.16-r2                apk     
 gdbm                       1.26-r0                  apk     
 gdk-pixbuf                 2.44.4-r0                apk     
+gdk-pixbuf-lang            2.44.4-r0                apk     
 glib                       2.86.3-r0                apk     
+glib-lang                  2.86.3-r0                apk     
 gmp                        6.3.0-r4                 apk     
 gnutls                     3.8.12-r0                apk     
 gobject-introspection      1.86.0-r0                apk     
 graphene                   1.10.8-r5                apk     
 graphite2                  1.3.14-r6                apk     
 gspell                     1.14.1-r0                apk     
+gspell-lang                1.14.1-r0                apk     
 gst-plugins-base           1.26.9-r0                apk     
+gst-plugins-base-lang      1.26.9-r0                apk     
 gstreamer                  1.26.9-r0                apk     
+gstreamer-lang             1.26.9-r0                apk     
 gstreamer-ptp-helper       1.26.9-r0                apk     
 gtk+3.0                    3.24.51-r0               apk     
+gtk+3.0-lang               3.24.51-r0               apk     
 gtk-update-icon-cache      3.24.51-r0               apk     
 harfbuzz                   12.2.0-r0                apk     
 hicolor-icon-theme         0.18-r0                  apk     
@@ -56,7 +64,9 @@ hwdata-pci                 0.401-r0                 apk
 icu-data-en                76.1-r1                  apk     
 icu-libs                   76.1-r1                  apk     
 iso-codes                  4.19.0-r0                apk     
+iso-codes-lang             4.19.0-r0                apk     
 lame-libs                  3.100-r5                 apk     
+lang                       0.1-r2                   apk     
 libapk                     3.0.3-r1                 apk     
 libasyncns                 0.8-r4                   apk     
 libatk-1.0                 2.58.3-r0                apk     
@@ -74,6 +84,7 @@ libepoxy                   1.5.10-r1                apk
 libexpat                   2.7.5-r0                 apk     
 libffi                     3.5.2-r0                 apk     
 libfilezilla               0.49.0-r0                apk     
+libfilezilla-lang          0.49.0-r0                apk     
 libflac                    1.4.3-r2                 apk     
 libgcc                     15.2.0-r2                apk     
 libgcrypt                  1.11.2-r0                apk     
@@ -98,6 +109,7 @@ libpng                     1.6.57-r0                apk
 libpsl                     0.21.5-r3                apk     
 libpulse                   17.0-r5                  apk     
 libsecret                  0.21.7-r0                apk     
+libsecret-lang             0.21.7-r0                apk     
 libsharpyuv                1.6.0-r0                 apk     
 libsm                      1.2.6-r0                 apk     
 libsndfile                 1.2.2-r2                 apk     
@@ -150,6 +162,8 @@ mesa-vulkan-swrast         25.2.7-r1                apk
 mpdecimal                  4.0.1-r0                 apk     
 mpg123-libs                1.33.3-r0                apk     
 musl                       1.2.5-r23                apk     
+musl-locales               0.1.0-r1                 apk     
+musl-locales-lang          0.1.0-r1                 apk     
 musl-utils                 1.2.5-r21                apk     
 ncurses-terminfo-base      6.5_p20251123-r0         apk     
 netcat-openbsd             1.234.1-r0               apk     
@@ -166,6 +180,7 @@ pkgconf                    2.5.1-r0                 apk
 pugixml                    1.15-r0                  apk     
 pulseaudio                 17.0-r5                  apk     
 pulseaudio-alsa            17.0-r5                  apk     
+pulseaudio-lang            17.0-r5                  apk     
 pyc                        3.12.13-r0               apk     
 python3                    3.12.13-r0               apk     
 python3-pyc                3.12.13-r0               apk     
@@ -175,6 +190,7 @@ scanelf                    1.3.8-r2                 apk
 sdl2-compat                2.32.58-r0               apk     
 sdl3                       3.2.26-r0                apk     
 shared-mime-info           2.4-r6                   apk     
+shared-mime-info-lang      2.4-r6                   apk     
 soxr                       0.1.3-r7                 apk     
 speexdsp                   1.2.1-r2                 apk     
 spirv-tools                1.4.321.0-r1             apk     
@@ -194,6 +210,7 @@ xf86-video-amdgpu          23.0.0-r3                apk
 xf86-video-ati             22.0.0-r3                apk     
 xf86-video-intel           2.99.917_git20221028-r7  apk     
 xkeyboard-config           2.46-r0                  apk     
+xkeyboard-config-lang      2.46-r0                  apk     
 xprop                      1.2.8-r0                 apk     
 xset                       1.2.5-r1                 apk     
 xz-libs                    5.8.2-r0                 apk     

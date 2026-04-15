@@ -87,13 +87,16 @@ funty                        2.0.0                    rust-crate
 gdbm                         1.26-r0                  apk                         
 getrandom                    0.3.3                    rust-crate                  
 glib                         2.88.0-r1                apk                         
+glib-lang                    2.88.0-r1                apk                         
 glslang-libs                 1.4.341.0-r0             apk                         
 gmp                          6.3.0-r4                 apk                         
 gnutls                       3.8.12-r0                apk                         
 graphene                     1.10.8-r5                apk                         
 graphite2                    1.3.14-r6                apk                         
 gst-plugins-base             1.28.1-r1                apk                         
+gst-plugins-base-lang        1.28.1-r1                apk                         
 gstreamer                    1.28.1-r0                apk                         
+gstreamer-lang               1.28.1-r0                apk                         
 gstreamer-ptp-helper         1.28.1-r0                apk                         
 harfbuzz                     13.2.1-r0                apk                         
 heck                         0.5.0                    rust-crate                  
@@ -109,6 +112,7 @@ ivf                          0.1.4                    rust-crate
 json-c                       0.18-r1                  apk                         
 lab                          0.11.0                   rust-crate                  
 lame-libs                    3.100-r5                 apk                         
+lang                         0.1-r2                   apk                         
 lcms2                        2.17-r0                  apk                         
 libSvtAv1Enc                 4.1.0-r0                 apk                         
 libapk                       3.0.3-r2                 apk                         
@@ -314,6 +318,8 @@ mpdecimal                    4.0.1-r0                 apk
 mpg123-libs                  1.33.4-r0                apk                         
 mtdev                        1.1.7-r0                 apk                         
 musl                         1.2.6-r2                 apk                         
+musl-locales                 0.1.0-r1                 apk                         
+musl-locales-lang            0.1.0-r1                 apk                         
 musl-utils                   1.2.5-r21                apk                         
 ncurses-terminfo-base        6.6_p20260404-r0         apk                         
 netcat-openbsd               1.234.1-r0               apk                         
@@ -346,6 +352,7 @@ profiling-procmacros         1.0.16                   rust-crate
 pugixml                      1.15-r0                  apk                         
 pulseaudio                   17.0-r7                  apk                         
 pulseaudio-alsa              17.0-r7                  apk                         
+pulseaudio-lang              17.0-r7                  apk                         
 pyc                          3.14.3-r0                apk                         
 python3                      3.14.3-r0                apk                         
 python3-pyc                  3.14.3-r0                apk                         
@@ -420,6 +427,7 @@ xf86-video-amdgpu            23.0.0-r3                apk
 xf86-video-ati               22.0.0-r3                apk                         
 xf86-video-intel             2.99.917_git20221028-r7  apk                         
 xkeyboard-config             2.46-r0                  apk                         
+xkeyboard-config-lang        2.46-r0                  apk                         
 xprop                        1.2.8-r0                 apk                         
 xset                         1.2.5-r1                 apk                         
 xvidcore                     1.3.7-r2                 apk                         
