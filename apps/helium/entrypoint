@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Helium
+helium --no-sandbox --test-type "$@"
