@@ -1,8 +1,8 @@
 NAME                            VERSION                               TYPE   
 adduser                         3.152                                 deb     
-adwaita-icon-theme              48.1-1                                deb     
 apt                             3.0.3                                 deb     
 at-spi2-common                  2.56.2-1+deb13u1                      deb     
+at-spi2-core                    2.56.2-1+deb13u1                      deb     
 base-files                      13.8+deb13u4                          deb     
 base-passwd                     3.6.7                                 deb     
 bash                            5.2.37-2+b8                           deb     
@@ -27,15 +27,15 @@ findutils                       4.10.0-3                              deb
 fontconfig                      2.15.0-2.3                            deb     
 fontconfig-config               2.15.0-2.3                            deb     
 fonts-liberation                1:2.1.5-3                             deb     
+fonts-liberation-sans-narrow    1:1.07.6-4                            deb     
 fonts-noto                      20201225-2                            deb     
 fonts-noto-core                 20201225-2                            deb     
 fonts-noto-mono                 20201225-2                            deb     
 gcc-14-base                     14.2.0-19                             deb     
-google-chrome-stable            147.0.7727.101-1                      deb     
 grep                            3.11-4                                deb     
-gtk-update-icon-cache           4.18.6+ds-2                           deb     
+gsettings-desktop-schemas       48.0-1                                deb     
 gzip                            1.13-1                                deb     
-hicolor-icon-theme              0.18-2                                deb     
+helium-bin                      0.11.2.1-1                            deb     
 hostname                        3.25                                  deb     
 init-system-helpers             1.69~deb13u1                          deb     
 iso-codes                       4.18.0-1                              deb     
@@ -73,9 +73,7 @@ libcairo2                       1.18.4-1+b1                           deb
 libcap-ng0                      0.8.5-4+b1                            deb     
 libcap2                         1:2.75-10+b8                          deb     
 libcap2-bin                     1:2.75-10+b8                          deb     
-libcloudproviders0              0.3.6-2                               deb     
 libcodec2-1.2                   1.2.0-3                               deb     
-libcolord2                      1.4.7-3                               deb     
 libcom-err2                     1.47.2-3+b10                          deb     
 libcrypt1                       1:4.4.38-1                            deb     
 libcups2t64                     2.4.10-3+deb13u2                      deb     
@@ -118,13 +116,12 @@ libglx0                         1.7.0-1+b2                            deb
 libgmp10                        2:6.3.0+dfsg-3                        deb     
 libgnutls30t64                  3.8.9-3+deb13u2                       deb     
 libgomp1                        14.2.0-19                             deb     
+libgpm2                         1.20.7-11+b2                          deb     
 libgraphite2-3                  1.3.14-2+b1                           deb     
 libgsm1                         1.0.22-1+b2                           deb     
 libgssapi-krb5-2                1.21.3-5                              deb     
 libgstreamer-plugins-base1.0-0  1.26.2-1+deb13u1                      deb     
 libgstreamer1.0-0               1.26.2-2                              deb     
-libgtk-3-0t64                   3.24.49-3                             deb     
-libgtk-3-common                 3.24.49-3                             deb     
 libharfbuzz0b                   10.2.0-1+b1                           deb     
 libhogweed6t64                  3.10.1-1                              deb     
 libhwy1t64                      1.2.0-2+b2                            deb     
@@ -232,8 +229,6 @@ libvpl2                         1:2.14.0-1+b1                         deb
 libvpx9                         1.15.0-2.1+deb13u1                    deb     
 libvulkan1                      1.4.309.0-1                           deb     
 libwayland-client0              1.23.1-3                              deb     
-libwayland-cursor0              1.23.1-3                              deb     
-libwayland-egl1                 1.23.1-3                              deb     
 libwayland-server0              1.23.1-3                              deb     
 libwebp7                        1.5.0-0.1                             deb     
 libwebpmux3                     1.5.0-0.1                             deb     
@@ -286,6 +281,7 @@ libz3-4                         4.13.3-1                              deb
 libzstd1                        1.5.7+dfsg-1                          deb     
 libzvbi-common                  0.2.44-1                              deb     
 libzvbi0t64                     0.2.44-1                              deb     
+linux-sysctl-defaults           4.12.1                                deb     
 locales-all                     2.41-12+deb13u2                       deb     
 login                           1:4.16.0-2+really2.41-5               deb     
 login.defs                      1:4.17.4-2                            deb     
@@ -303,6 +299,7 @@ openssl-provider-legacy         3.5.5-1~deb13u2                       deb
 passwd                          1:4.17.4-2                            deb     
 perl-base                       5.40.1-6                              deb     
 procps                          2:4.0.4-9                             deb     
+psmisc                          23.7-2                                deb     
 pulseaudio                      17.0+dfsg1-2+b1                       deb     
 pulseaudio-utils                17.0+dfsg1-2+b1                       deb     
 sed                             4.9-2                                 deb     
@@ -314,7 +311,6 @@ tar                             1.35+dfsg-3.1                         deb
 tzdata                          2026a-0+deb13u1                       deb     
 udev                            257.9-1~deb13u1                       deb     
 util-linux                      2.41-5                                deb     
-wget                            1.25.0-2                              deb     
 x11-common                      1:7.7+24+deb13u1                      deb     
 x11-xkb-utils                   7.7+9                                 deb     
 xdg-utils                       1.2.1-2                               deb     
