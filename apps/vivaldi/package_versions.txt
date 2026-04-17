@@ -313,7 +313,7 @@ tar                             1.35+dfsg-3.1                         deb
 tzdata                          2026a-0+deb13u1                       deb     
 udev                            257.9-1~deb13u1                       deb     
 util-linux                      2.41-5                                deb     
-vivaldi-stable                  7.9.3970.50-1                         deb     
+vivaldi-stable                  7.9.3970.55-1                         deb     
 wget                            1.25.0-2                              deb     
 x11-common                      1:7.7+24+deb13u1                      deb     
 x11-xkb-utils                   7.7+9                                 deb     

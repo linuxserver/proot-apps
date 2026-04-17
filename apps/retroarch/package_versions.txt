@@ -135,7 +135,7 @@ libeconf                     0.8.3-r0                 apk
 libelf                       0.194-r2                 apk                         
 libevdev                     1.13.6-r0                apk                         
 libexpat                     2.7.5-r0                 apk                         
-libffi                       3.5.2-r0                 apk                         
+libffi                       3.5.2-r1                 apk                         
 libflac                      1.4.3-r2                 apk                         
 libgcc                       15.2.0-r3                apk                         
 libgomp                      15.2.0-r3                apk                         

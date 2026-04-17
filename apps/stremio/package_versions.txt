@@ -287,11 +287,11 @@ libss2                              1.46.5-2ubuntu1.2                        deb
 libssh-4                            0.9.6-2ubuntu0.22.04.7                   deb     
 libssh-gcrypt-4                     0.9.6-2ubuntu0.22.04.7                   deb     
 libssl1.1                           1.1.1f-1ubuntu2.24                       deb     
-libssl3                             3.0.2-0ubuntu1.21                        deb     
+libssl3                             3.0.2-0ubuntu1.23                        deb     
 libstdc++6                          12.3.0-1ubuntu1~22.04.3                  deb     
 libswresample3                      7:4.4.2-0ubuntu0.22.04.1                 deb     
 libswscale5                         7:4.4.2-0ubuntu0.22.04.1                 deb     
-libsystemd0                         249.11-0ubuntu3.17                       deb     
+libsystemd0                         249.11-0ubuntu3.20                       deb     
 libtasn1-6                          4.18.0-4ubuntu0.2                        deb     
 libtdb1                             1.4.5-2build1                            deb     
 libthai-data                        0.1.29-1build1                           deb     
