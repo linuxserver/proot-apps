@@ -23,7 +23,7 @@ debianutils                     5.23.2                                deb
 desktop-file-utils              0.28-1                                deb     
 diffutils                       1:3.10-4                              deb     
 dpkg                            1.22.22                               deb     
-ferdium                         7.1.1                                 deb     
+ferdium                         7.1.2                                 deb     
 ferdium-recipes                 1.0.1                                 npm     
 findutils                       4.10.0-3                              deb     
 fontconfig                      2.15.0-2.3                            deb     
