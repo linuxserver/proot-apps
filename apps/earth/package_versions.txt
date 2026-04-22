@@ -143,8 +143,8 @@ libmpg123-0t64                  1.32.10-1+deb13u1                     deb
 libnettle8t64                   3.10.1-1                              deb     
 libnghttp2-14                   1.64.0-1.1                            deb     
 libnghttp3-9                    1.8.0-1                               deb     
-libngtcp2-16                    1.11.0-1                              deb     
-libngtcp2-crypto-gnutls8        1.11.0-1                              deb     
+libngtcp2-16                    1.11.0-1+deb13u1                      deb     
+libngtcp2-crypto-gnutls8        1.11.0-1+deb13u1                      deb     
 libnuma1                        2.0.19-1                              deb     
 libogg0                         1.3.5-3+b2                            deb     
 libopengl0                      1.7.0-1+b2                            deb     

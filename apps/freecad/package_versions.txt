@@ -211,8 +211,8 @@ libnetcdf22                         1:4.9.3-1                             deb
 libnettle8t64                       3.10.1-1                              deb       
 libnghttp2-14                       1.64.0-1.1                            deb       
 libnghttp3-9                        1.8.0-1                               deb       
-libngtcp2-16                        1.11.0-1                              deb       
-libngtcp2-crypto-gnutls8            1.11.0-1                              deb       
+libngtcp2-16                        1.11.0-1+deb13u1                      deb       
+libngtcp2-crypto-gnutls8            1.11.0-1+deb13u1                      deb       
 libnl-3-200                         3.7.0-2                               deb       
 libnl-route-3-200                   3.7.0-2                               deb       
 libnspr4                            2:4.36-1                              deb       

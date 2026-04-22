@@ -484,8 +484,8 @@ libpsm2-2                         11.2.185-2build1                      deb
 libpthread-stubs0-dev             0.4-1build3                           deb                     
 libpulse0                         1:16.1+dfsg1-2ubuntu10.1              deb                     
 libpython3-stdlib                 3.12.3-0ubuntu2.1                     deb                     
-libpython3.12-minimal             3.12.3-1ubuntu0.12                    deb                     
-libpython3.12-stdlib              3.12.3-1ubuntu0.12                    deb                     
+libpython3.12-minimal             3.12.3-1ubuntu0.13                    deb                     
+libpython3.12-stdlib              3.12.3-1ubuntu0.13                    deb                     
 libqhull-r8.0                     2020.2-6build1                        deb                     
 libqrencode4                      4.1.1-1build2                         deb                     
 libqt5core5t64                    5.15.13+dfsg-1ubuntu1                 deb                     
@@ -756,8 +756,8 @@ python3                           3.12.3-0ubuntu2.1                     deb
 python3-minimal                   3.12.3-0ubuntu2.1                     deb                     
 python3-packaging                 24.0-1                                deb                     
 python3-xdg                       0.28-2                                deb                     
-python3.12                        3.12.3-1ubuntu0.12                    deb                     
-python3.12-minimal                3.12.3-1ubuntu0.12                    deb                     
+python3.12                        3.12.3-1ubuntu0.13                    deb                     
+python3.12-minimal                3.12.3-1ubuntu0.13                    deb                     
 pyxdg                             0.28                                  python                  
 readline-common                   8.2-4build1                           deb                     
 rpcsvc-proto                      1.4.2-0ubuntu7                        deb                     

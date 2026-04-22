@@ -351,7 +351,7 @@ libxkbcommon                              1.12.2-r0                apk
 libxkbcommon-x11                          1.12.2-r0                apk           
 libxml2                                   2.13.9-r0                apk           
 libxmu                                    1.2.1-r0                 apk           
-libxpm                                    3.5.17-r0                apk           
+libxpm                                    3.5.19-r0                apk           
 libxrandr                                 1.5.4-r1                 apk           
 libxrender                                0.9.12-r0                apk           
 libxscrnsaver                             1.2.5-r0                 apk           

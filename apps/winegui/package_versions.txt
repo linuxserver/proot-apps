@@ -106,8 +106,8 @@ libcairo2                        1.18.0-3build1                     deb        (
 libcairomm-1.0-1v5               1.14.5-1build1                     deb                        
 libcairomm-1.16-1                1.18.0-1build1                     deb                        
 libcap-ng0                       0.8.4-2build2                      deb                        
-libcap2                          1:2.66-5ubuntu2.2                  deb        (+1 duplicate)  
-libcap2-bin                      1:2.66-5ubuntu2.2                  deb                        
+libcap2                          1:2.66-5ubuntu2.4                  deb        (+1 duplicate)  
+libcap2-bin                      1:2.66-5ubuntu2.4                  deb                        
 libcapi20-3t64                   1:3.27-3.1build1                   deb        (+1 duplicate)  
 libcdparanoia0                   3.10.2+debian-14build3             deb                        
 libcodec2-1.2                    1.2.0-2build1                      deb        (+1 duplicate)  
@@ -204,10 +204,10 @@ libgstreamer1.0-0                1.24.2-1ubuntu0.1                  deb        (
 libgtk-3-0t64                    3.24.41-4ubuntu1.3                 deb        (+1 duplicate)  
 libgtk-3-bin                     3.24.41-4ubuntu1.3                 deb                        
 libgtk-3-common                  3.24.41-4ubuntu1.3                 deb                        
-libgtk-4-1                       4.14.5+ds-0ubuntu0.9               deb                        
-libgtk-4-bin                     4.14.5+ds-0ubuntu0.9               deb                        
-libgtk-4-common                  4.14.5+ds-0ubuntu0.9               deb                        
-libgtk-4-media-gstreamer         4.14.5+ds-0ubuntu0.9               deb                        
+libgtk-4-1                       4.14.5+ds-0ubuntu0.10              deb                        
+libgtk-4-bin                     4.14.5+ds-0ubuntu0.10              deb                        
+libgtk-4-common                  4.14.5+ds-0ubuntu0.10              deb                        
+libgtk-4-media-gstreamer         4.14.5+ds-0ubuntu0.10              deb                        
 libgtkmm-3.0-1t64                3.24.9-1                           deb                        
 libgtkmm-4.0-0                   4.10.0-4build3                     deb                        
 libgudev-1.0-0                   1:238-5ubuntu1                     deb                        

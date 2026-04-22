@@ -414,8 +414,8 @@ libncursesw6                            6.5+20250216-2                          
 libnettle8t64                           3.10.1-1                                   deb                            
 libnghttp2-14                           1.64.0-1.1                                 deb                            
 libnghttp3-9                            1.8.0-1                                    deb                            
-libngtcp2-16                            1.11.0-1                                   deb                            
-libngtcp2-crypto-gnutls8                1.11.0-1                                   deb                            
+libngtcp2-16                            1.11.0-1+deb13u1                           deb                            
+libngtcp2-crypto-gnutls8                1.11.0-1+deb13u1                           deb                            
 libnspr4                                2:4.36-1                                   deb                            
 libnss3                                 2:3.110-1+deb13u1                          deb                            
 libnuma1                                2.0.19-1                                   deb                            
