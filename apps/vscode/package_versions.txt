@@ -1,7 +1,8 @@
 NAME                                        VERSION                               TYPE                    
 @anthropic-ai/sandbox-runtime               0.0.42                                npm                      
 @emnapi/runtime                             1.9.2                                 npm     (+1 duplicate)   
-@github/copilot                             1.0.24                                npm     (+1 duplicate)   
+@github/copilot                             1.0.24                                npm                      
+@github/copilot                             1.0.28                                npm                      
 @github/copilot-sdk                         0.2.2                                 npm                      
 @img/sharp-wasm32                           0.34.5                                npm     (+1 duplicate)   
 @isaacs/fs-minipass                         4.0.1                                 npm                      
@@ -21,7 +22,7 @@ NAME                                        VERSION                             
 @types/lodash                               4.17.23                               npm                      
 @types/lodash-es                            4.17.12                               npm                      
 @types/semver                               7.5.8                                 npm                      
-@vscode/codicons                            0.0.46-1                              npm                      
+@vscode/codicons                            0.0.46-5                              npm                      
 @vscode/copilot-typescript-server-plugin    1.0.0                                 npm                      
 @vscode/deviceid                            0.1.4                                 npm                      
 @vscode/fs-copyfile                         2.0.0                                 npm                      
@@ -46,7 +47,7 @@ NAME                                        VERSION                             
 @xterm/addon-webgl                          0.20.0-beta.196                       npm                      
 @xterm/headless                             6.1.0-beta.197                        npm                      
 @xterm/xterm                                6.1.0-beta.197                        npm                      
-Code                                        1.116.0                               npm                      
+Code                                        1.117.0                               npm                      
 Microsoft.PowerShell.PSReadLine             2.4.3                                 dotnet                   
 Microsoft.PowerShell.PSReadLine.Polyfiller  1.0.0.0                               dotnet  (+1 duplicate)   
 Microsoft.PowerShell.Pager                  1.0.0.0                               dotnet                   
@@ -80,14 +81,14 @@ call-bind-apply-helpers                     1.0.2                               
 chownr                                      3.0.0                                 npm                      
 chrome-remote-interface                     0.33.0                                npm                      
 clojure                                     10.0.0                                npm                      
-code                                        1.116.0-1776214182                    deb                      
+code                                        1.117.0-1776814346                    deb                      
 coffeescript                                10.0.0                                npm                      
 combined-stream                             1.0.8                                 npm                      
 commander                                   12.1.0                                npm                      
 commander                                   2.11.0                                npm                      
 commander                                   8.3.0                                 npm                      
 configuration-editing                       10.0.0                                npm                      
-copilot-chat                                0.44.0                                npm                      
+copilot-chat                                0.45.0                                npm                      
 coreutils                                   9.7-3                                 deb                      
 cpp                                         10.0.0                                npm                      
 csharp                                      10.0.0                                npm                      
@@ -143,7 +144,7 @@ extension-editing                           10.0.0                              
 fd-slicer                                   1.1.0                                 npm                      
 file-uri-to-path                            1.0.0                                 npm                      
 findutils                                   4.10.0-3                              deb                      
-follow-redirects                            1.15.11                               npm                      
+follow-redirects                            1.16.0                                npm                      
 fontconfig                                  2.15.0-2.3                            deb                      
 fontconfig-config                           2.15.0-2.3                            deb                      
 fonts-noto                                  20201225-2                            deb                      
@@ -209,7 +210,7 @@ jake                                        10.0.0                              
 java                                        10.0.0                                npm                      
 javascript                                  10.0.0                                npm                      
 js-base64                                   3.7.7                                 npm                      
-js-debug                                    1.112.0                               npm                      
+js-debug                                    1.117.0                               npm                      
 js-debug-companion                          1.1.3                                 npm                      
 jsbn                                        1.1.0                                 npm                      
 jschardet                                   3.1.4                                 npm                      
@@ -615,7 +616,7 @@ type                                        2.1.0                               
 type                                        2.7.2                                 npm                      
 typedarray-to-buffer                        3.1.5                                 npm                      
 typescript                                  10.0.0                                npm                      
-typescript                                  6.0.2                                 npm                      
+typescript                                  6.0.3                                 npm                      
 typescript-language-features                10.0.0                                npm                      
 tzdata                                      2026a-0+deb13u1                       deb                      
 udev                                        257.9-1~deb13u1                       deb                      
