@@ -435,7 +435,7 @@ qt6-qtserialport           6.11.0-r1                apk
 qt6-qtsvg                  6.11.0-r1                apk           
 qt6-qttools-libs           6.11.0-r2                apk           
 qt6-qtwebchannel           6.11.0-r0                apk           
-qt6-qtwebengine            6.11.0-r3                apk           
+qt6-qtwebengine            6.11.0-r4                apk           
 qt6-qtwebsockets-libs      6.11.0-r1                apk           
 quote                      1.0.40                   rust-crate    
 rand                       0.9.1                    rust-crate    
