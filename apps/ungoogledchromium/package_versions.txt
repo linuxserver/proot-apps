@@ -8,7 +8,7 @@ base-passwd                     3.6.7                                 deb
 bash                            5.2.37-2+b8                           deb       
 bsdutils                        1:2.41-5                              deb       
 ca-certificates                 20250419                              deb       
-chrome                          147.0.7727.101                        binary    
+chrome                          147.0.7727.116                        binary    
 coreutils                       9.7-3                                 deb       
 curl                            8.14.1-2+deb13u2                      deb       
 dash                            0.5.12-12                             deb       

@@ -76,7 +76,7 @@ ca-certificates-bundle                    20260413-r0              apk
 cairo                                     1.18.4-r0                apk           
 cairo-gobject                             1.18.4-r0                apk           
 cairocffi                                 1.7.1                    python        
-cairosvg                                  2.8.2                    python        
+cairosvg                                  2.9.0                    python        
 cdparanoia-libs                           10.2-r14                 apk           
 cffi                                      1.17.1                   python        
 cfg-if                                    1.0.0                    rust-crate    
@@ -345,8 +345,8 @@ pulseaudio-alsa                           17.0-r5                  apk
 pulseaudio-lang                           17.0-r5                  apk           
 py3-cairocffi                             1.7.1-r0                 apk           
 py3-cairocffi-pyc                         1.7.1-r0                 apk           
-py3-cairosvg                              2.8.2-r0                 apk           
-py3-cairosvg-pyc                          2.8.2-r0                 apk           
+py3-cairosvg                              2.9.0-r0                 apk           
+py3-cairosvg-pyc                          2.9.0-r0                 apk           
 py3-cffi                                  1.17.1-r1                apk           
 py3-cffi-pyc                              1.17.1-r1                apk           
 py3-cparser                               2.22-r1                  apk           
