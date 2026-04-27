@@ -308,8 +308,8 @@ py3-mako                         1.3.10-r0                apk
 py3-mako-pyc                     1.3.10-r0                apk           
 py3-markupsafe                   3.0.2-r0                 apk           
 py3-markupsafe-pyc               3.0.2-r0                 apk           
-py3-openssl                      25.3.0-r0                apk           
-py3-openssl-pyc                  25.3.0-r0                apk           
+py3-openssl                      26.1.0-r0                apk           
+py3-openssl-pyc                  26.1.0-r0                apk           
 py3-packaging                    25.0-r0                  apk           
 py3-packaging-pyc                25.0-r0                  apk           
 py3-parsing                      3.2.5-r0                 apk           
@@ -345,7 +345,7 @@ pycairo                          1.28.0                   python
 pycparser                        2.22                     python        
 pygobject                        3.54.5                   python        
 pyhamcrest                       2.1.0                    python        
-pyopenssl                        25.3.0                   python        
+pyopenssl                        26.1.0                   python        
 pyparsing                        3.2.5                    python        
 pyserial                         3.5                      python        
 python3                          3.12.13-r0               apk           

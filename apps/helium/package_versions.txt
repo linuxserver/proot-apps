@@ -35,7 +35,7 @@ gcc-14-base                     14.2.0-19                             deb
 grep                            3.11-4                                deb     
 gsettings-desktop-schemas       48.0-1                                deb     
 gzip                            1.13-1                                deb     
-helium-bin                      0.11.3.2-1                            deb     
+helium-bin                      0.11.5.1-1                            deb     
 hostname                        3.25                                  deb     
 init-system-helpers             1.69~deb13u1                          deb     
 iso-codes                       4.18.0-1                              deb     
