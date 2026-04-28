@@ -178,7 +178,8 @@ jetty-session                                                         12.1.6    
 jetty-util                                                            12.1.6                                java-archive                  
 jnidispatch                                                           UNKNOWN                               binary                        
 joni                                                                  2.2.7                                 java-archive                  
-jrt-fs                                                                21.0.10                               java-archive  (+1 duplicate)  
+jrt-fs                                                                21.0.10                               java-archive                  
+jrt-fs                                                                21.0.11                               java-archive                  
 jsch                                                                  0.1.55                                java-archive                  
 jsoup                                                                 1.14.2                                java-archive                  
 jsoup                                                                 1.22.1                                java-archive                  
@@ -511,10 +512,10 @@ ncurses-bin                                                           6.5+202502
 netcat-openbsd                                                        1.229-1                               deb                           
 ocl-icd-libopencl1                                                    2.3.3-1                               deb                           
 openjdk                                                               21.0.10                               binary                        
-openjdk-21-jdk                                                        21.0.10+7-1~deb13u1                   deb                           
-openjdk-21-jdk-headless                                               21.0.10+7-1~deb13u1                   deb                           
-openjdk-21-jre                                                        21.0.10+7-1~deb13u1                   deb                           
-openjdk-21-jre-headless                                               21.0.10+7-1~deb13u1                   deb                           
+openjdk-21-jdk                                                        21.0.11+10-1~deb13u2                  deb                           
+openjdk-21-jdk-headless                                               21.0.11+10-1~deb13u2                  deb                           
+openjdk-21-jre                                                        21.0.11+10-1~deb13u2                  deb                           
+openjdk-21-jre-headless                                               21.0.11+10-1~deb13u2                  deb                           
 openssh-client                                                        1:10.0p1-7+deb13u2                    deb                           
 openssl                                                               3.5.5-1~deb13u2                       deb                           
 openssl-provider-legacy                                               3.5.5-1~deb13u2                       deb                           

@@ -195,7 +195,7 @@ jline-terminal-jansi                    3.24.1                                  
 jline-terminal-jna                      3.24.1                                     java-archive                   
 jline-terminal-jni                      3.24.1                                     java-archive                   
 jnaerator-runtime                       UNKNOWN                                    java-archive                   
-jrt-fs                                  21.0.10                                    java-archive                   
+jrt-fs                                  21.0.11                                    java-archive                   
 jrt-fs                                  21.0.9                                     java-archive                   
 js-plain-objects-compiler-plugin        UNKNOWN                                    java-archive                   
 json                                    1.0.0                                      npm                            
@@ -632,10 +632,10 @@ noarg-compiler-plugin                   UNKNOWN                                 
 objective-c                             1.0.0                                      npm                            
 ocl-icd-libopencl1                      2.3.3-1                                    deb                            
 openjdk                                 21.0.9+10-b1038.78                         binary                         
-openjdk-21-jdk                          21.0.10+7-1~deb13u1                        deb                            
-openjdk-21-jdk-headless                 21.0.10+7-1~deb13u1                        deb                            
-openjdk-21-jre                          21.0.10+7-1~deb13u1                        deb                            
-openjdk-21-jre-headless                 21.0.10+7-1~deb13u1                        deb                            
+openjdk-21-jdk                          21.0.11+10-1~deb13u2                       deb                            
+openjdk-21-jdk-headless                 21.0.11+10-1~deb13u2                       deb                            
+openjdk-21-jre                          21.0.11+10-1~deb13u2                       deb                            
+openjdk-21-jre-headless                 21.0.11+10-1~deb13u2                       deb                            
 openssh-client                          1:10.0p1-7+deb13u2                         deb                            
 openssl                                 3.5.5-1~deb13u2                            deb                            
 openssl-provider-legacy                 3.5.5-1~deb13u2                            deb                            

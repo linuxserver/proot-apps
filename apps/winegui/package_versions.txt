@@ -238,7 +238,7 @@ libkeyutils1                     1.6.3-3build1                      deb        (
 libkmod2                         31+20240202-2ubuntu7.1             deb                        
 libkrb5-3                        1.20.1-6ubuntu2.6                  deb        (+1 duplicate)  
 libkrb5support0                  1.20.1-6ubuntu2.6                  deb        (+1 duplicate)  
-liblcms2-2                       2.14-2build1                       deb        (+1 duplicate)  
+liblcms2-2                       2.14-2ubuntu0.1                    deb        (+1 duplicate)  
 libldap-common                   2.6.10+dfsg-0ubuntu0.24.04.1       deb                        
 libldap2                         2.6.10+dfsg-0ubuntu0.24.04.1       deb        (+1 duplicate)  
 liblerc4                         4.0.0+ds-4ubuntu2                  deb                        
