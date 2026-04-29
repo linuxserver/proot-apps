@@ -52,7 +52,7 @@ crossbeam-deque            0.8.6                    rust-crate
 crossbeam-epoch            0.9.18                   rust-crate                  
 crossbeam-queue            0.3.12                   rust-crate                  
 crossbeam-utils            0.8.21                   rust-crate                  
-cups-libs                  2.4.16-r0                apk                         
+cups-libs                  2.4.18-r0                apk                         
 curl                       8.17.0-r1                apk                         
 dbus                       1.16.2-r1                apk                         
 dbus-daemon-launch-helper  1.16.2-r1                apk                         
@@ -200,7 +200,7 @@ kxmlgui-lang               6.19.0-r1                apk
 lab                        0.11.0                   rust-crate                  
 lame-libs                  3.100-r5                 apk                         
 lang                       0.1-r2                   apk                         
-lcms2                      2.17-r0                  apk                         
+lcms2                      2.19-r0                  apk                         
 lensfun                    0.3.4-r1                 apk                         
 libSvtAv1Enc               3.1.2-r0                 apk                         
 libaio                     0.3.113-r2               apk                         
@@ -228,7 +228,7 @@ libdrm                     2.4.131-r0               apk
 libeconf                   0.8.3-r0                 apk                         
 libelf                     0.194-r0                 apk                         
 libevdev                   1.13.6-r0                apk                         
-libexif                    0.6.25-r0                apk                         
+libexif                    0.6.26-r0                apk                         
 libexpat                   2.7.5-r0                 apk                         
 libffi                     3.5.2-r0                 apk                         
 libflac                    1.4.3-r2                 apk                         

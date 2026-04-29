@@ -39,10 +39,10 @@ cairo                            1.18.4-r0                apk
 cairo-gobject                    1.18.4-r0                apk           
 cdparanoia-libs                  10.2-r14                 apk           
 cfg-if                           1.0.1                    rust-crate    
-chromium                         147.0.7727.101-r0        apk           
-chromium-angle                   147.0.7727.101-r0        apk           
-chromium-common                  147.0.7727.101-r0        apk           
-chromium-lang                    147.0.7727.101-r0        apk           
+chromium                         147.0.7727.116-r0        apk           
+chromium-angle                   147.0.7727.116-r0        apk           
+chromium-common                  147.0.7727.116-r0        apk           
+chromium-lang                    147.0.7727.116-r0        apk           
 cjson                            1.7.19-r1                apk           
 clap                             4.5.40                   rust-crate    
 clap_builder                     4.5.40                   rust-crate    
@@ -58,7 +58,7 @@ crossbeam-deque                  0.8.6                    rust-crate
 crossbeam-epoch                  0.9.18                   rust-crate    
 crossbeam-queue                  0.3.12                   rust-crate    
 crossbeam-utils                  0.8.21                   rust-crate    
-cups-libs                        2.4.16-r0                apk           
+cups-libs                        2.4.18-r0                apk           
 curl                             8.17.0-r1                apk           
 dbus                             1.16.2-r1                apk           
 dbus-daemon-launch-helper        1.16.2-r1                apk           
@@ -117,7 +117,7 @@ ivf                              0.1.4                    rust-crate
 lab                              0.11.0                   rust-crate    
 lame-libs                        3.100-r5                 apk           
 lang                             0.1-r2                   apk           
-lcms2                            2.17-r0                  apk           
+lcms2                            2.19-r0                  apk           
 libSvtAv1Enc                     3.1.2-r0                 apk           
 libapk                           3.0.6-r0                 apk           
 libasyncns                       0.8-r4                   apk           

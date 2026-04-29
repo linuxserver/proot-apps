@@ -188,7 +188,7 @@ libkrb5-3                                 1.20.1-6ubuntu2.6                  deb
 libkrb5support0                           1.20.1-6ubuntu2.6                  deb     
 libksba8                                  1.6.6-1build1                      deb     
 liblapack3                                3.12.0-3build1.1                   deb     
-liblcms2-2                                2.14-2build1                       deb     
+liblcms2-2                                2.14-2ubuntu0.1                    deb     
 libldap2                                  2.6.10+dfsg-0ubuntu0.24.04.1       deb     
 liblerc4                                  4.0.0+ds-4ubuntu2                  deb     
 liblilv-0-0                               0.24.22-1build1                    deb     
@@ -431,7 +431,7 @@ ncurses-base                              6.4+20240113-1ubuntu2              deb
 ncurses-bin                               6.4+20240113-1ubuntu2              deb     
 netbase                                   6.4                                deb     
 netcat-openbsd                            1.226-1ubuntu2                     deb     
-obs-studio                                32.1.1-0obsproject1~noble          deb     
+obs-studio                                32.1.2-0obsproject1~noble          deb     
 ocl-icd-libopencl1                        2.3.2-1build1                      deb     
 openssl                                   3.0.13-0ubuntu3.9                  deb     
 passwd                                    1:4.13+dfsg1-4ubuntu3.2            deb     

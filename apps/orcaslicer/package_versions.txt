@@ -335,7 +335,7 @@ libkrb5-3                         1.20.1-6ubuntu2.6                     deb
 libkrb5support0                   1.20.1-6ubuntu2.6                     deb                     
 liblapack3                        3.12.0-3build1.1                      deb                     
 liblc3-1                          1.0.4-3build1                         deb                     
-liblcms2-2                        2.14-2build1                          deb                     
+liblcms2-2                        2.14-2ubuntu0.1                       deb                     
 libldacbt-enc2                    2.0.2.3+git20200429+ed310a0-4ubuntu2  deb                     
 libldap2                          2.6.10+dfsg-0ubuntu0.24.04.1          deb                     
 liblept5                          1.82.0-3build4                        deb                     

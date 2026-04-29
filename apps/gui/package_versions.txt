@@ -28,7 +28,7 @@ cairo-gobject               1.18.4-r0                apk
 cdparanoia-libs             10.2-r14                 apk       
 certifi                     2025.11.12               python    
 charset-normalizer          3.4.4                    python    
-cups-libs                   2.4.16-r0                apk       
+cups-libs                   2.4.18-r0                apk       
 curl                        8.17.0-r1                apk       
 dbus                        1.16.2-r1                apk       
 dbus-daemon-launch-helper   1.16.2-r1                apk       
@@ -83,7 +83,7 @@ iso-codes                   4.19.0-r0                apk
 iso-codes-lang              4.19.0-r0                apk       
 lame-libs                   3.100-r5                 apk       
 lang                        0.1-r2                   apk       
-lcms2                       2.17-r0                  apk       
+lcms2                       2.19-r0                  apk       
 libSvtAv1Enc                3.1.2-r0                 apk       
 libadwaita                  1.8.4-r0                 apk       
 libadwaita-lang             1.8.4-r0                 apk       
@@ -231,8 +231,8 @@ py3-gobject3                3.54.5-r0                apk
 py3-gobject3-pyc            3.54.5-r0                apk       
 py3-idna                    3.11-r0                  apk       
 py3-idna-pyc                3.11-r0                  apk       
-py3-requests                2.32.5-r0                apk       
-py3-requests-pyc            2.32.5-r0                apk       
+py3-requests                2.33.1-r0                apk       
+py3-requests-pyc            2.33.1-r0                apk       
 py3-urllib3                 2.6.3-r0                 apk       
 py3-urllib3-pyc             2.6.3-r0                 apk       
 py3-yaml                    6.0.3-r0                 apk       
@@ -244,7 +244,7 @@ python3-pyc                 3.12.13-r0               apk
 python3-pycache-pyc0        3.12.13-r0               apk       
 pyyaml                      6.0.3                    python    
 readline                    8.3.1-r0                 apk       
-requests                    2.32.5                   python    
+requests                    2.33.1                   python    
 sbc                         2.1-r0                   apk       
 scanelf                     1.3.8-r2                 apk       
 shared-mime-info            2.4-r6                   apk       

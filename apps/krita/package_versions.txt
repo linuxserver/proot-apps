@@ -20,7 +20,7 @@ ca-certificates-bundle     20260413-r0              apk
 cairo                      1.18.4-r0                apk     
 cairo-gobject              1.18.4-r0                apk     
 cdparanoia-libs            10.2-r14                 apk     
-cups-libs                  2.4.16-r0                apk     
+cups-libs                  2.4.18-r0                apk     
 curl                       8.17.0-r1                apk     
 dbus                       1.16.2-r1                apk     
 dbus-daemon-launch-helper  1.16.2-r1                apk     
@@ -88,8 +88,8 @@ kwindowsystem5             5.116.0-r0               apk
 kwindowsystem5-lang        5.116.0-r0               apk     
 lame-libs                  3.100-r5                 apk     
 lang                       0.1-r2                   apk     
-lcms2                      2.17-r0                  apk     
-lcms2-plugins              2.17-r0                  apk     
+lcms2                      2.19-r0                  apk     
+lcms2-plugins              2.19-r0                  apk     
 libapk                     3.0.6-r0                 apk     
 libasyncns                 0.8-r4                   apk     
 libatk-1.0                 2.58.3-r0                apk     

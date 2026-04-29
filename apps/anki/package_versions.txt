@@ -58,7 +58,7 @@ crossbeam-deque                    0.8.6                    rust-crate
 crossbeam-epoch                    0.9.18                   rust-crate    
 crossbeam-queue                    0.3.12                   rust-crate    
 crossbeam-utils                    0.8.21                   rust-crate    
-cups-libs                          2.4.16-r0                apk           
+cups-libs                          2.4.18-r0                apk           
 curl                               8.17.0-r1                apk           
 dbus                               1.16.2-r1                apk           
 dbus-daemon-launch-helper          1.16.2-r1                apk           
@@ -122,7 +122,7 @@ jsonschema-specifications          2025.9.1                 python
 lab                                0.11.0                   rust-crate    
 lame-libs                          3.100-r5                 apk           
 lang                               0.1-r2                   apk           
-lcms2                              2.17-r0                  apk           
+lcms2                              2.19-r0                  apk           
 libSvtAv1Enc                       3.1.2-r0                 apk           
 libapk                             3.0.6-r0                 apk           
 libasyncns                         0.8-r4                   apk           
@@ -328,8 +328,8 @@ py3-qt6                            6.9.1-r0                 apk
 py3-qt6-pyc                        6.9.1-r0                 apk           
 py3-referencing                    0.37.0-r0                apk           
 py3-referencing-pyc                0.37.0-r0                apk           
-py3-requests                       2.32.5-r0                apk           
-py3-requests-pyc                   2.32.5-r0                apk           
+py3-requests                       2.33.1-r0                apk           
+py3-requests-pyc                   2.33.1-r0                apk           
 py3-rpds-py                        0.30.0-r0                apk           
 py3-rpds-py-pyc                    0.30.0-r0                apk           
 py3-send2trash                     1.8.3-r1                 apk           
@@ -378,7 +378,7 @@ rayon                              1.10.0                   rust-crate
 rayon-core                         1.12.1                   rust-crate    
 readline                           8.3.1-r0                 apk           
 referencing                        0.37.0                   python        
-requests                           2.32.5                   python        
+requests                           2.33.1                   python        
 rpds-py                            0.30.0                   python        
 rustix                             1.0.7                    rust-crate    
 scan_fmt                           0.2.6                    rust-crate    
