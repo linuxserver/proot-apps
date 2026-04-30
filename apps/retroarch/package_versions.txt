@@ -404,7 +404,7 @@ thiserror-impl               1.0.69                   rust-crate
 thiserror-impl               2.0.12                   rust-crate                  
 tinyvec                      1.9.0                    rust-crate                  
 tslib                        1.24-r0                  apk                         
-tzdata                       2026a-r0                 apk                         
+tzdata                       2026b-r0                 apk                         
 unicode-ident                1.0.18                   rust-crate                  
 unicode-width                0.2.1                    rust-crate                  
 utf8parse                    0.2.2                    rust-crate                  

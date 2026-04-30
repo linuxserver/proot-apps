@@ -150,7 +150,7 @@ musl-utils                 1.2.5-r23                apk
 ncurses-terminfo-base      6.5_p20251123-r0         apk       
 netcat-openbsd             1.234.1-r0               apk       
 nettle                     3.10.2-r0                apk       
-nghttp2-libs               1.68.0-r0                apk       
+nghttp2-libs               1.69.0-r0                apk       
 nghttp3                    1.13.1-r0                apk       
 opus                       1.5.2-r1                 apk       
 orc                        0.4.41-r0                apk       
@@ -196,7 +196,7 @@ xkeyboard-config           2.46-r0                  apk
 xkeyboard-config-lang      2.46-r0                  apk       
 xprop                      1.2.8-r0                 apk       
 xset                       1.2.5-r1                 apk       
-xz-libs                    5.8.2-r0                 apk       
+xz-libs                    5.8.3-r0                 apk       
 zim                        0.76.3                   python    
 zim                        0.76.3-r1                apk       
 zim-lang                   0.76.3-r1                apk       

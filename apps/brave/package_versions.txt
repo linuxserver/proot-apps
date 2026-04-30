@@ -6,7 +6,7 @@ at-spi2-common                  2.56.2-1+deb13u1                      deb
 base-files                      13.8+deb13u4                          deb     
 base-passwd                     3.6.7                                 deb     
 bash                            5.2.37-2+b8                           deb     
-brave-browser                   1.89.143                              deb     
+brave-browser                   1.89.145                              deb     
 brave-keyring                   1.19                                  deb     
 bsdutils                        1:2.41-5                              deb     
 ca-certificates                 20250419                              deb     
