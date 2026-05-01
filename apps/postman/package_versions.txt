@@ -1,7 +1,7 @@
 NAME                            VERSION                               TYPE     
 @electron/remote                2.1.3                                 npm       
 @postman/protobufjs             7.5.4-postman.2                       npm       
-Postman                         12.8.3                                npm       
+Postman                         12.8.4                                npm       
 adduser                         3.152                                 deb       
 adwaita-icon-theme              48.1-1                                deb       
 apt                             3.0.3                                 deb       
@@ -348,7 +348,7 @@ libz3-4                         4.13.3-1                              deb
 libzstd1                        1.5.7+dfsg-1                          deb       
 libzvbi-common                  0.2.44-1                              deb       
 libzvbi0t64                     0.2.44-1                              deb       
-linux-libc-dev                  6.12.74-2                             deb       
+linux-libc-dev                  6.12.85-1                             deb       
 locales-all                     2.41-12+deb13u2                       deb       
 login                           1:4.16.0-2+really2.41-5               deb       
 login.defs                      1:4.17.4-2                            deb       
