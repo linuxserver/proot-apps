@@ -159,7 +159,7 @@ libjson-glib-1.0-0                  1.6.6-1build1                            deb
 libjson-glib-1.0-common             1.6.6-1build1                            deb     
 libk5crypto3                        1.19.2-2ubuntu0.7                        deb     
 libkeyutils1                        1.6.1-2ubuntu3                           deb     
-libkmod2                            29-1ubuntu1                              deb     
+libkmod2                            29-1ubuntu1.1                            deb     
 libkrb5-3                           1.19.2-2ubuntu0.7                        deb     
 libkrb5support0                     1.19.2-2ubuntu0.7                        deb     
 liblapack3                          3.10.0-2ubuntu1                          deb     

@@ -235,7 +235,7 @@ libjson-glib-1.0-common          1.8.0-2build2                      deb
 libjxl0.7                        0.7.0-10.2ubuntu6.1                deb                        
 libk5crypto3                     1.20.1-6ubuntu2.6                  deb        (+1 duplicate)  
 libkeyutils1                     1.6.3-3build1                      deb        (+1 duplicate)  
-libkmod2                         31+20240202-2ubuntu7.1             deb                        
+libkmod2                         31+20240202-2ubuntu7.2             deb                        
 libkrb5-3                        1.20.1-6ubuntu2.6                  deb        (+1 duplicate)  
 libkrb5support0                  1.20.1-6ubuntu2.6                  deb        (+1 duplicate)  
 liblcms2-2                       2.14-2ubuntu0.1                    deb        (+1 duplicate)  
