@@ -67,7 +67,7 @@ ffmpeg-libavcodec          8.1-r1                   apk
 ffmpeg-libavutil           8.1-r1                   apk           
 ffmpeg-libswresample       8.1-r1                   apk           
 fftw-single-libs           3.3.10-r7                apk           
-file                       5.47-r1                  apk           
+file                       5.47-r2                  apk           
 firefox                    150.0-r0                 apk           
 font-noto                  2026.05.01-r0            apk           
 font-noto-common           2026.05.01-r0            apk           
@@ -142,7 +142,7 @@ libintl                    1.0-r0                   apk
 libjpeg-turbo              3.1.3-r0                 apk           
 libjxl                     0.11.2-r0                apk           
 libltdl                    2.6.0-r1                 apk           
-libmagic                   5.47-r1                  apk           
+libmagic                   5.47-r2                  apk           
 libmd                      1.1.0-r0                 apk           
 libmount                   2.41.4-r0                apk           
 libncursesw                6.6_p20260404-r0         apk           
