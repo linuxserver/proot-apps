@@ -257,7 +257,7 @@ libssh                       0.12.0-r0                apk
 libssl3                      3.5.5-r0                 apk                         
 libstdc++                    15.2.0-r3                apk                         
 libtasn1                     4.21.0-r0                apk                         
-libtheora                    1.2.0-r0                 apk                         
+libtheora                    1.2.0-r1                 apk                         
 libudfread                   1.2.0-r1                 apk                         
 libunibreak                  6.1-r0                   apk                         
 libunistring                 1.4.2-r0                 apk                         
@@ -273,7 +273,7 @@ libwebp                      1.6.0-r0                 apk
 libwebpmux                   1.6.0-r0                 apk                         
 libx11                       1.8.13-r0                apk                         
 libxau                       1.0.12-r0                apk                         
-libxcb                       1.17.0-r1                apk                         
+libxcb                       1.17.0-r2                apk                         
 libxcursor                   1.2.3-r0                 apk                         
 libxdamage                   1.1.7-r0                 apk                         
 libxdmcp                     1.1.5-r1                 apk                         
@@ -318,7 +318,7 @@ mesa-vulkan-swrast           26.0.6-r0                apk
 minimal-lexical              0.2.1                    rust-crate                  
 miniupnpc                    2.3.3-r2                 apk                         
 mpdecimal                    4.0.1-r0                 apk                         
-mpg123-libs                  1.33.4-r0                apk                         
+mpg123-libs                  1.33.5-r0                apk                         
 mtdev                        1.1.7-r0                 apk                         
 musl                         1.2.6-r2                 apk                         
 musl-locales                 0.1.0-r1                 apk                         
@@ -345,7 +345,7 @@ p11-kit                      0.25.5-r2                apk
 pango                        1.57.1-r0                apk                         
 paste                        1.0.15                   rust-crate                  
 pastey                       0.1.0                    rust-crate                  
-pcre2                        10.47-r0                 apk                         
+pcre2                        10.47-r1                 apk                         
 pixman                       0.46.4-r0                apk                         
 pkgconf                      2.5.1-r0                 apk                         
 ppv-lite86                   0.2.21                   rust-crate                  
@@ -380,7 +380,7 @@ rustix                       1.0.7                    rust-crate
 scan_fmt                     0.2.6                    rust-crate                  
 scanelf                      1.3.9-r0                 apk                         
 sdl2-compat                  2.32.68-r0               apk                         
-sdl3                         3.4.4-r0                 apk                         
+sdl3                         3.4.8-r0                 apk                         
 serd-libs                    0.32.8-r0                apk                         
 shaderc                      2026.1-r0                apk                         
 signal-hook                  0.3.18                   rust-crate                  

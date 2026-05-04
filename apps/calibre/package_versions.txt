@@ -229,7 +229,7 @@ libssl3                    3.5.5-r0                 apk
 libstdc++                  15.2.0-r3                apk           
 libstemmer                 2.2.0-r0                 apk           
 libtasn1                   4.21.0-r0                apk           
-libtheora                  1.2.0-r0                 apk           
+libtheora                  1.2.0-r1                 apk           
 libturbojpeg               3.1.3-r0                 apk           
 libudfread                 1.2.0-r1                 apk           
 libunistring               1.4.2-r0                 apk           
@@ -248,7 +248,7 @@ libwmf                     0.2.13-r1                apk
 libwmflite                 0.2.13-r1                apk           
 libx11                     1.8.13-r0                apk           
 libxau                     1.0.12-r0                apk           
-libxcb                     1.17.0-r1                apk           
+libxcb                     1.17.0-r2                apk           
 libxcursor                 1.2.3-r0                 apk           
 libxdamage                 1.1.7-r0                 apk           
 libxdmcp                   1.1.5-r1                 apk           
@@ -296,7 +296,7 @@ minimal-lexical            0.2.1                    rust-crate
 minizip                    1.3.2-r1                 apk           
 mpdecimal                  4.0.1-r0                 apk           
 mpfr4                      4.2.2-r0                 apk           
-mpg123-libs                1.33.4-r0                apk           
+mpg123-libs                1.33.5-r0                apk           
 msgpack                    1.1.2                    python        
 mtdev                      1.1.7-r0                 apk           
 musl                       1.2.6-r2                 apk           
@@ -334,7 +334,7 @@ parted                     3.6-r2                   apk
 paste                      1.0.15                   rust-crate    
 pastey                     0.1.0                    rust-crate    
 pcaudiolib                 1.3-r0                   apk           
-pcre2                      10.47-r0                 apk           
+pcre2                      10.47-r1                 apk           
 pillow                     12.2.0                   python        
 pinentry                   1.3.2-r0                 apk           
 pixman                     0.46.4-r0                apk           

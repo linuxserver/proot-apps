@@ -160,7 +160,7 @@ libsndfile                 1.2.2-r2                 apk
 libssl3                    3.5.5-r0                 apk           
 libstdc++                  15.2.0-r3                apk           
 libtasn1                   4.21.0-r0                apk           
-libtheora                  1.2.0-r0                 apk           
+libtheora                  1.2.0-r1                 apk           
 libunistring               1.4.2-r0                 apk           
 libuuid                    2.41.4-r0                apk           
 libva                      2.23.0-r0                apk           
@@ -174,7 +174,7 @@ libwebpdemux               1.6.0-r0                 apk
 libwebpmux                 1.6.0-r0                 apk           
 libx11                     1.8.13-r0                apk           
 libxau                     1.0.12-r0                apk           
-libxcb                     1.17.0-r1                apk           
+libxcb                     1.17.0-r2                apk           
 libxcomposite              0.4.7-r0                 apk           
 libxcursor                 1.2.3-r0                 apk           
 libxdamage                 1.1.7-r0                 apk           
@@ -213,7 +213,7 @@ mesa-vulkan-layers         26.0.6-r0                apk
 mesa-vulkan-swrast         26.0.6-r0                apk           
 minimal-lexical            0.2.1                    rust-crate    
 mpdecimal                  4.0.1-r0                 apk           
-mpg123-libs                1.33.4-r0                apk           
+mpg123-libs                1.33.5-r0                apk           
 musl                       1.2.6-r2                 apk           
 musl-locales               0.1.0-r1                 apk           
 musl-locales-lang          0.1.0-r1                 apk           
@@ -242,7 +242,7 @@ pango                      1.57.1-r0                apk
 paste                      1.0.15                   rust-crate    
 pastey                     0.1.0                    rust-crate    
 pciutils-libs              3.15.0-r0                apk           
-pcre2                      10.47-r0                 apk           
+pcre2                      10.47-r1                 apk           
 pixman                     0.46.4-r0                apk           
 pkgconf                    2.5.1-r0                 apk           
 ppv-lite86                 0.2.21                   rust-crate    
