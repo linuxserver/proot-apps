@@ -256,7 +256,7 @@ libmspack0t64                    0.11-1.1build1                     deb
 libncurses6                      6.4+20240113-1ubuntu2              deb        (+1 duplicate)  
 libncursesw6                     6.4+20240113-1ubuntu2              deb                        
 libnettle8t64                    3.9.1-2.2build1.1                  deb        (+1 duplicate)  
-libnghttp2-14                    1.59.0-1ubuntu0.2                  deb        (+1 duplicate)  
+libnghttp2-14                    1.59.0-1ubuntu0.3                  deb        (+1 duplicate)  
 libnl-3-200                      3.7.0-0.3build1.1                  deb                        
 libnl-route-3-200                3.7.0-0.3build1.1                  deb                        
 libnpth0t64                      1.6-3.1build1                      deb                        
