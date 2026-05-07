@@ -16,7 +16,7 @@ RUN \
     brave-origin-nightly && \
   echo "**** customize desktop file ****" && \
   sed -i \
-    -e "/^Exec=/c Exec=/bin/sh -c \"\$HOME\/.local\/bin\/proot-apps run ghcr.io/${REPO}:chromium %U\"" \
+    -e "/^Exec=/c Exec=/bin/sh -c \"\$HOME\/.local\/bin\/proot-apps run ghcr.io/${REPO}:braveorigin %U\"" \
     -e "s/Name=Brave Origin (nightly)/Name=Brave Origin PA/g" \
     -e '/^TryExec=/d' \
     /usr/share/applications/brave-origin-nightly.desktop && \
