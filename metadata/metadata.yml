@@ -40,6 +40,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: brave.svg
     description: "Brave is a free and open-source web browser developed by Brave Software, Inc. based on the Chromium web browser. Brave is a privacy-focused browser, which automatically blocks most advertisements and website trackers in its default settings."
+  - name: braveorigin
+    full_name: Brave Origin
+    arch: linux/amd64,linux/arm64
+    icon: braveorigin.svg
+    description: "Brave Origin is a minimalist version of Brave that allows users to disable the revenue-generating features that otherwise support Brave as a business."
   - name: calibre
     full_name: Calibre
     arch: linux/amd64,linux/arm64

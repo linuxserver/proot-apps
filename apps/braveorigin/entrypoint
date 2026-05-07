@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start brave origin
+brave-origin --no-sandbox --test-type "$@"
