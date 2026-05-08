@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+  <style type="text/css">
+    .st0{fill:#F47F62;}
+    .st1{fill:#BF5248;}
+    .st2{fill:#FBC4AF;}
+    .st3{fill:none;}
+    .st4{fill:#822826;}
+  </style>
+  <g transform="matrix(1.7655 0 0 1.7655 -363.87 -361.93)">
+    <polygon class="st0" points="496.1 297.4 387.5 360.1 441.8 391.4 496.1 422.8" fill="#f47f62"/>
+    <polygon class="st1" points="496.1 422.8 441.8 391.4 387.5 360.1 387.5 485.5" fill="#bf5248"/>
+    <polygon class="st2" points="387.5 360.1 496.1 297.4 387.5 234.7 350.2 256.2 350.2 338.5" fill="#fbc4af"/>
+    <polygon class="st0" points="350.2 338.5 350.2 338.5 278.9 379.7 278.9 422.8 387.5 485.5 387.5 360.1" fill="#f47f62"/>
+    <polygon class="st0" points="278.9 297.4 350.2 338.5 350.2 256.2" fill="#f47f62"/>
+    <polygon class="st1" points="350.2 338.5 350.2 338.5 278.9 297.4 278.9 379.7" fill="#bf5248"/>
+    <polygon class="st3" points="206.1 255.7 241.7 276.2 241.7 276.3 241.8 276.3" fill="none"/>
+    <polygon class="st0" points="313 235.2 277.3 214.5 206.1 255.7 241.8 276.3" fill="#f47f62"/>
+    <polygon class="st1" points="241.7 276.3 241.7 276.2 206.1 255.7 206.1 337.9 241.7 358.5" fill="#bf5248"/>
+    <polygon class="st4" points="241.7 358.5 206.1 255.7 206.1 337.9" fill="#822826"/>
+  </g>
+</svg>
