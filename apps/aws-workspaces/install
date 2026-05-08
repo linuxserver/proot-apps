@@ -2,14 +2,10 @@
 
 ## Desktop and icons install ##
 echo "Adding icon"
-mkdir -p $HOME/.local/share/icons/hicolor/256x256/apps/
-mkdir -p $HOME/.local/share/icons/hicolor/48x48/apps/
+mkdir -p $HOME/.local/share/icons/hicolor/scalable/apps/
 cp \
-  /usr/share/icons/hicolor/256x256/apps/com.amazon.workspacesclient.png \
-  $HOME/.local/share/icons/hicolor/256x256/apps/aws-workspaces.png
-cp \
-  /usr/share/icons/hicolor/48x48/apps/com.amazon.workspacesclient.png \
-  $HOME/.local/share/icons/hicolor/48x48/apps/aws-workspaces.png
+  /usr/share/icons/hicolor/symbolic/apps/com.amazon.workspacesclient-symbolic.svg \
+  $HOME/.local/share/icons/hicolor/scalable/apps/com.amazon.workspacesclient.svg
 echo "Adding start menu entry"
 mkdir -p $HOME/.local/share/applications/
 cp \

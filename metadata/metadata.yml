@@ -23,7 +23,7 @@ include:
   - name: aws-workspaces
     full_name: AWS WorkSpaces Client
     arch: linux/amd64
-    icon: aws-workspaces.png
+    icon: aws-workspaces.svg
     description: "AWS WorkSpaces client for connecting to Amazon WorkSpaces virtual desktops."
   - name: beekeeperstudio
     full_name: Beekeeper Studio
