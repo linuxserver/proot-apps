@@ -6,6 +6,8 @@ at-spi2-common                  2.56.2-1+deb13u1                      deb
 base-files                      13.8+deb13u4                          deb     
 base-passwd                     3.6.7                                 deb     
 bash                            5.2.37-2+b8                           deb     
+brave-keyring                   1.20                                  deb     
+brave-origin-nightly            1.92.34                               deb     
 bsdutils                        1:2.41-5                              deb     
 ca-certificates                 20250419                              deb     
 coreutils                       9.7-3                                 deb     
@@ -26,6 +28,7 @@ dpkg                            1.22.22                               deb
 findutils                       4.10.0-3                              deb     
 fontconfig                      2.15.0-2.3                            deb     
 fontconfig-config               2.15.0-2.3                            deb     
+fonts-liberation                1:2.1.5-3                             deb     
 fonts-noto                      20201225-2                            deb     
 fonts-noto-core                 20201225-2                            deb     
 fonts-noto-mono                 20201225-2                            deb     
@@ -154,7 +157,6 @@ libncursesw6                    6.5+20250216-2                        deb
 libnettle8t64                   3.10.1-1                              deb     
 libnghttp2-14                   1.64.0-1.1                            deb     
 libnghttp3-9                    1.8.0-1                               deb     
-libnotify4                      0.8.6-1                               deb     
 libnspr4                        2:4.36-1                              deb     
 libnss3                         2:3.110-1+deb13u1                     deb     
 libnuma1                        2.0.19-1                              deb     
@@ -306,7 +308,6 @@ pulseaudio                      17.0+dfsg1-2+b1                       deb
 pulseaudio-utils                17.0+dfsg1-2+b1                       deb     
 sed                             4.9-2                                 deb     
 shared-mime-info                2.4-5+b2                              deb     
-signal-desktop                  8.9.0                                 deb     
 sqv                             1.3.0-3+b2                            deb     
 systemd                         257.9-1~deb13u1                       deb     
 sysvinit-utils                  3.14-4                                deb     
@@ -314,6 +315,7 @@ tar                             1.35+dfsg-3.1                         deb
 tzdata                          2026a-0+deb13u1                       deb     
 udev                            257.9-1~deb13u1                       deb     
 util-linux                      2.41-5                                deb     
+wget                            1.25.0-2                              deb     
 x11-common                      1:7.7+24+deb13u1                      deb     
 x11-xkb-utils                   7.7+9                                 deb     
 xdg-utils                       1.2.1-2                               deb     

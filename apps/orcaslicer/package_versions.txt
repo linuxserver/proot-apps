@@ -467,8 +467,8 @@ libpixman-1-0                     0.42.2-1build1                        deb
 libpkgconf3                       1.8.1-2build1                         deb                     
 libplacebo338                     6.338.2-2build1                       deb                     
 libpmix2t64                       5.0.1-4.1build1                       deb                     
-libpng-dev                        1.6.43-5ubuntu0.5                     deb                     
-libpng16-16t64                    1.6.43-5ubuntu0.5                     deb                     
+libpng-dev                        1.6.43-5ubuntu0.6                     deb                     
+libpng16-16t64                    1.6.43-5ubuntu0.6                     deb                     
 libpocketsphinx3                  0.8.0+real5prealpha+1-15ubuntu5       deb                     
 libpoppler134                     24.02.0-1ubuntu9.8                    deb                     
 libpostproc57                     7:6.1.1-3ubuntu5                      deb                     
