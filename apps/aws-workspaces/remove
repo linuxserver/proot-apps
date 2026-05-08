@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Removing icon"
+rm -f $HOME/.local/share/icons/hicolor/256x256/apps/aws-workspaces.png
+rm -f $HOME/.local/share/icons/hicolor/48x48/apps/aws-workspaces.png
+echo "Removing start menu entry"
+rm -f $HOME/.local/share/applications/aws-workspaces-pa.desktop
+echo "Removing desktop shortcut"
+rm -f $HOME/Desktop/aws-workspaces-pa.desktop

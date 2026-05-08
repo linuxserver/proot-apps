@@ -1,0 +1,23 @@
+#!/bin/bash
+
+## Desktop and icons install ##
+echo "Adding icon"
+mkdir -p $HOME/.local/share/icons/hicolor/256x256/apps/
+mkdir -p $HOME/.local/share/icons/hicolor/48x48/apps/
+cp \
+  /usr/share/icons/hicolor/256x256/apps/com.amazon.workspacesclient.png \
+  $HOME/.local/share/icons/hicolor/256x256/apps/aws-workspaces.png
+cp \
+  /usr/share/icons/hicolor/48x48/apps/com.amazon.workspacesclient.png \
+  $HOME/.local/share/icons/hicolor/48x48/apps/aws-workspaces.png
+echo "Adding start menu entry"
+mkdir -p $HOME/.local/share/applications/
+cp \
+  /usr/share/applications/aws-workspaces-pa.desktop \
+  $HOME/.local/share/applications/
+echo "Adding desktop shortcut"
+mkdir -p $HOME/Desktop
+cp \
+  /usr/share/applications/aws-workspaces-pa.desktop \
+  $HOME/Desktop/
+chmod +x $HOME/Desktop/aws-workspaces-pa.desktop

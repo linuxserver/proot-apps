@@ -20,6 +20,11 @@ include:
     arch: linux/amd64
     icon: audacity.svg
     description: "Audacity is an easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source."
+  - name: aws-workspaces
+    full_name: AWS WorkSpaces Client
+    arch: linux/amd64
+    icon: aws-workspaces.png
+    description: "AWS WorkSpaces client for connecting to Amazon WorkSpaces virtual desktops."
   - name: beekeeperstudio
     full_name: Beekeeper Studio
     arch: linux/amd64
