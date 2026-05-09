@@ -124,7 +124,7 @@ libcrypto3                 3.5.5-r0                 apk
 libcurl                    8.20.0-r0                apk           
 libdav1d                   1.5.3-r0                 apk           
 libdisplay-info            0.3.0-r0                 apk           
-libdrm                     2.4.131-r0               apk           
+libdrm                     2.4.133-r0               apk           
 libeconf                   0.8.3-r0                 apk           
 libelf                     0.195-r0                 apk           
 libepoxy                   1.5.10-r1                apk           

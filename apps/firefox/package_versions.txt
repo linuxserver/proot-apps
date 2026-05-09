@@ -68,7 +68,7 @@ ffmpeg-libavutil           8.1.1-r0                 apk
 ffmpeg-libswresample       8.1.1-r0                 apk           
 fftw-single-libs           3.3.11-r0                apk           
 file                       5.47-r2                  apk           
-firefox                    150.0-r0                 apk           
+firefox                    150.0.2-r0               apk           
 font-noto                  2026.05.01-r0            apk           
 font-noto-common           2026.05.01-r0            apk           
 font-noto-math             2026.05.01-r0            apk           
@@ -124,7 +124,7 @@ libcrypto3                 3.5.5-r0                 apk
 libcurl                    8.20.0-r0                apk           
 libdav1d                   1.5.3-r0                 apk           
 libdisplay-info            0.3.0-r0                 apk           
-libdrm                     2.4.131-r0               apk           
+libdrm                     2.4.133-r0               apk           
 libeconf                   0.8.3-r0                 apk           
 libelf                     0.195-r0                 apk           
 libepoxy                   1.5.10-r1                apk           

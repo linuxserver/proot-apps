@@ -437,7 +437,7 @@ libopenexr-dev                    3.1.5-5.1build3                       deb
 libopengl-dev                     1.7.0-1build1                         deb                     
 libopengl0                        1.7.0-1build1                         deb                     
 libopenh264-7                     2.4.1+dfsg-1                          deb                     
-libopenjp2-7                      2.5.0-2ubuntu0.4                      deb                     
+libopenjp2-7                      2.5.0-2ubuntu0.5                      deb                     
 libopenmpi3t64                    4.1.6-7ubuntu2                        deb                     
 libopenmpt0t64                    0.7.3-1.1build3                       deb                     
 libopenni2-0                      2.2.0.33+dfsg-18                      deb                     
