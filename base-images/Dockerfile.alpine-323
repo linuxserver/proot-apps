@@ -12,13 +12,17 @@ RUN \
     curl \
     dbus-x11 \
     font-noto \
+    gcc \
     lang \
+    linux-headers \
+    make \
     mesa-dri-gallium \
     mesa-gles \
     mesa-va-gallium \
     mesa-vulkan-ati \
     mesa-vulkan-layers \
     mesa-vulkan-swrast \
+    musl-dev \
     netcat-openbsd \
     pulseaudio \
     xdg-utils \
@@ -36,6 +40,27 @@ RUN \
     "https://raw.githubusercontent.com/${REPO}/bins/xdg-open/xdg-open" && \
   chmod +x /usr/bin/xdg-open && \
   update-desktop-database && \
+  echo "**** install selkies interposer ****" && \
+  curl -o \
+    /tmp/selkies.tar.gz -L \
+    "https://github.com/selkies-project/selkies/archive/lsio.tar.gz" && \
+  cd /tmp && \
+  tar xf selkies.tar.gz && \
+  cd selkies-* && \
+  cd addons/js-interposer && \
+  gcc -shared -fPIC -ldl \
+    -o selkies_joystick_interposer.so \
+    joystick_interposer.c && \
+  mv \
+    selkies_joystick_interposer.so \
+    /usr/lib/selkies_joystick_interposer.so && \
+  echo "**** install selkies fake udev ****" && \
+  cd ../fake-udev && \
+  make && \
+  mkdir /opt/lib && \
+  mv \
+    libudev.so.1.0.0-fake \
+    /opt/lib/ && \
   echo "**** cleanup ****" && \
   apk del --purge \
     build-dependencies && \

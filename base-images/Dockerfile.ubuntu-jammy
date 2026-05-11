@@ -12,7 +12,10 @@ RUN \
     dbus-x11 \
     desktop-file-utils \
     fonts-noto \
+    gcc \
+    libc6-dev \
     libvulkan1 \
+    make \
     mesa-va-drivers \
     mesa-vulkan-drivers \
     netcat-openbsd \
@@ -31,6 +34,27 @@ RUN \
     "https://raw.githubusercontent.com/${REPO}/bins/xdg-open/xdg-open" && \
   chmod +x /usr/bin/xdg-open && \
   update-desktop-database && \
+  echo "**** install selkies interposer ****" && \
+  curl -o \
+    /tmp/selkies.tar.gz -L \
+    "https://github.com/selkies-project/selkies/archive/lsio.tar.gz" && \
+  cd /tmp && \
+  tar xf selkies.tar.gz && \
+  cd selkies-* && \
+  cd addons/js-interposer && \
+  gcc -shared -fPIC -ldl \
+    -o selkies_joystick_interposer.so \
+    joystick_interposer.c && \
+  mv \
+    selkies_joystick_interposer.so \
+    /usr/lib/selkies_joystick_interposer.so && \
+  echo "**** install selkies fake udev ****" && \
+  cd ../fake-udev && \
+  make && \
+  mkdir /opt/lib && \
+  mv \
+    libudev.so.1.0.0-fake \
+    /opt/lib/ && \
   echo "**** cleanup ****" && \
   apt-get remove -y \
     desktop-file-utils && \
