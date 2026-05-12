@@ -20,6 +20,7 @@ at-spi2-core-lang               2.58.3-r0                apk
 at-spi2-core-libs               2.58.3-r0                apk                           
 avahi-libs                      0.8-r23                  apk                           
 bash                            5.3.3-r1                 apk                           
+binutils                        2.45.1-r0                apk                           
 boost1.84-iostreams             1.84.0-r3                apk                           
 boost1.84-locale                1.84.0-r3                apk                           
 boost1.84-program_options       1.84.0-r3                apk                           
@@ -67,6 +68,7 @@ fontconfig                      2.17.1-r0                apk
 form                            UNKNOWN                  java-archive                  
 freetype                        2.14.1-r0                apk                           
 fribidi                         1.0.16-r2                apk                           
+gcc                             15.2.0-r2                apk                           
 gdbm                            1.26-r0                  apk                           
 gdk-pixbuf                      2.44.4-r0                apk                           
 gdk-pixbuf-lang                 2.44.4-r0                apk                           
@@ -109,9 +111,11 @@ hyphen                          2.8.8-r3                 apk
 icu-data-en                     76.1-r1                  apk                           
 icu-libs                        76.1-r1                  apk                           
 imath                           3.1.12-r0                apk                           
+isl26                           0.26-r1                  apk                           
 iso-codes                       4.19.0-r0                apk                           
 iso-codes-lang                  4.19.0-r0                apk                           
 jaccess                         UNKNOWN                  java-archive                  
+jansson                         2.14.1-r0                apk                           
 java-cacerts                    1.1-r0                   apk                           
 java-common                     1.0-r1                   apk                           
 java_uno                        UNKNOWN                  java-archive                  
@@ -136,6 +140,7 @@ libassuan                       3.0.2-r0                 apk
 libasyncns                      0.8-r4                   apk                           
 libatk-1.0                      2.58.3-r0                apk                           
 libatk-bridge-2.0               2.58.3-r0                apk                           
+libatomic                       15.2.0-r2                apk                           
 libb2                           0.98.1-r3                apk                           
 libbase                         1.1.6                    java-archive                  
 libblkid                        2.41.4-r0                apk                           
@@ -282,9 +287,11 @@ libxvmc                         1.0.14-r1                apk
 libxxf86vm                      1.1.7-r0                 apk                           
 libzbar                         0.23.93-r1               apk                           
 libzmf                          0.0.2-r20                apk                           
+linux-headers                   6.16.12-r0               apk                           
 llvm21-libs                     21.1.2-r1                apk                           
 local_policy                    UNKNOWN                  java-archive  (+1 duplicate)  
 localedata                      UNKNOWN                  java-archive                  
+make                            4.4.1-r3                 apk                           
 management-agent                UNKNOWN                  java-archive                  
 mariadb-connector-c             3.4.6-r0                 apk                           
 mesa                            25.2.7-r1                apk                           
@@ -299,10 +306,13 @@ mesa-vulkan-intel               25.2.7-r1                apk
 mesa-vulkan-layers              25.2.7-r1                apk                           
 mesa-vulkan-swrast              25.2.7-r1                apk                           
 mkfontscale                     1.2.3-r1                 apk                           
+mpc1                            1.3.1-r1                 apk                           
 mpdecimal                       4.0.1-r0                 apk                           
+mpfr4                           4.2.2-r0                 apk                           
 mpg123-libs                     1.33.3-r0                apk                           
 mtdev                           1.1.7-r0                 apk                           
 musl                            1.2.5-r23                apk                           
+musl-dev                        1.2.5-r23                apk                           
 musl-locales                    0.1.0-r1                 apk                           
 musl-locales-lang               0.1.0-r1                 apk                           
 musl-utils                      1.2.5-r23                apk                           
