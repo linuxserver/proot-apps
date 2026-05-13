@@ -96,9 +96,9 @@ libatspi2.0-0                   2.44.0-3                                 deb
 libattr1                        1:2.5.1-1build1                          deb       
 libaudit-common                 1:3.0.7-1build1                          deb       
 libaudit1                       1:3.0.7-1build1                          deb       
-libavahi-client3                0.8-5ubuntu5.4                           deb       
-libavahi-common-data            0.8-5ubuntu5.4                           deb       
-libavahi-common3                0.8-5ubuntu5.4                           deb       
+libavahi-client3                0.8-5ubuntu5.5                           deb       
+libavahi-common-data            0.8-5ubuntu5.5                           deb       
+libavahi-common3                0.8-5ubuntu5.5                           deb       
 libavc1394-0                    0.5.4-5build2                            deb       
 libbinutils                     2.38-4ubuntu2.12                         deb       
 libblkid1                       2.37.2-4ubuntu3.5                        deb       

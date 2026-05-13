@@ -42,7 +42,7 @@ gcc-14                          14.2.0-19                             deb
 gcc-14-base                     14.2.0-19                             deb     
 gcc-14-x86-64-linux-gnu         14.2.0-19                             deb     
 gcc-x86-64-linux-gnu            4:14.2.0-1                            deb     
-google-chrome-stable            148.0.7778.96-1                       deb     
+google-chrome-stable            148.0.7778.167-1                      deb     
 grep                            3.11-4                                deb     
 gtk-update-icon-cache           4.18.6+ds-2                           deb     
 gzip                            1.13-1                                deb     
