@@ -11,7 +11,7 @@ binutils-common                 2.44-3                                deb
 binutils-x86-64-linux-gnu       2.44-3                                deb       
 bsdutils                        1:2.41-5                              deb       
 ca-certificates                 20250419                              deb       
-chrome                          148.0.7778.96                         binary    
+chrome                          148.0.7778.167                        binary    
 coreutils                       9.7-3                                 deb       
 cpp                             4:14.2.0-1                            deb       
 cpp-14                          14.2.0-19                             deb       
