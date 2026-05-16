@@ -74,10 +74,10 @@ ffmpeg-libavformat         8.0.1-r1                 apk
 ffmpeg-libavutil           8.0.1-r1                 apk                         
 ffmpeg-libswresample       8.0.1-r1                 apk                         
 ffmpeg-libswscale          8.0.1-r1                 apk                         
-ffmpeg7-libavcodec         7.1.2-r4                 apk                         
-ffmpeg7-libavformat        7.1.2-r4                 apk                         
-ffmpeg7-libavutil          7.1.2-r4                 apk                         
-ffmpeg7-libswresample      7.1.2-r4                 apk                         
+ffmpeg7-libavcodec         7.1.3-r0                 apk                         
+ffmpeg7-libavformat        7.1.3-r0                 apk                         
+ffmpeg7-libavutil          7.1.3-r0                 apk                         
+ffmpeg7-libswresample      7.1.3-r0                 apk                         
 fftw-double-libs           3.3.10-r7                apk                         
 fftw-single-libs           3.3.10-r7                apk                         
 file                       5.46-r2                  apk                         

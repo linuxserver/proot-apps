@@ -72,8 +72,8 @@ libaudit1                       1:4.0.2-2+b2                          deb
 libavahi-client3                0.8-16                                deb     
 libavahi-common-data            0.8-16                                deb     
 libavahi-common3                0.8-16                                deb     
-libavcodec61                    7:7.1.3-0+deb13u1                     deb     
-libavutil59                     7:7.1.3-0+deb13u1                     deb     
+libavcodec61                    7:7.1.4-0+deb13u1                     deb     
+libavutil59                     7:7.1.4-0+deb13u1                     deb     
 libayatana-appindicator3-1      0.5.94-1                              deb     
 libayatana-ido3-0.4-0           0.10.4-1                              deb     
 libayatana-indicator3-7         0.9.4-1+b1                            deb     
@@ -193,7 +193,7 @@ libmpfr6                        4.2.2-1                               deb
 libmpg123-0t64                  1.32.10-1+deb13u1                     deb     
 libncursesw6                    6.5+20250216-2                        deb     
 libnettle8t64                   3.10.1-1                              deb     
-libnghttp2-14                   1.64.0-1.1                            deb     
+libnghttp2-14                   1.64.0-1.1+deb13u1                    deb     
 libnghttp3-9                    1.8.0-1                               deb     
 libnotify4                      0.8.6-1                               deb     
 libnspr4                        2:4.36-1                              deb     
@@ -251,7 +251,7 @@ libssh2-1t64                    1.11.1-1                              deb
 libssl3t64                      3.5.5-1~deb13u2                       deb     
 libstdc++6                      14.2.0-19                             deb     
 libsvtav1enc2                   2.3.0+dfsg-1                          deb     
-libswresample5                  7:7.1.3-0+deb13u1                     deb     
+libswresample5                  7:7.1.4-0+deb13u1                     deb     
 libsystemd-shared               257.9-1~deb13u1                       deb     
 libsystemd0                     257.9-1~deb13u1                       deb     
 libtasn1-6                      4.20.0-2                              deb     

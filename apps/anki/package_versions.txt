@@ -81,7 +81,7 @@ ffmpeg-libswresample               8.0.1-r1                 apk
 ffmpeg-libswscale                  8.0.1-r1                 apk           
 fftw-single-libs                   3.3.10-r7                apk           
 file                               5.46-r2                  apk           
-flask                              3.1.2                    python        
+flask                              3.1.3                    python        
 flask-cors                         4.0.0                    python        
 font-noto                          2025.12.01-r0            apk           
 font-noto-common                   2025.12.01-r0            apk           
@@ -308,10 +308,10 @@ py3-distro                         1.9.0-r2                 apk
 py3-distro-pyc                     1.9.0-r2                 apk           
 py3-dotenv                         1.0.1-r1                 apk           
 py3-dotenv-pyc                     1.0.1-r1                 apk           
-py3-flask                          3.1.2-r0                 apk           
+py3-flask                          3.1.3-r0                 apk           
 py3-flask-cors                     4.0.0-r1                 apk           
 py3-flask-cors-pyc                 4.0.0-r1                 apk           
-py3-flask-pyc                      3.1.2-r0                 apk           
+py3-flask-pyc                      3.1.3-r0                 apk           
 py3-idna                           3.11-r0                  apk           
 py3-idna-pyc                       3.11-r0                  apk           
 py3-itsdangerous                   2.2.0-r0                 apk           
