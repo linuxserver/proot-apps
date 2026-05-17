@@ -40,10 +40,10 @@ cairo                            1.18.4-r0                apk
 cairo-gobject                    1.18.4-r0                apk           
 cdparanoia-libs                  10.2-r14                 apk           
 cfg-if                           1.0.1                    rust-crate    
-chromium                         148.0.7778.96-r0         apk           
-chromium-angle                   148.0.7778.96-r0         apk           
-chromium-common                  148.0.7778.96-r0         apk           
-chromium-lang                    148.0.7778.96-r0         apk           
+chromium                         148.0.7778.167-r0        apk           
+chromium-angle                   148.0.7778.167-r0        apk           
+chromium-common                  148.0.7778.167-r0        apk           
+chromium-lang                    148.0.7778.167-r0        apk           
 cjson                            1.7.19-r1                apk           
 clap                             4.5.40                   rust-crate    
 clap_builder                     4.5.40                   rust-crate    
@@ -60,7 +60,7 @@ crossbeam-epoch                  0.9.18                   rust-crate
 crossbeam-queue                  0.3.12                   rust-crate    
 crossbeam-utils                  0.8.21                   rust-crate    
 cups-libs                        2.4.18-r0                apk           
-curl                             8.17.0-r1                apk           
+curl                             8.19.0-r0                apk           
 dbus                             1.16.2-r1                apk           
 dbus-daemon-launch-helper        1.16.2-r1                apk           
 dbus-libs                        1.16.2-r1                apk           
@@ -137,7 +137,7 @@ libcamera                        0.6.0-r0                 apk
 libcamera-ipa                    0.6.0-r0                 apk           
 libcap2                          2.78-r0                  apk           
 libcrypto3                       3.5.6-r0                 apk           
-libcurl                          8.17.0-r1                apk           
+libcurl                          8.19.0-r0                apk           
 libdav1d                         1.5.2-r0                 apk           
 libdrm                           2.4.131-r0               apk           
 libeconf                         0.8.3-r0                 apk           
@@ -255,7 +255,6 @@ netcat-openbsd                   1.234.1-r0               apk
 nettle                           3.10.2-r0                apk           
 new_debug_unreachable            1.0.6                    rust-crate    
 nghttp2-libs                     1.69.0-r0                apk           
-nghttp3                          1.13.1-r0                apk           
 nom                              7.1.3                    rust-crate    
 nom                              8.0.0                    rust-crate    
 noop_proc_macro                  0.3.0                    rust-crate    

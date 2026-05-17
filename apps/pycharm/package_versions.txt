@@ -77,7 +77,7 @@ cpp-14-x86-64-linux-gnu                 14.2.0-19                             de
 cpp-x86-64-linux-gnu                    4:14.2.0-1                            deb                            
 csharp                                  1.0.0                                 npm                            
 css                                     1.0.0                                 npm                            
-curl                                    8.14.1-2+deb13u2                      deb                            
+curl                                    8.14.1-2+deb13u3                      deb                            
 currdata                                77.1                                  java-archive                   
 dart                                    1.0.0                                 npm                            
 dash                                    0.5.12-12                             deb                            
@@ -241,8 +241,8 @@ libcrypt-dev                            1:4.4.38-1                            de
 libcrypt1                               1:4.4.38-1                            deb                            
 libctf-nobfd0                           2.44-3                                deb                            
 libctf0                                 2.44-3                                deb                            
-libcurl3t64-gnutls                      8.14.1-2+deb13u2                      deb                            
-libcurl4t64                             8.14.1-2+deb13u2                      deb                            
+libcurl3t64-gnutls                      8.14.1-2+deb13u3                      deb                            
+libcurl4t64                             8.14.1-2+deb13u3                      deb                            
 libdatrie1                              0.2.13-3+b1                           deb                            
 libdav1d7                               1.5.1-1                               deb                            
 libdb5.3t64                             5.3.28+dfsg2-9                        deb                            
@@ -337,7 +337,7 @@ libngtcp2-16                            1.11.0-1+deb13u1                      de
 libngtcp2-crypto-gnutls8                1.11.0-1+deb13u1                      deb                            
 libnuma1                                2.0.19-1                              deb                            
 libogg0                                 1.3.5-3+b2                            deb                            
-libopenjp2-7                            2.5.3-2.1~deb13u1                     deb                            
+libopenjp2-7                            2.5.3-2.1~deb13u2                     deb                            
 libopus0                                1.5.2-2                               deb                            
 liborc-0.4-0t64                         1:0.4.41-1                            deb                            
 libp11-kit0                             0.25.5-3                              deb                            
@@ -358,10 +358,10 @@ libpulse0                               17.0+dfsg1-2+b1                       de
 libpulsedsp                             17.0+dfsg1-2+b1                       deb                            
 libpython3-dev                          3.13.5-1                              deb                            
 libpython3-stdlib                       3.13.5-1                              deb                            
-libpython3.13                           3.13.5-2                              deb                            
-libpython3.13-dev                       3.13.5-2                              deb                            
-libpython3.13-minimal                   3.13.5-2                              deb                            
-libpython3.13-stdlib                    3.13.5-2                              deb                            
+libpython3.13                           3.13.5-2+deb13u2                      deb                            
+libpython3.13-dev                       3.13.5-2+deb13u2                      deb                            
+libpython3.13-minimal                   3.13.5-2+deb13u2                      deb                            
+libpython3.13-stdlib                    3.13.5-2+deb13u2                      deb                            
 libquadmath0                            14.2.0-19                             deb                            
 librav1e0.7                             0.7.1-9+b2                            deb                            
 libreadline8t64                         8.2-6                                 deb                            
@@ -470,7 +470,7 @@ libz3-4                                 4.13.3-1                              de
 libzstd1                                1.5.7+dfsg-1                          deb                            
 libzvbi-common                          0.2.44-1                              deb                            
 libzvbi0t64                             0.2.44-1                              deb                            
-linux-libc-dev                          6.12.86-1                             deb                            
+linux-libc-dev                          6.12.88-1                             deb                            
 lite                                    UNKNOWN                               java-archive                   
 locales-all                             2.41-12+deb13u2                       deb                            
 log                                     1.0.0                                 npm                            
@@ -510,7 +510,7 @@ netcat-openbsd                          1.229-1                               de
 objective-c                             1.0.0                                 npm                            
 ocl-icd-libopencl1                      2.3.3-1                               deb                            
 openjdk                                 21.0.8+9-b1163.69                     binary                         
-openssh-client                          1:10.0p1-7+deb13u2                    deb                            
+openssh-client                          1:10.0p1-7+deb13u4                    deb                            
 openssl                                 3.5.5-1~deb13u2                       deb                            
 openssl-provider-legacy                 3.5.5-1~deb13u2                       deb                            
 org.eclipse.xtext.xbase.lib             2.40.0                                java-archive                   
@@ -548,9 +548,9 @@ python3-platformdirs                    4.3.7-1                               de
 python3-setuptools-whl                  78.1.1-0.1                            deb                            
 python3-virtualenv                      20.31.2+ds-1                          deb                            
 python3-wheel                           0.46.1-2                              deb                            
-python3.13                              3.13.5-2                              deb                            
-python3.13-dev                          3.13.5-2                              deb                            
-python3.13-minimal                      3.13.5-2                              deb                            
+python3.13                              3.13.5-2+deb13u2                      deb                            
+python3.13-dev                          3.13.5-2+deb13u2                      deb                            
+python3.13-minimal                      3.13.5-2+deb13u2                      deb                            
 quiche-jna-stubs                        UNKNOWN                               java-archive                   
 r                                       1.0.0                                 npm                            
 razor                                   1.0.0                                 npm                            

@@ -130,7 +130,7 @@ cpp-x86-64-linux-gnu                    4:14.2.0-1                              
 cron-utils                              9.2.1                                      java-archive                   
 csharp                                  1.0.0                                      npm                            
 css                                     1.0.0                                      npm                            
-curl                                    8.14.1-2+deb13u2                           deb                            
+curl                                    8.14.1-2+deb13u3                           deb                            
 currdata                                77.1                                       java-archive                   
 customNs                                UNKNOWN                                    java-archive                   
 dart                                    1.0.0                                      npm                            
@@ -400,8 +400,8 @@ libcrypt1                               1:4.4.38-1                              
 libctf-nobfd0                           2.44-3                                     deb                            
 libctf0                                 2.44-3                                     deb                            
 libcups2t64                             2.4.10-3+deb13u2                           deb                            
-libcurl3t64-gnutls                      8.14.1-2+deb13u2                           deb                            
-libcurl4t64                             8.14.1-2+deb13u2                           deb                            
+libcurl3t64-gnutls                      8.14.1-2+deb13u3                           deb                            
+libcurl4t64                             8.14.1-2+deb13u3                           deb                            
 libdatrie1                              0.2.13-3+b1                                deb                            
 libdav1d7                               1.5.1-1                                    deb                            
 libdb5.3t64                             5.3.28+dfsg2-9                             deb                            
@@ -498,7 +498,7 @@ libnspr4                                2:4.36-1                                
 libnss3                                 2:3.110-1+deb13u1                          deb                            
 libnuma1                                2.0.19-1                                   deb                            
 libogg0                                 1.3.5-3+b2                                 deb                            
-libopenjp2-7                            2.5.3-2.1~deb13u1                          deb                            
+libopenjp2-7                            2.5.3-2.1~deb13u2                          deb                            
 libopus0                                1.5.2-2                                    deb                            
 liborc-0.4-0t64                         1:0.4.41-1                                 deb                            
 libp11-kit0                             0.25.5-3                                   deb                            
@@ -630,7 +630,7 @@ libz3-4                                 4.13.3-1                                
 libzstd1                                1.5.7+dfsg-1                               deb                            
 libzvbi-common                          0.2.44-1                                   deb                            
 libzvbi0t64                             0.2.44-1                                   deb                            
-linux-libc-dev                          6.12.86-1                                  deb                            
+linux-libc-dev                          6.12.88-1                                  deb                            
 liquibase-core                          4.23.2                                     java-archive                   
 listenablefuture                        9999.0-empty-to-avoid-conflict-with-guava  java-archive                   
 locales-all                             2.41-12+deb13u2                            deb                            
@@ -735,7 +735,7 @@ openjdk-21-jdk                          21.0.11+10-1~deb13u2                    
 openjdk-21-jdk-headless                 21.0.11+10-1~deb13u2                       deb                            
 openjdk-21-jre                          21.0.11+10-1~deb13u2                       deb                            
 openjdk-21-jre-headless                 21.0.11+10-1~deb13u2                       deb                            
-openssh-client                          1:10.0p1-7+deb13u2                         deb                            
+openssh-client                          1:10.0p1-7+deb13u4                         deb                            
 openssl                                 3.5.5-1~deb13u2                            deb                            
 openssl-provider-legacy                 3.5.5-1~deb13u2                            deb                            
 org.eclipse.sisu.inject                 0.9.0.M4                                   java-archive                   
