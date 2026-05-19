@@ -214,7 +214,7 @@ libmtp                     1.1.22-r1                apk
 libncursesw                6.6_p20260502-r0         apk           
 libnvme                    1.16.1-r1                apk           
 libogg                     1.3.6-r0                 apk           
-libopenmpt                 0.8.6-r0                 apk           
+libopenmpt                 0.8.7-r0                 apk           
 libpanelw                  6.6_p20260502-r0         apk           
 libpciaccess               0.19-r0                  apk           
 libpcre2-16                10.47-r1                 apk           
@@ -334,7 +334,7 @@ numactl                    2.0.19-r0                apk
 once_cell                  1.18.0                   rust-crate    
 once_cell                  1.21.3                   rust-crate    
 openjpeg                   2.5.4-r1                 apk           
-optipng                    7.9.1-r0                 apk           
+optipng                    7.9.1-r1                 apk           
 opus                       1.6.1-r0                 apk           
 orc                        0.4.41-r0                apk           
 p11-kit                    0.25.5-r2                apk           
