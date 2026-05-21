@@ -8,9 +8,9 @@ apt                               3.0.3                                 deb
 async                             0.2.10                                npm     
 at-spi2-common                    2.56.2-1+deb13u1                      deb     
 balanced-match                    1.0.0                                 npm     
-base-files                        13.8+deb13u4                          deb     
+base-files                        13.8+deb13u5                          deb     
 base-passwd                       3.6.7                                 deb     
-bash                              5.2.37-2+b8                           deb     
+bash                              5.2.37-2+b9                           deb     
 binutils                          2.44-3                                deb     
 binutils-common                   2.44-3                                deb     
 binutils-x86-64-linux-gnu         2.44-3                                deb     
@@ -169,7 +169,7 @@ libglvnd0                         1.7.0-1+b2                            deb
 libglx-mesa0                      25.0.7-2                              deb     
 libglx0                           1.7.0-1+b2                            deb     
 libgmp10                          2:6.3.0+dfsg-3                        deb     
-libgnutls30t64                    3.8.9-3+deb13u3                       deb     
+libgnutls30t64                    3.8.9-3+deb13u4                       deb     
 libgomp1                          14.2.0-19                             deb     
 libgpg-error0                     1.51-4                                deb     
 libgprofng0                       2.44-3                                deb     
@@ -400,7 +400,7 @@ rimraf                            3.0.2                                 npm
 rpcsvc-proto                      1.4.3-1                               deb     
 run-script-os                     1.1.6                                 npm     
 russh                             0.1.37+0.60.1                         npm     
-sed                               4.9-2                                 deb     
+sed                               4.9-2+deb13u1                         deb     
 shared-mime-info                  2.4-5+b2                              deb     
 simple-app                        0.1.0                                 npm     
 simple-app-subdir                 0.1.0                                 npm     
@@ -427,7 +427,7 @@ tar                               1.35+dfsg-3.1                         deb
 term-size                         1.2.0                                 npm     
 tmp                               0.2.1                                 npm     
 tmp-promise                       3.0.3                                 npm     
-tzdata                            2026a-0+deb13u1                       deb     
+tzdata                            2026b-0+deb13u1                       deb     
 udev                              257.13-1~deb13u1                      deb     
 util-linux                        2.41-5                                deb     
 winston                           0.8.3                                 npm     

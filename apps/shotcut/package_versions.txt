@@ -1,9 +1,9 @@
 NAME                                 VERSION                               TYPE   
 adduser                              3.152                                 deb     
 apt                                  3.0.3                                 deb     
-base-files                           13.8+deb13u4                          deb     
+base-files                           13.8+deb13u5                          deb     
 base-passwd                          3.6.7                                 deb     
-bash                                 5.2.37-2+b8                           deb     
+bash                                 5.2.37-2+b9                           deb     
 binutils                             2.44-3                                deb     
 binutils-common                      2.44-3                                deb     
 binutils-x86-64-linux-gnu            2.44-3                                deb     
@@ -179,7 +179,7 @@ libglx-mesa0                         25.0.7-2                              deb
 libglx0                              1.7.0-1+b2                            deb     
 libgme0                              0.6.3-7+b2                            deb     
 libgmp10                             2:6.3.0+dfsg-3                        deb     
-libgnutls30t64                       3.8.9-3+deb13u3                       deb     
+libgnutls30t64                       3.8.9-3+deb13u4                       deb     
 libgomp1                             14.2.0-19                             deb     
 libgpg-error0                        1.51-4                                deb     
 libgpgme11t64                        1.24.2-3                              deb     
@@ -579,7 +579,7 @@ qml6-module-qtquick-virtualkeyboard  6.8.2+dfsg-3                          deb
 qml6-module-qtquick-window           6.8.2+dfsg-7                          deb     
 readline-common                      8.2-6                                 deb     
 rpcsvc-proto                         1.4.3-1                               deb     
-sed                                  4.9-2                                 deb     
+sed                                  4.9-2+deb13u1                         deb     
 shared-mime-info                     2.4-5+b2                              deb     
 shotcut                              25.03.29+ds-1                         deb     
 shotcut-data                         25.03.29+ds-1                         deb     
@@ -588,7 +588,7 @@ systemd                              257.13-1~deb13u1                      deb
 sysvinit-utils                       3.14-4                                deb     
 tar                                  1.35+dfsg-3.1                         deb     
 three                                0.111.0                               npm     
-tzdata                               2026a-0+deb13u1                       deb     
+tzdata                               2026b-0+deb13u1                       deb     
 udev                                 257.13-1~deb13u1                      deb     
 unixodbc-common                      2.3.12-2                              deb     
 util-linux                           2.41-5                                deb     

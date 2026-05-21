@@ -50,10 +50,10 @@ asynckit                                    0.4.0                               
 at-spi2-common                              2.56.2-1+deb13u1                      deb                      
 await-semaphore                             0.1.3                                 npm                      
 axios                                       1.15.0                                npm                      
-base-files                                  13.8+deb13u4                          deb                      
+base-files                                  13.8+deb13u5                          deb                      
 base-passwd                                 3.6.7                                 deb                      
 base64-js                                   1.5.1                                 npm                      
-bash                                        5.2.37-2+b8                           deb                      
+bash                                        5.2.37-2+b9                           deb                      
 bat                                         10.0.0                                npm                      
 bcrypt-pbkdf                                1.0.2                                 npm                      
 bindings                                    1.5.0                                 npm                      
@@ -305,7 +305,7 @@ libglvnd0                                   1.7.0-1+b2                          
 libglx-mesa0                                25.0.7-2                              deb                      
 libglx0                                     1.7.0-1+b2                            deb                      
 libgmp10                                    2:6.3.0+dfsg-3                        deb                      
-libgnutls30t64                              3.8.9-3+deb13u3                       deb                      
+libgnutls30t64                              3.8.9-3+deb13u4                       deb                      
 libgomp1                                    14.2.0-19                             deb                      
 libgprofng0                                 2.44-3                                deb                      
 libgraphite2-3                              1.3.14-2+b1                           deb                      
@@ -575,7 +575,7 @@ safe-buffer                                 5.1.2                               
 safer-buffer                                2.1.2                                 npm                      
 scss                                        10.0.0                                npm                      
 search-result                               10.0.0                                npm                      
-sed                                         4.9-2                                 deb                      
+sed                                         4.9-2+deb13u1                         deb                      
 semver                                      7.7.4                                 npm                      
 shaderlab                                   10.0.0                                npm                      
 shared-mime-info                            2.4-5+b2                              deb                      
@@ -621,7 +621,7 @@ typedarray-to-buffer                        3.1.5                               
 typescript                                  10.0.0                                npm                      
 typescript                                  6.0.2                                 npm                      
 typescript-language-features                10.0.0                                npm                      
-tzdata                                      2026a-0+deb13u1                       deb                      
+tzdata                                      2026b-0+deb13u1                       deb                      
 udev                                        257.13-1~deb13u1                      deb                      
 undici                                      7.24.4                                npm                      
 universalify                                2.0.1                                 npm                      

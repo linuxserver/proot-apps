@@ -13,9 +13,9 @@ asm-commons                                             9.2                     
 asm-tree                                                9.2                                                                           java-archive                    
 at-spi2-common                                          2.56.2-1+deb13u1                                                              deb                             
 automation                                              1.0-SNAPSHOT                                                                  java-archive                    
-base-files                                              13.8+deb13u4                                                                  deb                             
+base-files                                              13.8+deb13u5                                                                  deb                             
 base-passwd                                             3.6.7                                                                         deb                             
-bash                                                    5.2.37-2+b8                                                                   deb                             
+bash                                                    5.2.37-2+b9                                                                   deb                             
 batik-anim                                              1.14                                                                          java-archive                    
 batik-anim                                              1.17                                                                          java-archive                    
 batik-awt-util                                          1.14                                                                          java-archive                    
@@ -337,7 +337,7 @@ libglvnd0                                               1.7.0-1+b2              
 libglx-mesa0                                            25.0.7-2                                                                      deb                             
 libglx0                                                 1.7.0-1+b2                                                                    deb                             
 libgmp10                                                2:6.3.0+dfsg-3                                                                deb                             
-libgnutls30t64                                          3.8.9-3+deb13u3                                                               deb                             
+libgnutls30t64                                          3.8.9-3+deb13u4                                                               deb                             
 libgomp1                                                14.2.0-19                                                                     deb                             
 libgprofng0                                             2.44-3                                                                        deb                             
 libgraphite2-3                                          1.3.14-2+b1                                                                   deb                             
@@ -744,7 +744,7 @@ runregistry                                             1.0-SNAPSHOT            
 runviews                                                1.0-SNAPSHOT                                                                  java-archive                    
 satelliteview                                           1.0-SNAPSHOT                                                                  java-archive                    
 scribejava-core                                         5.3.0                                                                         java-archive                    
-sed                                                     4.9-2                                                                         deb                             
+sed                                                     4.9-2+deb13u1                                                                 deb                             
 seeds-api                                               1.0-SNAPSHOT                                                                  java-archive                    
 seeds-ui                                                1.0-SNAPSHOT                                                                  java-archive                    
 serializers                                             1.0-SNAPSHOT                                                                  java-archive                    
@@ -796,7 +796,7 @@ txw2                                                    2.2.11                  
 typing                                                  1.0-SNAPSHOT                                                                  java-archive                    
 typing-descriptor                                       1.0-SNAPSHOT                                                                  java-archive                    
 typing-editing                                          1.0-SNAPSHOT                                                                  java-archive                    
-tzdata                                                  2026a-0+deb13u1                                                               deb                             
+tzdata                                                  2026b-0+deb13u1                                                               deb                             
 udev                                                    257.13-1~deb13u1                                                              deb                             
 ui-graph                                                1.0-SNAPSHOT                                                                  java-archive                    
 undertow-core                                           2.2.39.Final                                                                  java-archive                    

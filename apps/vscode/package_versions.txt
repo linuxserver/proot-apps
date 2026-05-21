@@ -20,7 +20,7 @@ NAME                                        VERSION                             
 @pondwader/socks5-server                    1.0.10                                npm                      
 @tootallnate/once                           3.0.1                                 npm                      
 @types/semver                               7.5.8                                 npm                      
-@vscode/codicons                            0.0.46-6                              npm                      
+@vscode/codicons                            0.0.46-10                             npm                      
 @vscode/copilot-api                         0.3.00                                npm                      
 @vscode/copilot-typescript-server-plugin    1.0.0                                 npm                      
 @vscode/deviceid                            0.1.4                                 npm                      
@@ -47,7 +47,7 @@ NAME                                        VERSION                             
 @xterm/addon-webgl                          0.20.0-beta.212                       npm                      
 @xterm/headless                             6.1.0-beta.213                        npm                      
 @xterm/xterm                                6.1.0-beta.213                        npm                      
-Code                                        1.120.0                               npm                      
+Code                                        1.121.0                               npm                      
 Microsoft.PowerShell.PSReadLine             2.4.3                                 dotnet                   
 Microsoft.PowerShell.PSReadLine.Polyfiller  1.0.0.0                               dotnet  (+1 duplicate)   
 Microsoft.PowerShell.Pager                  1.0.0.0                               dotnet                   
@@ -60,10 +60,10 @@ asynckit                                    0.4.0                               
 at-spi2-common                              2.56.2-1+deb13u1                      deb                      
 await-semaphore                             0.1.3                                 npm                      
 axios                                       1.16.0                                npm                      
-base-files                                  13.8+deb13u4                          deb                      
+base-files                                  13.8+deb13u5                          deb                      
 base-passwd                                 3.6.7                                 deb                      
 base64-js                                   1.5.1                                 npm                      
-bash                                        5.2.37-2+b8                           deb                      
+bash                                        5.2.37-2+b9                           deb                      
 bat                                         10.0.0                                npm                      
 bcrypt-pbkdf                                1.0.2                                 npm                      
 bindings                                    1.5.0                                 npm                      
@@ -84,14 +84,14 @@ call-bind-apply-helpers                     1.0.2                               
 chownr                                      3.0.0                                 npm                      
 chrome-remote-interface                     0.33.0                                npm                      
 clojure                                     10.0.0                                npm                      
-code                                        1.120.0-1778619059                    deb                      
+code                                        1.121.0-1779186519                    deb                      
 coffeescript                                10.0.0                                npm                      
 combined-stream                             1.0.8                                 npm                      
 commander                                   12.1.0                                npm                      
 commander                                   2.11.0                                npm                      
 commander                                   8.3.0                                 npm                      
 configuration-editing                       10.0.0                                npm                      
-copilot-chat                                0.48.0                                npm                      
+copilot-chat                                0.49.0                                npm                      
 coreutils                                   9.7-3                                 deb                      
 cpp                                         10.0.0                                npm                      
 cpp                                         4:14.2.0-1                            deb                      
@@ -327,7 +327,7 @@ libglvnd0                                   1.7.0-1+b2                          
 libglx-mesa0                                25.0.7-2                              deb                      
 libglx0                                     1.7.0-1+b2                            deb                      
 libgmp10                                    2:6.3.0+dfsg-3                        deb                      
-libgnutls30t64                              3.8.9-3+deb13u3                       deb                      
+libgnutls30t64                              3.8.9-3+deb13u4                       deb                      
 libgomp1                                    14.2.0-19                             deb                      
 libgpg-error0                               1.51-4                                deb                      
 libgprofng0                                 2.44-3                                deb                      
@@ -532,7 +532,7 @@ math-intrinsics                             1.1.0                               
 mawk                                        1.3.4.20250131-1                      deb                      
 media-preview                               10.0.0                                npm                      
 merge-conflict                              10.0.0                                npm                      
-mermaid-chat-features                       10.0.0                                npm                      
+mermaid-markdown-features                   10.0.0                                npm                      
 mesa-libgallium                             25.0.7-2                              deb                      
 mesa-va-drivers                             25.0.7-2                              deb                      
 mesa-vulkan-drivers                         25.0.7-2                              deb                      
@@ -558,7 +558,7 @@ netcat-openbsd                              1.229-1                             
 next-tick                                   1.1.0                                 npm                      
 node-abi                                    3.8.0                                 npm                      
 node-gyp-build                              4.8.1                                 npm                      
-node-pty                                    1.2.0-beta.12                         npm                      
+node-pty                                    1.2.0-beta.13                         npm                      
 npm                                         1.0.1                                 npm                      
 objective-c                                 10.0.0                                npm                      
 ocl-icd-libopencl1                          2.3.3-1                               deb                      
@@ -604,7 +604,7 @@ safe-buffer                                 5.1.2                               
 safer-buffer                                2.1.2                                 npm                      
 scss                                        10.0.0                                npm                      
 search-result                               10.0.0                                npm                      
-sed                                         4.9-2                                 deb                      
+sed                                         4.9-2+deb13u1                         deb                      
 semver                                      7.7.4                                 npm                      
 shaderlab                                   10.0.0                                npm                      
 shared-mime-info                            2.4-5+b2                              deb                      
@@ -651,7 +651,7 @@ typedarray-to-buffer                        3.1.5                               
 typescript                                  10.0.0                                npm                      
 typescript                                  6.0.3                                 npm                      
 typescript-language-features                10.0.0                                npm                      
-tzdata                                      2026a-0+deb13u1                       deb                      
+tzdata                                      2026b-0+deb13u1                       deb                      
 udev                                        257.13-1~deb13u1                      deb                      
 undici                                      7.24.4                                npm                      
 universalify                                2.0.1                                 npm                      

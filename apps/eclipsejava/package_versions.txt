@@ -43,9 +43,9 @@ archetype-descriptor                                                  3.2.1     
 asm                                                                   9.9                                   java-archive                  
 asm                                                                   9.9.1                                 java-archive                  
 at-spi2-common                                                        2.56.2-1+deb13u1                      deb                           
-base-files                                                            13.8+deb13u4                          deb                           
+base-files                                                            13.8+deb13u5                          deb                           
 base-passwd                                                           3.6.7                                 deb                           
-bash                                                                  5.2.37-2+b8                           deb                           
+bash                                                                  5.2.37-2+b9                           deb                           
 batik-constants                                                       1.19                                  java-archive                  
 batik-css                                                             1.19                                  java-archive                  
 batik-i18n                                                            1.19                                  java-archive                  
@@ -313,7 +313,7 @@ libglvnd0                                                             1.7.0-1+b2
 libglx-mesa0                                                          25.0.7-2                              deb                           
 libglx0                                                               1.7.0-1+b2                            deb                           
 libgmp10                                                              2:6.3.0+dfsg-3                        deb                           
-libgnutls30t64                                                        3.8.9-3+deb13u3                       deb                           
+libgnutls30t64                                                        3.8.9-3+deb13u4                       deb                           
 libgomp1                                                              14.2.0-19                             deb                           
 libgprofng0                                                           2.44-3                                deb                           
 libgraphite2-3                                                        1.3.14-2+b1                           deb                           
@@ -1082,7 +1082,7 @@ repository-tools-ant                                                  UNKNOWN   
 resources-ant                                                         UNKNOWN                               java-archive                  
 rpcsvc-proto                                                          1.4.3-1                               deb                           
 security                                                              12.1.6                                java-archive  (+1 duplicate)  
-sed                                                                   4.9-2                                 deb                           
+sed                                                                   4.9-2+deb13u1                         deb                           
 server                                                                12.1.6                                java-archive  (+1 duplicate)  
 servlet                                                               12.1.6                                java-archive                  
 servlet-api                                                           4.0.9                                 java-archive                  
@@ -1103,7 +1103,7 @@ tika-core                                                             3.2.3     
 tools_taglets                                                         78.2                                  java-archive                  
 translit                                                              78.2                                  java-archive                  
 tree                                                                  9.9.1                                 java-archive                  
-tzdata                                                                2026a-0+deb13u1                       deb                           
+tzdata                                                                2026b-0+deb13u1                       deb                           
 udev                                                                  257.13-1~deb13u1                      deb                           
 util                                                                  12.1.6                                java-archive                  
 util                                                                  9.9.1                                 java-archive                  
