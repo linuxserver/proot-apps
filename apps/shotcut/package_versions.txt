@@ -269,7 +269,7 @@ libngtcp2-crypto-gnutls8             1.11.0-1+deb13u1                      deb
 libnorm1t64                          1.5.9+dfsg-3.1+b2                     deb     
 libnpth0t64                          1.8-3                                 deb     
 libnspr4                             2:4.36-1                              deb     
-libnss3                              2:3.110-1+deb13u1                     deb     
+libnss3                              2:3.110-1+deb13u2                     deb     
 libnuma1                             2.0.19-1                              deb     
 libodbc2                             2.3.12-2                              deb     
 libodbcinst2                         2.3.12-2                              deb     

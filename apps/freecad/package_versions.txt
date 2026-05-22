@@ -244,7 +244,7 @@ libngtcp2-crypto-gnutls8            1.11.0-1+deb13u1                      deb
 libnl-3-200                         3.7.0-2                               deb       
 libnl-route-3-200                   3.7.0-2                               deb       
 libnspr4                            2:4.36-1                              deb       
-libnss3                             2:3.110-1+deb13u1                     deb       
+libnss3                             2:3.110-1+deb13u2                     deb       
 libnuma1                            2.0.19-1                              deb       
 libocct-data-exchange-7.8           7.8.1+dfsg1-3                         deb       
 libocct-draw-7.8                    7.8.1+dfsg1-3                         deb       
