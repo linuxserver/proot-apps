@@ -1,7 +1,7 @@
 NAME                            VERSION                               TYPE     
 @electron/remote                2.1.3                                 npm       
 @postman/protobufjs             7.5.4-postman.2                       npm       
-Postman                         12.11.4                               npm       
+Postman                         12.11.5                               npm       
 adduser                         3.152                                 deb       
 adwaita-icon-theme              48.1-1                                deb       
 apt                             3.0.3                                 deb       
@@ -147,7 +147,7 @@ libfribidi0                     1.0.16-1                              deb
 libgbm1                         25.0.7-2                              deb       
 libgcc-14-dev                   14.2.0-19                             deb       
 libgcc-s1                       14.2.0-19                             deb       
-libgcrypt20                     1.11.0-7                              deb       
+libgcrypt20                     1.11.0-7+deb13u1                      deb       
 libgdbm-compat4t64              1.24-2                                deb       
 libgdbm6t64                     1.24-2                                deb       
 libgdk-pixbuf-2.0-0             2.42.12+dfsg-4+deb13u1                deb       
@@ -403,6 +403,7 @@ perl-base                       5.40.1-6                              deb
 perl-modules-5.40               5.40.1-6                              deb       
 pkgconf                         1.8.1-4                               deb       
 pkgconf-bin                     1.8.1-4                               deb       
+playwright-core                 1.60.0                                npm       
 procps                          2:4.0.4-9                             deb       
 pulseaudio                      17.0+dfsg1-2+b1                       deb       
 pulseaudio-utils                17.0+dfsg1-2+b1                       deb       

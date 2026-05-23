@@ -161,7 +161,7 @@ libgavl2                             2.0.0~svn6298-1+b3                    deb
 libgbm1                              25.0.7-2                              deb     
 libgcc-14-dev                        14.2.0-19                             deb     
 libgcc-s1                            14.2.0-19                             deb     
-libgcrypt20                          1.11.0-7                              deb     
+libgcrypt20                          1.11.0-7+deb13u1                      deb     
 libgdal36                            3.10.3+dfsg-1                         deb     
 libgdcm3.0t64                        3.0.24-5+b3                           deb     
 libgdk-pixbuf-2.0-0                  2.42.12+dfsg-4+deb13u1                deb     

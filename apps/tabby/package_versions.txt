@@ -158,7 +158,7 @@ libgck-2-2                        4.4.0.1-3                             deb
 libgcr-4-4                        4.4.0.1-3                             deb     
 libgcr-base-3-1                   3.41.2-3                              deb     
 libgcr-ui-3-1                     3.41.2-3                              deb     
-libgcrypt20                       1.11.0-7                              deb     
+libgcrypt20                       1.11.0-7+deb13u1                      deb     
 libgdk-pixbuf-2.0-0               2.42.12+dfsg-4+deb13u1                deb     
 libgdk-pixbuf2.0-common           2.42.12+dfsg-4+deb13u1                deb     
 libgl1                            1.7.0-1+b2                            deb     
