@@ -169,7 +169,7 @@ libgpg-error0                       1.51-4                                deb
 libgprofng0                         2.44-3                                deb       
 libgraphite2-3                      1.3.14-2+b1                           deb       
 libgsm1                             1.0.22-1+b2                           deb       
-libgssapi-krb5-2                    1.21.3-5                              deb       
+libgssapi-krb5-2                    1.21.3-5+deb13u1                      deb       
 libgstreamer-plugins-base1.0-0      1.26.2-1+deb13u1                      deb       
 libgstreamer1.0-0                   1.26.2-2                              deb       
 libgudev-1.0-0                      238-6                                 deb       
@@ -206,11 +206,11 @@ libjs-jquery-ui                     1.13.2+dfsg-1                         deb
 libjsoncpp26                        1.9.6-3                               deb       
 libjxl0.11                          0.11.2-0.1~deb13u1                    deb       
 libjxr0t64                          1.2~git20170615.f752187-5.3           deb       
-libk5crypto3                        1.21.3-5                              deb       
+libk5crypto3                        1.21.3-5+deb13u1                      deb       
 libkeyutils1                        1.6.3-6                               deb       
 libkmod2                            34.2-2                                deb       
-libkrb5-3                           1.21.3-5                              deb       
-libkrb5support0                     1.21.3-5                              deb       
+libkrb5-3                           1.21.3-5+deb13u1                      deb       
+libkrb5support0                     1.21.3-5+deb13u1                      deb       
 liblapack3                          3.12.1-6                              deb       
 liblastlog2-2                       2.41-5                                deb       
 liblcms2-2                          2.16-2+deb13u2                        deb       
