@@ -351,11 +351,11 @@ linux-raw-sys              0.9.4                    rust-crate
 llvm21-libs                21.1.2-r1                apk                         
 log                        0.4.27                   rust-crate                  
 make                       4.4.1-r3                 apk                         
-mariadb                    11.4.10-r0               apk                         
-mariadb-client             11.4.10-r0               apk                         
-mariadb-client-perl        11.4.10-r0               apk                         
-mariadb-common             11.4.10-r0               apk                         
-mariadb-server-utils       11.4.10-r0               apk                         
+mariadb                    11.4.11-r0               apk                         
+mariadb-client             11.4.11-r0               apk                         
+mariadb-client-perl        11.4.11-r0               apk                         
+mariadb-common             11.4.11-r0               apk                         
+mariadb-server-utils       11.4.11-r0               apk                         
 maybe-rayon                0.1.1                    rust-crate                  
 mbedtls                    3.6.6-r0                 apk                         
 memchr                     2.7.5                    rust-crate                  
@@ -445,7 +445,7 @@ qt6-qtshadertools          6.10.3-r0                apk
 qt6-qtspeech               6.10.3-r0                apk                         
 qt6-qtsvg                  6.10.3-r0                apk                         
 qt6-qtwebchannel           6.10.3-r0                apk                         
-qt6-qtwebengine            6.10.3-r2                apk                         
+qt6-qtwebengine            6.10.3-r3                apk                         
 quote                      1.0.40                   rust-crate                  
 radium                     0.7.0                    rust-crate                  
 rand                       0.9.1                    rust-crate                  
