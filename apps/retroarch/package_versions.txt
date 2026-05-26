@@ -158,10 +158,10 @@ libltdl                      2.6.0-r1                 apk
 libmagic                     5.47-r2                  apk                         
 libmd                        1.2.0-r0                 apk                         
 libmount                     2.42-r0                  apk                         
-libncursesw                  6.6_p20260502-r0         apk                         
+libncursesw                  6.6_p20260516-r0         apk                         
 libogg                       1.3.6-r0                 apk                         
 libopenmpt                   0.8.7-r0                 apk                         
-libpanelw                    6.6_p20260502-r0         apk                         
+libpanelw                    6.6_p20260516-r0         apk                         
 libpciaccess                 0.19-r0                  apk                         
 libpcre2-16                  10.47-r1                 apk                         
 libplacebo                   7.360.1-r0               apk                         
@@ -334,7 +334,7 @@ musl-dev                     1.2.6-r2                 apk
 musl-locales                 0.1.0-r1                 apk                         
 musl-locales-lang            0.1.0-r1                 apk                         
 musl-utils                   1.2.5-r21                apk                         
-ncurses-terminfo-base        6.6_p20260502-r0         apk                         
+ncurses-terminfo-base        6.6_p20260516-r0         apk                         
 netcat-openbsd               1.234.1-r0               apk                         
 nettle                       3.10.2-r0                apk                         
 new_debug_unreachable        1.0.6                    rust-crate                  
