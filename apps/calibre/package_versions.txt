@@ -324,7 +324,7 @@ nom                        8.0.0                    rust-crate
 noop_proc_macro            0.3.0                    rust-crate    
 npth                       1.8-r0                   apk           
 nspr                       4.38.2-r0                apk           
-nss                        3.123.1-r0               apk           
+nss                        3.124-r0                 apk           
 num-bigint                 0.4.6                    rust-crate    
 num-derive                 0.4.2                    rust-crate    
 num-integer                0.1.46                   rust-crate    
