@@ -252,7 +252,7 @@ libretro-vecx                0_git20241021-r0         apk
 libretro-virtualjaguar       0_git20241021-r0         apk                         
 libretro-xrick               0_git20220331-r0         apk                         
 libretro-yabause             0_git20210411-r0         apk                         
-librist                      0.2.13-r1                apk                         
+librist                      0.2.15-r0                apk                         
 libsharpyuv                  1.6.0-r0                 apk                         
 libsm                        1.2.6-r0                 apk                         
 libsndfile                   1.2.2-r2                 apk                         

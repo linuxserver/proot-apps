@@ -417,7 +417,7 @@ libtasn1-6                           4.20.0-2                              deb
 libtbb12                             2022.1.0-1+deb13u1                    deb     
 libtbbbind-2-5                       2022.1.0-1+deb13u1                    deb     
 libtbbmalloc2                        2022.1.0-1+deb13u1                    deb     
-libtdb1                              2:1.4.13+samba4.22.8+dfsg-0+deb13u1   deb     
+libtdb1                              2:1.4.13+samba4.22.8+dfsg-0+deb13u2   deb     
 libtesseract5                        5.5.0-1+b1                            deb     
 libthai-data                         0.1.29-2                              deb     
 libthai0                             0.1.29-2+b1                           deb     

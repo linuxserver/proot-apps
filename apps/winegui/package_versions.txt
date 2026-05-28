@@ -173,7 +173,7 @@ libfuse2t64                      2.9.9-8.1build1                    deb
 libgbm1                          25.2.8-0ubuntu0.24.04.1            deb        (+1 duplicate)  
 libgcc-13-dev                    13.3.0-6ubuntu2~24.04.1            deb                        
 libgcc-s1                        14.2.0-4ubuntu2~24.04.1            deb        (+1 duplicate)  
-libgcrypt20                      1.10.3-2build1                     deb        (+1 duplicate)  
+libgcrypt20                      1.10.3-2ubuntu0.1                  deb        (+1 duplicate)  
 libgd3                           2.3.3-9ubuntu5                     deb        (+1 duplicate)  
 libgdbm-compat4t64               1.23-5.1build1                     deb        (+1 duplicate)  
 libgdbm6t64                      1.23-5.1build1                     deb        (+1 duplicate)  

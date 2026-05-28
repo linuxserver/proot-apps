@@ -1,10 +1,11 @@
 NAME                                        VERSION                               TYPE                    
 @anthropic-ai/sdk                           0.82.0                                npm                      
 @babel/runtime                              7.29.2                                npm                      
-@emnapi/runtime                             1.10.0                                npm     (+1 duplicate)   
-@github/copilot                             1.0.39                                npm     (+1 duplicate)   
-@github/copilot-sdk                         0.3.0                                 npm                      
-@img/sharp-wasm32                           0.34.5                                npm     (+1 duplicate)   
+@emnapi/runtime                             1.10.0                                npm                      
+@github/copilot                             1.0.49                                npm     (+1 duplicate)   
+@github/copilot-linuxmusl-x64               1.0.49                                npm                      
+@github/copilot-sdk                         1.0.0-beta.4                          npm                      
+@img/sharp-wasm32                           0.34.5                                npm                      
 @isaacs/fs-minipass                         4.0.1                                 npm                      
 @microsoft/1ds-core-js                      3.2.13                                npm                      
 @microsoft/1ds-post-js                      3.2.13                                npm                      
@@ -16,20 +17,22 @@ NAME                                        VERSION                             
 @microsoft/dev-tunnels-ssh                  3.12.22                               npm                      
 @microsoft/dev-tunnels-ssh-tcp              3.12.22                               npm                      
 @microsoft/dynamicproto-js                  1.1.9                                 npm                      
+@microsoft/mxc-sdk                          0.2.1                                 npm                      
 @parcel/watcher                             2.5.6                                 npm                      
 @pondwader/socks5-server                    1.0.10                                npm                      
 @tootallnate/once                           3.0.1                                 npm                      
 @types/semver                               7.5.8                                 npm                      
-@vscode/codicons                            0.0.46-10                             npm                      
-@vscode/copilot-api                         0.3.00                                npm                      
+@vscode/codicons                            0.0.46-12                             npm                      
+@vscode/copilot-api                         0.4.0                                 npm                      
 @vscode/copilot-typescript-server-plugin    1.0.0                                 npm                      
 @vscode/deviceid                            0.1.4                                 npm                      
+@vscode/diff                                0.0.2-0                               npm                      
 @vscode/fs-copyfile                         2.0.0                                 npm                      
 @vscode/iconv-lite-umd                      0.7.1                                 npm                      
 @vscode/native-watchdog                     1.4.6                                 npm                      
 @vscode/policy-watcher                      1.3.7                                 npm                      
-@vscode/proxy-agent                         0.41.0                                npm                      
-@vscode/ripgrep                             1.17.1                                npm                      
+@vscode/proxy-agent                         0.42.0                                npm                      
+@vscode/ripgrep-universal                   1.18.0                                npm                      
 @vscode/sandbox-runtime                     0.0.1                                 npm                      
 @vscode/spdlog                              0.15.8                                npm                      
 @vscode/sqlite3                             5.1.12-vscode                         npm                      
@@ -47,7 +50,7 @@ NAME                                        VERSION                             
 @xterm/addon-webgl                          0.20.0-beta.212                       npm                      
 @xterm/headless                             6.1.0-beta.213                        npm                      
 @xterm/xterm                                6.1.0-beta.213                        npm                      
-Code                                        1.121.0                               npm                      
+Code                                        1.122.0                               npm                      
 Microsoft.PowerShell.PSReadLine             2.4.3                                 dotnet                   
 Microsoft.PowerShell.PSReadLine.Polyfiller  1.0.0.0                               dotnet  (+1 duplicate)   
 Microsoft.PowerShell.Pager                  1.0.0.0                               dotnet                   
@@ -84,14 +87,14 @@ call-bind-apply-helpers                     1.0.2                               
 chownr                                      3.0.0                                 npm                      
 chrome-remote-interface                     0.33.0                                npm                      
 clojure                                     10.0.0                                npm                      
-code                                        1.121.0-1779186519                    deb                      
+code                                        1.122.0-1779917575                    deb                      
 coffeescript                                10.0.0                                npm                      
 combined-stream                             1.0.8                                 npm                      
 commander                                   12.1.0                                npm                      
 commander                                   2.11.0                                npm                      
 commander                                   8.3.0                                 npm                      
 configuration-editing                       10.0.0                                npm                      
-copilot-chat                                0.49.0                                npm                      
+copilot-chat                                0.50.0                                npm                      
 coreutils                                   9.7-3                                 deb                      
 cpp                                         10.0.0                                npm                      
 cpp                                         4:14.2.0-1                            deb                      
@@ -147,7 +150,6 @@ event-emitter                               0.3.5                               
 expand-template                             2.0.3                                 npm                      
 ext                                         1.4.0                                 npm                      
 extension-editing                           10.0.0                                npm                      
-fd-slicer                                   1.1.0                                 npm                      
 file-uri-to-path                            1.0.0                                 npm                      
 findutils                                   4.10.0-3                              deb                      
 follow-redirects                            1.16.0                                npm                      
@@ -438,7 +440,7 @@ libswresample5                              7:7.1.4-0+deb13u1                   
 libsystemd-shared                           257.13-1~deb13u1                      deb                      
 libsystemd0                                 257.13-1~deb13u1                      deb                      
 libtasn1-6                                  4.20.0-2                              deb                      
-libtdb1                                     2:1.4.13+samba4.22.8+dfsg-0+deb13u1   deb                      
+libtdb1                                     2:1.4.13+samba4.22.8+dfsg-0+deb13u2   deb                      
 libthai-data                                0.1.29-2                              deb                      
 libthai0                                    0.1.29-2+b1                           deb                      
 libtheoradec1                               1.2.0~alpha1+dfsg-6                   deb                      
@@ -582,7 +584,6 @@ playwright-core                             1.59.1                              
 powershell                                  10.0.0                                npm                      
 procps                                      2:4.0.4-9                             deb                      
 prompt                                      10.0.0                                npm                      
-proxy-from-env                              1.1.0                                 npm                      
 proxy-from-env                              2.1.0                                 npm                      
 pug                                         10.0.0                                npm                      
 pulseaudio                                  17.0+dfsg1-2+b1                       deb                      
@@ -678,7 +679,7 @@ websocket                                   1.0.35                              
 windows-foreground-love                     0.6.1                                 npm                      
 wrappy                                      1.0.2                                 npm                      
 ws                                          7.5.10                                npm                      
-ws                                          8.19.0                                npm                      
+ws                                          8.20.1                                npm                      
 x11-common                                  1:7.7+24+deb13u1                      deb                      
 x11-xkb-utils                               7.7+9                                 deb                      
 xdg-utils                                   1.2.1-2                               deb                      
@@ -694,7 +695,6 @@ yaeti                                       0.0.6                               
 yallist                                     4.0.0                                 npm                      
 yallist                                     5.0.0                                 npm                      
 yaml                                        10.0.0                                npm                      
-yauzl                                       2.10.0                                npm                      
 yauzl                                       3.1.1                                 npm                      
 yazl                                        2.4.3                                 npm                      
 zlib1g                                      1:1.3.dfsg+really1.3.1-1+b1           deb                      
