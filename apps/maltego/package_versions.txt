@@ -525,7 +525,7 @@ libzvbi-common                                          0.2.44-1                
 libzvbi0t64                                             0.2.44-1                                                                      deb                             
 licensing                                               1.0-SNAPSHOT                                                                  java-archive                    
 licensing-ui                                            1.0-SNAPSHOT                                                                  java-archive                    
-linux-libc-dev                                          6.12.90-1                                                                     deb                             
+linux-libc-dev                                          6.12.90-2                                                                     deb                             
 listenablefuture                                        9999.0-empty-to-avoid-conflict-with-guava                                     java-archive                    
 locales-all                                             2.41-12+deb13u3                                                               deb                             
 log4j-api                                               2.24.3                                                                        java-archive                    
