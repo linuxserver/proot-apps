@@ -101,7 +101,7 @@ fontconfig                 2.17.1-r1                apk
 fonttools                  4.60.1                   python        
 freetype                   2.14.3-r0                apk           
 fribidi                    1.0.16-r3                apk           
-gcc                        15.2.0-r4                apk           
+gcc                        15.2.0-r5                apk           
 gdbm                       1.26-r0                  apk           
 getrandom                  0.3.3                    rust-crate    
 glib                       2.88.1-r0                apk           
@@ -159,7 +159,7 @@ libapk                     3.0.3-r2                 apk
 libassuan                  3.0.2-r0                 apk           
 libasyncns                 0.8-r5                   apk           
 libatasmart                0.19-r4                  apk           
-libatomic                  15.2.0-r4                apk           
+libatomic                  15.2.0-r5                apk           
 libb2                      0.98.1-r3                apk           
 libblkid                   2.42-r0                  apk           
 libblockdev                3.4.0-r1                 apk           
@@ -188,9 +188,10 @@ libexpat                   2.8.1-r0                 apk
 libfdisk                   2.42-r0                  apk           
 libffi                     3.5.2-r1                 apk           
 libflac                    1.4.3-r2                 apk           
-libgcc                     15.2.0-r4                apk           
+libgcc                     15.2.0-r5                apk           
+libgcc-static              15.2.0-r5                apk           
 libgcrypt                  1.12.2-r0                apk           
-libgomp                    15.2.0-r4                apk           
+libgomp                    15.2.0-r5                apk           
 libgpg-error               1.61-r0                  apk           
 libgudev                   238-r1                   apk           
 libhunspell                1.7.3-r0                 apk           
@@ -231,7 +232,7 @@ libsodium                  1.0.22-r0                apk
 libsrt                     1.5.3-r1                 apk           
 libssh                     0.12.0-r0                apk           
 libssl3                    3.5.5-r0                 apk           
-libstdc++                  15.2.0-r4                apk           
+libstdc++                  15.2.0-r5                apk           
 libstemmer                 2.2.0-r0                 apk           
 libtasn1                   4.21.0-r0                apk           
 libtheora                  1.2.0-r1                 apk           
