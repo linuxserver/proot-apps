@@ -200,7 +200,7 @@ netcat-openbsd                  1.234.1-r0               apk
 nettle                          3.10.2-r0                apk     
 nghttp2-libs                    1.69.0-r0                apk     
 nspr                            4.36-r0                  apk     
-nss                             3.118.1-r0               apk     
+nss                             3.123.1-r0               apk     
 numactl                         2.0.18-r0                apk     
 openjpeg                        2.5.4-r1                 apk     
 opus                            1.5.2-r1                 apk     
