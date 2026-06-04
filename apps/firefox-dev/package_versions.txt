@@ -158,7 +158,7 @@ libpciaccess               0.19-r0                  apk
 libpng                     1.6.58-r1                apk           
 libpsl                     0.21.5-r3                apk           
 libpulse                   17.0-r7                  apk           
-librsvg                    2.62.2-r0                apk           
+librsvg                    2.62.3-r0                apk           
 libseccomp                 2.6.0-r2                 apk           
 libsharpyuv                1.6.0-r0                 apk           
 libsm                      1.2.6-r0                 apk           
