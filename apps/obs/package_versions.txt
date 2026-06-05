@@ -28,7 +28,7 @@ debianutils                               5.17build1                         deb
 desktop-file-utils                        0.27-2build1                       deb     
 diffutils                                 1:3.10-1build1                     deb     
 dirmngr                                   2.4.4-2ubuntu17.4                  deb     
-dpkg                                      1.22.6ubuntu6.5                    deb     
+dpkg                                      1.22.6ubuntu6.6                    deb     
 e2fsprogs                                 1.47.0-2.4~exp1ubuntu4.1           deb     
 findutils                                 4.9.0-5build1                      deb     
 fontconfig                                2.15.0-1.1ubuntu2                  deb     
@@ -63,7 +63,7 @@ keyboard-configuration                    1.226ubuntu1                       deb
 keyboxd                                   2.4.4-2ubuntu17.4                  deb     
 libacl1                                   2.3.2-1build1.1                    deb     
 libaom3                                   3.8.2-2ubuntu0.1                   deb     
-libapparmor1                              4.0.1really4.0.1-0ubuntu0.24.04.6  deb     
+libapparmor1                              4.0.1really4.0.1-0ubuntu0.24.04.7  deb     
 libapt-pkg6.0t64                          2.8.3                              deb     
 libargon2-1                               0~20190702+dfsg-4build1            deb     
 libasan8                                  14.2.0-4ubuntu2~24.04.1            deb     
@@ -480,7 +480,7 @@ qt6-qpa-plugins                           6.4.2+dfsg-21.1build5              deb
 qt6-wayland                               6.4.2-5build3                      deb     
 readline-common                           8.2-4build1                        deb     
 rpcsvc-proto                              1.4.2-0ubuntu7                     deb     
-sed                                       4.9-2build1                        deb     
+sed                                       4.9-2ubuntu0.24.04.1               deb     
 sensible-utils                            0.0.22                             deb     
 session-migration                         0.3.9build1                        deb     
 shared-mime-info                          2.4-4                              deb     

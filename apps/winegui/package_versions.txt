@@ -36,7 +36,7 @@ debconf                          1.5.86ubuntu1                      deb
 debianutils                      5.17build1                         deb                        
 desktop-file-utils               0.27-2build1                       deb                        
 diffutils                        1:3.10-1build1                     deb                        
-dpkg                             1.22.6ubuntu6.5                    deb                        
+dpkg                             1.22.6ubuntu6.6                    deb                        
 e2fsprogs                        1.47.0-2.4~exp1ubuntu4.1           deb                        
 findutils                        4.9.0-5build1                      deb                        
 fontconfig                       2.15.0-1.1ubuntu2                  deb                        
@@ -488,7 +488,7 @@ readline-common                  8.2-4build1                        deb
 rpcsvc-proto                     1.4.2-0ubuntu7                     deb                        
 sane-airscan                     0.99.29-0ubuntu4                   deb                        
 sane-utils                       1.2.1-7build4                      deb                        
-sed                              4.9-2build1                        deb                        
+sed                              4.9-2ubuntu0.24.04.1               deb                        
 sensible-utils                   0.0.22                             deb                        
 session-migration                0.3.9build1                        deb                        
 sgml-base                        1.31                               deb                        
