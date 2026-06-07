@@ -20,6 +20,7 @@ arg_enum_proc_macro        0.3.4                    rust-crate
 arrayvec                   0.7.4                    rust-crate    
 arrayvec                   0.7.6                    rust-crate    
 as-slice                   0.2.1                    rust-crate    
+attrs                      26.1.0                   python        
 av-metrics                 0.9.1                    rust-crate    
 av-scenechange             0.14.1                   rust-crate    
 av1-grain                  0.2.4                    rust-crate    
@@ -38,8 +39,8 @@ bytemuck                   1.14.0                   rust-crate
 c-ares                     1.34.6-r0                apk           
 ca-certificates-bundle     20251003-r0              apk           
 cairo                      1.18.4-r1                apk           
-calibre                    9.7.0-r1                 apk           
-calibre-pyc                9.7.0-r1                 apk           
+calibre                    9.9.0-r0                 apk           
+calibre-pyc                9.9.0-r0                 apk           
 cdparanoia-libs            10.2-r14                 apk           
 cfg-if                     1.0.0                    rust-crate    
 cfg-if                     1.0.1                    rust-crate    
@@ -361,6 +362,8 @@ pulseaudio-alsa            17.0-r7                  apk
 pulseaudio-lang            17.0-r7                  apk           
 py3-apsw                   3.53.1.0-r0              apk           
 py3-apsw-pyc               3.53.1.0-r0              apk           
+py3-attrs                  26.1.0-r0                apk           
+py3-attrs-pyc              26.1.0-r0                apk           
 py3-beautifulsoup4         4.14.3-r1                apk           
 py3-beautifulsoup4-pyc     4.14.3-r1                apk           
 py3-chardet                5.2.0-r2                 apk           
@@ -418,6 +421,10 @@ py3-soupsieve              2.7-r1                   apk
 py3-soupsieve-pyc          2.7-r1                   apk           
 py3-typing-extensions      4.15.0-r1                apk           
 py3-typing-extensions-pyc  4.15.0-r1                apk           
+py3-tzdata                 2025.3-r1                apk           
+py3-tzdata-pyc             2025.3-r1                apk           
+py3-tzlocal                5.3.1-r1                 apk           
+py3-tzlocal-pyc            5.3.1-r1                 apk           
 py3-webencodings           0.5.1-r10                apk           
 py3-webencodings-pyc       0.5.1-r10                apk           
 py3-xxhash                 3.5.0-r1                 apk           
@@ -495,7 +502,9 @@ thread_local               1.1.7                    rust-crate
 tiff                       4.7.1-r0                 apk           
 tslib                      1.24-r0                  apk           
 typing-extensions          4.15.0                   python        
+tzdata                     2025.3                   python        
 tzdata                     2026b-r0                 apk           
+tzlocal                    5.3.1                    python        
 uchardet-libs              0.0.8-r2                 apk           
 udisks2                    2.11.0-r2                apk           
 udisks2-lang               2.11.0-r2                apk           
