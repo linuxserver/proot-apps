@@ -131,7 +131,7 @@ libcrypt1                        1:4.4.36-4build1                   deb        (
 libcryptsetup12                  2:2.7.0-1ubuntu4.2                 deb                        
 libctf-nobfd0                    2.42-4ubuntu2.10                   deb                        
 libctf0                          2.42-4ubuntu2.10                   deb                        
-libcups2t64                      2.4.7-1.2ubuntu7.9                 deb        (+1 duplicate)  
+libcups2t64                      2.4.7-1.2ubuntu7.13                deb        (+1 duplicate)  
 libcurl3t64-gnutls               8.5.0-2ubuntu10.9                  deb        (+1 duplicate)  
 libcurl4t64                      8.5.0-2ubuntu10.9                  deb        (+1 duplicate)  
 libdaemon0                       0.14-7.1ubuntu4                    deb                        
@@ -281,7 +281,7 @@ libnl-route-3-200                3.7.0-0.3build1.1                  deb
 libnpth0t64                      1.6-3.1build1                      deb                        
 libnspr4                         2:4.35-1.1build1                   deb        (+1 duplicate)  
 libnss-mdns                      0.15.1-4build1                     deb                        
-libnss-systemd                   255.4-1ubuntu8.15                  deb                        
+libnss-systemd                   255.4-1ubuntu8.16                  deb                        
 libnss3                          2:3.98-1ubuntu0.1                  deb        (+1 duplicate)  
 libnuma1                         2.0.18-1ubuntu0.24.04.1            deb        (+1 duplicate)  
 libodbc2                         2.3.12-1ubuntu0.24.04.1            deb        (+1 duplicate)  
@@ -295,7 +295,7 @@ libp11-kit0                      0.25.3-4ubuntu2.1                  deb        (
 libpam-modules                   1.5.3-5ubuntu5.5                   deb                        
 libpam-modules-bin               1.5.3-5ubuntu5.5                   deb                        
 libpam-runtime                   1.5.3-5ubuntu5.5                   deb                        
-libpam-systemd                   255.4-1ubuntu8.15                  deb                        
+libpam-systemd                   255.4-1ubuntu8.16                  deb                        
 libpam0g                         1.5.3-5ubuntu5.5                   deb                        
 libpango-1.0-0                   1.52.1+ds-1build1                  deb        (+1 duplicate)  
 libpangocairo-1.0-0              1.52.1+ds-1build1                  deb        (+1 duplicate)  
@@ -311,8 +311,8 @@ libpixman-1-0                    0.42.2-1build1                     deb        (
 libpng16-16t64                   1.6.43-5ubuntu0.6                  deb        (+1 duplicate)  
 libpolkit-agent-1-0              124-2ubuntu1.24.04.3               deb                        
 libpolkit-gobject-1-0            124-2ubuntu1.24.04.3               deb                        
-libpoppler-glib8t64              24.02.0-1ubuntu9.8                 deb        (+1 duplicate)  
-libpoppler134                    24.02.0-1ubuntu9.8                 deb        (+1 duplicate)  
+libpoppler-glib8t64              24.02.0-1ubuntu9.9                 deb        (+1 duplicate)  
+libpoppler134                    24.02.0-1ubuntu9.9                 deb        (+1 duplicate)  
 libproc2-0                       2:4.0.4-4ubuntu3.2                 deb                        
 libproxy1v5                      0.5.4-4build1                      deb                        
 libpsl5t64                       0.21.2-1.1build1                   deb        (+1 duplicate)  
@@ -363,8 +363,8 @@ libstdc++6                       14.2.0-4ubuntu2~24.04.1            deb        (
 libstemmer0d                     2.2.0-4build1                      deb                        
 libsvtav1enc1d1                  1.7.0+dfsg-2build1                 deb        (+1 duplicate)  
 libswresample4                   7:6.1.1-3ubuntu5                   deb        (+1 duplicate)  
-libsystemd-shared                255.4-1ubuntu8.15                  deb                        
-libsystemd0                      255.4-1ubuntu8.15                  deb        (+1 duplicate)  
+libsystemd-shared                255.4-1ubuntu8.16                  deb                        
+libsystemd0                      255.4-1ubuntu8.16                  deb        (+1 duplicate)  
 libtasn1-6                       4.19.0-3ubuntu0.24.04.2            deb        (+1 duplicate)  
 libtdb1                          1.4.10-1build1                     deb                        
 libthai-data                     0.1.29-2build1                     deb                        
@@ -375,7 +375,7 @@ libtinfo6                        6.4+20240113-1ubuntu2              deb        (
 libtsan2                         14.2.0-4ubuntu2~24.04.1            deb                        
 libtwolame0                      0.4.0-2build3                      deb        (+1 duplicate)  
 libubsan1                        14.2.0-4ubuntu2~24.04.1            deb                        
-libudev1                         255.4-1ubuntu8.15                  deb        (+1 duplicate)  
+libudev1                         255.4-1ubuntu8.16                  deb        (+1 duplicate)  
 libunistring5                    1.1-2build1.1                      deb        (+1 duplicate)  
 libunwind8                       1.6.2-3build1.1                    deb        (+1 duplicate)  
 libusb-1.0-0                     2:1.0.27-1                         deb        (+1 duplicate)  
@@ -435,7 +435,7 @@ libxkbcommon0                    1.6.0-1build1                      deb        (
 libxkbfile1                      1:1.1.0-1build4                    deb                        
 libxkbregistry0                  1.6.0-1build1                      deb        (+1 duplicate)  
 libxml2                          2.9.14+dfsg-1.3ubuntu3.7           deb        (+1 duplicate)  
-libxmlb2                         0.3.18-1                           deb                        
+libxmlb2                         0.3.24-1~ubuntu0.24.04.1           deb                        
 libxmu6                          2:1.1.3-3build2                    deb                        
 libxpm4                          1:3.5.17-1build2                   deb        (+1 duplicate)  
 libxrandr2                       2:1.5.2-2build1                    deb        (+1 duplicate)  
@@ -495,14 +495,14 @@ sgml-base                        1.31                               deb
 shared-mime-info                 2.4-4                              deb                        
 stdlib                           go1.22.2                           go-module                  
 sudo                             1.9.15p5-3ubuntu5.24.04.2          deb                        
-systemd                          255.4-1ubuntu8.15                  deb                        
-systemd-dev                      255.4-1ubuntu8.15                  deb                        
-systemd-sysv                     255.4-1ubuntu8.15                  deb                        
+systemd                          255.4-1ubuntu8.16                  deb                        
+systemd-dev                      255.4-1ubuntu8.16                  deb                        
+systemd-sysv                     255.4-1ubuntu8.16                  deb                        
 sysvinit-utils                   3.08-6ubuntu3                      deb                        
 tar                              1.35+dfsg-3build1                  deb                        
 ubuntu-keyring                   2023.11.28.1                       deb                        
 ubuntu-mono                      24.04-0ubuntu1                     deb                        
-udev                             255.4-1ubuntu8.15                  deb                        
+udev                             255.4-1ubuntu8.16                  deb                        
 unminimize                       0.2.1                              deb                        
 unzip                            6.0-28ubuntu4.1                    deb                        
 update-inetd                     4.53                               deb                        

@@ -26,7 +26,7 @@ av-scenechange             0.14.1                   rust-crate
 av1-grain                  0.2.4                    rust-crate    
 avahi-libs                 0.9_rc4-r0               apk           
 bash                       5.3.9-r1                 apk           
-beautifulsoup4             4.14.3                   python        
+beautifulsoup4             4.15.0                   python        
 binutils                   2.45.1-r1                apk           
 bitflags                   2.4.1                    rust-crate    
 bitflags                   2.9.1                    rust-crate    
@@ -364,8 +364,8 @@ py3-apsw                   3.53.1.0-r0              apk
 py3-apsw-pyc               3.53.1.0-r0              apk           
 py3-attrs                  26.1.0-r0                apk           
 py3-attrs-pyc              26.1.0-r0                apk           
-py3-beautifulsoup4         4.14.3-r1                apk           
-py3-beautifulsoup4-pyc     4.14.3-r1                apk           
+py3-beautifulsoup4         4.15.0-r0                apk           
+py3-beautifulsoup4-pyc     4.15.0-r0                apk           
 py3-chardet                5.2.0-r2                 apk           
 py3-chardet-pyc            5.2.0-r2                 apk           
 py3-css-parser             1.0.10-r3                apk           
