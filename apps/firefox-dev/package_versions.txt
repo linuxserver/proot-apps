@@ -69,7 +69,7 @@ ffmpeg-libavutil           8.1.1-r0                 apk
 ffmpeg-libswresample       8.1.1-r0                 apk           
 fftw-single-libs           3.3.11-r0                apk           
 file                       5.47-r2                  apk           
-firefox-developer-edition  152.0_beta6-r1           apk           
+firefox-developer-edition  152.0_beta9-r0           apk           
 font-noto                  2026.06.01-r0            apk           
 font-noto-common           2026.06.01-r0            apk           
 font-noto-math             2026.06.01-r0            apk           
@@ -82,8 +82,8 @@ gdbm                       1.26-r0                  apk
 gdk-pixbuf                 2.44.6-r0                apk           
 gdk-pixbuf-lang            2.44.6-r0                apk           
 getrandom                  0.3.3                    rust-crate    
-glib                       2.88.1-r0                apk           
-glib-lang                  2.88.1-r0                apk           
+glib                       2.88.1-r1                apk           
+glib-lang                  2.88.1-r1                apk           
 glycin-image-rs            2.1.0-r0                 apk           
 glycin-svg                 2.1.0-r0                 apk           
 gmp                        6.3.0-r4                 apk           
