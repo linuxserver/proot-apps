@@ -456,7 +456,7 @@ ncurses-bin                     6.3-2ubuntu0.1                           deb
 netcat-openbsd                  1.218-4ubuntu1                           deb       
 networkd-dispatcher             2.1-2ubuntu0.22.04.2                     deb       
 opensc-pkcs11                   0.22.0-1ubuntu2.1                        deb       
-openssl                         3.0.2-0ubuntu1.23                        deb       
+openssl                         3.0.2-0ubuntu1.25                        deb       
 passwd                          1:4.8.1-2ubuntu2.2                       deb       
 pcscd                           1.9.5-3ubuntu1                           deb       
 perl-base                       5.34.0-3ubuntu1.5                        deb       

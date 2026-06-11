@@ -232,7 +232,7 @@ libspeex1                       1.2.1-3                               deb
 libspeexdsp1                    1.2.1-3                               deb     
 libsqlite3-0                    3.46.1-7+deb13u1                      deb     
 libssh2-1t64                    1.11.1-1                              deb     
-libssl3t64                      3.5.6-1~deb13u1                       deb     
+libssl3t64                      3.5.6-1~deb13u2                       deb     
 libstdc++6                      14.2.0-19                             deb     
 libsvtav1enc2                   2.3.0+dfsg-1                          deb     
 libswresample5                  7:7.1.4-0+deb13u1                     deb     
@@ -331,8 +331,8 @@ ncurses-base                    6.5+20250216-2                        deb
 ncurses-bin                     6.5+20250216-2                        deb     
 netcat-openbsd                  1.229-1                               deb     
 ocl-icd-libopencl1              2.3.3-1                               deb     
-openssl                         3.5.6-1~deb13u1                       deb     
-openssl-provider-legacy         3.5.6-1~deb13u1                       deb     
+openssl                         3.5.6-1~deb13u2                       deb     
+openssl-provider-legacy         3.5.6-1~deb13u2                       deb     
 passwd                          1:4.17.4-2                            deb     
 perl-base                       5.40.1-6                              deb     
 procps                          2:4.0.4-9                             deb     
@@ -348,7 +348,7 @@ tar                             1.35+dfsg-3.1                         deb
 tzdata                          2026b-0+deb13u1                       deb     
 udev                            257.13-1~deb13u1                      deb     
 util-linux                      2.41-5                                deb     
-vivaldi-stable                  8.0.4033.44-1                         deb     
+vivaldi-stable                  8.0.4033.46-1                         deb     
 wget                            1.25.0-2                              deb     
 x11-common                      1:7.7+24+deb13u1                      deb     
 x11-xkb-utils                   7.7+9                                 deb     

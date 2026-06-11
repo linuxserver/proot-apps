@@ -52,7 +52,7 @@ crossbeam-deque            0.8.6                    rust-crate
 crossbeam-epoch            0.9.18                   rust-crate    
 crossbeam-queue            0.3.12                   rust-crate    
 crossbeam-utils            0.8.21                   rust-crate    
-cups-libs                  2.4.18-r0                apk           
+cups-libs                  2.4.19-r0                apk           
 curl                       8.20.0-r1                apk           
 dbus                       1.16.2-r2                apk           
 dbus-daemon-launch-helper  1.16.2-r2                apk           
@@ -263,10 +263,10 @@ profiling-procmacros       1.0.16                   rust-crate
 pulseaudio                 17.0-r7                  apk           
 pulseaudio-alsa            17.0-r7                  apk           
 pulseaudio-lang            17.0-r7                  apk           
-pyc                        3.14.3-r0                apk           
-python3                    3.14.3-r0                apk           
-python3-pyc                3.14.3-r0                apk           
-python3-pycache-pyc0       3.14.3-r0                apk           
+pyc                        3.14.5-r0                apk           
+python3                    3.14.5-r0                apk           
+python3-pyc                3.14.5-r0                apk           
+python3-pycache-pyc0       3.14.5-r0                apk           
 quote                      1.0.40                   rust-crate    
 rand                       0.9.1                    rust-crate    
 rand_chacha                0.9.0                    rust-crate    

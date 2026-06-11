@@ -289,7 +289,7 @@ libsratom-0-0                   0.6.18-1                              deb
 libsrt1.5-gnutls                1.5.4-1                               deb     
 libssh-4                        0.11.2-1+deb13u1                      deb     
 libssh2-1t64                    1.11.1-1                              deb     
-libssl3t64                      3.5.6-1~deb13u1                       deb     
+libssl3t64                      3.5.6-1~deb13u2                       deb     
 libstdc++6                      14.2.0-19                             deb     
 libsvtav1enc2                   2.3.0+dfsg-1                          deb     
 libswresample5                  7:7.1.4-0+deb13u1                     deb     
@@ -402,8 +402,8 @@ ncurses-bin                     6.5+20250216-2                        deb
 netcat-openbsd                  1.229-1                               deb     
 ocl-icd-libopencl1              2.3.3-1                               deb     
 onlyoffice-desktopeditors       9.4.0-129                             deb     
-openssl                         3.5.6-1~deb13u1                       deb     
-openssl-provider-legacy         3.5.6-1~deb13u1                       deb     
+openssl                         3.5.6-1~deb13u2                       deb     
+openssl-provider-legacy         3.5.6-1~deb13u2                       deb     
 passwd                          1:4.17.4-2                            deb     
 perl-base                       5.40.1-6                              deb     
 pocketsphinx-en-us              0.8+5prealpha+1-15                    deb     
