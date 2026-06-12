@@ -37,7 +37,6 @@ fontconfig                 2.17.1-r1                apk
 freetype                   2.14.3-r0                apk     
 fribidi                    1.0.16-r3                apk     
 gcc                        15.2.0-r5                apk     
-gdbm                       1.26-r0                  apk     
 glib                       2.88.1-r1                apk     
 glib-lang                  2.88.1-r1                apk     
 gmp                        6.3.0-r4                 apk     
@@ -49,7 +48,7 @@ gst-plugins-base-lang      1.28.3-r0                apk
 gstreamer                  1.28.3-r0                apk     
 gstreamer-lang             1.28.3-r0                apk     
 gstreamer-ptp-helper       1.28.3-r0                apk     
-harfbuzz                   13.2.1-r0                apk     
+harfbuzz                   14.2.1-r0                apk     
 hicolor-icon-theme         0.18-r0                  apk     
 hwdata-pci                 0.408-r0                 apk     
 icu-data-en                78.1-r0                  apk     
@@ -149,7 +148,7 @@ mesa-vulkan-swrast         26.1.1-r1                apk
 mpc1                       1.3.1-r1                 apk     
 mpdecimal                  4.0.1-r0                 apk     
 mpfr4                      4.2.2-r0                 apk     
-mpg123-libs                1.33.5-r0                apk     
+mpg123-libs                1.33.6-r0                apk     
 mtdev                      1.1.7-r0                 apk     
 musl                       1.2.6-r2                 apk     
 musl-dev                   1.2.6-r2                 apk     
@@ -170,10 +169,10 @@ pkgconf                    2.5.1-r0                 apk
 pulseaudio                 17.0-r7                  apk     
 pulseaudio-alsa            17.0-r7                  apk     
 pulseaudio-lang            17.0-r7                  apk     
-pyc                        3.14.5-r0                apk     
-python3                    3.14.5-r0                apk     
-python3-pyc                3.14.5-r0                apk     
-python3-pycache-pyc0       3.14.5-r0                apk     
+pyc                        3.14.5-r1                apk     
+python3                    3.14.5-r1                apk     
+python3-pyc                3.14.5-r1                apk     
+python3-pycache-pyc0       3.14.5-r1                apk     
 qt6-qtbase                 6.11.1-r0                apk     
 qt6-qtbase-wayland         6.11.1-r0                apk     
 qt6-qtbase-x11             6.11.1-r0                apk     

@@ -124,7 +124,7 @@ gst-plugins-base-lang      1.28.3-r0                apk
 gstreamer                  1.28.3-r0                apk           
 gstreamer-lang             1.28.3-r0                apk           
 gstreamer-ptp-helper       1.28.3-r0                apk           
-harfbuzz                   13.2.1-r0                apk           
+harfbuzz                   14.2.1-r0                apk           
 harfbuzz-subset            14.2.1-r0                apk           
 heck                       0.5.0                    rust-crate    
 hicolor-icon-theme         0.18-r0                  apk           
@@ -306,7 +306,7 @@ minizip                    1.3.2-r1                 apk
 mpc1                       1.3.1-r1                 apk           
 mpdecimal                  4.0.1-r0                 apk           
 mpfr4                      4.2.2-r0                 apk           
-mpg123-libs                1.33.5-r0                apk           
+mpg123-libs                1.33.6-r0                apk           
 msgpack                    1.1.2                    python        
 mtdev                      1.1.7-r0                 apk           
 musl                       1.2.6-r2                 apk           
@@ -431,16 +431,16 @@ py3-xxhash                 3.5.0-r1                 apk
 py3-xxhash-pyc             3.5.0-r1                 apk           
 py3-zeroconf               0.147.2-r1               apk           
 py3-zeroconf-pyc           0.147.2-r1               apk           
-pyc                        3.14.5-r0                apk           
+pyc                        3.14.5-r1                apk           
 pycryptodome               3.23.0                   python        
 pygments                   2.20.0                   python        
 pyqt6                      6.11.0                   python        
 pyqt6-sip                  13.11.1                  python        
 pyqt6-webengine            6.11.0                   python        
 python-dateutil            2.9.0                    python        
-python3                    3.14.5-r0                apk           
-python3-pyc                3.14.5-r0                apk           
-python3-pycache-pyc0       3.14.5-r0                apk           
+python3                    3.14.5-r1                apk           
+python3-pyc                3.14.5-r1                apk           
+python3-pycache-pyc0       3.14.5-r1                apk           
 qt6-qtbase                 6.11.1-r0                apk           
 qt6-qtbase-private-dev     6.11.1-r0                apk           
 qt6-qtbase-wayland         6.11.1-r0                apk           
@@ -455,7 +455,7 @@ qt6-qtserialport           6.11.1-r0                apk
 qt6-qtsvg                  6.11.1-r0                apk           
 qt6-qttools-libs           6.11.1-r0                apk           
 qt6-qtwebchannel           6.11.1-r0                apk           
-qt6-qtwebengine            6.11.1-r1                apk           
+qt6-qtwebengine            6.11.1-r2                apk           
 qt6-qtwebsockets-libs      6.11.1-r0                apk           
 quote                      1.0.40                   rust-crate    
 rand                       0.9.1                    rust-crate    

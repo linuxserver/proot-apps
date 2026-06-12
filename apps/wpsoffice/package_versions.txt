@@ -144,8 +144,8 @@ libhwy1t64                      1.2.0-2+b2                            deb
 libice6                         2:1.1.1-1                             deb     
 libicu76                        76.1-4                                deb     
 libidn2-0                       2.3.8-2                               deb     
-libinput-bin                    1.28.1-1                              deb     
-libinput10                      1.28.1-1                              deb     
+libinput-bin                    1.28.1-1+deb13u1                      deb     
+libinput10                      1.28.1-1+deb13u1                      deb     
 libisl23                        0.27-1                                deb     
 libitm1                         14.2.0-19                             deb     
 libjack-jackd2-0                1.9.22~dfsg-4                         deb     
