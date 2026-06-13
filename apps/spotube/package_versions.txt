@@ -318,7 +318,7 @@ libpython3-stdlib                3.13.5-1                              deb
 libpython3.13-minimal            3.13.5-2+deb13u2                      deb       
 libpython3.13-stdlib             3.13.5-2+deb13u2                      deb       
 libquadmath0                     14.2.0-19                             deb       
-librabbitmq4                     0.15.0-1                              deb       
+librabbitmq4                     0.15.0-1+deb13u1                      deb       
 librav1e0.7                      0.7.1-9+b2                            deb       
 libraw1394-11                    2.1.2-2+b2                            deb       
 libreadline8t64                  8.2-6                                 deb       

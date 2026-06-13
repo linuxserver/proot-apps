@@ -359,7 +359,7 @@ libqt6virtualkeyboard6               6.8.2+dfsg-3                          deb
 libqt6widgets6                       6.8.2+dfsg-9+deb13u2                  deb     
 libqt6xml6                           6.8.2+dfsg-9+deb13u2                  deb     
 libquadmath0                         14.2.0-19                             deb     
-librabbitmq4                         0.15.0-1                              deb     
+librabbitmq4                         0.15.0-1+deb13u1                      deb     
 librav1e0.7                          0.7.1-9+b2                            deb     
 libraw1394-11                        2.1.2-2+b2                            deb     
 libreadline8t64                      8.2-6                                 deb     
