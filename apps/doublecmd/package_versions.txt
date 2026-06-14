@@ -148,7 +148,7 @@ libjack-jackd2-0                1.9.22~dfsg-4                         deb
 libjansson4                     2.14-2+b3                             deb     
 libjbig0                        2.1-6.1+b2                            deb     
 libjpeg62-turbo                 1:2.1.5-4                             deb     
-libjxl0.11                      0.11.2-0.1~deb13u1                    deb     
+libjxl0.11                      0.11.2-0.1~deb13u2                    deb     
 libk5crypto3                    1.21.3-5+deb13u1                      deb     
 libkeyutils1                    1.6.3-6                               deb     
 libkmod2                        34.2-2                                deb     

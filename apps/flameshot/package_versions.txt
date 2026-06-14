@@ -56,7 +56,7 @@ icu-libs                   78.1-r0                  apk
 isl26                      0.26-r2                  apk     
 jansson                    2.15.0-r0                apk     
 kdsingleapplication        1.1.0-r0                 apk     
-kguiaddons                 6.26.0-r0                apk     
+kguiaddons                 6.27.0-r0                apk     
 lame-libs                  3.100-r5                 apk     
 lang                       0.1-r2                   apk     
 libapk                     3.0.3-r2                 apk     

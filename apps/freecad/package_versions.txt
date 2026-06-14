@@ -204,7 +204,7 @@ libjpeg62-turbo                     1:2.1.5-4                             deb
 libjs-jquery                        3.6.1+dfsg+~3.5.14-1                  deb       
 libjs-jquery-ui                     1.13.2+dfsg-1                         deb       
 libjsoncpp26                        1.9.6-3                               deb       
-libjxl0.11                          0.11.2-0.1~deb13u1                    deb       
+libjxl0.11                          0.11.2-0.1~deb13u2                    deb       
 libjxr0t64                          1.2~git20170615.f752187-5.3           deb       
 libk5crypto3                        1.21.3-5+deb13u1                      deb       
 libkeyutils1                        1.6.3-6                               deb       
