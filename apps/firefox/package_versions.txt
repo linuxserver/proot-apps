@@ -77,7 +77,7 @@ font-noto-symbols          2026.06.01-r0            apk
 fontconfig                 2.17.1-r1                apk           
 freetype                   2.14.3-r0                apk           
 fribidi                    1.0.16-r3                apk           
-gcc                        15.2.0-r5                apk           
+gcc                        15.2.0-r6                apk           
 gdk-pixbuf                 2.44.6-r0                apk           
 gdk-pixbuf-lang            2.44.6-r0                apk           
 getrandom                  0.3.3                    rust-crate    
@@ -118,8 +118,8 @@ libapk                     3.0.3-r2                 apk
 libasyncns                 0.8-r5                   apk           
 libatk-1.0                 2.60.4-r0                apk           
 libatk-bridge-2.0          2.60.4-r0                apk           
-libatomic                  15.2.0-r5                apk           
-libblkid                   2.42-r0                  apk           
+libatomic                  15.2.0-r6                apk           
+libblkid                   2.42.1-r0                apk           
 libbsd                     0.12.2-r0                apk           
 libbz2                     1.0.8-r6                 apk           
 libc                       0.2.172                  rust-crate    
@@ -136,10 +136,10 @@ libevent                   2.1.12-r9                apk
 libexpat                   2.8.1-r0                 apk           
 libffi                     3.5.2-r1                 apk           
 libflac                    1.4.3-r2                 apk           
-libgcc                     15.2.0-r5                apk           
-libgcc-static              15.2.0-r5                apk           
+libgcc                     15.2.0-r6                apk           
+libgcc-static              15.2.0-r6                apk           
 libglycin                  2.1.0-r0                 apk           
-libgomp                    15.2.0-r5                apk           
+libgomp                    15.2.0-r6                apk           
 libhwy                     1.3.0-r0                 apk           
 libice                     1.1.2-r0                 apk           
 libidn2                    2.3.8-r0                 apk           
@@ -149,7 +149,7 @@ libjxl                     0.11.2-r1                apk
 libltdl                    2.6.0-r1                 apk           
 libmagic                   5.47-r2                  apk           
 libmd                      1.2.0-r0                 apk           
-libmount                   2.42-r0                  apk           
+libmount                   2.42.1-r0                apk           
 libncursesw                6.6_p20260516-r0         apk           
 libogg                     1.3.6-r0                 apk           
 libpanelw                  6.6_p20260516-r0         apk           
@@ -163,11 +163,11 @@ libsharpyuv                1.6.0-r0                 apk
 libsm                      1.2.6-r0                 apk           
 libsndfile                 1.2.2-r2                 apk           
 libssl3                    3.5.5-r0                 apk           
-libstdc++                  15.2.0-r5                apk           
+libstdc++                  15.2.0-r6                apk           
 libtasn1                   4.21.0-r0                apk           
 libtheora                  1.2.0-r1                 apk           
 libunistring               1.4.2-r0                 apk           
-libuuid                    2.42-r0                  apk           
+libuuid                    2.42.1-r0                apk           
 libva                      2.23.0-r0                apk           
 libva-intel-driver         2.4.1-r2                 apk           
 libvdpau                   1.5-r4                   apk           
@@ -237,7 +237,7 @@ nom                        7.1.3                    rust-crate
 nom                        8.0.0                    rust-crate    
 noop_proc_macro            0.3.0                    rust-crate    
 nspr                       4.38.2-r0                apk           
-nss                        3.124-r0                 apk           
+nss                        3.125-r0                 apk           
 num-bigint                 0.4.6                    rust-crate    
 num-derive                 0.4.2                    rust-crate    
 num-integer                0.1.46                   rust-crate    
