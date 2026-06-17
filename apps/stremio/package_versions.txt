@@ -119,7 +119,7 @@ libdvdnav4                          6.1.1-1                                  deb
 libdvdread8                         6.1.2-1                                  deb     
 libdw1                              0.186-1ubuntu0.1                         deb     
 libedit2                            3.1-20210910-1build1                     deb     
-libegl-mesa0                        23.2.1-1ubuntu3.1~22.04.3                deb     
+libegl-mesa0                        23.2.1-1ubuntu3.1~22.04.4                deb     
 libegl1                             1.4.0-1                                  deb     
 libelf1                             0.186-1ubuntu0.1                         deb     
 libepoxy0                           1.5.10-1                                 deb     
@@ -136,7 +136,7 @@ libfontconfig1                      2.13.1-4.2ubuntu5                        deb
 libfontenc1                         1:1.1.4-1build3                          deb     
 libfreetype6                        2.11.1+dfsg-1ubuntu0.3                   deb     
 libfribidi0                         1.0.8-2ubuntu3.1                         deb     
-libgbm1                             23.2.1-1ubuntu3.1~22.04.3                deb     
+libgbm1                             23.2.1-1ubuntu3.1~22.04.4                deb     
 libgcc-11-dev                       11.4.0-1ubuntu1~22.04.3                  deb     
 libgcc-s1                           12.3.0-1ubuntu1~22.04.3                  deb     
 libgcrypt20                         1.9.4-3ubuntu3                           deb     
@@ -144,11 +144,11 @@ libgdk-pixbuf-2.0-0                 2.42.8+dfsg-1ubuntu0.5                   deb
 libgdk-pixbuf2.0-common             2.42.8+dfsg-1ubuntu0.5                   deb     
 libgfortran5                        12.3.0-1ubuntu1~22.04.3                  deb     
 libgl1                              1.4.0-1                                  deb     
-libgl1-mesa-dri                     23.2.1-1ubuntu3.1~22.04.3                deb     
-libglapi-mesa                       23.2.1-1ubuntu3.1~22.04.3                deb     
+libgl1-mesa-dri                     23.2.1-1ubuntu3.1~22.04.4                deb     
+libglapi-mesa                       23.2.1-1ubuntu3.1~22.04.4                deb     
 libglib2.0-0                        2.72.4-0ubuntu2.9                        deb     
 libglvnd0                           1.4.0-1                                  deb     
-libglx-mesa0                        23.2.1-1ubuntu3.1~22.04.3                deb     
+libglx-mesa0                        23.2.1-1ubuntu3.1~22.04.4                deb     
 libglx0                             1.4.0-1                                  deb     
 libgme0                             0.6.3-2                                  deb     
 libgmp10                            2:6.2.1+dfsg-3ubuntu1                    deb     
@@ -268,7 +268,7 @@ libqt5webengine5                    5.15.9+dfsg-1                            deb
 libqt5webenginecore5                5.15.9+dfsg-1                            deb     
 libqt5widgets5                      5.15.3+dfsg-2ubuntu0.2                   deb     
 libquadmath0                        12.3.0-1ubuntu1~22.04.3                  deb     
-librabbitmq4                        0.10.0-1ubuntu2                          deb     
+librabbitmq4                        0.10.0-1ubuntu2.1                        deb     
 libraw1394-11                       2.1.2-2build2                            deb     
 libre2-9                            20220201+dfsg-1                          deb     
 libreadline8                        8.1.2-1                                  deb     
@@ -425,8 +425,8 @@ lsb-base                            11.1.0ubuntu4                            deb
 make                                4.3-4.1build1                            deb     
 mawk                                1.3.4.20200120-3                         deb     
 media-types                         7.0.0                                    deb     
-mesa-va-drivers                     23.2.1-1ubuntu3.1~22.04.3                deb     
-mesa-vulkan-drivers                 23.2.1-1ubuntu3.1~22.04.3                deb     
+mesa-va-drivers                     23.2.1-1ubuntu3.1~22.04.4                deb     
+mesa-vulkan-drivers                 23.2.1-1ubuntu3.1~22.04.4                deb     
 mount                               2.37.2-4ubuntu3.5                        deb     
 ncurses-base                        6.3-2ubuntu0.1                           deb     
 ncurses-bin                         6.3-2ubuntu0.1                           deb     
