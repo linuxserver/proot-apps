@@ -226,9 +226,9 @@ libgtkmm-3.0-1t64                3.24.9-1                           deb
 libgtkmm-4.0-0                   4.10.0-4build3                     deb                        
 libgudev-1.0-0                   1:238-5ubuntu1                     deb                        
 libharfbuzz0b                    8.3.0-2build2                      deb        (+1 duplicate)  
-libheif-plugin-aomdec            1.17.6-1ubuntu4.3                  deb        (+1 duplicate)  
-libheif-plugin-aomenc            1.17.6-1ubuntu4.3                  deb        (+1 duplicate)  
-libheif1                         1.17.6-1ubuntu4.3                  deb        (+1 duplicate)  
+libheif-plugin-aomdec            1.17.6-1ubuntu4.4                  deb        (+1 duplicate)  
+libheif-plugin-aomenc            1.17.6-1ubuntu4.4                  deb        (+1 duplicate)  
+libheif1                         1.17.6-1ubuntu4.4                  deb        (+1 duplicate)  
 libhogweed6t64                   3.9.1-2.2build1.1                  deb        (+1 duplicate)  
 libhwasan0                       14.2.0-4ubuntu2~24.04.1            deb                        
 libhwy1t64                       1.0.7-8.1build1                    deb                        
