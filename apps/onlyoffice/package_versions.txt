@@ -52,7 +52,7 @@ gcc-14-x86-64-linux-gnu         14.2.0-19                             deb
 gcc-x86-64-linux-gnu            4:14.2.0-1                            deb     
 grep                            3.11-4                                deb     
 gsettings-desktop-schemas       48.0-1                                deb     
-gstreamer1.0-libav              1.26.2-1                              deb     
+gstreamer1.0-libav              1.26.2-1+deb13u1                      deb     
 gstreamer1.0-plugins-ugly       1.26.3-4+deb13u1                      deb     
 gtk-update-icon-cache           4.18.6+ds-2                           deb     
 gzip                            1.13-1                                deb     

@@ -47,7 +47,7 @@ NAME                                        VERSION                             
 @xterm/addon-webgl                          0.20.0-beta.284                       npm                      
 @xterm/headless                             6.1.0-beta.285                        npm                      
 @xterm/xterm                                6.1.0-beta.285                        npm                      
-Code                                        1.125.0                               npm                      
+Code                                        1.125.1                               npm                      
 Microsoft.PowerShell.PSReadLine             2.4.3                                 dotnet                   
 Microsoft.PowerShell.PSReadLine.Polyfiller  1.0.0.0                               dotnet  (+1 duplicate)   
 Microsoft.PowerShell.Pager                  1.0.0.0                               dotnet                   
@@ -84,14 +84,14 @@ call-bind-apply-helpers                     1.0.2                               
 chownr                                      3.0.0                                 npm                      
 chrome-remote-interface                     0.33.0                                npm                      
 clojure                                     10.0.0                                npm                      
-code                                        1.125.0-1781601565                    deb                      
+code                                        1.125.1-1781859603                    deb                      
 coffeescript                                10.0.0                                npm                      
 combined-stream                             1.0.8                                 npm                      
 commander                                   12.1.0                                npm                      
 commander                                   2.11.0                                npm                      
 commander                                   8.3.0                                 npm                      
 configuration-editing                       10.0.0                                npm                      
-copilot-chat                                0.53.0                                npm                      
+copilot-chat                                0.53.1                                npm                      
 coreutils                                   9.7-3                                 deb                      
 cpp                                         10.0.0                                npm                      
 cpp                                         4:14.2.0-1                            deb                      
