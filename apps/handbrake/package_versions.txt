@@ -69,10 +69,10 @@ libaudit1                       1:4.0.2-2+b2                          deb
 libavahi-client3                0.8-16                                deb     
 libavahi-common-data            0.8-16                                deb     
 libavahi-common3                0.8-16                                deb     
-libavcodec61                    7:7.1.4-0+deb13u1                     deb     
-libavfilter10                   7:7.1.4-0+deb13u1                     deb     
-libavformat61                   7:7.1.4-0+deb13u1                     deb     
-libavutil59                     7:7.1.4-0+deb13u1                     deb     
+libavcodec61                    7:7.1.5-0+deb13u1                     deb     
+libavfilter10                   7:7.1.5-0+deb13u1                     deb     
+libavformat61                   7:7.1.5-0+deb13u1                     deb     
+libavutil59                     7:7.1.5-0+deb13u1                     deb     
 libbdplus0                      0.2.0-4+b1                            deb     
 libbinutils                     2.44-3                                deb     
 libblas3                        3.12.1-6                              deb     
@@ -235,7 +235,7 @@ libpixman-1-0                   0.44.0-3                              deb
 libplacebo349                   7.349.0-3                             deb     
 libpng16-16t64                  1.6.48-1+deb13u5                      deb     
 libpocketsphinx3                0.8+5prealpha+1-15+b4                 deb     
-libpostproc58                   7:7.1.4-0+deb13u1                     deb     
+libpostproc58                   7:7.1.5-0+deb13u1                     deb     
 libproc2-0                      2:4.0.4-9                             deb     
 libpsl5t64                      0.21.2-1.1+b1                         deb     
 libpulse0                       17.0+dfsg1-2+b1                       deb     
@@ -280,8 +280,8 @@ libssh2-1t64                    1.11.1-1                              deb
 libssl3t64                      3.5.6-1~deb13u2                       deb     
 libstdc++6                      14.2.0-19                             deb     
 libsvtav1enc2                   2.3.0+dfsg-1                          deb     
-libswresample5                  7:7.1.4-0+deb13u1                     deb     
-libswscale8                     7:7.1.4-0+deb13u1                     deb     
+libswresample5                  7:7.1.5-0+deb13u1                     deb     
+libswscale8                     7:7.1.5-0+deb13u1                     deb     
 libsystemd-shared               257.13-1~deb13u1                      deb     
 libsystemd0                     257.13-1~deb13u1                      deb     
 libtasn1-6                      4.20.0-2                              deb     
@@ -370,7 +370,7 @@ libzmq5                         4.3.5-1+b3                            deb
 libzstd1                        1.5.7+dfsg-1                          deb     
 libzvbi-common                  0.2.44-1                              deb     
 libzvbi0t64                     0.2.44-1                              deb     
-linux-libc-dev                  6.12.90-2                             deb     
+linux-libc-dev                  6.12.94-1                             deb     
 linux-sysctl-defaults           4.12.1                                deb     
 locales-all                     2.41-12+deb13u3                       deb     
 login                           1:4.16.0-2+really2.41-5               deb     
