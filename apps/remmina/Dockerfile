@@ -6,6 +6,7 @@ ARG REPO
 RUN \
   echo "**** install packages ****" && \
   apk add --no-cache \
+    adwaita-icon-theme \
     icu-data-full \
     remmina && \
   echo "**** customize desktop file ****" && \
