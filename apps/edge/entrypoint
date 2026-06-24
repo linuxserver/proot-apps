@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Start Edge
-microsoft-edge --no-sandbox --test-type "$@"
+microsoft-edge --no-sandbox --test-type --disable-dev-shm-usage --disable-gpu "$@"
