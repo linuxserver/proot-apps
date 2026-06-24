@@ -1,7 +1,7 @@
 NAME                            VERSION                               TYPE     
 @electron/remote                2.1.3                                 npm       
 @postman/protobufjs             7.5.4-postman.2                       npm       
-Postman                         12.16.0                               npm       
+Postman                         12.16.1                               npm       
 adduser                         3.152                                 deb       
 adwaita-icon-theme              48.1-1                                deb       
 apt                             3.0.3                                 deb       
@@ -85,8 +85,8 @@ libaudit1                       1:4.0.2-2+b2                          deb
 libavahi-client3                0.8-16                                deb       
 libavahi-common-data            0.8-16                                deb       
 libavahi-common3                0.8-16                                deb       
-libavcodec61                    7:7.1.4-0+deb13u1                     deb       
-libavutil59                     7:7.1.4-0+deb13u1                     deb       
+libavcodec61                    7:7.1.5-0+deb13u1                     deb       
+libavutil59                     7:7.1.5-0+deb13u1                     deb       
 libbinutils                     2.44-3                                deb       
 libblkid-dev                    2.41-5                                deb       
 libblkid1                       2.41-5                                deb       
@@ -285,7 +285,7 @@ libssh2-1t64                    1.11.1-1                              deb
 libssl3t64                      3.5.6-1~deb13u2                       deb       
 libstdc++6                      14.2.0-19                             deb       
 libsvtav1enc2                   2.3.0+dfsg-1                          deb       
-libswresample5                  7:7.1.4-0+deb13u1                     deb       
+libswresample5                  7:7.1.5-0+deb13u1                     deb       
 libsysprof-capture-4-dev        48.0-2                                deb       
 libsystemd-dev                  257.13-1~deb13u1                      deb       
 libsystemd-shared               257.13-1~deb13u1                      deb       

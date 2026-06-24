@@ -6,7 +6,7 @@ alpine-release             3.24.0_alpha20260127-r0  apk
 alsa-lib                   1.2.15.3-r0              apk     
 alsa-plugins-pulse         1.2.12-r2                apk     
 apk-tools                  3.0.3-r2                 apk     
-avahi-libs                 0.9_rc4-r0               apk     
+avahi-libs                 0.9_rc4-r1               apk     
 bash                       5.3.9-r1                 apk     
 binutils                   2.45.1-r1                apk     
 brotli-libs                1.2.0-r1                 apk     
@@ -165,7 +165,7 @@ p11-kit                    0.26.2-r0                apk
 pango                      1.57.1-r0                apk     
 pcre2                      10.47-r1                 apk     
 pixman                     0.46.4-r0                apk     
-pkgconf                    2.5.1-r0                 apk     
+pkgconf                    2.9.90-r0                apk     
 pulseaudio                 17.0-r7                  apk     
 pulseaudio-alsa            17.0-r7                  apk     
 pulseaudio-lang            17.0-r7                  apk     
