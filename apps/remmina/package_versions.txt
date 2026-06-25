@@ -2,6 +2,7 @@ NAME                       VERSION                  TYPE
 adwaita-fonts              49.0-r1                  apk     
 adwaita-fonts-mono         49.0-r1                  apk     
 adwaita-fonts-sans         49.0-r1                  apk     
+adwaita-icon-theme         49.0-r0                  apk     
 alpine-baselayout          3.7.2-r0                 apk     
 alpine-baselayout-data     3.7.2-r0                 apk     
 alpine-keys                2.6-r0                   apk     
@@ -94,6 +95,7 @@ libcap2                    2.78-r0                  apk
 libcom_err                 1.47.3-r0                apk     
 libcrypto3                 3.5.7-r0                 apk     
 libcurl                    8.19.0-r0                apk     
+libdav1d                   1.5.2-r0                 apk     
 libdbusmenu-glib           16.04.0-r6               apk     
 libdbusmenu-gtk3           16.04.0-r6               apk     
 libdrm                     2.4.131-r0               apk     
@@ -122,6 +124,7 @@ libpciaccess               0.18.1-r1                apk
 libpng                     1.6.58-r1                apk     
 libpsl                     0.21.5-r3                apk     
 libpulse                   17.0-r5                  apk     
+librsvg                    2.61.2-r0                apk     
 libsecret                  0.21.7-r0                apk     
 libsecret-lang             0.21.7-r0                apk     
 libsharpyuv                1.6.0-r0                 apk     

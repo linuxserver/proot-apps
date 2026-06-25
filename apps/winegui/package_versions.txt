@@ -306,7 +306,7 @@ libpcap0.8t64                    1.10.4-4.1ubuntu3                  deb        (
 libpci3                          1:3.10.0-2build1                   deb        (+1 duplicate)  
 libpciaccess0                    0.17-3ubuntu0.24.04.2              deb        (+1 duplicate)  
 libpcre2-8-0                     10.42-4ubuntu2.1                   deb        (+1 duplicate)  
-libperl5.38t64                   5.38.2-3.2ubuntu0.2                deb        (+1 duplicate)  
+libperl5.38t64                   5.38.2-3.2ubuntu0.3                deb        (+1 duplicate)  
 libpixman-1-0                    0.42.2-1build1                     deb        (+1 duplicate)  
 libpng16-16t64                   1.6.43-5ubuntu0.6                  deb        (+1 duplicate)  
 libpolkit-agent-1-0              124-2ubuntu1.24.04.3               deb                        
@@ -474,9 +474,9 @@ openssl                          3.0.13-0ubuntu3.11                 deb
 p7zip                            16.02+transitional.1               deb                        
 passwd                           1:4.13+dfsg1-4ubuntu3.2            deb                        
 pci.ids                          0.0~2024.03.31-1ubuntu0.1          deb                        
-perl                             5.38.2-3.2ubuntu0.2                deb                        
-perl-base                        5.38.2-3.2ubuntu0.2                deb                        
-perl-modules-5.38                5.38.2-3.2ubuntu0.2                deb                        
+perl                             5.38.2-3.2ubuntu0.3                deb                        
+perl-base                        5.38.2-3.2ubuntu0.3                deb                        
+perl-modules-5.38                5.38.2-3.2ubuntu0.3                deb                        
 pkexec                           124-2ubuntu1.24.04.3               deb                        
 polkitd                          124-2ubuntu1.24.04.3               deb                        
 poppler-data                     0.4.12-1                           deb                        

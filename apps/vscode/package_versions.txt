@@ -1,8 +1,8 @@
 NAME                                        VERSION                               TYPE                    
 @anthropic-ai/sdk                           0.82.0                                npm                      
 @babel/runtime                              7.29.2                                npm                      
-@github/copilot                             1.0.61                                npm     (+1 duplicate)   
-@github/copilot-sdk                         1.0.1                                 npm                      
+@github/copilot                             1.0.64-0                              npm     (+1 duplicate)   
+@github/copilot-sdk                         1.0.2                                 npm                      
 @isaacs/fs-minipass                         4.0.1                                 npm                      
 @microsoft/1ds-core-js                      3.2.13                                npm                      
 @microsoft/1ds-post-js                      3.2.13                                npm                      
@@ -19,7 +19,7 @@ NAME                                        VERSION                             
 @pondwader/socks5-server                    1.0.10                                npm                      
 @tootallnate/once                           3.0.1                                 npm                      
 @types/semver                               7.5.8                                 npm                      
-@vscode/codicons                            0.0.46-16                             npm                      
+@vscode/codicons                            0.0.46-20                             npm                      
 @vscode/copilot-api                         0.4.2                                 npm                      
 @vscode/copilot-typescript-server-plugin    1.0.0                                 npm                      
 @vscode/deviceid                            0.1.5                                 npm                      
@@ -47,7 +47,7 @@ NAME                                        VERSION                             
 @xterm/addon-webgl                          0.20.0-beta.284                       npm                      
 @xterm/headless                             6.1.0-beta.285                        npm                      
 @xterm/xterm                                6.1.0-beta.285                        npm                      
-Code                                        1.125.1                               npm                      
+Code                                        1.126.0                               npm                      
 Microsoft.PowerShell.PSReadLine             2.4.3                                 dotnet                   
 Microsoft.PowerShell.PSReadLine.Polyfiller  1.0.0.0                               dotnet  (+1 duplicate)   
 Microsoft.PowerShell.Pager                  1.0.0.0                               dotnet                   
@@ -84,14 +84,14 @@ call-bind-apply-helpers                     1.0.2                               
 chownr                                      3.0.0                                 npm                      
 chrome-remote-interface                     0.33.0                                npm                      
 clojure                                     10.0.0                                npm                      
-code                                        1.125.1-1781859603                    deb                      
+code                                        1.126.0-1782208079                    deb                      
 coffeescript                                10.0.0                                npm                      
 combined-stream                             1.0.8                                 npm                      
 commander                                   12.1.0                                npm                      
 commander                                   2.11.0                                npm                      
 commander                                   8.3.0                                 npm                      
 configuration-editing                       10.0.0                                npm                      
-copilot-chat                                0.53.1                                npm                      
+copilot-chat                                0.54.0                                npm                      
 coreutils                                   9.7-3                                 deb                      
 cpp                                         10.0.0                                npm                      
 cpp                                         4:14.2.0-1                            deb                      
@@ -155,7 +155,7 @@ fontconfig-config                           2.15.0-2.3                          
 fonts-noto                                  20201225-2                            deb                      
 fonts-noto-core                             20201225-2                            deb                      
 fonts-noto-mono                             20201225-2                            deb                      
-form-data                                   4.0.5                                 npm                      
+form-data                                   4.0.6                                 npm                      
 fs-constants                                1.0.0                                 npm                      
 fs-extra                                    11.2.0                                npm                      
 fsharp                                      10.0.0                                npm                      
@@ -193,7 +193,7 @@ gzip                                        1.13-1                              
 handlebars                                  10.0.0                                npm                      
 has-symbols                                 1.1.0                                 npm                      
 has-tostringtag                             1.0.2                                 npm                      
-hasown                                      2.0.2                                 npm                      
+hasown                                      2.0.4                                 npm                      
 hicolor-icon-theme                          0.18-2                                deb                      
 hlsl                                        10.0.0                                npm                      
 hostname                                    3.25                                  deb                      
@@ -566,6 +566,7 @@ openssh-client                              1:10.0p1-7+deb13u4                  
 openssl                                     3.5.6-1~deb13u2                       deb                      
 openssl-provider-legacy                     3.5.6-1~deb13u2                       deb                      
 opentype.js                                 2.0.0                                 npm                      
+os-theme                                    0.0.8                                 npm                      
 passwd                                      1:4.17.4-2                            deb                      
 pend                                        1.2.0                                 npm                      
 perl                                        10.0.0                                npm                      
@@ -622,7 +623,7 @@ swift                                       10.0.0                              
 systemd                                     257.13-1~deb13u1                      deb                      
 sysvinit-utils                              3.14-4                                deb                      
 tar                                         1.35+dfsg-3.1                         deb                      
-tar                                         7.5.15                                npm                      
+tar                                         7.5.16                                npm                      
 tas-client                                  0.3.1                                 npm                      
 terminal-suggest                            1.0.1                                 npm                      
 theme-abyss                                 10.0.0                                npm                      
@@ -645,11 +646,12 @@ type                                        2.1.0                               
 type                                        2.7.2                                 npm                      
 typedarray-to-buffer                        3.1.5                                 npm                      
 typescript                                  10.0.0                                npm                      
+typescript                                  6.0.0-dev.20260416                    npm                      
 typescript                                  6.0.3                                 npm                      
 typescript-language-features                10.0.0                                npm                      
 tzdata                                      2026b-0+deb13u1                       deb                      
 udev                                        257.13-1~deb13u1                      deb                      
-undici                                      7.26.0                                npm                      
+undici                                      7.28.0                                npm                      
 universalify                                2.0.1                                 npm                      
 utf-8-validate                              5.0.10                                npm                      
 util-deprecate                              1.0.2                                 npm                      
