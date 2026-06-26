@@ -9,9 +9,8 @@ bash                            5.2.37-2+b9                           deb
 binutils                        2.44-3                                deb       
 binutils-common                 2.44-3                                deb       
 binutils-x86-64-linux-gnu       2.44-3                                deb       
-bitwarden                       2026.5.0                              deb       
+bitwarden                       2026.6.0                              deb       
 bsdutils                        1:2.41-5                              deb       
-bufferutil                      4.1.0                                 npm       
 ca-certificates                 20250419                              deb       
 coreutils                       9.7-3                                 deb       
 cpp                             4:14.2.0-1                            deb       
@@ -58,7 +57,6 @@ hostname                        3.25                                  deb
 init-system-helpers             1.69~deb13u1                          deb       
 iso-codes                       4.18.0-1                              deb       
 jq                              1.7.1-6+deb13u2                       deb       
-jszip                           3.10.1                                npm       
 keyboard-configuration          1.242~deb13u1                         deb       
 libabsl20240722                 20240722.0-4                          deb       
 libacl1                         2.3.2-2+b1                            deb       
@@ -398,7 +396,6 @@ python3-minimal                 3.13.5-1                              deb
 python3-packaging               25.0-1                                deb       
 python3.13                      3.13.5-2+deb13u2                      deb       
 python3.13-minimal              3.13.5-2+deb13u2                      deb       
-readable-stream                 2.3.8                                 npm       
 readline-common                 8.2-6                                 deb       
 rpcsvc-proto                    1.4.3-1                               deb       
 sed                             4.9-2+deb13u1                         deb       
@@ -410,7 +407,6 @@ sysvinit-utils                  3.14-4                                deb
 tar                             1.35+dfsg-3.1                         deb       
 tzdata                          2026b-0+deb13u1                       deb       
 udev                            257.13-1~deb13u1                      deb       
-utf-8-validate                  6.0.5                                 npm       
 util-linux                      2.41-5                                deb       
 uuid-dev                        2.41-5                                deb       
 x11-common                      1:7.7+24+deb13u1                      deb       

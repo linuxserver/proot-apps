@@ -256,7 +256,7 @@ openh264                        2.6.0-r0                 apk
 openjpeg                        2.5.4-r1                 apk           
 opus                            1.5.2-r1                 apk           
 orc                             0.4.41-r0                apk           
-p11-kit                         0.25.5-r2                apk           
+p11-kit                         0.26.2-r0                apk           
 pango                           1.56.4-r0                apk           
 pcre2                           10.47-r0                 apk           
 pillow                          11.3.0                   python        

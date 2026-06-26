@@ -238,7 +238,7 @@ numactl                    2.0.18-r0                apk
 once_cell                  1.21.3                   rust-crate    
 opus                       1.5.2-r1                 apk           
 orc                        0.4.41-r0                apk           
-p11-kit                    0.25.5-r2                apk           
+p11-kit                    0.26.2-r0                apk           
 pango                      1.56.4-r0                apk           
 paste                      1.0.15                   rust-crate    
 pastey                     0.1.0                    rust-crate    

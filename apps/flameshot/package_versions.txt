@@ -161,11 +161,11 @@ nettle                     3.10.2-r0                apk
 nghttp2-libs               1.69.0-r0                apk     
 opus                       1.6.1-r0                 apk     
 orc                        0.4.42-r0                apk     
-p11-kit                    0.26.2-r0                apk     
+p11-kit                    0.26.2-r1                apk     
 pango                      1.57.1-r0                apk     
 pcre2                      10.47-r1                 apk     
 pixman                     0.46.4-r0                apk     
-pkgconf                    2.9.90-r0                apk     
+pkgconf                    2.9.93-r0                apk     
 pulseaudio                 17.0-r7                  apk     
 pulseaudio-alsa            17.0-r7                  apk     
 pulseaudio-lang            17.0-r7                  apk     
@@ -173,9 +173,9 @@ pyc                        3.14.5-r2                apk
 python3                    3.14.5-r2                apk     
 python3-pyc                3.14.5-r2                apk     
 python3-pycache-pyc0       3.14.5-r2                apk     
-qt6-qtbase                 6.11.1-r0                apk     
-qt6-qtbase-wayland         6.11.1-r0                apk     
-qt6-qtbase-x11             6.11.1-r0                apk     
+qt6-qtbase                 6.11.1-r1                apk     
+qt6-qtbase-wayland         6.11.1-r1                apk     
+qt6-qtbase-x11             6.11.1-r1                apk     
 qt6-qtdeclarative          6.11.1-r1                apk     
 qt6-qtsvg                  6.11.1-r0                apk     
 readline                   8.3.3-r1                 apk     

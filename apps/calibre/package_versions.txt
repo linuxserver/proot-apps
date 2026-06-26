@@ -39,8 +39,8 @@ bytemuck                   1.14.0                   rust-crate
 c-ares                     1.34.6-r0                apk           
 ca-certificates-bundle     20251003-r0              apk           
 cairo                      1.18.4-r1                apk           
-calibre                    9.9.0-r0                 apk           
-calibre-pyc                9.9.0-r0                 apk           
+calibre                    9.9.0-r1                 apk           
+calibre-pyc                9.9.0-r1                 apk           
 cdparanoia-libs            10.2-r14                 apk           
 cfg-if                     1.0.0                    rust-crate    
 cfg-if                     1.0.1                    rust-crate    
@@ -234,7 +234,7 @@ libsrt                     1.5.5-r0                 apk
 libssh                     0.12.0-r0                apk           
 libssl3                    3.5.5-r0                 apk           
 libstdc++                  15.2.0-r6                apk           
-libstemmer                 2.2.0-r0                 apk           
+libstemmer                 3.1.1-r0                 apk           
 libtasn1                   4.21.0-r0                apk           
 libtheora                  1.2.0-r1                 apk           
 libturbojpeg               3.1.3-r0                 apk           
@@ -339,7 +339,7 @@ openjpeg                   2.5.4-r1                 apk
 optipng                    7.9.1-r1                 apk           
 opus                       1.6.1-r0                 apk           
 orc                        0.4.42-r0                apk           
-p11-kit                    0.26.2-r0                apk           
+p11-kit                    0.26.2-r1                apk           
 pango                      1.57.1-r0                apk           
 parted                     3.7-r0                   apk           
 paste                      1.0.15                   rust-crate    
@@ -349,7 +349,7 @@ pcre2                      10.47-r1                 apk
 pillow                     12.2.0                   python        
 pinentry                   1.3.2-r0                 apk           
 pixman                     0.46.4-r0                apk           
-pkgconf                    2.9.90-r0                apk           
+pkgconf                    2.9.93-r0                apk           
 polkit-noelogind-libs      127-r2                   apk           
 poppler                    25.12.0-r1               apk           
 ppv-lite86                 0.2.21                   rust-crate    
@@ -441,10 +441,10 @@ python-dateutil            2.9.0                    python
 python3                    3.14.5-r2                apk           
 python3-pyc                3.14.5-r2                apk           
 python3-pycache-pyc0       3.14.5-r2                apk           
-qt6-qtbase                 6.11.1-r0                apk           
-qt6-qtbase-private-dev     6.11.1-r0                apk           
-qt6-qtbase-wayland         6.11.1-r0                apk           
-qt6-qtbase-x11             6.11.1-r0                apk           
+qt6-qtbase                 6.11.1-r1                apk           
+qt6-qtbase-private-dev     6.11.1-r1                apk           
+qt6-qtbase-wayland         6.11.1-r1                apk           
+qt6-qtbase-x11             6.11.1-r1                apk           
 qt6-qtconnectivity         6.11.1-r0                apk           
 qt6-qtdeclarative          6.11.1-r1                apk           
 qt6-qtimageformats         6.11.1-r0                apk           

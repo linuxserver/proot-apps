@@ -374,7 +374,7 @@ openblas                   0.3.30-r2                apk
 opus                       1.5.2-r1                 apk                         
 opusfile                   0.12-r6                  apk                         
 orc                        0.4.41-r0                apk                         
-p11-kit                    0.25.5-r2                apk                         
+p11-kit                    0.26.2-r0                apk                         
 pango                      1.56.4-r0                apk                         
 paste                      1.0.15                   rust-crate                  
 pastey                     0.1.0                    rust-crate                  

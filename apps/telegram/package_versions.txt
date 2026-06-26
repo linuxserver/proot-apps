@@ -331,7 +331,7 @@ openal-soft-libs                          1.24.3-r0                apk
 openh264                                  2.6.0-r0                 apk                         
 opus                                      1.5.2-r1                 apk                         
 orc                                       0.4.41-r0                apk                         
-p11-kit                                   0.25.5-r2                apk                         
+p11-kit                                   0.26.2-r0                apk                         
 pango                                     1.56.4-r0                apk                         
 paste                                     1.0.15                   rust-crate                  
 pastey                                    0.1.0                    rust-crate                  
