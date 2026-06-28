@@ -119,7 +119,7 @@ lang                         0.1-r2                   apk
 lcms2                        2.19-r0                  apk                         
 libSvtAv1Enc                 4.1.0-r0                 apk                         
 libapk                       3.0.3-r2                 apk                         
-libass                       0.17.4-r1                apk                         
+libass                       0.17.5-r0                apk                         
 libasyncns                   0.8-r5                   apk                         
 libatomic                    15.2.0-r6                apk                         
 libb2                        0.98.1-r3                apk                         
@@ -141,7 +141,7 @@ libdvdread                   6.1.3-r2                 apk
 libeconf                     0.8.3-r0                 apk                         
 libelf                       0.195-r0                 apk                         
 libevdev                     1.13.6-r0                apk                         
-libexpat                     2.8.1-r0                 apk                         
+libexpat                     2.8.2-r0                 apk                         
 libffi                       3.5.2-r1                 apk                         
 libflac                      1.4.3-r2                 apk                         
 libgcc                       15.2.0-r6                apk                         
