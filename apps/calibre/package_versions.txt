@@ -349,7 +349,7 @@ pcre2                      10.47-r1                 apk
 pillow                     12.2.0                   python        
 pinentry                   1.3.2-r0                 apk           
 pixman                     0.46.4-r0                apk           
-pkgconf                    2.9.95-r0                apk           
+pkgconf                    2.9.96-r0                apk           
 polkit-noelogind-libs      127-r2                   apk           
 poppler                    25.12.0-r1               apk           
 ppv-lite86                 0.2.21                   rust-crate    
@@ -441,10 +441,9 @@ python-dateutil            2.9.0                    python
 python3                    3.14.5-r2                apk           
 python3-pyc                3.14.5-r2                apk           
 python3-pycache-pyc0       3.14.5-r2                apk           
-qt6-qtbase                 6.11.1-r1                apk           
-qt6-qtbase-private-dev     6.11.1-r1                apk           
-qt6-qtbase-wayland         6.11.1-r1                apk           
-qt6-qtbase-x11             6.11.1-r1                apk           
+qt6-qtbase                 6.11.1-r2                apk           
+qt6-qtbase-private-dev     6.11.1-r2                apk           
+qt6-qtbase-x11             6.11.1-r2                apk           
 qt6-qtconnectivity         6.11.1-r0                apk           
 qt6-qtdeclarative          6.11.1-r1                apk           
 qt6-qtimageformats         6.11.1-r0                apk           
@@ -488,7 +487,7 @@ speech-dispatcher-lang     0.12.1-r4                apk
 speech-dispatcher-pyc      0.12.1-r4                apk           
 speexdsp                   1.2.1-r2                 apk           
 spirv-tools                1.4.341.0-r0             apk           
-sqlite-libs                3.53.2-r0                apk           
+sqlite-libs                3.53.3-r0                apk           
 ssl_client                 1.37.0-r31               apk           
 stable_deref_trait         1.2.0                    rust-crate    
 syn                        2.0.102                  rust-crate    

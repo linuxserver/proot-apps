@@ -9,7 +9,7 @@ bash                            5.2.37-2+b9                           deb
 binutils                        2.44-3                                deb       
 binutils-common                 2.44-3                                deb       
 binutils-x86-64-linux-gnu       2.44-3                                deb       
-bitwarden                       2026.6.0                              deb       
+bitwarden                       2026.6.1                              deb       
 bsdutils                        1:2.41-5                              deb       
 ca-certificates                 20250419                              deb       
 coreutils                       9.7-3                                 deb       
