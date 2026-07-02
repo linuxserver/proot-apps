@@ -19,7 +19,7 @@ cpp-13                              13.3.0-6ubuntu2~24.04.1             deb
 cpp-13-x86-64-linux-gnu             13.3.0-6ubuntu2~24.04.1             deb                     
 cpp-x86-64-linux-gnu                4:13.2.0-7ubuntu1                   deb                     
 cryptography                        41.0.7                              python  (+1 duplicate)  
-curl                                8.5.0-2ubuntu10.9                   deb                     
+curl                                8.5.0-2ubuntu10.10                  deb                     
 dash                                0.5.12-6ubuntu5                     deb                     
 dbus                                1.14.10-4ubuntu4.1                  deb                     
 dbus-bin                            1.14.10-4ubuntu4.1                  deb                     
@@ -122,8 +122,8 @@ libcryptsetup12                     2:2.7.0-1ubuntu4.2                  deb
 libctf-nobfd0                       2.42-4ubuntu2.10                    deb                     
 libctf0                             2.42-4ubuntu2.10                    deb                     
 libcups2t64                         2.4.7-1.2ubuntu7.14                 deb                     
-libcurl3t64-gnutls                  8.5.0-2ubuntu10.9                   deb                     
-libcurl4t64                         8.5.0-2ubuntu10.9                   deb                     
+libcurl3t64-gnutls                  8.5.0-2ubuntu10.10                  deb                     
+libcurl4t64                         8.5.0-2ubuntu10.10                  deb                     
 libdatrie1                          0.2.13-3build1                      deb                     
 libdav1d7                           1.4.1-1build1                       deb                     
 libdb5.3t64                         5.3.28+dfsg2-7                      deb                     
@@ -425,7 +425,7 @@ libyaml-0-2                         0.2.5-1build1                       deb
 libzstd1                            1.5.5+dfsg2-2build1.1               deb                     
 libzvbi-common                      0.2.42-2                            deb                     
 libzvbi0t64                         0.2.42-2                            deb                     
-linux-libc-dev                      6.8.0-124.124                       deb                     
+linux-libc-dev                      6.8.0-134.134                       deb                     
 locales-all                         2.39-0ubuntu8.7                     deb                     
 login                               1:4.13+dfsg1-4ubuntu3.2             deb                     
 logsave                             1.47.0-2.4~exp1ubuntu4.1            deb                     
