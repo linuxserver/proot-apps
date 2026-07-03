@@ -165,7 +165,7 @@ p11-kit                    0.26.2-r1                apk
 pango                      1.57.1-r0                apk     
 pcre2                      10.47-r1                 apk     
 pixman                     0.46.4-r0                apk     
-pkgconf                    2.9.96-r0                apk     
+pkgconf                    2.9.98-r0                apk     
 pulseaudio                 17.0-r7                  apk     
 pulseaudio-alsa            17.0-r7                  apk     
 pulseaudio-lang            17.0-r7                  apk     

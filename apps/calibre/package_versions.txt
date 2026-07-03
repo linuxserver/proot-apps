@@ -349,7 +349,7 @@ pcre2                      10.47-r1                 apk
 pillow                     12.2.0                   python        
 pinentry                   1.3.2-r0                 apk           
 pixman                     0.46.4-r0                apk           
-pkgconf                    2.9.96-r0                apk           
+pkgconf                    2.9.98-r0                apk           
 polkit-noelogind-libs      127-r2                   apk           
 poppler                    25.12.0-r1               apk           
 ppv-lite86                 0.2.21                   rust-crate    
