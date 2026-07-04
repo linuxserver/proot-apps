@@ -173,7 +173,7 @@ libfuse3-3                      3.10.5-1build1                           deb
 libgbm1                         23.2.1-1ubuntu3.1~22.04.4                deb       
 libgcc-11-dev                   11.4.0-1ubuntu1~22.04.3                  deb       
 libgcc-s1                       12.3.0-1ubuntu1~22.04.3                  deb       
-libgcrypt20                     1.9.4-3ubuntu3                           deb       
+libgcrypt20                     1.9.4-3ubuntu3.2                         deb       
 libgdk-pixbuf-2.0-0             2.42.8+dfsg-1ubuntu0.5                   deb       
 libgdk-pixbuf2.0-common         2.42.8+dfsg-1ubuntu0.5                   deb       
 libgirepository-1.0-1           1.72.0-1                                 deb       
@@ -188,7 +188,7 @@ libglvnd0                       1.4.0-1                                  deb
 libglx-mesa0                    23.2.1-1ubuntu3.1~22.04.4                deb       
 libglx0                         1.4.0-1                                  deb       
 libgmp10                        2:6.2.1+dfsg-3ubuntu1                    deb       
-libgnutls30                     3.7.3-4ubuntu1.8                         deb       
+libgnutls30                     3.7.3-4ubuntu1.9                         deb       
 libgomp1                        12.3.0-1ubuntu1~22.04.3                  deb       
 libgpg-error0                   1.43-3                                   deb       
 libgpm2                         1.20.7-10build1                          deb       
@@ -240,7 +240,7 @@ liblocale-gettext-perl          1.07-4build3                             deb
 liblsan0                        12.3.0-1ubuntu1~22.04.3                  deb       
 libltdl7                        2.4.6-15build2                           deb       
 liblz4-1                        1.9.3-2build2                            deb       
-liblzma5                        5.2.5-2ubuntu1                           deb       
+liblzma5                        5.2.5-2ubuntu1.1                         deb       
 libmagic-mgc                    1:5.41-3ubuntu0.1                        deb       
 libmagic1                       1:5.41-3ubuntu0.1                        deb       
 libmanette-0.2-0                0.2.6-3build1                            deb       
@@ -256,7 +256,7 @@ libncurses6                     6.3-2ubuntu0.1                           deb
 libncursesw6                    6.3-2ubuntu0.1                           deb       
 libnettle8                      3.7.3-1build2                            deb       
 libnfsidmap1                    1:2.6.1-1ubuntu1.2                       deb       
-libnghttp2-14                   1.43.0-1ubuntu0.3                        deb       
+libnghttp2-14                   1.43.0-1ubuntu0.4                        deb       
 libnl-3-200                     3.5.0-0.1                                deb       
 libnl-route-3-200               3.5.0-0.1                                deb       
 libnpth0                        1.6-3build2                              deb       
@@ -341,7 +341,7 @@ libspeexdsp1                    1.2~rc1.2-1.1ubuntu3                     deb
 libsqlite3-0                    3.37.2-2ubuntu0.6                        deb       
 libss2                          1.46.5-2ubuntu1.2                        deb       
 libssh-4                        0.9.6-2ubuntu0.22.04.7                   deb       
-libssl3                         3.0.2-0ubuntu1.23                        deb       
+libssl3                         3.0.2-0ubuntu1.25                        deb       
 libsss-certmap0                 2.6.3-1ubuntu3.6                         deb       
 libsss-idmap0                   2.6.3-1ubuntu3.6                         deb       
 libsss-nss-idmap0               2.6.3-1ubuntu3.6                         deb       
@@ -459,7 +459,7 @@ opensc-pkcs11                   0.22.0-1ubuntu2.1                        deb
 openssl                         3.0.2-0ubuntu1.25                        deb       
 passwd                          1:4.8.1-2ubuntu2.2                       deb       
 pcscd                           1.9.5-3ubuntu1                           deb       
-perl-base                       5.34.0-3ubuntu1.5                        deb       
+perl-base                       5.34.0-3ubuntu1.7                        deb       
 pinentry-curses                 1.1.1-1build2                            deb       
 pipewire                        0.3.48-1ubuntu3                          deb       
 pipewire-bin                    0.3.48-1ubuntu3                          deb       
@@ -502,7 +502,7 @@ systemd                         249.11-0ubuntu3.21                       deb
 systemd-sysv                    249.11-0ubuntu3.21                       deb       
 systemd-timesyncd               249.11-0ubuntu3.21                       deb       
 sysvinit-utils                  3.01-1ubuntu1                            deb       
-tar                             1.34+dfsg-1ubuntu0.1.22.04.2             deb       
+tar                             1.34+dfsg-1ubuntu0.1.22.04.3             deb       
 ubuntu-keyring                  2021.03.26                               deb       
 ubuntu-mono                     20.10-0ubuntu2                           deb       
 ucf                             3.0043                                   deb       
