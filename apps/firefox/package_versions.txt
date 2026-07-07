@@ -5,7 +5,7 @@ alpine-baselayout          3.7.1-r10                apk
 alpine-baselayout-data     3.7.1-r10                apk           
 alpine-keys                2.6-r0                   apk           
 alpine-release             3.24.0_alpha20260127-r0  apk           
-alsa-lib                   1.2.15.3-r0              apk           
+alsa-lib                   1.2.16.1-r0              apk           
 alsa-plugins-pulse         1.2.12-r2                apk           
 anstream                   0.6.19                   rust-crate    
 anstyle                    1.0.11                   rust-crate    
@@ -99,7 +99,7 @@ gtk+3.0                    3.24.52-r0               apk
 gtk+3.0-lang               3.24.52-r0               apk           
 harfbuzz                   14.2.1-r0                apk           
 heck                       0.5.0                    rust-crate    
-hwdata-pci                 0.408-r0                 apk           
+hwdata-pci                 0.409-r0                 apk           
 icu-data-en                78.1-r0                  apk           
 icu-libs                   78.1-r0                  apk           
 interpolate_name           0.2.4                    rust-crate    
@@ -119,7 +119,7 @@ libasyncns                 0.8-r5                   apk
 libatk-1.0                 2.60.5-r0                apk           
 libatk-bridge-2.0          2.60.5-r0                apk           
 libatomic                  15.2.0-r6                apk           
-libblkid                   2.42.1-r0                apk           
+libblkid                   2.42.2-r0                apk           
 libbsd                     0.12.2-r0                apk           
 libbz2                     1.0.8-r6                 apk           
 libc                       0.2.172                  rust-crate    
@@ -149,7 +149,7 @@ libjxl                     0.11.2-r2                apk
 libltdl                    2.6.0-r1                 apk           
 libmagic                   5.47-r2                  apk           
 libmd                      1.2.0-r0                 apk           
-libmount                   2.42.1-r0                apk           
+libmount                   2.42.2-r0                apk           
 libncursesw                6.6_p20260516-r0         apk           
 libogg                     1.3.6-r0                 apk           
 libpanelw                  6.6_p20260516-r0         apk           
@@ -167,7 +167,7 @@ libstdc++                  15.2.0-r6                apk
 libtasn1                   4.21.0-r0                apk           
 libtheora                  1.2.0-r1                 apk           
 libunistring               1.4.2-r0                 apk           
-libuuid                    2.42.1-r0                apk           
+libuuid                    2.42.2-r0                apk           
 libva                      2.23.0-r0                apk           
 libva-intel-driver         2.4.1-r2                 apk           
 libvdpau                   1.5-r4                   apk           

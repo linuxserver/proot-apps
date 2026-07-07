@@ -630,7 +630,7 @@ libz3-4                                 4.13.3-1                                
 libzstd1                                1.5.7+dfsg-1                               deb                            
 libzvbi-common                          0.2.44-1                                   deb                            
 libzvbi0t64                             0.2.44-1                                   deb                            
-linux-libc-dev                          6.12.94-1                                  deb                            
+linux-libc-dev                          6.12.95-1                                  deb                            
 liquibase-core                          4.23.2                                     java-archive                   
 listenablefuture                        9999.0-empty-to-avoid-conflict-with-guava  java-archive                   
 locales-all                             2.41-12+deb13u3                            deb                            
