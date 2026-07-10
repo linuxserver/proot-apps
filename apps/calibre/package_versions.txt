@@ -36,7 +36,7 @@ brotli-libs                1.2.0-r1                 apk
 busybox                    1.37.0-r31               apk           
 busybox-binsh              1.37.0-r31               apk           
 bytemuck                   1.14.0                   rust-crate    
-c-ares                     1.34.6-r0                apk           
+c-ares                     1.34.8-r0                apk           
 ca-certificates-bundle     20251003-r0              apk           
 cairo                      1.18.4-r1                apk           
 calibre                    9.10.0-r0                apk           
@@ -419,6 +419,7 @@ py3-six                    1.17.0-r1                apk
 py3-six-pyc                1.17.0-r1                apk           
 py3-soupsieve              2.7-r1                   apk           
 py3-soupsieve-pyc          2.7-r1                   apk           
+py3-speech-dispatcher      0.12.1-r5                apk           
 py3-typing-extensions      4.15.0-r1                apk           
 py3-typing-extensions-pyc  4.15.0-r1                apk           
 py3-tzdata                 2025.3-r1                apk           
@@ -427,6 +428,8 @@ py3-tzlocal                5.3.1-r1                 apk
 py3-tzlocal-pyc            5.3.1-r1                 apk           
 py3-webencodings           0.5.1-r10                apk           
 py3-webencodings-pyc       0.5.1-r10                apk           
+py3-xdg                    0.28-r7                  apk           
+py3-xdg-pyc                0.28-r7                  apk           
 py3-xxhash                 3.5.0-r1                 apk           
 py3-xxhash-pyc             3.5.0-r1                 apk           
 py3-zeroconf               0.147.2-r1               apk           
@@ -441,6 +444,7 @@ python-dateutil            2.9.0                    python
 python3                    3.14.5-r2                apk           
 python3-pyc                3.14.5-r2                apk           
 python3-pycache-pyc0       3.14.5-r2                apk           
+pyxdg                      0.28                     python        
 qt6-qtbase                 6.11.1-r2                apk           
 qt6-qtbase-private-dev     6.11.1-r2                apk           
 qt6-qtbase-x11             6.11.1-r2                apk           
@@ -482,9 +486,9 @@ six                        1.17.0                   python
 snappy                     1.2.2-r0                 apk           
 soupsieve                  2.7                      python        
 soxr                       0.1.3-r7                 apk           
-speech-dispatcher          0.12.1-r4                apk           
-speech-dispatcher-lang     0.12.1-r4                apk           
-speech-dispatcher-pyc      0.12.1-r4                apk           
+speech-dispatcher          0.12.1-r5                apk           
+speech-dispatcher-lang     0.12.1-r5                apk           
+speech-dispatcher-pyc      0.12.1-r5                apk           
 speexdsp                   1.2.1-r2                 apk           
 spirv-tools                1.4.341.0-r0             apk           
 sqlite-libs                3.53.3-r0                apk           

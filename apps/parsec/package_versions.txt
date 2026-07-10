@@ -307,7 +307,7 @@ netcat-openbsd                  1.229-1                               deb
 ocl-icd-libopencl1              2.3.3-1                               deb     
 openssl                         3.5.6-1~deb13u2                       deb     
 openssl-provider-legacy         3.5.6-1~deb13u2                       deb     
-parsec                          150-97c                               deb     
+parsec                          150-104a                              deb     
 passwd                          1:4.17.4-2                            deb     
 perl-base                       5.40.1-6                              deb     
 pulseaudio                      17.0+dfsg1-2+b1                       deb     

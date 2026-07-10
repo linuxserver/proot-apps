@@ -290,7 +290,7 @@ libqt5waylandcompositor5            5.15.13-1                           deb
 libqt5widgets5t64                   5.15.13+dfsg-1ubuntu1               deb                     
 libquadmath0                        14.2.0-4ubuntu2~24.04.1             deb                     
 librav1e0                           0.7.1-2                             deb                     
-libraw23t64                         0.21.2-2.1ubuntu0.24.04.1           deb                     
+libraw23t64                         0.21.2-2.1ubuntu0.24.04.2           deb                     
 libreadline8t64                     8.2-4build1                         deb                     
 librsvg2-2                          2.58.0+dfsg-1build1                 deb                     
 librsvg2-common                     2.58.0+dfsg-1build1                 deb                     
