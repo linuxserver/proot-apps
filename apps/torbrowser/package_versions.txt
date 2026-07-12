@@ -32,7 +32,7 @@ debian-archive-keyring          2025.1                                deb
 debianutils                     5.23.2                                deb       
 desktop-file-utils              0.28-1                                deb       
 diffutils                       1:3.10-4                              deb       
-dirmngr                         2.4.7-21+deb13u1+b3                   deb       
+dirmngr                         2.4.7-21+deb13u1+b4                   deb       
 dpkg                            1.22.22                               deb       
 findutils                       4.10.0-3                              deb       
 fontconfig                      2.15.0-2.3                            deb       
@@ -48,10 +48,10 @@ gcc-x86-64-linux-gnu            4:14.2.0-1                            deb
 gnupg                           2.4.7-21+deb13u1                      deb       
 gnupg-l10n                      2.4.7-21+deb13u1                      deb       
 gpg                             1.24.2                                python    
-gpg                             2.4.7-21+deb13u1+b3                   deb       
-gpg-agent                       2.4.7-21+deb13u1+b3                   deb       
-gpgconf                         2.4.7-21+deb13u1+b3                   deb       
-gpgsm                           2.4.7-21+deb13u1+b3                   deb       
+gpg                             2.4.7-21+deb13u1+b4                   deb       
+gpg-agent                       2.4.7-21+deb13u1+b4                   deb       
+gpgconf                         2.4.7-21+deb13u1+b4                   deb       
+gpgsm                           2.4.7-21+deb13u1+b4                   deb       
 grep                            3.11-4                                deb       
 gtk-update-icon-cache           4.18.6+ds-2                           deb       
 gzip                            1.13-1                                deb       
@@ -195,7 +195,7 @@ liblocale-gettext-perl          1.07-7+b1                             deb
 liblsan0                        14.2.0-19                             deb       
 libltdl7                        2.5.4-4                               deb       
 liblz4-1                        1.10.0-4                              deb       
-liblzma5                        5.8.1-1                               deb       
+liblzma5                        5.8.1-1+deb13u1                       deb       
 libmd0                          1.1.0-2+b1                            deb       
 libmd4c0                        0.5.2-2+b1                            deb       
 libmount1                       2.41-5                                deb       
@@ -232,9 +232,9 @@ libpsl5t64                      0.21.2-1.1+b1                         deb
 libpulse0                       17.0+dfsg1-2+b1                       deb       
 libpulsedsp                     17.0+dfsg1-2+b1                       deb       
 libpython3-stdlib               3.13.5-1                              deb       
-libpython3.13                   3.13.5-2+deb13u2                      deb       
-libpython3.13-minimal           3.13.5-2+deb13u2                      deb       
-libpython3.13-stdlib            3.13.5-2+deb13u2                      deb       
+libpython3.13                   3.13.5-2+deb13u3                      deb       
+libpython3.13-minimal           3.13.5-2+deb13u3                      deb       
+libpython3.13-stdlib            3.13.5-2+deb13u3                      deb       
 libqt5core5t64                  5.15.15+dfsg-6+deb13u1                deb       
 libqt5dbus5t64                  5.15.15+dfsg-6+deb13u1                deb       
 libqt5designer5                 5.15.15-6                             deb       
@@ -402,7 +402,7 @@ python3-certifi                 2025.1.31+ds-1                        deb
 python3-chardet                 5.2.0+dfsg-2                          deb       
 python3-charset-normalizer      3.4.2-1                               deb       
 python3-gpg                     1.24.2-3                              deb       
-python3-idna                    3.10-1                                deb       
+python3-idna                    3.10-1+deb13u1                        deb       
 python3-minimal                 3.13.5-1                              deb       
 python3-packaging               25.0-1                                deb       
 python3-pyqt5                   5.15.11+dfsg-2                        deb       
@@ -410,8 +410,8 @@ python3-pyqt5.sip               12.17.0-1+b1                          deb
 python3-requests                2.32.3+dfsg-5+deb13u1                 deb       
 python3-socks                   1.7.1+dfsg-1                          deb       
 python3-urllib3                 2.3.0-3+deb13u2                       deb       
-python3.13                      3.13.5-2+deb13u2                      deb       
-python3.13-minimal              3.13.5-2+deb13u2                      deb       
+python3.13                      3.13.5-2+deb13u3                      deb       
+python3.13-minimal              3.13.5-2+deb13u3                      deb       
 readline-common                 8.2-6                                 deb       
 requests                        2.32.3                                python    
 rpcsvc-proto                    1.4.3-1                               deb       

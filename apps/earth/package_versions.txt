@@ -14,7 +14,7 @@ cpp                             4:14.2.0-1                            deb
 cpp-14                          14.2.0-19                             deb     
 cpp-14-x86-64-linux-gnu         14.2.0-19                             deb     
 cpp-x86-64-linux-gnu            4:14.2.0-1                            deb     
-curl                            8.14.1-2+deb13u3                      deb     
+curl                            8.14.1-2+deb13u4                      deb     
 dash                            0.5.12-12                             deb     
 dbus-bin                        1.16.2-2                              deb     
 dbus-daemon                     1.16.2-2                              deb     
@@ -86,8 +86,8 @@ libcrypt1                       1:4.4.38-1                            deb
 libctf-nobfd0                   2.44-3                                deb     
 libctf0                         2.44-3                                deb     
 libcups2t64                     2.4.10-3+deb13u2                      deb     
-libcurl3t64-gnutls              8.14.1-2+deb13u3                      deb     
-libcurl4t64                     8.14.1-2+deb13u3                      deb     
+libcurl3t64-gnutls              8.14.1-2+deb13u4                      deb     
+libcurl4t64                     8.14.1-2+deb13u4                      deb     
 libdatrie1                      0.2.13-3+b1                           deb     
 libdav1d7                       1.5.1-1                               deb     
 libdb5.3t64                     5.3.28+dfsg2-9                        deb     

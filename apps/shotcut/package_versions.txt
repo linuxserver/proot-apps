@@ -14,7 +14,7 @@ cpp                                  4:14.2.0-1                            deb
 cpp-14                               14.2.0-19                             deb     
 cpp-14-x86-64-linux-gnu              14.2.0-19                             deb     
 cpp-x86-64-linux-gnu                 4:14.2.0-1                            deb     
-curl                                 8.14.1-2+deb13u3                      deb     
+curl                                 8.14.1-2+deb13u4                      deb     
 dash                                 0.5.12-12                             deb     
 dbus-bin                             1.16.2-2                              deb     
 dbus-daemon                          1.16.2-2                              deb     
@@ -25,7 +25,7 @@ debian-archive-keyring               2025.1                                deb
 debianutils                          5.23.2                                deb     
 desktop-file-utils                   0.28-1                                deb     
 diffutils                            1:3.10-4                              deb     
-dirmngr                              2.4.7-21+deb13u1+b3                   deb     
+dirmngr                              2.4.7-21+deb13u1+b4                   deb     
 dpkg                                 1.22.22                               deb     
 ffmpeg                               7:7.1.5-0+deb13u1                     deb     
 findutils                            4.10.0-3                              deb     
@@ -44,10 +44,10 @@ gdal-data                            3.10.3+dfsg-1                         deb
 gdal-plugins                         3.10.3+dfsg-1                         deb     
 gnupg                                2.4.7-21+deb13u1                      deb     
 gnupg-l10n                           2.4.7-21+deb13u1                      deb     
-gpg                                  2.4.7-21+deb13u1+b3                   deb     
-gpg-agent                            2.4.7-21+deb13u1+b3                   deb     
-gpgconf                              2.4.7-21+deb13u1+b3                   deb     
-gpgsm                                2.4.7-21+deb13u1+b3                   deb     
+gpg                                  2.4.7-21+deb13u1+b4                   deb     
+gpg-agent                            2.4.7-21+deb13u1+b4                   deb     
+gpgconf                              2.4.7-21+deb13u1+b4                   deb     
+gpgsm                                2.4.7-21+deb13u1+b4                   deb     
 grep                                 3.11-4                                deb     
 gzip                                 1.13-1                                deb     
 hostname                             3.25                                  deb     
@@ -67,7 +67,7 @@ libasan8                             14.2.0-19                             deb
 libasound2-data                      1.2.14-1                              deb     
 libasound2-plugins                   1.2.12-2+b1                           deb     
 libasound2t64                        1.2.14-1                              deb     
-libass9                              1:0.17.3-1+b1                         deb     
+libass9                              1:0.17.3-1+deb13u1                    deb     
 libassuan9                           3.0.2-2                               deb     
 libasyncns0                          0.8-6+b5                              deb     
 libatomic1                           14.2.0-19                             deb     
@@ -96,7 +96,7 @@ libc-dev-bin                         2.41-12+deb13u3                       deb
 libc-l10n                            2.41-12+deb13u3                       deb     
 libc6                                2.41-12+deb13u3                       deb     
 libc6-dev                            2.41-12+deb13u3                       deb     
-libcaca0                             0.99.beta20-5                         deb     
+libcaca0                             0.99.beta20-5+deb13u1                 deb     
 libcairo-gobject2                    1.18.4-1+b1                           deb     
 libcairo2                            1.18.4-1+b1                           deb     
 libcap-ng0                           0.8.5-4+b1                            deb     
@@ -116,8 +116,8 @@ libcrypt-dev                         1:4.4.38-1                            deb
 libcrypt1                            1:4.4.38-1                            deb     
 libctf-nobfd0                        2.44-3                                deb     
 libctf0                              2.44-3                                deb     
-libcurl3t64-gnutls                   8.14.1-2+deb13u3                      deb     
-libcurl4t64                          8.14.1-2+deb13u3                      deb     
+libcurl3t64-gnutls                   8.14.1-2+deb13u4                      deb     
+libcurl4t64                          8.14.1-2+deb13u4                      deb     
 libdatrie1                           0.2.13-3+b1                           deb     
 libdav1d7                            1.5.1-1                               deb     
 libdb5.3t64                          5.3.28+dfsg2-9                        deb     
@@ -170,7 +170,7 @@ libgeos-c1t64                        3.13.1-1                              deb
 libgeos3.13.1                        3.13.1-1                              deb     
 libgeotiff5                          1.7.4-1                               deb     
 libgfortran5                         14.2.0-19                             deb     
-libgif7                              5.2.2-1+b1                            deb     
+libgif7                              5.2.2-1+deb13u1                       deb     
 libgl1                               1.7.0-1+b2                            deb     
 libgl1-mesa-dri                      25.0.7-2                              deb     
 libglib2.0-0t64                      2.84.4-3~deb13u3                      deb     
@@ -269,7 +269,7 @@ libngtcp2-crypto-gnutls8             1.11.0-1+deb13u1                      deb
 libnorm1t64                          1.5.9+dfsg-3.1+b2                     deb     
 libnpth0t64                          1.8-3                                 deb     
 libnspr4                             2:4.36-1                              deb     
-libnss3                              2:3.110-1+deb13u2                     deb     
+libnss3                              2:3.110-1+deb13u3                     deb     
 libnuma1                             2.0.19-1                              deb     
 libodbc2                             2.3.12-2                              deb     
 libodbcinst2                         2.3.12-2                              deb     
@@ -312,11 +312,11 @@ libpixman-1-0                        0.44.0-3                              deb
 libplacebo349                        7.349.0-3                             deb     
 libpng16-16t64                       1.6.48-1+deb13u5                      deb     
 libpocketsphinx3                     0.8+5prealpha+1-15+b4                 deb     
-libpoppler147                        25.03.0-5+deb13u3                     deb     
+libpoppler147                        25.03.0-5+deb13u4                     deb     
 libpostproc58                        7:7.1.5-0+deb13u1                     deb     
 libpq5                               17.10-0+deb13u1                       deb     
 libproj25                            9.6.0-1                               deb     
-libprotobuf32t64                     3.21.12-11                            deb     
+libprotobuf32t64                     3.21.12-11+deb13u1                    deb     
 libproxy1v5                          0.5.9-1                               deb     
 libpsl5t64                           0.21.2-1.1+b1                         deb     
 libpulse0                            17.0+dfsg1-2+b1                       deb     

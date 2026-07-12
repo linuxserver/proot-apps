@@ -17,7 +17,7 @@ cpp                             4:14.2.0-1                            deb
 cpp-14                          14.2.0-19                             deb     
 cpp-14-x86-64-linux-gnu         14.2.0-19                             deb     
 cpp-x86-64-linux-gnu            4:14.2.0-1                            deb     
-curl                            8.14.1-2+deb13u3                      deb     
+curl                            8.14.1-2+deb13u4                      deb     
 dash                            0.5.12-12                             deb     
 dbus                            1.16.2-2                              deb     
 dbus-bin                        1.16.2-2                              deb     
@@ -32,7 +32,7 @@ debian-archive-keyring          2025.1                                deb
 debianutils                     5.23.2                                deb     
 desktop-file-utils              0.28-1                                deb     
 diffutils                       1:3.10-4                              deb     
-dirmngr                         2.4.7-21+deb13u1+b3                   deb     
+dirmngr                         2.4.7-21+deb13u1+b4                   deb     
 dpkg                            1.22.22                               deb     
 file-uri-to-path                1.0.0                                 npm     
 findutils                       4.10.0-3                              deb     
@@ -48,10 +48,10 @@ gcc-14-x86-64-linux-gnu         14.2.0-19                             deb
 gcc-x86-64-linux-gnu            4:14.2.0-1                            deb     
 gnupg                           2.4.7-21+deb13u1                      deb     
 gnupg-l10n                      2.4.7-21+deb13u1                      deb     
-gpg                             2.4.7-21+deb13u1+b3                   deb     
-gpg-agent                       2.4.7-21+deb13u1+b3                   deb     
-gpgconf                         2.4.7-21+deb13u1+b3                   deb     
-gpgsm                           2.4.7-21+deb13u1+b3                   deb     
+gpg                             2.4.7-21+deb13u1+b4                   deb     
+gpg-agent                       2.4.7-21+deb13u1+b4                   deb     
+gpgconf                         2.4.7-21+deb13u1+b4                   deb     
+gpgsm                           2.4.7-21+deb13u1+b4                   deb     
 grep                            3.11-4                                deb     
 gtk-update-icon-cache           4.18.6+ds-2                           deb     
 gzip                            1.13-1                                deb     
@@ -118,8 +118,8 @@ libcrypt1                       1:4.4.38-1                            deb
 libctf-nobfd0                   2.44-3                                deb     
 libctf0                         2.44-3                                deb     
 libcups2t64                     2.4.10-3+deb13u2                      deb     
-libcurl3t64-gnutls              8.14.1-2+deb13u3                      deb     
-libcurl4t64                     8.14.1-2+deb13u3                      deb     
+libcurl3t64-gnutls              8.14.1-2+deb13u4                      deb     
+libcurl4t64                     8.14.1-2+deb13u4                      deb     
 libdatrie1                      0.2.13-3+b1                           deb     
 libdav1d7                       1.5.1-1                               deb     
 libdb5.3t64                     5.3.28+dfsg2-9                        deb     
@@ -294,7 +294,7 @@ libngtcp2-crypto-gnutls8        1.11.0-1+deb13u1                      deb
 libnotify4                      0.8.6-1                               deb     
 libnpth0t64                     1.8-3                                 deb     
 libnspr4                        2:4.36-1                              deb     
-libnss3                         2:3.110-1+deb13u2                     deb     
+libnss3                         2:3.110-1+deb13u3                     deb     
 libnuma1                        2.0.19-1                              deb     
 libogg0                         1.3.5-3+b2                            deb     
 libopengl0                      1.7.0-1+b2                            deb     

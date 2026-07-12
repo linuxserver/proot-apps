@@ -329,7 +329,7 @@ libgcc-14-dev                                           14.2.0-19               
 libgcc-s1                                               14.2.0-19                                                                     deb                             
 libgdk-pixbuf-2.0-0                                     2.42.12+dfsg-4+deb13u1                                                        deb                             
 libgdk-pixbuf2.0-common                                 2.42.12+dfsg-4+deb13u1                                                        deb                             
-libgif7                                                 5.2.2-1+b1                                                                    deb                             
+libgif7                                                 5.2.2-1+deb13u1                                                               deb                             
 libgl1                                                  1.7.0-1+b2                                                                    deb                             
 libgl1-mesa-dri                                         25.0.7-2                                                                      deb                             
 libglib2.0-0t64                                         2.84.4-3~deb13u3                                                              deb                             
@@ -387,7 +387,7 @@ libnettle8t64                                           3.10.1-1                
 libnghttp2-14                                           1.64.0-1.1+deb13u1                                                            deb                             
 libnghttp3-9                                            1.8.0-1                                                                       deb                             
 libnspr4                                                2:4.36-1                                                                      deb                             
-libnss3                                                 2:3.110-1+deb13u2                                                             deb                             
+libnss3                                                 2:3.110-1+deb13u3                                                             deb                             
 libnuma1                                                2.0.19-1                                                                      deb                             
 libogg0                                                 1.3.5-3+b2                                                                    deb                             
 libonig5                                                6.9.9-1+b1                                                                    deb                             

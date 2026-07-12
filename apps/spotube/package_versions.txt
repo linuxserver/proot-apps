@@ -20,7 +20,7 @@ cpp                              4:14.2.0-1                            deb
 cpp-14                           14.2.0-19                             deb       
 cpp-14-x86-64-linux-gnu          14.2.0-19                             deb       
 cpp-x86-64-linux-gnu             4:14.2.0-1                            deb       
-curl                             8.14.1-2+deb13u3                      deb       
+curl                             8.14.1-2+deb13u4                      deb       
 dash                             0.5.12-12                             deb       
 dbus                             1.16.2-2                              deb       
 dbus-bin                         1.16.2-2                              deb       
@@ -86,7 +86,7 @@ libasound2-data                  1.2.14-1                              deb
 libasound2-plugins               1.2.12-2+b1                           deb       
 libasound2t64                    1.2.14-1                              deb       
 libaspell15                      0.60.8.1-4                            deb       
-libass9                          1:0.17.3-1+b1                         deb       
+libass9                          1:0.17.3-1+deb13u1                    deb       
 libasyncns0                      0.8-6+b5                              deb       
 libatk-bridge2.0-0t64            2.56.2-1+deb13u1                      deb       
 libatk1.0-0t64                   2.56.2-1+deb13u1                      deb       
@@ -122,7 +122,7 @@ libc-dev-bin                     2.41-12+deb13u3                       deb
 libc-l10n                        2.41-12+deb13u3                       deb       
 libc6                            2.41-12+deb13u3                       deb       
 libc6-dev                        2.41-12+deb13u3                       deb       
-libcaca0                         0.99.beta20-5                         deb       
+libcaca0                         0.99.beta20-5+deb13u1                 deb       
 libcairo-gobject2                1.18.4-1+b1                           deb       
 libcairo2                        1.18.4-1+b1                           deb       
 libcap-ng0                       0.8.5-4+b1                            deb       
@@ -144,8 +144,8 @@ libcrypt1                        1:4.4.38-1                            deb
 libctf-nobfd0                    2.44-3                                deb       
 libctf0                          2.44-3                                deb       
 libcups2t64                      2.4.10-3+deb13u2                      deb       
-libcurl3t64-gnutls               8.14.1-2+deb13u3                      deb       
-libcurl4t64                      8.14.1-2+deb13u3                      deb       
+libcurl3t64-gnutls               8.14.1-2+deb13u4                      deb       
+libcurl4t64                      8.14.1-2+deb13u4                      deb       
 libdaemon0                       0.14-7.1+b3                           deb       
 libdatrie1                       0.2.13-3+b1                           deb       
 libdav1d7                        1.5.1-1                               deb       
@@ -315,8 +315,8 @@ libpsl5t64                       0.21.2-1.1+b1                         deb
 libpulse0                        17.0+dfsg1-2+b1                       deb       
 libpulsedsp                      17.0+dfsg1-2+b1                       deb       
 libpython3-stdlib                3.13.5-1                              deb       
-libpython3.13-minimal            3.13.5-2+deb13u2                      deb       
-libpython3.13-stdlib             3.13.5-2+deb13u2                      deb       
+libpython3.13-minimal            3.13.5-2+deb13u3                      deb       
+libpython3.13-stdlib             3.13.5-2+deb13u3                      deb       
 libquadmath0                     14.2.0-19                             deb       
 librabbitmq4                     0.15.0-1+deb13u1                      deb       
 librav1e0.7                      0.7.1-9+b2                            deb       
@@ -508,9 +508,9 @@ python3-dbus                     1.4.0-1                               deb
 python3-gdbm                     3.13.5-1                              deb       
 python3-gi                       3.50.0-4+b1                           deb       
 python3-minimal                  3.13.5-1                              deb       
-python3.13                       3.13.5-2+deb13u2                      deb       
-python3.13-gdbm                  3.13.5-2+deb13u2                      deb       
-python3.13-minimal               3.13.5-2+deb13u2                      deb       
+python3.13                       3.13.5-2+deb13u3                      deb       
+python3.13-gdbm                  3.13.5-2+deb13u3                      deb       
+python3.13-minimal               3.13.5-2+deb13u3                      deb       
 readline-common                  8.2-6                                 deb       
 rpcsvc-proto                     1.4.3-1                               deb       
 sed                              4.9-2+deb13u1                         deb       
