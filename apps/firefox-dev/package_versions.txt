@@ -189,7 +189,7 @@ libxfixes                  6.0.2-r0                 apk
 libxft                     2.3.9-r0                 apk           
 libxi                      1.8.3-r0                 apk           
 libxinerama                1.1.6-r0                 apk           
-libxkbcommon               1.13.1-r0                apk           
+libxkbcommon               1.13.2-r0                apk           
 libxml2                    2.13.9-r2                apk           
 libxmu                     1.3.1-r0                 apk           
 libxrandr                  1.5.5-r0                 apk           
@@ -253,7 +253,7 @@ paste                      1.0.15                   rust-crate
 pastey                     0.1.0                    rust-crate    
 pcre2                      10.47-r1                 apk           
 pixman                     0.46.4-r0                apk           
-pkgconf                    3.0.0-r0                 apk           
+pkgconf                    3.0.1-r0                 apk           
 ppv-lite86                 0.2.21                   rust-crate    
 proc-macro2                1.0.95                   rust-crate    
 profiling                  1.0.16                   rust-crate    
@@ -303,7 +303,7 @@ v_frame                    0.3.9                    rust-crate
 wayland-libs-client        1.25.0-r0                apk           
 wayland-libs-cursor        1.25.0-r0                apk           
 wayland-libs-egl           1.25.0-r0                apk           
-webrtc-audio-processing-1  1.3-r3                   apk           
+webrtc-audio-processing-1  1.3-r4                   apk           
 x264-libs                  0.164.3108-r1            apk           
 x265-libs                  4.1-r0                   apk           
 xcb-util                   0.4.1-r3                 apk           
