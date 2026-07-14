@@ -112,7 +112,7 @@ itertools                    0.10.5                   rust-crate
 itertools                    0.14.0                   rust-crate                  
 ivf                          0.1.4                    rust-crate                  
 jansson                      2.15.0-r0                apk                         
-json-c                       0.18-r1                  apk                         
+json-c                       0.19-r0                  apk                         
 lab                          0.11.0                   rust-crate                  
 lame-libs                    3.100-r5                 apk                         
 lang                         0.1-r2                   apk                         
@@ -143,7 +143,7 @@ libelf                       0.195-r0                 apk
 libevdev                     1.13.6-r0                apk                         
 libexpat                     2.8.2-r0                 apk                         
 libffi                       3.5.2-r1                 apk                         
-libflac                      1.4.3-r2                 apk                         
+libflac                      1.5.0-r0                 apk                         
 libgcc                       15.2.0-r6                apk                         
 libgcc-static                15.2.0-r6                apk                         
 libgomp                      15.2.0-r6                apk                         
@@ -255,7 +255,7 @@ libretro-yabause             0_git20210411-r0         apk
 librist                      0.2.15-r0                apk                         
 libsharpyuv                  1.6.0-r0                 apk                         
 libsm                        1.2.6-r0                 apk                         
-libsndfile                   1.2.2-r2                 apk                         
+libsndfile                   1.2.2-r3                 apk                         
 libsodium                    1.0.22-r0                apk                         
 libsrt                       1.5.5-r0                 apk                         
 libssh                       0.12.0-r0                apk                         
@@ -357,7 +357,7 @@ paste                        1.0.15                   rust-crate
 pastey                       0.1.0                    rust-crate                  
 pcre2                        10.47-r1                 apk                         
 pixman                       0.46.4-r0                apk                         
-pkgconf                      3.0.1-r0                 apk                         
+pkgconf                      3.0.2-r0                 apk                         
 ppv-lite86                   0.2.21                   rust-crate                  
 proc-macro2                  1.0.95                   rust-crate                  
 profiling                    1.0.16                   rust-crate                  
@@ -413,7 +413,7 @@ thiserror-impl               1.0.69                   rust-crate
 thiserror-impl               2.0.12                   rust-crate                  
 tinyvec                      1.9.0                    rust-crate                  
 tslib                        1.24-r0                  apk                         
-tzdata                       2026b-r0                 apk                         
+tzdata                       2026c-r0                 apk                         
 unicode-ident                1.0.18                   rust-crate                  
 unicode-width                0.2.1                    rust-crate                  
 utf8parse                    0.2.2                    rust-crate                  

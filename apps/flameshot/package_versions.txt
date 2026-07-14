@@ -56,7 +56,7 @@ icu-libs                   78.1-r0                  apk
 isl26                      0.26-r2                  apk     
 jansson                    2.15.0-r0                apk     
 kdsingleapplication        1.1.0-r0                 apk     
-kguiaddons                 6.27.0-r0                apk     
+kguiaddons                 6.28.0-r0                apk     
 lame-libs                  3.100-r5                 apk     
 lang                       0.1-r2                   apk     
 libapk                     3.0.3-r2                 apk     
@@ -76,7 +76,7 @@ libelf                     0.195-r0                 apk
 libevdev                   1.13.6-r0                apk     
 libexpat                   2.8.2-r0                 apk     
 libffi                     3.5.2-r1                 apk     
-libflac                    1.4.3-r2                 apk     
+libflac                    1.5.0-r0                 apk     
 libgcc                     15.2.0-r6                apk     
 libgcc-static              15.2.0-r6                apk     
 libgomp                    15.2.0-r6                apk     
@@ -99,7 +99,7 @@ libproxy                   0.5.12-r0                apk
 libpsl                     0.21.5-r3                apk     
 libpulse                   17.0-r7                  apk     
 libsm                      1.2.6-r0                 apk     
-libsndfile                 1.2.2-r2                 apk     
+libsndfile                 1.2.2-r3                 apk     
 libssl3                    3.5.5-r0                 apk     
 libstdc++                  15.2.0-r6                apk     
 libtasn1                   4.21.0-r0                apk     

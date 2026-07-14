@@ -135,7 +135,7 @@ libepoxy                   1.5.10-r1                apk
 libevent                   2.1.13-r0                apk           
 libexpat                   2.8.2-r0                 apk           
 libffi                     3.5.2-r1                 apk           
-libflac                    1.4.3-r2                 apk           
+libflac                    1.5.0-r0                 apk           
 libgcc                     15.2.0-r6                apk           
 libgcc-static              15.2.0-r6                apk           
 libglycin                  2.1.5-r0                 apk           
@@ -161,7 +161,7 @@ librsvg                    2.62.3-r0                apk
 libseccomp                 2.6.0-r2                 apk           
 libsharpyuv                1.6.0-r0                 apk           
 libsm                      1.2.6-r0                 apk           
-libsndfile                 1.2.2-r2                 apk           
+libsndfile                 1.2.2-r3                 apk           
 libssl3                    3.5.5-r0                 apk           
 libstdc++                  15.2.0-r6                apk           
 libtasn1                   4.21.0-r0                apk           

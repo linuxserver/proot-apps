@@ -146,7 +146,7 @@ itertools                  0.14.0                   rust-crate
 ivf                        0.1.4                    rust-crate    
 jansson                    2.15.0-r0                apk           
 jeepney                    0.9.0                    python        
-json-c                     0.18-r1                  apk           
+json-c                     0.19-r0                  apk           
 json-glib                  1.10.8-r0                apk           
 json-glib-lang             1.10.8-r0                apk           
 keyutils-libs              1.6.3-r4                 apk           
@@ -188,7 +188,7 @@ libevdev                   1.13.6-r0                apk
 libexpat                   2.8.2-r0                 apk           
 libfdisk                   2.42.2-r0                apk           
 libffi                     3.5.2-r1                 apk           
-libflac                    1.4.3-r2                 apk           
+libflac                    1.5.0-r0                 apk           
 libgcc                     15.2.0-r6                apk           
 libgcc-static              15.2.0-r6                apk           
 libgcrypt                  1.12.2-r0                apk           
@@ -228,7 +228,7 @@ librist                    0.2.15-r0                apk
 libsasl                    2.1.28-r9                apk           
 libsharpyuv                1.6.0-r0                 apk           
 libsm                      1.2.6-r0                 apk           
-libsndfile                 1.2.2-r2                 apk           
+libsndfile                 1.2.2-r3                 apk           
 libsodium                  1.0.22-r0                apk           
 libsrt                     1.5.5-r0                 apk           
 libssh                     0.12.0-r0                apk           
