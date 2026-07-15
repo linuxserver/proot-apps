@@ -6,7 +6,7 @@ at-spi2-common                   2.56.2-1+deb13u1                      deb
 avahi-daemon                     0.8-16                                deb       
 avahi-discover                   0.8-16                                deb       
 avahi-utils                      0.8-16                                deb       
-base-files                       13.8+deb13u5                          deb       
+base-files                       13.8+deb13u6                          deb       
 base-passwd                      3.6.7                                 deb       
 bash                             5.2.37-2+b9                           deb       
 binutils                         2.44-3                                deb       
@@ -258,7 +258,7 @@ liblsan0                         14.2.0-19                             deb
 libltdl7                         2.5.4-4                               deb       
 liblua5.2-0                      5.2.4-3+b3                            deb       
 liblz4-1                         1.10.0-4                              deb       
-liblzma5                         5.8.1-1                               deb       
+liblzma5                         5.8.1-1+deb13u1                       deb       
 libmanette-0.2-0                 0.2.12-1                              deb       
 libmbedcrypto16                  3.6.5-0.1~deb13u1                     deb       
 libmd0                           1.1.0-2+b1                            deb       

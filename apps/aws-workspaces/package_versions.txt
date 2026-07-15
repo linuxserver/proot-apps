@@ -87,8 +87,8 @@ libapparmor1                    3.0.4-2ubuntu2.5                         deb
 libapt-pkg6.0                   2.4.14                                   deb       
 libargon2-1                     0~20171227-0.3                           deb       
 libasan6                        11.4.0-1ubuntu1~22.04.3                  deb       
-libasound2                      1.2.6.1-1ubuntu1.1                       deb       
-libasound2-data                 1.2.6.1-1ubuntu1.1                       deb       
+libasound2                      1.2.6.1-1ubuntu1.2                       deb       
+libasound2-data                 1.2.6.1-1ubuntu1.2                       deb       
 libasound2-plugins              1.2.6-1                                  deb       
 libaspell15                     0.60.8-4build1                           deb       
 libassuan0                      2.5.5-1build1                            deb       
@@ -511,7 +511,7 @@ usrmerge                        25ubuntu2                                deb
 util-linux                      2.37.2-4ubuntu3.5                        deb       
 vdpau-driver-all                1.4-3build2                              deb       
 wamerican                       2020.12.07-2                             deb       
-wget                            1.21.2-2ubuntu1.1                        deb       
+wget                            1.21.2-2ubuntu1.3                        deb       
 workspacesclient                2026.0.5676-1                            deb       
 x11-common                      1:7.7+23ubuntu2                          deb       
 x11-xkb-utils                   7.7+5build4                              deb       

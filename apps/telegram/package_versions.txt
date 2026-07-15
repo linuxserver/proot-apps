@@ -203,7 +203,7 @@ libidn2                                   2.3.8-r0                 apk
 libinput-libs                             1.30.3-r0                apk                         
 libintl                                   0.24.1-r1                apk                         
 libjpeg-turbo                             3.1.2-r0                 apk                         
-libjxl                                    0.11.1-r3                apk                         
+libjxl                                    0.11.2-r0                apk                         
 libltdl                                   2.5.4-r2                 apk                         
 libmagic                                  5.46-r2                  apk                         
 libmd                                     1.1.0-r0                 apk                         
@@ -394,7 +394,7 @@ thiserror                                 1.0.69                   rust-crate
 thiserror                                 2.0.12                   rust-crate                  
 tinyvec                                   1.9.0                    rust-crate                  
 tslib                                     1.23-r0                  apk                         
-tzdata                                    2026b-r0                 apk                         
+tzdata                                    2026c-r0                 apk                         
 unicode-ident                             1.0.18                   rust-crate                  
 unicode-width                             0.2.1                    rust-crate                  
 utf8parse                                 0.2.2                    rust-crate                  

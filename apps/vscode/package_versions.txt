@@ -48,7 +48,7 @@ NAME                                        VERSION                             
 @xterm/addon-webgl                          0.20.0-beta.287                       npm                      
 @xterm/headless                             6.1.0-beta.288                        npm                      
 @xterm/xterm                                6.1.0-beta.288                        npm                      
-Code                                        1.128.0                               npm                      
+Code                                        1.128.1                               npm                      
 Microsoft.PowerShell.PSReadLine             2.4.3                                 dotnet                   
 Microsoft.PowerShell.PSReadLine.Polyfiller  1.0.0.0                               dotnet  (+1 duplicate)   
 Microsoft.PowerShell.Pager                  1.0.0.0                               dotnet                   
@@ -61,7 +61,7 @@ asynckit                                    0.4.0                               
 at-spi2-common                              2.56.2-1+deb13u1                      deb                      
 await-semaphore                             0.1.3                                 npm                      
 axios                                       1.16.0                                npm                      
-base-files                                  13.8+deb13u5                          deb                      
+base-files                                  13.8+deb13u6                          deb                      
 base-passwd                                 3.6.7                                 deb                      
 base64-js                                   1.5.1                                 npm                      
 bash                                        5.2.37-2+b9                           deb                      
@@ -85,7 +85,7 @@ call-bind-apply-helpers                     1.0.2                               
 chownr                                      3.0.0                                 npm                      
 chrome-remote-interface                     0.33.0                                npm                      
 clojure                                     10.0.0                                npm                      
-code                                        1.128.0-1783465401                    deb                      
+code                                        1.128.1-1784039518                    deb                      
 coffeescript                                10.0.0                                npm                      
 combined-stream                             1.0.8                                 npm                      
 commander                                   12.1.0                                npm                      
@@ -365,7 +365,7 @@ liblocale-gettext-perl                      1.07-7+b1                           
 liblsan0                                    14.2.0-19                             deb                      
 libltdl7                                    2.5.4-4                               deb                      
 liblz4-1                                    1.10.0-4                              deb                      
-liblzma5                                    5.8.1-1                               deb                      
+liblzma5                                    5.8.1-1+deb13u1                       deb                      
 libmd0                                      1.1.0-2+b1                            deb                      
 libmount1                                   2.41-5                                deb                      
 libmp3lame0                                 3.100-6+b3                            deb                      

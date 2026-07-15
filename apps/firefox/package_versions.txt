@@ -77,7 +77,7 @@ font-noto-symbols          2026.07.01-r0            apk
 fontconfig                 2.18.1-r0                apk           
 freetype                   2.14.3-r0                apk           
 fribidi                    1.0.16-r3                apk           
-gcc                        15.2.0-r6                apk           
+gcc                        15.2.0-r8                apk           
 gdk-pixbuf                 2.44.7-r1                apk           
 gdk-pixbuf-lang            2.44.7-r1                apk           
 getrandom                  0.3.3                    rust-crate    
@@ -118,7 +118,7 @@ libapk                     3.0.3-r2                 apk
 libasyncns                 0.8-r5                   apk           
 libatk-1.0                 2.60.5-r0                apk           
 libatk-bridge-2.0          2.60.5-r0                apk           
-libatomic                  15.2.0-r6                apk           
+libatomic                  15.2.0-r8                apk           
 libblkid                   2.42.2-r0                apk           
 libbsd                     0.12.2-r0                apk           
 libbz2                     1.0.8-r6                 apk           
@@ -136,10 +136,10 @@ libevent                   2.1.13-r0                apk
 libexpat                   2.8.2-r0                 apk           
 libffi                     3.5.2-r1                 apk           
 libflac                    1.5.0-r0                 apk           
-libgcc                     15.2.0-r6                apk           
-libgcc-static              15.2.0-r6                apk           
+libgcc                     15.2.0-r8                apk           
+libgcc-static              15.2.0-r8                apk           
 libglycin                  2.1.5-r0                 apk           
-libgomp                    15.2.0-r6                apk           
+libgomp                    15.2.0-r8                apk           
 libhwy                     1.3.0-r2                 apk           
 libice                     1.1.2-r0                 apk           
 libidn2                    2.3.8-r0                 apk           
@@ -163,7 +163,7 @@ libsharpyuv                1.6.0-r0                 apk
 libsm                      1.2.6-r0                 apk           
 libsndfile                 1.2.2-r3                 apk           
 libssl3                    3.5.5-r0                 apk           
-libstdc++                  15.2.0-r6                apk           
+libstdc++                  15.2.0-r8                apk           
 libtasn1                   4.21.0-r0                apk           
 libtheora                  1.2.0-r1                 apk           
 libunistring               1.4.2-r0                 apk           
@@ -254,7 +254,7 @@ pastey                     0.1.0                    rust-crate
 pciutils-libs              3.15.0-r0                apk           
 pcre2                      10.47-r1                 apk           
 pixman                     0.46.4-r0                apk           
-pkgconf                    3.0.1-r0                 apk           
+pkgconf                    3.0.3-r0                 apk           
 ppv-lite86                 0.2.21                   rust-crate    
 proc-macro2                1.0.95                   rust-crate    
 profiling                  1.0.16                   rust-crate    

@@ -84,9 +84,9 @@ libappstream5                    1.0.2-1build6                      deb
 libapt-pkg6.0t64                 2.8.3                              deb                        
 libargon2-1                      0~20190702+dfsg-4build1            deb                        
 libasan8                         14.2.0-4ubuntu2~24.04.1            deb                        
-libasound2-data                  1.2.11-1ubuntu0.2                  deb                        
+libasound2-data                  1.2.11-1ubuntu0.3                  deb                        
 libasound2-plugins               1.2.7.1-1ubuntu5                   deb        (+1 duplicate)  
-libasound2t64                    1.2.11-1ubuntu0.2                  deb        (+1 duplicate)  
+libasound2t64                    1.2.11-1ubuntu0.3                  deb        (+1 duplicate)  
 libassuan0                       2.5.6-1build1                      deb                        
 libasyncns0                      0.8-6build4                        deb        (+1 duplicate)  
 libatk-bridge2.0-0t64            2.52.0-1build1                     deb        (+1 duplicate)  
@@ -226,9 +226,9 @@ libgtkmm-3.0-1t64                3.24.9-1                           deb
 libgtkmm-4.0-0                   4.10.0-4build3                     deb                        
 libgudev-1.0-0                   1:238-5ubuntu1                     deb                        
 libharfbuzz0b                    8.3.0-2build2                      deb        (+1 duplicate)  
-libheif-plugin-aomdec            1.17.6-1ubuntu4.5                  deb        (+1 duplicate)  
-libheif-plugin-aomenc            1.17.6-1ubuntu4.5                  deb        (+1 duplicate)  
-libheif1                         1.17.6-1ubuntu4.5                  deb        (+1 duplicate)  
+libheif-plugin-aomdec            1.17.6-1ubuntu4.6                  deb        (+1 duplicate)  
+libheif-plugin-aomenc            1.17.6-1ubuntu4.6                  deb        (+1 duplicate)  
+libheif1                         1.17.6-1ubuntu4.6                  deb        (+1 duplicate)  
 libhogweed6t64                   3.9.1-2.2build1.1                  deb        (+1 duplicate)  
 libhwasan0                       14.2.0-4ubuntu2~24.04.1            deb                        
 libhwy1t64                       1.0.7-8.1build1                    deb                        
@@ -509,7 +509,7 @@ update-inetd                     4.53                               deb
 util-linux                       2.39.3-9ubuntu6.5                  deb                        
 va-driver-all                    2.20.0-2ubuntu0.2                  deb                        
 vdpau-driver-all                 1.5-2build1                        deb                        
-wget                             1.21.4-1ubuntu4.1                  deb                        
+wget                             1.21.4-1ubuntu4.3                  deb                        
 wine-stable                      11.0.0.0~noble-1                   deb                        
 wine-stable-amd64                11.0.0.0~noble-1                   deb                        
 wine-stable-i386                 11.0.0.0~noble-1                   deb                        

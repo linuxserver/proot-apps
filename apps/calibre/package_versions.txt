@@ -102,7 +102,7 @@ fontconfig                 2.18.1-r0                apk
 fonttools                  4.60.1                   python        
 freetype                   2.14.3-r0                apk           
 fribidi                    1.0.16-r3                apk           
-gcc                        15.2.0-r6                apk           
+gcc                        15.2.0-r8                apk           
 gdbm                       1.26-r0                  apk           
 getrandom                  0.3.3                    rust-crate    
 glib                       2.88.2-r0                apk           
@@ -160,7 +160,7 @@ libapk                     3.0.3-r2                 apk
 libassuan                  3.0.2-r0                 apk           
 libasyncns                 0.8-r5                   apk           
 libatasmart                0.19-r4                  apk           
-libatomic                  15.2.0-r6                apk           
+libatomic                  15.2.0-r8                apk           
 libb2                      0.98.1-r3                apk           
 libblkid                   2.42.2-r0                apk           
 libblockdev                3.4.0-r1                 apk           
@@ -189,10 +189,10 @@ libexpat                   2.8.2-r0                 apk
 libfdisk                   2.42.2-r0                apk           
 libffi                     3.5.2-r1                 apk           
 libflac                    1.5.0-r0                 apk           
-libgcc                     15.2.0-r6                apk           
-libgcc-static              15.2.0-r6                apk           
+libgcc                     15.2.0-r8                apk           
+libgcc-static              15.2.0-r8                apk           
 libgcrypt                  1.12.2-r0                apk           
-libgomp                    15.2.0-r6                apk           
+libgomp                    15.2.0-r8                apk           
 libgpg-error               1.61-r0                  apk           
 libgudev                   238-r1                   apk           
 libhunspell                1.7.3-r0                 apk           
@@ -214,7 +214,7 @@ libmng                     2.0.3-r2                 apk
 libmount                   2.42.2-r0                apk           
 libmtp                     1.1.22-r1                apk           
 libncursesw                6.6_p20260516-r0         apk           
-libnvme                    1.16.1-r1                apk           
+libnvme                    1.16.2-r0                apk           
 libogg                     1.3.6-r0                 apk           
 libopenmpt                 0.8.7-r0                 apk           
 libpanelw                  6.6_p20260516-r0         apk           
@@ -233,7 +233,7 @@ libsodium                  1.0.22-r0                apk
 libsrt                     1.5.5-r0                 apk           
 libssh                     0.12.0-r0                apk           
 libssl3                    3.5.5-r0                 apk           
-libstdc++                  15.2.0-r6                apk           
+libstdc++                  15.2.0-r8                apk           
 libstemmer                 3.1.1-r0                 apk           
 libtasn1                   4.21.0-r0                apk           
 libtheora                  1.2.0-r1                 apk           
@@ -346,10 +346,10 @@ paste                      1.0.15                   rust-crate
 pastey                     0.1.0                    rust-crate    
 pcaudiolib                 1.3-r0                   apk           
 pcre2                      10.47-r1                 apk           
-pillow                     12.2.0                   python        
+pillow                     12.3.0                   python        
 pinentry                   1.3.2-r0                 apk           
 pixman                     0.46.4-r0                apk           
-pkgconf                    3.0.1-r0                 apk           
+pkgconf                    3.0.3-r0                 apk           
 polkit-noelogind-libs      127-r2                   apk           
 poppler                    25.12.0-r1               apk           
 ppv-lite86                 0.2.21                   rust-crate    
@@ -399,8 +399,8 @@ py3-mechanize-pyc          0.4.10-r1                apk
 py3-msgpack                1.1.2-r1                 apk           
 py3-msgpack-pyc            1.1.2-r1                 apk           
 py3-netifaces              0.11.0-r4                apk           
-py3-pillow                 12.2.0-r0                apk           
-py3-pillow-pyc             12.2.0-r0                apk           
+py3-pillow                 12.3.0-r0                apk           
+py3-pillow-pyc             12.3.0-r0                apk           
 py3-psutil                 7.2.2-r0                 apk           
 py3-psutil-pyc             7.2.2-r0                 apk           
 py3-pycryptodome           3.23.0-r1                apk           
@@ -506,7 +506,7 @@ tiff                       4.7.1-r0                 apk
 tslib                      1.24-r0                  apk           
 typing-extensions          4.15.0                   python        
 tzdata                     2025.3                   python        
-tzdata                     2026b-r0                 apk           
+tzdata                     2026c-r0                 apk           
 tzlocal                    5.3.1                    python        
 uchardet-libs              0.0.8-r2                 apk           
 udisks2                    2.11.0-r2                apk           

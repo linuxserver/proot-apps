@@ -3,7 +3,7 @@ adduser                         3.152                                 deb
 adwaita-icon-theme              48.1-1                                deb       
 apt                             3.0.3                                 deb       
 at-spi2-common                  2.56.2-1+deb13u1                      deb       
-base-files                      13.8+deb13u5                          deb       
+base-files                      13.8+deb13u6                          deb       
 base-passwd                     3.6.7                                 deb       
 bash                            5.2.37-2+b9                           deb       
 binutils                        2.44-3                                deb       
@@ -190,7 +190,7 @@ liblocale-gettext-perl          1.07-7+b1                             deb
 liblsan0                        14.2.0-19                             deb       
 libltdl7                        2.5.4-4                               deb       
 liblz4-1                        1.10.0-4                              deb       
-liblzma5                        5.8.1-1                               deb       
+liblzma5                        5.8.1-1+deb13u1                       deb       
 libmd0                          1.1.0-2+b1                            deb       
 libmount1                       2.41-5                                deb       
 libmp3lame0                     3.100-6+b3                            deb       
