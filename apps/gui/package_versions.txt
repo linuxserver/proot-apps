@@ -30,7 +30,7 @@ cdparanoia-libs             10.2-r14                 apk
 certifi                     2025.11.12               python    
 charset-normalizer          3.4.4                    python    
 cups-libs                   2.4.18-r0                apk       
-curl                        8.19.0-r0                apk       
+curl                        8.20.0-r0                apk       
 dbus                        1.16.2-r1                apk       
 dbus-daemon-launch-helper   1.16.2-r1                apk       
 dbus-libs                   1.16.2-r1                apk       
@@ -47,7 +47,7 @@ font-noto-common            2025.12.01-r0            apk
 font-noto-math              2025.12.01-r0            apk       
 font-noto-symbols           2025.12.01-r0            apk       
 fontconfig                  2.17.1-r0                apk       
-freetype                    2.14.1-r0                apk       
+freetype                    2.14.3-r0                apk       
 fribidi                     1.0.16-r2                apk       
 gcc                         15.2.0-r2                apk       
 gdbm                        1.26-r0                  apk       
@@ -102,7 +102,7 @@ libbsd                      0.12.2-r0                apk
 libbz2                      1.0.8-r6                 apk       
 libcap2                     2.78-r0                  apk       
 libcrypto3                  3.5.7-r0                 apk       
-libcurl                     8.19.0-r0                apk       
+libcurl                     8.20.0-r0                apk       
 libdav1d                    1.5.2-r0                 apk       
 libdc1394                   2.2.7-r0                 apk       
 libde265                    1.0.16-r0                apk       

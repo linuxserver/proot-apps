@@ -53,8 +53,8 @@ libapparmor1                        3.0.4-2ubuntu2.5                         deb
 libapt-pkg6.0                       2.4.14                                   deb     
 libarchive13                        3.6.0-1ubuntu1.7                         deb     
 libasan6                            11.4.0-1ubuntu1~22.04.3                  deb     
-libasound2                          1.2.6.1-1ubuntu1.1                       deb     
-libasound2-data                     1.2.6.1-1ubuntu1.1                       deb     
+libasound2                          1.2.6.1-1ubuntu1.2                       deb     
+libasound2-data                     1.2.6.1-1ubuntu1.2                       deb     
 libasound2-plugins                  1.2.6-1                                  deb     
 libass9                             1:0.15.2-1                               deb     
 libasyncns0                         0.8-6build2                              deb     

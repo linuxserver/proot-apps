@@ -113,7 +113,7 @@ lab                        0.11.0                   rust-crate
 lame-libs                  3.100-r5                 apk           
 lang                       0.1-r2                   apk           
 lcms2                      2.19-r0                  apk           
-libSvtAv1Enc               4.1.0-r0                 apk           
+libSvtAv1Enc               4.2.0-r0                 apk           
 libapk                     3.0.3-r2                 apk           
 libasyncns                 0.8-r5                   apk           
 libatk-1.0                 2.60.5-r0                apk           
@@ -126,7 +126,7 @@ libc                       0.2.172                  rust-crate
 libcap2                    2.78-r0                  apk           
 libcrypto3                 3.5.5-r0                 apk           
 libcurl                    8.21.0-r0                apk           
-libdav1d                   1.5.3-r0                 apk           
+libdav1d                   1.5.4-r0                 apk           
 libdisplay-info            0.3.0-r0                 apk           
 libdrm                     2.4.134-r0               apk           
 libeconf                   0.8.3-r0                 apk           
