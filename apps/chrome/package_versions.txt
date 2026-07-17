@@ -42,7 +42,7 @@ gcc-14                          14.2.0-19                             deb
 gcc-14-base                     14.2.0-19                             deb     
 gcc-14-x86-64-linux-gnu         14.2.0-19                             deb     
 gcc-x86-64-linux-gnu            4:14.2.0-1                            deb     
-google-chrome-stable            150.0.7871.124-1                      deb     
+google-chrome-stable            150.0.7871.128-1                      deb     
 grep                            3.11-4                                deb     
 gtk-update-icon-cache           4.18.6+ds-2                           deb     
 gzip                            1.13-1                                deb     
@@ -296,7 +296,7 @@ libxdamage1                     1:1.1.6-1+b2                          deb
 libxdmcp6                       1:1.1.5-1                             deb     
 libxext6                        2:1.3.4-1+b3                          deb     
 libxfixes3                      1:6.0.0-2+b4                          deb     
-libxfont2                       1:2.0.6-1+b3                          deb     
+libxfont2                       1:2.0.6-1+deb13u1                     deb     
 libxi6                          2:1.8.2-1                             deb     
 libxinerama1                    2:1.1.4-3+b4                          deb     
 libxkbcommon0                   1.7.0-2                               deb     

@@ -305,7 +305,7 @@ libzmq                       4.3.5-r2                 apk
 lilv-libs                    0.24.26-r1               apk                         
 linux-headers                7.1.3-r0                 apk                         
 linux-raw-sys                0.9.4                    rust-crate                  
-llvm22-libs                  22.1.8-r0                apk                         
+llvm22-libs                  22.1.8-r1                apk                         
 log                          0.4.27                   rust-crate                  
 make                         4.4.1-r4                 apk                         
 maybe-rayon                  0.1.1                    rust-crate                  

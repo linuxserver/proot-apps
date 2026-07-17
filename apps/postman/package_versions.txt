@@ -1,7 +1,7 @@
 NAME                            VERSION                               TYPE     
 @electron/remote                2.1.3                                 npm       
 @postman/protobufjs             7.5.4-postman.2                       npm       
-Postman                         12.19.3                               npm       
+Postman                         12.19.5                               npm       
 adduser                         3.152                                 deb       
 adwaita-icon-theme              48.1-1                                deb       
 apt                             3.0.3                                 deb       
@@ -353,7 +353,7 @@ libxext-dev                     2:1.3.4-1+b3                          deb
 libxext6                        2:1.3.4-1+b3                          deb       
 libxfixes-dev                   1:6.0.0-2+b4                          deb       
 libxfixes3                      1:6.0.0-2+b4                          deb       
-libxfont2                       1:2.0.6-1+b3                          deb       
+libxfont2                       1:2.0.6-1+deb13u1                     deb       
 libxi-dev                       2:1.8.2-1                             deb       
 libxi6                          2:1.8.2-1                             deb       
 libxinerama1                    2:1.1.4-3+b4                          deb       
