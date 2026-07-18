@@ -5,7 +5,7 @@ NAME                                        VERSION                             
 @vscode/copilot-typescript-server-plugin    1.0.0                                 npm                     
 @vscode/fs-copyfile                         2.0.0                                 npm                     
 @vscode/sandbox-runtime                     0.0.1                                 npm                     
-Code                                        1.129.0                               npm                     
+Code                                        1.129.1                               npm                     
 Microsoft.PowerShell.PSReadLine             2.4.3                                 dotnet                  
 Microsoft.PowerShell.PSReadLine.Polyfiller  1.0.0.0                               dotnet  (+1 duplicate)  
 Microsoft.PowerShell.Pager                  1.0.0.0                               dotnet                  
@@ -24,7 +24,7 @@ bsdutils                                    1:2.41-5                            
 builtin-notebook-renderers                  10.0.0                                npm                     
 ca-certificates                             20250419                              deb                     
 clojure                                     10.0.0                                npm                     
-code                                        1.129.0-1784074987                    deb                     
+code                                        1.129.1-1784303641                    deb                     
 coffeescript                                10.0.0                                npm                     
 commander                                   12.1.0                                npm                     
 configuration-editing                       10.0.0                                npm                     

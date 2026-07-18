@@ -233,11 +233,10 @@ nettle                          3.10.2-r0                apk
 nghttp2-libs                    1.69.0-r0                apk     
 nspr                            4.36-r0                  apk     
 openal-soft-libs                1.24.3-r0                apk     
-openexr                         3.4.2-r0                 apk     
-openexr-libiex                  3.4.2-r0                 apk     
-openexr-libilmthread            3.4.2-r0                 apk     
-openexr-libopenexr              3.4.2-r0                 apk     
-openexr-libopenexrcore          3.4.2-r0                 apk     
+openexr-libiex                  3.4.13-r0                apk     
+openexr-libilmthread            3.4.13-r0                apk     
+openexr-libopenexr              3.4.13-r0                apk     
+openexr-libopenexrcore          3.4.13-r0                apk     
 openh264                        2.6.0-r0                 apk     
 openjpeg                        2.5.4-r1                 apk     
 opus                            1.5.2-r1                 apk     

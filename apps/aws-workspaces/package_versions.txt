@@ -440,7 +440,7 @@ libxvmc1                        2:1.0.12-2build2                         deb
 libxxf86vm1                     1:1.1.4-1build3                          deb       
 libxxhash0                      0.8.1-1                                  deb       
 libzstd1                        1.4.8+dfsg-3build1                       deb       
-linux-libc-dev                  5.15.0-185.195                           deb       
+linux-libc-dev                  5.15.0-186.196                           deb       
 login                           1:4.8.1-2ubuntu2.2                       deb       
 logsave                         1.46.5-2ubuntu1.2                        deb       
 lsb-base                        11.1.0ubuntu4                            deb       

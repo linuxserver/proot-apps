@@ -215,11 +215,10 @@ nspr                       4.36-r0                  apk
 nss                        3.123.1-r0               apk     
 numactl                    2.0.18-r0                apk     
 opencolorio                2.5.0-r1                 apk     
-openexr                    3.4.2-r0                 apk     
-openexr-libiex             3.4.2-r0                 apk     
-openexr-libilmthread       3.4.2-r0                 apk     
-openexr-libopenexr         3.4.2-r0                 apk     
-openexr-libopenexrcore     3.4.2-r0                 apk     
+openexr-libiex             3.4.13-r0                apk     
+openexr-libilmthread       3.4.13-r0                apk     
+openexr-libopenexr         3.4.13-r0                apk     
+openexr-libopenexrcore     3.4.13-r0                apk     
 openjpeg                   2.5.4-r1                 apk     
 opus                       1.5.2-r1                 apk     
 orc                        0.4.41-r0                apk     
