@@ -358,10 +358,10 @@ libpulse0                               17.0+dfsg1-2+b1                       de
 libpulsedsp                             17.0+dfsg1-2+b1                       deb                            
 libpython3-dev                          3.13.5-1                              deb                            
 libpython3-stdlib                       3.13.5-1                              deb                            
-libpython3.13                           3.13.5-2+deb13u3                      deb                            
-libpython3.13-dev                       3.13.5-2+deb13u3                      deb                            
-libpython3.13-minimal                   3.13.5-2+deb13u3                      deb                            
-libpython3.13-stdlib                    3.13.5-2+deb13u3                      deb                            
+libpython3.13                           3.13.5-2+deb13u4                      deb                            
+libpython3.13-dev                       3.13.5-2+deb13u4                      deb                            
+libpython3.13-minimal                   3.13.5-2+deb13u4                      deb                            
+libpython3.13-stdlib                    3.13.5-2+deb13u4                      deb                            
 libquadmath0                            14.2.0-19                             deb                            
 librav1e0.7                             0.7.1-9+b2                            deb                            
 libreadline8t64                         8.2-6                                 deb                            
@@ -548,9 +548,9 @@ python3-platformdirs                    4.3.7-1                               de
 python3-setuptools-whl                  78.1.1-0.1                            deb                            
 python3-virtualenv                      20.31.2+ds-1+deb13u1                  deb                            
 python3-wheel                           0.46.1-2                              deb                            
-python3.13                              3.13.5-2+deb13u3                      deb                            
-python3.13-dev                          3.13.5-2+deb13u3                      deb                            
-python3.13-minimal                      3.13.5-2+deb13u3                      deb                            
+python3.13                              3.13.5-2+deb13u4                      deb                            
+python3.13-dev                          3.13.5-2+deb13u4                      deb                            
+python3.13-minimal                      3.13.5-2+deb13u4                      deb                            
 quiche-jna-stubs                        UNKNOWN                               java-archive                   
 r                                       1.0.0                                 npm                            
 razor                                   1.0.0                                 npm                            

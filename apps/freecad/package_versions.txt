@@ -282,9 +282,9 @@ libpulse0                           17.0+dfsg1-2+b1                       deb
 libpulsedsp                         17.0+dfsg1-2+b1                       deb       
 libpyside2-py3-5.15t64              5.15.16-3.1                           deb       
 libpython3-stdlib                   3.13.5-1                              deb       
-libpython3.13                       3.13.5-2+deb13u3                      deb       
-libpython3.13-minimal               3.13.5-2+deb13u3                      deb       
-libpython3.13-stdlib                3.13.5-2+deb13u3                      deb       
+libpython3.13                       3.13.5-2+deb13u4                      deb       
+libpython3.13-minimal               3.13.5-2+deb13u4                      deb       
+libpython3.13-stdlib                3.13.5-2+deb13u4                      deb       
 libqhull-r8.0                       2020.2-6+b2                           deb       
 libqt5concurrent5t64                5.15.15+dfsg-6+deb13u1                deb       
 libqt5core5t64                      5.15.15+dfsg-6+deb13u1                deb       
@@ -533,9 +533,9 @@ python3-ufolib2                     0.17.1+dfsg1-1                        deb
 python3-unicodedata2                15.1.0+ds-1+b4                        deb       
 python3-yaml                        6.0.2-1+b2                            deb       
 python3-zopfli                      0.2.3.post1-1+b1                      deb       
-python3.13                          3.13.5-2+deb13u3                      deb       
-python3.13-minimal                  3.13.5-2+deb13u3                      deb       
-python3.13-tk                       3.13.5-2+deb13u3                      deb       
+python3.13                          3.13.5-2+deb13u4                      deb       
+python3.13-minimal                  3.13.5-2+deb13u4                      deb       
+python3.13-tk                       3.13.5-2+deb13u4                      deb       
 pyyaml                              6.0.2                                 python    
 readline-common                     8.2-6                                 deb       
 rpcsvc-proto                        1.4.3-1                               deb       

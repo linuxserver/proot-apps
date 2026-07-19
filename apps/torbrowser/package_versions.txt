@@ -232,9 +232,9 @@ libpsl5t64                      0.21.2-1.1+b1                         deb
 libpulse0                       17.0+dfsg1-2+b1                       deb       
 libpulsedsp                     17.0+dfsg1-2+b1                       deb       
 libpython3-stdlib               3.13.5-1                              deb       
-libpython3.13                   3.13.5-2+deb13u3                      deb       
-libpython3.13-minimal           3.13.5-2+deb13u3                      deb       
-libpython3.13-stdlib            3.13.5-2+deb13u3                      deb       
+libpython3.13                   3.13.5-2+deb13u4                      deb       
+libpython3.13-minimal           3.13.5-2+deb13u4                      deb       
+libpython3.13-stdlib            3.13.5-2+deb13u4                      deb       
 libqt5core5t64                  5.15.15+dfsg-6+deb13u1                deb       
 libqt5dbus5t64                  5.15.15+dfsg-6+deb13u1                deb       
 libqt5designer5                 5.15.15-6                             deb       
@@ -410,8 +410,8 @@ python3-pyqt5.sip               12.17.0-1+b1                          deb
 python3-requests                2.32.3+dfsg-5+deb13u1                 deb       
 python3-socks                   1.7.1+dfsg-1                          deb       
 python3-urllib3                 2.3.0-3+deb13u2                       deb       
-python3.13                      3.13.5-2+deb13u3                      deb       
-python3.13-minimal              3.13.5-2+deb13u3                      deb       
+python3.13                      3.13.5-2+deb13u4                      deb       
+python3.13-minimal              3.13.5-2+deb13u4                      deb       
 readline-common                 8.2-6                                 deb       
 requests                        2.32.3                                python    
 rpcsvc-proto                    1.4.3-1                               deb       

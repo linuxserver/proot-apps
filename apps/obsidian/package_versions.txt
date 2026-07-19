@@ -246,8 +246,8 @@ libpsl5t64                      0.21.2-1.1+b1                         deb
 libpulse0                       17.0+dfsg1-2+b1                       deb       
 libpulsedsp                     17.0+dfsg1-2+b1                       deb       
 libpython3-stdlib               3.13.5-1                              deb       
-libpython3.13-minimal           3.13.5-2+deb13u3                      deb       
-libpython3.13-stdlib            3.13.5-2+deb13u3                      deb       
+libpython3.13-minimal           3.13.5-2+deb13u4                      deb       
+libpython3.13-stdlib            3.13.5-2+deb13u4                      deb       
 libquadmath0                    14.2.0-19                             deb       
 librav1e0.7                     0.7.1-9+b2                            deb       
 libreadline8t64                 8.2-6                                 deb       
@@ -405,8 +405,8 @@ python3                         3.13.5-1                              deb
 python3-minimal                 3.13.5-1                              deb       
 python3-packaging               25.0-1                                deb       
 python3-xdg                     0.28-2                                deb       
-python3.13                      3.13.5-2+deb13u3                      deb       
-python3.13-minimal              3.13.5-2+deb13u3                      deb       
+python3.13                      3.13.5-2+deb13u4                      deb       
+python3.13-minimal              3.13.5-2+deb13u4                      deb       
 pyxdg                           0.28                                  python    
 readline-common                 8.2-6                                 deb       
 rpcsvc-proto                    1.4.3-1                               deb       
