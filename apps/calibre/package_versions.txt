@@ -275,7 +275,7 @@ libxvmc                    1.0.15-r0                apk
 libxxf86vm                 1.1.7-r0                 apk                         
 libxxhash                  0.8.3-r1                 apk                         
 libzmq                     4.3.5-r2                 apk                         
-linux-headers              7.1.3-r0                 apk                         
+linux-headers              7.1.4-r0                 apk                         
 linux-raw-sys              0.9.4                    rust-crate                  
 llvm22-libs                22.1.8-r1                apk                         
 log                        0.4.27                   rust-crate                  
@@ -283,7 +283,7 @@ lxml                       6.1.1                    python
 make                       4.4.1-r4                 apk                         
 markdown                   3.10.2                   python                      
 maybe-rayon                0.1.1                    rust-crate                  
-mbedtls3                   3.6.6-r0                 apk                         
+mbedtls3                   3.6.7-r0                 apk                         
 mechanize                  0.4.10                   python                      
 memchr                     2.7.5                    rust-crate                  
 mesa                       26.1.1-r2                apk                         
@@ -417,8 +417,8 @@ py3-soupsieve-pyc          2.7-r1                   apk
 py3-speech-dispatcher      0.12.1-r5                apk                         
 py3-typing-extensions      4.15.0-r1                apk                         
 py3-typing-extensions-pyc  4.15.0-r1                apk                         
-py3-tzdata                 2025.3-r1                apk                         
-py3-tzdata-pyc             2025.3-r1                apk                         
+py3-tzdata                 2026.3-r0                apk                         
+py3-tzdata-pyc             2026.3-r0                apk                         
 py3-tzlocal                5.3.1-r1                 apk                         
 py3-tzlocal-pyc            5.3.1-r1                 apk                         
 py3-webencodings           0.5.1-r10                apk                         
@@ -496,10 +496,10 @@ thiserror                  2.0.12                   rust-crate
 thiserror-impl             1.0.69                   rust-crate                  
 thiserror-impl             2.0.12                   rust-crate                  
 thread_local               1.1.9                    rust-crate                  
-tiff                       4.7.1-r0                 apk                         
+tiff                       4.7.2-r0                 apk                         
 tslib                      1.24-r0                  apk                         
 typing-extensions          4.15.0                   python                      
-tzdata                     2025.3                   python                      
+tzdata                     2026.3                   python                      
 tzdata                     2026c-r0                 apk                         
 tzlocal                    5.3.1                    python                      
 uchardet-libs              0.0.8-r2                 apk                         
