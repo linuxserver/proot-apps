@@ -75,7 +75,7 @@ intel-media-va-driver            24.1.0+dfsg1-1ubuntu0.2            deb
 ipp-usb                          0.9.24-0ubuntu3.3                  deb                        
 iso-codes                        4.16.0-1                           deb                        
 keyboard-configuration           1.226ubuntu1                       deb                        
-krb5-locales                     1.20.1-6ubuntu2.6                  deb                        
+krb5-locales                     1.20.1-6ubuntu2.7                  deb                        
 libacl1                          2.3.2-1build1.1                    deb                        
 libadwaita-1-0                   1.5.0-1ubuntu2                     deb                        
 libaom3                          3.8.2-2ubuntu0.1                   deb        (+1 duplicate)  
@@ -203,15 +203,15 @@ libgnutls30t64                   3.8.3-1.1ubuntu3.6                 deb        (
 libgomp1                         14.2.0-4ubuntu2~24.04.1            deb        (+1 duplicate)  
 libgpg-error-l10n                1.47-3build2.1                     deb                        
 libgpg-error0                    1.47-3build2.1                     deb        (+1 duplicate)  
-libgphoto2-6t64                  2.5.31-2.1ubuntu1                  deb        (+1 duplicate)  
-libgphoto2-l10n                  2.5.31-2.1ubuntu1                  deb                        
-libgphoto2-port12t64             2.5.31-2.1ubuntu1                  deb        (+1 duplicate)  
+libgphoto2-6t64                  2.5.31-2.1ubuntu1.1                deb        (+1 duplicate)  
+libgphoto2-l10n                  2.5.31-2.1ubuntu1.1                deb                        
+libgphoto2-port12t64             2.5.31-2.1ubuntu1.1                deb        (+1 duplicate)  
 libgpm2                          1.20.7-11                          deb        (+1 duplicate)  
 libgprofng0                      2.42-4ubuntu2.10                   deb                        
 libgraphene-1.0-0                1.10.8-3build2                     deb                        
 libgraphite2-3                   1.3.14-2ubuntu0.24.04.1            deb        (+1 duplicate)  
 libgsm1                          1.0.22-1build1                     deb        (+1 duplicate)  
-libgssapi-krb5-2                 1.20.1-6ubuntu2.6                  deb        (+1 duplicate)  
+libgssapi-krb5-2                 1.20.1-6ubuntu2.7                  deb        (+1 duplicate)  
 libgstreamer-gl1.0-0             1.24.2-1ubuntu0.4                  deb                        
 libgstreamer-plugins-base1.0-0   1.24.2-1ubuntu0.4                  deb        (+1 duplicate)  
 libgstreamer1.0-0                1.24.2-1ubuntu0.1                  deb        (+1 duplicate)  
@@ -249,11 +249,11 @@ libjson-c5                       0.17-1build1                       deb
 libjson-glib-1.0-0               1.8.0-2build2                      deb                        
 libjson-glib-1.0-common          1.8.0-2build2                      deb                        
 libjxl0.7                        0.7.0-10.2ubuntu6.1                deb                        
-libk5crypto3                     1.20.1-6ubuntu2.6                  deb        (+1 duplicate)  
+libk5crypto3                     1.20.1-6ubuntu2.7                  deb        (+1 duplicate)  
 libkeyutils1                     1.6.3-3build1                      deb        (+1 duplicate)  
 libkmod2                         31+20240202-2ubuntu7.2             deb                        
-libkrb5-3                        1.20.1-6ubuntu2.6                  deb        (+1 duplicate)  
-libkrb5support0                  1.20.1-6ubuntu2.6                  deb        (+1 duplicate)  
+libkrb5-3                        1.20.1-6ubuntu2.7                  deb        (+1 duplicate)  
+libkrb5support0                  1.20.1-6ubuntu2.7                  deb        (+1 duplicate)  
 liblcms2-2                       2.14-2ubuntu0.1                    deb        (+1 duplicate)  
 libldap-common                   2.6.10+dfsg-0ubuntu0.24.04.1       deb                        
 libldap2                         2.6.10+dfsg-0ubuntu0.24.04.1       deb        (+1 duplicate)  
