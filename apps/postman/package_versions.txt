@@ -1,7 +1,7 @@
 NAME                            VERSION                               TYPE     
 @electron/remote                2.1.3                                 npm       
 @postman/protobufjs             7.5.4-postman.2                       npm       
-Postman                         12.20.2                               npm       
+Postman                         12.20.4                               npm       
 adduser                         3.152                                 deb       
 adwaita-icon-theme              48.1-1                                deb       
 apt                             3.0.3                                 deb       
@@ -393,6 +393,7 @@ ncurses-base                    6.5+20250216-2                        deb
 ncurses-bin                     6.5+20250216-2                        deb       
 netbase                         6.5                                   deb       
 netcat-openbsd                  1.229-1                               deb       
+node-forge                      1.4.0                                 npm       
 ocl-icd-libopencl1              2.3.3-1                               deb       
 openssl                         3.5.6-1~deb13u2                       deb       
 openssl-provider-legacy         3.5.6-1~deb13u2                       deb       

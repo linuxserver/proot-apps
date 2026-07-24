@@ -167,8 +167,8 @@ libice6                             2:1.0.10-1build2                         deb
 libicu70                            70.1-2                                   deb     
 libidn2-0                           2.3.2-2build1                            deb     
 libiec61883-0                       1.2.0-4build3                            deb     
-libinput-bin                        1.20.0-1ubuntu0.3                        deb     
-libinput10                          1.20.0-1ubuntu0.3                        deb     
+libinput-bin                        1.20.0-1ubuntu0.4                        deb     
+libinput10                          1.20.0-1ubuntu0.4                        deb     
 libisl23                            0.24-2build1                             deb     
 libitm1                             12.3.0-1ubuntu1~22.04.3                  deb     
 libjack-jackd2-0                    1.9.20~dfsg-1                            deb     
