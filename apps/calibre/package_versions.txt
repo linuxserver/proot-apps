@@ -59,7 +59,7 @@ crossbeam-deque            0.8.6                    rust-crate  (+1 duplicate)
 crossbeam-epoch            0.9.18                   rust-crate  (+1 duplicate)  
 crossbeam-queue            0.3.12                   rust-crate                  
 crossbeam-utils            0.8.21                   rust-crate  (+1 duplicate)  
-cryptsetup-libs            2.8.6-r0                 apk                         
+cryptsetup-libs            2.8.7-r0                 apk                         
 css-parser                 1.0.10                   python                      
 cssselect                  1.4.0                    python                      
 cups-libs                  2.4.19-r0                apk                         
@@ -142,7 +142,7 @@ itertools                  0.14.0                   rust-crate
 ivf                        0.1.4                    rust-crate                  
 jansson                    2.15.0-r0                apk                         
 jeepney                    0.9.0                    python                      
-json-c                     0.19-r0                  apk                         
+json-c                     0.19-r1                  apk                         
 json-glib                  1.10.8-r0                apk                         
 json-glib-lang             1.10.8-r0                apk                         
 keyutils-libs              1.6.3-r4                 apk                         
@@ -172,7 +172,7 @@ libcom_err                 1.47.4-r0                apk
 libcrypto3                 3.5.5-r0                 apk                         
 libcurl                    8.21.0-r0                apk                         
 libdav1d                   1.5.4-r0                 apk                         
-libdisplay-info            0.3.0-r0                 apk                         
+libdisplay-info            0.3.0-r1                 apk                         
 libdotconf                 1.4.1-r0                 apk                         
 libdrm                     2.4.134-r0               apk                         
 libdvdcss                  1.4.3-r0                 apk                         
@@ -485,7 +485,7 @@ speech-dispatcher-lang     0.12.1-r5                apk
 speech-dispatcher-pyc      0.12.1-r5                apk                         
 speexdsp                   1.2.1-r2                 apk                         
 spirv-tools                1.4.341.0-r0             apk                         
-sqlite-libs                3.53.3-r0                apk                         
+sqlite-libs                3.53.4-r0                apk                         
 ssl_client                 1.37.0-r31               apk                         
 stable_deref_trait         1.2.0                    rust-crate                  
 syn                        2.0.102                  rust-crate                  

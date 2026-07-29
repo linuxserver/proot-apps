@@ -98,10 +98,10 @@ libbrotli1                                1.1.0-2build2                         
 libbs2b0                                  3.1.0+dfsg-7build1                         deb     
 libbsd0                                   0.12.1-1build1.1                           deb     
 libbz2-1.0                                1.0.8-5.1build0.1                          deb     
-libc-bin                                  2.39-0ubuntu8.7                            deb     
-libc-dev-bin                              2.39-0ubuntu8.7                            deb     
-libc6                                     2.39-0ubuntu8.7                            deb     
-libc6-dev                                 2.39-0ubuntu8.7                            deb     
+libc-bin                                  2.39-0ubuntu8.8                            deb     
+libc-dev-bin                              2.39-0ubuntu8.8                            deb     
+libc6                                     2.39-0ubuntu8.8                            deb     
+libc6-dev                                 2.39-0ubuntu8.8                            deb     
 libcaca0                                  0.99.beta20-4ubuntu0.2                     deb     
 libcairo-gobject2                         1.18.0-3build1                             deb     
 libcairo2                                 1.18.0-3build1                             deb     
@@ -452,7 +452,7 @@ libzstd1                                  1.5.5+dfsg2-2build1.1                 
 libzvbi-common                            0.2.42-2                                   deb     
 libzvbi0t64                               0.2.42-2                                   deb     
 linux-libc-dev                            6.8.0-136.136                              deb     
-locales-all                               2.39-0ubuntu8.7                            deb     
+locales-all                               2.39-0ubuntu8.8                            deb     
 login                                     1:4.13+dfsg1-4ubuntu3.2                    deb     
 logsave                                   1.47.0-2.4~exp1ubuntu4.1                   deb     
 make                                      4.3-4.1build2                              deb     

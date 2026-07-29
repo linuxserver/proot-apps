@@ -113,9 +113,9 @@ libbsd0                         0.11.5-1                                 deb
 libbz2-1.0                      1.0.8-5build1                            deb       
 libc-ares2                      1.18.1-1ubuntu0.22.04.3                  deb       
 libc-bin                        2.35-0ubuntu3.13                         deb       
-libc-dev-bin                    2.35-0ubuntu3.13                         deb       
-libc6                           2.35-0ubuntu3.13                         deb       
-libc6-dev                       2.35-0ubuntu3.13                         deb       
+libc-dev-bin                    2.35-0ubuntu3.14                         deb       
+libc6                           2.35-0ubuntu3.14                         deb       
+libc6-dev                       2.35-0ubuntu3.14                         deb       
 libcaca0                        0.99.beta19-2.2ubuntu4.2                 deb       
 libcairo-gobject2               1.16.0-5ubuntu2.1                        deb       
 libcairo2                       1.16.0-5ubuntu2.1                        deb       
@@ -327,7 +327,7 @@ libshout3                       2.4.5-1build3                            deb
 libslang2                       2.3.2-5build4                            deb       
 libsm6                          2:1.2.3-1build2                          deb       
 libsmartcols1                   2.37.2-4ubuntu3.5                        deb       
-libsmbclient                    2:4.15.13+dfsg-0ubuntu1.12               deb       
+libsmbclient                    2:4.15.13+dfsg-0ubuntu1.13               deb       
 libsnapd-glib1                  1.60-0ubuntu1                            deb       
 libsndfile1                     1.0.31-2ubuntu0.2                        deb       
 libsoup-3.0-0                   3.0.7-0ubuntu1                           deb       
@@ -388,7 +388,7 @@ libwayland-client0              1.20.0-1ubuntu0.1                        deb
 libwayland-cursor0              1.20.0-1ubuntu0.1                        deb       
 libwayland-egl1                 1.20.0-1ubuntu0.1                        deb       
 libwayland-server0              1.20.0-1ubuntu0.1                        deb       
-libwbclient0                    2:4.15.13+dfsg-0ubuntu1.12               deb       
+libwbclient0                    2:4.15.13+dfsg-0ubuntu1.13               deb       
 libwebkit2gtk-4.1-0             2.50.4-0ubuntu0.22.04.1                  deb       
 libwebp7                        1.2.2-2ubuntu0.22.04.2                   deb       
 libwebpdemux2                   1.2.2-2ubuntu0.22.04.2                   deb       
@@ -483,7 +483,7 @@ python3.10-minimal              3.10.12-1~22.04.16                       deb
 readline-common                 8.1.2-1                                  deb       
 rpcsvc-proto                    1.4.2-0ubuntu6                           deb       
 rtkit                           0.13-4build2                             deb       
-samba-libs                      2:4.15.13+dfsg-0ubuntu1.12               deb       
+samba-libs                      2:4.15.13+dfsg-0ubuntu1.13               deb       
 sed                             4.8-1ubuntu2.1                           deb       
 sensible-utils                  0.0.17                                   deb       
 session-migration               0.3.6                                    deb       
