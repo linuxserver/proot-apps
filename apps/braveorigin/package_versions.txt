@@ -10,7 +10,7 @@ binutils                        2.44-3                                deb
 binutils-common                 2.44-3                                deb     
 binutils-x86-64-linux-gnu       2.44-3                                deb     
 brave-keyring                   1.20                                  deb     
-brave-origin-nightly            1.95.23                               deb     
+brave-origin-nightly            1.95.27                               deb     
 bsdutils                        1:2.41-5                              deb     
 ca-certificates                 20250419                              deb     
 coreutils                       9.7-3                                 deb     
@@ -117,7 +117,7 @@ libegl-mesa0                    25.0.7-2+deb13u1                      deb
 libegl1                         1.7.0-1+b2                            deb     
 libelf1t64                      0.192-4                               deb     
 libepoxy0                       1.5.10-2                              deb     
-libexpat1                       2.7.1-2                               deb     
+libexpat1                       2.8.2-1~deb13u1                       deb     
 libffi8                         3.4.8-2                               deb     
 libfftw3-single3                3.3.10-2+b1                           deb     
 libflac14                       1.5.0+ds-2                            deb     

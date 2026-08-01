@@ -46,7 +46,7 @@ gcc-x86-64-linux-gnu            4:14.2.0-1                            deb
 grep                            3.11-4                                deb     
 gsettings-desktop-schemas       48.0-1                                deb     
 gzip                            1.13-1                                deb     
-helium-bin                      0.14.9.1-1                            deb     
+helium-bin                      0.15.1.1-1                            deb     
 hostname                        3.25                                  deb     
 init-system-helpers             1.69~deb13u1                          deb     
 iso-codes                       4.18.0-1                              deb     
@@ -114,7 +114,7 @@ libegl-mesa0                    25.0.7-2+deb13u1                      deb
 libegl1                         1.7.0-1+b2                            deb     
 libelf1t64                      0.192-4                               deb     
 libepoxy0                       1.5.10-2                              deb     
-libexpat1                       2.7.1-2                               deb     
+libexpat1                       2.8.2-1~deb13u1                       deb     
 libffi8                         3.4.8-2                               deb     
 libfftw3-single3                3.3.10-2+b1                           deb     
 libflac14                       1.5.0+ds-2                            deb     

@@ -1,6 +1,6 @@
 NAME                             VERSION                               TYPE                 
 @beekeeperstudio/bks-ai-shell    3.2.0                                 npm                   
-@beekeeperstudio/bks-er-diagram  1.1.0                                 npm                   
+@beekeeperstudio/bks-er-diagram  1.1.2                                 npm                   
 @duckdb/node-bindings-linux-x64  1.4.1-r.4                             npm                   
 @libsql/linux-x64-gnu            0.5.22                                npm                   
 @libsql/linux-x64-musl           0.5.22                                npm                   
@@ -11,8 +11,8 @@ at-spi2-common                   2.56.2-1+deb13u1                      deb
 base-files                       13.8+deb13u6                          deb                   
 base-passwd                      3.6.7                                 deb                   
 bash                             5.2.37-2+b9                           deb                   
-beekeeper-studio                 5.9.2                                 deb                   
-beekeeper-studio                 5.9.2                                 npm                   
+beekeeper-studio                 5.9.3                                 deb                   
+beekeeper-studio                 5.9.3                                 npm                   
 better-sqlite3                   12.6.2                                npm                   
 binutils                         2.44-3                                deb                   
 binutils-common                  2.44-3                                deb                   
@@ -135,7 +135,7 @@ libegl-mesa0                     25.0.7-2+deb13u1                      deb
 libegl1                          1.7.0-1+b2                            deb                   
 libelf1t64                       0.192-4                               deb                   
 libepoxy0                        1.5.10-2                              deb                   
-libexpat1                        2.7.1-2                               deb                   
+libexpat1                        2.8.2-1~deb13u1                       deb                   
 libffi8                          3.4.8-2                               deb                   
 libfftw3-single3                 3.3.10-2+b1                           deb                   
 libfido2-1                       1.15.0-1+b1                           deb                   
