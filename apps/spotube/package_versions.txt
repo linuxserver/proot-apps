@@ -176,7 +176,7 @@ libelf1t64                       0.192-4                               deb
 libenchant-2-2                   2.8.2+dfsg1-3                         deb       
 libepoxy0                        1.5.10-2                              deb       
 libevdev2                        1.13.4+dfsg-1                         deb       
-libexpat1                        2.7.1-2                               deb       
+libexpat1                        2.8.2-1~deb13u1                       deb       
 libffi8                          3.4.8-2                               deb       
 libfftw3-double3                 3.3.10-2+b1                           deb       
 libfftw3-single3                 3.3.10-2+b1                           deb       
@@ -476,7 +476,7 @@ libzmq5                          4.3.5-1+b3                            deb
 libzstd1                         1.5.7+dfsg-1                          deb       
 libzvbi-common                   0.2.44-1                              deb       
 libzvbi0t64                      0.2.44-1                              deb       
-linux-libc-dev                   6.12.96-1                             deb       
+linux-libc-dev                   6.12.100-1                            deb       
 locales-all                      2.41-12+deb13u3                       deb       
 login                            1:4.16.0-2+really2.41-5               deb       
 login.defs                       1:4.17.4-2                            deb       
