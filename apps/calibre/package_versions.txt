@@ -82,11 +82,11 @@ espeak-ng                  1.52.0-r1                apk
 eudev-libs                 3.2.14-r7                apk                         
 feedparser                 6.0.12                   python                      
 fern                       0.7.1                    rust-crate                  
-ffmpeg-libavcodec          8.1.2-r0                 apk                         
-ffmpeg-libavformat         8.1.2-r0                 apk                         
-ffmpeg-libavutil           8.1.2-r0                 apk                         
-ffmpeg-libswresample       8.1.2-r0                 apk                         
-ffmpeg-libswscale          8.1.2-r0                 apk                         
+ffmpeg-libavcodec          8.1.2-r1                 apk                         
+ffmpeg-libavformat         8.1.2-r1                 apk                         
+ffmpeg-libavutil           8.1.2-r1                 apk                         
+ffmpeg-libswresample       8.1.2-r1                 apk                         
+ffmpeg-libswscale          8.1.2-r1                 apk                         
 fftw-single-libs           3.3.11-r0                apk                         
 file                       5.47-r2                  apk                         
 font-liberation            2.1.5-r2                 apk                         
@@ -160,7 +160,7 @@ libatomic                  15.2.0-r8                apk
 libb2                      0.98.1-r3                apk                         
 libblkid                   2.42.2-r0                apk                         
 libblockdev                3.4.0-r1                 apk                         
-libbluray                  1.4.0-r0                 apk                         
+libbluray                  1.5.0-r0                 apk                         
 libbsd                     0.12.2-r0                apk                         
 libbytesize                2.12-r1                  apk                         
 libbytesize-lang           2.12-r1                  apk                         
