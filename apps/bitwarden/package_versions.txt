@@ -60,7 +60,7 @@ jq                              1.7.1-6+deb13u2                       deb
 keyboard-configuration          1.242~deb13u1                         deb       
 libabsl20240722                 20240722.0-4                          deb       
 libacl1                         2.3.2-2+b1                            deb       
-libaom3                         3.12.1-1                              deb       
+libaom3                         3.12.1-1+deb13u1                      deb       
 libapparmor1                    4.1.0-1                               deb       
 libapt-pkg7.0                   3.0.3                                 deb       
 libasan8                        14.2.0-19                             deb       

@@ -64,7 +64,7 @@ gsettings-desktop-schemas        46.1-0ubuntu1                      deb
 gstreamer1.0-gl                  1.24.2-1ubuntu0.4                  deb                        
 gstreamer1.0-plugins-base        1.24.2-1ubuntu0.4                  deb                        
 gtk-update-icon-cache            3.24.41-4ubuntu1.3                 deb                        
-gzip                             1.12-1ubuntu3.1                    deb                        
+gzip                             1.12-1ubuntu3.2                    deb                        
 hicolor-icon-theme               0.17-2                             deb                        
 hostname                         3.23+nmu2ubuntu2                   deb                        
 humanity-icon-theme              0.6.16                             deb                        
@@ -292,11 +292,11 @@ libopenjp2-7                     2.5.0-2ubuntu0.5                   deb        (
 libopus0                         1.4-1build1                        deb        (+1 duplicate)  
 liborc-0.4-0t64                  1:0.4.38-1ubuntu0.1                deb        (+1 duplicate)  
 libp11-kit0                      0.25.3-4ubuntu2.1                  deb        (+1 duplicate)  
-libpam-modules                   1.5.3-5ubuntu5.5                   deb                        
-libpam-modules-bin               1.5.3-5ubuntu5.5                   deb                        
-libpam-runtime                   1.5.3-5ubuntu5.5                   deb                        
+libpam-modules                   1.5.3-5ubuntu5.6                   deb                        
+libpam-modules-bin               1.5.3-5ubuntu5.6                   deb                        
+libpam-runtime                   1.5.3-5ubuntu5.6                   deb                        
 libpam-systemd                   255.4-1ubuntu8.16                  deb                        
-libpam0g                         1.5.3-5ubuntu5.5                   deb                        
+libpam0g                         1.5.3-5ubuntu5.6                   deb                        
 libpango-1.0-0                   1.52.1+ds-1build1                  deb        (+1 duplicate)  
 libpangocairo-1.0-0              1.52.1+ds-1build1                  deb        (+1 duplicate)  
 libpangoft2-1.0-0                1.52.1+ds-1build1                  deb        (+1 duplicate)  
@@ -453,7 +453,7 @@ libyaml-0-2                      0.2.5-1build1                      deb
 libzstd1                         1.5.5+dfsg2-2build1.1              deb        (+1 duplicate)  
 libzvbi-common                   0.2.42-2                           deb                        
 libzvbi0t64                      0.2.42-2                           deb        (+1 duplicate)  
-linux-libc-dev                   6.8.0-136.136                      deb                        
+linux-libc-dev                   6.8.0-137.137                      deb                        
 locales                          2.39-0ubuntu8.8                    deb                        
 locales-all                      2.39-0ubuntu8.8                    deb                        
 login                            1:4.13+dfsg1-4ubuntu3.2            deb                        
@@ -499,7 +499,7 @@ systemd                          255.4-1ubuntu8.16                  deb
 systemd-dev                      255.4-1ubuntu8.16                  deb                        
 systemd-sysv                     255.4-1ubuntu8.16                  deb                        
 sysvinit-utils                   3.08-6ubuntu3                      deb                        
-tar                              1.35+dfsg-3build1                  deb                        
+tar                              1.35+dfsg-3ubuntu0.4               deb                        
 ubuntu-keyring                   2023.11.28.1                       deb                        
 ubuntu-mono                      24.04-0ubuntu1                     deb                        
 udev                             255.4-1ubuntu8.16                  deb                        
@@ -513,7 +513,7 @@ wget                             1.21.4-1ubuntu4.4                  deb
 wine-stable                      11.0.0.0~noble-1                   deb                        
 wine-stable-amd64                11.0.0.0~noble-1                   deb                        
 wine-stable-i386                 11.0.0.0~noble-1                   deb                        
-winegui                          4.2.0                              deb                        
+winegui                          4.2.1                              deb                        
 winehq-stable                    11.0.0.0~noble-1                   deb                        
 winetricks                       20240105-2                         deb                        
 x11-common                       1:7.7+23ubuntu3                    deb                        

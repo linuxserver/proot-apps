@@ -9,7 +9,7 @@ bash                            5.2.37-2+b9                           deb
 binutils                        2.44-3                                deb     
 binutils-common                 2.44-3                                deb     
 binutils-x86-64-linux-gnu       2.44-3                                deb     
-brave-browser                   1.93.129                              deb     
+brave-browser                   1.93.132                              deb     
 brave-keyring                   1.20                                  deb     
 bsdutils                        1:2.41-5                              deb     
 ca-certificates                 20250419                              deb     
@@ -54,7 +54,7 @@ iso-codes                       4.18.0-1                              deb
 keyboard-configuration          1.242~deb13u1                         deb     
 libabsl20240722                 20240722.0-4                          deb     
 libacl1                         2.3.2-2+b1                            deb     
-libaom3                         3.12.1-1                              deb     
+libaom3                         3.12.1-1+deb13u1                      deb     
 libapparmor1                    4.1.0-1                               deb     
 libapt-pkg7.0                   3.0.3                                 deb     
 libasan8                        14.2.0-19                             deb     

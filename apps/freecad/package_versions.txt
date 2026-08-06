@@ -65,7 +65,7 @@ libacl1                             2.3.2-2+b1                            deb
 libaec0                             1.1.3-1+b1                            deb       
 libamd-comgr2                       6.0+git20231212.4510c28+dfsg-3+b2     deb       
 libamdhip64-5                       5.7.1-6+deb13u1                       deb       
-libaom3                             3.12.1-1                              deb       
+libaom3                             3.12.1-1+deb13u1                      deb       
 libapparmor1                        4.1.0-1                               deb       
 libapt-pkg7.0                       3.0.3                                 deb       
 libasan8                            14.2.0-19                             deb       

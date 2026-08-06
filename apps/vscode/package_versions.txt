@@ -1,11 +1,11 @@
 NAME                                        VERSION                               TYPE                   
 @github/copilot                             1.0.73                                npm                     
-@github/copilot-linux-x64                   1.0.73                                npm                     
+@github/copilot-linux-x64                   1.0.77                                npm                     
 @pondwader/socks5-server                    1.0.10                                npm                     
 @vscode/copilot-typescript-server-plugin    1.0.0                                 npm                     
 @vscode/fs-copyfile                         2.0.0                                 npm                     
 @vscode/sandbox-runtime                     0.0.1                                 npm                     
-Code                                        1.131.0                               npm                     
+Code                                        1.132.0                               npm                     
 Microsoft.PowerShell.PSReadLine             2.4.3                                 dotnet                  
 Microsoft.PowerShell.PSReadLine.Polyfiller  1.0.0.0                               dotnet  (+1 duplicate)  
 Microsoft.PowerShell.Pager                  1.0.0.0                               dotnet                  
@@ -24,11 +24,11 @@ bsdutils                                    1:2.41-5                            
 builtin-notebook-renderers                  10.0.0                                npm                     
 ca-certificates                             20250419                              deb                     
 clojure                                     10.0.0                                npm                     
-code                                        1.131.0-1785237861                    deb                     
+code                                        1.132.0-1785860022                    deb                     
 coffeescript                                10.0.0                                npm                     
 commander                                   12.1.0                                npm                     
 configuration-editing                       10.0.0                                npm                     
-copilot-chat                                0.59.0                                npm                     
+copilot-chat                                0.60.0                                npm                     
 coreutils                                   9.7-3                                 deb                     
 cpp                                         10.0.0                                npm                     
 cpp                                         4:14.2.0-1                            deb                     
@@ -117,7 +117,7 @@ latex                                       10.0.0                              
 less                                        10.0.0                                npm                     
 libabsl20240722                             20240722.0-4                          deb                     
 libacl1                                     2.3.2-2+b1                            deb                     
-libaom3                                     3.12.1-1                              deb                     
+libaom3                                     3.12.1-1+deb13u1                      deb                     
 libapparmor1                                4.1.0-1                               deb                     
 libapt-pkg7.0                               3.0.3                                 deb                     
 libasan8                                    14.2.0-19                             deb                     
@@ -486,7 +486,7 @@ util-linux                                  2.41-5                              
 vb                                          10.0.0                                npm                     
 vscode-css-languageserver                   10.0.0                                npm                     
 vscode-html-languageserver                  10.0.0                                npm                     
-vscode-js-profile-table                     1.0.10                                npm                     
+vscode-js-profile-table                     1.0.11                                npm                     
 vscode-json-languageserver                  1.3.4                                 npm                     
 vscode-theme-seti                           10.0.0                                npm                     
 vsda                                        1.4.4                                 npm                     

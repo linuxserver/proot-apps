@@ -1,7 +1,7 @@
 NAME                            VERSION                               TYPE     
 @electron/remote                2.1.3                                 npm       
 @postman/protobufjs             7.5.4-postman.2                       npm       
-Postman                         12.22.2                               npm       
+Postman                         12.22.3                               npm       
 adduser                         3.152                                 deb       
 adwaita-icon-theme              48.1-1                                deb       
 apt                             3.0.3                                 deb       
@@ -63,7 +63,7 @@ iso-codes                       4.18.0-1                              deb
 keyboard-configuration          1.242~deb13u1                         deb       
 libabsl20240722                 20240722.0-4                          deb       
 libacl1                         2.3.2-2+b1                            deb       
-libaom3                         3.12.1-1                              deb       
+libaom3                         3.12.1-1+deb13u1                      deb       
 libapparmor1                    4.1.0-1                               deb       
 libapt-pkg7.0                   3.0.3                                 deb       
 libasan8                        14.2.0-19                             deb       
