@@ -237,7 +237,7 @@ jna                                                     5.13.0 (b0)             
 jna                                                     5.9.0                                                                         java-archive                    
 jna-platform                                            5.13.0                                                                        java-archive                    
 jna-platform                                            5.13.0 (b0)                                                                   java-archive                    
-jq                                                      1.7.1-6+deb13u2                                                               deb                             
+jq                                                      1.7.1-6+deb13u3                                                               deb                             
 jrt-fs                                                  21.0.11                                                                       java-archive                    
 js                                                      UNKNOWN                                                                       java-archive                    
 json-discovery                                          1.0-SNAPSHOT                                                                  java-archive                    
@@ -361,7 +361,7 @@ libjack-jackd2-0                                        1.9.22~dfsg-4           
 libjansson4                                             2.14-2+b3                                                                     deb                             
 libjbig0                                                2.1-6.1+b2                                                                    deb                             
 libjpeg62-turbo                                         1:2.1.5-4                                                                     deb                             
-libjq1                                                  1.7.1-6+deb13u2                                                               deb                             
+libjq1                                                  1.7.1-6+deb13u3                                                               deb                             
 libjxl0.11                                              0.11.2-0.1~deb13u2                                                            deb                             
 libk5crypto3                                            1.21.3-5+deb13u1                                                              deb                             
 libkeyutils1                                            1.6.3-6                                                                       deb                             
