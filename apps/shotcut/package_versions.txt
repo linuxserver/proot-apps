@@ -195,9 +195,9 @@ libharfbuzz0b                        10.2.0-1+deb13u1                      deb
 libhdf4-0-alt                        4.3.0-1+b1                            deb     
 libhdf5-310                          1.14.5+repack-3                       deb     
 libhdf5-hl-310                       1.14.5+repack-3                       deb     
-libheif-plugin-dav1d                 1.19.8-1                              deb     
-libheif-plugin-libde265              1.19.8-1                              deb     
-libheif1                             1.19.8-1                              deb     
+libheif-plugin-dav1d                 1.19.8-1+deb13u1                      deb     
+libheif-plugin-libde265              1.19.8-1+deb13u1                      deb     
+libheif1                             1.19.8-1+deb13u1                      deb     
 libhogweed6t64                       3.10.1-1                              deb     
 libhunspell-1.7-0                    1.7.2+really1.7.2-10+b4               deb     
 libhwasan0                           14.2.0-19                             deb     
@@ -522,7 +522,7 @@ libzmq5                              4.3.5-1+b3                            deb
 libzstd1                             1.5.7+dfsg-1                          deb     
 libzvbi-common                       0.2.44-1                              deb     
 libzvbi0t64                          0.2.44-1                              deb     
-linux-libc-dev                       6.12.100-1                            deb     
+linux-libc-dev                       6.12.101-1                            deb     
 locales-all                          2.41-12+deb13u3                       deb     
 login                                1:4.16.0-2+really2.41-5               deb     
 login.defs                           1:4.17.4-2                            deb     
