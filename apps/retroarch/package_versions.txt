@@ -302,7 +302,7 @@ libxvmc                      1.0.15-r0                apk
 libxxf86vm                   1.1.7-r0                 apk                         
 libzip                       1.11.4-r2                apk                         
 libzmq                       4.3.5-r2                 apk                         
-lilv-libs                    0.24.26-r1               apk                         
+lilv-libs                    0.28.0-r0                apk                         
 linux-headers                7.1.5-r0                 apk                         
 linux-raw-sys                0.9.4                    rust-crate                  
 llvm22-libs                  22.1.8-r1                apk                         
