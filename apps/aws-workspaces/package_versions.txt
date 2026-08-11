@@ -264,7 +264,7 @@ libnsl-dev                      1.3.0-2build2                            deb
 libnsl2                         1.3.0-2build2                            deb       
 libnspr4                        2:4.35-0ubuntu0.22.04.1                  deb       
 libnss-sss                      2.6.3-1ubuntu3.6                         deb       
-libnss-systemd                  249.11-0ubuntu3.21                       deb       
+libnss-systemd                  249.11-0ubuntu3.22                       deb       
 libnss3                         2:3.98-0ubuntu0.22.04.4                  deb       
 libogg0                         1.3.5-0ubuntu3                           deb       
 libopus0                        1.3.1-0.1build2                          deb       
@@ -275,7 +275,7 @@ libpam-modules-bin              1.4.0-11ubuntu2.7                        deb
 libpam-pwquality                1.4.4-1build2                            deb       
 libpam-runtime                  1.4.0-11ubuntu2.7                        deb       
 libpam-sss                      2.6.3-1ubuntu3.6                         deb       
-libpam-systemd                  249.11-0ubuntu3.21                       deb       
+libpam-systemd                  249.11-0ubuntu3.22                       deb       
 libpam0g                        1.4.0-11ubuntu2.7                        deb       
 libpango-1.0-0                  1.50.6+ds-2ubuntu1                       deb       
 libpangocairo-1.0-0             1.50.6+ds-2ubuntu1                       deb       
@@ -346,7 +346,7 @@ libsss-certmap0                 2.6.3-1ubuntu3.6                         deb
 libsss-idmap0                   2.6.3-1ubuntu3.6                         deb       
 libsss-nss-idmap0               2.6.3-1ubuntu3.6                         deb       
 libstdc++6                      12.3.0-1ubuntu1~22.04.3                  deb       
-libsystemd0                     249.11-0ubuntu3.21                       deb       
+libsystemd0                     249.11-0ubuntu3.22                       deb       
 libtag1v5                       1.11.1+dfsg.1-3ubuntu3                   deb       
 libtag1v5-vanilla               1.11.1+dfsg.1-3ubuntu3                   deb       
 libtalloc2                      2.3.3-2build1                            deb       
@@ -498,9 +498,9 @@ sssd-krb5                       2.6.3-1ubuntu3.6                         deb
 sssd-krb5-common                2.6.3-1ubuntu3.6                         deb       
 sssd-ldap                       2.6.3-1ubuntu3.6                         deb       
 sssd-proxy                      2.6.3-1ubuntu3.6                         deb       
-systemd                         249.11-0ubuntu3.21                       deb       
-systemd-sysv                    249.11-0ubuntu3.21                       deb       
-systemd-timesyncd               249.11-0ubuntu3.21                       deb       
+systemd                         249.11-0ubuntu3.22                       deb       
+systemd-sysv                    249.11-0ubuntu3.22                       deb       
+systemd-timesyncd               249.11-0ubuntu3.22                       deb       
 sysvinit-utils                  3.01-1ubuntu1                            deb       
 tar                             1.34+dfsg-1ubuntu0.1.22.04.6             deb       
 ubuntu-keyring                  2021.03.26                               deb       
