@@ -50,7 +50,7 @@ gstreamer-lang             1.28.5-r0                apk
 gstreamer-ptp-helper       1.28.5-r0                apk     
 harfbuzz                   14.2.1-r0                apk     
 hicolor-icon-theme         0.18-r0                  apk     
-hwdata-pci                 0.409-r0                 apk     
+hwdata-pci                 0.410-r0                 apk     
 icu-data-en                78.1-r0                  apk     
 icu-libs                   78.1-r0                  apk     
 isl26                      0.26-r2                  apk     
@@ -188,9 +188,9 @@ ssl_client                 1.38.0-r4                apk
 tdb-libs                   1.4.15-r1                apk     
 tslib                      1.24-r0                  apk     
 tzdata                     2026c-r0                 apk     
-wayland-libs-client        1.25.0-r0                apk     
-wayland-libs-cursor        1.25.0-r0                apk     
-wayland-libs-egl           1.25.0-r0                apk     
+wayland-libs-client        1.26.0-r0                apk     
+wayland-libs-cursor        1.26.0-r0                apk     
+wayland-libs-egl           1.26.0-r0                apk     
 webrtc-audio-processing-1  1.3-r4                   apk     
 xcb-util                   0.4.1-r3                 apk     
 xcb-util-cursor            0.1.5-r0                 apk     

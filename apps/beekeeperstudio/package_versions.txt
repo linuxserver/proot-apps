@@ -11,8 +11,8 @@ at-spi2-common                   2.56.2-1+deb13u1                      deb
 base-files                       13.8+deb13u6                          deb                   
 base-passwd                      3.6.7                                 deb                   
 bash                             5.2.37-2+b9                           deb                   
-beekeeper-studio                 5.9.3                                 deb                   
-beekeeper-studio                 5.9.3                                 npm                   
+beekeeper-studio                 6.0.0                                 deb                   
+beekeeper-studio                 6.0.0                                 npm                   
 better-sqlite3                   12.6.2                                npm                   
 binutils                         2.44-3                                deb                   
 binutils-common                  2.44-3                                deb                   
@@ -66,7 +66,8 @@ is-wsl                           2.2.0                                 npm
 isarray                          1.0.0                                 npm                   
 iso-codes                        4.18.0-1                              deb                   
 jszip                            3.10.1                                npm                   
-kerberos                         7.0.0                                 npm                   
+kerberos                         2.2.2                                 npm                   
+kerberos                         7.0.0                                 npm   (+1 duplicate)  
 keyboard-configuration           1.242~deb13u1                         deb                   
 libabsl20240722                  20240722.0-4                          deb                   
 libacl1                          2.3.2-2+b1                            deb                   
@@ -363,6 +364,7 @@ ncurses-base                     6.5+20250216-2                        deb
 ncurses-bin                      6.5+20250216-2                        deb                   
 netcat-openbsd                   1.229-1                               deb                   
 node-abi                         4.31.0                                npm                   
+node-addon-api                   6.1.0                                 npm                   
 node-addon-api                   8.8.0                                 npm                   
 ocl-icd-libopencl1               2.3.3-1                               deb                   
 open                             7.4.2                                 npm                   
