@@ -158,7 +158,7 @@ libasyncns                 0.8-r5                   apk
 libatasmart                0.19-r4                  apk                         
 libatomic                  15.2.0-r8                apk                         
 libb2                      0.98.1-r3                apk                         
-libblkid                   2.42.2-r0                apk                         
+libblkid                   2.42.2-r1                apk                         
 libblockdev                3.4.0-r1                 apk                         
 libbluray                  1.5.0-r0                 apk                         
 libbsd                     0.12.2-r0                apk                         
@@ -207,7 +207,7 @@ libltdl                    2.6.2-r0                 apk
 libmagic                   5.47-r2                  apk                         
 libmd                      1.2.0-r0                 apk                         
 libmng                     2.0.3-r2                 apk                         
-libmount                   2.42.2-r0                apk                         
+libmount                   2.42.2-r1                apk                         
 libmtp                     1.1.22-r1                apk                         
 libncursesw                6.6_p20260516-r0         apk                         
 libnvme                    1.16.2-r0                apk                         
@@ -237,7 +237,7 @@ libturbojpeg               3.1.3-r0                 apk
 libudfread                 1.2.0-r1                 apk                         
 libunistring               1.4.2-r0                 apk                         
 libusb                     1.0.30-r0                apk                         
-libuuid                    2.42.2-r0                apk                         
+libuuid                    2.42.2-r1                apk                         
 libva                      2.23.0-r0                apk                         
 libva-intel-driver         2.4.1-r2                 apk                         
 libvdpau                   1.5-r4                   apk                         
