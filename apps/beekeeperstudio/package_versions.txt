@@ -1,5 +1,5 @@
 NAME                             VERSION                               TYPE                 
-@beekeeperstudio/bks-ai-shell    3.2.0                                 npm                   
+@beekeeperstudio/bks-ai-shell    3.3.2                                 npm                   
 @beekeeperstudio/bks-er-diagram  1.1.2                                 npm                   
 @duckdb/node-bindings-linux-x64  1.4.1-r.4                             npm                   
 @libsql/linux-x64-gnu            0.5.22                                npm                   
@@ -11,8 +11,8 @@ at-spi2-common                   2.56.2-1+deb13u1                      deb
 base-files                       13.8+deb13u6                          deb                   
 base-passwd                      3.6.7                                 deb                   
 bash                             5.2.37-2+b9                           deb                   
-beekeeper-studio                 6.0.0                                 deb                   
-beekeeper-studio                 6.0.0                                 npm                   
+beekeeper-studio                 6.0.1                                 deb                   
+beekeeper-studio                 6.0.1                                 npm                   
 better-sqlite3                   12.6.2                                npm                   
 binutils                         2.44-3                                deb                   
 binutils-common                  2.44-3                                deb                   
