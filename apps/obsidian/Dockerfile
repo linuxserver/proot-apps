@@ -32,9 +32,9 @@ RUN \
     -e "/^Exec=/c Exec=/bin/sh -c \"\$HOME\/.local\/bin\/proot-apps run ghcr.io/${REPO}:obsidian %U\"" \
     -e "s/Name=Obsidian/Name=Obsidian PA/g" \
     -e '/^TryExec=/d' \
-    /opt/obsidian/obsidian.desktop && \
+    /opt/obsidian/md.obsidian.Obsidian.desktop && \
   mv \
-    /opt/obsidian/obsidian.desktop \
+    /opt/obsidian/md.obsidian.Obsidian.desktop \
     /usr/share/applications/obsidian-pa.desktop && \
   echo "**** set bin name ****" && \
   echo "obsidian-pa" > /bin-name && \
