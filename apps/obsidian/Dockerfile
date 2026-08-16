@@ -13,7 +13,7 @@ RUN \
     libatk-bridge2.0 \
     libnss3 \
     python3-xdg && \
-  OBSIDIAN_VERSION=$(curl -sX GET "https://api.github.com/repos/obsidianmd/obsidian-releases/releases/latest"| awk '/tag_name/{print $4;exit}' FS='[""]') && \
+  OBSIDIAN_VERSION=$(curl -sX GET "https://api.github.com/repos/obsidianmd/obsidian-releases/releases/latest"| jq -r '.tag_name') && \
   OBSIDIAN_NOV=$(echo ${OBSIDIAN_VERSION} | sed 's/v//g') && \
   if [ "$(uname -m)" = "x86_64" ]; then \
     URL="https://github.com/obsidianmd/obsidian-releases/releases/download/${OBSIDIAN_VERSION}/Obsidian-${OBSIDIAN_NOV}.AppImage"; \

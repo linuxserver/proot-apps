@@ -8,7 +8,7 @@ RUN \
   apt-get update && \
   ARCH=$(uname -m| sed 's/x86_64/amd64/g'| sed 's/aarch64/arm64/') && \
   HELIUM_VERSION=$(curl -sX GET "https://api.github.com/repos/imputnet/helium-linux/releases/latest"\
-    | awk '/tag_name/{print $4;exit}' FS='[""]') && \
+    | jq -r '.tag_name') && \
   curl -o \
     /tmp/helium.deb -L \
     "https://github.com/imputnet/helium-linux/releases/download/${HELIUM_VERSION}/helium-bin_${HELIUM_VERSION}-1_${ARCH}.deb" && \

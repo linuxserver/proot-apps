@@ -20,7 +20,7 @@ RUN \
     /usr/share/icons/hicolor/scalable/apps/ungoogledchromium.svg -L \
     "https://github.com/linuxserver/proot-apps/raw/master/metadata/img/ungoogledchromium.svg" && \
   UGC_VERSION=$(curl -sX GET "https://api.github.com/repos/ungoogled-software/ungoogled-chromium-portablelinux/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]') && \
+    | jq -r '.tag_name') && \
   cd /tmp && \
   curl -o \
     /tmp/ugc.tar.xz -L \

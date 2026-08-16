@@ -18,7 +18,7 @@ RUN \
     libatk1.0-0 \
     xz-utils && \
   ZEN_VERSION=$(curl -sX GET "https://api.github.com/repos/zen-browser/desktop/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]') && \
+    | jq -r '.tag_name') && \
   curl -o \
     /tmp/zen.tar.xz -L \
     "https://github.com/zen-browser/desktop/releases/download/${ZEN_VERSION}/zen.linux-$(uname -m).tar.xz" && \

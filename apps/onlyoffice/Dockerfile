@@ -13,7 +13,7 @@ RUN \
     libgl1 \
     libnss3 && \
   ONLYOFFICE_VERSION=$(curl -sX GET "https://api.github.com/repos/ONLYOFFICE/DesktopEditors/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]') && \
+    | jq -r '.tag_name') && \
   curl -o \
     /tmp/onlyoffice.deb -L \
     "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/${ONLYOFFICE_VERSION}/onlyoffice-desktopeditors_amd64.deb" && \

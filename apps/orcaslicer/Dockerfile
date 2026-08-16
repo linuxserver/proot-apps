@@ -30,9 +30,11 @@ RUN \
     libwx-perl \
     python3-xdg && \
   ORCASLICER_VERSION=$(curl -sX GET "https://api.github.com/repos/OrcaSlicer/OrcaSlicer/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]') && \
-  RELEASE_URL=$(curl -sX GET "https://api.github.com/repos/OrcaSlicer/OrcaSlicer/releases/latest"     | awk '/url/{print $4;exit}' FS='[""]') && \
-  DOWNLOAD_URL=$(curl -sX GET "${RELEASE_URL}" | awk '/browser_download_url.*Ubuntu2404/{print $4;exit}' FS='[""]') && \
+    | jq -r '.tag_name') && \
+  RELEASE_URL=$(curl -sX GET "https://api.github.com/repos/OrcaSlicer/OrcaSlicer/releases/latest" \
+    | jq -r '.url') && \
+  DOWNLOAD_URL=$(curl -sX GET "${RELEASE_URL}" \
+    | jq -r 'first(.assets[].browser_download_url | select(contains("Ubuntu2404")))') && \
   curl -o \
     /tmp/orcaslicer.app -L \
     "${DOWNLOAD_URL}" && \

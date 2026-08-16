@@ -13,7 +13,7 @@ RUN \
     libnss3 \
     libopengl0 \
     python3-xdg && \
-  OC_VERSION=$(curl -sX GET "https://api.github.com/repos/opencloud-eu/desktop/releases/latest"| awk '/tag_name/{print $4;exit}' FS='[""]') && \
+  OC_VERSION=$(curl -sX GET "https://api.github.com/repos/opencloud-eu/desktop/releases/latest"| jq -r '.tag_name') && \
   curl -o \
     /tmp/opencloud.app -L \
     "https://github.com/opencloud-eu/desktop/releases/download/${OC_VERSION}/OpenCloud_Desktop-${OC_VERSION}-linux-gcc-x86_64.AppImage" && \

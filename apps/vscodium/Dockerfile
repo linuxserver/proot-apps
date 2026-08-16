@@ -11,7 +11,7 @@ RUN \
     openssh-client && \
   ARCH=$(uname -m| sed 's/x86_64/amd64/g'| sed 's/aarch64/arm64/') && \
   CODIUM_VERSION=$(curl -sX GET "https://api.github.com/repos/VSCodium/vscodium/releases/latest" \
-  | awk '/tag_name/{print $4;exit}' FS='[""]') && \
+  | jq -r '.tag_name') && \
   curl -o \
     /tmp/codium.deb -L \
     "https://github.com/VSCodium/vscodium/releases/download/${CODIUM_VERSION}/codium_${CODIUM_VERSION}_${ARCH}.deb" && \

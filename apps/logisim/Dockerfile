@@ -12,7 +12,7 @@ RUN \
     libpng16-16t64 \
     libxi6 && \
   LOGISIM_VERSION=$(curl -sX GET "https://api.github.com/repos/logisim-evolution/logisim-evolution/releases/latest" \
-  | awk '/tag_name/{print $4;exit}' FS='[""]') && \
+  | jq -r '.tag_name') && \
   curl -o \
     /tmp/logisim.deb -L \
     "https://github.com/logisim-evolution/logisim-evolution/releases/download/${LOGISIM_VERSION}/logisim-evolution_$( echo $LOGISIM_VERSION|sed 's/^v//g')_amd64.deb" && \

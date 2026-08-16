@@ -8,7 +8,7 @@ RUN \
   apt-get update && \
   ARCH=$(uname -m| sed 's/x86_64/x64/g'| sed 's/aarch64/arm64/') && \
   TABBY_VERSION=$(curl -sX GET "https://api.github.com/repos/Eugeny/tabby/releases/latest" \
-  | awk '/tag_name/{print $4;exit}' FS='[""]') && \
+  | jq -r '.tag_name') && \
   curl -o \
     /tmp/tabby.deb -L \
     "https://github.com/Eugeny/tabby/releases/download/${TABBY_VERSION}/tabby-$(echo ${TABBY_VERSION}|sed 's/^v//g')-linux-${ARCH}.deb" && \

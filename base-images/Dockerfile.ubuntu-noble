@@ -17,6 +17,7 @@ RUN \
     desktop-file-utils \
     fonts-noto \
     gcc \
+    jq \
     libc6-dev \
     libvulkan1 \
     locales-all \

@@ -10,7 +10,7 @@ RUN \
     libgpg-error0 \
     libopengl0 && \
   NEXTCLOUD_VERSION=$(curl -sX GET "https://api.github.com/repos/nextcloud-releases/desktop/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]') && \
+    | jq -r '.tag_name') && \
   cd /tmp && \
   curl -o \
     /tmp/nextcloud.app -L \

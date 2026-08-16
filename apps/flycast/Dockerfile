@@ -9,7 +9,7 @@ RUN \
   apt-get install -y \
     libgpg-error0 && \
   FLYCAST_VERSION=$(curl -sX GET "https://api.github.com/repos/flyinghead/flycast/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]') && \
+    | jq -r '.tag_name') && \
   curl -o \
     /tmp/flycast.app -L \
     "https://github.com/flyinghead/flycast/releases/download/${FLYCAST_VERSION}/flycast-x86_64.AppImage" && \

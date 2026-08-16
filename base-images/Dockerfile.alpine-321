@@ -12,6 +12,7 @@ RUN \
     curl \
     dbus-x11 \
     font-noto \
+    jq \
     mesa-dri-gallium \
     mesa-gles \
     mesa-va-gallium \

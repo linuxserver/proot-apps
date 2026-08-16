@@ -13,6 +13,7 @@ RUN \
     dbus-x11 \
     font-noto \
     gcc \
+    jq \
     lang \
     linux-headers \
     make \

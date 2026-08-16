@@ -10,7 +10,7 @@ RUN \
     openssh-client && \
   ARCH=$(uname -m| sed 's/x86_64/amd64/g'| sed 's/aarch64/arm64/') && \
   BEE_VERSION=$(curl -sX GET "https://api.github.com/repos/beekeeper-studio/beekeeper-studio/releases/latest" \
-  | awk '/tag_name/{print $4;exit}' FS='[""]') && \
+  | jq -r '.tag_name') && \
   curl -o \
     /tmp/bee.deb -L \
     "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/${BEE_VERSION}/beekeeper-studio_$(echo $BEE_VERSION| sed 's/^v//g')_${ARCH}.deb" && \

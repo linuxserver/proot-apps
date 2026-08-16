@@ -11,7 +11,7 @@ RUN \
     libqt5x11extras5 \
     xz-utils && \
   DOUBLECMD_VERSION=$(curl -sX GET "https://api.github.com/repos/doublecmd/doublecmd/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]') && \
+    | jq -r '.tag_name') && \
   curl -o \
     /tmp/doublecmd.tar.xz -L \
     "https://github.com/doublecmd/doublecmd/releases/download/${DOUBLECMD_VERSION}/doublecmd-$(echo $DOUBLECMD_VERSION| sed 's/^v//g').qt.$(uname -m).tar.xz" && \

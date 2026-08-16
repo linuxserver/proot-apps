@@ -29,6 +29,7 @@ jobs:
       matrix:
         include:
           - name: alpine-323
+          - name: alpine-324
           - name: alpine-edge
           - name: debian-trixie
           - name: ubuntu-jammy

@@ -7,7 +7,7 @@ RUN \
   echo "**** install packages ****" && \
   apt-get update && \
   FRANZ_VERSION=$(curl -sX GET "https://api.github.com/repos/meetfranz/franz/releases/latest" \
-  | awk '/tag_name/{print $4;exit}' FS='[""]') && \
+  | jq -r '.tag_name') && \
   curl -o \
     /tmp/franz.deb -L \
     "https://github.com/meetfranz/franz/releases/download/${FRANZ_VERSION}/franz_$(echo $FRANZ_VERSION|sed 's/^v//g')_amd64.deb" && \

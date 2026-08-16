@@ -10,7 +10,7 @@ RUN \
     fonts-noto-color-emoji && \
   ARCH=$(uname -m| sed 's/x86_64/amd64/g'| sed 's/aarch64/arm64/') && \
   FERDIUM_VERSION=$(curl -sX GET "https://api.github.com/repos/ferdium/ferdium-app/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]') && \
+    | jq -r '.tag_name') && \
   curl -o \
     /tmp/ferdium.deb -L \
     "https://github.com/ferdium/ferdium-app/releases/download/${FERDIUM_VERSION}/Ferdium-linux-$(echo $FERDIUM_VERSION | sed 's/^v//g')-${ARCH}.deb" && \

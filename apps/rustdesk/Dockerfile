@@ -7,7 +7,7 @@ RUN \
   echo "**** install packages ****" && \
   apt-get update && \
   RD_VERSION=$(curl -sX GET "https://api.github.com/repos/rustdesk/rustdesk/releases/latest" \
-  | awk '/tag_name/{print $4;exit}' FS='[""]') && \
+  | jq -r '.tag_name') && \
   curl -o \
     /tmp/rustdesk.deb -L \
     "https://github.com/rustdesk/rustdesk/releases/download/${RD_VERSION}/rustdesk-${RD_VERSION}-$(uname -m).deb" && \

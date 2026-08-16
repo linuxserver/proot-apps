@@ -17,7 +17,7 @@ RUN \
     libatk-bridge2.0-0 \
     libatk1.0-0 && \
   JOPLIN_VERSION=$(curl -sX GET "https://api.github.com/repos/laurent22/joplin/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]') && \
+    | jq -r '.tag_name') && \
   curl -o \
     /tmp/joplin.deb -L \
     "https://github.com/laurent22/joplin/releases/download/${JOPLIN_VERSION}/Joplin-$(echo ${JOPLIN_VERSION}| sed 's/^v//g').deb" && \
