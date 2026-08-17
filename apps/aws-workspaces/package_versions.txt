@@ -79,6 +79,7 @@ humanity-icon-theme             0.6.16                                   deb
 hunspell-en-us                  1:2020.12.07-2                           deb       
 init-system-helpers             1.62                                     deb       
 iso-codes                       4.9.0-1                                  deb       
+jq                              1.6-2.1ubuntu3.2                         deb       
 keyboard-configuration          1.205ubuntu3                             deb       
 ldap-utils                      2.5.20+dfsg-0ubuntu0.22.04.1             deb       
 libaa1                          1.4p5-50build1                           deb       
@@ -222,6 +223,7 @@ libjavascriptcoregtk-4.1-0      2.50.4-0ubuntu0.22.04.1                  deb
 libjbig0                        2.1-3.1ubuntu0.22.04.1                   deb       
 libjpeg-turbo8                  2.1.2-0ubuntu1                           deb       
 libjpeg8                        8c-2ubuntu10                             deb       
+libjq1                          1.6-2.1ubuntu3.2                         deb       
 libjson-c5                      0.15-3~ubuntu1.22.04.2                   deb       
 libjson-glib-1.0-0              1.6.6-1build1                            deb       
 libjson-glib-1.0-common         1.6.6-1build1                            deb       
@@ -267,6 +269,7 @@ libnss-sss                      2.6.3-1ubuntu3.6                         deb
 libnss-systemd                  249.11-0ubuntu3.22                       deb       
 libnss3                         2:3.98-0ubuntu0.22.04.4                  deb       
 libogg0                         1.3.5-0ubuntu3                           deb       
+libonig5                        6.9.7.1-2build1                          deb       
 libopus0                        1.3.1-0.1build2                          deb       
 liborc-0.4-0                    1:0.4.32-2ubuntu0.1                      deb       
 libp11-kit0                     0.24.0-6build1                           deb       

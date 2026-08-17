@@ -142,6 +142,7 @@ itertools                  0.14.0                   rust-crate
 ivf                        0.1.4                    rust-crate                  
 jansson                    2.15.0-r0                apk                         
 jeepney                    0.9.0                    python                      
+jq                         1.8.2-r0                 apk                         
 json-c                     0.19-r1                  apk                         
 json-glib                  1.10.8-r0                apk                         
 json-glib-lang             1.10.8-r0                apk                         
@@ -330,6 +331,7 @@ num-traits                 0.2.19                   rust-crate
 numactl                    2.0.19-r0                apk                         
 once_cell                  1.21.3                   rust-crate                  
 once_cell                  1.21.4                   rust-crate                  
+oniguruma                  6.9.10-r0                apk                         
 openjpeg                   2.5.4-r1                 apk                         
 optipng                    7.9.1-r1                 apk                         
 opus                       1.6.1-r0                 apk                         
@@ -429,16 +431,16 @@ py3-xxhash                 3.5.0-r1                 apk
 py3-xxhash-pyc             3.5.0-r1                 apk                         
 py3-zeroconf               0.147.2-r1               apk                         
 py3-zeroconf-pyc           0.147.2-r1               apk                         
-pyc                        3.14.5-r2                apk                         
+pyc                        3.14.7-r0                apk                         
 pycryptodome               3.23.0                   python                      
 pygments                   2.20.0                   python                      
 pyqt6                      6.11.0                   python                      
 pyqt6-sip                  13.12.0                  python                      
 pyqt6-webengine            6.11.0                   python                      
 python-dateutil            2.9.0                    python                      
-python3                    3.14.5-r2                apk                         
-python3-pyc                3.14.5-r2                apk                         
-python3-pycache-pyc0       3.14.5-r2                apk                         
+python3                    3.14.7-r0                apk                         
+python3-pyc                3.14.7-r0                apk                         
+python3-pycache-pyc0       3.14.7-r0                apk                         
 pyxdg                      0.28                     python                      
 qt6-qtbase                 6.11.1-r2                apk                         
 qt6-qtbase-private-dev     6.11.1-r2                apk                         

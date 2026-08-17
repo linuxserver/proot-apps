@@ -55,6 +55,7 @@ icu-data-en                78.1-r0                  apk
 icu-libs                   78.1-r0                  apk     
 isl26                      0.26-r2                  apk     
 jansson                    2.15.0-r0                apk     
+jq                         1.8.2-r0                 apk     
 kdsingleapplication        1.1.0-r0                 apk     
 kguiaddons                 6.28.0-r0                apk     
 lame-libs                  3.100-r5                 apk     
@@ -159,6 +160,7 @@ ncurses-terminfo-base      6.6_p20260516-r0         apk
 netcat-openbsd             1.234.1-r0               apk     
 nettle                     3.10.2-r0                apk     
 nghttp2-libs               1.70.0-r0                apk     
+oniguruma                  6.9.10-r0                apk     
 opus                       1.6.1-r0                 apk     
 orc                        0.4.42-r1                apk     
 p11-kit                    0.26.2-r1                apk     
@@ -169,10 +171,10 @@ pkgconf                    3.0.5-r0                 apk
 pulseaudio                 17.0-r7                  apk     
 pulseaudio-alsa            17.0-r7                  apk     
 pulseaudio-lang            17.0-r7                  apk     
-pyc                        3.14.5-r2                apk     
-python3                    3.14.5-r2                apk     
-python3-pyc                3.14.5-r2                apk     
-python3-pycache-pyc0       3.14.5-r2                apk     
+pyc                        3.14.7-r0                apk     
+python3                    3.14.7-r0                apk     
+python3-pyc                3.14.7-r0                apk     
+python3-pycache-pyc0       3.14.7-r0                apk     
 qt6-qtbase                 6.11.1-r2                apk     
 qt6-qtbase-wayland         6.11.1-r2                apk     
 qt6-qtbase-x11             6.11.1-r2                apk     

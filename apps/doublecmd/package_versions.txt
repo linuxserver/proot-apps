@@ -42,6 +42,7 @@ gzip                            1.13-1                                deb
 hostname                        3.25                                  deb     
 init-system-helpers             1.69~deb13u1                          deb     
 iso-codes                       4.18.0-1                              deb     
+jq                              1.7.1-6+deb13u3                       deb     
 keyboard-configuration          1.242~deb13u1                         deb     
 libabsl20240722                 20240722.0-4                          deb     
 libacl1                         2.3.2-2+b1                            deb     
@@ -148,6 +149,7 @@ libjack-jackd2-0                1.9.22~dfsg-4                         deb
 libjansson4                     2.14-2+b3                             deb     
 libjbig0                        2.1-6.1+b2                            deb     
 libjpeg62-turbo                 1:2.1.5-4                             deb     
+libjq1                          1.7.1-6+deb13u3                       deb     
 libjxl0.11                      0.11.2-0.1~deb13u2                    deb     
 libk5crypto3                    1.21.3-5+deb13u1                      deb     
 libkeyutils1                    1.6.3-6                               deb     
@@ -177,6 +179,7 @@ libnghttp2-14                   1.64.0-1.1+deb13u1                    deb
 libnghttp3-9                    1.8.0-1                               deb     
 libnuma1                        2.0.19-1                              deb     
 libogg0                         1.3.5-3+b2                            deb     
+libonig5                        6.9.9-1+b1                            deb     
 libopenjp2-7                    2.5.3-2.1~deb13u2                     deb     
 libopus0                        1.5.2-2                               deb     
 liborc-0.4-0t64                 1:0.4.41-1                            deb     

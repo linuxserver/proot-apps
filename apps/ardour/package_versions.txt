@@ -114,6 +114,7 @@ itertools                  0.14.0                   rust-crate
 ivf                        0.1.4                    rust-crate                  
 jack                       1.9.22-r4                apk                         
 jansson                    2.14.1-r0                apk                         
+jq                         1.8.1-r0                 apk                         
 json-c                     0.18-r1                  apk                         
 lab                        0.11.0                   rust-crate                  
 lame                       3.100-r5                 apk                         
@@ -260,6 +261,7 @@ num-rational               0.4.2                    rust-crate
 num-traits                 0.2.19                   rust-crate                  
 numactl                    2.0.18-r0                apk                         
 once_cell                  1.21.3                   rust-crate                  
+oniguruma                  6.9.10-r0                apk                         
 opus                       1.5.2-r1                 apk                         
 orc                        0.4.41-r0                apk                         
 pango                      1.56.4-r0                apk                         
@@ -274,10 +276,10 @@ profiling                  1.0.16                   rust-crate
 pulseaudio                 17.0-r5                  apk                         
 pulseaudio-alsa            17.0-r5                  apk                         
 pulseaudio-lang            17.0-r5                  apk                         
-pyc                        3.12.13-r0               apk                         
-python3                    3.12.13-r0               apk                         
-python3-pyc                3.12.13-r0               apk                         
-python3-pycache-pyc0       3.12.13-r0               apk                         
+pyc                        3.12.14-r0               apk                         
+python3                    3.12.14-r0               apk                         
+python3-pyc                3.12.14-r0               apk                         
+python3-pycache-pyc0       3.12.14-r0               apk                         
 quote                      1.0.40                   rust-crate                  
 radium                     0.7.0                    rust-crate                  
 rand                       0.9.1                    rust-crate                  
