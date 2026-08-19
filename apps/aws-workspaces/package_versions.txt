@@ -292,7 +292,7 @@ libpipewire-0.3-0               0.3.48-1ubuntu3.2                        deb
 libpipewire-0.3-common          0.3.48-1ubuntu3.2                        deb       
 libpipewire-0.3-modules         0.3.48-1ubuntu3.2                        deb       
 libpixman-1-0                   0.40.0-1ubuntu0.22.04.1                  deb       
-libpng16-16                     1.6.37-3ubuntu0.5                        deb       
+libpng16-16                     1.6.37-3ubuntu0.6                        deb       
 libpolkit-agent-1-0             0.105-33ubuntu0.1                        deb       
 libpolkit-gobject-1-0           0.105-33ubuntu0.1                        deb       
 libpopt0                        1.18-3build1                             deb       
