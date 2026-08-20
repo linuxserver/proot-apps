@@ -116,7 +116,7 @@ libegl-mesa0                    25.0.7-2+deb13u1                      deb
 libegl1                         1.7.0-1+b2                            deb     
 libelf1t64                      0.192-4                               deb     
 libepoxy0                       1.5.10-2                              deb     
-libexpat1                       2.8.2-1~deb13u1                       deb     
+libexpat1                       2.8.3-1~deb13u1                       deb     
 libffi8                         3.4.8-2                               deb     
 libfftw3-single3                3.3.10-2+b1                           deb     
 libflac14                       1.5.0+ds-2                            deb     
@@ -351,7 +351,7 @@ tar                             1.35+dfsg-3.1                         deb
 tzdata                          2026b-0+deb13u1                       deb     
 udev                            257.13-1~deb13u1                      deb     
 util-linux                      2.41-5                                deb     
-vivaldi-stable                  8.1.4087.66-1                         deb     
+vivaldi-stable                  8.1.4087.68-1                         deb     
 wget                            1.25.0-2                              deb     
 x11-common                      1:7.7+24+deb13u1                      deb     
 x11-xkb-utils                   7.7+9                                 deb     

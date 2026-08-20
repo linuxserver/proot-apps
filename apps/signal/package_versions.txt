@@ -115,7 +115,7 @@ libegl-mesa0                    25.0.7-2+deb13u1                      deb
 libegl1                         1.7.0-1+b2                            deb     
 libelf1t64                      0.192-4                               deb     
 libepoxy0                       1.5.10-2                              deb     
-libexpat1                       2.8.2-1~deb13u1                       deb     
+libexpat1                       2.8.3-1~deb13u1                       deb     
 libffi8                         3.4.8-2                               deb     
 libfftw3-single3                3.3.10-2+b1                           deb     
 libflac14                       1.5.0+ds-2                            deb     
@@ -344,7 +344,7 @@ pulseaudio-utils                17.0+dfsg1-2+b1                       deb
 rpcsvc-proto                    1.4.3-1                               deb     
 sed                             4.9-2+deb13u1                         deb     
 shared-mime-info                2.4-5+b2                              deb     
-signal-desktop                  8.23.0                                deb     
+signal-desktop                  8.24.0                                deb     
 sqv                             1.3.0-3+b2                            deb     
 systemd                         257.13-1~deb13u1                      deb     
 sysvinit-utils                  3.14-4                                deb     

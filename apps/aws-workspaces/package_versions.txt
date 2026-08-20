@@ -7,8 +7,8 @@ aspell-en                       2018.04.16-0-1                           deb
 base-files                      12ubuntu4.7                              deb       
 base-passwd                     3.5.52build1                             deb       
 bash                            5.1-6ubuntu1.1                           deb       
-bind9-host                      1:9.18.39-0ubuntu0.22.04.4               deb       
-bind9-libs                      1:9.18.39-0ubuntu0.22.04.4               deb       
+bind9-host                      1:9.18.39-0ubuntu0.22.04.5               deb       
+bind9-libs                      1:9.18.39-0ubuntu0.22.04.5               deb       
 binutils                        2.38-4ubuntu2.12                         deb       
 binutils-common                 2.38-4ubuntu2.12                         deb       
 binutils-x86-64-linux-gnu       2.38-4ubuntu2.12                         deb       
@@ -443,7 +443,7 @@ libxvmc1                        2:1.0.12-2build2                         deb
 libxxf86vm1                     1:1.1.4-1build3                          deb       
 libxxhash0                      0.8.1-1                                  deb       
 libzstd1                        1.4.8+dfsg-3build1                       deb       
-linux-libc-dev                  5.15.0-187.197                           deb       
+linux-libc-dev                  5.15.0-190.200                           deb       
 login                           1:4.8.1-2ubuntu2.2                       deb       
 logsave                         1.46.5-2ubuntu1.2                        deb       
 lsb-base                        11.1.0ubuntu4                            deb       

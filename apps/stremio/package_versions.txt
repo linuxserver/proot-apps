@@ -318,7 +318,7 @@ libssl3                             3.0.2-0ubuntu1.26                        deb
 libstdc++6                          12.3.0-1ubuntu1~22.04.3                  deb     
 libswresample3                      7:4.4.2-0ubuntu0.22.04.1                 deb     
 libswscale5                         7:4.4.2-0ubuntu0.22.04.1                 deb     
-libsystemd0                         249.11-0ubuntu3.21                       deb     
+libsystemd0                         249.11-0ubuntu3.22                       deb     
 libtasn1-6                          4.18.0-4ubuntu0.2                        deb     
 libtdb1                             1.4.5-2build1                            deb     
 libthai-data                        0.1.29-1build1                           deb     
@@ -421,7 +421,7 @@ libzmq5                             4.3.4-2                                  deb
 libzstd1                            1.4.8+dfsg-3build1                       deb     
 libzvbi-common                      0.2.35-19                                deb     
 libzvbi0                            0.2.35-19                                deb     
-linux-libc-dev                      5.15.0-187.197                           deb     
+linux-libc-dev                      5.15.0-190.200                           deb     
 login                               1:4.8.1-2ubuntu2.2                       deb     
 logsave                             1.46.5-2ubuntu1.2                        deb     
 lsb-base                            11.1.0ubuntu4                            deb     

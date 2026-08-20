@@ -422,7 +422,7 @@ utf8parse                    0.2.2                    rust-crate
 v4l-utils-libs               1.32.0-r1                apk                         
 v_frame                      0.3.9                    rust-crate                  
 vidstab                      1.1.2-r0                 apk                         
-vulkan-loader                1.4.347-r0               apk                         
+vulkan-loader                1.4.360-r0               apk                         
 wayland-libs-client          1.26.0-r0                apk                         
 wayland-libs-cursor          1.26.0-r0                apk                         
 wayland-libs-egl             1.26.0-r0                apk                         

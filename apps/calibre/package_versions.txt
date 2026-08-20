@@ -68,7 +68,7 @@ dbus                       1.16.2-r2                apk
 dbus-daemon-launch-helper  1.16.2-r2                apk                         
 dbus-libs                  1.16.2-r2                apk                         
 dbus-x11                   1.16.2-r2                apk                         
-device-mapper-libs         2.03.35-r4               apk                         
+device-mapper-libs         2.03.35-r5               apk                         
 dnspython                  2.8.0                    python                      
 double-conversion          3.4.0-r0                 apk                         
 duktape-libs               2.7.0-r3                 apk                         
@@ -322,7 +322,7 @@ nom                        8.0.0                    rust-crate
 noop_proc_macro            0.3.0                    rust-crate                  
 npth                       1.8-r0                   apk                         
 nspr                       4.38.2-r0                apk                         
-nss                        3.125-r0                 apk                         
+nss                        3.127-r0                 apk                         
 num-bigint                 0.4.6                    rust-crate                  
 num-derive                 0.4.2                    rust-crate                  
 num-integer                0.1.46                   rust-crate                  
@@ -417,8 +417,8 @@ py3-six-pyc                1.17.0-r1                apk
 py3-soupsieve              2.7-r1                   apk                         
 py3-soupsieve-pyc          2.7-r1                   apk                         
 py3-speech-dispatcher      0.12.1-r5                apk                         
-py3-typing-extensions      4.15.0-r1                apk                         
-py3-typing-extensions-pyc  4.15.0-r1                apk                         
+py3-typing-extensions      4.16.0-r0                apk                         
+py3-typing-extensions-pyc  4.16.0-r0                apk                         
 py3-tzdata                 2026.3-r0                apk                         
 py3-tzdata-pyc             2026.3-r0                apk                         
 py3-tzlocal                5.3.1-r1                 apk                         
@@ -500,7 +500,7 @@ thiserror-impl             2.0.12                   rust-crate
 thread_local               1.1.9                    rust-crate                  
 tiff                       4.7.2-r0                 apk                         
 tslib                      1.24-r0                  apk                         
-typing-extensions          4.15.0                   python                      
+typing-extensions          4.16.0                   python                      
 tzdata                     2026.3                   python                      
 tzdata                     2026c-r0                 apk                         
 tzlocal                    5.3.1                    python                      

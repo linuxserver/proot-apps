@@ -177,7 +177,7 @@ libelf1t64                       0.192-4                               deb
 libenchant-2-2                   2.8.2+dfsg1-3                         deb       
 libepoxy0                        1.5.10-2                              deb       
 libevdev2                        1.13.4+dfsg-1                         deb       
-libexpat1                        2.8.2-1~deb13u1                       deb       
+libexpat1                        2.8.3-1~deb13u1                       deb       
 libffi8                          3.4.8-2                               deb       
 libfftw3-double3                 3.3.10-2+b1                           deb       
 libfftw3-single3                 3.3.10-2+b1                           deb       
