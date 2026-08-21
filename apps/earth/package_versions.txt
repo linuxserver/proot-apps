@@ -37,7 +37,7 @@ gcc-14                          14.2.0-19                             deb
 gcc-14-base                     14.2.0-19                             deb     
 gcc-14-x86-64-linux-gnu         14.2.0-19                             deb     
 gcc-x86-64-linux-gnu            4:14.2.0-1                            deb     
-google-earth-pro-stable         7.3.7.1155-r0                         deb     
+google-earth-pro-stable         7.3.7.1327-r0                         deb     
 grep                            3.11-4                                deb     
 gzip                            1.13-1                                deb     
 hostname                        3.25                                  deb     

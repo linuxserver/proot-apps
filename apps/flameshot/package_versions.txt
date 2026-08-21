@@ -75,7 +75,7 @@ libdrm                     2.4.134-r0               apk
 libeconf                   0.8.4-r0                 apk     
 libelf                     0.195-r0                 apk     
 libevdev                   1.13.6-r0                apk     
-libexpat                   2.8.2-r0                 apk     
+libexpat                   2.8.3-r0                 apk     
 libffi                     3.5.2-r1                 apk     
 libflac                    1.5.0-r0                 apk     
 libgcc                     15.2.0-r8                apk     
@@ -184,7 +184,7 @@ readline                   8.3.3-r1                 apk
 scanelf                    1.3.9-r1                 apk     
 soxr                       0.1.3-r7                 apk     
 speexdsp                   1.2.1-r2                 apk     
-spirv-tools                1.4.341.0-r0             apk     
+spirv-tools                1.4.357.0-r0             apk     
 sqlite-libs                3.53.4-r0                apk     
 ssl_client                 1.38.0-r4                apk     
 tdb-libs                   1.4.15-r1                apk     
