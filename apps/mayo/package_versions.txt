@@ -70,7 +70,7 @@ humanity-icon-theme                 0.6.16                              deb
 init-system-helpers                 1.66ubuntu1                         deb                     
 iso-codes                           4.16.0-1                            deb                     
 jq                                  1.7.1-3ubuntu0.24.04.2              deb                     
-keyboard-configuration              1.226ubuntu1                        deb                     
+keyboard-configuration              1.226ubuntu1.1                      deb                     
 launchpadlib                        1.11.0                              python                  
 lazr-restfulclient                  0.14.6                              python                  
 lazr-uri                            1.0.6                               python                  
