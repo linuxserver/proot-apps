@@ -386,7 +386,7 @@ spandsp                         0.0.6-r5                 apk
 speex                           1.2.1-r2                 apk                         
 speexdsp                        1.2.1-r2                 apk                         
 spirv-tools                     1.4.341.0-r0             apk                         
-sqlite-libs                     3.53.2-r0                apk                         
+sqlite-libs                     3.53.4-r0                apk                         
 sratom                          0.6.20-r0                apk                         
 ssl_client                      1.37.0-r31               apk                         
 stable_deref_trait              1.2.0                    rust-crate                  

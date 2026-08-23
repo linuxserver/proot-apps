@@ -41,10 +41,10 @@ cairo                            1.18.4-r1                apk
 cairo-gobject                    1.18.4-r1                apk           
 cdparanoia-libs                  10.2-r14                 apk           
 cfg-if                           1.0.1                    rust-crate    
-chromium                         151.0.7922.108-r0        apk           
-chromium-angle                   151.0.7922.108-r0        apk           
-chromium-common                  151.0.7922.108-r0        apk           
-chromium-lang                    151.0.7922.108-r0        apk           
+chromium                         151.0.7922.173-r0        apk           
+chromium-angle                   151.0.7922.173-r0        apk           
+chromium-common                  151.0.7922.173-r0        apk           
+chromium-lang                    151.0.7922.173-r0        apk           
 cjson                            1.7.19-r1                apk           
 clap                             4.5.40                   rust-crate    
 clap_builder                     4.5.40                   rust-crate    
@@ -319,7 +319,7 @@ simd_helpers                     0.1.0                    rust-crate
 soxr                             0.1.3-r7                 apk           
 speexdsp                         1.2.1-r2                 apk           
 spirv-tools                      1.4.341.0-r0             apk           
-sqlite-libs                      3.53.2-r0                apk           
+sqlite-libs                      3.53.4-r0                apk           
 ssl_client                       1.37.0-r31               apk           
 stable_deref_trait               1.2.0                    rust-crate    
 syn                              2.0.102                  rust-crate    
