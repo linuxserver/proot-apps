@@ -20,7 +20,7 @@ ayatana-ido                0.10.4-r1                apk
 bash                       5.3.9-r1                 apk     
 binutils                   2.45.1-r1                apk     
 brotli-libs                1.2.0-r1                 apk     
-bubblewrap                 0.11.2-r0                apk     
+bubblewrap                 0.12.0-r0                apk     
 busybox                    1.37.0-r31               apk     
 busybox-binsh              1.37.0-r31               apk     
 c-ares                     1.34.8-r0                apk     
@@ -43,7 +43,7 @@ font-noto-common           2026.06.01-r0            apk
 font-noto-math             2026.06.01-r0            apk     
 font-noto-symbols          2026.06.01-r0            apk     
 fontconfig                 2.17.1-r1                apk     
-freerdp-libs               3.30.0-r0                apk     
+freerdp-libs               3.31.0-r0                apk     
 freetype                   2.14.3-r0                apk     
 fribidi                    1.0.16-r3                apk     
 fuse3-libs                 3.18.2-r0                apk     

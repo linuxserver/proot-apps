@@ -12,7 +12,7 @@ bash                             5.2.37-2+b9                           deb
 binutils                         2.44-3                                deb       
 binutils-common                  2.44-3                                deb       
 binutils-x86-64-linux-gnu        2.44-3                                deb       
-bsdutils                         1:2.41-5                              deb       
+bsdutils                         1:2.41.5-0+deb13u1                    deb       
 bubblewrap                       0.11.0-2+deb13u1                      deb       
 ca-certificates                  20250419                              deb       
 coreutils                        9.7-3                                 deb       
@@ -112,7 +112,7 @@ libayatana-ido3-0.4-0            0.10.4-1                              deb
 libayatana-indicator3-7          0.9.4-1+b1                            deb       
 libbinutils                      2.44-3                                deb       
 libblas3                         3.12.1-6                              deb       
-libblkid1                        2.41-5                                deb       
+libblkid1                        2.41.5-0+deb13u1                      deb       
 libbluray2                       1:1.3.4-1+b2                          deb       
 libbrotli1                       1.1.0-2+b7                            deb       
 libbs2b0                         3.1.0+dfsg-8+b1                       deb       
@@ -249,7 +249,7 @@ libkmod2                         34.2-2                                deb
 libkrb5-3                        1.21.3-5+deb13u1                      deb       
 libkrb5support0                  1.21.3-5+deb13u1                      deb       
 liblapack3                       3.12.1-6                              deb       
-liblastlog2-2                    2.41-5                                deb       
+liblastlog2-2                    2.41.5-0+deb13u1                      deb       
 liblcms2-2                       2.16-2+deb13u2                        deb       
 libldap2                         2.6.10+dfsg-1                         deb       
 liblerc4                         4.0.0+ds-5                            deb       
@@ -264,7 +264,7 @@ liblzma5                         5.8.1-1+deb13u1                       deb
 libmanette-0.2-0                 0.2.12-1                              deb       
 libmbedcrypto16                  3.6.5-0.1~deb13u1                     deb       
 libmd0                           1.1.0-2+b1                            deb       
-libmount1                        2.41-5                                deb       
+libmount1                        2.41.5-0+deb13u1                      deb       
 libmp3lame0                      3.100-6+b3                            deb       
 libmpc3                          1.3.1-1+b3                            deb       
 libmpfr6                         4.2.2-1                               deb       
@@ -350,7 +350,7 @@ libshout3                        2.4.6-1+b3                            deb
 libsixel1                        1.10.5-1                              deb       
 libslang2                        2.3.3-5+b2                            deb       
 libsm6                           2:1.2.6-1                             deb       
-libsmartcols1                    2.41-5                                deb       
+libsmartcols1                    2.41.5-0+deb13u1                      deb       
 libsnappy1v5                     1.2.2-1                               deb       
 libsndfile1                      1.2.2-2+deb13u1                       deb       
 libsndio7.0                      1.10.0-0.1                            deb       
@@ -368,7 +368,7 @@ libsratom-0-0                    0.6.18-1                              deb
 libsrt1.5-gnutls                 1.5.4-1+deb13u1                       deb       
 libssh-4                         0.11.5-0+deb13u1                      deb       
 libssh2-1t64                     1.11.1-1+deb13u1                      deb       
-libssl3t64                       3.5.6-1~deb13u2                       deb       
+libssl3t64                       3.5.7-1~deb13u2                       deb       
 libstdc++6                       14.2.0-19                             deb       
 libsvtav1enc2                    2.3.0+dfsg-1                          deb       
 libswresample5                   7:7.1.5-0+deb13u1                     deb       
@@ -396,7 +396,7 @@ libunibreak6                     6.1-3                                 deb
 libunistring5                    1.3-2                                 deb       
 libunwind8                       1.8.1-0.1                             deb       
 libusb-1.0-0                     2:1.0.28-1                            deb       
-libuuid1                         2.41-5                                deb       
+libuuid1                         2.41.5-0+deb13u1                      deb       
 libv4l-0t64                      1.30.1-1                              deb       
 libv4lconvert0t64                1.30.1-1                              deb       
 libva-drm2                       2.22.0-3                              deb       
@@ -479,9 +479,9 @@ libzmq5                          4.3.5-1+b3                            deb
 libzstd1                         1.5.7+dfsg-1                          deb       
 libzvbi-common                   0.2.44-1                              deb       
 libzvbi0t64                      0.2.44-1                              deb       
-linux-libc-dev                   6.12.101-1                            deb       
+linux-libc-dev                   6.12.105-1                            deb       
 locales-all                      2.41-12+deb13u3                       deb       
-login                            1:4.16.0-2+really2.41-5               deb       
+login                            1:4.16.0-2+really2.41.5-0+deb13u1     deb       
 login.defs                       1:4.17.4-2                            deb       
 make                             4.4.1-2                               deb       
 mawk                             1.3.4.20250131-1                      deb       
@@ -490,15 +490,15 @@ media-types                      13.0.0                                deb
 mesa-libgallium                  25.0.7-2+deb13u1                      deb       
 mesa-va-drivers                  25.0.7-2+deb13u1                      deb       
 mesa-vulkan-drivers              25.0.7-2+deb13u1                      deb       
-mount                            2.41-5                                deb       
+mount                            2.41.5-0+deb13u1                      deb       
 mpv                              0.40.0-3+deb13u1                      deb       
 ncurses-base                     6.5+20250216-2                        deb       
 ncurses-bin                      6.5+20250216-2                        deb       
 netbase                          6.5                                   deb       
 netcat-openbsd                   1.229-1                               deb       
 ocl-icd-libopencl1               2.3.3-1                               deb       
-openssl                          3.5.6-1~deb13u2                       deb       
-openssl-provider-legacy          3.5.6-1~deb13u2                       deb       
+openssl                          3.5.7-1~deb13u2                       deb       
+openssl-provider-legacy          3.5.7-1~deb13u2                       deb       
 passwd                           1:4.17.4-2                            deb       
 perl-base                        5.40.1-6                              deb       
 procps                           2:4.0.4-9                             deb       
@@ -525,7 +525,7 @@ sysvinit-utils                   3.14-4                                deb
 tar                              1.35+dfsg-3.1                         deb       
 tzdata                           2026b-0+deb13u1                       deb       
 udev                             257.13-1~deb13u1                      deb       
-util-linux                       2.41-5                                deb       
+util-linux                       2.41.5-0+deb13u1                      deb       
 x11-common                       1:7.7+24+deb13u1                      deb       
 x11-xkb-utils                    7.7+9                                 deb       
 xdg-dbus-proxy                   0.1.6-1+deb13u2                       deb       

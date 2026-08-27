@@ -277,8 +277,8 @@ libpsl5t64                          0.21.2-1.1build1                    deb
 libpugixml1v5                       1.14-0.1build1                      deb                     
 libpulse0                           1:16.1+dfsg1-2ubuntu10.1            deb                     
 libpython3-stdlib                   3.12.3-0ubuntu2.1                   deb                     
-libpython3.12-minimal               3.12.3-1ubuntu0.15                  deb                     
-libpython3.12-stdlib                3.12.3-1ubuntu0.15                  deb                     
+libpython3.12-minimal               3.12.3-1ubuntu0.16                  deb                     
+libpython3.12-stdlib                3.12.3-1ubuntu0.16                  deb                     
 libqt5core5t64                      5.15.13+dfsg-1ubuntu1               deb                     
 libqt5dbus5t64                      5.15.13+dfsg-1ubuntu1               deb                     
 libqt5gui5t64                       5.15.13+dfsg-1ubuntu1               deb                     
@@ -324,7 +324,7 @@ libspeexdsp1                        1.2.1-1ubuntu3                      deb
 libsqlite3-0                        3.45.1-1ubuntu2.7                   deb                     
 libss2                              1.47.0-2.4~exp1ubuntu4.1            deb                     
 libssh-4                            0.10.6-2ubuntu0.4                   deb                     
-libssl3t64                          3.0.13-0ubuntu3.12                  deb                     
+libssl3t64                          3.0.13-0ubuntu3.15                  deb                     
 libstdc++6                          14.2.0-4ubuntu2~24.04.1             deb                     
 libstemmer0d                        2.2.0-4build1                       deb                     
 libsvtav1enc1d1                     1.7.0+dfsg-2build1                  deb                     
@@ -448,7 +448,7 @@ netcat-openbsd                      1.226-1ubuntu2                      deb
 oauthlib                            3.2.2                               python                  
 occt-misc                           7.6.3+dfsg1-7.1build1               deb                     
 ocl-icd-libopencl1                  2.3.2-1build1                       deb                     
-openssl                             3.0.13-0ubuntu3.12                  deb                     
+openssl                             3.0.13-0ubuntu3.15                  deb                     
 packagekit                          1.2.8-2ubuntu1.5                    deb                     
 passwd                              1:4.13+dfsg1-4ubuntu3.2             deb                     
 perl-base                           5.38.2-3.2ubuntu0.3                 deb                     
@@ -481,8 +481,8 @@ python3-pyparsing                   3.1.1-1                             deb
 python3-six                         1.16.0-4                            deb                     
 python3-software-properties         0.99.49.4                           deb                     
 python3-wadllib                     1.3.6-5                             deb                     
-python3.12                          3.12.3-1ubuntu0.15                  deb                     
-python3.12-minimal                  3.12.3-1ubuntu0.15                  deb                     
+python3.12                          3.12.3-1ubuntu0.16                  deb                     
+python3.12-minimal                  3.12.3-1ubuntu0.16                  deb                     
 qt5-gtk-platformtheme               5.15.13+dfsg-1ubuntu1               deb                     
 qttranslations5-l10n                5.15.13-1                           deb                     
 qtwayland5                          5.15.13-1                           deb                     

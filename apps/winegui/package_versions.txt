@@ -227,9 +227,9 @@ libgtkmm-3.0-1t64                3.24.9-1                           deb
 libgtkmm-4.0-0                   4.10.0-4build3                     deb                        
 libgudev-1.0-0                   1:238-5ubuntu1                     deb                        
 libharfbuzz0b                    8.3.0-2build2                      deb        (+1 duplicate)  
-libheif-plugin-aomdec            1.17.6-1ubuntu4.7                  deb        (+1 duplicate)  
-libheif-plugin-aomenc            1.17.6-1ubuntu4.7                  deb        (+1 duplicate)  
-libheif1                         1.17.6-1ubuntu4.7                  deb        (+1 duplicate)  
+libheif-plugin-aomdec            1.17.6-1ubuntu4.8                  deb        (+1 duplicate)  
+libheif-plugin-aomenc            1.17.6-1ubuntu4.8                  deb        (+1 duplicate)  
+libheif1                         1.17.6-1ubuntu4.8                  deb        (+1 duplicate)  
 libhogweed6t64                   3.9.1-2.2build1.1                  deb        (+1 duplicate)  
 libhwasan0                       14.2.0-4ubuntu2~24.04.1            deb                        
 libhwy1t64                       1.0.7-8.1build1                    deb                        
@@ -322,8 +322,8 @@ libpsl5t64                       0.21.2-1.1build1                   deb        (
 libpthread-stubs0-dev            0.4-1build3                        deb                        
 libpulse0                        1:16.1+dfsg1-2ubuntu10.1           deb        (+1 duplicate)  
 libpython3-stdlib                3.12.3-0ubuntu2.1                  deb                        
-libpython3.12-minimal            3.12.3-1ubuntu0.15                 deb                        
-libpython3.12-stdlib             3.12.3-1ubuntu0.15                 deb                        
+libpython3.12-minimal            3.12.3-1ubuntu0.16                 deb                        
+libpython3.12-stdlib             3.12.3-1ubuntu0.16                 deb                        
 libquadmath0                     14.2.0-4ubuntu2~24.04.1            deb                        
 librav1e0                        0.7.1-2                            deb                        
 libreadline8t64                  8.2-4build1                        deb                        
@@ -493,8 +493,8 @@ pulseaudio                       1:16.1+dfsg1-2ubuntu10.1           deb
 pulseaudio-utils                 1:16.1+dfsg1-2ubuntu10.1           deb                        
 python3                          3.12.3-0ubuntu2.1                  deb                        
 python3-minimal                  3.12.3-0ubuntu2.1                  deb                        
-python3.12                       3.12.3-1ubuntu0.15                 deb                        
-python3.12-minimal               3.12.3-1ubuntu0.15                 deb                        
+python3.12                       3.12.3-1ubuntu0.16                 deb                        
+python3.12-minimal               3.12.3-1ubuntu0.16                 deb                        
 readline-common                  8.2-4build1                        deb                        
 rpcsvc-proto                     1.4.2-0ubuntu7                     deb                        
 sane-airscan                     0.99.29-0ubuntu4                   deb                        

@@ -280,9 +280,9 @@ libproc2-0                                2:4.0.4-4ubuntu3.2                    
 libproxy1v5                               0.5.4-4build1                              deb     
 libpsl5t64                                0.21.2-1.1build1                           deb     
 libpulse0                                 1:16.1+dfsg1-2ubuntu10.1                   deb     
-libpython3.12-minimal                     3.12.3-1ubuntu0.15                         deb     
-libpython3.12-stdlib                      3.12.3-1ubuntu0.15                         deb     
-libpython3.12t64                          3.12.3-1ubuntu0.15                         deb     
+libpython3.12-minimal                     3.12.3-1ubuntu0.16                         deb     
+libpython3.12-stdlib                      3.12.3-1ubuntu0.16                         deb     
+libpython3.12t64                          3.12.3-1ubuntu0.16                         deb     
 libqrcodegencpp1                          1.8.0-1.2build1                            deb     
 libqt6core6t64                            6.4.2+dfsg-21.1build5                      deb     
 libqt6dbus6t64                            6.4.2+dfsg-21.1build5                      deb     
@@ -347,7 +347,7 @@ libsrt1.5-openssl                         1.5.3-1build2                         
 libss2                                    1.47.0-2.4~exp1ubuntu4.1                   deb     
 libssh-4                                  0.10.6-2ubuntu0.4                          deb     
 libssh-gcrypt-4                           0.10.6-2ubuntu0.4                          deb     
-libssl3t64                                3.0.13-0ubuntu3.12                         deb     
+libssl3t64                                3.0.13-0ubuntu3.15                         deb     
 libstdc++6                                14.2.0-4ubuntu2~24.04.1                    deb     
 libsvtav1enc1d1                           1.7.0+dfsg-2build1                         deb     
 libswresample4                            7:6.1.1-3ubuntu5                           deb     
@@ -471,7 +471,7 @@ netbase                                   6.4                                   
 netcat-openbsd                            1.226-1ubuntu2                             deb     
 obs-studio                                32.2.0-0obsproject1~noble                  deb     
 ocl-icd-libopencl1                        2.3.2-1build1                              deb     
-openssl                                   3.0.13-0ubuntu3.12                         deb     
+openssl                                   3.0.13-0ubuntu3.15                         deb     
 passwd                                    1:4.13+dfsg1-4ubuntu3.2                    deb     
 pci.ids                                   0.0~2024.03.31-1ubuntu0.1                  deb     
 perl-base                                 5.38.2-3.2ubuntu0.3                        deb     

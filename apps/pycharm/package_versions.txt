@@ -31,7 +31,7 @@ binutils-common                         2.44-3                                de
 binutils-x86-64-linux-gnu               2.44-3                                deb                            
 blockmap                                UNKNOWN                               java-archive                   
 bouncy-castle-pgp                       1.81                                  java-archive                   
-bsdutils                                1:2.41-5                              deb                            
+bsdutils                                1:2.41.5-0+deb13u1                    deb                            
 ca-certificates                         20250419                              deb                            
 caffeine                                3.2.2                                 java-archive                   
 carrotsearch-hppc                       0.9.1                                 java-archive                   
@@ -220,7 +220,7 @@ libaudit1                               1:4.0.2-2+b2                          de
 libavcodec61                            7:7.1.5-0+deb13u1                     deb                            
 libavutil59                             7:7.1.5-0+deb13u1                     deb                            
 libbinutils                             2.44-3                                deb                            
-libblkid1                               2.41-5                                deb                            
+libblkid1                               2.41.5-0+deb13u1                      deb                            
 libbrotli1                              1.1.0-2+b7                            deb                            
 libbsd0                                 0.12.2-2                              deb                            
 libbz2-1.0                              1.0.8-6                               deb                            
@@ -315,7 +315,7 @@ libkeyutils1                            1.6.3-6                               de
 libkmod2                                34.2-2                                deb                            
 libkrb5-3                               1.21.3-5+deb13u1                      deb                            
 libkrb5support0                         1.21.3-5+deb13u1                      deb                            
-liblastlog2-2                           2.41-5                                deb                            
+liblastlog2-2                           2.41.5-0+deb13u1                      deb                            
 liblcms2-2                              2.16-2+deb13u2                        deb                            
 libldap2                                2.6.10+dfsg-1                         deb                            
 liblerc4                                4.0.0+ds-5                            deb                            
@@ -326,7 +326,7 @@ libltdl7                                2.5.4-4                               de
 liblz4-1                                1.10.0-4                              deb                            
 liblzma5                                5.8.1-1+deb13u1                       deb                            
 libmd0                                  1.1.0-2+b1                            deb                            
-libmount1                               2.41-5                                deb                            
+libmount1                               2.41.5-0+deb13u1                      deb                            
 libmp3lame0                             3.100-6+b3                            deb                            
 libmpc3                                 1.3.1-1+b3                            deb                            
 libmpfr6                                4.2.2-1                               deb                            
@@ -384,7 +384,7 @@ libsframe1                              2.44-3                                de
 libsharpyuv0                            1.5.0-0.1                             deb                            
 libshine3                               3.1.1-2+b2                            deb                            
 libsm6                                  2:1.2.6-1                             deb                            
-libsmartcols1                           2.41-5                                deb                            
+libsmartcols1                           2.41.5-0+deb13u1                      deb                            
 libsnappy1v5                            1.2.2-1                               deb                            
 libsndfile1                             1.2.2-2+deb13u1                       deb                            
 libsoxr0                                0.1.3-4+b2                            deb                            
@@ -392,7 +392,7 @@ libspeex1                               1.2.1-3                               de
 libspeexdsp1                            1.2.1-3                               deb                            
 libsqlite3-0                            3.46.1-7+deb13u1                      deb                            
 libssh2-1t64                            1.11.1-1+deb13u1                      deb                            
-libssl3t64                              3.5.6-1~deb13u2                       deb                            
+libssl3t64                              3.5.7-1~deb13u2                       deb                            
 libstdc++6                              14.2.0-19                             deb                            
 libsvtav1enc2                           2.3.0+dfsg-1                          deb                            
 libswresample5                          7:7.1.5-0+deb13u1                     deb                            
@@ -412,7 +412,7 @@ libubsan1                               14.2.0-19                             de
 libudev1                                257.13-1~deb13u1                      deb                            
 libunistring5                           1.3-2                                 deb                            
 libunwind8                              1.8.1-0.1                             deb                            
-libuuid1                                2.41-5                                deb                            
+libuuid1                                2.41.5-0+deb13u1                      deb                            
 libva-drm2                              2.22.0-3                              deb                            
 libva-x11-2                             2.22.0-3                              deb                            
 libva2                                  2.22.0-3                              deb                            
@@ -473,12 +473,12 @@ libz3-4                                 4.13.3-1                              de
 libzstd1                                1.5.7+dfsg-1                          deb                            
 libzvbi-common                          0.2.44-1                              deb                            
 libzvbi0t64                             0.2.44-1                              deb                            
-linux-libc-dev                          6.12.101-1                            deb                            
+linux-libc-dev                          6.12.105-1                            deb                            
 lite                                    UNKNOWN                               java-archive                   
 locales-all                             2.41-12+deb13u3                       deb                            
 log                                     1.0.0                                 npm                            
 logging                                 1.2                                   java-archive                   
-login                                   1:4.16.0-2+really2.41-5               deb                            
+login                                   1:4.16.0-2+really2.41.5-0+deb13u1     deb                            
 login.defs                              1:4.17.4-2                            deb                            
 lsp4j                                   0.21.1.v20230829-0012                 java-archive                   
 lua                                     1.0.0                                 npm                            
@@ -504,7 +504,7 @@ morfologik-fsa                          2.1.9                                 ja
 morfologik-fsa-builders                 2.1.9                                 java-archive                   
 morfologik-speller                      2.1.9                                 java-archive                   
 morfologik-stemming                     2.1.9                                 java-archive                   
-mount                                   2.41-5                                deb                            
+mount                                   2.41.5-0+deb13u1                      deb                            
 mvstore                                 2.3.232                               java-archive                   
 ncurses-base                            6.5+20250216-2                        deb                            
 ncurses-bin                             6.5+20250216-2                        deb                            
@@ -514,8 +514,8 @@ objective-c                             1.0.0                                 np
 ocl-icd-libopencl1                      2.3.3-1                               deb                            
 openjdk                                 21.0.8+9-b1163.69                     binary                         
 openssh-client                          1:10.0p1-7+deb13u4                    deb                            
-openssl                                 3.5.6-1~deb13u2                       deb                            
-openssl-provider-legacy                 3.5.6-1~deb13u2                       deb                            
+openssl                                 3.5.7-1~deb13u2                       deb                            
+openssl-provider-legacy                 3.5.7-1~deb13u2                       deb                            
 org.eclipse.xtext.xbase.lib             2.40.0                                java-archive                   
 oshi-core                               6.8.2                                 java-archive                   
 packaging                               25.0                                  python                         
@@ -620,7 +620,7 @@ ui                                      UNKNOWN                               ja
 unit-api                                1.0                                   java-archive                   
 uom-lib-common                          1.1                                   java-archive                   
 util                                    3.24.4.jb_2                           java-archive                   
-util-linux                              2.41-5                                deb                            
+util-linux                              2.41.5-0+deb13u1                      deb                            
 vb                                      1.0.0                                 npm                            
 velocity-engine-core                    2.3                                   java-archive                   
 vfs2                                    3.0.10                                java-archive                   
