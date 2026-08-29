@@ -79,6 +79,7 @@ proot-apps update firefox
 
 | Name | Full Endpoint | Arch | Description |
 | :----: | :----: | :----: |--- |
+| antigravity | ghcr.io/linuxserver/proot-apps:antigravity | linux/amd64,linux/arm64 | Antigravity is an agent first IDE from Google based on VS Code with autonomous coding agents and Gemini built in.|
 | anydesk | ghcr.io/linuxserver/proot-apps:anydesk | linux/amd64 | AnyDesk ensures secure and reliable remote desktop connections for IT professionals and on-the-go individuals alike.|
 | ardour | ghcr.io/linuxserver/proot-apps:ardour | linux/amd64,linux/arm64 | Ardour is an open source, collaborative effort of a worldwide team including musicians, programmers, and professional recording engineers.|
 | audacity | ghcr.io/linuxserver/proot-apps:audacity | linux/amd64 | Audacity is an easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source.|
@@ -92,8 +93,10 @@ proot-apps update firefox
 | calibre | ghcr.io/linuxserver/proot-apps:calibre | linux/amd64,linux/arm64 | Calibre is a powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts.|
 | celluloid | ghcr.io/linuxserver/proot-apps:celluloid | linux/amd64,linux/arm64 | Celluloid is a simple GTK+ frontend for mpv. It aims to be easy to use while maintaining high level of configurability.|
 | cemu | ghcr.io/linuxserver/proot-apps:cemu | linux/amd64 | Cemu is a Wii U emulator that is able to run most Wii U games and homebrew in a playable state.|
+| chatgpt | ghcr.io/linuxserver/proot-apps:chatgpt | linux/amd64,linux/arm64 | ChatGPT is the desktop app from OpenAI which includes Codex for running agentic coding tasks on your local projects.|
 | chrome | ghcr.io/linuxserver/proot-apps:chrome | linux/amd64 | Chrome is the official web browser from Google, built to be fast, secure, and customizable.|
 | chromium | ghcr.io/linuxserver/proot-apps:chromium | linux/amd64,linux/arm64 | Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.|
+| claude | ghcr.io/linuxserver/proot-apps:claude | linux/amd64,linux/arm64 | Claude is the desktop app from Anthropic with chat and Claude Code for agentic coding with parallel sessions, visual diff review and an integrated terminal.|
 | deluge | ghcr.io/linuxserver/proot-apps:deluge | linux/amd64,linux/arm64 | Deluge is a lightweight, Free Software, cross-platform BitTorrent client.|
 | digikam | ghcr.io/linuxserver/proot-apps:digikam | linux/amd64,linux/arm64 | Professional Photo Management with the Power of Open Source.|
 | dolphin | ghcr.io/linuxserver/proot-apps:dolphin | linux/amd64 | Dolphin is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more.|
@@ -143,6 +146,7 @@ proot-apps update firefox
 | obsidian | ghcr.io/linuxserver/proot-apps:obsidian | linux/amd64 | Obsidian is a note-taking app that lets you create, link, and organize your notes on your device, with hundreds of plugins and themes to customize your workflow.|
 | onlyoffice | ghcr.io/linuxserver/proot-apps:onlyoffice | linux/amd64 | Create, view and edit documents of any size and complexity. Work with most popular formats: DOCX, ODT, XLSX, ODS, CSV, PPTX, ODP, etc. Deal with multiple files within one and the same window thanks to the tab-based user interface.|
 | opencloud | ghcr.io/linuxserver/proot-apps:opencloud | linux/amd64 | The OpenCloud Desktop Client enables file synchronization between a local computer and OpenCloud.|
+| opencode | ghcr.io/linuxserver/proot-apps:opencode | linux/amd64 | OpenCode is an open source AI coding agent and the desktop app provides a native GUI with sessions, diffs and terminal access to your projects.|
 | opera | ghcr.io/linuxserver/proot-apps:opera | linux/amd64 | Opera is a multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium, but distinguishes itself from other Chromium-based browsers (Chrome, Edge, etc.) through its user interface and other features.|
 | orcaslicer | ghcr.io/linuxserver/proot-apps:orcaslicer | linux/amd64 | OrcaSlicer is an open source Next-Gen Slicing Software for Precision 3D Prints.|
 | parsec | ghcr.io/linuxserver/proot-apps:parsec | linux/amd64 | Parsec is a remote desktop you'll actually love. Connect to work, games, or projects wherever you are, whenever you want.|
