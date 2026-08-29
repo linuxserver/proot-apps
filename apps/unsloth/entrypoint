@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Only Vulkan GPU acceleration is available inside PRoot
+export UNSLOTH_LLAMA_CPP_BACKEND="${UNSLOTH_LLAMA_CPP_BACKEND:-vulkan}"
+
+# Start Unsloth
+unsloth-studio "$@"

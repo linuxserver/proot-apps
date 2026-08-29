@@ -287,6 +287,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: lmms.svg
     description: "LMMS is a free, open source, multiplatform digital audio workstation."
+  - name: lmstudio
+    full_name: LM Studio
+    arch: linux/amd64
+    icon: lmstudio.svg
+    description: "LM Studio is a desktop app for discovering, downloading and running local LLMs with a chat interface and an OpenAI compatible local server."
   - name: logisim
     full_name: Logisim-evolution
     arch: linux/amd64
@@ -500,6 +505,12 @@ include:
     arch: linux/amd64
     icon: ungoogledchromium.svg
     description: "Google Chromium, sans integration with Google."
+  - name: unsloth
+    full_name: Unsloth
+    arch: linux/amd64
+    icon: unsloth.svg
+    description: "Unsloth is an open source desktop app for running and fine tuning LLMs, diffusion and audio models on local hardware."
+    disabled: True
   - name: vivaldi
     full_name: Vivaldi
     arch: linux/amd64,linux/arm64

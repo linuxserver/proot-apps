@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Mirror AppRun env for bundled libs
+export LD_LIBRARY_PATH="/opt/lm-studio/usr/lib${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}"
+
+# Start LM Studio
+cd /opt/lm-studio
+./lm-studio --no-sandbox "$@"
