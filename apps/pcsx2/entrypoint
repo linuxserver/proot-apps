@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start PCSX2
+/usr/games/pcsx2-qt "$@"

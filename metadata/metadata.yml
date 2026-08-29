@@ -25,6 +25,11 @@ include:
     arch: linux/amd64
     icon: aws-workspaces.svg
     description: "AWS WorkSpaces client for connecting to Amazon WorkSpaces virtual desktops."
+  - name: azahar
+    full_name: Azahar
+    arch: linux/amd64
+    icon: azahar.svg
+    description: "Azahar is an open-source Nintendo 3DS emulator based on Citra, focused on accuracy, performance and ease of use."
   - name: beekeeperstudio
     full_name: Beekeeper Studio
     arch: linux/amd64
@@ -60,6 +65,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: celluloid.svg
     description: "Celluloid is a simple GTK+ frontend for mpv. It aims to be easy to use while maintaining high level of configurability."
+  - name: cemu
+    full_name: Cemu
+    arch: linux/amd64
+    icon: cemu.png
+    description: "Cemu is a Wii U emulator that is able to run most Wii U games and homebrew in a playable state."
   - name: chrome
     full_name: Google Chrome
     arch: linux/amd64
@@ -85,6 +95,11 @@ include:
     arch: linux/amd64
     icon: dolphin.svg
     description: "Dolphin is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more."
+  - name: dosbox
+    full_name: DOSBox Staging
+    arch: linux/amd64
+    icon: dosbox.svg
+    description: "DOSBox Staging is a modern continuation of DOSBox with advanced features and improvements for running DOS games and software."
   - name: doublecmd
     full_name: Double Commander
     arch: linux/amd64,linux/arm64
@@ -95,6 +110,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: dreamm.svg
     description: "DREAMM is a bespoke emulator for LucasArts games, relying on low-level emulation instead of reverse engineering."
+  - name: duckstation
+    full_name: DuckStation
+    arch: linux/amd64
+    icon: duckstation.svg
+    description: "DuckStation is a simulator/emulator of the Sony PlayStation console, focusing on playability, speed, and long-term maintainability."
   - name: earth
     full_name: Google Earth Pro
     arch: linux/amd64
@@ -105,6 +125,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: eclipsejava.svg
     description: "Eclipse IDE, the essential tools for any Java developer, including a Java IDE, a Git client, XML Editor, Maven and Gradle integration."
+  - name: eden
+    full_name: Eden
+    arch: linux/amd64
+    icon: eden.svg
+    description: "Eden is an experimental open-source emulator for the Nintendo Switch, built with performance and stability in mind."
   - name: edge
     full_name: Microsoft Edge
     arch: linux/amd64
@@ -262,6 +287,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: maltego.svg
     description: "Maltego is link analysis software used for open-source intelligence, forensics and other investigations."
+  - name: mame
+    full_name: MAME
+    arch: linux/amd64
+    icon: mame.svg
+    description: "MAME is a multi-purpose emulation framework whose purpose is to preserve decades of arcade and computer software history."
   - name: mayo
     full_name: Mayo
     arch: linux/amd64,linux/arm64
@@ -322,6 +352,11 @@ include:
     arch: linux/amd64
     icon: parsec.svg
     description: "Parsec is a remote desktop you'll actually love. Connect to work, games, or projects wherever you are, whenever you want."
+  - name: pcsx2
+    full_name: PCSX2
+    arch: linux/amd64
+    icon: pcsx2.png
+    description: "PCSX2 is a free and open-source PlayStation 2 emulator that supports a wide range of games with high compatibility."
   - name: postman
     full_name: Postman
     arch: linux/amd64,linux/arm64
@@ -352,6 +387,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: retroarch.svg
     description: "RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications."
+  - name: rpcs3
+    full_name: RPCS3
+    arch: linux/amd64
+    icon: rpcs3.svg
+    description: "RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++."
   - name: rustdesk
     full_name: RustDesk
     arch: linux/amd64,linux/arm64
@@ -362,6 +402,17 @@ include:
     arch: linux/amd64,linux/arm64
     icon: ryujinx.svg
     description: "Ryujinx is an open-source Nintendo Switch emulator."
+  - name: scummvm
+    full_name: ScummVM
+    arch: linux/amd64
+    icon: scummvm.svg
+    description: "ScummVM allows you to run certain classic graphical adventure and role-playing games, provided you already have their data files."
+  - name: shadps4
+    full_name: shadPS4
+    arch: linux/amd64
+    icon: shadps4.svg
+    description: "shadPS4 is an early in development PlayStation 4 emulator, this Qt launcher manages downloading and running shadPS4 releases."
+    disabled: True
   - name: shortwave
     full_name: Shortwave
     arch: linux/amd64,linux/arm64
@@ -474,6 +525,16 @@ include:
     arch: linux/amd64
     icon: wpsoffice.svg
     description: "WPS Office is a lightweight, feature-rich comprehensive office suite with high compatibility. As a handy and professional office software, WPS Office allows you to edit files in Writer, Presentation, Spreadsheet, and PDF to improve your work efficiency."
+  - name: xemu
+    full_name: xemu
+    arch: linux/amd64
+    icon: xemu.svg
+    description: "xemu is a low-level, full-system emulator for the original Xbox game console."
+  - name: xenia
+    full_name: Xenia Edge
+    arch: linux/amd64
+    icon: xenia.png
+    description: "Xenia Edge is a fork of the Xenia Xbox 360 research emulator with additional fixes and enhancements."
   - name: yandex
     full_name: Yandex Browser
     arch: linux/amd64

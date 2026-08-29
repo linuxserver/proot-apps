@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start DuckStation
+/opt/duckstation/AppRun "$@"

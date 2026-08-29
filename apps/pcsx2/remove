@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Removing icon"
+rm -f $HOME/.local/share/icons/hicolor/scalable/apps/pcsx2-qt.png
+echo "Removing start menu entry"
+rm -f $HOME/.local/share/applications/pcsx2-pa.desktop
+echo "Removing desktop shortcut"
+rm -f $HOME/Desktop/pcsx2-pa.desktop

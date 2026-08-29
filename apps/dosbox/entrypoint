@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start DOSBox Staging
+/opt/dosbox/dosbox "$@"

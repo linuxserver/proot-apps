@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start RPCS3
+QT_QPA_PLATFORM=xcb /opt/rpcs3/AppRun "$@"

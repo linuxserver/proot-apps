@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Start PPSSPP
-PPSSPPQt "$@"
+/usr/games/ppsspp "$@"
