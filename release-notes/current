@@ -1,5 +1,11 @@
 What's new in this Version:
 
-* Secure the escape socket mounted into the app root
-* Ensure that the gui app mounts in the repo location on run
-
+* Initial NVIDIA GPU support for accelerated applications
+* Rebase Blender, Chromium, Dolphin, Firefox, GIMP, Krita, melonDS, RetroArch, and Telegram to glibc based distros for acceleration
+* Add Resolute base image
+* Rebase Bookworm images to Trixie and stop building unused bases
+* New apps: AWS WorkSpaces Client, Brave Origin, Helium browser, OpenCloud desktop client, OrcaSlicer, WeChat
+* Add Selkies gamepad interposers to base images
+* Add base locales to images
+* Add icon theme and swap app icons to SVG
+* Fixes for Brave launch, OnlyOffice install, Telegram icon, Obsidian desktop file, and WineGUI in Docker
