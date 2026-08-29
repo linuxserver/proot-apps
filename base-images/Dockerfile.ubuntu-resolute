@@ -10,6 +10,9 @@ RUN \
     /etc/dpkg/dpkg.cfg.d/excludes && \
   echo "**** install packages ****" && \
   apt-get update && \
+  DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends --allow-remove-essential \
+    coreutils-from-gnu \
+    coreutils-from-uutils- && \
   DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
     ca-certificates \
     curl \
