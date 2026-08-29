@@ -1,4 +1,15 @@
 #!/bin/bash
 
+# Seed the user config on first launch so RetroArch uses its built in defaults
+# (ozone menu, cores/info/assets under ~/.config/retroarch) instead of the
+# distro skeleton in /etc/retroarch.cfg
+if [ ! -f "${HOME}/.config/retroarch/retroarch.cfg" ]; then
+  mkdir -p "${HOME}/.config/retroarch/cores"
+  cp -rn /usr/share/libretro/assets "${HOME}/.config/retroarch/"
+  cp -rn /usr/share/libretro/autoconfig "${HOME}/.config/retroarch/"
+  cp -n /usr/share/libretro/info/* "${HOME}/.config/retroarch/cores/"
+  echo 'menu_driver = "ozone"' > "${HOME}/.config/retroarch/retroarch.cfg"
+fi
+
 # Start RetroArch
 retroarch "$@"

@@ -1,16 +1,18 @@
 ARG REPO
-FROM ghcr.io/${REPO}:alpine-324 AS rootfs
+FROM ghcr.io/${REPO}:debian-trixie AS rootfs
 ARG REPO
 
 # Install packages
 RUN \
   echo "**** install packages ****" && \
-  apk add --no-cache \
-    chromium && \
+  apt-get update && \
+  apt-get install -y --no-install-recommends \
+    chromium \
+    chromium-l10n && \
   echo "**** customize desktop file ****" && \
   sed -i \
     -e "/^Exec=/c Exec=/bin/sh -c \"\$HOME\/.local\/bin\/proot-apps run ghcr.io/${REPO}:chromium %U\"" \
-    -e "s/Name=Chromium/Name=Chromium PA/g" \
+    -e "s/^Name=Chromium.*/Name=Chromium PA/" \
     -e '/^TryExec=/d' \
     /usr/share/applications/chromium.desktop && \
   mv \
@@ -19,7 +21,11 @@ RUN \
   echo "**** set bin name ****" && \
   echo "chromium-pa" > /bin-name && \
   echo "**** cleanup ****" && \
+  apt-get autoclean && \
   rm -rf \
+    /root/.cache \
+    /var/lib/apt/lists/* \
+    /var/tmp/* \
     /tmp/*
 
 COPY ./entrypoint /entrypoint

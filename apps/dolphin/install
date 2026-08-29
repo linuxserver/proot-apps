@@ -4,7 +4,7 @@
 echo "Adding icon"
 mkdir -p $HOME/.local/share/icons/hicolor/scalable/apps/
 cp \
-  /usr/share/icons/hicolor/scalable/apps/dolphin-emu.svg \
+  /usr/local/share/icons/hicolor/scalable/apps/dolphin-emu.svg \
   $HOME/.local/share/icons/hicolor/scalable/apps/
 echo "Adding start menu entry"
 mkdir -p $HOME/.local/share/applications/

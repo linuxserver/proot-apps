@@ -37,7 +37,7 @@ include:
     description: "Bitwarden is a secure and free password manager for all of your devices."
   - name: blender
     full_name: Blender
-    arch: linux/amd64,linux/arm64
+    arch: linux/amd64
     icon: blender.svg
     description: "Blender is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality, and computer games."
   - name: brave
@@ -82,7 +82,7 @@ include:
     description: "Professional Photo Management with the Power of Open Source."
   - name: dolphin
     full_name: Dolphin Emulator
-    arch: linux/amd64,linux/arm64
+    arch: linux/amd64
     icon: dolphin.svg
     description: "Dolphin is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more."
   - name: doublecmd
@@ -224,7 +224,7 @@ include:
     description: "Kodi spawned from the love of media. It is media center and entertainment hub that brings all your digital media together into a beautiful and user friendly package. It is 100% free and open source, very customisable and runs on a wide variety of devices. It is supported by a dedicated team of volunteers and a huge community."
   - name: krita
     full_name: Krita
-    arch: linux/amd64,linux/arm64
+    arch: linux/amd64
     icon: krita.svg
     description: "Krita is a professional FREE and open source painting program. It is made by artists that want to see affordable art tools for everyone."
   - name: ktorrent
@@ -411,7 +411,7 @@ include:
     description: "Tabby is an infinitely customizable cross-platform terminal app for local shells, serial, SSH and Telnet connections."
   - name: telegram
     full_name: Telegram
-    arch: linux/amd64,linux/arm64
+    arch: linux/amd64
     icon: telegram.svg
     description: "Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed."
   - name: thunderbird

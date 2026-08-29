@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Start Krita
-krita "$@"
+PYTHONHOME=/opt/krita/usr krita "$@"
