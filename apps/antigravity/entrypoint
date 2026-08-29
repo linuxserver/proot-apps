@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Antigravity
+/opt/antigravity/antigravity-ide --no-sandbox "$@"

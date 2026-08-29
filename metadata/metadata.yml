@@ -5,6 +5,11 @@ include:
     icon: anydesk.svg
     description: "Anki is a free and open-source flashcard program."
     disabled: True
+  - name: antigravity
+    full_name: Google Antigravity
+    arch: linux/amd64,linux/arm64
+    icon: antigravity.svg
+    description: "Antigravity is an agent first IDE from Google based on VS Code with autonomous coding agents and Gemini built in."
   - name: anydesk
     full_name: AnyDesk 
     arch: linux/amd64
@@ -70,6 +75,11 @@ include:
     arch: linux/amd64
     icon: cemu.png
     description: "Cemu is a Wii U emulator that is able to run most Wii U games and homebrew in a playable state."
+  - name: chatgpt
+    full_name: ChatGPT
+    arch: linux/amd64,linux/arm64
+    icon: chatgpt.svg
+    description: "ChatGPT is the desktop app from OpenAI which includes Codex for running agentic coding tasks on your local projects."
   - name: chrome
     full_name: Google Chrome
     arch: linux/amd64
@@ -80,6 +90,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: chromium.svg
     description: "Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web."
+  - name: claude
+    full_name: Claude Desktop
+    arch: linux/amd64,linux/arm64
+    icon: claude.svg
+    description: "Claude is the desktop app from Anthropic with chat and Claude Code for agentic coding with parallel sessions, visual diff review and an integrated terminal."
   - name: deluge
     full_name: Deluge
     arch: linux/amd64,linux/arm64
@@ -337,6 +352,11 @@ include:
     arch: linux/amd64
     icon: opencloud.svg
     description: "The OpenCloud Desktop Client enables file synchronization between a local computer and OpenCloud."
+  - name: opencode
+    full_name: OpenCode
+    arch: linux/amd64
+    icon: opencode.svg
+    description: "OpenCode is an open source AI coding agent and the desktop app provides a native GUI with sessions, diffs and terminal access to your projects."
   - name: opera
     full_name: Opera
     arch: linux/amd64

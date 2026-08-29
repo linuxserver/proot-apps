@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start OpenCode
+/opt/OpenCode/ai.opencode.desktop --no-sandbox "$@"
