@@ -83,6 +83,7 @@ proot-apps update firefox
 | ardour | ghcr.io/linuxserver/proot-apps:ardour | linux/amd64,linux/arm64 | Ardour is an open source, collaborative effort of a worldwide team including musicians, programmers, and professional recording engineers.|
 | audacity | ghcr.io/linuxserver/proot-apps:audacity | linux/amd64 | Audacity is an easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source.|
 | aws-workspaces | ghcr.io/linuxserver/proot-apps:aws-workspaces | linux/amd64 | AWS WorkSpaces client for connecting to Amazon WorkSpaces virtual desktops.|
+| azahar | ghcr.io/linuxserver/proot-apps:azahar | linux/amd64 | Azahar is an open-source Nintendo 3DS emulator based on Citra, focused on accuracy, performance and ease of use.|
 | beekeeperstudio | ghcr.io/linuxserver/proot-apps:beekeeperstudio | linux/amd64 | Use Beekeeper Studio to query and manage your relational databases, like MySQL, Postgres, SQLite, and SQL Server.|
 | bitwarden | ghcr.io/linuxserver/proot-apps:bitwarden | linux/amd64 | Bitwarden is a secure and free password manager for all of your devices.|
 | blender | ghcr.io/linuxserver/proot-apps:blender | linux/amd64 | Blender is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality, and computer games.|
@@ -90,15 +91,19 @@ proot-apps update firefox
 | braveorigin | ghcr.io/linuxserver/proot-apps:braveorigin | linux/amd64,linux/arm64 | Brave Origin is a minimalist version of Brave that allows users to disable the revenue-generating features that otherwise support Brave as a business.|
 | calibre | ghcr.io/linuxserver/proot-apps:calibre | linux/amd64,linux/arm64 | Calibre is a powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts.|
 | celluloid | ghcr.io/linuxserver/proot-apps:celluloid | linux/amd64,linux/arm64 | Celluloid is a simple GTK+ frontend for mpv. It aims to be easy to use while maintaining high level of configurability.|
+| cemu | ghcr.io/linuxserver/proot-apps:cemu | linux/amd64 | Cemu is a Wii U emulator that is able to run most Wii U games and homebrew in a playable state.|
 | chrome | ghcr.io/linuxserver/proot-apps:chrome | linux/amd64 | Chrome is the official web browser from Google, built to be fast, secure, and customizable.|
 | chromium | ghcr.io/linuxserver/proot-apps:chromium | linux/amd64,linux/arm64 | Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.|
 | deluge | ghcr.io/linuxserver/proot-apps:deluge | linux/amd64,linux/arm64 | Deluge is a lightweight, Free Software, cross-platform BitTorrent client.|
 | digikam | ghcr.io/linuxserver/proot-apps:digikam | linux/amd64,linux/arm64 | Professional Photo Management with the Power of Open Source.|
 | dolphin | ghcr.io/linuxserver/proot-apps:dolphin | linux/amd64 | Dolphin is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more.|
+| dosbox | ghcr.io/linuxserver/proot-apps:dosbox | linux/amd64 | DOSBox Staging is a modern continuation of DOSBox with advanced features and improvements for running DOS games and software.|
 | doublecmd | ghcr.io/linuxserver/proot-apps:doublecmd | linux/amd64,linux/arm64 | Double Commander is a free cross-platform open source file manager with two panels side by side (or one above the other). It is inspired by Total Commander and features some innovative new ideas.|
 | dreamm | ghcr.io/linuxserver/proot-apps:dreamm | linux/amd64,linux/arm64 | DREAMM is a bespoke emulator for LucasArts games, relying on low-level emulation instead of reverse engineering.|
+| duckstation | ghcr.io/linuxserver/proot-apps:duckstation | linux/amd64 | DuckStation is a simulator/emulator of the Sony PlayStation console, focusing on playability, speed, and long-term maintainability.|
 | earth | ghcr.io/linuxserver/proot-apps:earth | linux/amd64 | Google Earth Pro on desktop is free for users with advanced feature needs. Import and export GIS data, and go back in time with historical imagery.|
 | eclipsejava | ghcr.io/linuxserver/proot-apps:eclipsejava | linux/amd64,linux/arm64 | Eclipse IDE, the essential tools for any Java developer, including a Java IDE, a Git client, XML Editor, Maven and Gradle integration.|
+| eden | ghcr.io/linuxserver/proot-apps:eden | linux/amd64 | Eden is an experimental open-source emulator for the Nintendo Switch, built with performance and stability in mind.|
 | edge | ghcr.io/linuxserver/proot-apps:edge | linux/amd64 | Microsoft Edge is a cross-platform web browser developed by Microsoft and based on Chromium.|
 | ferdium | ghcr.io/linuxserver/proot-apps:ferdium | linux/amd64,linux/arm64 | Ferdium is a desktop app that helps you organize how you use your favourite apps by combining them into one application.|
 | filezilla | ghcr.io/linuxserver/proot-apps:filezilla | linux/amd64,linux/arm64 | FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.|
@@ -128,6 +133,7 @@ proot-apps update firefox
 | logisim | ghcr.io/linuxserver/proot-apps:logisim | linux/amd64 | Logisim-evolution is educational software for designing and simulating digital logic circuits.|
 | lollypop | ghcr.io/linuxserver/proot-apps:lollypop | linux/amd64,linux/arm64 | Lollypop is a lightweight modern music player designed to work excellently on the GNOME desktop environment.|
 | maltego | ghcr.io/linuxserver/proot-apps:maltego | linux/amd64,linux/arm64 | Maltego is link analysis software used for open-source intelligence, forensics and other investigations.|
+| mame | ghcr.io/linuxserver/proot-apps:mame | linux/amd64 | MAME is a multi-purpose emulation framework whose purpose is to preserve decades of arcade and computer software history.|
 | mayo | ghcr.io/linuxserver/proot-apps:mayo | linux/amd64,linux/arm64 | Mayo is an open-source 3D CAD viewer and converter based on Open CASCADE Technology and Qt.|
 | melonds | ghcr.io/linuxserver/proot-apps:melonds | linux/amd64,linux/arm64 | melonDS aims at providing fast and accurate Nintendo DS emulation.|
 | moonlight | ghcr.io/linuxserver/proot-apps:moonlight | linux/amd64,linux/arm64 | Moonlight allows you to play your PC games on almost any device, whether you're in another room or miles away from your gaming rig.|
@@ -140,14 +146,17 @@ proot-apps update firefox
 | opera | ghcr.io/linuxserver/proot-apps:opera | linux/amd64 | Opera is a multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium, but distinguishes itself from other Chromium-based browsers (Chrome, Edge, etc.) through its user interface and other features.|
 | orcaslicer | ghcr.io/linuxserver/proot-apps:orcaslicer | linux/amd64 | OrcaSlicer is an open source Next-Gen Slicing Software for Precision 3D Prints.|
 | parsec | ghcr.io/linuxserver/proot-apps:parsec | linux/amd64 | Parsec is a remote desktop you'll actually love. Connect to work, games, or projects wherever you are, whenever you want.|
+| pcsx2 | ghcr.io/linuxserver/proot-apps:pcsx2 | linux/amd64 | PCSX2 is a free and open-source PlayStation 2 emulator that supports a wide range of games with high compatibility.|
 | postman | ghcr.io/linuxserver/proot-apps:postman | linux/amd64,linux/arm64 | Postman is an application that allows the testing of web APIs.|
 | ppsspp | ghcr.io/linuxserver/proot-apps:ppsspp | linux/amd64,linux/arm64 | PPSSPP is a PSP emulator that can run games in full HD resolution.|
 | pycharm | ghcr.io/linuxserver/proot-apps:pycharm | linux/amd64,linux/arm64 | PyCharm Community Edition IDE is designed by programmers, for programmers, to provide all the tools you need for productive Python development.|
 | qbittorrent | ghcr.io/linuxserver/proot-apps:qbittorrent | linux/amd64,linux/arm64 | The Qbittorrent project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library.|
 | remmina | ghcr.io/linuxserver/proot-apps:remmina | linux/amd64,linux/arm64 | Remmina is a remote desktop client written in GTK, aiming to be useful for system administrators and travellers, who need to work with lots of remote computers in front of either large or tiny screens. Remmina supports multiple network protocols, in an integrated and consistent user interface.|
 | retroarch | ghcr.io/linuxserver/proot-apps:retroarch | linux/amd64,linux/arm64 | RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications.|
+| rpcs3 | ghcr.io/linuxserver/proot-apps:rpcs3 | linux/amd64 | RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++.|
 | rustdesk | ghcr.io/linuxserver/proot-apps:rustdesk | linux/amd64,linux/arm64 | RustDesk is a remote access and remote control software, primarily written in Rust, that enables remote maintenance of computers and other devices.|
 | ryujinx | ghcr.io/linuxserver/proot-apps:ryujinx | linux/amd64,linux/arm64 | Ryujinx is an open-source Nintendo Switch emulator.|
+| scummvm | ghcr.io/linuxserver/proot-apps:scummvm | linux/amd64 | ScummVM allows you to run certain classic graphical adventure and role-playing games, provided you already have their data files.|
 | shortwave | ghcr.io/linuxserver/proot-apps:shortwave | linux/amd64,linux/arm64 | Shortwave is an internet radio player that provides access to a station database with over 30,000 stations.|
 | shotcut | ghcr.io/linuxserver/proot-apps:shotcut | linux/amd64,linux/arm64 | Shotcut is a free, open source, cross-platform video editor.|
 | spotify | ghcr.io/linuxserver/proot-apps:spotify | linux/amd64 | Spotify is a digital music service that gives you access to millions of songs. YOU MUST LOGIN WITH QR CODE!|
@@ -168,6 +177,8 @@ proot-apps update firefox
 | wechat | ghcr.io/linuxserver/proot-apps:wechat | linux/amd64 | WeChat or Weixin in Chinese is an instant messaging, social media, and mobile payment app developed by Tencent.|
 | winegui | ghcr.io/linuxserver/proot-apps:winegui | linux/amd64 | A user-interface friendly Wine (A compatibility layer capable of running Windows applications under Linux) Manager.|
 | wpsoffice | ghcr.io/linuxserver/proot-apps:wpsoffice | linux/amd64 | WPS Office is a lightweight, feature-rich comprehensive office suite with high compatibility. As a handy and professional office software, WPS Office allows you to edit files in Writer, Presentation, Spreadsheet, and PDF to improve your work efficiency.|
+| xemu | ghcr.io/linuxserver/proot-apps:xemu | linux/amd64 | xemu is a low-level, full-system emulator for the original Xbox game console.|
+| xenia | ghcr.io/linuxserver/proot-apps:xenia | linux/amd64 | Xenia Edge is a fork of the Xenia Xbox 360 research emulator with additional fixes and enhancements.|
 | yandex | ghcr.io/linuxserver/proot-apps:yandex | linux/amd64 | Yandex Browser is a freeware web browser developed by the Russian technology corporation Yandex that uses the Blink web browser.|
 | zen | ghcr.io/linuxserver/proot-apps:zen | linux/amd64,linux/arm64 | Zen Browser is a free and open-source fork of Mozilla Firefox with a focus on privacy, customizability and design.|
 | zim | ghcr.io/linuxserver/proot-apps:zim | linux/amd64,linux/arm64 | Zim is a graphical text editor used to maintain a collection of wiki pages.|
