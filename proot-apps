@@ -340,6 +340,170 @@ function get_app() {
   fi
 }
 
+# Print nvidia debug output if PA_DEBUG is set
+nvidia_debug() {
+  if [[ ! -z ${PA_DEBUG+x} ]]; then
+    echo "nvidia: ${1}" >&2
+  fi
+}
+
+# Print loader cache, ldconfig is in sbin which is not always in PATH
+nvidia_ldcache() {
+  for BIN in "$(which ldconfig 2>/dev/null)" /usr/sbin/ldconfig /sbin/ldconfig; do
+    if [ -x "${BIN}" ]; then
+      "${BIN}" -p 2>/dev/null
+      return 0
+    fi
+  done
+  for FILE in \
+    "${HOST_LIB}"/lib*nvidia*.so* "${HOST_LIB}"/libcuda*.so* "${HOST_LIB}"/libnvcuvid.so* "${HOST_LIB}"/libnvoptix.so* \
+    /usr/lib64/lib*nvidia*.so* /usr/lib64/libcuda*.so* /usr/lib64/libnvcuvid.so* /usr/lib64/libnvoptix.so* \
+    /usr/lib/lib*nvidia*.so* /usr/lib/libcuda*.so* /usr/lib/libnvcuvid.so* /usr/lib/libnvoptix.so*; do
+    if [ -e "${FILE}" ]; then
+      echo "$(basename "${FILE}") (libc6,${LDTAG}) => ${FILE}"
+    fi
+  done
+}
+
+# Check for nvidia driver in the current environment
+nvidia_present() {
+  if [[ ! -z ${PA_NO_NVIDIA+x} ]]; then
+    nvidia_debug "disabled by PA_NO_NVIDIA"
+    return 1
+  fi
+  # Driver libs are glibc only
+  if grep -q -E "^ID=alpine" /etc/os-release 2>/dev/null; then
+    nvidia_debug "alpine environment, skipping"
+    return 1
+  fi
+  if [ ! -e /lib64/ld-linux-x86-64.so.2 ] && [ ! -e /lib/ld-linux-aarch64.so.1 ]; then
+    nvidia_debug "no glibc in this environment, skipping"
+    return 1
+  fi
+  if [ ! -e /dev/nvidiactl ]; then
+    return 1
+  fi
+  if ! nvidia_ldcache | grep -q -E "libGLX_nvidia\.so|libEGL_nvidia\.so"; then
+    nvidia_debug "/dev/nvidiactl present but no driver libraries in the loader cache"
+    return 1
+  fi
+  return 0
+}
+
+# Print guest glibc libdir, fails for musl guests
+nvidia_guest_libdir() {
+  if grep -q -E "^ID=alpine" "${1}/etc/os-release" 2>/dev/null; then
+    nvidia_debug "alpine guest, skipping"
+    return 1
+  fi
+  for DIR in \
+    usr/lib/$(uname -m)-linux-gnu \
+    usr/lib64 \
+    usr/lib; do
+    if [ -e "${1}/${DIR}/libc.so.6" ]; then
+      echo "/${DIR}"
+      return 0
+    fi
+  done
+  nvidia_debug "no glibc found in guest, skipping"
+  return 1
+}
+
+# Add a bind if the file exists and the guest path is not taken
+nvidia_add() {
+  if [ -f "${1}" ] && [ -z "${NVIDIA_SEEN[${2}]}" ]; then
+    NVIDIA_SEEN[${2}]=1
+    NVIDIA_BIND+=("-b" "$(realpath "${1}"):${2}")
+  fi
+}
+
+# Build proot binds for nvidia acceleration
+nvidia_binds() {
+  NVIDIA_BIND=()
+  declare -g -A NVIDIA_SEEN=()
+  case "$(uname -m)" in
+    x86_64) LDTAG="x86-64" ;;
+    aarch64) LDTAG="AArch64" ;;
+    *) return 0 ;;
+  esac
+  HOST_LIB="/usr/lib/$(uname -m)-linux-gnu"
+  if ! nvidia_present; then
+    return 0
+  fi
+  GUEST_LIB=$(nvidia_guest_libdir "${1}") || return 0
+  # Driver libs
+  while read -r NAME LIBPATH; do
+    REAL=$(realpath "${LIBPATH}")
+    nvidia_add "${REAL}" "${GUEST_LIB}/${NAME}"
+    nvidia_add "${REAL}" "${GUEST_LIB}/$(basename "${REAL}")"
+  done < <(nvidia_ldcache | awk -v tag="${LDTAG}" \
+    '$1 ~ /^(libnvidia-|libcuda\.|libcudadebugger\.|libnvcuvid\.|libnvoptix\.|libEGL_nvidia\.|libGLX_nvidia\.|libGLESv1_CM_nvidia\.|libGLESv2_nvidia\.)/ && $1 !~ /^libnvidia-container/ && $2 ~ tag {print $1, $NF}')
+  # VDPAU and GBM backends
+  VDPAU_DIR=$(nvidia_ldcache | awk -v tag="${LDTAG}" \
+    '$1 ~ /^libvdpau_nvidia\./ && $2 ~ tag {print $NF; exit}' | xargs -r realpath | xargs -r dirname)
+  for FILE in \
+    ${VDPAU_DIR:+"${VDPAU_DIR}"/libvdpau_nvidia.so*} \
+    "${HOST_LIB}"/vdpau/libvdpau_nvidia.so* \
+    /usr/lib64/vdpau/libvdpau_nvidia.so* \
+    /usr/lib/vdpau/libvdpau_nvidia.so*; do
+    nvidia_add "${FILE}" "${GUEST_LIB}/vdpau/$(basename "${FILE}")"
+  done
+  for FILE in \
+    ${HOST_LIB}/gbm/nvidia-drm_gbm.so \
+    /usr/lib64/gbm/nvidia-drm_gbm.so \
+    /usr/lib/gbm/nvidia-drm_gbm.so \
+    /usr/local/lib/gbm/nvidia-drm_gbm.so \
+    /usr/local/lib64/gbm/nvidia-drm_gbm.so \
+    ${HOST_LIB}/nvidia-drm_gbm.so \
+    /usr/lib64/nvidia-drm_gbm.so \
+    /usr/lib/nvidia-drm_gbm.so; do
+    nvidia_add "${FILE}" "${GUEST_LIB}/gbm/nvidia-drm_gbm.so"
+  done
+  # GBM backend fallback to the allocator
+  ALLOCATOR=$(nvidia_ldcache | awk -v tag="${LDTAG}" \
+    '$1 ~ /^libnvidia-allocator\.so\.1$/ && $2 ~ tag {print $NF; exit}')
+  if [ ! -z "${ALLOCATOR}" ]; then
+    nvidia_add "${ALLOCATOR}" "${GUEST_LIB}/gbm/nvidia-drm_gbm.so"
+  fi
+  # ICD files
+  STAGE="${ROOT_DIR}/.nvidia"
+  ICD=$(find /etc/vulkan/icd.d /usr/share/vulkan/icd.d -name '*nvidia*.json' 2>/dev/null | head -n1)
+  if [ -z "${ICD}" ]; then
+    mkdir -p "${STAGE}"
+    ICD="${STAGE}/nvidia_icd.json"
+    echo '{"file_format_version":"1.0.0","ICD":{"library_path":"libGLX_nvidia.so.0","api_version":"1.3.0"}}' > "${ICD}"
+  fi
+  nvidia_add "${ICD}" /etc/vulkan/icd.d/nvidia_icd.json
+  EGL=$(find /etc/glvnd/egl_vendor.d /usr/share/glvnd/egl_vendor.d -name '*nvidia*.json' 2>/dev/null | head -n1)
+  if [ -z "${EGL}" ]; then
+    mkdir -p "${STAGE}"
+    EGL="${STAGE}/10_nvidia.json"
+    echo '{"file_format_version":"1.0.0","ICD":{"library_path":"libEGL_nvidia.so.0"}}' > "${EGL}"
+  fi
+  nvidia_add "${EGL}" /usr/share/glvnd/egl_vendor.d/10_nvidia.json
+  OCL=$(find /etc/OpenCL/vendors -name '*nvidia*.icd' 2>/dev/null | head -n1)
+  if [ -z "${OCL}" ]; then
+    mkdir -p "${STAGE}"
+    OCL="${STAGE}/nvidia.icd"
+    echo 'libnvidia-opencl.so.1' > "${OCL}"
+  fi
+  nvidia_add "${OCL}" /etc/OpenCL/vendors/nvidia.icd
+  while read -r FILE; do
+    nvidia_add "${FILE}" "/etc/vulkan/implicit_layer.d/$(basename "${FILE}")"
+  done < <(find /etc/vulkan/implicit_layer.d /usr/share/vulkan/implicit_layer.d -name '*nvidia*.json' 2>/dev/null)
+  while read -r FILE; do
+    nvidia_add "${FILE}" "/usr/share/egl/egl_external_platform.d/$(basename "${FILE}")"
+  done < <(find /etc/egl/egl_external_platform.d /usr/share/egl/egl_external_platform.d -name '*nvidia*.json' 2>/dev/null)
+  # Tools
+  if which nvidia-smi >/dev/null 2>&1; then
+    nvidia_add "$(which nvidia-smi)" /usr/bin/nvidia-smi
+  fi
+  nvidia_debug "guest libdir ${GUEST_LIB}, $(( ${#NVIDIA_BIND[@]} / 2 )) binds"
+  if [[ ! -z ${PA_DEBUG+x} ]]; then
+    printf '%s\n' "${NVIDIA_BIND[@]}" | grep -v '^-b$' >&2
+  fi
+}
+
 #### Runtime ####
 
 # If a non docker endpoint is passed assume the default repo
@@ -378,8 +542,10 @@ if [ "${TYPE}" == "run" ]; then
   if [ -d "/usr/share/fonts" ] && [ -d "/usr/share/fontconfig" ] && [ -d "/etc/fonts" ]; then
     FONTS_BIND="-b /usr/share/fonts:/usr/share/fonts -b /usr/share/fontconfig:/usr/share/fontconfig -b /etc/fonts:/etc/fonts"
   fi
+  # NVIDIA acceleration
+  nvidia_binds "$ROOT_DIR/${IMAGE_FOLDER}"
   $HOME/.local/bin/proot \
-    ${PULSE_BIND} ${FONTS_BIND} ${REPO_BIND} -n \
+    ${PULSE_BIND} ${FONTS_BIND} ${REPO_BIND} "${NVIDIA_BIND[@]}" -n \
     -R $ROOT_DIR/${IMAGE_FOLDER}/ \
     /entrypoint "${@:3}" &
   start_system_socket "$ROOT_DIR/${IMAGE_FOLDER}/" $!
