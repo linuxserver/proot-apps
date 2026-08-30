@@ -31,6 +31,10 @@ RUN \
     /usr/share/applications/firefox-pa.desktop && \
   echo "**** set bin name ****" && \
   echo "firefox-pa" > /bin-name && \
+  echo "**** replace dash with busybox sh ****" && \
+  apt-get install -y --no-install-recommends \
+    busybox-static && \
+  ln -sf busybox /usr/bin/sh && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \
