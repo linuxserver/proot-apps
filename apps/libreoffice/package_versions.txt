@@ -74,7 +74,7 @@ gcc                             15.2.0-r5                apk
 gdbm                            1.26-r0                  apk                           
 gdk-pixbuf                      2.44.7-r1                apk                           
 gdk-pixbuf-lang                 2.44.7-r1                apk                           
-giflib                          5.2.2-r1                 apk                           
+giflib                          5.2.2-r2                 apk                           
 glib                            2.88.1-r1                apk                           
 glib-lang                       2.88.1-r1                apk                           
 glycin-image-rs                 2.1.5-r0                 apk                           

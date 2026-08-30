@@ -46,7 +46,7 @@ gcc-x86-64-linux-gnu            4:14.2.0-1                            deb
 grep                            3.11-4                                deb     
 gsettings-desktop-schemas       48.0-1                                deb     
 gzip                            1.13-1                                deb     
-helium-bin                      0.16.1.1-1                            deb     
+helium-bin                      0.16.2.1-1                            deb     
 hostname                        3.25                                  deb     
 init-system-helpers             1.69~deb13u1                          deb     
 iso-codes                       4.18.0-1                              deb     
@@ -316,7 +316,7 @@ libz3-4                         4.13.3-1                              deb
 libzstd1                        1.5.7+dfsg-1                          deb     
 libzvbi-common                  0.2.44-1                              deb     
 libzvbi0t64                     0.2.44-1                              deb     
-linux-libc-dev                  6.12.105-1                            deb     
+linux-libc-dev                  6.12.107-1                            deb     
 linux-sysctl-defaults           4.12.1                                deb     
 locales-all                     2.41-12+deb13u3                       deb     
 login                           1:4.16.0-2+really2.41.5-0+deb13u1     deb     

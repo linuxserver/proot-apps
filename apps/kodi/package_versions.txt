@@ -97,7 +97,7 @@ funty                            2.0.0                    rust-crate
 gcc                              15.2.0-r5                apk                         
 gdbm                             1.26-r0                  apk                         
 getrandom                        0.3.3                    rust-crate                  
-giflib                           5.2.2-r1                 apk                         
+giflib                           5.2.2-r2                 apk                         
 glib                             2.88.1-r1                apk                         
 glib-lang                        2.88.1-r1                apk                         
 glslang-libs                     1.4.341.0-r0             apk                         
