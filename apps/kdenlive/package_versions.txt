@@ -73,7 +73,7 @@ either                      1.15.0                   rust-crate
 equator                     0.4.2                    rust-crate                  
 errno                       0.3.12                   rust-crate                  
 eudev-libs                  3.2.14-r6                apk                         
-exiv2-libs                  0.28.7-r0                apk                         
+exiv2-libs                  0.28.9-r0                apk                         
 fern                        0.7.1                    rust-crate                  
 ffmpeg                      8.1.2-r0                 apk                         
 ffmpeg-libavcodec           8.1.2-r0                 apk                         
