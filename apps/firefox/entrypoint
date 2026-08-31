@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Start Firefox
-MOZ_FAKE_NO_SANDBOX=1 firefox "$@"
+MOZ_FAKE_NO_SANDBOX=1 /usr/lib/firefox/firefox "$@"
