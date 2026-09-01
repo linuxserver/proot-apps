@@ -75,7 +75,7 @@ libdrm                     2.4.134-r0               apk
 libeconf                   0.8.4-r0                 apk     
 libelf                     0.195-r0                 apk     
 libevdev                   1.13.6-r0                apk     
-libexpat                   2.8.3-r0                 apk     
+libexpat                   2.8.4-r0                 apk     
 libffi                     3.8.0-r0                 apk     
 libflac                    1.5.0-r0                 apk     
 libgcc                     15.2.0-r9                apk     
@@ -151,8 +151,8 @@ mpdecimal                  4.0.1-r0                 apk
 mpfr4                      4.2.2-r0                 apk     
 mpg123-libs                1.33.7-r0                apk     
 mtdev                      1.1.7-r0                 apk     
-musl                       1.2.6-r2                 apk     
-musl-dev                   1.2.6-r2                 apk     
+musl                       1.2.6-r3                 apk     
+musl-dev                   1.2.6-r3                 apk     
 musl-locales               0.1.0-r1                 apk     
 musl-locales-lang          0.1.0-r1                 apk     
 musl-utils                 1.2.6-r2                 apk     

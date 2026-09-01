@@ -7,8 +7,8 @@ aspell-en                       2018.04.16-0-1                           deb
 base-files                      12ubuntu4.7                              deb       
 base-passwd                     3.5.52build1                             deb       
 bash                            5.1-6ubuntu1.1                           deb       
-bind9-host                      1:9.18.39-0ubuntu0.22.04.5               deb       
-bind9-libs                      1:9.18.39-0ubuntu0.22.04.5               deb       
+bind9-host                      1:9.18.39-0ubuntu0.22.04.6               deb       
+bind9-libs                      1:9.18.39-0ubuntu0.22.04.6               deb       
 binutils                        2.38-4ubuntu2.12                         deb       
 binutils-common                 2.38-4ubuntu2.12                         deb       
 binutils-x86-64-linux-gnu       2.38-4ubuntu2.12                         deb       
@@ -343,7 +343,7 @@ libspeex1                       1.2~rc1.2-1.1ubuntu3                     deb
 libspeexdsp1                    1.2~rc1.2-1.1ubuntu3                     deb       
 libsqlite3-0                    3.37.2-2ubuntu0.7                        deb       
 libss2                          1.46.5-2ubuntu1.2                        deb       
-libssh-4                        0.9.6-2ubuntu0.22.04.7                   deb       
+libssh-4                        0.9.6-2ubuntu0.22.04.8                   deb       
 libssl3                         3.0.2-0ubuntu1.26                        deb       
 libsss-certmap0                 2.6.3-1ubuntu3.8                         deb       
 libsss-idmap0                   2.6.3-1ubuntu3.8                         deb       
