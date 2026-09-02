@@ -12,7 +12,7 @@ binutils-x86-64-linux-gnu               2.44-3                                de
 bsdutils                                1:2.41.5-0+deb13u1                    deb          
 bubblewrap                              0.12.0-1~deb13u1                      deb          
 ca-certificates                         20250419                              deb          
-claude-desktop                          1.40609.0                             deb          
+claude-desktop                          1.40609.1                             deb          
 coreutils                               9.7-3                                 deb          
 coworkd                                 UNKNOWN                               go-module    
 cpp                                     4:14.2.0-1                            deb          
@@ -464,7 +464,7 @@ sed                                     4.9-2+deb13u1                         de
 shared-mime-info                        2.4-5+b2                              deb          
 sqv                                     1.3.0-3+b2                            deb          
 stdlib                                  go1.25.12                             go-module    
-stdlib                                  go1.25.13                             go-module    
+stdlib                                  go1.25.14                             go-module    
 systemd                                 257.13-1~deb13u1                      deb          
 sysvinit-utils                          3.14-4                                deb          
 tar                                     1.35+dfsg-3.1                         deb          

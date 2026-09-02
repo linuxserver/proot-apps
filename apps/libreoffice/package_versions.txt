@@ -218,7 +218,7 @@ liborcus                        0.20.2-r0                apk
 libpagemaker                    0.0.4-r9                 apk                           
 libpanelw                       6.6_p20260516-r0         apk                           
 libpciaccess                    0.19-r0                  apk                           
-libpcre2-16                     10.47-r1                 apk                           
+libpcre2-16                     10.48-r0                 apk                           
 libpng                          1.6.58-r1                apk                           
 libpq                           18.6-r0                  apk                           
 libproxy                        0.5.12-r0                apk                           
@@ -341,10 +341,10 @@ numactl                         2.0.19-r0                apk
 officebean                      UNKNOWN                  java-archive                  
 oniguruma                       6.9.10-r0                apk                           
 openal-soft-libs                1.25.2-r0                apk                           
-openexr-libiex                  3.4.13-r0                apk                           
-openexr-libilmthread            3.4.13-r0                apk                           
-openexr-libopenexr              3.4.13-r0                apk                           
-openexr-libopenexrcore          3.4.13-r0                apk                           
+openexr-libiex                  3.4.15-r0                apk                           
+openexr-libilmthread            3.4.15-r0                apk                           
+openexr-libopenexr              3.4.15-r0                apk                           
+openexr-libopenexrcore          3.4.15-r0                apk                           
 openh264                        2.6.0-r0                 apk                           
 openjdk8-jre                    8.492.09-r0              apk                           
 openjdk8-jre-base               8.492.09-r0              apk                           

@@ -285,8 +285,8 @@ libogg                                    1.3.6-r0                 apk
 libopenmpt                                0.8.7-r0                 apk           
 libpanelw                                 6.6_p20260516-r0         apk           
 libpciaccess                              0.19-r0                  apk           
-libpcre2-16                               10.47-r1                 apk           
-libpcre2-32                               10.47-r1                 apk           
+libpcre2-16                               10.48-r0                 apk           
+libpcre2-32                               10.48-r0                 apk           
 libplacebo5                               5.264.1-r8               apk           
 libpng                                    1.6.58-r1                apk           
 libprotobuf                               31.1-r1                  apk           
@@ -428,10 +428,10 @@ once_cell                                 1.21.3                   rust-crate
 oniguruma                                 6.9.10-r0                apk           
 openal-soft-libs                          1.25.2-r0                apk           
 openblas                                  0.3.30-r2                apk           
-openexr-libiex                            3.4.13-r0                apk           
-openexr-libilmthread                      3.4.13-r0                apk           
-openexr-libopenexr                        3.4.13-r0                apk           
-openexr-libopenexrcore                    3.4.13-r0                apk           
+openexr-libiex                            3.4.15-r0                apk           
+openexr-libilmthread                      3.4.15-r0                apk           
+openexr-libopenexr                        3.4.15-r0                apk           
+openexr-libopenexrcore                    3.4.15-r0                apk           
 openh264                                  2.6.0-r0                 apk           
 openjpeg                                  2.5.4-r1                 apk           
 opus                                      1.6.1-r0                 apk           
