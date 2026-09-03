@@ -253,7 +253,7 @@ p11-kit                    0.26.2-r1                apk
 pango                      1.57.1-r0                apk           
 paste                      1.0.15                   rust-crate    
 pastey                     0.1.0                    rust-crate    
-pcre2                      10.47-r1                 apk           
+pcre2                      10.48-r0                 apk           
 pixman                     0.46.4-r0                apk           
 pkgconf                    3.0.6-r0                 apk           
 ppv-lite86                 0.2.21                   rust-crate    

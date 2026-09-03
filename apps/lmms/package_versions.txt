@@ -75,7 +75,7 @@ isl26                            0.26-r2                  apk
 isodate                          0.7.2                    python    
 jack                             1.9.22-r4                apk       
 jansson                          2.15.0-r0                apk       
-jq                               1.8.1-r0                 apk       
+jq                               1.8.2-r0                 apk       
 lame-libs                        3.100-r5                 apk       
 lang                             0.1-r2                   apk       
 lcms2                            2.19-r0                  apk       
@@ -204,7 +204,7 @@ opus                             1.6.1-r0                 apk
 orc                              0.4.41-r0                apk       
 p11-kit                          0.26.2-r0                apk       
 pango                            1.57.1-r0                apk       
-pcre2                            10.47-r1                 apk       
+pcre2                            10.48-r0                 apk       
 pipewire-libs                    1.6.8-r4                 apk       
 pixman                           0.46.4-r0                apk       
 pkgconf                          2.5.1-r0                 apk       

@@ -1,11 +1,12 @@
 NAME                                        VERSION                               TYPE                   
+@devcontainers/cli                          0.88.0                                npm                     
 @github/copilot                             1.0.73                                npm                     
 @github/copilot-linux-x64                   1.0.81-0                              npm                     
 @pondwader/socks5-server                    1.0.10                                npm                     
 @vscode/copilot-typescript-server-plugin    1.0.0                                 npm                     
 @vscode/fs-copyfile                         2.0.0                                 npm                     
 @vscode/sandbox-runtime                     0.0.1                                 npm                     
-Code                                        1.135.0                               npm                     
+Code                                        1.136.0                               npm                     
 Microsoft.PowerShell.PSReadLine             2.4.3                                 dotnet                  
 Microsoft.PowerShell.PSReadLine.Polyfiller  1.0.0.0                               dotnet  (+1 duplicate)  
 Microsoft.PowerShell.Pager                  1.0.0.0                               dotnet                  
@@ -24,11 +25,11 @@ bsdutils                                    1:2.41.5-0+deb13u1                  
 builtin-notebook-renderers                  10.0.0                                npm                     
 ca-certificates                             20250419                              deb                     
 clojure                                     10.0.0                                npm                     
-code                                        1.135.0-1787669172                    deb                     
+code                                        1.136.0-1788342447                    deb                     
 coffeescript                                10.0.0                                npm                     
 commander                                   12.1.0                                npm                     
 configuration-editing                       10.0.0                                npm                     
-copilot-chat                                0.63.0                                npm                     
+copilot-chat                                0.64.0                                npm                     
 coreutils                                   9.7-3                                 deb                     
 cpp                                         10.0.0                                npm                     
 cpp                                         4:14.2.0-1                            deb                     

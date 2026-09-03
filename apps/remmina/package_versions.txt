@@ -74,7 +74,7 @@ icu-data-full              78.1-r0                  apk
 icu-libs                   78.1-r0                  apk     
 isl26                      0.26-r2                  apk     
 jansson                    2.15.0-r0                apk     
-jq                         1.8.1-r0                 apk     
+jq                         1.8.2-r0                 apk     
 json-c                     0.18-r1                  apk     
 json-glib                  1.10.8-r0                apk     
 json-glib-lang             1.10.8-r0                apk     
@@ -210,7 +210,7 @@ opus                       1.6.1-r0                 apk
 orc                        0.4.41-r0                apk     
 p11-kit                    0.26.2-r0                apk     
 pango                      1.57.1-r0                apk     
-pcre2                      10.47-r1                 apk     
+pcre2                      10.48-r0                 apk     
 pixman                     0.46.4-r0                apk     
 pkgconf                    2.5.1-r0                 apk     
 pulseaudio                 17.0-r7                  apk     

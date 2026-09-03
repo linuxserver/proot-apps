@@ -165,7 +165,7 @@ opus                       1.6.1-r0                 apk
 orc                        0.4.42-r1                apk     
 p11-kit                    0.26.2-r1                apk     
 pango                      1.57.1-r0                apk     
-pcre2                      10.47-r1                 apk     
+pcre2                      10.48-r0                 apk     
 pixman                     0.46.4-r0                apk     
 pkgconf                    3.0.6-r0                 apk     
 pulseaudio                 17.0-r7                  apk     

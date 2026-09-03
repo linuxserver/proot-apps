@@ -435,7 +435,7 @@ sysvinit-utils                  3.15-5ubuntu1                          deb
 tar                             1.35+dfsg-4ubuntu0.4                   deb          
 ubuntu-keyring                  2023.11.28.1build1                     deb          
 udev                            259.5-0ubuntu3.4                       deb          
-unsloth                         0.1.804-beta                           deb          
+unsloth                         0.1.806-beta                           deb          
 user-session-migration          0.5.1                                  deb          
 util-linux                      2.41.3-3ubuntu2                        deb          
 x11-common                      1:7.7+26ubuntu1                        deb          

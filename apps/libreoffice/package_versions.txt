@@ -126,7 +126,7 @@ java_uno                        UNKNOWN                  java-archive
 java_websocket                  UNKNOWN                  java-archive                  
 jce                             1.8.0_492                java-archive                  
 jfr                             1.8.0_492                java-archive                  
-jq                              1.8.1-r0                 apk                           
+jq                              1.8.2-r0                 apk                           
 js                              UNKNOWN                  java-archive                  
 jsse                            1.8.0_492                java-archive                  
 juh                             UNKNOWN                  java-archive                  
@@ -355,7 +355,7 @@ orc                             0.4.41-r0                apk
 p11-kit                         0.26.2-r0                apk                           
 p11-kit-trust                   0.26.2-r0                apk                           
 pango                           1.57.1-r0                apk                           
-pcre2                           10.47-r1                 apk                           
+pcre2                           10.48-r0                 apk                           
 pcsc-lite-libs                  2.4.0-r4                 apk                           
 pinentry                        1.3.2-r0                 apk                           
 pixman                          0.46.4-r0                apk                           

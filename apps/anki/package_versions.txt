@@ -121,7 +121,7 @@ itsdangerous                       2.2.0                    python
 ivf                                0.1.4                    rust-crate    
 jansson                            2.15.0-r0                apk           
 jinja2                             3.1.6                    python        
-jq                                 1.8.1-r0                 apk           
+jq                                 1.8.2-r0                 apk           
 jsonschema                         4.26.0                   python        
 jsonschema-specifications          2025.9.1                 python        
 lab                                0.11.0                   rust-crate    
@@ -283,7 +283,7 @@ p11-kit                            0.26.2-r0                apk
 pango                              1.57.1-r0                apk           
 paste                              1.0.15                   rust-crate    
 pastey                             0.1.0                    rust-crate    
-pcre2                              10.47-r1                 apk           
+pcre2                              10.48-r0                 apk           
 pixman                             0.46.4-r0                apk           
 pkgconf                            2.5.1-r0                 apk           
 ppv-lite86                         0.2.21                   rust-crate    

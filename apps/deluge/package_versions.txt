@@ -110,7 +110,7 @@ jansson                          2.15.0-r0                apk
 jaraco-context                   6.1.0                    python        
 jaraco-functools                 4.4.0                    python        
 jaraco-text                      4.0.0                    python        
-jq                               1.8.1-r0                 apk           
+jq                               1.8.2-r0                 apk           
 json-glib                        1.10.8-r0                apk           
 json-glib-lang                   1.10.8-r0                apk           
 kcolorscheme                     6.26.0-r0                apk           
@@ -270,7 +270,7 @@ p11-kit                          0.26.2-r0                apk
 packaging                        26.0                     python        
 packaging                        26.2                     python        
 pango                            1.57.1-r0                apk           
-pcre2                            10.47-r1                 apk           
+pcre2                            10.48-r0                 apk           
 pillow                           12.2.0                   python        
 pipewire-libs                    1.6.8-r4                 apk           
 pixman                           0.46.4-r0                apk           

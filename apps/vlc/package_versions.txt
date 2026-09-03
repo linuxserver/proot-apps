@@ -203,7 +203,7 @@ itertools                                 0.14.0                   rust-crate
 ivf                                       0.1.4                    rust-crate    
 jack                                      1.9.22-r4                apk           
 jansson                                   2.15.0-r0                apk           
-jq                                        1.8.1-r0                 apk           
+jq                                        1.8.2-r0                 apk           
 lab                                       0.11.0                   rust-crate    
 lame-libs                                 3.100-r5                 apk           
 lang                                      0.1-r2                   apk           
@@ -440,7 +440,7 @@ p11-kit                                   0.26.2-r0                apk
 pango                                     1.57.1-r0                apk           
 paste                                     1.0.15                   rust-crate    
 pastey                                    0.1.0                    rust-crate    
-pcre2                                     10.47-r1                 apk           
+pcre2                                     10.48-r0                 apk           
 pillow                                    12.2.0                   python        
 pipewire-libs                             1.6.8-r4                 apk           
 pixman                                    0.46.4-r0                apk           

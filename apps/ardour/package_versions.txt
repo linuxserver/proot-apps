@@ -114,7 +114,7 @@ itertools                  0.14.0                   rust-crate
 ivf                        0.1.4                    rust-crate                  
 jack                       1.9.22-r4                apk                         
 jansson                    2.14.1-r0                apk                         
-jq                         1.8.1-r0                 apk                         
+jq                         1.8.2-r0                 apk                         
 json-c                     0.18-r1                  apk                         
 lab                        0.11.0                   rust-crate                  
 lame                       3.100-r5                 apk                         
@@ -140,7 +140,7 @@ libdovi                    3.3.2-r0                 apk
 libdrm                     2.4.131-r0               apk                         
 libeconf                   0.8.3-r0                 apk                         
 libelf                     0.194-r0                 apk                         
-libexpat                   2.8.3-r0                 apk                         
+libexpat                   2.8.4-r0                 apk                         
 libffi                     3.5.2-r0                 apk                         
 libflac                    1.4.3-r2                 apk                         
 libgcc                     15.2.0-r2                apk                         
@@ -268,7 +268,7 @@ pango                      1.56.4-r0                apk
 pangomm2.46                2.46.4-r1                apk                         
 paste                      1.0.15                   rust-crate                  
 pastey                     0.1.0                    rust-crate                  
-pcre2                      10.47-r0                 apk                         
+pcre2                      10.48-r0                 apk                         
 pixman                     0.46.4-r0                apk                         
 ppv-lite86                 0.2.21                   rust-crate                  
 proc-macro2                1.0.95                   rust-crate                  
