@@ -56,9 +56,9 @@ github.com/OpenPrinting/ipp-usb  UNKNOWN                            go-module
 glib-networking                  2.80.0-1build1                     deb                        
 glib-networking-common           2.80.0-1build1                     deb                        
 glib-networking-services         2.80.0-1build1                     deb                        
-gpg                              2.4.4-2ubuntu17.4                  deb                        
-gpgconf                          2.4.4-2ubuntu17.4                  deb                        
-gpgv                             2.4.4-2ubuntu17.4                  deb                        
+gpg                              2.4.4-2ubuntu17.6                  deb                        
+gpgconf                          2.4.4-2ubuntu17.6                  deb                        
+gpgv                             2.4.4-2ubuntu17.6                  deb                        
 grep                             3.11-4build1                       deb                        
 gsettings-desktop-schemas        46.1-0ubuntu1                      deb                        
 gstreamer1.0-gl                  1.24.2-1ubuntu0.4                  deb                        

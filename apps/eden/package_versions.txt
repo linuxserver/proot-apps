@@ -302,7 +302,7 @@ libqt6widgets6                  6.10.2+dfsg-7                          deb
 libqt6wlshellintegration6       6.10.2+dfsg-7                          deb          
 libquadmath0                    16-20260322-1ubuntu1                   deb          
 libquazip1-qt6-1t64             1.5-1                                  deb          
-librabbitmq4                    0.15.0-1ubuntu0.26.04.1                deb          
+librabbitmq4                    0.15.0-1ubuntu0.26.04.2                deb          
 librav1e0.8                     0.8.1-7                                deb          
 librist4                        0.2.11+dfsg-1build1                    deb          
 librsvg2-2                      2.61.3+dfsg-3                          deb          

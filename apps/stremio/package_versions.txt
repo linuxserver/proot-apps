@@ -271,7 +271,7 @@ libqt5webengine5                    5.15.9+dfsg-1                            deb
 libqt5webenginecore5                5.15.9+dfsg-1                            deb     
 libqt5widgets5                      5.15.3+dfsg-2ubuntu0.2                   deb     
 libquadmath0                        12.3.0-1ubuntu1~22.04.3                  deb     
-librabbitmq4                        0.10.0-1ubuntu2.1                        deb     
+librabbitmq4                        0.10.0-1ubuntu2.2                        deb     
 libraw1394-11                       2.1.2-2build2                            deb     
 libre2-9                            20220201+dfsg-1                          deb     
 libreadline8                        8.1.2-1                                  deb     

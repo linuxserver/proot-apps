@@ -255,7 +255,7 @@ libqt6waylandeglcompositorhwintegration6  6.4.2-5build3                      deb
 libqt6widgets6t64                         6.4.2+dfsg-21.1build5              deb     
 libqt6wlshellintegration6                 6.4.2-5build3                      deb     
 libquadmath0                              14.2.0-4ubuntu2~24.04.1            deb     
-librabbitmq4                              0.11.0-1ubuntu0.1                  deb     
+librabbitmq4                              0.11.0-1ubuntu0.2                  deb     
 librav1e0                                 0.7.1-2                            deb     
 librist4                                  0.2.10+dfsg-2                      deb     
 librsvg2-2                                2.58.0+dfsg-1build1                deb     

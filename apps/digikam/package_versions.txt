@@ -54,7 +54,7 @@ crossbeam-epoch            0.9.18                   rust-crate
 crossbeam-queue            0.3.12                   rust-crate                  
 crossbeam-utils            0.8.21                   rust-crate                  
 cups-libs                  2.4.19-r0                apk                         
-curl                       8.21.0-r0                apk                         
+curl                       8.22.0-r0                apk                         
 dbus                       1.16.2-r2                apk                         
 dbus-daemon-launch-helper  1.16.2-r2                apk                         
 dbus-libs                  1.16.2-r2                apk                         
@@ -216,7 +216,7 @@ libcanberra-gstreamer      0.30-r12                 apk
 libcanberra-pulse          0.30-r12                 apk                         
 libcap2                    2.78-r0                  apk                         
 libcrypto3                 3.5.7-r0                 apk                         
-libcurl                    8.21.0-r0                apk                         
+libcurl                    8.22.0-r0                apk                         
 libdav1d                   1.5.3-r0                 apk                         
 libde265                   1.0.18-r0                apk                         
 libdeflate                 1.25-r0                  apk                         

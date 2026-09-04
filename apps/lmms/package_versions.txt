@@ -29,7 +29,7 @@ carla-plugins-lv2                2.5.10-r0                apk
 carla-plugins-vst2               2.5.10-r0                apk       
 cdparanoia-libs                  10.2-r14                 apk       
 cups-libs                        2.4.19-r0                apk       
-curl                             8.21.0-r0                apk       
+curl                             8.22.0-r0                apk       
 dbus                             1.16.2-r2                apk       
 dbus-daemon-launch-helper        1.16.2-r2                apk       
 dbus-libs                        1.16.2-r2                apk       
@@ -91,7 +91,7 @@ libcamera                        0.7.1-r1                 apk
 libcamera-ipa                    0.7.1-r1                 apk       
 libcap2                          2.78-r0                  apk       
 libcrypto3                       3.5.7-r0                 apk       
-libcurl                          8.21.0-r0                apk       
+libcurl                          8.22.0-r0                apk       
 libdav1d                         1.5.3-r0                 apk       
 libdisplay-info                  0.3.0-r0                 apk       
 libdrm                           2.4.134-r0               apk       
