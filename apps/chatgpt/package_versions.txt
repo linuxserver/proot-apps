@@ -64,7 +64,7 @@ buffer                                6.0.3                                 npm
 ca-certificates                       20250419                              deb                    
 cacache                               20.0.4                                npm                    
 chalk                                 5.6.2                                 npm                    
-chatgpt                               26.901.20858                          deb                    
+chatgpt                               26.901.41600                          deb                    
 chownr                                3.0.0                                 npm                    
 ci-info                               4.4.0                                 npm                    
 cidr-regex                            5.0.5                                 npm                    

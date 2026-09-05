@@ -282,7 +282,7 @@ libspeex1                       1.2.1-3build1                          deb
 libspeexdsp1                    1.2.1-3build1                          deb          
 libsqlite3-0                    3.46.1-9ubuntu0.2                      deb          
 libss2                          1.47.2-3ubuntu4                        deb          
-libssh2-1t64                    1.11.1-1ubuntu0.26.04.3                deb          
+libssh2-1t64                    1.11.1-1ubuntu0.26.04.4                deb          
 libssl3t64                      3.5.5-1ubuntu3.5                       deb          
 libstdc++6                      16-20260322-1ubuntu1                   deb          
 libsvtav1enc2                   2.3.0+dfsg-1build1                     deb          
@@ -372,7 +372,7 @@ libzip5                         1.11.4-2                               deb
 libzstd1                        1.5.7+dfsg-3                           deb          
 libzvbi-common                  0.2.44-1ubuntu2                        deb          
 libzvbi0t64                     0.2.44-1ubuntu2                        deb          
-linux-libc-dev                  7.0.0-30.30                            deb          
+linux-libc-dev                  7.0.0-31.31                            deb          
 locales-all                     2.43-2ubuntu2.3                        deb          
 login                           1:4.16.0-2+really2.41.3-3ubuntu2       deb          
 login.defs                      1:4.17.4-2ubuntu3                      deb          
