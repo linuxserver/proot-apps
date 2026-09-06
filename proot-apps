@@ -545,7 +545,7 @@ if [ "${TYPE}" == "run" ]; then
   # NVIDIA acceleration
   nvidia_binds "$ROOT_DIR/${IMAGE_FOLDER}"
   $HOME/.local/bin/proot \
-    ${PULSE_BIND} ${FONTS_BIND} ${REPO_BIND} "${NVIDIA_BIND[@]}" -n \
+    ${PULSE_BIND} ${FONTS_BIND} ${REPO_BIND} "${NVIDIA_BIND[@]}" \
     -R $ROOT_DIR/${IMAGE_FOLDER}/ \
     /entrypoint "${@:3}" &
   start_system_socket "$ROOT_DIR/${IMAGE_FOLDER}/" $!
