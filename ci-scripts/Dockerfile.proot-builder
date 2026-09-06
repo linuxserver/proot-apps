@@ -9,7 +9,8 @@ RUN \
     gcc \
     jq \
     libarchive-dev \
-    libtalloc-dev && \
+    libtalloc-dev \
+    make && \
   echo "**** ingest proot src ****" && \
   mkdir /build && \
   curl -L \
