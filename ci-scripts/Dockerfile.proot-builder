@@ -1,10 +1,10 @@
-# Xenial is used here for broad compatibility
-FROM ubuntu:xenial
+# Focal is used here for broad compatibility
+FROM ubuntu:focal
 
 RUN \
   echo "**** install build deps ****" && \
   apt-get update && \
-  apt-get install -y \
+  DEBIAN_FRONTEND=noninteractive apt-get install -y \
     curl \
     gcc \
     jq \
@@ -17,7 +17,6 @@ RUN \
     | tar -xzf - -C "/build" --strip-components=1 && \
   echo "**** build logic ****" && \
   echo "#!/bin/bash" > /entrypoint && \
-  echo "make -C src loader.elf loader-m32.elf build.h" >> /entrypoint && \
   echo "LDFLAGS=\"\${LDFLAGS} -static\" make -C src proot GIT=false" >> /entrypoint && \
   echo "strip src/proot" >> /entrypoint && \
   echo "mv src/proot /mnt/" >> /entrypoint && \
