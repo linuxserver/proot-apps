@@ -12,10 +12,8 @@ RUN \
     libtalloc-dev && \
   echo "**** ingest proot src ****" && \
   mkdir /build && \
-  PROOT_RELEASE=$(curl -sX GET "https://api.github.com/repos/proot-me/proot/releases/latest" \
-    | jq -r '.tag_name') && \
   curl -L \
-    "https://github.com/proot-me/proot/archive/${PROOT_RELEASE}.tar.gz" \
+    "https://github.com/linuxserver/proot/archive/master.tar.gz" \
     | tar -xzf - -C "/build" --strip-components=1 && \
   echo "**** build logic ****" && \
   echo "#!/bin/bash" > /entrypoint && \
