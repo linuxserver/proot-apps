@@ -309,7 +309,7 @@ libjack-jackd2-0                1.9.22~dfsg-4                         deb
 libjansson4                     2.14-2+b3                             deb       
 libjbig-dev                     2.1-6.1+b2                            deb       
 libjbig0                        2.1-6.1+b2                            deb       
-libjbig2dec0                    0.20-1+b3                             deb       
+libjbig2dec0                    0.20-1+deb13u1                        deb       
 libjpeg-dev                     1:2.1.5-4                             deb       
 libjpeg62-turbo                 1:2.1.5-4                             deb       
 libjpeg62-turbo-dev             1:2.1.5-4                             deb       
