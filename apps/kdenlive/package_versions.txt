@@ -284,7 +284,7 @@ libopencv_imgproc           4.12.0-r7                apk
 libopencv_objdetect         4.12.0-r7                apk                         
 libopencv_tracking          4.12.0-r7                apk                         
 libopencv_video             4.12.0-r7                apk                         
-libopenmpt                  0.8.7-r0                 apk                         
+libopenmpt                  0.8.9-r0                 apk                         
 libpanelw                   6.6_p20260516-r0         apk                         
 libpciaccess                0.19-r0                  apk                         
 libpcre2-16                 10.48-r0                 apk                         
