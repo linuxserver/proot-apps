@@ -18,7 +18,7 @@ cpp                             4:15.2.0-5ubuntu1                      deb
 cpp-15                          15.2.0-16ubuntu1                       deb          
 cpp-15-x86-64-linux-gnu         15.2.0-16ubuntu1                       deb          
 cpp-x86-64-linux-gnu            4:15.2.0-5ubuntu1                      deb          
-curl                            8.18.0-1ubuntu2.4                      deb          
+curl                            8.18.0-1ubuntu2.5                      deb          
 dash                            0.5.12-12ubuntu3                       deb          
 dbus-bin                        1.16.2-2ubuntu4                        deb          
 dbus-daemon                     1.16.2-2ubuntu4                        deb          
@@ -111,11 +111,11 @@ libblkid1                       2.41.3-3ubuntu2                        deb
 libbrotli1                      1.2.0-3build1                          deb          
 libbsd0                         0.12.2-2build2                         deb          
 libbz2-1.0                      1.0.8-6build2                          deb          
-libc-bin                        2.43-2ubuntu2.3                        deb          
-libc-dev-bin                    2.43-2ubuntu2.3                        deb          
-libc-gconv-modules-extra        2.43-2ubuntu2.3                        deb          
-libc6                           2.43-2ubuntu2.3                        deb          
-libc6-dev                       2.43-2ubuntu2.3                        deb          
+libc-bin                        2.43-2ubuntu2.4                        deb          
+libc-dev-bin                    2.43-2ubuntu2.4                        deb          
+libc-gconv-modules-extra        2.43-2ubuntu2.4                        deb          
+libc6                           2.43-2ubuntu2.4                        deb          
+libc6-dev                       2.43-2ubuntu2.4                        deb          
 libcaca0                        0.99.beta20-6ubuntu2.1                 deb          
 libcairo-gobject2               1.18.4-3                               deb          
 libcairo2                       1.18.4-3                               deb          
@@ -131,8 +131,8 @@ libcrypt1                       1:4.5.1-1                              deb
 libctf-nobfd0                   2.46-3ubuntu2                          deb          
 libctf0                         2.46-3ubuntu2                          deb          
 libcups2t64                     2.4.16-1ubuntu1.3                      deb          
-libcurl3t64-gnutls              8.18.0-1ubuntu2.4                      deb          
-libcurl4t64                     8.18.0-1ubuntu2.4                      deb          
+libcurl3t64-gnutls              8.18.0-1ubuntu2.5                      deb          
+libcurl4t64                     8.18.0-1ubuntu2.5                      deb          
 libdatrie1                      0.2.14-1                               deb          
 libdav1d7                       1.5.3-1                                deb          
 libdb5.3t64                     5.3.28+dfsg2-10ubuntu1                 deb          
@@ -262,7 +262,7 @@ libpangoft2-1.0-0               1.57.0-1                               deb
 libpci3                         1:3.14.0-1build2                       deb          
 libpciaccess0                   0.18.1-1ubuntu4.1                      deb          
 libpcre2-8-0                    10.46-1build1                          deb          
-libperl5.40                     5.40.1-7ubuntu0.2                      deb          
+libperl5.40                     5.40.1-7ubuntu0.3                      deb          
 libpixman-1-0                   0.46.4-1                               deb          
 libpng16-16t64                  1.6.57-1                               deb          
 libproc2-0                      2:4.0.4-9ubuntu1                       deb          
@@ -400,7 +400,7 @@ libzstd1                        1.5.7+dfsg-3                           deb
 libzvbi-common                  0.2.44-1ubuntu2                        deb          
 libzvbi0t64                     0.2.44-1ubuntu2                        deb          
 linux-libc-dev                  7.0.0-31.31                            deb          
-locales-all                     2.43-2ubuntu2.3                        deb          
+locales-all                     2.43-2ubuntu2.4                        deb          
 login                           1:4.16.0-2+really2.41.3-3ubuntu2       deb          
 login.defs                      1:4.17.4-2ubuntu3                      deb          
 logsave                         1.47.2-3ubuntu4                        deb          
@@ -418,9 +418,9 @@ openssl-provider-legacy         3.5.5-1ubuntu3.5                       deb
 passwd                          1:4.17.4-2ubuntu3                      deb          
 pci.ids                         0.0~2026.02.12-1                       deb          
 pciutils                        1:3.14.0-1build2                       deb          
-perl                            5.40.1-7ubuntu0.2                      deb          
-perl-base                       5.40.1-7ubuntu0.2                      deb          
-perl-modules-5.40               5.40.1-7ubuntu0.2                      deb          
+perl                            5.40.1-7ubuntu0.3                      deb          
+perl-base                       5.40.1-7ubuntu0.3                      deb          
+perl-modules-5.40               5.40.1-7ubuntu0.3                      deb          
 procps                          2:4.0.4-9ubuntu1                       deb          
 pulseaudio                      1:17.0+dfsg1-2ubuntu4                  deb          
 pulseaudio-utils                1:17.0+dfsg1-2ubuntu4                  deb          
@@ -435,7 +435,7 @@ sysvinit-utils                  3.15-5ubuntu1                          deb
 tar                             1.35+dfsg-4ubuntu0.4                   deb          
 ubuntu-keyring                  2023.11.28.1build1                     deb          
 udev                            259.5-0ubuntu3.4                       deb          
-unsloth                         0.1.807-beta                           deb          
+unsloth                         0.1.808-beta                           deb          
 user-session-migration          0.5.1                                  deb          
 util-linux                      2.41.3-3ubuntu2                        deb          
 x11-common                      1:7.7+26ubuntu1                        deb          

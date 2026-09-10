@@ -16,7 +16,7 @@ cpp                             4:15.2.0-5ubuntu1                      deb
 cpp-15                          15.2.0-16ubuntu1                       deb          
 cpp-15-x86-64-linux-gnu         15.2.0-16ubuntu1                       deb          
 cpp-x86-64-linux-gnu            4:15.2.0-5ubuntu1                      deb          
-curl                            8.18.0-1ubuntu2.4                      deb          
+curl                            8.18.0-1ubuntu2.5                      deb          
 dash                            0.5.12-12ubuntu3                       deb          
 dbus-bin                        1.16.2-2ubuntu4                        deb          
 dbus-daemon                     1.16.2-2ubuntu4                        deb          
@@ -103,11 +103,11 @@ libbrotli1                      1.2.0-3build1                          deb
 libbs2b0                        3.1.0+dfsg-8build1                     deb          
 libbsd0                         0.12.2-2build2                         deb          
 libbz2-1.0                      1.0.8-6build2                          deb          
-libc-bin                        2.43-2ubuntu2.3                        deb          
-libc-dev-bin                    2.43-2ubuntu2.3                        deb          
-libc-gconv-modules-extra        2.43-2ubuntu2.3                        deb          
-libc6                           2.43-2ubuntu2.3                        deb          
-libc6-dev                       2.43-2ubuntu2.3                        deb          
+libc-bin                        2.43-2ubuntu2.4                        deb          
+libc-dev-bin                    2.43-2ubuntu2.4                        deb          
+libc-gconv-modules-extra        2.43-2ubuntu2.4                        deb          
+libc6                           2.43-2ubuntu2.4                        deb          
+libc6-dev                       2.43-2ubuntu2.4                        deb          
 libcairo-gobject2               1.18.4-3                               deb          
 libcairo2                       1.18.4-3                               deb          
 libcap-ng0                      0.8.5-4build5                          deb          
@@ -123,8 +123,8 @@ libctf-nobfd0                   2.46-3ubuntu2                          deb
 libctf0                         2.46-3ubuntu2                          deb          
 libcubeb0                       0.0~git20250401.975a727+ds-1           deb          
 libcups2t64                     2.4.16-1ubuntu1.3                      deb          
-libcurl3t64-gnutls              8.18.0-1ubuntu2.4                      deb          
-libcurl4t64                     8.18.0-1ubuntu2.4                      deb          
+libcurl3t64-gnutls              8.18.0-1ubuntu2.5                      deb          
+libcurl4t64                     8.18.0-1ubuntu2.5                      deb          
 libdatrie1                      0.2.14-1                               deb          
 libdav1d7                       1.5.3-1                                deb          
 libdb5.3t64                     5.3.28+dfsg2-10ubuntu1                 deb          
@@ -453,7 +453,7 @@ libzstd1                        1.5.7+dfsg-3                           deb
 libzvbi-common                  0.2.44-1ubuntu2                        deb          
 libzvbi0t64                     0.2.44-1ubuntu2                        deb          
 linux-libc-dev                  7.0.0-31.31                            deb          
-locales-all                     2.43-2ubuntu2.3                        deb          
+locales-all                     2.43-2ubuntu2.4                        deb          
 login                           1:4.16.0-2+really2.41.3-3ubuntu2       deb          
 login.defs                      1:4.17.4-2ubuntu3                      deb          
 logsave                         1.47.2-3ubuntu4                        deb          

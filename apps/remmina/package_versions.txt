@@ -46,7 +46,7 @@ fontconfig                 2.17.1-r1                apk
 freerdp-libs               3.31.0-r0                apk     
 freetype                   2.14.3-r0                apk     
 fribidi                    1.0.16-r3                apk     
-fuse3-libs                 3.18.2-r0                apk     
+fuse3-libs                 3.18.3-r0                apk     
 gcc                        15.2.0-r5                apk     
 gdbm                       1.26-r0                  apk     
 gdk-pixbuf                 2.44.7-r1                apk     
