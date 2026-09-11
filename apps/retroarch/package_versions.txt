@@ -1,13 +1,13 @@
 NAME                            VERSION                                TYPE        
 adduser                         3.153ubuntu1                           deb          
 apt                             3.2.0                                  deb          
-base-files                      14ubuntu6.1                            deb          
+base-files                      14ubuntu6.2                            deb          
 base-passwd                     3.6.8                                  deb          
 bash                            5.3-2ubuntu1                           deb          
 binutils                        2.46-3ubuntu2                          deb          
 binutils-common                 2.46-3ubuntu2                          deb          
 binutils-x86-64-linux-gnu       2.46-3ubuntu2                          deb          
-bsdutils                        1:2.41.3-3ubuntu2                      deb          
+bsdutils                        1:2.41.3-3ubuntu2.2                    deb          
 bubblewrap                      0.11.1-1ubuntu0.1                      deb          
 ca-certificates                 20260601~26.04.1                       deb          
 coreutils                       9.5-1ubuntu2+0.0.0~ubuntu25            deb          
@@ -27,7 +27,7 @@ dconf-service                   0.49.0-4                               deb
 debconf                         1.5.92                                 deb          
 debianutils                     5.23.2build1                           deb          
 desktop-file-utils              0.28-1build1                           deb          
-diffutils                       1:3.12-1                               deb          
+diffutils                       1:3.12-1ubuntu0.1                      deb          
 dpkg                            1.23.7ubuntu1                          deb          
 e2fsprogs                       1.47.2-3ubuntu4                        deb          
 findutils                       4.10.0-3build2                         deb          
@@ -59,7 +59,7 @@ glib-networking-common          2.80.1-1build2                         deb
 glib-networking-services        2.80.1-1build2                         deb          
 glycin-loaders                  2.1.1+ds-0ubuntu1                      deb          
 glycin-thumbnailers             2.1.1+ds-0ubuntu1                      deb          
-gnu-coreutils                   9.7-3ubuntu2                           deb          
+gnu-coreutils                   9.7-3ubuntu2.1                         deb          
 golang.org/x/sys                v0.46.0                                go-module    
 golang.org/x/term               v0.44.0                                go-module    
 gopkg.in/tomb.v2                v2.0.0-20161208151619-d5d1b5820637     go-module    
@@ -86,7 +86,7 @@ libasound2t64                   1.2.15.3-1ubuntu1.1                    deb
 libass9                         1:0.17.4-2                             deb          
 libasyncns0                     0.8-7                                  deb          
 libatomic1                      16-20260322-1ubuntu1                   deb          
-libattr1                        1:2.5.2-4                              deb          
+libattr1                        1:2.5.2-4ubuntu0.1                     deb          
 libaudit-common                 1:4.1.2-1build1                        deb          
 libaudit1                       1:4.1.2-1build1                        deb          
 libavc1394-0                    0.5.4-5build4                          deb          
@@ -97,12 +97,12 @@ libavformat62                   7:8.0.1-3ubuntu2                       deb
 libavutil60                     7:8.0.1-3ubuntu2                       deb          
 libb2-1                         0.98.1-1.1build2                       deb          
 libbinutils                     2.46-3ubuntu2                          deb          
-libblkid1                       2.41.3-3ubuntu2                        deb          
+libblkid1                       2.41.3-3ubuntu2.2                      deb          
 libbluray3                      1:1.4.1-1                              deb          
 libbrotli1                      1.2.0-3build1                          deb          
 libbs2b0                        3.1.0+dfsg-8build1                     deb          
 libbsd0                         0.12.2-2build2                         deb          
-libbz2-1.0                      1.0.8-6build2                          deb          
+libbz2-1.0                      1.0.8-6ubuntu0.1                       deb          
 libc-bin                        2.43-2ubuntu2.4                        deb          
 libc-dev-bin                    2.43-2ubuntu2.4                        deb          
 libc-gconv-modules-extra        2.43-2ubuntu2.4                        deb          
@@ -168,7 +168,7 @@ libfribidi0                     1.0.16-5                               deb
 libgbm1                         26.0.8-1ubuntu0.3                      deb          
 libgcc-15-dev                   15.2.0-16ubuntu1                       deb          
 libgcc-s1                       16-20260322-1ubuntu1                   deb          
-libgcrypt20                     1.12.0-2ubuntu1                        deb          
+libgcrypt20                     1.12.0-2ubuntu1.1                      deb          
 libgdk-pixbuf-2.0-0             2.44.5+dfsg-4ubuntu1                   deb          
 libgdk-pixbuf2.0-common         2.44.5+dfsg-4ubuntu1                   deb          
 libgl1                          1.7.0-3                                deb          
@@ -233,7 +233,7 @@ libmbedtls21                    3.6.5-0.1ubuntu2                       deb
 libmbedx509-7                   3.6.5-0.1ubuntu2                       deb          
 libmd0                          1.1.0-2build4                          deb          
 libmd4c0                        0.5.2-2build1                          deb          
-libmount1                       2.41.3-3ubuntu2                        deb          
+libmount1                       2.41.3-3ubuntu2.2                      deb          
 libmp3lame0                     3.101~svn6525+dfsg-2                   deb          
 libmpc3                         1.3.1-3                                deb          
 libmpfr6                        4.2.2-3                                deb          
@@ -255,10 +255,10 @@ libopenmpt0t64                  0.8.4-1                                deb
 libopus0                        1.6.1-1                                deb          
 liborc-0.4-0t64                 1:0.4.42-2                             deb          
 libp11-kit0                     0.26.2-2                               deb          
-libpam-modules                  1.7.0-5ubuntu3.1                       deb          
-libpam-modules-bin              1.7.0-5ubuntu3.1                       deb          
-libpam-runtime                  1.7.0-5ubuntu3.1                       deb          
-libpam0g                        1.7.0-5ubuntu3.1                       deb          
+libpam-modules                  1.7.0-5ubuntu3.2                       deb          
+libpam-modules-bin              1.7.0-5ubuntu3.2                       deb          
+libpam-runtime                  1.7.0-5ubuntu3.2                       deb          
+libpam0g                        1.7.0-5ubuntu3.2                       deb          
 libpango-1.0-0                  1.57.0-1                               deb          
 libpangocairo-1.0-0             1.57.0-1                               deb          
 libpangoft2-1.0-0               1.57.0-1                               deb          
@@ -311,7 +311,7 @@ libsharpyuv0                    1.5.0-0.1build1                        deb
 libshine3                       3.1.1-3build1                          deb          
 libsixel1                       1.10.5-1build1                         deb          
 libsm6                          2:1.2.6-1build1                        deb          
-libsmartcols1                   2.41.3-3ubuntu2                        deb          
+libsmartcols1                   2.41.3-3ubuntu2.2                      deb          
 libsnapd-glib-2-1               1.72-0ubuntu3                          deb          
 libsnappy1v5                    1.2.2-2                                deb          
 libsndfile1                     1.2.2-4                                deb          
@@ -353,7 +353,7 @@ libunibreak6                    6.1-3build1                            deb
 libunistring5                   1.3-2build1                            deb          
 libunwind8                      1.8.3-0ubuntu1                         deb          
 libusb-1.0-0                    2:1.0.29-2build1                       deb          
-libuuid1                        2.41.3-3ubuntu2                        deb          
+libuuid1                        2.41.3-3ubuntu2.2                      deb          
 libv4l-0t64                     1.32.0-2ubuntu1                        deb          
 libv4lconvert0t64               1.32.0-2ubuntu1                        deb          
 libva-drm2                      2.23.0-1ubuntu1                        deb          
@@ -436,7 +436,7 @@ libzvbi-common                  0.2.44-1ubuntu2                        deb
 libzvbi0t64                     0.2.44-1ubuntu2                        deb          
 linux-libc-dev                  7.0.0-31.31                            deb          
 locales-all                     2.43-2ubuntu2.4                        deb          
-login                           1:4.16.0-2+really2.41.3-3ubuntu2       deb          
+login                           1:4.16.0-2+really2.41.3-3ubuntu2.2     deb          
 login.defs                      1:4.17.4-2ubuntu3                      deb          
 logsave                         1.47.2-3ubuntu4                        deb          
 make                            4.4.1-3                                deb          
@@ -444,7 +444,7 @@ mawk                            1.3.4.20260129-1                       deb
 media-types                     14.0.0build1                           deb          
 mesa-libgallium                 26.0.8-1ubuntu0.3                      deb          
 mesa-vulkan-drivers             26.0.8-1ubuntu0.3                      deb          
-mount                           2.41.3-3ubuntu2                        deb          
+mount                           2.41.3-3ubuntu2.2                      deb          
 ncurses-base                    6.6+20251231-1                         deb          
 ncurses-bin                     6.6+20251231-1                         deb          
 netbase                         6.5build1                              deb          
@@ -477,7 +477,7 @@ tzdata                          2026c-0ubuntu0.26.04.1                 deb
 ubuntu-keyring                  2023.11.28.1build1                     deb          
 udev                            259.5-0ubuntu3.4                       deb          
 user-session-migration          0.5.1                                  deb          
-util-linux                      2.41.3-3ubuntu2                        deb          
+util-linux                      2.41.3-3ubuntu2.2                      deb          
 x11-common                      1:7.7+26ubuntu1                        deb          
 x11-xkb-utils                   7.7+9build1                            deb          
 xdg-utils                       1.2.1-2ubuntu2                         deb          
@@ -488,4 +488,4 @@ xserver-xorg-video-amdgpu       25.0.0-1                               deb
 xserver-xorg-video-ati          1:22.0.0-1build2                       deb          
 xserver-xorg-video-intel        2:2.99.917+git20210115-1build2         deb          
 xserver-xorg-video-radeon       1:22.0.0-1build2                       deb          
-zlib1g                          1:1.3.dfsg+really1.3.1-1ubuntu3        deb          
+zlib1g                          1:1.3.dfsg+really1.3.1-1ubuntu3.1      deb          

@@ -360,7 +360,7 @@ xkeyboard-config                2.47-r0                  apk
 xkeyboard-config-lang           2.47-r0                  apk           
 xprop                           1.2.8-r0                 apk           
 xset                            1.2.5-r1                 apk           
-xz-libs                         5.8.3-r0                 apk           
+xz-libs                         5.8.4-r0                 apk           
 yt-dlp                          2026.8.19                python        
 yt-dlp-core                     2026.08.19-r0            apk           
 yt-dlp-core-pyc                 2026.08.19-r0            apk           

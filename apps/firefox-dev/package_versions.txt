@@ -240,7 +240,7 @@ nom                        7.1.3                    rust-crate
 nom                        8.0.0                    rust-crate    
 noop_proc_macro            0.3.0                    rust-crate    
 nspr                       4.38.2-r0                apk           
-nss                        3.127-r0                 apk           
+nss                        3.128-r0                 apk           
 num-bigint                 0.4.6                    rust-crate    
 num-derive                 0.4.2                    rust-crate    
 num-integer                0.1.46                   rust-crate    
@@ -281,7 +281,7 @@ readline                   8.3.3-r1                 apk
 rustix                     1.0.7                    rust-crate    
 scan_fmt                   0.2.6                    rust-crate    
 scanelf                    1.3.9-r1                 apk           
-scudo-malloc               22.1.8-r0                apk           
+scudo-malloc               23.1.1-r1                apk           
 shared-mime-info           2.4-r7                   apk           
 shared-mime-info-lang      2.4-r7                   apk           
 signal-hook                0.3.18                   rust-crate    
@@ -307,7 +307,7 @@ v_frame                    0.3.9                    rust-crate
 wayland-libs-client        1.26.0-r0                apk           
 wayland-libs-cursor        1.26.0-r0                apk           
 wayland-libs-egl           1.26.0-r0                apk           
-webrtc-audio-processing-1  1.3-r4                   apk           
+webrtc-audio-processing-1  1.3-r5                   apk           
 x264-libs                  0.164.3108-r1            apk           
 x265-libs                  4.1-r0                   apk           
 xcb-util                   0.4.1-r3                 apk           
@@ -320,7 +320,7 @@ xkeyboard-config-lang      2.48-r0                  apk
 xprop                      1.2.8-r0                 apk           
 xset                       1.2.5-r1                 apk           
 xvidcore                   1.3.7-r2                 apk           
-xz-libs                    5.8.3-r0                 apk           
+xz-libs                    5.8.4-r0                 apk           
 y4m                        0.8.0                    rust-crate    
 zerocopy                   0.8.25                   rust-crate    
 zlib                       1.3.2-r0                 apk           
