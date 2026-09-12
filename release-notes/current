@@ -1,11 +1,9 @@
 What's new in this Version:
 
-* Initial NVIDIA GPU support for accelerated applications
-* Rebase Blender, Chromium, Dolphin, Firefox, GIMP, Krita, melonDS, RetroArch, and Telegram to glibc based distros for acceleration
-* Add Resolute base image
-* Rebase Bookworm images to Trixie and stop building unused bases
-* New apps: AWS WorkSpaces Client, Brave Origin, Helium browser, OpenCloud desktop client, OrcaSlicer, WeChat
-* Add Selkies gamepad interposers to base images
-* Add base locales to images
-* Add icon theme and swap app icons to SVG
-* Fixes for Brave launch, OnlyOffice install, Telegram icon, Obsidian desktop file, and WineGUI in Docker
+* Add Selkies webcam interposer to all base images for camera passthrough
+* Build the proot binary from the linuxserver fork based on the Termux patches, raise the builder to Focal with a kernel 3.2 minimum
+* Publish a prerelease build on every real commit to master for downstream ingestion
+* Drop the net coop flag when running apps
+* New apps: Azahar, Cemu, ChatGPT, Claude Desktop, DOSBox Staging, DuckStation, Eden, Google Antigravity, LM Studio, MAME, OpenCode, PCSX2, RPCS3, ScummVM, xemu, Xenia Edge
+* Rebase PPSSPP to Resolute
+* Fix Firefox failing to launch by using sh and bypassing the Mozilla debug wrapper
