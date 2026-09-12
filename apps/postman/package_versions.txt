@@ -12,7 +12,7 @@ NAME                                 VERSION                               TYPE
 @postman/performance-test            0.0.80-beta.1                         npm                     
 @postman/protobufjs                  7.5.4-postman.2                       npm                     
 @swc/helpers                         0.5.23                                npm                     
-Postman                              12.27.5                               npm                     
+Postman                              12.27.7                               npm                     
 adduser                              3.152                                 deb                     
 adwaita-icon-theme                   48.1-1                                deb                     
 ansi-viewer                          0.0.1                                 npm                     
