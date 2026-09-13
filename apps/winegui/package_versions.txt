@@ -525,7 +525,7 @@ wget                             1.21.4-1ubuntu4.5                  deb
 wine-stable                      11.0.0.0~noble-1                   deb                        
 wine-stable-amd64                11.0.0.0~noble-1                   deb                        
 wine-stable-i386                 11.0.0.0~noble-1                   deb                        
-winegui                          4.3.2                              deb                        
+winegui                          4.3.4-1~ubuntu24.04.1              deb                        
 winehq-stable                    11.0.0.0~noble-1                   deb                        
 winetricks                       20240105-2                         deb                        
 x11-common                       1:7.7+23ubuntu3                    deb                        
