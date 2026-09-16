@@ -396,7 +396,7 @@ tomli                            2.4.0                    python
 tslib                            1.24-r0                  apk           
 twisted                          25.5.0                   python        
 typing-extensions                4.15.0                   python        
-tzdata                           2026c-r0                 apk           
+tzdata                           2026d-r0                 apk           
 wayland-libs-client              1.25.0-r0                apk           
 wayland-libs-cursor              1.25.0-r0                apk           
 wayland-libs-egl                 1.25.0-r0                apk           

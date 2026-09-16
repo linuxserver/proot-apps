@@ -97,7 +97,7 @@ libavcodec62                    7:8.0.1-3ubuntu2                       deb
 libavutil60                     7:8.0.1-3ubuntu2                       deb          
 libbinutils                     2.46-3ubuntu2                          deb          
 libblkid1                       2.41.3-3ubuntu2.2                      deb          
-libbluetooth3                   5.85-4ubuntu0.1                        deb          
+libbluetooth3                   5.85-4ubuntu0.2                        deb          
 libboost-filesystem1.90.0       1.90.0-6ubuntu1                        deb          
 libboost-nowide1.90.0           1.90.0-6ubuntu1                        deb          
 libboost-program-options1.90.0  1.90.0-6ubuntu1                        deb          

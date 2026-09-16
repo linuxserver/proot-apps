@@ -433,7 +433,7 @@ tiff                                      4.7.1-r0                 apk
 tinycss2                                  1.5.1                    python        
 tk                                        8.6.17-r1                apk           
 tslib                                     1.24-r0                  apk           
-tzdata                                    2026c-r0                 apk           
+tzdata                                    2026d-r0                 apk           
 unixodbc                                  2.3.14-r1                apk           
 utmps-libs                                0.1.3.3-r0               apk           
 vo-aacenc                                 0.1.3-r3                 apk           

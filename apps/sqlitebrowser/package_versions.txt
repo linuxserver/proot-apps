@@ -214,7 +214,7 @@ sqlitebrowser              3.13.1-r1                apk
 ssl_client                 1.37.0-r31               apk     
 tdb-libs                   1.4.15-r1                apk     
 tslib                      1.24-r0                  apk     
-tzdata                     2026c-r0                 apk     
+tzdata                     2026d-r0                 apk     
 wayland-libs-client        1.25.0-r0                apk     
 wayland-libs-cursor        1.25.0-r0                apk     
 wayland-libs-egl           1.25.0-r0                apk     

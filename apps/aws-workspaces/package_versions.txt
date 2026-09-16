@@ -293,8 +293,8 @@ libpipewire-0.3-common          0.3.48-1ubuntu3.2                        deb
 libpipewire-0.3-modules         0.3.48-1ubuntu3.2                        deb       
 libpixman-1-0                   0.40.0-1ubuntu0.22.04.1                  deb       
 libpng16-16                     1.6.37-3ubuntu0.6                        deb       
-libpolkit-agent-1-0             0.105-33ubuntu0.1                        deb       
-libpolkit-gobject-1-0           0.105-33ubuntu0.1                        deb       
+libpolkit-agent-1-0             0.105-33ubuntu0.2                        deb       
+libpolkit-gobject-1-0           0.105-33ubuntu0.2                        deb       
 libpopt0                        1.18-3build1                             deb       
 libprocps8                      2:3.3.17-6ubuntu2.1                      deb       
 libproxy1v5                     0.4.17-2                                 deb       
@@ -467,9 +467,9 @@ pinentry-curses                 1.1.1-1build2                            deb
 pipewire                        0.3.48-1ubuntu3.2                        deb       
 pipewire-bin                    0.3.48-1ubuntu3.2                        deb       
 pipewire-media-session          0.4.1-2ubuntu1                           deb       
-pkexec                          0.105-33ubuntu0.1                        deb       
-policykit-1                     0.105-33ubuntu0.1                        deb       
-polkitd                         0.105-33ubuntu0.1                        deb       
+pkexec                          0.105-33ubuntu0.2                        deb       
+policykit-1                     0.105-33ubuntu0.2                        deb       
+polkitd                         0.105-33ubuntu0.2                        deb       
 procps                          2:3.3.17-6ubuntu2.1                      deb       
 pulseaudio                      1:15.99.1+dfsg1-1ubuntu2.2               deb       
 pulseaudio-utils                1:15.99.1+dfsg1-1ubuntu2.2               deb       

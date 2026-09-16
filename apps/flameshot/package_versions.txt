@@ -191,7 +191,7 @@ sqlite-libs                3.53.4-r0                apk
 ssl_client                 1.38.0-r4                apk     
 tdb-libs                   1.4.15-r1                apk     
 tslib                      1.24-r0                  apk     
-tzdata                     2026c-r0                 apk     
+tzdata                     2026d-r0                 apk     
 wayland-libs-client        1.26.0-r0                apk     
 wayland-libs-cursor        1.26.0-r0                apk     
 wayland-libs-egl           1.26.0-r0                apk     

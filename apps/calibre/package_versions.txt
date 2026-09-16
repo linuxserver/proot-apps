@@ -507,7 +507,7 @@ tiff                       4.7.2-r0                 apk
 tslib                      1.24-r0                  apk                         
 typing-extensions          4.16.0                   python                      
 tzdata                     2026.3                   python                      
-tzdata                     2026c-r0                 apk                         
+tzdata                     2026d-r0                 apk                         
 tzlocal                    5.3.1                    python                      
 uchardet-libs              0.0.8-r2                 apk                         
 udisks2                    2.11.0-r2                apk                         

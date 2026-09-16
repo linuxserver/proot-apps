@@ -312,8 +312,8 @@ libpcre2-8-0                     10.42-4ubuntu2.1                   deb        (
 libperl5.38t64                   5.38.2-3.2ubuntu0.4                deb        (+1 duplicate)  
 libpixman-1-0                    0.42.2-1build1                     deb        (+1 duplicate)  
 libpng16-16t64                   1.6.43-5ubuntu0.6                  deb        (+1 duplicate)  
-libpolkit-agent-1-0              124-2ubuntu1.24.04.3               deb                        
-libpolkit-gobject-1-0            124-2ubuntu1.24.04.3               deb                        
+libpolkit-agent-1-0              124-2ubuntu1.24.04.4               deb                        
+libpolkit-gobject-1-0            124-2ubuntu1.24.04.4               deb                        
 libpoppler-glib8t64              24.02.0-1ubuntu9.9                 deb        (+1 duplicate)  
 libpoppler134                    24.02.0-1ubuntu9.9                 deb        (+1 duplicate)  
 libproc2-0                       2:4.0.4-4ubuntu3.3                 deb                        
@@ -484,8 +484,8 @@ pci.ids                          0.0~2024.03.31-1ubuntu0.1          deb
 perl                             5.38.2-3.2ubuntu0.4                deb                        
 perl-base                        5.38.2-3.2ubuntu0.4                deb                        
 perl-modules-5.38                5.38.2-3.2ubuntu0.4                deb                        
-pkexec                           124-2ubuntu1.24.04.3               deb                        
-polkitd                          124-2ubuntu1.24.04.3               deb                        
+pkexec                           124-2ubuntu1.24.04.4               deb                        
+polkitd                          124-2ubuntu1.24.04.4               deb                        
 poppler-data                     0.4.12-1                           deb                        
 procps                           2:4.0.4-4ubuntu3.3                 deb                        
 publicsuffix                     20231001.0357-0.1                  deb                        

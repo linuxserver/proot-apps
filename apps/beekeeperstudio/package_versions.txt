@@ -11,8 +11,8 @@ at-spi2-common                   2.56.2-1+deb13u2                      deb
 base-files                       13.8+deb13u6                          deb                   
 base-passwd                      3.6.7                                 deb                   
 bash                             5.2.37-2+b9                           deb                   
-beekeeper-studio                 6.1.0                                 deb                   
-beekeeper-studio                 6.1.0                                 npm                   
+beekeeper-studio                 6.1.1                                 deb                   
+beekeeper-studio                 6.1.1                                 npm                   
 better-sqlite3                   12.6.2                                npm                   
 binutils                         2.44-3                                deb                   
 binutils-common                  2.44-3                                deb                   
