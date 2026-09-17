@@ -177,9 +177,9 @@ pyc                        3.14.7-r0                apk
 python3                    3.14.7-r0                apk     
 python3-pyc                3.14.7-r0                apk     
 python3-pycache-pyc0       3.14.7-r0                apk     
-qt6-qtbase                 6.11.1-r2                apk     
-qt6-qtbase-wayland         6.11.1-r2                apk     
-qt6-qtbase-x11             6.11.1-r2                apk     
+qt6-qtbase                 6.11.1-r3                apk     
+qt6-qtbase-wayland         6.11.1-r3                apk     
+qt6-qtbase-x11             6.11.1-r3                apk     
 qt6-qtdeclarative          6.11.1-r1                apk     
 qt6-qtsvg                  6.11.1-r0                apk     
 readline                   8.3.3-r1                 apk     

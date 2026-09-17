@@ -446,9 +446,9 @@ python3                    3.14.7-r0                apk
 python3-pyc                3.14.7-r0                apk                         
 python3-pycache-pyc0       3.14.7-r0                apk                         
 pyxdg                      0.28                     python                      
-qt6-qtbase                 6.11.1-r2                apk                         
-qt6-qtbase-private-dev     6.11.1-r2                apk                         
-qt6-qtbase-x11             6.11.1-r2                apk                         
+qt6-qtbase                 6.11.1-r3                apk                         
+qt6-qtbase-private-dev     6.11.1-r3                apk                         
+qt6-qtbase-x11             6.11.1-r3                apk                         
 qt6-qtconnectivity         6.11.1-r1                apk                         
 qt6-qtconnectivity-nfc     6.11.1-r1                apk                         
 qt6-qtdeclarative          6.11.1-r1                apk                         
