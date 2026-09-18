@@ -24,12 +24,6 @@ export PATH="$HOME/.local/bin:$PATH"
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> $HOME/.bashrc
 ```
 
-**Optional add bash tab completion for actions and app names**
-
-```
-echo 'source <($HOME/.local/bin/proot-apps completion bash 2>/dev/null)' >> $HOME/.bashrc
-```
-
 **PRoot Apps is currently only supported on amd64 and arm64 systems**
 
 ## Uninstall
@@ -37,7 +31,7 @@ echo 'source <($HOME/.local/bin/proot-apps completion bash 2>/dev/null)' >> $HOM
 ```
 proot-apps remove all
 rm -f $HOME/.local/bin/{ncat,proot-apps,proot,jq}
-rm -Rf $HOME/proot-apps/ $HOME/.cache/proot-apps/
+rm -Rf $HOME/proot-apps/
 ```
 
 ## Hello World
