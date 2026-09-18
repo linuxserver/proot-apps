@@ -746,3 +746,156 @@ if [[ -z ${1+x} ]]; then
   echo "| Update    | proot-apps update [myorg/myimage:tag|all]     |"
   echo "+-----------------------------------------------------------+"
 fi
+
+#### Completion ####
+
+# Convert an image folder to the name used on the command line
+completion_name() {
+  IMAGE_FOLDER=$1
+  DEFAULT_PREFIX="ghcr.io_${DEFAULT_GH_USER}_${DEFAULT_GH_REPO}_"
+  if [[ "${IMAGE_FOLDER}" == "${DEFAULT_PREFIX}"* ]]; then
+    # Default repo apps use the short name
+    echo "${IMAGE_FOLDER#"${DEFAULT_PREFIX}"}"
+  else
+    echo "${IMAGE_FOLDER}"| sed 's/\(.*\)_/\1:/' | sed 's|_|/|g'
+  fi
+}
+
+# Only pass names that are safe to hand to the shell completion
+completion_filter() {
+  grep -E '^[A-Za-z0-9._/:-]+$'
+}
+
+# List app names from a folder of image folders
+completion_folders() {
+  APP_DIR=$1
+  for IMAGE_FOLDER in $(ls ${APP_DIR} 2>/dev/null); do
+    # Skip loose files and local repo metadata
+    if [ ! -d "${APP_DIR}/${IMAGE_FOLDER}" ] || [ "${IMAGE_FOLDER}" == "metadata" ]; then
+      continue
+    fi
+    completion_name "${IMAGE_FOLDER}"
+  done | completion_filter
+}
+
+# List apps available to install
+completion_apps() {
+  # Local repo folder is the app list when set never reach out
+  if [[ ! -z ${PA_REPO_FOLDER+x} ]]; then
+    completion_folders "${PA_REPO_FOLDER}"
+    return 0
+  fi
+  CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/proot-apps"
+  CACHE_FILE="${CACHE_DIR}/completion-apps"
+  # Ingest remote metadata on first use or when this script is newer than the cache
+  if [ ! -s "${CACHE_FILE}" ] || [ "$(realpath "$0")" -nt "${CACHE_FILE}" ]; then
+    ARCH=$(uname -m| sed 's/x86_64/amd64/g'| sed 's/aarch64/arm64/')
+    META_URL="https://raw.githubusercontent.com/${DEFAULT_GH_USER}/${DEFAULT_GH_REPO}/master/metadata/metadata.yml"
+    mkdir -p "${CACHE_DIR}"
+    CACHE_TMP=$(mktemp "${CACHE_DIR}/completion-apps.XXXXXX")
+    # Parse out app names skipping disabled apps and other arches
+    curl -s -f --max-time 3 \
+      --location \
+      "${META_URL}" 2>/dev/null \
+      | awk -v arch="linux/${ARCH}" '
+        function flush() { if (n != "" && !d && (a == "" || index(a, arch))) print n }
+        /^ *- name:/ { flush(); n=$3; d=0; a="" }
+        /^ *arch:/ { a=$2 }
+        /^ *disabled: *[Tt]rue/ { d=1 }
+        END { flush() }' \
+      | completion_filter > "${CACHE_TMP}"
+    # Only a good list becomes the cache
+    if [ -s "${CACHE_TMP}" ]; then
+      mv -f "${CACHE_TMP}" "${CACHE_FILE}"
+    else
+      rm -f "${CACHE_TMP}"
+      # Keep using a stale list without retrying on every tab
+      if [ -s "${CACHE_FILE}" ]; then
+        touch "${CACHE_FILE}"
+      fi
+    fi
+  fi
+  if [ ! -s "${CACHE_FILE}" ]; then
+    return 1
+  fi
+  cat "${CACHE_FILE}"
+}
+
+# Print the bash completion script
+completion_bash() {
+  cat <<'EOF'
+# bash completion for proot-apps
+_proot_apps() {
+  local cur words cword apps
+  # Keep image names with a tag as one word when bash-completion is present
+  if declare -F _get_comp_words_by_ref >/dev/null 2>&1; then
+    _get_comp_words_by_ref -n : cur words cword
+  else
+    cur=${COMP_WORDS[COMP_CWORD]}
+    words=("${COMP_WORDS[@]}")
+    cword=${COMP_CWORD}
+  fi
+  COMPREPLY=()
+  # Actions
+  if [[ ${cword} -eq 1 ]]; then
+    COMPREPLY=($(compgen -W "run install uninstall remove get update localrepo" -- "${cur}"))
+    return
+  fi
+  case "${words[1]}" in
+    get)
+      apps=$("$1" _complete_apps 2>/dev/null) || return
+      ;;
+    install)
+      apps=$("$1" _complete_apps 2>/dev/null) || return
+      apps="all ${apps}"
+      ;;
+    remove|uninstall|update)
+      apps=$("$1" _complete_installed 2>/dev/null) || return
+      apps="all ${apps}"
+      ;;
+    run)
+      # Anything after the app is passed to the app
+      if [[ ${cword} -gt 2 ]]; then
+        compopt -o filenames 2>/dev/null
+        COMPREPLY=($(compgen -f -- "${cur}"))
+        return
+      fi
+      apps=$("$1" _complete_installed 2>/dev/null) || return
+      ;;
+    localrepo)
+      if [[ ${cword} -eq 2 ]]; then
+        COMPREPLY=($(compgen -W "get remove update" -- "${cur}"))
+      fi
+      return
+      ;;
+    *)
+      return
+      ;;
+  esac
+  COMPREPLY=($(compgen -W "${apps}" -- "${cur}"))
+  if declare -F __ltrim_colon_completions >/dev/null 2>&1; then
+    __ltrim_colon_completions "${cur}"
+  fi
+}
+complete -F _proot_apps proot-apps
+EOF
+}
+
+# Print completion script
+if [ "${TYPE}" == "completion" ]; then
+  if [[ "${2}" != "bash" ]]; then
+    echo "Usage: proot-apps completion bash"
+    exit 1
+  fi
+  completion_bash
+fi
+
+# List available apps for completion
+if [ "${TYPE}" == "_complete_apps" ]; then
+  completion_apps || exit 1
+fi
+
+# List installed apps for completion
+if [ "${TYPE}" == "_complete_installed" ]; then
+  completion_folders "${ROOT_DIR}"
+fi
