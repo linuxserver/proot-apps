@@ -4,6 +4,12 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch:
+    inputs:
+      build_all:
+        description: "Build and push all apps"
+        type: boolean
+        default: false
 
 jobs:
   base:
@@ -64,11 +70,12 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - uses: dorny/paths-filter@v3
         id: changes
+        if: github.event_name == 'push'
         with:
           filters: |
             folder:
               - "apps/${{ matrix.name }}/**"
-      - if: steps.changes.outputs.folder == 'true'
+      - if: steps.changes.outputs.folder == 'true' || (inputs.build_all && matrix.disabled != true)
         run: >
           cd apps/${{ matrix.name }}/ &&
           docker buildx build --push
