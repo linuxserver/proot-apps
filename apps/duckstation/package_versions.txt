@@ -8,7 +8,7 @@ binutils                        2.46-3ubuntu2                          deb
 binutils-common                 2.46-3ubuntu2                          deb          
 binutils-x86-64-linux-gnu       2.46-3ubuntu2                          deb          
 bsdutils                        1:2.41.3-3ubuntu2.2                    deb          
-bubblewrap                      0.11.1-1ubuntu0.1                      deb          
+bubblewrap                      0.11.1-1ubuntu0.3                      deb          
 ca-certificates                 20260601~26.04.1                       deb          
 coreutils                       9.5-1ubuntu2+0.0.0~ubuntu25            deb          
 coreutils-from-gnu              0.0.0~ubuntu25                         deb          
@@ -44,7 +44,7 @@ gcc-16-base                     16-20260322-1ubuntu1                   deb
 gcc-x86-64-linux-gnu            4:15.2.0-5ubuntu1                      deb          
 github.com/GehirnInc/crypt      v0.0.0-20230320061759-8cc1b52080c5     go-module    
 github.com/canonical/go-flags   v0.0.0-20230403090104-105d09a091b8     go-module    
-github.com/canonical/pebble     v1.32.2-0.20260721212935-faa1696b477d  go-module    
+github.com/canonical/pebble     v1.32.3-0.20260908071357-f1688182910f  go-module    
 github.com/canonical/x-go       v0.0.0-20230522092633-7947a7587f5b     go-module    
 github.com/gorilla/mux          v1.8.1                                 go-module    
 github.com/gorilla/websocket    v1.5.3                                 go-module    
@@ -55,12 +55,12 @@ glib-networking-services        2.80.1-1build2                         deb
 glycin-loaders                  2.1.1+ds-0ubuntu1                      deb          
 glycin-thumbnailers             2.1.1+ds-0ubuntu1                      deb          
 gnu-coreutils                   9.7-3ubuntu2.1                         deb          
-golang.org/x/sys                v0.46.0                                go-module    
-golang.org/x/term               v0.44.0                                go-module    
+golang.org/x/sys                v0.47.0                                go-module    
+golang.org/x/term               v0.45.0                                go-module    
 gopkg.in/tomb.v2                v2.0.0-20161208151619-d5d1b5820637     go-module    
 gopkg.in/yaml.v2                v2.4.0                                 go-module    
 gopkg.in/yaml.v3                v3.0.1                                 go-module    
-gpgv                            2.4.8-4ubuntu3                         deb          
+gpgv                            2.4.8-4ubuntu3.1                       deb          
 grep                            3.12-1                                 deb          
 gsettings-desktop-schemas       50.0-1ubuntu2                          deb          
 gzip                            1.14-1~exp2ubuntu1.1                   deb          
@@ -71,7 +71,7 @@ jq                              1.8.1-4ubuntu2                         deb
 keyboard-configuration          1.237ubuntu3.1                         deb          
 libabsl20260107                 20260107.0-4                           deb          
 libacl1                         2.3.2-2                                deb          
-libaom3                         3.13.1-2                               deb          
+libaom3                         3.13.1-2ubuntu0.1                      deb          
 libapparmor1                    5.0.2-0ubuntu1~26.04.1                 deb          
 libapt-pkg7.0                   3.2.0                                  deb          
 libasan8                        16-20260322-1ubuntu1                   deb          
@@ -81,8 +81,8 @@ libasound2t64                   1.2.15.3-1ubuntu1.1                    deb
 libasyncns0                     0.8-7                                  deb          
 libatomic1                      16-20260322-1ubuntu1                   deb          
 libattr1                        1:2.5.2-4ubuntu0.1                     deb          
-libaudit-common                 1:4.1.2-1build1                        deb          
-libaudit1                       1:4.1.2-1build1                        deb          
+libaudit-common                 1:4.1.2-1ubuntu0.1                     deb          
+libaudit1                       1:4.1.2-1ubuntu0.1                     deb          
 libavcodec62                    7:8.0.1-3ubuntu2                       deb          
 libavutil60                     7:8.0.1-3ubuntu2                       deb          
 libbinutils                     2.46-3ubuntu2                          deb          
@@ -159,8 +159,8 @@ libgssapi-krb5-2                1.22.1-2ubuntu4.1                      deb
 libgstreamer-plugins-base1.0-0  1.28.2-1                               deb          
 libgstreamer1.0-0               1.28.2-1                               deb          
 libharfbuzz0b                   12.3.2-2                               deb          
-libheif-plugin-aomdec           1.21.2-3ubuntu0.4                      deb          
-libheif1                        1.21.2-3ubuntu0.4                      deb          
+libheif-plugin-aomdec           1.21.2-3ubuntu0.5                      deb          
+libheif1                        1.21.2-3ubuntu0.5                      deb          
 libhogweed6t64                  3.10.2-1                               deb          
 libhwasan0                      16-20260322-1ubuntu1                   deb          
 libhwy1t64                      1.3.0-2                                deb          
@@ -248,7 +248,7 @@ libsoup-3.0-common              3.6.6-1                                deb
 libsoxr0                        0.1.3-4.1                              deb          
 libspeex1                       1.2.1-3build1                          deb          
 libspeexdsp1                    1.2.1-3build1                          deb          
-libsqlite3-0                    3.46.1-9ubuntu0.2                      deb          
+libsqlite3-0                    3.46.1-9ubuntu0.3                      deb          
 libss2                          1.47.2-3ubuntu4                        deb          
 libssh2-1t64                    1.11.1-1ubuntu0.26.04.4                deb          
 libssl3t64                      3.5.5-1ubuntu3.5                       deb          
@@ -353,7 +353,7 @@ ocl-icd-libopencl1              2.3.4-1                                deb
 openssl                         3.5.5-1ubuntu3.5                       deb          
 openssl-provider-legacy         3.5.5-1ubuntu3.5                       deb          
 passwd                          1:4.17.4-2ubuntu3                      deb          
-perl-base                       5.40.1-7ubuntu0.1                      deb          
+perl-base                       5.40.1-7ubuntu0.3                      deb          
 procps                          2:4.0.4-9ubuntu1                       deb          
 pulseaudio                      1:17.0+dfsg1-2ubuntu4                  deb          
 pulseaudio-utils                1:17.0+dfsg1-2ubuntu4                  deb          
@@ -362,7 +362,7 @@ rust-coreutils                  0.8.0-0ubuntu3                         deb
 sed                             4.9-2ubuntu1                           deb          
 sensible-utils                  0.0.26build1                           deb          
 shared-mime-info                2.4-5build3                            deb          
-stdlib                          go1.26.5                               go-module    
+stdlib                          go1.26.7                               go-module    
 systemd                         259.5-0ubuntu3.4                       deb          
 sysvinit-utils                  3.15-5ubuntu1                          deb          
 tar                             1.35+dfsg-4ubuntu0.4                   deb          
