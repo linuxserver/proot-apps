@@ -1,9 +1,9 @@
 NAME                            VERSION                               TYPE   
 adduser                         3.152                                 deb     
 apt                             3.0.3                                 deb     
-base-files                      13.8+deb13u6                          deb     
+base-files                      13.8+deb13u7                          deb     
 base-passwd                     3.6.7                                 deb     
-bash                            5.2.37-2+b9                           deb     
+bash                            5.2.37-2+b10                          deb     
 binutils                        2.44-3                                deb     
 binutils-common                 2.44-3                                deb     
 binutils-x86-64-linux-gnu       2.44-3                                deb     
@@ -38,7 +38,7 @@ gcc-14-base                     14.2.0-19                             deb
 gcc-14-x86-64-linux-gnu         14.2.0-19                             deb     
 gcc-x86-64-linux-gnu            4:14.2.0-1                            deb     
 grep                            3.11-4                                deb     
-gzip                            1.13-1                                deb     
+gzip                            1.13-1+deb13u1                        deb     
 hostname                        3.25                                  deb     
 init-system-helpers             1.69~deb13u1                          deb     
 iso-codes                       4.18.0-1                              deb     
@@ -56,8 +56,8 @@ libasound2t64                   1.2.14-1+deb13u1                      deb
 libasyncns0                     0.8-6+b5                              deb     
 libatomic1                      14.2.0-19                             deb     
 libattr1                        1:2.5.2-3                             deb     
-libaudit-common                 1:4.0.2-2                             deb     
-libaudit1                       1:4.0.2-2+b2                          deb     
+libaudit-common                 1:4.0.2-2+deb13u1                     deb     
+libaudit1                       1:4.0.2-2+deb13u1                     deb     
 libavcodec61                    7:7.1.5-0+deb13u1                     deb     
 libavformat61                   7:7.1.5-0+deb13u1                     deb     
 libavutil59                     7:7.1.5-0+deb13u1                     deb     
@@ -255,7 +255,7 @@ libsodium23                     1.0.18-1+deb13u1                      deb
 libsoxr0                        0.1.3-4+b2                            deb     
 libspeex1                       1.2.1-3                               deb     
 libspeexdsp1                    1.2.1-3                               deb     
-libsqlite3-0                    3.46.1-7+deb13u1                      deb     
+libsqlite3-0                    3.46.1-7+deb13u2                      deb     
 libsrt1.5-gnutls                1.5.4-1+deb13u1                       deb     
 libssh-4                        0.11.5-0+deb13u1                      deb     
 libssh2-1t64                    1.11.1-1+deb13u2                      deb     
@@ -376,7 +376,7 @@ ocl-icd-libopencl1              2.3.3-1                               deb
 openssl                         3.5.7-1~deb13u2                       deb     
 openssl-provider-legacy         3.5.7-1~deb13u2                       deb     
 passwd                          1:4.17.4-2                            deb     
-perl-base                       5.40.1-6                              deb     
+perl-base                       5.40.1-6+deb13u1                      deb     
 pulseaudio                      17.0+dfsg1-2+b1                       deb     
 pulseaudio-utils                17.0+dfsg1-2+b1                       deb     
 qt6-svg-plugins                 6.8.2-3                               deb     
@@ -388,7 +388,7 @@ sqv                             1.3.0-3+b2                            deb
 systemd                         257.13-1~deb13u1                      deb     
 sysvinit-utils                  3.14-4                                deb     
 tar                             1.35+dfsg-3.1                         deb     
-tzdata                          2026b-0+deb13u1                       deb     
+tzdata                          2026c-0+deb13u1                       deb     
 udev                            257.13-1~deb13u1                      deb     
 util-linux                      2.41.5-0+deb13u1                      deb     
 x11-common                      1:7.7+24+deb13u1                      deb     

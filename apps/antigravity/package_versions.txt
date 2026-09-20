@@ -157,10 +157,10 @@ apt                                                3.0.3                        
 at-spi2-common                                     2.56.2-1+deb13u2                      deb                    
 bail                                               2.0.2                                 npm                    
 balanced-match                                     1.0.2                                 npm                    
-base-files                                         13.8+deb13u6                          deb                    
+base-files                                         13.8+deb13u7                          deb                    
 base-passwd                                        3.6.7                                 deb                    
 base64-js                                          1.5.1                                 npm                    
-bash                                               5.2.37-2+b9                           deb                    
+bash                                               5.2.37-2+b10                          deb                    
 bat                                                1.0.0                                 npm                    
 bignumber.js                                       9.3.1                                 npm                    
 bindings                                           1.5.0                                 npm                    
@@ -358,7 +358,7 @@ grunt                                              1.0.0                        
 gtk-update-icon-cache                              4.18.6+ds-2                           deb                    
 gtoken                                             8.0.0                                 npm                    
 gulp                                               1.0.0                                 npm                    
-gzip                                               1.13-1                                deb                    
+gzip                                               1.13-1+deb13u1                        deb                    
 hachure-fill                                       0.5.2                                 npm                    
 handlebars                                         1.0.0                                 npm                    
 hast-util-from-parse5                              8.0.3                                 npm                    
@@ -460,8 +460,8 @@ libatk1.0-0t64                                     2.56.2-1+deb13u2             
 libatomic1                                         14.2.0-19                             deb                    
 libatspi2.0-0t64                                   2.56.2-1+deb13u2                      deb                    
 libattr1                                           1:2.5.2-3                             deb                    
-libaudit-common                                    1:4.0.2-2                             deb                    
-libaudit1                                          1:4.0.2-2+b2                          deb                    
+libaudit-common                                    1:4.0.2-2+deb13u1                     deb                    
+libaudit1                                          1:4.0.2-2+deb13u1                     deb                    
 libavahi-client3                                   0.8-16                                deb                    
 libavahi-common-data                               0.8-16                                deb                    
 libavahi-common3                                   0.8-16                                deb                    
@@ -608,7 +608,7 @@ libpango-1.0-0                                     1.56.3-1                     
 libpangocairo-1.0-0                                1.56.3-1                              deb                    
 libpangoft2-1.0-0                                  1.56.3-1                              deb                    
 libpciaccess0                                      0.17-3+b3                             deb                    
-libpcre2-8-0                                       10.46-1~deb13u1                       deb                    
+libpcre2-8-0                                       10.46-1~deb13u2                       deb                    
 libperl5.40                                        5.40.1-6+deb13u1                      deb                    
 libpixman-1-0                                      0.44.0-3                              deb                    
 libpng16-16t64                                     1.6.48-1+deb13u5                      deb                    
@@ -643,7 +643,7 @@ libsndfile1                                        1.2.2-2+deb13u1              
 libsoxr0                                           0.1.3-4+b2                            deb                    
 libspeex1                                          1.2.1-3                               deb                    
 libspeexdsp1                                       1.2.1-3                               deb                    
-libsqlite3-0                                       3.46.1-7+deb13u1                      deb                    
+libsqlite3-0                                       3.46.1-7+deb13u2                      deb                    
 libssh2-1t64                                       1.11.1-1+deb13u2                      deb                    
 libssl3t64                                         3.5.7-1~deb13u2                       deb                    
 libstdc++6                                         14.2.0-19                             deb                    
@@ -993,7 +993,7 @@ tunnel-forwarding                                  1.0.0                        
 typescript                                         1.0.0                                 npm                    
 typescript                                         5.9.3                                 npm                    
 typescript-language-features                       1.0.0                                 npm                    
-tzdata                                             2026b-0+deb13u1                       deb                    
+tzdata                                             2026c-0+deb13u1                       deb                    
 udev                                               257.13-1~deb13u1                      deb                    
 ufo                                                1.6.1                                 npm                    
 undici                                             7.9.0                                 npm                    

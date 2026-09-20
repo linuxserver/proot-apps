@@ -6,9 +6,9 @@ attrs                           25.3.0                                python
 autocommand                     2.2.2                                 python                   
 autopep8                        2.3.1                                 python                   
 backports-tarfile               1.2.0                                 python                   
-base-files                      13.8+deb13u6                          deb                      
+base-files                      13.8+deb13u7                          deb                      
 base-passwd                     3.6.7                                 deb                      
-bash                            5.2.37-2+b9                           deb                      
+bash                            5.2.37-2+b10                          deb                      
 binutils                        2.44-3                                deb                      
 binutils-common                 2.44-3                                deb                      
 binutils-x86-64-linux-gnu       2.44-3                                deb                      
@@ -57,7 +57,7 @@ gui                             UNKNOWN                               binary
 gui-32                          UNKNOWN                               binary                   
 gui-64                          UNKNOWN                               binary                   
 gui-arm64                       UNKNOWN                               binary                   
-gzip                            1.13-1                                deb                      
+gzip                            1.13-1+deb13u1                        deb                      
 hostname                        3.25                                  deb                      
 idna                            3.10                                  python                   
 importlib-metadata              8.0.0                                 python                   
@@ -82,8 +82,8 @@ libasound2t64                   1.2.14-1+deb13u1                      deb
 libasyncns0                     0.8-6+b5                              deb                      
 libatomic1                      14.2.0-19                             deb                      
 libattr1                        1:2.5.2-3                             deb                      
-libaudit-common                 1:4.0.2-2                             deb                      
-libaudit1                       1:4.0.2-2+b2                          deb                      
+libaudit-common                 1:4.0.2-2+deb13u1                     deb                      
+libaudit1                       1:4.0.2-2+deb13u1                     deb                      
 libavcodec61                    7:7.1.5-0+deb13u1                     deb                      
 libavutil59                     7:7.1.5-0+deb13u1                     deb                      
 libbinutils                     2.44-3                                deb                      
@@ -207,7 +207,7 @@ libpango-1.0-0                  1.56.3-1                              deb
 libpangocairo-1.0-0             1.56.3-1                              deb                      
 libpangoft2-1.0-0               1.56.3-1                              deb                      
 libpciaccess0                   0.17-3+b3                             deb                      
-libpcre2-8-0                    10.46-1~deb13u1                       deb                      
+libpcre2-8-0                    10.46-1~deb13u2                       deb                      
 libpixman-1-0                   0.44.0-3                              deb                      
 libpng16-16t64                  1.6.48-1+deb13u5                      deb                      
 libpsl5t64                      0.21.2-1.1+b1                         deb                      
@@ -237,7 +237,7 @@ libsndfile1                     1.2.2-2+deb13u1                       deb
 libsoxr0                        0.1.3-4+b2                            deb                      
 libspeex1                       1.2.1-3                               deb                      
 libspeexdsp1                    1.2.1-3                               deb                      
-libsqlite3-0                    3.46.1-7+deb13u1                      deb                      
+libsqlite3-0                    3.46.1-7+deb13u2                      deb                      
 libssh2-1t64                    1.11.1-1+deb13u2                      deb                      
 libssl3t64                      3.5.7-1~deb13u2                       deb                      
 libstdc++6                      14.2.0-19                             deb                      
@@ -342,7 +342,7 @@ openssl-provider-legacy         3.5.7-1~deb13u2                       deb
 packaging                       24.2                                  python                   
 packaging                       25.0                                  python                   
 passwd                          1:4.17.4-2                            deb                      
-perl-base                       5.40.1-6                              deb                      
+perl-base                       5.40.1-6+deb13u1                      deb                      
 pip                             26.0.1                                python                   
 platformdirs                    4.2.2                                 python                   
 pulseaudio                      17.0+dfsg1-2+b1                       deb                      
@@ -364,7 +364,7 @@ tomli-w                         1.2.0                                 python
 typeguard                       4.3.0                                 python                   
 typing-extensions               4.12.2                                python                   
 typing-extensions               4.14.1                                python                   
-tzdata                          2026b-0+deb13u1                       deb                      
+tzdata                          2026c-0+deb13u1                       deb                      
 udev                            257.13-1~deb13u1                      deb                      
 urllib3                         2.4.0                                 python                   
 util-linux                      2.41.5-0+deb13u1                      deb                      

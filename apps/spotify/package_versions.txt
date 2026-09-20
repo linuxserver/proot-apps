@@ -3,9 +3,9 @@ adduser                         3.152                                 deb
 adwaita-icon-theme              48.1-1                                deb     
 apt                             3.0.3                                 deb     
 at-spi2-common                  2.56.2-1+deb13u2                      deb     
-base-files                      13.8+deb13u6                          deb     
+base-files                      13.8+deb13u7                          deb     
 base-passwd                     3.6.7                                 deb     
-bash                            5.2.37-2+b9                           deb     
+bash                            5.2.37-2+b10                          deb     
 binutils                        2.44-3                                deb     
 binutils-common                 2.44-3                                deb     
 binutils-x86-64-linux-gnu       2.44-3                                deb     
@@ -43,7 +43,7 @@ gcc-14-x86-64-linux-gnu         14.2.0-19                             deb
 gcc-x86-64-linux-gnu            4:14.2.0-1                            deb     
 grep                            3.11-4                                deb     
 gtk-update-icon-cache           4.18.6+ds-2                           deb     
-gzip                            1.13-1                                deb     
+gzip                            1.13-1+deb13u1                        deb     
 hicolor-icon-theme              0.18-2                                deb     
 hostname                        3.25                                  deb     
 init-system-helpers             1.69~deb13u1                          deb     
@@ -65,8 +65,8 @@ libatk1.0-0t64                  2.56.2-1+deb13u2                      deb
 libatomic1                      14.2.0-19                             deb     
 libatspi2.0-0t64                2.56.2-1+deb13u2                      deb     
 libattr1                        1:2.5.2-3                             deb     
-libaudit-common                 1:4.0.2-2                             deb     
-libaudit1                       1:4.0.2-2+b2                          deb     
+libaudit-common                 1:4.0.2-2+deb13u1                     deb     
+libaudit1                       1:4.0.2-2+deb13u1                     deb     
 libavahi-client3                0.8-16                                deb     
 libavahi-common-data            0.8-16                                deb     
 libavahi-common3                0.8-16                                deb     
@@ -206,7 +206,7 @@ libpango-1.0-0                  1.56.3-1                              deb
 libpangocairo-1.0-0             1.56.3-1                              deb     
 libpangoft2-1.0-0               1.56.3-1                              deb     
 libpciaccess0                   0.17-3+b3                             deb     
-libpcre2-8-0                    10.46-1~deb13u1                       deb     
+libpcre2-8-0                    10.46-1~deb13u2                       deb     
 libpixman-1-0                   0.44.0-3                              deb     
 libpng16-16t64                  1.6.48-1+deb13u5                      deb     
 libproc2-0                      2:4.0.4-9                             deb     
@@ -237,7 +237,7 @@ libsndfile1                     1.2.2-2+deb13u1                       deb
 libsoxr0                        0.1.3-4+b2                            deb     
 libspeex1                       1.2.1-3                               deb     
 libspeexdsp1                    1.2.1-3                               deb     
-libsqlite3-0                    3.46.1-7+deb13u1                      deb     
+libsqlite3-0                    3.46.1-7+deb13u2                      deb     
 libssh2-1t64                    1.11.1-1+deb13u2                      deb     
 libssl3t64                      3.5.7-1~deb13u2                       deb     
 libstdc++6                      14.2.0-19                             deb     
@@ -341,7 +341,7 @@ ocl-icd-libopencl1              2.3.3-1                               deb
 openssl                         3.5.7-1~deb13u2                       deb     
 openssl-provider-legacy         3.5.7-1~deb13u2                       deb     
 passwd                          1:4.17.4-2                            deb     
-perl-base                       5.40.1-6                              deb     
+perl-base                       5.40.1-6+deb13u1                      deb     
 procps                          2:4.0.4-9                             deb     
 pulseaudio                      17.0+dfsg1-2+b1                       deb     
 pulseaudio-utils                17.0+dfsg1-2+b1                       deb     
@@ -353,7 +353,7 @@ sqv                             1.3.0-3+b2                            deb
 systemd                         257.13-1~deb13u1                      deb     
 sysvinit-utils                  3.14-4                                deb     
 tar                             1.35+dfsg-3.1                         deb     
-tzdata                          2026b-0+deb13u1                       deb     
+tzdata                          2026c-0+deb13u1                       deb     
 udev                            257.13-1~deb13u1                      deb     
 util-linux                      2.41.5-0+deb13u1                      deb     
 wget                            1.25.0-2                              deb     
