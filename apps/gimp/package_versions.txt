@@ -51,8 +51,8 @@ gcc-14-base                     14.2.0-19                             deb
 gcc-14-x86-64-linux-gnu         14.2.0-19                             deb       
 gcc-x86-64-linux-gnu            4:14.2.0-1                            deb       
 ghostscript                     10.05.1~dfsg-1+deb13u1                deb       
-gimp                            3.0.4-3+deb13u10                      deb       
-gimp-data                       3.0.4-3+deb13u10                      deb       
+gimp                            3.0.4-3+deb13u11                      deb       
+gimp-data                       3.0.4-3+deb13u11                      deb       
 gir1.2-atk-1.0                  2.56.2-1+deb13u2                      deb       
 gir1.2-atspi-2.0                2.56.2-1+deb13u2                      deb       
 gir1.2-babl-0.1                 1:0.1.114-2                           deb       
@@ -62,7 +62,7 @@ gir1.2-freedesktop-dev          1.84.0-1                              deb
 gir1.2-gdkpixbuf-2.0            2.42.12+dfsg-4+deb13u1                deb       
 gir1.2-gegl-0.4                 1:0.4.62-2+deb13u2                    deb       
 gir1.2-gexiv2-0.10              0.14.3-1+b1                           deb       
-gir1.2-gimp-3.0                 3.0.4-3+deb13u10                      deb       
+gir1.2-gimp-3.0                 3.0.4-3+deb13u11                      deb       
 gir1.2-girepository-2.0         1.84.0-1                              deb       
 gir1.2-glib-2.0                 2.84.4-3~deb13u5                      deb       
 gir1.2-glib-2.0-dev             2.84.4-3~deb13u5                      deb       
@@ -226,10 +226,10 @@ libgegl-dev                     1:0.4.62-2+deb13u2                    deb
 libgexiv2-2                     0.14.3-1+b1                           deb       
 libgexiv2-dev                   0.14.3-1+b1                           deb       
 libgfortran5                    14.2.0-19                             deb       
-libgimp-3.0-0                   3.0.4-3+deb13u10                      deb       
-libgimp-3.0-bin                 3.0.4-3+deb13u10                      deb       
-libgimp-3.0-dev                 3.0.4-3+deb13u10                      deb       
-libgimp-3.0-doc                 3.0.4-3+deb13u10                      deb       
+libgimp-3.0-0                   3.0.4-3+deb13u11                      deb       
+libgimp-3.0-bin                 3.0.4-3+deb13u11                      deb       
+libgimp-3.0-dev                 3.0.4-3+deb13u11                      deb       
+libgimp-3.0-doc                 3.0.4-3+deb13u11                      deb       
 libgio-2.0-dev                  2.84.4-3~deb13u5                      deb       
 libgio-2.0-dev-bin              2.84.4-3~deb13u5                      deb       
 libgirepository-1.0-1           1.84.0-1                              deb       

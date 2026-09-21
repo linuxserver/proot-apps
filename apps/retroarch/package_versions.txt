@@ -38,9 +38,8 @@ fonts-dejavu-mono               2.37-8build1                           deb
 fonts-droid-fallback            1:8.1.0r7-1~1.gbp36536bbuild1          deb          
 fonts-noto                      20201225-2build1                       deb          
 fonts-noto-core                 20201225-2build1                       deb          
-fonts-noto-extra                20201225-2build1                       deb          
 fonts-noto-mono                 20201225-2build1                       deb          
-fonts-roboto-unhinted           2:0~20170802-6                         deb          
+fonts-open-sans                 1.11-2build1                           deb          
 gcc                             4:15.2.0-5ubuntu1                      deb          
 gcc-15                          15.2.0-16ubuntu1                       deb          
 gcc-15-base                     15.2.0-16ubuntu1                       deb          
@@ -463,7 +462,7 @@ python3.14                      3.14.4-1ubuntu0.2                      deb
 python3.14-minimal              3.14.4-1ubuntu0.2                      deb          
 readline-common                 8.3-4                                  deb          
 retroarch                       1.22.2+ppa1.1-1~ubuntu26.04.1          deb          
-retroarch-assets                1.20.0+dfsg-1                          deb          
+retroarch-assets                1.22.2+ds1+ppa1-1~ubuntu26.04.1        deb          
 rpcsvc-proto                    1.4.3-1build1                          deb          
 rust-coreutils                  0.8.0-0ubuntu3                         deb          
 sed                             4.9-2ubuntu1                           deb          
