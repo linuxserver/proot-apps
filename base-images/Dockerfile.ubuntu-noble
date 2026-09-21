@@ -44,7 +44,7 @@ RUN \
   echo "**** install selkies input interposer ****" && \
   mkdir -p /tmp/selkies && \
   curl -o \
-    /tmp/selkies.tar.gz -L \
+    /tmp/selkies.tar.gz -fL --retry 5 --retry-delay 10 --retry-all-errors \
     "https://github.com/selkies-project/selkies/archive/refs/tags/${SELKIES_VERSION}.tar.gz" && \
   tar xf \
     /tmp/selkies.tar.gz -C \
