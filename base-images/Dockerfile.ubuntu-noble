@@ -1,7 +1,7 @@
 FROM ubuntu:noble AS rootfs
 
 ARG REPO
-ARG SELKIES_VERSION=2.0.0rc0
+ARG SELKIES_VERSION=2.0.0rc1
 
 # Install packages
 RUN \
@@ -41,7 +41,7 @@ RUN \
     "https://raw.githubusercontent.com/${REPO}/bins/xdg-open/xdg-open" && \
   chmod +x /usr/bin/xdg-open && \
   update-desktop-database && \
-  echo "**** install selkies interposer ****" && \
+  echo "**** install selkies input interposer ****" && \
   mkdir -p /tmp/selkies && \
   curl -o \
     /tmp/selkies.tar.gz -L \
@@ -49,12 +49,15 @@ RUN \
   tar xf \
     /tmp/selkies.tar.gz -C \
     /tmp/selkies --strip-components=1 && \
-  cd /tmp/selkies/addons/js-interposer && \
-  gcc -shared -fPIC -ldl \
-    -o selkies_joystick_interposer.so \
-    joystick_interposer.c && \
+  cd /tmp/selkies/addons/input-interposer && \
+  gcc -O2 -shared -fPIC -ldl -pthread \
+    -o selkies_input_interposer.so \
+    input_interposer.c && \
   mv \
-    selkies_joystick_interposer.so \
+    selkies_input_interposer.so \
+    /usr/lib/selkies_input_interposer.so && \
+  ln -sf \
+    selkies_input_interposer.so \
     /usr/lib/selkies_joystick_interposer.so && \
   echo "**** install selkies fake udev ****" && \
   cd ../fake-udev && \
@@ -71,21 +74,6 @@ RUN \
   mv \
     selkies_v4l2_interposer.so \
     /usr/lib/selkies_v4l2_interposer.so && \
-  echo "**** install selkies input interposer ****" && \
-  mkdir -p /tmp/selkies-main && \
-  curl -o \
-    /tmp/selkies-main.tar.gz -L \
-    "https://github.com/selkies-project/selkies/archive/refs/heads/main.tar.gz" && \
-  tar xf \
-    /tmp/selkies-main.tar.gz -C \
-    /tmp/selkies-main --strip-components=1 && \
-  cd /tmp/selkies-main/addons/input-interposer && \
-  gcc -O2 -shared -fPIC -ldl -pthread \
-    -o selkies_input_interposer.so \
-    input_interposer.c && \
-  mv \
-    selkies_input_interposer.so \
-    /usr/lib/selkies_input_interposer.so && \
   echo "**** cleanup ****" && \
   apt-get remove -y \
     desktop-file-utils && \

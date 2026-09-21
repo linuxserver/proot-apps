@@ -18,10 +18,11 @@ curl -L https://github.com/linuxserver/proot-apps/releases/download/$(curl -sX G
 export PATH="$HOME/.local/bin:$PATH"
 ```
 
-**Optional add path to env**
+**Optional add path to env and enable bash completion**
 
 ```
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> $HOME/.bashrc
+echo 'command -v proot-apps >/dev/null && source <(proot-apps completion bash)' >> $HOME/.bashrc
 ```
 
 **PRoot Apps is currently only supported on amd64 and arm64 systems**

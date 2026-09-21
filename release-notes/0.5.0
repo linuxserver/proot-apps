@@ -1,0 +1,9 @@
+What's new in this Version:
+
+* Add Selkies webcam interposer to all base images for camera passthrough
+* Build the proot binary from the linuxserver fork based on the Termux patches, raise the builder to Focal with a kernel 3.2 minimum
+* Publish a prerelease build on every real commit to master for downstream ingestion
+* Drop the net coop flag when running apps
+* New apps: Azahar, Cemu, ChatGPT, Claude Desktop, DOSBox Staging, DuckStation, Eden, Google Antigravity, LM Studio, MAME, OpenCode, PCSX2, RPCS3, ScummVM, xemu, Xenia Edge
+* Rebase PPSSPP to Resolute
+* Fix Firefox failing to launch by using sh and bypassing the Mozilla debug wrapper
