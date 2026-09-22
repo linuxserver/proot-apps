@@ -38,8 +38,8 @@ bytemuck                   1.25.0                   rust-crate
 c-ares                     1.34.8-r0                apk                         
 ca-certificates-bundle     20260611-r0              apk                         
 cairo                      1.18.4-r1                apk                         
-calibre                    9.10.0-r0                apk                         
-calibre-pyc                9.10.0-r0                apk                         
+calibre                    9.15.0-r0                apk                         
+calibre-pyc                9.15.0-r0                apk                         
 cdparanoia-libs            10.2-r14                 apk                         
 cfg-if                     1.0.1                    rust-crate                  
 cfg-if                     1.0.4                    rust-crate                  

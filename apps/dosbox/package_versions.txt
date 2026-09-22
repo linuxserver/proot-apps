@@ -126,7 +126,7 @@ libegl-mesa0                    26.0.8-1ubuntu0.3                      deb
 libegl1                         1.7.0-3                                deb          
 libelf1t64                      0.194-4                                deb          
 libepoxy0                       1.5.10-2build1                         deb          
-libexpat1                       2.7.4-1                                deb          
+libexpat1                       2.7.4-1ubuntu0.1                       deb          
 libext2fs2t64                   1.47.2-3ubuntu4                        deb          
 libffi8                         3.5.2-4                                deb          
 libfftw3-single3                3.3.10-2fakesync1build3                deb          
@@ -311,7 +311,7 @@ libxfixes3                      1:6.0.0-2build2                        deb
 libxfont2                       1:2.0.6-2ubuntu0.2                     deb          
 libxinerama1                    2:1.1.4-3build2                        deb          
 libxkbfile1                     1:1.1.0-1build5                        deb          
-libxml2-16                      2.15.2+dfsg-0.1ubuntu0.1               deb          
+libxml2-16                      2.15.2+dfsg-0.1ubuntu0.2               deb          
 libxmu6                         2:1.1.3-4                              deb          
 libxpm4                         1:3.5.17-1ubuntu0.26.04.1              deb          
 libxrandr2                      2:1.5.4-1build1                        deb          
