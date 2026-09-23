@@ -176,7 +176,7 @@ libgdk-pixbuf2.0-common         2.44.5+dfsg-4ubuntu1                   deb
 libgl1                          1.7.0-3                                deb          
 libgl1-mesa-dri                 26.0.8-1ubuntu0.3                      deb          
 libgles2                        1.7.0-3                                deb          
-libglib2.0-0t64                 2.88.0-1                               deb          
+libglib2.0-0t64                 2.88.0-1ubuntu0.1                      deb          
 libglvnd0                       1.7.0-3                                deb          
 libglx-mesa0                    26.0.8-1ubuntu0.3                      deb          
 libglx0                         1.7.0-3                                deb          
@@ -435,7 +435,7 @@ sysvinit-utils                  3.15-5ubuntu1                          deb
 tar                             1.35+dfsg-4ubuntu0.4                   deb          
 ubuntu-keyring                  2023.11.28.1build1                     deb          
 udev                            259.5-0ubuntu3.4                       deb          
-unsloth                         0.1.811-beta                           deb          
+unsloth                         0.1.814-beta                           deb          
 user-session-migration          0.5.1                                  deb          
 util-linux                      2.41.3-3ubuntu2.2                      deb          
 x11-common                      1:7.7+26ubuntu1                        deb          

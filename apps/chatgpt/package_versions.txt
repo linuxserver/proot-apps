@@ -26,7 +26,7 @@ binutils-x86-64-linux-gnu       2.44-3                                deb
 bsdutils                        1:2.41.5-0+deb13u1                    deb                    
 buffer                          6.0.3                                 npm                    
 ca-certificates                 20250419                              deb                    
-chatgpt                         26.915.31945                          deb                    
+chatgpt                         26.917.61114                          deb                    
 classic-level                   3.0.0                                 npm   (+3 duplicates)  
 corepack                        0.36.0                                npm                    
 coreutils                       9.7-3                                 deb                    
@@ -65,6 +65,7 @@ gcc-14-x86-64-linux-gnu         14.2.0-19                             deb
 gcc-x86-64-linux-gnu            4:14.2.0-1                            deb                    
 git                             1:2.47.3-0+deb13u1                    deb                    
 git-man                         1:2.47.3-0+deb13u1                    deb                    
+gnome-session-canberra          0.30-18                               deb                    
 gnupg                           2.4.7-21+deb13u1                      deb                    
 gnupg-l10n                      2.4.7-21+deb13u1                      deb                    
 gnupg2                          2.4.7-21+deb13u1                      deb                    
@@ -121,6 +122,8 @@ libc6                           2.41-12+deb13u4                       deb
 libc6-dev                       2.41-12+deb13u4                       deb                    
 libcairo-gobject2               1.18.4-1+b1                           deb                    
 libcairo2                       1.18.4-1+b1                           deb                    
+libcanberra-gtk3-0              0.30-18                               deb                    
+libcanberra0                    0.30-18                               deb                    
 libcap-ng0                      0.8.5-4+b1                            deb                    
 libcap2                         1:2.75-10+deb13u1+b3                  deb                    
 libcap2-bin                     1:2.75-10+deb13u1+b3                  deb                    
@@ -323,6 +326,7 @@ libva2                          2.22.0-3                              deb
 libvdpau1                       1.5-3+b1                              deb                    
 libvorbis0a                     1.3.7-3                               deb                    
 libvorbisenc2                   1.3.7-3                               deb                    
+libvorbisfile3                  1.3.7-3                               deb                    
 libvpl2                         1:2.14.0-1+b1                         deb                    
 libvpx9                         1.15.0-2.1+deb13u1                    deb                    
 libvulkan1                      1.4.309.0-1                           deb                    
@@ -424,6 +428,7 @@ sed                             4.9-2+deb13u1                         deb
 semver                          7.8.5                                 npm                    
 shared-mime-info                2.4-5+b2                              deb                    
 sharp                           0.35.4                                npm                    
+sound-theme-freedesktop         0.8-6~deb13u1                         deb                    
 sqv                             1.3.0-3+b2                            deb                    
 systemd                         257.13-1~deb13u1                      deb                    
 sysvinit-utils                  3.14-4                                deb                    
