@@ -12,7 +12,7 @@ RUN \
     | jq -r '.tag_name') && \
   curl -o \
     /tmp/flycast.app -L \
-    "https://github.com/flyinghead/flycast/releases/download/${FLYCAST_VERSION}/flycast-x86_64.AppImage" && \
+    "https://github.com/flyinghead/flycast/releases/download/${FLYCAST_VERSION}/flycast-x86_64-${FLYCAST_VERSION#v}.AppImage" && \
   chmod +x /tmp/flycast.app && \
   cd /tmp && \
   ./flycast.app --appimage-extract && \

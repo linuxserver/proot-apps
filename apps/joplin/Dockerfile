@@ -28,9 +28,9 @@ RUN \
     -e "/^Exec=/c Exec=/bin/sh -c \"\$HOME\/.local\/bin\/proot-apps run ghcr.io/${REPO}:joplin %U\"" \
     -e "s/Name=Joplin/Name=Joplin PA/g" \
     -e '/^TryExec=/d' \
-    /usr/share/applications/joplin.desktop && \
+    /usr/share/applications/appimagekit-joplin.desktop && \
   mv \
-    /usr/share/applications/joplin.desktop \
+    /usr/share/applications/appimagekit-joplin.desktop \
     /usr/share/applications/joplin-pa.desktop && \
   echo "**** set bin name ****" && \
   echo "joplin-pa" > /bin-name && \

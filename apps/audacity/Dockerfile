@@ -5,6 +5,7 @@ ARG REPO
 # Install packages
 RUN \
   echo "**** install packages ****" && \
+  ARCH=$(uname -m) && \
   apt-get update && \
   apt-get install -y \
     ffmpeg \
@@ -19,7 +20,7 @@ RUN \
   cd /tmp && \
   curl -o \
     /tmp/audacity.app -L \
-    "https://github.com/audacity/audacity/releases/download/Audacity-${AUDACITY_VERSION}/audacity-linux-${AUDACITY_VERSION}-x64-22.04.AppImage" && \
+    "https://github.com/audacity/audacity/releases/download/Audacity-${AUDACITY_VERSION}/audacity-linux-${AUDACITY_VERSION}-${ARCH}.AppImage" && \
   chmod +x /tmp/audacity.app && \
   ./audacity.app --appimage-extract && \
   mv squashfs-root /opt/audacity && \

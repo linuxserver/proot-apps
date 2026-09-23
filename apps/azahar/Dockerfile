@@ -14,7 +14,7 @@ RUN \
     libxkbcommon-x11-0 && \
   echo "**** install azahar ****" && \
   AZAHAR_URL=$(curl -sX GET "https://api.github.com/repos/azahar-emu/azahar/releases/latest" \
-    | jq -er '.assets[] | select(.name == "azahar-wayland.AppImage") | .browser_download_url') && \
+    | jq -er '.assets[] | select(.name == "azahar.AppImage") | .browser_download_url') && \
   curl -o \
     /tmp/azahar.app -L \
     "${AZAHAR_URL}" && \

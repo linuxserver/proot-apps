@@ -14,16 +14,16 @@ RUN \
   curl -o \
     /tmp/vscode.deb -L \
     "https://packages.microsoft.com/repos/code/pool/main/c/code/$(curl -sL https://packages.microsoft.com/repos/code/pool/main/c/code/ | awk -F'(<a href="|")' '/href=/ {print $2}' | sort --version-sort | tail -3 | grep ${ARCH})" && \
-  apt install -y --no-install-recommends \
+  DEBIAN_FRONTEND=noninteractive apt install -y --no-install-recommends \
     /tmp/vscode.deb && \
   echo "**** customize desktop file ****" && \
   sed -i \
     -e "/^Exec=/c Exec=/bin/sh -c \"\$HOME\/.local\/bin\/proot-apps run ghcr.io/${REPO}:vscode %U\"" \
     -e "s/Name=Visual Studio Code/Name=VSCode PA/g" \
     -e '/^TryExec=/d' \
-    /usr/share/applications/code.desktop && \
+    /usr/share/applications/com.microsoft.VSCode.desktop && \
   mv \
-    /usr/share/applications/code.desktop \
+    /usr/share/applications/com.microsoft.VSCode.desktop \
     /usr/share/applications/vscode-pa.desktop && \
   echo "**** set bin name ****" && \
   echo "vscode-pa" > /bin-name && \

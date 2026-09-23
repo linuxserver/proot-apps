@@ -20,7 +20,7 @@ RUN \
   mkdir -p /opt/telegram && \
   curl -o \
     /tmp/telegram.tar.xz -L \
-    "https://github.com/telegramdesktop/tdesktop/releases/download/v${TELEGRAM_VERSION}/tsetup.${TELEGRAM_VERSION}.tar.xz" && \
+    "https://github.com/telegramdesktop/tdesktop/releases/download/v${TELEGRAM_VERSION}/td-setup-linux-x64-${TELEGRAM_VERSION}.tar.xz" && \
   tar xf \
     /tmp/telegram.tar.xz -C \
     /opt/telegram/ --strip-components=1 && \

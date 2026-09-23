@@ -29,27 +29,24 @@ RUN \
     libwebkit2gtk-4.1-0 \
     libwx-perl \
     python3-xdg && \
-  ORCASLICER_VERSION=$(curl -sX GET "https://api.github.com/repos/OrcaSlicer/OrcaSlicer/releases/latest" \
-    | jq -r '.tag_name') && \
-  RELEASE_URL=$(curl -sX GET "https://api.github.com/repos/OrcaSlicer/OrcaSlicer/releases/latest" \
-    | jq -r '.url') && \
-  DOWNLOAD_URL=$(curl -sX GET "${RELEASE_URL}" \
-    | jq -r 'first(.assets[].browser_download_url | select(contains("Ubuntu2404")))') && \
-  curl -o \
-    /tmp/orcaslicer.app -L \
-    "${DOWNLOAD_URL}" && \
-  chmod +x /tmp/orcaslicer.app && \
+  ORCASLICER_VERSION=$(curl -sX GET "https://api.github.com/repos/OrcaSlicer/OrcaSlicer/releases/latest" | jq -r '.tag_name') && \
+  RELEASE_URL=$(curl -sX GET "https://api.github.com/repos/OrcaSlicer/OrcaSlicer/releases/latest" | jq -r '.url') && \
+  DOWNLOAD_URL=$(curl -sX GET "${RELEASE_URL}" | jq -r 'first(.assets[].browser_download_url | select(test("Ubuntu2404_V")))') && \
   cd /tmp && \
-  ./orcaslicer.app --appimage-extract && \
+  curl -o \
+    /tmp/orca.app -L \
+    "${DOWNLOAD_URL}" && \
+  chmod +x /tmp/orca.app && \
+  ./orca.app --appimage-extract && \
   mv squashfs-root /opt/orcaslicer && \
   echo "**** customize desktop file ****" && \
   sed -i \
     -e "/^Exec=/c Exec=/bin/sh -c \"\$HOME\/.local\/bin\/proot-apps run ghcr.io/${REPO}:orcaslicer %U\"" \
     -e "s/Name=OrcaSlicer/Name=OrcaSlicer PA/g" \
     -e '/^TryExec=/d' \
-    /opt/orcaslicer/OrcaSlicer.desktop && \
+    /opt/orcaslicer/com.orcaslicer.OrcaSlicer.desktop && \
   mv \
-    /opt/orcaslicer/OrcaSlicer.desktop \
+    /opt/orcaslicer/com.orcaslicer.OrcaSlicer.desktop \
     /usr/share/applications/orcaslicer-pa.desktop && \
   echo "**** set bin name ****" && \
   echo "orcaslicer-pa" > /bin-name && \
