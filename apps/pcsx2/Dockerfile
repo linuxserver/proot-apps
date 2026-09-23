@@ -15,6 +15,7 @@ RUN \
   echo "**** install packages ****" && \
   apt-get update && \
   apt-get install -y --no-install-recommends \
+    libshaderc1 \
     pcsx2 && \
   echo "**** dereference font symlinks ****" && \
   for FONT in /usr/share/PCSX2/resources/fonts/*; do \
