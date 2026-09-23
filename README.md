@@ -161,7 +161,6 @@ proot-apps update firefox
 | retroarch | ghcr.io/linuxserver/proot-apps:retroarch | linux/amd64,linux/arm64 | RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications.|
 | rpcs3 | ghcr.io/linuxserver/proot-apps:rpcs3 | linux/amd64 | RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++.|
 | rustdesk | ghcr.io/linuxserver/proot-apps:rustdesk | linux/amd64,linux/arm64 | RustDesk is a remote access and remote control software, primarily written in Rust, that enables remote maintenance of computers and other devices.|
-| ryujinx | ghcr.io/linuxserver/proot-apps:ryujinx | linux/amd64,linux/arm64 | Ryujinx is an open-source Nintendo Switch emulator.|
 | scummvm | ghcr.io/linuxserver/proot-apps:scummvm | linux/amd64 | ScummVM allows you to run certain classic graphical adventure and role-playing games, provided you already have their data files.|
 | shortwave | ghcr.io/linuxserver/proot-apps:shortwave | linux/amd64,linux/arm64 | Shortwave is an internet radio player that provides access to a station database with over 30,000 stations.|
 | shotcut | ghcr.io/linuxserver/proot-apps:shotcut | linux/amd64,linux/arm64 | Shotcut is a free, open source, cross-platform video editor.|
