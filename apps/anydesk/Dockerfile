@@ -7,15 +7,25 @@ RUN \
   echo "**** install packages ****" && \
   apt-get update && \
   apt-get install -y --no-install-recommends \
+    ca-certificates \
+    curl \
+    apt-transport-https \
     jq \
+    libevdev2 \
     libpolkit-gobject-1-0 && \
-  DEB=$(curl -sL https://download.anydesk.com/linux/ \
-  | awk -F '(">|<)' '/_amd64.deb/ && !/sum/ {print $3}' |tail -n1) && \
-  curl -o \
-    /tmp/anydesk.deb -L \
-    "https://download.anydesk.com/linux/${DEB}" && \
-  apt install -y --no-install-recommends \
-    /tmp/anydesk.deb || : && \
+  echo "**** add AnyDesk GPG key ****" && \
+  install -m 0755 -d /etc/apt/keyrings && \
+  curl -fsSL \
+    https://keys.anydesk.com/repos/DEB-GPG-KEY \
+    -o /etc/apt/keyrings/keys.anydesk.com.asc && \
+  chmod a+r /etc/apt/keyrings/keys.anydesk.com.asc && \
+  echo "**** add AnyDesk apt repository ****" && \
+  echo "deb [signed-by=/etc/apt/keyrings/keys.anydesk.com.asc] https://deb.anydesk.com all main" \
+    > /etc/apt/sources.list.d/anydesk-stable.list && \
+  echo "**** install AnyDesk ****" && \
+  apt-get update && \
+  apt-get install -y --no-install-recommends \
+    anydesk && \
   echo "**** customize desktop file ****" && \
   sed -i \
     -e "/^Exec=/c Exec=/bin/sh -c \"\$HOME\/.local\/bin\/proot-apps run ghcr.io/${REPO}:anydesk %U\"" \
