@@ -328,7 +328,7 @@ libxxhash0                      0.8.3-2build1                          deb
 libzstd1                        1.5.7+dfsg-3                           deb          
 libzvbi-common                  0.2.44-1ubuntu2                        deb          
 libzvbi0t64                     0.2.44-1ubuntu2                        deb          
-linux-libc-dev                  7.0.0-31.31                            deb          
+linux-libc-dev                  7.0.0-34.34                            deb          
 locales-all                     2.43-2ubuntu2.4                        deb          
 login                           1:4.16.0-2+really2.41.3-3ubuntu2.2     deb          
 login.defs                      1:4.17.4-2ubuntu3                      deb          
@@ -366,8 +366,8 @@ x11-common                      1:7.7+26ubuntu1                        deb
 x11-xkb-utils                   7.7+9build1                            deb          
 xdg-utils                       1.2.1-2ubuntu2                         deb          
 xkb-data                        2.46-2                                 deb          
-xserver-common                  2:21.1.22-1ubuntu1                     deb          
-xserver-xorg-core               2:21.1.22-1ubuntu1                     deb          
+xserver-common                  2:21.1.22-1ubuntu1.2                   deb          
+xserver-xorg-core               2:21.1.22-1ubuntu1.2                   deb          
 xserver-xorg-video-amdgpu       25.0.0-1                               deb          
 xserver-xorg-video-ati          1:22.0.0-1build2                       deb          
 xserver-xorg-video-intel        2:2.99.917+git20210115-1build2         deb          

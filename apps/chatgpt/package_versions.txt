@@ -26,7 +26,7 @@ binutils-x86-64-linux-gnu       2.44-3                                deb
 bsdutils                        1:2.41.5-0+deb13u1                    deb                    
 buffer                          6.0.3                                 npm                    
 ca-certificates                 20250419                              deb                    
-chatgpt                         26.917.61114                          deb                    
+chatgpt                         26.917.71314                          deb                    
 classic-level                   3.0.0                                 npm   (+3 duplicates)  
 corepack                        0.36.0                                npm                    
 coreutils                       9.7-3                                 deb                    

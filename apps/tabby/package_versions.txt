@@ -7,14 +7,14 @@ adwaita-icon-theme                48.1-1                                deb
 apt                               3.0.3                                 deb     
 async                             0.2.10                                npm     
 at-spi2-common                    2.56.2-1+deb13u2                      deb     
-balanced-match                    1.0.0                                 npm     
+balanced-match                    1.0.2                                 npm     
 base-files                        13.8+deb13u7                          deb     
 base-passwd                       3.6.7                                 deb     
 bash                              5.2.37-2+b10                          deb     
 binutils                          2.44-3                                deb     
 binutils-common                   2.44-3                                deb     
 binutils-x86-64-linux-gnu         2.44-3                                deb     
-brace-expansion                   1.1.16                                npm     
+brace-expansion                   1.1.18                                npm     
 bsdutils                          1:2.41.5-0+deb13u1                    deb     
 ca-certificates                   20250419                              deb     
 cli                               0.4.5                                 npm     
@@ -39,6 +39,7 @@ dconf-service                     0.40.0-5                              deb
 debconf                           1.5.91                                deb     
 debian-archive-keyring            2025.1                                deb     
 debianutils                       5.23.2                                deb     
+debug                             4.3.4                                 npm     
 desktop-file-utils                0.28-1                                deb     
 diffutils                         1:3.10-4                              deb     
 dpkg                              1.22.22                               deb     
@@ -374,11 +375,12 @@ mesa-va-drivers                   25.0.7-2+deb13u1                      deb
 mesa-vulkan-drivers               25.0.7-2+deb13u1                      deb     
 minimatch                         3.1.5                                 npm     
 mount                             2.41.5-0+deb13u1                      deb     
+ms                                2.1.2                                 npm     
 native-process-working-directory  1.0.2                                 npm     
 ncurses-base                      6.5+20250216-2                        deb     
 ncurses-bin                       6.5+20250216-2                        deb     
 netcat-openbsd                    1.229-1                               deb     
-node-pty                          1.2.0-beta.8                          npm     
+node-pty                          1.2.0-beta.15                         npm     
 ocl-icd-libopencl1                2.3.3-1                               deb     
 once                              1.4.0                                 npm     
 openssl                           3.5.7-1~deb13u2                       deb     
@@ -394,8 +396,7 @@ procps                            2:4.0.4-9                             deb
 pulseaudio                        17.0+dfsg1-2+b1                       deb     
 pulseaudio-utils                  17.0+dfsg1-2+b1                       deb     
 rpcsvc-proto                      1.4.3-1                               deb     
-run-script-os                     1.1.6                                 npm     
-russh                             0.1.37+0.60.1                         npm     
+russh                             0.1.38+0.63.3                         npm     
 sed                               4.9-2+deb13u1                         deb     
 shared-mime-info                  2.4-5+b2                              deb     
 simple-app                        0.1.0                                 npm     
@@ -418,7 +419,7 @@ tabby-settings                    1.0.231-nightly.0                     npm
 tabby-ssh                         1.0.231-nightly.0                     npm     
 tabby-telnet                      1.0.231-nightly.0                     npm     
 tabby-terminal                    1.0.231-nightly.0                     npm     
-tabby-terminal                    1.0.235                               deb     
+tabby-terminal                    1.0.236                               deb     
 tar                               1.35+dfsg-3.1                         deb     
 tmp                               0.2.7                                 npm     
 tmp-promise                       3.0.3                                 npm     
