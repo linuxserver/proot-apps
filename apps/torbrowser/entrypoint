@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Start Tor Browser
-torbrowser-launcher "$@"
+MOZ_DISABLE_CONTENT_SANDBOX=1 /opt/tor-browser/Browser/start-tor-browser "$@"
