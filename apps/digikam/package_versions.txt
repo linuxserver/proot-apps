@@ -420,7 +420,7 @@ pango                      1.57.1-r0                apk
 paste                      1.0.15                   rust-crate                  
 pastey                     0.1.0                    rust-crate                  
 pcre2                      10.48-r0                 apk                         
-perl                       5.42.2-r0                apk                         
+perl                       5.42.2-r1                apk                         
 perl-image-exiftool        13.55-r0                 apk                         
 pixman                     0.46.4-r0                apk                         
 pkgconf                    2.5.1-r0                 apk                         
