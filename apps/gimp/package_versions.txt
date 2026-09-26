@@ -50,7 +50,7 @@ gcc-14                          14.2.0-19                             deb
 gcc-14-base                     14.2.0-19                             deb       
 gcc-14-x86-64-linux-gnu         14.2.0-19                             deb       
 gcc-x86-64-linux-gnu            4:14.2.0-1                            deb       
-ghostscript                     10.05.1~dfsg-1+deb13u1                deb       
+ghostscript                     10.05.1~dfsg-1+deb13u2                deb       
 gimp                            3.0.4-3+deb13u11                      deb       
 gimp-data                       3.0.4-3+deb13u11                      deb       
 gir1.2-atk-1.0                  2.56.2-1+deb13u2                      deb       
@@ -262,9 +262,9 @@ libgpm2                         1.20.7-11+b2                          deb
 libgprofng0                     2.44-3                                deb       
 libgraphite2-3                  1.3.14-2+deb13u1                      deb       
 libgraphite2-dev                1.3.14-2+deb13u1                      deb       
-libgs-common                    10.05.1~dfsg-1+deb13u1                deb       
-libgs10                         10.05.1~dfsg-1+deb13u1                deb       
-libgs10-common                  10.05.1~dfsg-1+deb13u1                deb       
+libgs-common                    10.05.1~dfsg-1+deb13u2                deb       
+libgs10                         10.05.1~dfsg-1+deb13u2                deb       
+libgs10-common                  10.05.1~dfsg-1+deb13u2                deb       
 libgsm1                         1.0.22-1+b2                           deb       
 libgssapi-krb5-2                1.21.3-5+deb13u1                      deb       
 libgstreamer-plugins-base1.0-0  1.26.2-1+deb13u2                      deb       

@@ -11,9 +11,9 @@ binutils-common                 2.44-3                                deb
 binutils-x86-64-linux-gnu       2.44-3                                deb     
 bsdutils                        1:2.41.5-0+deb13u1                    deb     
 ca-certificates                 20250419                              deb     
-chromium                        153.0.8010.52-1~deb13u1               deb     
-chromium-common                 153.0.8010.52-1~deb13u1               deb     
-chromium-l10n                   153.0.8010.52-1~deb13u1               deb     
+chromium                        154.0.8037.57-1~deb13u1               deb     
+chromium-common                 154.0.8037.57-1~deb13u1               deb     
+chromium-l10n                   154.0.8037.57-1~deb13u1               deb     
 coreutils                       9.7-3                                 deb     
 cpp                             4:14.2.0-1                            deb     
 cpp-14                          14.2.0-19                             deb     
