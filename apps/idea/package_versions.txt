@@ -272,7 +272,7 @@ jline-terminal-jna                      3.24.1                                  
 jline-terminal-jni                      3.24.1                                     java-archive                   
 jnaerator-runtime                       UNKNOWN                                    java-archive                   
 jniSymbolsResolver                      UNKNOWN                                    binary        (+1 duplicate)   
-jq                                      1.7.1-6+deb13u3                            deb                            
+jq                                      1.7.1-6+deb13u4                            deb                            
 jrt-fs                                  21.0.12.1                                  java-archive                   
 jrt-fs                                  21.0.8                                     java-archive                   
 js-plain-objects-compiler-plugin        UNKNOWN                                    java-archive                   
@@ -467,7 +467,7 @@ libjack-jackd2-0                        1.9.22~dfsg-4                           
 libjansson4                             2.14-2+b3                                  deb                            
 libjbig0                                2.1-6.1+b2                                 deb                            
 libjpeg62-turbo                         1:2.1.5-4                                  deb                            
-libjq1                                  1.7.1-6+deb13u3                            deb                            
+libjq1                                  1.7.1-6+deb13u4                            deb                            
 libjxl0.11                              0.11.2-0.1~deb13u2                         deb                            
 libk5crypto3                            1.21.3-5+deb13u1                           deb                            
 libkeyutils1                            1.6.3-6                                    deb                            

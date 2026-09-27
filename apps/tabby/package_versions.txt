@@ -74,7 +74,7 @@ ipv6                              3.1.1                                 npm
 ipv6                              3.1.3                                 npm     
 iso-codes                         4.18.0-1                              deb     
 isstream                          0.1.2                                 npm     
-jq                                1.7.1-6+deb13u3                       deb     
+jq                                1.7.1-6+deb13u4                       deb     
 keyboard-configuration            1.242~deb13u1                         deb     
 keytar                            7.9.0                                 npm     
 libabsl20240722                   20240722.0-4                          deb     
@@ -198,7 +198,7 @@ libjack-jackd2-0                  1.9.22~dfsg-4                         deb
 libjansson4                       2.14-2+b3                             deb     
 libjbig0                          2.1-6.1+b2                            deb     
 libjpeg62-turbo                   1:2.1.5-4                             deb     
-libjq1                            1.7.1-6+deb13u3                       deb     
+libjq1                            1.7.1-6+deb13u4                       deb     
 libjxl0.11                        0.11.2-0.1~deb13u2                    deb     
 libk5crypto3                      1.21.3-5+deb13u1                      deb     
 libkeyutils1                      1.6.3-6                               deb     
@@ -419,7 +419,7 @@ tabby-settings                    1.0.231-nightly.0                     npm
 tabby-ssh                         1.0.231-nightly.0                     npm     
 tabby-telnet                      1.0.231-nightly.0                     npm     
 tabby-terminal                    1.0.231-nightly.0                     npm     
-tabby-terminal                    1.0.236                               deb     
+tabby-terminal                    1.0.237                               deb     
 tar                               1.35+dfsg-3.1                         deb     
 tmp                               0.2.7                                 npm     
 tmp-promise                       3.0.3                                 npm     

@@ -90,7 +90,7 @@ hostname                        3.25                                  deb
 icu-devtools                    76.1-4                                deb       
 init-system-helpers             1.69~deb13u1                          deb       
 iso-codes                       4.18.0-1                              deb       
-jq                              1.7.1-6+deb13u3                       deb       
+jq                              1.7.1-6+deb13u4                       deb       
 keyboard-configuration          1.242~deb13u1                         deb       
 libaa1                          1.4p5-51.1+b1                         deb       
 libabsl20240722                 20240722.0-4                          deb       
@@ -313,7 +313,7 @@ libjbig2dec0                    0.20-1+deb13u1                        deb
 libjpeg-dev                     1:2.1.5-4                             deb       
 libjpeg62-turbo                 1:2.1.5-4                             deb       
 libjpeg62-turbo-dev             1:2.1.5-4                             deb       
-libjq1                          1.7.1-6+deb13u3                       deb       
+libjq1                          1.7.1-6+deb13u4                       deb       
 libjson-c5                      0.18+ds-1                             deb       
 libjson-glib-1.0-0              1.10.6+ds-2                           deb       
 libjson-glib-1.0-common         1.10.6+ds-2                           deb       
