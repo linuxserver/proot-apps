@@ -26,7 +26,7 @@ binutils-x86-64-linux-gnu       2.44-3                                deb
 bsdutils                        1:2.41.5-0+deb13u1                    deb                    
 buffer                          6.0.3                                 npm                    
 ca-certificates                 20250419                              deb                    
-chatgpt                         26.924.20706                          deb                    
+chatgpt                         26.924.22138                          deb                    
 classic-level                   3.0.0                                 npm   (+3 duplicates)  
 corepack                        0.36.0                                npm                    
 coreutils                       9.7-3                                 deb                    
@@ -83,7 +83,7 @@ init-system-helpers             1.69~deb13u1                          deb
 is-buffer                       2.0.5                                 npm   (+3 duplicates)  
 iso-codes                       4.18.0-1                              deb                    
 jpeg-js                         0.4.4                                 npm                    
-jq                              1.7.1-6+deb13u3                       deb                    
+jq                              1.7.1-6+deb13u4                       deb                    
 keyboard-configuration          1.242~deb13u1                         deb                    
 level-supports                  6.2.0                                 npm   (+3 duplicates)  
 level-transcoder                1.0.1                                 npm   (+3 duplicates)  
@@ -207,7 +207,7 @@ libjack-jackd2-0                1.9.22~dfsg-4                         deb
 libjansson4                     2.14-2+b3                             deb                    
 libjbig0                        2.1-6.1+b2                            deb                    
 libjpeg62-turbo                 1:2.1.5-4                             deb                    
-libjq1                          1.7.1-6+deb13u3                       deb                    
+libjq1                          1.7.1-6+deb13u4                       deb                    
 libjxl0.11                      0.11.2-0.1~deb13u2                    deb                    
 libk5crypto3                    1.21.3-5+deb13u1                      deb                    
 libkeyutils1                    1.6.3-6                               deb                    
