@@ -10,6 +10,8 @@ RUN \
     libatk1.0-0 \
     libatk-bridge2.0-0 \
     libnss3 \
+    libwayland-cursor0 \
+    libwayland-egl1 \
     libxcb-icccm4 \
     libxcb-image0 \
     libxcb-keysyms1 \
