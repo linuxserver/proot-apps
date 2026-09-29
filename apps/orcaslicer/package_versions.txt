@@ -212,8 +212,8 @@ libenchant-2-2                    2.3.3-2build2                         deb
 libepoxy0                         1.5.10-1build1                        deb                     
 liberror-perl                     0.17029-2                             deb                     
 libevdev2                         1.13.1+dfsg-1build1                   deb                     
-libevent-core-2.1-7t64            2.1.12-stable-9ubuntu2.1              deb                     
-libevent-pthreads-2.1-7t64        2.1.12-stable-9ubuntu2.1              deb                     
+libevent-core-2.1-7t64            2.1.12-stable-9ubuntu2.2              deb                     
+libevent-pthreads-2.1-7t64        2.1.12-stable-9ubuntu2.2              deb                     
 libexif-dev                       0.6.24-1ubuntu0.24.04.1               deb                     
 libexif12                         0.6.24-1ubuntu0.24.04.1               deb                     
 libexpat1                         2.6.1-2ubuntu0.6                      deb                     

@@ -196,9 +196,9 @@ libharfbuzz0b                        10.2.0-1+deb13u1                      deb
 libhdf4-0-alt                        4.3.0-1+b1                            deb     
 libhdf5-310                          1.14.5+repack-3                       deb     
 libhdf5-hl-310                       1.14.5+repack-3                       deb     
-libheif-plugin-dav1d                 1.19.8-1+deb13u1                      deb     
-libheif-plugin-libde265              1.19.8-1+deb13u1                      deb     
-libheif1                             1.19.8-1+deb13u1                      deb     
+libheif-plugin-dav1d                 1.23.4-1~deb13u1                      deb     
+libheif-plugin-libde265              1.23.4-1~deb13u1                      deb     
+libheif1                             1.23.4-1~deb13u1                      deb     
 libhogweed6t64                       3.10.1-1                              deb     
 libhunspell-1.7-0                    1.7.2+really1.7.2-10+b4               deb     
 libhwasan0                           14.2.0-19                             deb     
