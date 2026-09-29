@@ -8,7 +8,9 @@ RUN \
   apt-get update && \
   apt-get install -y --no-install-recommends \
     gnupg \
-    hicolor-icon-theme && \
+    hicolor-icon-theme \
+    pipewire \
+    wireplumber && \
   apt-key adv \
     --keyserver hkp://keyserver.ubuntu.com:80 \
     --recv-keys BC7345F522079769F5BBE987EFC71127F425E228 && \
