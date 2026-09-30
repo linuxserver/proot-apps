@@ -267,11 +267,11 @@ libpango-1.0-0                  1.56.3-1                              deb
 libpangocairo-1.0-0             1.56.3-1                              deb       
 libpangoft2-1.0-0               1.56.3-1                              deb       
 libpciaccess0                   0.17-3+b3                             deb       
-libpcre2-16-0                   10.46-1~deb13u2                       deb       
-libpcre2-32-0                   10.46-1~deb13u2                       deb       
-libpcre2-8-0                    10.46-1~deb13u2                       deb       
-libpcre2-dev                    10.46-1~deb13u2                       deb       
-libpcre2-posix3                 10.46-1~deb13u2                       deb       
+libpcre2-16-0                   10.46-1~deb13u3                       deb       
+libpcre2-32-0                   10.46-1~deb13u3                       deb       
+libpcre2-8-0                    10.46-1~deb13u3                       deb       
+libpcre2-dev                    10.46-1~deb13u3                       deb       
+libpcre2-posix3                 10.46-1~deb13u3                       deb       
 libpgm-5.3-0t64                 5.3.128~dfsg-2.1+b1                   deb       
 libpixman-1-0                   0.44.0-3                              deb       
 libpkgconf3                     1.8.1-4                               deb       
@@ -436,7 +436,7 @@ libzmq5                         4.3.5-1+b3                            deb
 libzstd1                        1.5.7+dfsg-1                          deb       
 libzvbi-common                  0.2.44-1                              deb       
 libzvbi0t64                     0.2.44-1                              deb       
-linux-libc-dev                  6.12.107-1                            deb       
+linux-libc-dev                  6.12.111-1                            deb       
 linux-sysctl-defaults           4.12.1                                deb       
 locales-all                     2.41-12+deb13u4                       deb       
 login                           1:4.16.0-2+really2.41.5-0+deb13u1     deb       
