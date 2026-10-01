@@ -16,6 +16,7 @@ RUN \
     gcc \
     jq \
     lang \
+    libva \
     linux-headers \
     make \
     mesa-dri-gallium \
@@ -29,7 +30,7 @@ RUN \
     xdg-utils \
     xf86-video-amdgpu \
     xf86-video-ati \
-    $(if [ $(uname -m) = "x86_64" ];then echo "xf86-video-intel";fi) \
+    $(if [ $(uname -m) = "x86_64" ];then echo "intel-media-driver libva-intel-driver xf86-video-intel";fi) \
     $(if [ $(uname -m) = "aarch64" ];then echo "mesa-vulkan-broadcom mesa-vulkan-panfrost mesa-vulkan-freedreno";fi) && \
   echo "**** setup xdg-open tunnel ****" && \
   mkdir -p /usr/share/applications && \

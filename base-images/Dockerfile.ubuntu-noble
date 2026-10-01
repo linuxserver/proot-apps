@@ -20,6 +20,10 @@ RUN \
     gcc \
     jq \
     libc6-dev \
+    libva-drm2 \
+    libva-wayland2 \
+    libva-x11-2 \
+    libva2 \
     libvulkan1 \
     locales-all \
     make \
@@ -30,7 +34,7 @@ RUN \
     xdg-utils \
     xserver-xorg-video-amdgpu \
     xserver-xorg-video-ati \
-    $(if [ $(uname -m) = "x86_64" ];then echo "xserver-xorg-video-intel";fi) && \
+    $(if [ $(uname -m) = "x86_64" ];then echo "i965-va-driver-shaders intel-media-va-driver-non-free xserver-xorg-video-intel";fi) && \
   echo "**** setup xdg-open tunnel ****" && \
   mkdir -p /usr/share/applications && \
   curl -o \
