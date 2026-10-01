@@ -183,7 +183,7 @@ libeconf                   0.8.4-r0                 apk
 libelf                     0.195-r0                 apk                         
 libevdev                   1.13.6-r0                apk                         
 libexpat                   2.8.5-r0                 apk                         
-libfdisk                   2.42.4-r0                apk                         
+libfdisk                   2.42.4-r1                apk                         
 libffi                     3.8.0-r0                 apk                         
 libflac                    1.5.0-r0                 apk                         
 libgcc                     15.2.0-r9                apk                         
@@ -217,14 +217,14 @@ libogg                     1.3.6-r0                 apk
 libopenmpt                 0.8.9-r0                 apk                         
 libpanelw                  6.6_p20260822-r0         apk                         
 libpciaccess               0.19-r0                  apk                         
-libpcre2-16                10.48-r0                 apk                         
+libpcre2-16                10.49-r0                 apk                         
 libpng                     1.6.59-r0                apk                         
 libproxy                   0.5.12-r0                apk                         
 libpsl                     0.21.5-r3                apk                         
 libpulse                   17.0-r7                  apk                         
 librist                    0.2.15-r0                apk                         
 libsasl                    2.1.28-r9                apk                         
-libselinux                 3.11-r2                  apk                         
+libselinux                 3.11-r3                  apk                         
 libsharpyuv                1.6.0-r0                 apk                         
 libsm                      1.2.6-r0                 apk                         
 libsndfile                 1.2.2-r3                 apk                         
@@ -423,8 +423,8 @@ py3-soupsieve-pyc          2.7-r1                   apk
 py3-speech-dispatcher      0.12.1-r5                apk                         
 py3-typing-extensions      4.16.0-r0                apk                         
 py3-typing-extensions-pyc  4.16.0-r0                apk                         
-py3-tzdata                 2026.3-r0                apk                         
-py3-tzdata-pyc             2026.3-r0                apk                         
+py3-tzdata                 2026.4-r0                apk                         
+py3-tzdata-pyc             2026.4-r0                apk                         
 py3-tzlocal                5.3.1-r1                 apk                         
 py3-tzlocal-pyc            5.3.1-r1                 apk                         
 py3-webencodings           0.5.1-r10                apk                         
@@ -506,7 +506,7 @@ thread_local               1.1.9                    rust-crate
 tiff                       4.7.2-r0                 apk                         
 tslib                      1.24-r0                  apk                         
 typing-extensions          4.16.0                   python                      
-tzdata                     2026.3                   python                      
+tzdata                     2026.4                   python                      
 tzdata                     2026d-r0                 apk                         
 tzlocal                    5.3.1                    python                      
 uchardet-libs              0.0.8-r2                 apk                         

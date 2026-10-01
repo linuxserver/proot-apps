@@ -200,7 +200,7 @@ libksba                         1.7.0-r0                 apk
 liblangtag                      0.6.7-r0                 apk                           
 liblayout                       UNKNOWN                  java-archive                  
 libldac                         2.0.2.3-r1               apk                           
-libldap                         2.6.14-r0                apk                           
+libldap                         2.6.15-r0                apk                           
 liblksctp                       1.0.19-r5                apk                           
 libloader                       1.1.6                    java-archive                  
 libltdl                         2.6.0-r1                 apk                           
