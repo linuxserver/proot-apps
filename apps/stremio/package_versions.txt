@@ -44,7 +44,9 @@ gsettings-desktop-schemas           42.0-1ubuntu1                            deb
 gzip                                1.10-4ubuntu4.2                          deb     
 hicolor-icon-theme                  0.17-2                                   deb     
 hostname                            3.23ubuntu2                              deb     
+i965-va-driver-shaders              2.4.1-1                                  deb     
 init-system-helpers                 1.62                                     deb     
+intel-media-va-driver-non-free      22.3.1+ds1-1ubuntu0.1                    deb     
 iso-codes                           4.9.0-1                                  deb     
 jq                                  1.6-2.1ubuntu3.2                         deb     
 keyboard-configuration              1.205ubuntu3                             deb     
@@ -168,6 +170,7 @@ libice6                             2:1.0.10-1build2                         deb
 libicu70                            70.1-2                                   deb     
 libidn2-0                           2.3.2-2build1                            deb     
 libiec61883-0                       1.2.0-4build3                            deb     
+libigdgmm12                         22.1.2+ds1-1                             deb     
 libinput-bin                        1.20.0-1ubuntu0.4                        deb     
 libinput10                          1.20.0-1ubuntu0.4                        deb     
 libisl23                            0.24-2build1                             deb     
@@ -421,7 +424,7 @@ libzmq5                             4.3.4-2                                  deb
 libzstd1                            1.4.8+dfsg-3build1                       deb     
 libzvbi-common                      0.2.35-19                                deb     
 libzvbi0                            0.2.35-19                                deb     
-linux-libc-dev                      5.15.0-194.204                           deb     
+linux-libc-dev                      5.15.0-198.208                           deb     
 login                               1:4.8.1-2ubuntu2.2                       deb     
 logsave                             1.46.5-2ubuntu1.2                        deb     
 lsb-base                            11.1.0ubuntu4                            deb     

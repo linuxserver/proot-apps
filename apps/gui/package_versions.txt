@@ -85,6 +85,8 @@ icu-data-en                 78.1-r0                  apk
 icu-libs                    78.1-r0                  apk       
 idna                        3.16                     python    
 imath                       3.2.2-r1                 apk       
+intel-gmmlib                22.10.1-r0               apk       
+intel-media-driver          26.2.1-r0                apk       
 isl26                       0.26-r2                  apk       
 iso-codes                   4.20.1-r0                apk       
 iso-codes-lang              4.20.1-r0                apk       
@@ -144,7 +146,7 @@ libncursesw                 6.6_p20260516-r0         apk
 libogg                      1.3.6-r0                 apk       
 libpanelw                   6.6_p20260516-r0         apk       
 libpciaccess                0.19-r0                  apk       
-libpng                      1.6.58-r1                apk       
+libpng                      1.6.59-r0                apk       
 libpsl                      0.21.5-r3                apk       
 libpulse                    17.0-r7                  apk       
 libraw1394                  2.1.2-r5                 apk       
@@ -224,7 +226,7 @@ ncurses-terminfo-base       6.6_p20260516-r0         apk
 neon                        0.36.0-r0                apk       
 netcat-openbsd              1.234.1-r0               apk       
 nettle                      3.10.2-r0                apk       
-nghttp2-libs                1.69.0-r0                apk       
+nghttp2-libs                1.70.0-r0                apk       
 numactl                     2.0.19-r0                apk       
 oniguruma                   6.9.10-r0                apk       
 openal-soft-libs            1.25.2-r0                apk       
@@ -238,7 +240,7 @@ opus                        1.6.1-r0                 apk
 orc                         0.4.41-r0                apk       
 p11-kit                     0.26.2-r0                apk       
 pango                       1.57.1-r0                apk       
-pcre2                       10.48-r0                 apk       
+pcre2                       10.49-r0                 apk       
 pixman                      0.46.4-r0                apk       
 pkgconf                     2.5.1-r0                 apk       
 pulseaudio                  17.0-r7                  apk       
@@ -260,11 +262,11 @@ py3-urllib3                 2.7.0-r0                 apk
 py3-urllib3-pyc             2.7.0-r0                 apk       
 py3-yaml                    6.0.3-r2                 apk       
 py3-yaml-pyc                6.0.3-r2                 apk       
-pyc                         3.14.7-r1                apk       
+pyc                         3.14.8-r0                apk       
 pygobject                   3.56.3                   python    
-python3                     3.14.7-r1                apk       
-python3-pyc                 3.14.7-r1                apk       
-python3-pycache-pyc0        3.14.7-r1                apk       
+python3                     3.14.8-r0                apk       
+python3-pyc                 3.14.8-r0                apk       
+python3-pycache-pyc0        3.14.8-r0                apk       
 pyyaml                      6.0.3                    python    
 readline                    8.3.3-r1                 apk       
 requests                    2.33.1                   python    

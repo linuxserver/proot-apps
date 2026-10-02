@@ -87,8 +87,10 @@ gtk-update-icon-cache           4.18.6+ds-2                           deb
 gzip                            1.13-1+deb13u1                        deb       
 hicolor-icon-theme              0.18-2                                deb       
 hostname                        3.25                                  deb       
+i965-va-driver-shaders          2.4.1-2                               deb       
 icu-devtools                    76.1-4                                deb       
 init-system-helpers             1.69~deb13u1                          deb       
+intel-media-va-driver-non-free  25.2.3+ds1-1                          deb       
 iso-codes                       4.18.0-1                              deb       
 jq                              1.7.1-6+deb13u4                       deb       
 keyboard-configuration          1.242~deb13u1                         deb       
@@ -298,6 +300,7 @@ libicu-dev                      76.1-4                                deb
 libicu76                        76.1-4                                deb       
 libidn12                        1.43-1                                deb       
 libidn2-0                       2.3.8-2                               deb       
+libigdgmm12                     22.7.2+ds1-1                          deb       
 libijs-0.35                     0.35-15.2                             deb       
 libimagequant0                  2.18.0-1+b2                           deb       
 libimath-3-1-29t64              3.1.12-1+b3                           deb       
@@ -394,9 +397,9 @@ libperl5.40                     5.40.1-6+deb13u1                      deb
 libpixman-1-0                   0.44.0-3                              deb       
 libpixman-1-dev                 0.44.0-3                              deb       
 libpkgconf3                     1.8.1-4                               deb       
-libpng-dev                      1.6.48-1+deb13u5                      deb       
-libpng-tools                    1.6.48-1+deb13u5                      deb       
-libpng16-16t64                  1.6.48-1+deb13u5                      deb       
+libpng-dev                      1.6.48-1+deb13u6                      deb       
+libpng-tools                    1.6.48-1+deb13u6                      deb       
+libpng16-16t64                  1.6.48-1+deb13u6                      deb       
 libpoppler-glib8t64             25.03.0-5+deb13u4                     deb       
 libpoppler147                   25.03.0-5+deb13u4                     deb       
 libproc2-0                      2:4.0.4-9                             deb       
@@ -440,7 +443,7 @@ libspeex1                       1.2.1-3                               deb
 libspeexdsp1                    1.2.1-3                               deb       
 libsqlite3-0                    3.46.1-7+deb13u2                      deb       
 libssh2-1t64                    1.11.1-1+deb13u2                      deb       
-libssl3t64                      3.5.7-1~deb13u2                       deb       
+libssl3t64                      3.5.7-1~deb13u3                       deb       
 libstdc++6                      14.2.0-19                             deb       
 libsuitesparseconfig7           1:7.10.1+dfsg-1                       deb       
 libsvtav1enc2                   2.3.0+dfsg-1                          deb       
@@ -469,6 +472,7 @@ libunistring5                   1.3-2                                 deb
 libunwind8                      1.8.1-0.1                             deb       
 libuuid1                        2.41.5-0+deb13u1                      deb       
 libva-drm2                      2.22.0-3                              deb       
+libva-wayland2                  2.22.0-3                              deb       
 libva-x11-2                     2.22.0-3                              deb       
 libva2                          2.22.0-3                              deb       
 libvdpau1                       1.5-3+b1                              deb       
@@ -582,8 +586,8 @@ ncurses-bin                     6.5+20250216-2                        deb
 netbase                         6.5                                   deb       
 netcat-openbsd                  1.229-1                               deb       
 ocl-icd-libopencl1              2.3.3-1                               deb       
-openssl                         3.5.7-1~deb13u2                       deb       
-openssl-provider-legacy         3.5.7-1~deb13u2                       deb       
+openssl                         3.5.7-1~deb13u3                       deb       
+openssl-provider-legacy         3.5.7-1~deb13u3                       deb       
 packaging                       25.0                                  python    
 pango1.0-tools                  1.56.3-1                              deb       
 passwd                          1:4.17.4-2                            deb       

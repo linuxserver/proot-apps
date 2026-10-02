@@ -106,6 +106,8 @@ gstreamer-lang             1.26.9-r0                apk
 gstreamer-ptp-helper       1.26.9-r0                apk                         
 harfbuzz                   12.2.0-r0                apk                         
 hwdata-pci                 0.401-r0                 apk                         
+intel-gmmlib               22.9.0-r0                apk                         
+intel-media-driver         25.4.6-r0                apk                         
 interpolate_name           0.2.4                    rust-crate                  
 is_terminal_polyfill       1.70.1                   rust-crate                  
 isl26                      0.26-r1                  apk                         
@@ -162,7 +164,7 @@ libopenmpt                 0.8.6-r0                 apk
 libpanelw                  6.5_p20251123-r0         apk                         
 libpciaccess               0.18.1-r1                apk                         
 libplacebo                 7.351.0-r0               apk                         
-libpng                     1.6.58-r1                apk                         
+libpng                     1.6.59-r0                apk                         
 libpsl                     0.21.5-r3                apk                         
 libpulse                   17.0-r5                  apk                         
 librist                    0.2.10-r1                apk                         
@@ -268,7 +270,7 @@ pango                      1.56.4-r0                apk
 pangomm2.46                2.46.4-r1                apk                         
 paste                      1.0.15                   rust-crate                  
 pastey                     0.1.0                    rust-crate                  
-pcre2                      10.48-r0                 apk                         
+pcre2                      10.49-r0                 apk                         
 pixman                     0.46.4-r0                apk                         
 ppv-lite86                 0.2.21                   rust-crate                  
 proc-macro2                1.0.95                   rust-crate                  
@@ -276,10 +278,10 @@ profiling                  1.0.16                   rust-crate
 pulseaudio                 17.0-r5                  apk                         
 pulseaudio-alsa            17.0-r5                  apk                         
 pulseaudio-lang            17.0-r5                  apk                         
-pyc                        3.12.14-r0               apk                         
-python3                    3.12.14-r0               apk                         
-python3-pyc                3.12.14-r0               apk                         
-python3-pycache-pyc0       3.12.14-r0               apk                         
+pyc                        3.12.15-r0               apk                         
+python3                    3.12.15-r0               apk                         
+python3-pyc                3.12.15-r0               apk                         
+python3-pycache-pyc0       3.12.15-r0               apk                         
 quote                      1.0.40                   rust-crate                  
 radium                     0.7.0                    rust-crate                  
 rand                       0.9.1                    rust-crate                  

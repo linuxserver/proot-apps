@@ -67,7 +67,9 @@ grep                            3.12-1                                 deb
 gsettings-desktop-schemas       50.0-1ubuntu2                          deb          
 gzip                            1.14-1~exp2ubuntu1.1                   deb          
 hostname                        3.25build1                             deb          
+i965-va-driver-shaders          2.4.1-2build1                          deb          
 init-system-helpers             1.69                                   deb          
+intel-media-va-driver-non-free  26.1.2+ds1-1                           deb          
 iso-codes                       4.20.1-1                               deb          
 jq                              1.8.1-4ubuntu2                         deb          
 keyboard-configuration          1.237ubuntu3.1                         deb          
@@ -188,6 +190,7 @@ libibverbs1                     61.0-2ubuntu3                          deb
 libice6                         2:1.1.1-1build1                        deb          
 libicu78                        78.2-2ubuntu1                          deb          
 libidn2-0                       2.3.8-4build1                          deb          
+libigdgmm12                     22.9.0+ds1-1                           deb          
 libinput-bin                    1.31.1-1ubuntu1.2                      deb          
 libinput10                      1.31.1-1ubuntu1.2                      deb          
 libisl23                        0.27-1build1                           deb          
@@ -336,6 +339,7 @@ libunistring5                   1.3-2build1                            deb
 libunwind8                      1.8.3-0ubuntu1                         deb          
 libuuid1                        2.41.3-3ubuntu2.2                      deb          
 libva-drm2                      2.23.0-1ubuntu1                        deb          
+libva-wayland2                  2.23.0-1ubuntu1                        deb          
 libva-x11-2                     2.23.0-1ubuntu1                        deb          
 libva2                          2.23.0-1ubuntu1                        deb          
 libvdpau1                       1.5-4                                  deb          
@@ -410,7 +414,7 @@ libzmq5                         4.3.5-1build3                          deb
 libzstd1                        1.5.7+dfsg-3                           deb          
 libzvbi-common                  0.2.44-1ubuntu2                        deb          
 libzvbi0t64                     0.2.44-1ubuntu2                        deb          
-linux-libc-dev                  7.0.0-34.34                            deb          
+linux-libc-dev                  7.0.0-38.38                            deb          
 locales-all                     2.43-2ubuntu2.4                        deb          
 login                           1:4.16.0-2+really2.41.3-3ubuntu2.2     deb          
 login.defs                      1:4.17.4-2ubuntu3                      deb          

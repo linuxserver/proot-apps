@@ -87,8 +87,10 @@ hlsl                                        10.0.0                              
 hostname                                    3.25                                  deb                     
 html                                        10.0.0                                npm                     
 html-language-features                      10.0.0                                npm                     
+i965-va-driver-shaders                      2.4.1-2                               deb                     
 ini                                         10.0.0                                npm                     
 init-system-helpers                         1.69~deb13u1                          deb                     
+intel-media-va-driver-non-free              25.2.3+ds1-1                          deb                     
 ipynb                                       10.0.0                                npm                     
 iso-codes                                   4.18.0-1                              deb                     
 jake                                        10.0.0                                npm                     
@@ -210,6 +212,7 @@ libhwasan0                                  14.2.0-19                           
 libhwy1t64                                  1.2.0-2+b2                            deb                     
 libice6                                     2:1.1.1-1                             deb                     
 libidn2-0                                   2.3.8-2                               deb                     
+libigdgmm12                                 22.7.2+ds1-1                          deb                     
 libisl23                                    0.27-1                                deb                     
 libitm1                                     14.2.0-19                             deb                     
 libjack-jackd2-0                            1.9.22~dfsg-4                         deb                     
@@ -296,7 +299,7 @@ libspeex1                                   1.2.1-3                             
 libspeexdsp1                                1.2.1-3                               deb                     
 libsqlite3-0                                3.46.1-7+deb13u2                      deb                     
 libssh2-1t64                                1.11.1-1+deb13u2                      deb                     
-libssl3t64                                  3.5.7-1~deb13u2                       deb                     
+libssl3t64                                  3.5.7-1~deb13u3                       deb                     
 libstdc++6                                  14.2.0-19                             deb                     
 libsvtav1enc2                               2.3.0+dfsg-1                          deb                     
 libswresample5                              7:7.1.5-0+deb13u1                     deb                     
@@ -318,6 +321,7 @@ libunistring5                               1.3-2                               
 libunwind8                                  1.8.1-0.1                             deb                     
 libuuid1                                    2.41.5-0+deb13u1                      deb                     
 libva-drm2                                  2.22.0-3                              deb                     
+libva-wayland2                              2.22.0-3                              deb                     
 libva-x11-2                                 2.22.0-3                              deb                     
 libva2                                      2.22.0-3                              deb                     
 libvdpau1                                   1.5-3+b1                              deb                     
@@ -409,8 +413,8 @@ npm                                         10.0.0                              
 objective-c                                 10.0.0                                npm                     
 ocl-icd-libopencl1                          2.3.3-1                               deb                     
 openssh-client                              1:10.0p1-7+deb13u4                    deb                     
-openssl                                     3.5.7-1~deb13u2                       deb                     
-openssl-provider-legacy                     3.5.7-1~deb13u2                       deb                     
+openssl                                     3.5.7-1~deb13u3                       deb                     
+openssl-provider-legacy                     3.5.7-1~deb13u3                       deb                     
 passwd                                      1:4.17.4-2                            deb                     
 perl                                        10.0.0                                npm                     
 perl                                        5.40.1-6+deb13u1                      deb                     

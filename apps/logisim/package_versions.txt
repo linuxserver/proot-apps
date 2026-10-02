@@ -98,7 +98,9 @@ grep                               3.11-4                                deb
 gzip                               1.13-1+deb13u1                        deb             
 hicolor-icon-theme                 0.18-2                                deb             
 hostname                           3.25                                  deb             
+i965-va-driver-shaders             2.4.1-2                               deb             
 init-system-helpers                1.69~deb13u1                          deb             
+intel-media-va-driver-non-free     25.2.3+ds1-1                          deb             
 iso-codes                          4.18.0-1                              deb             
 jq                                 1.7.1-6+deb13u4                       deb             
 jrt-fs                             26.0.1                                java-archive    
@@ -193,6 +195,7 @@ libhwasan0                         14.2.0-19                             deb
 libhwy1t64                         1.2.0-2+b2                            deb             
 libice6                            2:1.1.1-1                             deb             
 libidn2-0                          2.3.8-2                               deb             
+libigdgmm12                        22.7.2+ds1-1                          deb             
 libisl23                           0.27-1                                deb             
 libitm1                            14.2.0-19                             deb             
 libjack-jackd2-0                   1.9.22~dfsg-4                         deb             
@@ -242,7 +245,7 @@ libpangoft2-1.0-0                  1.56.3-1                              deb
 libpciaccess0                      0.17-3+b3                             deb             
 libpcre2-8-0                       10.46-1~deb13u2                       deb             
 libpixman-1-0                      0.44.0-3                              deb             
-libpng16-16t64                     1.6.48-1+deb13u5                      deb             
+libpng16-16t64                     1.6.48-1+deb13u6                      deb             
 libpsl5t64                         0.21.2-1.1+b1                         deb             
 libpulse0                          17.0+dfsg1-2+b1                       deb             
 libpulsedsp                        17.0+dfsg1-2+b1                       deb             
@@ -272,7 +275,7 @@ libspeex1                          1.2.1-3                               deb
 libspeexdsp1                       1.2.1-3                               deb             
 libsqlite3-0                       3.46.1-7+deb13u2                      deb             
 libssh2-1t64                       1.11.1-1+deb13u2                      deb             
-libssl3t64                         3.5.7-1~deb13u2                       deb             
+libssl3t64                         3.5.7-1~deb13u3                       deb             
 libstdc++6                         14.2.0-19                             deb             
 libsvtav1enc2                      2.3.0+dfsg-1                          deb             
 libswresample5                     7:7.1.5-0+deb13u1                     deb             
@@ -294,6 +297,7 @@ libunistring5                      1.3-2                                 deb
 libunwind8                         1.8.1-0.1                             deb             
 libuuid1                           2.41.5-0+deb13u1                      deb             
 libva-drm2                         2.22.0-3                              deb             
+libva-wayland2                     2.22.0-3                              deb             
 libva-x11-2                        2.22.0-3                              deb             
 libva2                             2.22.0-3                              deb             
 libvdpau1                          1.5-3+b1                              deb             
@@ -372,8 +376,8 @@ ocl-icd-libopencl1                 2.3.3-1                               deb
 openhtmltopdf-core                 1.0.10                                java-archive    
 openhtmltopdf-pdfbox               1.0.10                                java-archive    
 openhtmltopdf-rtl-support          1.0.10                                java-archive    
-openssl                            3.5.7-1~deb13u2                       deb             
-openssl-provider-legacy            3.5.7-1~deb13u2                       deb             
+openssl                            3.5.7-1~deb13u3                       deb             
+openssl-provider-legacy            3.5.7-1~deb13u3                       deb             
 passwd                             1:4.17.4-2                            deb             
 pdfbox                             2.0.24                                java-archive    
 perl-base                          5.40.1-6+deb13u1                      deb             

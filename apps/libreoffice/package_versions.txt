@@ -115,6 +115,8 @@ hyphen                          2.8.8-r3                 apk
 icu-data-en                     78.1-r0                  apk                           
 icu-libs                        78.1-r0                  apk                           
 imath                           3.2.2-r1                 apk                           
+intel-gmmlib                    22.10.1-r0               apk                           
+intel-media-driver              26.2.1-r0                apk                           
 isl26                           0.26-r2                  apk                           
 iso-codes                       4.20.1-r0                apk                           
 iso-codes-lang                  4.20.1-r0                apk                           
@@ -218,8 +220,8 @@ liborcus                        0.20.2-r0                apk
 libpagemaker                    0.0.4-r9                 apk                           
 libpanelw                       6.6_p20260516-r0         apk                           
 libpciaccess                    0.19-r0                  apk                           
-libpcre2-16                     10.48-r0                 apk                           
-libpng                          1.6.58-r1                apk                           
+libpcre2-16                     10.49-r0                 apk                           
+libpng                          1.6.59-r0                apk                           
 libpq                           18.6-r0                  apk                           
 libproxy                        0.5.12-r0                apk                           
 libpsl                          0.21.5-r3                apk                           
@@ -333,7 +335,7 @@ ncurses-terminfo-base           6.6_p20260516-r0         apk
 neon                            0.36.0-r0                apk                           
 netcat-openbsd                  1.234.1-r0               apk                           
 nettle                          3.10.2-r0                apk                           
-nghttp2-libs                    1.69.0-r0                apk                           
+nghttp2-libs                    1.70.0-r0                apk                           
 npth                            1.8-r0                   apk                           
 nspr                            4.38.2-r0                apk                           
 nss                             3.124-r0                 apk                           
@@ -355,7 +357,7 @@ orc                             0.4.41-r0                apk
 p11-kit                         0.26.2-r0                apk                           
 p11-kit-trust                   0.26.2-r0                apk                           
 pango                           1.57.1-r0                apk                           
-pcre2                           10.48-r0                 apk                           
+pcre2                           10.49-r0                 apk                           
 pcsc-lite-libs                  2.4.0-r4                 apk                           
 pinentry                        1.3.2-r0                 apk                           
 pixman                          0.46.4-r0                apk                           
@@ -364,10 +366,10 @@ poppler                         25.12.0-r1               apk
 pulseaudio                      17.0-r7                  apk                           
 pulseaudio-alsa                 17.0-r7                  apk                           
 pulseaudio-lang                 17.0-r7                  apk                           
-pyc                             3.14.7-r1                apk                           
-python3                         3.14.7-r1                apk                           
-python3-pyc                     3.14.7-r1                apk                           
-python3-pycache-pyc0            3.14.7-r1                apk                           
+pyc                             3.14.8-r0                apk                           
+python3                         3.14.8-r0                apk                           
+python3-pyc                     3.14.8-r0                apk                           
+python3-pycache-pyc0            3.14.8-r0                apk                           
 qt6-qtbase                      6.11.1-r0                apk                           
 qt6-qtbase-wayland              6.11.1-r0                apk                           
 qt6-qtbase-x11                  6.11.1-r0                apk                           

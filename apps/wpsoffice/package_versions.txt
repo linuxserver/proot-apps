@@ -10,6 +10,7 @@ binutils-x86-64-linux-gnu       2.44-3                                deb
 bsdextrautils                   2.41.5-0+deb13u1                      deb     
 bsdutils                        1:2.41.5-0+deb13u1                    deb     
 ca-certificates                 20250419                              deb     
+cabextract                      1.11-2                                deb     
 coreutils                       9.7-3                                 deb     
 cpp                             4:14.2.0-1                            deb     
 cpp-14                          14.2.0-19                             deb     
@@ -30,6 +31,8 @@ dpkg                            1.22.22                               deb
 findutils                       4.10.0-3                              deb     
 fontconfig                      2.15.0-2.3                            deb     
 fontconfig-config               2.15.0-2.3                            deb     
+fonts-liberation                1:2.1.5-3                             deb     
+fonts-liberation-sans-narrow    1:1.07.6-4                            deb     
 fonts-noto                      20201225-2                            deb     
 fonts-noto-core                 20201225-2                            deb     
 fonts-noto-mono                 20201225-2                            deb     
@@ -41,7 +44,9 @@ gcc-x86-64-linux-gnu            4:14.2.0-1                            deb
 grep                            3.11-4                                deb     
 gzip                            1.13-1+deb13u1                        deb     
 hostname                        3.25                                  deb     
+i965-va-driver-shaders          2.4.1-2                               deb     
 init-system-helpers             1.69~deb13u1                          deb     
+intel-media-va-driver-non-free  25.2.3+ds1-1                          deb     
 iso-codes                       4.18.0-1                              deb     
 jq                              1.7.1-6+deb13u4                       deb     
 keyboard-configuration          1.242~deb13u1                         deb     
@@ -145,6 +150,7 @@ libhwy1t64                      1.2.0-2+b2                            deb
 libice6                         2:1.1.1-1                             deb     
 libicu76                        76.1-4                                deb     
 libidn2-0                       2.3.8-2                               deb     
+libigdgmm12                     22.7.2+ds1-1                          deb     
 libinput-bin                    1.28.1-1+deb13u1                      deb     
 libinput10                      1.28.1-1+deb13u1                      deb     
 libisl23                        0.27-1                                deb     
@@ -177,6 +183,7 @@ libmp3lame0                     3.100-6+b3                            deb
 libmpc3                         1.3.1-1+b3                            deb     
 libmpfr6                        4.2.2-1                               deb     
 libmpg123-0t64                  1.32.10-1+deb13u1                     deb     
+libmspack0t64                   0.11-1.1+b1                           deb     
 libmtdev1t64                    1.1.7-1                               deb     
 libnettle8t64                   3.10.1-1                              deb     
 libnghttp2-14                   1.64.0-1.1+deb13u1                    deb     
@@ -234,7 +241,7 @@ libspeex1                       1.2.1-3                               deb
 libspeexdsp1                    1.2.1-3                               deb     
 libsqlite3-0                    3.46.1-7+deb13u2                      deb     
 libssh2-1t64                    1.11.1-1+deb13u2                      deb     
-libssl3t64                      3.5.7-1~deb13u2                       deb     
+libssl3t64                      3.5.7-1~deb13u3                       deb     
 libstdc++6                      14.2.0-19                             deb     
 libsvtav1enc2                   2.3.0+dfsg-1                          deb     
 libswresample5                  7:7.1.5-0+deb13u1                     deb     
@@ -256,6 +263,7 @@ libunistring5                   1.3-2                                 deb
 libunwind8                      1.8.1-0.1                             deb     
 libuuid1                        2.41.5-0+deb13u1                      deb     
 libva-drm2                      2.22.0-3                              deb     
+libva-wayland2                  2.22.0-3                              deb     
 libva-x11-2                     2.22.0-3                              deb     
 libva2                          2.22.0-3                              deb     
 libvdpau1                       1.5-3+b1                              deb     
@@ -342,8 +350,8 @@ ncurses-base                    6.5+20250216-2                        deb
 ncurses-bin                     6.5+20250216-2                        deb     
 netcat-openbsd                  1.229-1                               deb     
 ocl-icd-libopencl1              2.3.3-1                               deb     
-openssl                         3.5.7-1~deb13u2                       deb     
-openssl-provider-legacy         3.5.7-1~deb13u2                       deb     
+openssl                         3.5.7-1~deb13u3                       deb     
+openssl-provider-legacy         3.5.7-1~deb13u3                       deb     
 passwd                          1:4.17.4-2                            deb     
 perl-base                       5.40.1-6+deb13u1                      deb     
 pulseaudio                      17.0+dfsg1-2+b1                       deb     
@@ -355,13 +363,17 @@ sqv                             1.3.0-3+b2                            deb
 systemd                         257.13-1~deb13u1                      deb     
 sysvinit-utils                  3.14-4                                deb     
 tar                             1.35+dfsg-3.1                         deb     
+ttf-mscorefonts-installer       3.8.1                                 deb     
 tzdata                          2026c-0+deb13u1                       deb     
 udev                            257.13-1~deb13u1                      deb     
 util-linux                      2.41.5-0+deb13u1                      deb     
+wget                            1.25.0-2                              deb     
 wps-office                      11.1.0.11723.XA                       deb     
 x11-common                      1:7.7+24+deb13u1                      deb     
 x11-xkb-utils                   7.7+9                                 deb     
 xdg-utils                       1.2.1-2                               deb     
+xfonts-encodings                1:1.0.4-2.2                           deb     
+xfonts-utils                    1:7.7+7                               deb     
 xkb-data                        2.42-1                                deb     
 xserver-common                  2:21.1.16-1.3+deb13u4                 deb     
 xserver-xorg-core               2:21.1.16-1.3+deb13u4                 deb     

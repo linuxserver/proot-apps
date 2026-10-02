@@ -143,6 +143,7 @@ html                                    0.12.0                                ja
 html                                    1.0.0                                 npm                            
 htmlparser2                             4.1.0                                 npm                            
 http-client                             3.1                                   java-archive                   
+i965-va-driver-shaders                  2.4.1-2                               deb                            
 ice4j                                   3.0-54-g2baae57                       java-archive                   
 icu4j                                   77.1                                  java-archive                   
 imaging                                 1.0-RC-1                              java-archive                   
@@ -155,6 +156,7 @@ ini4j                                   0.5.5-2                               ja
 init-system-helpers                     1.69~deb13u1                          deb                            
 inject_dll_amd64                        UNKNOWN                               binary                         
 inject_dll_x86                          UNKNOWN                               binary                         
+intel-media-va-driver-non-free          25.2.3+ds1-1                          deb                            
 io                                      3.1.3                                 java-archive                   
 iso-codes                               4.18.0-1                              deb                            
 jackson-core                            2.19.0                                java-archive                   
@@ -299,6 +301,7 @@ libhwasan0                              14.2.0-19                             de
 libhwy1t64                              1.2.0-2+b2                            deb                            
 libice6                                 2:1.1.1-1                             deb                            
 libidn2-0                               2.3.8-2                               deb                            
+libigdgmm12                             22.7.2+ds1-1                          deb                            
 libisl23                                0.27-1                                deb                            
 libitm1                                 14.2.0-19                             deb                            
 libjack-jackd2-0                        1.9.22~dfsg-4                         deb                            
@@ -392,7 +395,7 @@ libspeex1                               1.2.1-3                               de
 libspeexdsp1                            1.2.1-3                               deb                            
 libsqlite3-0                            3.46.1-7+deb13u2                      deb                            
 libssh2-1t64                            1.11.1-1+deb13u2                      deb                            
-libssl3t64                              3.5.7-1~deb13u2                       deb                            
+libssl3t64                              3.5.7-1~deb13u3                       deb                            
 libstdc++6                              14.2.0-19                             deb                            
 libsvtav1enc2                           2.3.0+dfsg-1                          deb                            
 libswresample5                          7:7.1.5-0+deb13u1                     deb                            
@@ -414,6 +417,7 @@ libunistring5                           1.3-2                                 de
 libunwind8                              1.8.1-0.1                             deb                            
 libuuid1                                2.41.5-0+deb13u1                      deb                            
 libva-drm2                              2.22.0-3                              deb                            
+libva-wayland2                          2.22.0-3                              deb                            
 libva-x11-2                             2.22.0-3                              deb                            
 libva2                                  2.22.0-3                              deb                            
 libvdpau1                               1.5-3+b1                              deb                            
@@ -514,8 +518,8 @@ objective-c                             1.0.0                                 np
 ocl-icd-libopencl1                      2.3.3-1                               deb                            
 openjdk                                 21.0.8+9-b1163.69                     binary                         
 openssh-client                          1:10.0p1-7+deb13u4                    deb                            
-openssl                                 3.5.7-1~deb13u2                       deb                            
-openssl-provider-legacy                 3.5.7-1~deb13u2                       deb                            
+openssl                                 3.5.7-1~deb13u3                       deb                            
+openssl-provider-legacy                 3.5.7-1~deb13u3                       deb                            
 org.eclipse.xtext.xbase.lib             2.40.0                                java-archive                   
 oshi-core                               6.8.2                                 java-archive                   
 packaging                               25.0                                  python                         

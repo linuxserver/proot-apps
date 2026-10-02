@@ -104,6 +104,8 @@ imagequant                       4.2.2                    rust-crate
 imagequant-sys                   4.0.3                    rust-crate    
 importlib-metadata               8.7.1                    python        
 incremental                      24.7.2                   python        
+intel-gmmlib                     22.10.1-r0               apk           
+intel-media-driver               26.2.1-r0                apk           
 isl26                            0.26-r2                  apk           
 iso-codes-lang                   4.20.1-r0                apk           
 jansson                          2.15.0-r0                apk           
@@ -177,8 +179,8 @@ libncursesw                      6.6_p20260516-r0         apk
 libogg                           1.3.6-r0                 apk           
 libpanelw                        6.6_p20260516-r0         apk           
 libpciaccess                     0.19-r0                  apk           
-libpcre2-16                      10.48-r0                 apk           
-libpng                           1.6.58-r1                apk           
+libpcre2-16                      10.49-r0                 apk           
+libpng                           1.6.59-r0                apk           
 libproxy                         0.5.12-r0                apk           
 libpsl                           0.21.5-r3                apk           
 libpulse                         17.0-r7                  apk           
@@ -260,7 +262,7 @@ musl-utils                       1.2.6-r2                 apk
 ncurses-terminfo-base            6.6_p20260516-r0         apk           
 netcat-openbsd                   1.234.1-r0               apk           
 nettle                           3.10.2-r0                apk           
-nghttp2-libs                     1.69.0-r0                apk           
+nghttp2-libs                     1.70.0-r0                apk           
 once_cell                        1.18.0                   rust-crate    
 oniguruma                        6.9.10-r0                apk           
 openjpeg                         2.5.4-r1                 apk           
@@ -270,7 +272,7 @@ p11-kit                          0.26.2-r0                apk
 packaging                        26.0                     python        
 packaging                        26.2                     python        
 pango                            1.57.1-r0                apk           
-pcre2                            10.48-r0                 apk           
+pcre2                            10.49-r0                 apk           
 pillow                           12.2.0                   python        
 pipewire-libs                    1.6.8-r4                 apk           
 pixman                           0.46.4-r0                apk           
@@ -354,7 +356,7 @@ py3-zope-interface               7.2-r1                   apk
 py3-zope-interface-pyc           7.2-r1                   apk           
 pyasn1                           0.6.3                    python        
 pyasn1-modules                   0.4.2                    python        
-pyc                              3.14.7-r1                apk           
+pyc                              3.14.8-r0                apk           
 pycairo                          1.28.0                   python        
 pycparser                        3.0                      python        
 pygobject                        3.56.3                   python        
@@ -362,9 +364,9 @@ pyhamcrest                       2.1.0                    python
 pyopenssl                        26.1.0                   python        
 pyparsing                        3.3.2                    python        
 pyserial                         3.5                      python        
-python3                          3.14.7-r1                apk           
-python3-pyc                      3.14.7-r1                apk           
-python3-pycache-pyc0             3.14.7-r1                apk           
+python3                          3.14.8-r0                apk           
+python3-pyc                      3.14.8-r0                apk           
+python3-pycache-pyc0             3.14.8-r0                apk           
 pyxdg                            0.28                     python        
 qt6-qtbase                       6.11.1-r0                apk           
 qt6-qtbase-wayland               6.11.1-r0                apk           

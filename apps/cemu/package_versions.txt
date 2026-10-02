@@ -69,7 +69,9 @@ gtk-update-icon-cache           4.22.4+ds-0ubuntu0.1                   deb
 gzip                            1.14-1~exp2ubuntu1.1                   deb          
 hicolor-icon-theme              0.18-2build1                           deb          
 hostname                        3.25build1                             deb          
+i965-va-driver-shaders          2.4.1-2build1                          deb          
 init-system-helpers             1.69                                   deb          
+intel-media-va-driver-non-free  26.1.2+ds1-1                           deb          
 iso-codes                       4.20.1-1                               deb          
 jq                              1.8.1-4ubuntu2                         deb          
 keyboard-configuration          1.237ubuntu3.1                         deb          
@@ -188,6 +190,7 @@ libhwasan0                      16-20260322-1ubuntu1                   deb
 libhwy1t64                      1.3.0-2                                deb          
 libice6                         2:1.1.1-1build1                        deb          
 libidn2-0                       2.3.8-4build1                          deb          
+libigdgmm12                     22.9.0+ds1-1                           deb          
 libisl23                        0.27-1build1                           deb          
 libitm1                         16-20260322-1ubuntu1                   deb          
 libjack-jackd2-0                1.9.22~dfsg-5build1                    deb          
@@ -283,7 +286,7 @@ libspeexdsp1                    1.2.1-3build1                          deb
 libsqlite3-0                    3.46.1-9ubuntu0.3                      deb          
 libss2                          1.47.2-3ubuntu4                        deb          
 libssh2-1t64                    1.11.1-1ubuntu0.26.04.4                deb          
-libssl3t64                      3.5.5-1ubuntu3.6                       deb          
+libssl3t64                      3.5.5-1ubuntu3.7                       deb          
 libstdc++6                      16-20260322-1ubuntu1                   deb          
 libsvtav1enc2                   2.3.0+dfsg-1build1                     deb          
 libswresample6                  7:8.0.1-3ubuntu2                       deb          
@@ -306,6 +309,7 @@ libunwind8                      1.8.3-0ubuntu1                         deb
 libusb-1.0-0                    2:1.0.29-2build1                       deb          
 libuuid1                        2.41.3-3ubuntu2.2                      deb          
 libva-drm2                      2.23.0-1ubuntu1                        deb          
+libva-wayland2                  2.23.0-1ubuntu1                        deb          
 libva-x11-2                     2.23.0-1ubuntu1                        deb          
 libva2                          2.23.0-1ubuntu1                        deb          
 libvdpau1                       1.5-4                                  deb          
@@ -372,7 +376,7 @@ libzip5                         1.11.4-2                               deb
 libzstd1                        1.5.7+dfsg-3                           deb          
 libzvbi-common                  0.2.44-1ubuntu2                        deb          
 libzvbi0t64                     0.2.44-1ubuntu2                        deb          
-linux-libc-dev                  7.0.0-34.34                            deb          
+linux-libc-dev                  7.0.0-38.38                            deb          
 locales-all                     2.43-2ubuntu2.4                        deb          
 login                           1:4.16.0-2+really2.41.3-3ubuntu2.2     deb          
 login.defs                      1:4.17.4-2ubuntu3                      deb          
@@ -386,8 +390,8 @@ ncurses-base                    6.6+20251231-1                         deb
 ncurses-bin                     6.6+20251231-1                         deb          
 netcat-openbsd                  1.234-1                                deb          
 ocl-icd-libopencl1              2.3.4-1                                deb          
-openssl                         3.5.5-1ubuntu3.6                       deb          
-openssl-provider-legacy         3.5.5-1ubuntu3.6                       deb          
+openssl                         3.5.5-1ubuntu3.7                       deb          
+openssl-provider-legacy         3.5.5-1ubuntu3.7                       deb          
 passwd                          1:4.17.4-2ubuntu3                      deb          
 perl-base                       5.40.1-7ubuntu0.3                      deb          
 procps                          2:4.0.4-9ubuntu1                       deb          

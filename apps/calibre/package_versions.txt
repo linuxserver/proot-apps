@@ -68,7 +68,7 @@ dbus                       1.16.2-r3                apk
 dbus-daemon-launch-helper  1.16.2-r3                apk                         
 dbus-libs                  1.16.2-r3                apk                         
 dbus-x11                   1.16.2-r3                apk                         
-device-mapper-libs         2.03.35-r6               apk                         
+device-mapper-libs         2.03.35-r7               apk                         
 dnspython                  2.8.0                    python                      
 double-conversion          3.4.0-r0                 apk                         
 duktape-libs               2.7.0-r3                 apk                         
@@ -134,6 +134,8 @@ icu-libs                   78.1-r0                  apk
 ifaddr                     0.2.0                    python                      
 imagequant                 4.4.1                    rust-crate                  
 imagequant-sys             4.1.0                    rust-crate                  
+intel-gmmlib               22.10.1-r0               apk                         
+intel-media-driver         26.2.4-r0                apk                         
 interpolate_name           0.2.4                    rust-crate                  
 is_terminal_polyfill       1.70.1                   rust-crate                  
 isl26                      0.26-r2                  apk                         
@@ -159,7 +161,7 @@ libasyncns                 0.8-r5                   apk
 libatasmart                0.19-r4                  apk                         
 libatomic                  15.2.0-r9                apk                         
 libb2                      0.98.1-r3                apk                         
-libblkid                   2.42.4-r0                apk                         
+libblkid                   2.42.4-r1                apk                         
 libblockdev                3.4.0-r1                 apk                         
 libbluray                  1.5.0-r0                 apk                         
 libbsd                     0.12.2-r0                apk                         
@@ -208,7 +210,7 @@ libltdl                    2.6.2-r1                 apk
 libmagic                   5.48-r0                  apk                         
 libmd                      1.2.0-r0                 apk                         
 libmng                     2.0.3-r2                 apk                         
-libmount                   2.42.4-r0                apk                         
+libmount                   2.42.4-r1                apk                         
 libmtp                     1.1.22-r1                apk                         
 libncursesw                6.6_p20260822-r0         apk                         
 libnl3                     3.11.0-r0                apk                         
@@ -240,7 +242,7 @@ libturbojpeg               3.1.3-r0                 apk
 libudfread                 1.2.0-r1                 apk                         
 libunistring               1.4.2-r0                 apk                         
 libusb                     1.0.30-r0                apk                         
-libuuid                    2.42.4-r0                apk                         
+libuuid                    2.42.4-r1                apk                         
 libva                      2.24.1-r0                apk                         
 libva-intel-driver         2.4.1-r2                 apk                         
 libvdpau                   1.5-r4                   apk                         
@@ -346,7 +348,7 @@ parted                     3.7-r0                   apk
 paste                      1.0.15                   rust-crate                  
 pastey                     0.1.0                    rust-crate                  
 pcaudiolib                 1.3-r0                   apk                         
-pcre2                      10.48-r0                 apk                         
+pcre2                      10.49-r0                 apk                         
 pillow                     12.3.0                   python                      
 pinentry                   1.3.2-r0                 apk                         
 pixman                     0.46.4-r0                apk                         
@@ -435,16 +437,16 @@ py3-xxhash                 3.8.1-r0                 apk
 py3-xxhash-pyc             3.8.1-r0                 apk                         
 py3-zeroconf               0.147.2-r1               apk                         
 py3-zeroconf-pyc           0.147.2-r1               apk                         
-pyc                        3.14.7-r0                apk                         
+pyc                        3.14.8-r0                apk                         
 pycryptodome               3.23.0                   python                      
 pygments                   2.21.0                   python                      
 pyqt6                      6.11.0                   python                      
 pyqt6-sip                  13.12.0                  python                      
 pyqt6-webengine            6.11.0                   python                      
 python-dateutil            2.9.0                    python                      
-python3                    3.14.7-r0                apk                         
-python3-pyc                3.14.7-r0                apk                         
-python3-pycache-pyc0       3.14.7-r0                apk                         
+python3                    3.14.8-r0                apk                         
+python3-pyc                3.14.8-r0                apk                         
+python3-pycache-pyc0       3.14.8-r0                apk                         
 pyxdg                      0.28                     python                      
 qt6-qtbase                 6.11.1-r3                apk                         
 qt6-qtbase-private-dev     6.11.1-r3                apk                         

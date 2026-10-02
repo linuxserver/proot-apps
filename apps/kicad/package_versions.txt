@@ -161,6 +161,8 @@ icu-libs                                  78.1-r0                  apk
 imagequant                                4.2.2                    rust-crate    
 imagequant-sys                            4.0.3                    rust-crate    
 imath                                     3.2.2-r1                 apk           
+intel-gmmlib                              22.10.1-r0               apk           
+intel-media-driver                        26.2.1-r0                apk           
 isl26                                     0.26-r2                  apk           
 iso-codes                                 4.20.1-r0                apk           
 iso-codes-lang                            4.20.1-r0                apk           
@@ -236,8 +238,8 @@ libnotify                                 0.8.8-r0                 apk
 libogg                                    1.3.6-r0                 apk           
 libpanelw                                 6.6_p20260516-r0         apk           
 libpciaccess                              0.19-r0                  apk           
-libpcre2-32                               10.48-r0                 apk           
-libpng                                    1.6.58-r1                apk           
+libpcre2-32                               10.49-r0                 apk           
+libpng                                    1.6.59-r0                apk           
 libprotobuf                               31.1-r1                  apk           
 libprotobuf-lite                          31.1-r1                  apk           
 libprotoc                                 31.1-r1                  apk           
@@ -337,7 +339,7 @@ neon                                      0.36.0-r0                apk
 netcat-openbsd                            1.234.1-r0               apk           
 netcdf                                    4.10.0-r0                apk           
 nettle                                    3.10.2-r0                apk           
-nghttp2-libs                              1.69.0-r0                apk           
+nghttp2-libs                              1.70.0-r0                apk           
 nng                                       1.11-r0                  apk           
 nspr                                      4.38.2-r0                apk           
 nss                                       3.124-r0                 apk           
@@ -360,7 +362,7 @@ opus                                      1.6.1-r0                 apk
 orc                                       0.4.41-r0                apk           
 p11-kit                                   0.26.2-r0                apk           
 pango                                     1.57.1-r0                apk           
-pcre2                                     10.48-r0                 apk           
+pcre2                                     10.49-r0                 apk           
 pillow                                    12.2.0                   python        
 pixman                                    0.46.4-r0                apk           
 pkgconf                                   2.5.1-r0                 apk           
@@ -401,11 +403,11 @@ py3-wxpython-lang                         4.2.5-r0                 apk
 py3-wxpython-pyc                          4.2.5-r0                 apk           
 py3-xcffib                                1.12.0-r1                apk           
 py3-xcffib-pyc                            1.12.0-r1                apk           
-pyc                                       3.14.7-r1                apk           
+pyc                                       3.14.8-r0                apk           
 pycparser                                 3.0                      python        
-python3                                   3.14.7-r1                apk           
-python3-pyc                               3.14.7-r1                apk           
-python3-pycache-pyc0                      3.14.7-r1                apk           
+python3                                   3.14.8-r0                apk           
+python3-pyc                               3.14.8-r0                apk           
+python3-pycache-pyc0                      3.14.8-r0                apk           
 rayon                                     1.8.0                    rust-crate    
 rayon-core                                1.12.0                   rust-crate    
 readline                                  8.3.3-r1                 apk           
