@@ -63,6 +63,9 @@ function trigger_panel_reload() {
   if [ -f "$HOME/.config/panel-reload" ]; then
     touch "$HOME/.config/panel-reload"
   fi
+  if ls "$HOME"/Desktop/*.desktop >/dev/null 2>&1; then
+    (sleep 6; touch "$HOME"/Desktop/*.desktop) >/dev/null 2>&1 &
+  fi
 }
 
 # Get registry endpoint and auth
