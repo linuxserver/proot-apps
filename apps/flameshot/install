@@ -17,3 +17,15 @@ cp \
   /usr/share/applications/flameshot-pa.desktop \
   $HOME/Desktop/
 chmod +x $HOME/Desktop/flameshot-pa.desktop
+
+## Default config ##
+FLAMESHOT_CONF=$HOME/.config/flameshot/flameshot.ini
+if ! grep -q "^useX11LegacyScreenshot=" $FLAMESHOT_CONF 2>/dev/null; then
+  echo "Setting X11 legacy screenshot"
+  mkdir -p $HOME/.config/flameshot/
+  if grep -q "^\[General\]" $FLAMESHOT_CONF 2>/dev/null; then
+    sed -i '/^\[General\]/a useX11LegacyScreenshot=true' $FLAMESHOT_CONF
+  else
+    printf '[General]\nuseX11LegacyScreenshot=true\n' >> $FLAMESHOT_CONF
+  fi
+fi
