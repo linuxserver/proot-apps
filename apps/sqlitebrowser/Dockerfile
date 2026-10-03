@@ -6,6 +6,7 @@ ARG REPO
 RUN \
   echo "**** install packages ****" && \
   apk add --no-cache \
+    qt5-qtwayland \
     sqlitebrowser && \
   echo "**** customize desktop file ****" && \
   sed -i \
