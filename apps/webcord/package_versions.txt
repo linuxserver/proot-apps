@@ -315,7 +315,7 @@ libpcre2-16-0                   10.46-1~deb13u3                       deb
 libpcre2-8-0                    10.46-1~deb13u3                       deb     
 libpixman-1-0                   0.44.0-3                              deb     
 libplist-2.0-4                  2.6.0-2+b1                            deb     
-libpng16-16t64                  1.6.48-1+deb13u5                      deb     
+libpng16-16t64                  1.6.48-1+deb13u6                      deb     
 libpolkit-agent-1-0             126-2                                 deb     
 libpolkit-gobject-1-0           126-2                                 deb     
 libpolkit-qt6-1-1               0.200.0-4+b1                          deb     

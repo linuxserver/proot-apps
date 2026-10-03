@@ -315,7 +315,7 @@ libsrt1.5-gnutls                1.5.4-3                                deb
 libss2                          1.47.2-3ubuntu4                        deb          
 libssh-4                        0.11.3-1ubuntu2.1                      deb          
 libssh2-1t64                    1.11.1-1ubuntu0.26.04.4                deb          
-libssl3t64                      3.5.5-1ubuntu3.6                       deb          
+libssl3t64                      3.5.5-1ubuntu3.7                       deb          
 libstdc++6                      16-20260322-1ubuntu1                   deb          
 libsvtav1enc2                   2.3.0+dfsg-1build1                     deb          
 libswresample6                  7:8.0.1-3ubuntu2                       deb          
@@ -398,7 +398,7 @@ libxkbcommon0                   1.13.1-1                               deb
 libxkbfile1                     1:1.1.0-1build5                        deb          
 libxml2-16                      2.15.2+dfsg-0.1ubuntu0.2               deb          
 libxmu6                         2:1.1.3-4                              deb          
-libxpm4                         1:3.5.17-1ubuntu0.26.04.1              deb          
+libxpm4                         1:3.5.17-1ubuntu0.26.04.2              deb          
 libxrandr2                      2:1.5.4-1build1                        deb          
 libxrender1                     1:0.9.12-1build1                       deb          
 libxshmfence1                   1.3.3-1build1                          deb          
@@ -428,8 +428,8 @@ ncurses-base                    6.6+20251231-1                         deb
 ncurses-bin                     6.6+20251231-1                         deb          
 netcat-openbsd                  1.234-1                                deb          
 ocl-icd-libopencl1              2.3.4-1                                deb          
-openssl                         3.5.5-1ubuntu3.6                       deb          
-openssl-provider-legacy         3.5.5-1ubuntu3.6                       deb          
+openssl                         3.5.5-1ubuntu3.7                       deb          
+openssl-provider-legacy         3.5.5-1ubuntu3.7                       deb          
 passwd                          1:4.17.4-2ubuntu3                      deb          
 pcsx2                           2.6.3+dfsg-1build1                     deb          
 perl-base                       5.40.1-7ubuntu0.3                      deb          
@@ -437,7 +437,7 @@ procps                          2:4.0.4-9ubuntu1                       deb
 pulseaudio                      1:17.0+dfsg1-2ubuntu4                  deb          
 pulseaudio-utils                1:17.0+dfsg1-2ubuntu4                  deb          
 rpcsvc-proto                    1.4.3-1build1                          deb          
-rust-coreutils                  0.8.0-0ubuntu3                         deb          
+rust-coreutils                  0.10.0-1ubuntu2~26.04.1                deb          
 sed                             4.9-2ubuntu1                           deb          
 sensible-utils                  0.0.26build1                           deb          
 shared-mime-info                2.4-5build3                            deb          

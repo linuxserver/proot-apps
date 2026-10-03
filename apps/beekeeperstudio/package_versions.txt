@@ -11,8 +11,8 @@ at-spi2-common                   2.56.2-1+deb13u2                      deb
 base-files                       13.8+deb13u7                          deb                   
 base-passwd                      3.6.7                                 deb                   
 bash                             5.2.37-2+b10                          deb                   
-beekeeper-studio                 6.1.4                                 deb                   
-beekeeper-studio                 6.1.4                                 npm                   
+beekeeper-studio                 6.1.5                                 deb                   
+beekeeper-studio                 6.1.5                                 npm                   
 better-sqlite3                   12.6.2                                npm                   
 binutils                         2.44-3                                deb                   
 binutils-common                  2.44-3                                deb                   
@@ -234,7 +234,7 @@ libpangoft2-1.0-0                1.56.3-1                              deb
 libpciaccess0                    0.17-3+b3                             deb                   
 libpcre2-8-0                     10.46-1~deb13u2                       deb                   
 libpixman-1-0                    0.44.0-3                              deb                   
-libpng16-16t64                   1.6.48-1+deb13u5                      deb                   
+libpng16-16t64                   1.6.48-1+deb13u6                      deb                   
 libproc2-0                       2:4.0.4-9                             deb                   
 libpsl5t64                       0.21.2-1.1+b1                         deb                   
 libpulse0                        17.0+dfsg1-2+b1                       deb                   

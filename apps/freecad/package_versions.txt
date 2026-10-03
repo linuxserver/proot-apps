@@ -280,7 +280,7 @@ libpcre2-16-0                       10.46-1~deb13u3                       deb
 libpcre2-8-0                        10.46-1~deb13u3                       deb       
 libpixman-1-0                       0.44.0-3                              deb       
 libpmix2t64                         5.0.7-1                               deb       
-libpng16-16t64                      1.6.48-1+deb13u5                      deb       
+libpng16-16t64                      1.6.48-1+deb13u6                      deb       
 libproj25                           9.6.0-1                               deb       
 libpsl5t64                          0.21.2-1.1+b1                         deb       
 libpsm2-2                           11.2.185-2.1                          deb       

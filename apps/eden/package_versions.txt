@@ -438,7 +438,7 @@ libxkbcommon0                   1.13.1-1                               deb
 libxkbfile1                     1:1.1.0-1build5                        deb          
 libxml2-16                      2.15.2+dfsg-0.1ubuntu0.2               deb          
 libxmu6                         2:1.1.3-4                              deb          
-libxpm4                         1:3.5.17-1ubuntu0.26.04.1              deb          
+libxpm4                         1:3.5.17-1ubuntu0.26.04.2              deb          
 libxrandr2                      2:1.5.4-1build1                        deb          
 libxrender1                     1:0.9.12-1build1                       deb          
 libxshmfence1                   1.3.3-1build1                          deb          
@@ -479,7 +479,7 @@ pulseaudio                      1:17.0+dfsg1-2ubuntu4                  deb
 pulseaudio-utils                1:17.0+dfsg1-2ubuntu4                  deb          
 qt6-wayland                     6.10.2-4                               deb          
 rpcsvc-proto                    1.4.3-1build1                          deb          
-rust-coreutils                  0.8.0-0ubuntu3                         deb          
+rust-coreutils                  0.10.0-1ubuntu2~26.04.1                deb          
 sed                             4.9-2ubuntu1                           deb          
 sensible-utils                  0.0.26build1                           deb          
 shared-mime-info                2.4-5build3                            deb          
