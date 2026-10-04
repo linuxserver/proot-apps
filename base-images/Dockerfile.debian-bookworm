@@ -16,6 +16,7 @@ RUN \
     dbus-x11 \
     desktop-file-utils \
     fonts-noto \
+    gsettings-desktop-schemas \
     jq \
     libva-drm2 \
     libva-wayland2 \

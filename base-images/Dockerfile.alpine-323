@@ -12,8 +12,10 @@ RUN \
     bash \
     curl \
     dbus-x11 \
+    dconf \
     font-noto \
     gcc \
+    gsettings-desktop-schemas \
     jq \
     lang \
     libva \

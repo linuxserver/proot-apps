@@ -11,7 +11,9 @@ RUN \
     bash \
     curl \
     dbus-x11 \
+    dconf \
     font-noto \
+    gsettings-desktop-schemas \
     jq \
     libva \
     mesa-dri-gallium \
