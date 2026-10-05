@@ -133,6 +133,7 @@ gcc-x86-64-linux-gnu                                                  4:14.2.0-1
 git                                                                   1:2.47.3-0+deb13u1                    deb                           
 git-man                                                               1:2.47.3-0+deb13u1                    deb                           
 grep                                                                  3.11-4                                deb                           
+gsettings-desktop-schemas                                             48.0-1                                deb                           
 gson                                                                  2.10.1                                java-archive                  
 gson                                                                  2.13.2                                java-archive                  
 gson                                                                  2.14.0                                java-archive                  

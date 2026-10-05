@@ -50,6 +50,7 @@ gir1.2-glib-2.0                 2.84.4-3~deb13u5                      deb
 gir1.2-glib-2.0-dev             2.84.4-3~deb13u5                      deb       
 girepository-tools              2.84.4-3~deb13u5                      deb       
 grep                            3.11-4                                deb       
+gsettings-desktop-schemas       48.0-1                                deb       
 gtk-update-icon-cache           4.18.6+ds-2                           deb       
 gzip                            1.13-1+deb13u1                        deb       
 hicolor-icon-theme              0.18-2                                deb       

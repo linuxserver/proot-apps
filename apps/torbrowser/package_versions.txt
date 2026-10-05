@@ -123,6 +123,7 @@ golang.org/x/sys                                                             v0.
 golang.org/x/text                                                            v0.22.0                               go-module  (+1 duplicate)  
 google.golang.org/protobuf                                                   v1.36.5                               go-module                  
 grep                                                                         3.11-4                                deb                        
+gsettings-desktop-schemas                                                    48.0-1                                deb                        
 gtk-update-icon-cache                                                        4.18.6+ds-2                           deb                        
 gzip                                                                         1.13-1+deb13u1                        deb                        
 hicolor-icon-theme                                                           0.18-2                                deb                        

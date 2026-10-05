@@ -78,6 +78,7 @@ go                                          10.0.0                              
 grep                                        3.11-4                                deb                     
 groovy                                      10.0.0                                npm                     
 grunt                                       10.0.0                                npm                     
+gsettings-desktop-schemas                   48.0-1                                deb                     
 gtk-update-icon-cache                       4.18.6+ds-2                           deb                     
 gulp                                        10.0.0                                npm                     
 gzip                                        1.13-1+deb13u1                        deb                     

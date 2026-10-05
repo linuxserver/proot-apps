@@ -90,6 +90,7 @@ dbus                                      1.16.2-r2                apk
 dbus-daemon-launch-helper                 1.16.2-r2                apk           
 dbus-libs                                 1.16.2-r2                apk           
 dbus-x11                                  1.16.2-r2                apk           
+dconf                                     0.49.0-r1                apk           
 defusedxml                                0.7.1                    python        
 directfb                                  1.7.7-r8                 apk           
 double-conversion                         3.4.0-r0                 apk           

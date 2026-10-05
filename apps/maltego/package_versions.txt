@@ -175,6 +175,7 @@ graph-wrapper                                           1.0-SNAPSHOT            
 grep                                                    3.11-4                                                                        deb                             
 groovy                                                  3.0.8                                                                         java-archive                    
 groovy-ant                                              3.0.8                                                                         java-archive                    
+gsettings-desktop-schemas                               48.0-1                                                                        deb                             
 gson                                                    2.13.1                                                                        java-archive                    
 gson                                                    2.9.1                                                                         java-archive  (+5 duplicates)   
 gtk-update-icon-cache                                   4.18.6+ds-2                                                                   deb                             
