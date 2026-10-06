@@ -133,7 +133,7 @@ libqt5designer                   5.15.18_git20251101-r1   apk
 libqt5help                       5.15.18_git20251101-r1   apk       
 librsvg                          2.62.3-r0                apk       
 libsamplerate                    0.2.2-r3                 apk       
-libseccomp                       2.6.0-r2                 apk       
+libseccomp                       2.6.1-r0                 apk       
 libsm                            1.2.6-r0                 apk       
 libsndfile                       1.2.2-r2                 apk       
 libssl3                          3.5.8-r0                 apk       

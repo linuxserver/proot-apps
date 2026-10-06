@@ -306,7 +306,7 @@ librist                         0.2.15-r0                apk
 librsvg                         2.62.3-r0                apk                         
 libsamplerate                   0.2.2-r3                 apk                         
 libsasl                         2.1.28-r9                apk                         
-libseccomp                      2.6.0-r2                 apk                         
+libseccomp                      2.6.1-r0                 apk                         
 libsecret                       0.21.7-r0                apk                         
 libsecret-lang                  0.21.7-r0                apk                         
 libsharpyuv                     1.6.0-r0                 apk                         

@@ -227,7 +227,7 @@ libraw1394                      2.1.2-r5                 apk
 librist                         0.2.15-r0                apk                         
 librsvg                         2.62.3-r0                apk                         
 librtmp                         2.4_git20190330-r5       apk                         
-libseccomp                      2.6.0-r2                 apk                         
+libseccomp                      2.6.1-r0                 apk                         
 libsharpyuv                     1.6.0-r0                 apk                         
 libshout                        2.4.6-r4                 apk                         
 libshumate                      1.6.2-r0                 apk                         

@@ -230,7 +230,7 @@ librist                          0.2.15-r0                  apk
 librsvg                          2.62.3-r0                  apk                         
 librtmp                          2.4_git20190330-r5         apk                         
 libsamplerate                    0.2.2-r3                   apk                         
-libseccomp                       2.6.0-r2                   apk                         
+libseccomp                       2.6.1-r0                   apk                         
 libsharpyuv                      1.6.0-r0                   apk                         
 libsixel                         1.10.5-r0                  apk                         
 libsm                            1.2.6-r0                   apk                         

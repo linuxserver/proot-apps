@@ -171,7 +171,7 @@ libpulse                        17.0-r7                  apk
 libraw1394                      2.1.2-r5                 apk           
 librsvg                         2.62.3-r0                apk           
 librtmp                         2.4_git20190330-r5       apk           
-libseccomp                      2.6.0-r2                 apk           
+libseccomp                      2.6.1-r0                 apk           
 libsecret                       0.21.7-r0                apk           
 libsecret-lang                  0.21.7-r0                apk           
 libsharpyuv                     1.6.0-r0                 apk           

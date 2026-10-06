@@ -248,7 +248,7 @@ librevenge                      0.0.5-r2                 apk
 librsvg                         2.62.3-r0                apk                           
 librtmp                         2.4_git20190330-r5       apk                           
 libsasl                         2.1.28-r9                apk                           
-libseccomp                      2.6.0-r2                 apk                           
+libseccomp                      2.6.1-r0                 apk                           
 libserializer                   1.1.6                    java-archive                  
 libsharpyuv                     1.6.0-r0                 apk                           
 libsm                           1.2.6-r0                 apk                           
