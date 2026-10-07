@@ -12,7 +12,7 @@ binutils-x86-64-linux-gnu               2.44-3                                de
 bsdutils                                1:2.41.5-0+deb13u1                    deb          
 bubblewrap                              0.12.0-1~deb13u1                      deb          
 ca-certificates                         20250419                              deb          
-claude-desktop                          2.19675.1                             deb          
+claude-desktop                          2.26454.0                             deb          
 coreutils                               9.7-3                                 deb          
 coworkd                                 UNKNOWN                               go-module    
 cpp                                     4:14.2.0-1                            deb          
@@ -296,7 +296,7 @@ libpango-1.0-0                          1.56.3-1                              de
 libpangocairo-1.0-0                     1.56.3-1                              deb          
 libpangoft2-1.0-0                       1.56.3-1                              deb          
 libpciaccess0                           0.17-3+b3                             deb          
-libpcre2-8-0                            10.46-1~deb13u2                       deb          
+libpcre2-8-0                            10.46-1~deb13u3                       deb          
 libperl5.40                             5.40.1-6+deb13u1                      deb          
 libpipewire-0.3-0t64                    1.4.2-1                               deb          
 libpixman-1-0                           0.44.0-3                              deb          

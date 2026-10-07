@@ -3,12 +3,9 @@ NAME                            VERSION                               TYPE
 @img/sharp-libvips-linux-x64    1.3.3                                 npm                    
 @img/sharp-linux-x64            0.35.4                                npm                    
 @oai/browser-desktop            0.1.1                                 npm                    
-@oai/cua                        0.2.5                                 npm                    
+@oai/cua                        0.2.6                                 npm                    
 @oai/cua-repl                   0.1.0                                 npm                    
-@oai/sky                        0.7.5                                 npm                    
-@serialport/bindings-interface  1.2.2                                 npm                    
-@serialport/parser-delimiter    11.0.0                                npm                    
-@serialport/parser-readline     11.0.0                                npm                    
+@oai/sky                        0.7.6                                 npm                    
 @statsig/client-core            3.33.3                                npm                    
 @statsig/js-client              3.33.3                                npm                    
 abstract-level                  3.1.1                                 npm   (+3 duplicates)  
@@ -26,7 +23,7 @@ binutils-x86-64-linux-gnu       2.44-3                                deb
 bsdutils                        1:2.41.5-0+deb13u1                    deb                    
 buffer                          6.0.3                                 npm                    
 ca-certificates                 20250419                              deb                    
-chatgpt                         26.930.61225                          deb                    
+chatgpt                         26.1002.51308                         deb                    
 classic-level                   3.0.0                                 npm   (+3 duplicates)  
 corepack                        0.36.0                                npm                    
 coreutils                       9.7-3                                 deb                    
@@ -45,7 +42,6 @@ dconf-service                   0.40.0-5                              deb
 debconf                         1.5.91                                deb                    
 debian-archive-keyring          2025.1                                deb                    
 debianutils                     5.23.2                                deb                    
-debug                           4.3.4                                 npm                    
 desktop-file-utils              0.28-1                                deb                    
 detect-libc                     2.1.2                                 npm                    
 diffutils                       1:3.10-4                              deb                    
@@ -257,7 +253,7 @@ libpango-1.0-0                  1.56.3-1                              deb
 libpangocairo-1.0-0             1.56.3-1                              deb                    
 libpangoft2-1.0-0               1.56.3-1                              deb                    
 libpciaccess0                   0.17-3+b3                             deb                    
-libpcre2-8-0                    10.46-1~deb13u2                       deb                    
+libpcre2-8-0                    10.46-1~deb13u3                       deb                    
 libperl5.40                     5.40.1-6+deb13u1                      deb                    
 libpixman-1-0                   0.44.0-3                              deb                    
 libpng16-16t64                  1.6.48-1+deb13u6                      deb                    
@@ -398,14 +394,11 @@ mesa-va-drivers                 25.0.7-2+deb13u1                      deb
 mesa-vulkan-drivers             25.0.7-2+deb13u1                      deb                    
 module-error                    1.0.2                                 npm   (+3 duplicates)  
 mount                           2.41.5-0+deb13u1                      deb                    
-ms                              2.1.2                                 npm                    
 napi-macros                     2.2.2                                 npm   (+3 duplicates)  
 ncurses-base                    6.5+20250216-2                        deb                    
 ncurses-bin                     6.5+20250216-2                        deb                    
 netcat-openbsd                  1.229-1                               deb                    
-node-addon-api                  7.0.0                                 npm                    
-node-addon-api                  8.9.0                                 npm                    
-node-gyp-build                  4.8.4                                 npm   (+4 duplicates)  
+node-gyp-build                  4.8.4                                 npm   (+3 duplicates)  
 ocl-icd-libopencl1              2.3.3-1                               deb                    
 openssh-client                  1:10.0p1-7+deb13u4                    deb                    
 openssl                         3.5.7-1~deb13u3                       deb                    
@@ -416,7 +409,6 @@ perl-base                       5.40.1-6+deb13u1                      deb
 perl-modules-5.40               5.40.1-6+deb13u1                      deb                    
 pinentry-curses                 1.3.1-2                               deb                    
 pixelmatch                      7.1.0                                 npm                    
-pkg-prebuilds                   1.1.0                                 npm                    
 playwright                      1.57.0                                npm                    
 playwright-core                 1.57.0                                npm                    
 pngjs                           7.0.0                                 npm                    

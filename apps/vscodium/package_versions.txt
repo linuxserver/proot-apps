@@ -266,7 +266,7 @@ libpango-1.0-0                              1.56.3-1                            
 libpangocairo-1.0-0                         1.56.3-1                              deb                     
 libpangoft2-1.0-0                           1.56.3-1                              deb                     
 libpciaccess0                               0.17-3+b3                             deb                     
-libpcre2-8-0                                10.46-1~deb13u2                       deb                     
+libpcre2-8-0                                10.46-1~deb13u3                       deb                     
 libperl5.40                                 5.40.1-6+deb13u1                      deb                     
 libpixman-1-0                               0.44.0-3                              deb                     
 libpng16-16t64                              1.6.48-1+deb13u6                      deb                     
