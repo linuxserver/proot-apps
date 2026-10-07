@@ -9,6 +9,7 @@ RUN \
   apt-get install -y --no-install-recommends \
     libegl1 \
     libwayland-client0 \
+    libwayland-egl1 \
     libx11-6 \
     libx11-xcb1 \
     libxcursor1 \
