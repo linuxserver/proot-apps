@@ -424,7 +424,7 @@ tabby-settings                    1.0.231-nightly.0                     npm
 tabby-ssh                         1.0.231-nightly.0                     npm     
 tabby-telnet                      1.0.231-nightly.0                     npm     
 tabby-terminal                    1.0.231-nightly.0                     npm     
-tabby-terminal                    1.0.237                               deb     
+tabby-terminal                    1.0.238                               deb     
 tar                               1.35+dfsg-3.1                         deb     
 tmp                               0.2.7                                 npm     
 tmp-promise                       3.0.3                                 npm     

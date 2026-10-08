@@ -164,7 +164,7 @@ libflac14                       1.5.0+ds-5                             deb
 libflite1                       2.2-7build1                            deb          
 libfontconfig1                  2.17.1-3ubuntu1                        deb          
 libfontenc1                     1:1.1.8-1build2                        deb          
-libfreetype6                    2.14.2+dfsg-1ubuntu0.1                 deb          
+libfreetype6                    2.14.2+dfsg-1ubuntu0.2                 deb          
 libfribidi0                     1.0.16-5                               deb          
 libgbm1                         26.0.8-1ubuntu0.3                      deb          
 libgcc-15-dev                   15.2.0-16ubuntu1                       deb          
@@ -236,7 +236,7 @@ libmbedx509-7                   3.6.5-0.1ubuntu2                       deb
 libmd0                          1.1.0-2build4                          deb          
 libmd4c0                        0.5.2-2build1                          deb          
 libmount1                       2.41.3-3ubuntu2.2                      deb          
-libmp3lame0                     3.101~svn6525+dfsg-2                   deb          
+libmp3lame0                     3.101~svn6525+dfsg-2ubuntu0.1          deb          
 libmpc3                         1.3.1-3                                deb          
 libmpfr6                        4.2.2-3                                deb          
 libmpg123-0t64                  1.33.3-2                               deb          
@@ -292,7 +292,7 @@ libraw1394-11                   2.1.2-2build4                          deb
 libreadline8t64                 8.3-4                                  deb          
 libretro-core-info              1.22.2+ppa1.1-1~ubuntu26.04.1          deb          
 librist4                        0.2.11+dfsg-1build1                    deb          
-librsvg2-2                      2.61.3+dfsg-3                          deb          
+librsvg2-2                      2.61.3+dfsg-3ubuntu0.1                 deb          
 librtmp1                        2.4+20151223.gitfa8646d.1-3            deb          
 librubberband3                  4.0.0+dfsg-2ubuntu1                    deb          
 libsamplerate0                  0.2.2-4build2                          deb          
@@ -319,8 +319,8 @@ libsnappy1v5                    1.2.2-2                                deb
 libsndfile1                     1.2.2-4                                deb          
 libsodium23                     1.0.18-2                               deb          
 libsord-0-0                     0.16.20-1                              deb          
-libsoup-3.0-0                   3.6.6-1                                deb          
-libsoup-3.0-common              3.6.6-1                                deb          
+libsoup-3.0-0                   3.6.6-1ubuntu0.1                       deb          
+libsoup-3.0-common              3.6.6-1ubuntu0.1                       deb          
 libsoxr0                        0.1.3-4.1                              deb          
 libspa-0.2-modules              1.6.2-1ubuntu1.2                       deb          
 libspeex1                       1.2.1-3build1                          deb          

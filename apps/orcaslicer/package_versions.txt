@@ -233,7 +233,7 @@ libfluidsynth3                    2.3.4-1build3                         deb
 libfontconfig1                    2.15.0-1.1ubuntu2                     deb                     
 libfontenc1                       1:1.1.8-1build1                       deb                     
 libfreeaptx0                      0.1.1-2build1                         deb                     
-libfreetype6                      2.13.2+dfsg-1ubuntu0.1                deb                     
+libfreetype6                      2.13.2+dfsg-1ubuntu0.2                deb                     
 libfreexl1                        2.0.0-1build2                         deb                     
 libfribidi0                       1.0.13-3build1                        deb                     
 libfyba0t64                       4.1.1-11build1                        deb                     
@@ -499,10 +499,10 @@ libpixman-1-0                     0.42.2-1build1                        deb
 libpkgconf3                       1.8.1-2build1                         deb                     
 libplacebo338                     6.338.2-2build1                       deb                     
 libpmix2t64                       5.0.1-4.1build1                       deb                     
-libpng-dev                        1.6.43-5ubuntu0.6                     deb                     
-libpng16-16t64                    1.6.43-5ubuntu0.6                     deb                     
+libpng-dev                        1.6.43-5ubuntu0.7                     deb                     
+libpng16-16t64                    1.6.43-5ubuntu0.7                     deb                     
 libpocketsphinx3                  0.8.0+real5prealpha+1-15ubuntu5       deb                     
-libpoppler134                     24.02.0-1ubuntu9.9                    deb                     
+libpoppler134                     24.02.0-1ubuntu9.10                   deb                     
 libpostproc57                     7:6.1.1-3ubuntu5                      deb                     
 libpq5                            16.15-0ubuntu0.24.04.1                deb                     
 libproc2-0                        2:4.0.4-4ubuntu3.3                    deb                     
@@ -540,7 +540,7 @@ libraw1394-dev                    2.1.2-2build3                         deb
 librdmacm1t64                     50.0-2ubuntu0.2                       deb                     
 libreadline8t64                   8.2-4build1                           deb                     
 librist4                          0.2.10+dfsg-2                         deb                     
-librsvg2-2                        2.58.0+dfsg-1build1                   deb                     
+librsvg2-2                        2.58.0+dfsg-1ubuntu0.1                deb                     
 librtmp1                          2.4+20151223.gitfa8646d.1-2build7     deb                     
 librttopo1                        1.1.0-3build2                         deb                     
 librubberband2                    3.3.0+dfsg-2build1                    deb                     
@@ -578,8 +578,8 @@ libsocket++1                      1.12.13+git20131030.5d039ba-1build1   deb
 libsodium23                       1.0.18-1ubuntu0.24.04.1               deb                     
 libsord-0-0                       0.16.16-2build1                       deb                     
 libsoundtouch1                    2.3.2+ds1-1build1                     deb                     
-libsoup-3.0-0                     3.4.4-5ubuntu0.8                      deb                     
-libsoup-3.0-common                3.4.4-5ubuntu0.8                      deb                     
+libsoup-3.0-0                     3.4.4-5ubuntu0.9                      deb                     
+libsoup-3.0-common                3.4.4-5ubuntu0.9                      deb                     
 libsoxr0                          0.1.3-4build3                         deb                     
 libspa-0.2-modules                1.0.5-1ubuntu3.3                      deb                     
 libspandsp2t64                    0.0.6+dfsg-2.1build1                  deb                     

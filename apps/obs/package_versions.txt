@@ -162,7 +162,7 @@ libflac12t64                              1.4.3+ds-2.1ubuntu2                   
 libflite1                                 2.2-6build3                                deb     
 libfontconfig1                            2.15.0-1.1ubuntu2                          deb     
 libfontenc1                               1:1.1.8-1build1                            deb     
-libfreetype6                              2.13.2+dfsg-1ubuntu0.1                     deb     
+libfreetype6                              2.13.2+dfsg-1ubuntu0.2                     deb     
 libfribidi0                               1.0.13-3build1                             deb     
 libgbm1                                   25.2.8-0ubuntu0.24.04.4                    deb     
 libgcc-13-dev                             13.3.0-6ubuntu2~24.04.1                    deb     
@@ -312,7 +312,7 @@ libraw1394-11                             2.1.2-2build3                         
 libreadline8t64                           8.2-4build1                                deb     
 librist4                                  0.2.10+dfsg-2                              deb     
 libroc0.3                                 0.3.0+dfsg-7ubuntu2                        deb     
-librsvg2-2                                2.58.0+dfsg-1build1                        deb     
+librsvg2-2                                2.58.0+dfsg-1ubuntu0.1                     deb     
 librtmp1                                  2.4+20151223.gitfa8646d.1-2build7          deb     
 librubberband2                            3.3.0+dfsg-2build1                         deb     
 libsamplerate0                            0.2.2-4build1                              deb     
@@ -339,8 +339,8 @@ libsndfile1                               1.2.2-1ubuntu5.24.04.1                
 libsndio7.0                               1.9.0-0.3build3                            deb     
 libsodium23                               1.0.18-1ubuntu0.24.04.1                    deb     
 libsord-0-0                               0.16.16-2build1                            deb     
-libsoup-3.0-0                             3.4.4-5ubuntu0.8                           deb     
-libsoup-3.0-common                        3.4.4-5ubuntu0.8                           deb     
+libsoup-3.0-0                             3.4.4-5ubuntu0.9                           deb     
+libsoup-3.0-common                        3.4.4-5ubuntu0.9                           deb     
 libsoxr0                                  0.1.3-4build3                              deb     
 libspa-0.2-modules                        1.0.5-1ubuntu3.3                           deb     
 libspeex1                                 1.2.1-2ubuntu2.24.04.1                     deb     
