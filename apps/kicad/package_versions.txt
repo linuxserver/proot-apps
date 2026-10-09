@@ -357,7 +357,7 @@ openexr-libilmthread                      3.4.15-r0                apk
 openexr-libopenexr                        3.4.15-r0                apk           
 openexr-libopenexrcore                    3.4.15-r0                apk           
 openh264                                  2.6.0-r0                 apk           
-openjpeg                                  2.5.4-r1                 apk           
+openjpeg                                  2.5.4-r2                 apk           
 openvdb                                   13.0.0-r1                apk           
 opus                                      1.6.1-r0                 apk           
 orc                                       0.4.41-r0                apk           
@@ -432,7 +432,7 @@ ssl_client                                1.37.0-r31               apk
 tcl                                       8.6.17-r1                apk           
 tdb-libs                                  1.4.15-r1                apk           
 thread_local                              1.1.7                    rust-crate    
-tiff                                      4.7.1-r0                 apk           
+tiff                                      4.7.2-r0                 apk           
 tinycss2                                  1.5.1                    python        
 tk                                        8.6.17-r1                apk           
 tslib                                     1.24-r0                  apk           

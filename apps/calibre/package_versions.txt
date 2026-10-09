@@ -339,7 +339,7 @@ numactl                         2.0.19-r0                apk
 once_cell                       1.21.3                   rust-crate                  
 once_cell                       1.21.4                   rust-crate                  
 oniguruma                       6.9.10-r0                apk                         
-openjpeg                        2.5.4-r1                 apk                         
+openjpeg                        2.5.4-r2                 apk                         
 optipng                         7.9.1-r1                 apk                         
 opus                            1.6.1-r0                 apk                         
 orc                             0.4.42-r1                apk                         
@@ -353,8 +353,8 @@ pcre2                           10.49-r0                 apk
 pillow                          12.3.0                   python                      
 pinentry                        1.3.2-r0                 apk                         
 pixman                          0.46.4-r0                apk                         
-pkgconf                         3.0.7-r0                 apk                         
-polkit-noelogind-libs           127-r2                   apk                         
+pkgconf                         3.0.8-r0                 apk                         
+polkit-noelogind-libs           127-r3                   apk                         
 poppler                         25.12.0-r1               apk                         
 ppv-lite86                      0.2.21                   rust-crate                  
 proc-macro2                     1.0.95                   rust-crate                  

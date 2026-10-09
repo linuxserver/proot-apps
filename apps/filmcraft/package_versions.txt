@@ -30,7 +30,7 @@ desktop-file-utils              0.28-1build1                           deb
 diffutils                       1:3.12-1ubuntu0.1                      deb          
 dpkg                            1.23.7ubuntu1                          deb          
 e2fsprogs                       1.47.2-3ubuntu4                        deb          
-filmcraft                       0.2.1-1                                deb          
+filmcraft                       0.4.0-1                                deb          
 findutils                       4.10.0-3build2                         deb          
 fontconfig                      2.17.1-3ubuntu1                        deb          
 fontconfig-config               2.17.1-3ubuntu1                        deb          
@@ -235,7 +235,7 @@ libpciaccess0                   0.18.1-1ubuntu4.1                      deb
 libpcre2-8-0                    10.46-1build1                          deb          
 libpipewire-0.3-0t64            1.6.2-1ubuntu1.2                       deb          
 libpixman-1-0                   0.46.4-1                               deb          
-libpng16-16t64                  1.6.57-1                               deb          
+libpng16-16t64                  1.6.57-1ubuntu0.1                      deb          
 libproc2-0                      2:4.0.4-9ubuntu1                       deb          
 libproxy1v5                     0.5.12-1                               deb          
 libpsl5t64                      0.21.2-1.1build2                       deb          

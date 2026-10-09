@@ -354,7 +354,7 @@ openh264                        2.6.0-r0                 apk
 openjdk8-jre                    8.492.09-r0              apk                           
 openjdk8-jre-base               8.492.09-r0              apk                           
 openjdk8-jre-lib                8.492.09-r0              apk                           
-openjpeg                        2.5.4-r1                 apk                           
+openjpeg                        2.5.4-r2                 apk                           
 opus                            1.6.1-r0                 apk                           
 orc                             0.4.41-r0                apk                           
 p11-kit                         0.26.2-r0                apk                           
@@ -409,7 +409,7 @@ sunjce_provider                 1.8.0_492                java-archive
 sunpkcs11                       1.8.0_492                java-archive                  
 table                           UNKNOWN                  java-archive                  
 tdb-libs                        1.4.15-r1                apk                           
-tiff                            4.7.1-r0                 apk                           
+tiff                            4.7.2-r0                 apk                           
 tslib                           1.24-r0                  apk                           
 tzdata                          2026e-r0                 apk                           
 unoil                           UNKNOWN                  java-archive                  

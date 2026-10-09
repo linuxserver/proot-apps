@@ -436,7 +436,7 @@ openexr-libilmthread                      3.4.15-r0                apk
 openexr-libopenexr                        3.4.15-r0                apk           
 openexr-libopenexrcore                    3.4.15-r0                apk           
 openh264                                  2.6.0-r0                 apk           
-openjpeg                                  2.5.4-r1                 apk           
+openjpeg                                  2.5.4-r2                 apk           
 opus                                      1.6.1-r0                 apk           
 orc                                       0.4.41-r0                apk           
 p11-kit                                   0.26.2-r0                apk           
@@ -527,7 +527,7 @@ tevent                                    0.17.1-r1                apk
 thiserror                                 1.0.69                   rust-crate    
 thiserror                                 2.0.12                   rust-crate    
 thread_local                              1.1.7                    rust-crate    
-tiff                                      4.7.1-r0                 apk           
+tiff                                      4.7.2-r0                 apk           
 tslib                                     1.24-r0                  apk           
 unicode-ident                             1.0.18                   rust-crate    
 unicode-width                             0.2.1                    rust-crate    

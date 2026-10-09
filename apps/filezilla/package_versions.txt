@@ -221,7 +221,7 @@ spirv-tools                     1.4.341.0-r0             apk
 sqlite-libs                     3.53.4-r0                apk     
 ssl_client                      1.37.0-r31               apk     
 tdb-libs                        1.4.15-r1                apk     
-tiff                            4.7.1-r0                 apk     
+tiff                            4.7.2-r0                 apk     
 wayland-libs-client             1.25.0-r0                apk     
 wayland-libs-cursor             1.25.0-r0                apk     
 wayland-libs-egl                1.25.0-r0                apk     

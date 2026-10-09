@@ -231,7 +231,7 @@ libpciaccess0                   0.18.1-1ubuntu4.1                      deb
 libpcre2-16-0                   10.46-1build1                          deb          
 libpcre2-8-0                    10.46-1build1                          deb          
 libpixman-1-0                   0.46.4-1                               deb          
-libpng16-16t64                  1.6.57-1                               deb          
+libpng16-16t64                  1.6.57-1ubuntu0.1                      deb          
 libportaudio2                   19.7.0+git20260206.e1b70d33-0ubuntu1   deb          
 libportmidi2                    2:2.0.8-1                              deb          
 libproc2-0                      2:4.0.4-9ubuntu1                       deb          

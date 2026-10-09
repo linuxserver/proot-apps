@@ -231,7 +231,7 @@ libpangoft2-1.0-0               1.57.0-1                               deb
 libpciaccess0                   0.18.1-1ubuntu4.1                      deb          
 libpcre2-8-0                    10.46-1build1                          deb          
 libpixman-1-0                   0.46.4-1                               deb          
-libpng16-16t64                  1.6.57-1                               deb          
+libpng16-16t64                  1.6.57-1ubuntu0.1                      deb          
 libproc2-0                      2:4.0.4-9ubuntu1                       deb          
 libproxy1v5                     0.5.12-1                               deb          
 libpsl5t64                      0.21.2-1.1build2                       deb          

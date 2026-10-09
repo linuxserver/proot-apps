@@ -266,7 +266,7 @@ nettle                           3.10.2-r0                apk
 nghttp2-libs                     1.70.0-r0                apk           
 once_cell                        1.18.0                   rust-crate    
 oniguruma                        6.9.10-r0                apk           
-openjpeg                         2.5.4-r1                 apk           
+openjpeg                         2.5.4-r2                 apk           
 opus                             1.6.1-r0                 apk           
 orc                              0.4.41-r0                apk           
 p11-kit                          0.26.2-r0                apk           
@@ -394,7 +394,7 @@ sqlite-libs                      3.53.4-r0                apk
 ssl_client                       1.37.0-r31               apk           
 tdb-libs                         1.4.15-r1                apk           
 thread_local                     1.1.7                    rust-crate    
-tiff                             4.7.1-r0                 apk           
+tiff                             4.7.2-r0                 apk           
 tomli                            2.4.0                    python        
 tslib                            1.24-r0                  apk           
 twisted                          25.5.0                   python        

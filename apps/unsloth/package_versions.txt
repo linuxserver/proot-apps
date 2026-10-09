@@ -267,7 +267,7 @@ libpciaccess0                   0.18.1-1ubuntu4.1                      deb
 libpcre2-8-0                    10.46-1build1                          deb          
 libperl5.40                     5.40.1-7ubuntu0.3                      deb          
 libpixman-1-0                   0.46.4-1                               deb          
-libpng16-16t64                  1.6.57-1                               deb          
+libpng16-16t64                  1.6.57-1ubuntu0.1                      deb          
 libproc2-0                      2:4.0.4-9ubuntu1                       deb          
 libproxy1v5                     0.5.12-1                               deb          
 libpsl5t64                      0.21.2-1.1build2                       deb          
@@ -439,7 +439,7 @@ sysvinit-utils                  3.15-5ubuntu1                          deb
 tar                             1.35+dfsg-4ubuntu0.4                   deb          
 ubuntu-keyring                  2023.11.28.1build1                     deb          
 udev                            259.5-0ubuntu3.4                       deb          
-unsloth                         0.1.904-beta                           deb          
+unsloth                         0.1.905-beta                           deb          
 user-session-migration          0.5.1                                  deb          
 util-linux                      2.41.3-3ubuntu2.2                      deb          
 x11-common                      1:7.7+26ubuntu1                        deb          

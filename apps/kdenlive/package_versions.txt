@@ -501,7 +501,7 @@ tdb-libs                        1.4.15-r1                apk
 terminal_size                   0.4.2                    rust-crate                  
 thiserror                       1.0.69                   rust-crate                  
 thiserror                       2.0.12                   rust-crate                  
-tiff                            4.7.1-r0                 apk                         
+tiff                            4.7.2-r0                 apk                         
 tinyvec                         1.9.0                    rust-crate                  
 tinyxml2                        11.0.0-r0                apk                         
 tslib                           1.24-r0                  apk                         

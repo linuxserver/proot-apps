@@ -218,7 +218,7 @@ nghttp2-libs                    1.70.0-r0                apk
 nspr                            4.38.2-r0                apk     
 nss                             3.124-r0                 apk     
 oniguruma                       6.9.10-r0                apk     
-openjpeg                        2.5.4-r1                 apk     
+openjpeg                        2.5.4-r2                 apk     
 opus                            1.6.1-r0                 apk     
 orc                             0.4.41-r0                apk     
 p11-kit                         0.26.2-r0                apk     
@@ -247,7 +247,7 @@ spirv-tools                     1.4.341.0-r0             apk
 sqlite-libs                     3.53.4-r0                apk     
 ssl_client                      1.37.0-r31               apk     
 tdb-libs                        1.4.15-r1                apk     
-tiff                            4.7.1-r0                 apk     
+tiff                            4.7.2-r0                 apk     
 wayland-libs-client             1.25.0-r0                apk     
 wayland-libs-cursor             1.25.0-r0                apk     
 wayland-libs-egl                1.25.0-r0                apk     

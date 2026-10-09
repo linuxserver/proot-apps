@@ -54,7 +54,7 @@ libacl1                             2.3.1-1                                  deb
 libaom3                             3.3.0-1ubuntu0.1                         deb     
 libapparmor1                        3.0.4-2ubuntu2.5                         deb     
 libapt-pkg6.0                       2.4.14                                   deb     
-libarchive13                        3.6.0-1ubuntu1.8                         deb     
+libarchive13                        3.6.0-1ubuntu1.9                         deb     
 libasan6                            11.4.0-1ubuntu1~22.04.3                  deb     
 libasound2                          1.2.6.1-1ubuntu1.2                       deb     
 libasound2-data                     1.2.6.1-1ubuntu1.2                       deb     
@@ -246,7 +246,7 @@ libpcre3                            2:8.39-13ubuntu0.22.04.1                 deb
 libpgm-5.3-0                        5.3.128~dfsg-2                           deb     
 libpixman-1-0                       0.40.0-1ubuntu0.22.04.1                  deb     
 libplacebo192                       4.192.1-1                                deb     
-libpng16-16                         1.6.37-3ubuntu0.6                        deb     
+libpng16-16                         1.6.37-3ubuntu0.7                        deb     
 libpocketsphinx3                    0.8.0+real5prealpha+1-14ubuntu1          deb     
 libpostproc55                       7:4.4.2-0ubuntu0.22.04.1                 deb     
 libprocps8                          2:3.3.17-6ubuntu2.1                      deb     
