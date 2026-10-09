@@ -1,3 +1,4 @@
 Maintenance update:
 
-* Add desktop file touch to ensure icons render on X11 desktops after install
+* Mount cursors from host into application space if it is manually defined
+* Allow X11 fallbacks for apps running under wayland
