@@ -402,6 +402,11 @@ include:
     arch: linux/amd64
     icon: pcsx2.png
     description: "PCSX2 is a free and open-source PlayStation 2 emulator that supports a wide range of games with high compatibility."
+  - name: pdfcraft
+    full_name: PdfCraft
+    arch: linux/amd64,linux/arm64
+    icon: pdfcraft.svg
+    description: "PdfCraft is an open source PDF workbench from ArtCraft for reading, organizing, combining, splitting and securing PDF files."
   - name: photocraft
     full_name: PhotoCraft
     arch: linux/amd64,linux/arm64
@@ -417,11 +422,6 @@ include:
     arch: linux/amd64,linux/arm64
     icon: ppsspp.svg
     description: "PPSSPP is a PSP emulator that can run games in full HD resolution."
-  - name: printcraft
-    full_name: PrintCraft
-    arch: linux/amd64,linux/arm64
-    icon: printcraft.svg
-    description: "PrintCraft is an open source PDF workbench from ArtCraft for reading, organizing, combining, splitting and securing PDF files."
   - name: pycharm
     full_name: PyCharm Community Edition
     arch: linux/amd64,linux/arm64

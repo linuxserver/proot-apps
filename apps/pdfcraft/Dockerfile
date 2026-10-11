@@ -16,25 +16,26 @@ RUN \
     libxi6 \
     libxkbcommon-x11-0 \
     libxrandr2 \
-    xdg-desktop-portal && \
-  PRINTCRAFT_VERSION=$(curl -sX GET "https://api.github.com/repos/storytold/pdfcraft/releases/latest" \
+    xdg-desktop-portal \
+    zenity && \
+  PDFCRAFT_VERSION=$(curl -sX GET "https://api.github.com/repos/storytold/pdfcraft/releases/latest" \
     | jq -r '.tag_name') && \
   curl -o \
-    /tmp/printcraft.deb -L \
-    "https://github.com/storytold/pdfcraft/releases/download/${PRINTCRAFT_VERSION}/printcraft-$(echo ${PRINTCRAFT_VERSION}| sed 's/^v//g')-linux-$(uname -m).deb" && \
+    /tmp/pdfcraft.deb -L \
+    "https://github.com/storytold/pdfcraft/releases/download/${PDFCRAFT_VERSION}/pdfcraft-$(echo ${PDFCRAFT_VERSION}| sed 's/^v//g')-linux-$(uname -m).deb" && \
   apt-get install -y --no-install-recommends \
-    /tmp/printcraft.deb && \
+    /tmp/pdfcraft.deb && \
   echo "**** customize desktop file ****" && \
   sed -i \
-    -e "/^Exec=/c Exec=/bin/sh -c \"\$HOME\/.local\/bin\/proot-apps run ghcr.io/${REPO}:printcraft %U\"" \
-    -e "s/^Name=PrintCraft$/Name=PrintCraft PA/g" \
+    -e "/^Exec=/c Exec=/bin/sh -c \"\$HOME\/.local\/bin\/proot-apps run ghcr.io/${REPO}:pdfcraft %U\"" \
+    -e "s/^Name=PdfCraft$/Name=PdfCraft PA/g" \
     -e '/^TryExec=/d' \
-    /usr/share/applications/ai.storyteller.printcraft.desktop && \
+    /usr/share/applications/ai.storyteller.pdfcraft.desktop && \
   mv \
-    /usr/share/applications/ai.storyteller.printcraft.desktop \
-    /usr/share/applications/printcraft-pa.desktop && \
+    /usr/share/applications/ai.storyteller.pdfcraft.desktop \
+    /usr/share/applications/pdfcraft-pa.desktop && \
   echo "**** set bin name ****" && \
-  echo "printcraft-pa" > /bin-name && \
+  echo "pdfcraft-pa" > /bin-name && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \

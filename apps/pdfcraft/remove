@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Removing icon"
+rm -f $HOME/.local/share/icons/hicolor/scalable/apps/ai.storyteller.pdfcraft.svg
+echo "Removing start menu entry"
+rm -f $HOME/.local/share/applications/pdfcraft-pa.desktop
+echo "Removing desktop shortcut"
+rm -f $HOME/Desktop/pdfcraft-pa.desktop

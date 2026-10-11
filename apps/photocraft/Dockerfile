@@ -8,7 +8,8 @@ RUN \
   apt-get update && \
   apt-get install -y --no-install-recommends \
     libegl1 \
-    xdg-desktop-portal && \
+    xdg-desktop-portal \
+    zenity && \
   PHOTOCRAFT_VERSION=$(curl -sX GET "https://api.github.com/repos/storytold/photocraft/releases/latest" \
     | jq -r '.tag_name') && \
   curl -o \

@@ -15,7 +15,8 @@ RUN \
     libxi6 \
     libxkbcommon-x11-0 \
     libxrandr2 \
-    xdg-desktop-portal && \
+    xdg-desktop-portal \
+    zenity && \
   LIGHTCRAFT_VERSION=$(curl -sX GET "https://api.github.com/repos/storytold/lightcraft/releases/latest" \
     | jq -r '.tag_name') && \
   curl -o \

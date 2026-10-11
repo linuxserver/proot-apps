@@ -15,7 +15,8 @@ RUN \
     libxi6 \
     libxkbcommon-x11-0 \
     libxrandr2 \
-    xdg-desktop-portal && \
+    xdg-desktop-portal \
+    zenity && \
   FILMCRAFT_VERSION=$(curl -sX GET "https://api.github.com/repos/storytold/filmcraft/releases/latest" \
     | jq -r '.tag_name') && \
   curl -o \
