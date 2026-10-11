@@ -157,10 +157,10 @@ proot-apps update firefox
 | orcaslicer | ghcr.io/linuxserver/proot-apps:orcaslicer | linux/amd64 | OrcaSlicer is an open source Next-Gen Slicing Software for Precision 3D Prints.|
 | parsec | ghcr.io/linuxserver/proot-apps:parsec | linux/amd64 | Parsec is a remote desktop you'll actually love. Connect to work, games, or projects wherever you are, whenever you want.|
 | pcsx2 | ghcr.io/linuxserver/proot-apps:pcsx2 | linux/amd64 | PCSX2 is a free and open-source PlayStation 2 emulator that supports a wide range of games with high compatibility.|
+| pdfcraft | ghcr.io/linuxserver/proot-apps:pdfcraft | linux/amd64,linux/arm64 | PdfCraft is an open source PDF workbench from ArtCraft for reading, organizing, combining, splitting and securing PDF files.|
 | photocraft | ghcr.io/linuxserver/proot-apps:photocraft | linux/amd64,linux/arm64 | PhotoCraft is an open source native image editor from ArtCraft with layers, masks, adjustment layers, brushes and type that opens and saves layered PSD and PSB files.|
 | postman | ghcr.io/linuxserver/proot-apps:postman | linux/amd64,linux/arm64 | Postman is an application that allows the testing of web APIs.|
 | ppsspp | ghcr.io/linuxserver/proot-apps:ppsspp | linux/amd64,linux/arm64 | PPSSPP is a PSP emulator that can run games in full HD resolution.|
-| printcraft | ghcr.io/linuxserver/proot-apps:printcraft | linux/amd64,linux/arm64 | PrintCraft is an open source PDF workbench from ArtCraft for reading, organizing, combining, splitting and securing PDF files.|
 | pycharm | ghcr.io/linuxserver/proot-apps:pycharm | linux/amd64,linux/arm64 | PyCharm Community Edition IDE is designed by programmers, for programmers, to provide all the tools you need for productive Python development.|
 | qbittorrent | ghcr.io/linuxserver/proot-apps:qbittorrent | linux/amd64,linux/arm64 | The Qbittorrent project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library.|
 | remmina | ghcr.io/linuxserver/proot-apps:remmina | linux/amd64,linux/arm64 | Remmina is a remote desktop client written in GTK, aiming to be useful for system administrators and travellers, who need to work with lots of remote computers in front of either large or tiny screens. Remmina supports multiple network protocols, in an integrated and consistent user interface.|
