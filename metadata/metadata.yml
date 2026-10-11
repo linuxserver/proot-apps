@@ -60,6 +60,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: braveorigin.svg
     description: "Brave Origin is a minimalist version of Brave that allows users to disable the revenue-generating features that otherwise support Brave as a business."
+  - name: cadcraft
+    full_name: CADCraft
+    arch: linux/amd64,linux/arm64
+    icon: cadcraft.png
+    description: "CADCraft is an open source 2D computer aided design and drafting app from ArtCraft with layers, dimensions, hatches and blocks that opens and saves DXF and DWG drawings."
   - name: calibre
     full_name: Calibre
     arch: linux/amd64,linux/arm64
@@ -95,6 +100,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: claude.svg
     description: "Claude is the desktop app from Anthropic with chat and Claude Code for agentic coding with parallel sessions, visual diff review and an integrated terminal."
+  - name: deckcraft
+    full_name: DeckCraft
+    arch: linux/amd64,linux/arm64
+    icon: deckcraft.svg
+    description: "DeckCraft is an open source presentation app from ArtCraft with themes, layouts, charts, transitions and a presenter view that opens and saves PPTX files."
   - name: deluge
     full_name: Deluge
     arch: linux/amd64,linux/arm64
@@ -226,6 +236,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: gimp.svg
     description: "GIMP is a free and open-source raster graphics editor used for image manipulation (retouching) and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. It is extensible by means of plugins, and scriptable."
+  - name: gridcraft
+    full_name: GridCraft
+    arch: linux/amd64,linux/arm64
+    icon: gridcraft.svg
+    description: "GridCraft is an open source native spreadsheet from ArtCraft that opens and saves XLSX workbooks and CSV files with hundreds of worksheet functions, sorting, filtering and charts."
   - name: gui
     full_name: PRoot apps GUI
     arch: linux/amd64,linux/arm64
@@ -485,6 +500,11 @@ include:
     icon: slack.svg
     description: "Slack is a new way to communicate with your team. It's faster, better organized, and more secure than email."
     disabled: True
+  - name: soundcraft
+    full_name: SoundCraft
+    arch: linux/amd64,linux/arm64
+    icon: soundcraft.svg
+    description: "SoundCraft is an open source native digital audio workstation from ArtCraft for recording, editing and mixing multitrack audio and MIDI."
   - name: spotify
     full_name: Spotify
     arch: linux/amd64
@@ -581,6 +601,11 @@ include:
     arch: linux/amd64
     icon: winegui.svg
     description: "A user-interface friendly Wine (A compatibility layer capable of running Windows applications under Linux) Manager."
+  - name: wordcraft
+    full_name: WordCraft
+    arch: linux/amd64,linux/arm64
+    icon: wordcraft.svg
+    description: "WordCraft is an open source word processor from ArtCraft with styles, tables, track changes and mail merge that opens and saves DOCX, PDF, ODT, RTF, HTML and Markdown files."
   - name: wpsoffice
     full_name: WPS Office
     arch: linux/amd64
