@@ -683,11 +683,11 @@ libwxgtk-media3.2-1t64            3.2.4+dfsg-4build1                    deb
 libwxgtk-media3.2-dev             3.2.4+dfsg-4build1                    deb                     
 libwxgtk3.2-1t64                  3.2.4+dfsg-4build1                    deb                     
 libwxgtk3.2-dev                   3.2.4+dfsg-4build1                    deb                     
-libx11-6                          2:1.8.7-1build1                       deb                     
-libx11-data                       2:1.8.7-1build1                       deb                     
-libx11-dev                        2:1.8.7-1build1                       deb                     
-libx11-xcb-dev                    2:1.8.7-1build1                       deb                     
-libx11-xcb1                       2:1.8.7-1build1                       deb                     
+libx11-6                          2:1.8.7-1ubuntu0.1                    deb                     
+libx11-data                       2:1.8.7-1ubuntu0.1                    deb                     
+libx11-dev                        2:1.8.7-1ubuntu0.1                    deb                     
+libx11-xcb-dev                    2:1.8.7-1ubuntu0.1                    deb                     
+libx11-xcb1                       2:1.8.7-1ubuntu0.1                    deb                     
 libx264-164                       2:0.164.3108+git31e19f9-1             deb                     
 libx265-199                       3.5-2build1                           deb                     
 libxau-dev                        1:1.0.9-1build6                       deb                     

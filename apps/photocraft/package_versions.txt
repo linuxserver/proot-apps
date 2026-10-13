@@ -408,7 +408,7 @@ openssl                          3.5.5-1ubuntu3.7                       deb
 openssl-provider-legacy          3.5.5-1ubuntu3.7                       deb          
 passwd                           1:4.17.4-2ubuntu3                      deb          
 perl-base                        5.40.1-7ubuntu0.3                      deb          
-photocraft                       0.7.0-1                                deb          
+photocraft                       0.8.2-1                                deb          
 procps                           2:4.0.4-9ubuntu1                       deb          
 pulseaudio                       1:17.0+dfsg1-2ubuntu4                  deb          
 pulseaudio-utils                 1:17.0+dfsg1-2ubuntu4                  deb          

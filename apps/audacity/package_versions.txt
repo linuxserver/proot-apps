@@ -295,8 +295,8 @@ librav1e0.7                     0.7.1-9+b2                            deb
 libraw1394-11                   2.1.2-2+b2                            deb       
 libreadline8t64                 8.2-6                                 deb       
 librist4                        0.2.11+dfsg-1                         deb       
-librsvg2-2                      2.60.0+dfsg-1                         deb       
-librsvg2-common                 2.60.0+dfsg-1                         deb       
+librsvg2-2                      2.60.0+dfsg-1+deb13u1                 deb       
+librsvg2-common                 2.60.0+dfsg-1+deb13u1                 deb       
 librtmp1                        2.4+20151223.gitfa8646d.1-2+b5        deb       
 librubberband2                  3.3.0+dfsg-2+b3                       deb       
 libsamplerate0                  0.2.2-4+b2                            deb       
