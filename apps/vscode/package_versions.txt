@@ -6,7 +6,7 @@ NAME                                        VERSION                             
 @vscode/copilot-typescript-server-plugin    1.0.0                                 npm                     
 @vscode/fs-copyfile                         2.0.0                                 npm                     
 @vscode/sandbox-runtime                     0.0.1                                 npm                     
-Code                                        1.141.0                               npm                     
+Code                                        1.141.1                               npm                     
 Microsoft.PowerShell.PSReadLine             2.4.3                                 dotnet                  
 Microsoft.PowerShell.PSReadLine.Polyfiller  1.0.0.0                               dotnet  (+1 duplicate)  
 Microsoft.PowerShell.Pager                  1.0.0.0                               dotnet                  
@@ -25,7 +25,7 @@ bsdutils                                    1:2.41.5-0+deb13u1                  
 builtin-notebook-renderers                  10.0.0                                npm                     
 ca-certificates                             20250419                              deb                     
 clojure                                     10.0.0                                npm                     
-code                                        1.141.0-1791276758                    deb                     
+code                                        1.141.1-1791833136                    deb                     
 coffeescript                                10.0.0                                npm                     
 commander                                   12.1.0                                npm                     
 configuration-editing                       10.0.0                                npm                     
@@ -296,7 +296,7 @@ libpulsedsp                                 17.0+dfsg1-2+b1                     
 libquadmath0                                14.2.0-19                             deb                     
 librav1e0.7                                 0.7.1-9+b2                            deb                     
 libreadline8t64                             8.2-6                                 deb                     
-librsvg2-2                                  2.60.0+dfsg-1                         deb                     
+librsvg2-2                                  2.60.0+dfsg-1+deb13u1                 deb                     
 librtmp1                                    2.4+20151223.gitfa8646d.1-2+b5        deb                     
 libsamplerate0                              0.2.2-4+b2                            deb                     
 libsasl2-2                                  2.1.28+dfsg1-9                        deb                     

@@ -376,7 +376,7 @@ libpython3.13-stdlib                    3.13.5-2+deb13u5                      de
 libquadmath0                            14.2.0-19                             deb                            
 librav1e0.7                             0.7.1-9+b2                            deb                            
 libreadline8t64                         8.2-6                                 deb                            
-librsvg2-2                              2.60.0+dfsg-1                         deb                            
+librsvg2-2                              2.60.0+dfsg-1+deb13u1                 deb                            
 librtmp1                                2.4+20151223.gitfa8646d.1-2+b5        deb                            
 libsamplerate0                          0.2.2-4+b2                            deb                            
 libsasl2-2                              2.1.28+dfsg1-9                        deb                            

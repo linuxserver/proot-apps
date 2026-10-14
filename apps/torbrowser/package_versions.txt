@@ -297,7 +297,7 @@ libpulse0                                                                    17.
 libpulsedsp                                                                  17.0+dfsg1-2+b1                       deb                        
 libquadmath0                                                                 14.2.0-19                             deb                        
 librav1e0.7                                                                  0.7.1-9+b2                            deb                        
-librsvg2-2                                                                   2.60.0+dfsg-1                         deb                        
+librsvg2-2                                                                   2.60.0+dfsg-1+deb13u1                 deb                        
 librtmp1                                                                     2.4+20151223.gitfa8646d.1-2+b5        deb                        
 libsamplerate0                                                               0.2.2-4+b2                            deb                        
 libsasl2-2                                                                   2.1.28+dfsg1-9                        deb                        

@@ -129,7 +129,7 @@ libblkid                        2.42.4-r3                apk
 libbsd                          0.12.2-r0                apk           
 libbz2                          1.0.8-r6                 apk           
 libc                            0.2.172                  rust-crate    
-libcap2                         2.78-r0                  apk           
+libcap2                         2.78-r1                  apk           
 libcrypto3                      3.5.7-r0                 apk           
 libcurl                         8.22.0-r0                apk           
 libdav1d                        1.5.4-r0                 apk           

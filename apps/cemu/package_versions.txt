@@ -99,7 +99,7 @@ libavcodec62                    7:8.0.1-3ubuntu2                       deb
 libavutil60                     7:8.0.1-3ubuntu2                       deb          
 libbinutils                     2.46-3ubuntu2                          deb          
 libblkid1                       2.41.3-3ubuntu2.2                      deb          
-libbluetooth3                   5.85-4ubuntu0.3                        deb          
+libbluetooth3                   5.85-4ubuntu0.4                        deb          
 libboost-filesystem1.90.0       1.90.0-6ubuntu1                        deb          
 libboost-nowide1.90.0           1.90.0-6ubuntu1                        deb          
 libboost-program-options1.90.0  1.90.0-6ubuntu1                        deb          
@@ -328,9 +328,9 @@ libwrap0                        7.6.q-36build2                         deb
 libwxbase3.2-1t64               3.2.9+dfsg-1                           deb          
 libwxgtk-gl3.2-1t64             3.2.9+dfsg-1                           deb          
 libwxgtk3.2-1t64                3.2.9+dfsg-1                           deb          
-libx11-6                        2:1.8.13-1                             deb          
-libx11-data                     2:1.8.13-1                             deb          
-libx11-xcb1                     2:1.8.13-1                             deb          
+libx11-6                        2:1.8.13-1ubuntu0.1                    deb          
+libx11-data                     2:1.8.13-1ubuntu0.1                    deb          
+libx11-xcb1                     2:1.8.13-1ubuntu0.1                    deb          
 libx264-165                     2:0.165.3222+gitb35605ac-3build1       deb          
 libx265-215                     4.1-4                                  deb          
 libxau6                         1:1.0.11-1build2                       deb          

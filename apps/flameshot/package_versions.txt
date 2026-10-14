@@ -72,7 +72,7 @@ libb2                           0.98.1-r3                apk
 libblkid                        2.42.4-r3                apk     
 libbsd                          0.12.2-r0                apk     
 libbz2                          1.0.8-r6                 apk     
-libcap2                         2.78-r0                  apk     
+libcap2                         2.78-r1                  apk     
 libcrypto3                      3.5.7-r0                 apk     
 libcurl                         8.22.0-r0                apk     
 libdisplay-info                 0.3.0-r1                 apk     
