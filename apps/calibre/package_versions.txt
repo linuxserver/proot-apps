@@ -495,7 +495,7 @@ speech-dispatcher-lang          0.12.1-r5                apk
 speech-dispatcher-pyc           0.12.1-r5                apk                         
 speexdsp                        1.2.1-r2                 apk                         
 spirv-tools                     1.4.357.0-r0             apk                         
-sqlite-libs                     3.53.4-r0                apk                         
+sqlite-libs                     3.54.0-r0                apk                         
 ssl_client                      1.38.0-r4                apk                         
 stable_deref_trait              1.2.0                    rust-crate                  
 syn                             2.0.102                  rust-crate                  

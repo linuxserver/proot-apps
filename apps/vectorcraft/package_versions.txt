@@ -424,7 +424,7 @@ ubuntu-keyring                   2023.11.28.1build1                     deb
 udev                             259.5-0ubuntu3.4                       deb          
 user-session-migration           0.5.1                                  deb          
 util-linux                       2.41.3-3ubuntu2.2                      deb          
-vectorcraft                      0.10.0-1                               deb          
+vectorcraft                      0.11.0-1                               deb          
 x11-common                       1:7.7+26ubuntu1                        deb          
 x11-xkb-utils                    7.7+9build1                            deb          
 xdg-desktop-portal               1.21.1+ds-1ubuntu3.1                   deb          
