@@ -27,8 +27,7 @@ echo 'command -v proot-apps >/dev/null && source <(proot-apps completion bash)' 
 
 **Optional enable bwrap support**
 
-The bundled proot binary also acts as an unprivileged [bubblewrap](https://github.com/containers/bubblewrap) when it is called as `bwrap` vi
-a symlink.
+The bundled proot binary also acts as an unprivileged [bubblewrap](https://github.com/containers/bubblewrap) when it is called as `bwrap` via a symlink.
 
 ```
 ln -sf proot $HOME/.local/bin/bwrap
