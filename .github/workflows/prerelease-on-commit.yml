@@ -19,16 +19,22 @@ jobs:
       !startsWith(github.event.head_commit.message, 'Bot Updating')
     steps:
     - uses: actions/checkout@v4
-    - uses: docker/setup-qemu-action@v3
-    - uses: docker/setup-buildx-action@v3
-    - run: bash ci-scripts/create-releases.sh
+    # Prereleases ship the proot-next build of the latest commit to its main branch
+    - id: build
+      run: bash ci-scripts/create-releases.sh
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PROOT_CHANNEL: prerelease
     - uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: proot-apps-*
         tag: prerelease-${{ github.sha }}
         release_name: Prerelease ${{ github.sha }}
-        body: ${{ github.event.head_commit.message }}
+        body: |
+          ${{ github.event.head_commit.message }}
+
+          proot-next: https://github.com/selkies-project/proot-next/releases/tag/${{ steps.build.outputs.proot_tag }}
         prerelease: true
         overwrite: true
         file_glob: true

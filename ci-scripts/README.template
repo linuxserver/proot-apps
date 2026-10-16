@@ -1,6 +1,6 @@
 # PRoot Apps
 
-PRoot Apps is a simple platform to install and use applications without any privileges in Linux userspace using [PRoot](https://proot-me.github.io/). Applications are bundled with their entire toolchain much like [snap](https://snapcraft.io/) or [Flatpak](https://flatpak.org/), unlike these platforms:
+PRoot Apps is a simple platform to install and use applications without any privileges in Linux userspace using [proot-next](https://github.com/selkies-project/proot-next), a Rust reimplementation of [PRoot](https://proot-me.github.io/). Applications are bundled with their entire toolchain much like [snap](https://snapcraft.io/) or [Flatpak](https://flatpak.org/), unlike these platforms:
 
 * No system requirements outside of curl and bash
 * Can be run in very restrictive environments even inside userspace in a Docker container
@@ -25,6 +25,15 @@ echo 'export PATH="$HOME/.local/bin:$PATH"' >> $HOME/.bashrc
 echo 'command -v proot-apps >/dev/null && source <(proot-apps completion bash)' >> $HOME/.bashrc
 ```
 
+**Optional enable bwrap support**
+
+The bundled proot binary also acts as an unprivileged [bubblewrap](https://github.com/containers/bubblewrap) when it is called as `bwrap` vi
+a symlink.
+
+```
+ln -sf proot $HOME/.local/bin/bwrap
+```
+
 **PRoot Apps is currently only supported on amd64 and arm64 systems**
 
 ## Uninstall
@@ -32,6 +41,7 @@ echo 'command -v proot-apps >/dev/null && source <(proot-apps completion bash)' 
 ```
 proot-apps remove all
 rm -f $HOME/.local/bin/{ncat,proot-apps,proot,jq}
+[ "$(readlink $HOME/.local/bin/bwrap)" == "proot" ] && rm -f $HOME/.local/bin/bwrap
 rm -Rf $HOME/proot-apps/
 ```
 
@@ -91,7 +101,7 @@ This repository was made to be cloned and forked with all of the build logic bei
 
 When forking all readme updates should be made to the `ci-scripts/README.template` as this is the source file used to write out the readme linked to your forked repo. Also keep in mind all the logic in your forked proot-apps binary and gui installer will be linked to your repostiry and packages.
 
-To generate release tarballs of proot-apps to be ingested with your install command a tag needs to be generated in your fork. This can be achieved with `git tag 0.1.0 && git push origin --tags`. This again will be linked back to your repo in all references for app ingestion.
+To generate release tarballs of proot-apps to be ingested with your install command a tag needs to be generated in your fork. This can be achieved with `git tag 0.1.0 && git push origin --tags`. This again will be linked back to your repo in all references for app ingestion. The proot binary is not compiled here, it is ingested prebuilt from [proot-next](https://github.com/selkies-project/proot-next/releases) and verified against its published checksum. Tagged releases ship the latest stable proot-next release while the prerelease published on every commit to master ships the proot-next build of the latest commit to its main branch. Set `PROOT_TAG` in the release workflows to pin a specific proot-next release instead.
 
 ## Building local apps
 
