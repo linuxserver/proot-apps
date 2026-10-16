@@ -175,6 +175,11 @@ include:
     arch: linux/amd64,linux/arm64
     icon: ferdium.svg
     description: "Ferdium is a desktop app that helps you organize how you use your favourite apps by combining them into one application."
+  - name: figcraft
+    full_name: FigCraft
+    arch: linux/amd64,linux/arm64
+    icon: figcraft.svg
+    description: "FigCraft is an open source interface design and prototyping app from ArtCraft with frames, vector shapes and text on an infinite canvas, auto layout, components, variants and interactive prototypes."
   - name: filezilla
     full_name: FileZilla
     arch: linux/amd64,linux/arm64
