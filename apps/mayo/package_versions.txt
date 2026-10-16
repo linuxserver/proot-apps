@@ -19,7 +19,7 @@ cpp-13                              13.3.0-6ubuntu2~24.04.1             deb
 cpp-13-x86-64-linux-gnu             13.3.0-6ubuntu2~24.04.1             deb                     
 cpp-x86-64-linux-gnu                4:13.2.0-7ubuntu1                   deb                     
 cryptography                        41.0.7                              python  (+1 duplicate)  
-curl                                8.5.0-2ubuntu10.15                  deb                     
+curl                                8.5.0-2ubuntu10.16                  deb                     
 dash                                0.5.12-6ubuntu5                     deb                     
 dbus                                1.14.10-4ubuntu4.1                  deb                     
 dbus-bin                            1.14.10-4ubuntu4.1                  deb                     
@@ -78,7 +78,7 @@ lazr-restfulclient                  0.14.6                              python
 lazr-uri                            1.0.6                               python                  
 libacl1                             2.3.2-1build1.1                     deb                     
 libaom3                             3.8.2-2ubuntu0.2                    deb                     
-libapparmor1                        4.0.1really4.0.1-0ubuntu0.24.04.8   deb                     
+libapparmor1                        4.0.1really4.0.1-0ubuntu0.24.04.9   deb                     
 libappstream5                       1.0.2-1build6                       deb                     
 libapt-pkg6.0t64                    2.8.3                               deb                     
 libargon2-1                         0~20190702+dfsg-4build1             deb                     
@@ -125,8 +125,8 @@ libcryptsetup12                     2:2.7.0-1ubuntu4.2                  deb
 libctf-nobfd0                       2.42-4ubuntu2.10                    deb                     
 libctf0                             2.42-4ubuntu2.10                    deb                     
 libcups2t64                         2.4.7-1.2ubuntu7.14                 deb                     
-libcurl3t64-gnutls                  8.5.0-2ubuntu10.15                  deb                     
-libcurl4t64                         8.5.0-2ubuntu10.15                  deb                     
+libcurl3t64-gnutls                  8.5.0-2ubuntu10.16                  deb                     
+libcurl4t64                         8.5.0-2ubuntu10.16                  deb                     
 libdatrie1                          0.2.13-3build1                      deb                     
 libdav1d7                           1.4.1-1build1                       deb                     
 libdb5.3t64                         5.3.28+dfsg2-7                      deb                     
