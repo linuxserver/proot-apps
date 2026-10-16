@@ -1,0 +1,106 @@
+#!/bin/bash
+
+# Start Steam natively with this app root as the graphics driver store,
+# or inside the app root with --guest when the host has no glibc
+
+ROOT="$(dirname "$(readlink -f "$0")")"
+STEAM_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/Steam"
+GUEST=0
+if [ "${1:-}" == "--guest" ]; then
+  GUEST=1
+  shift
+fi
+
+# proton games launch through steam and pick up the interposers from here
+write_proton_settings() {
+  local SEARCH_DIR="${STEAM_DIR}/steamapps/common"
+  shopt -s nullglob
+  for dir in "${SEARCH_DIR}"/*Proton*/; do
+    if [ -d "${dir}" ] && [ ! -f "${dir}/user_settings.py" ]; then
+      cat > "${dir}/user_settings.py" <<SETTINGS
+user_settings = {
+    "LD_PRELOAD": "${PRELOAD}",
+}
+SETTINGS
+    fi
+  done
+  shopt -u nullglob
+}
+
+monitor_steam() {
+  while kill -0 "$1" >/dev/null 2>&1; do
+    if [ -n "${PRELOAD}" ]; then
+      write_proton_settings
+    fi
+    sleep 1
+  done
+}
+
+# Add the first of the given libraries that exists to PRELOAD
+add_preload() {
+  for LIB in "$@"; do
+    if [ -f "${LIB}" ]; then
+      PRELOAD="${PRELOAD:+${PRELOAD}:}${LIB}"
+      return
+    fi
+  done
+}
+
+# Steam's runtime needs glibc on the host, run inside the app root otherwise
+if [ "${GUEST}" == "0" ] && [ ! -e /lib64/ld-linux-x86-64.so.2 ]; then
+  IMAGE=$(basename "${ROOT}" | sed 's/\(.*\)_/\1:/' | sed 's|_|/|g')
+  exec "$HOME/.local/bin/proot-apps" run "${IMAGE}" "$@"
+fi
+
+# Bootstrap the client if it is missing
+if [ ! -x "${STEAM_DIR}/steamrt64/steam" ]; then
+  if [ "${GUEST}" == "1" ]; then
+    /bootstrap || exit 1
+  else
+    "$HOME/.local/bin/proot" -R "${ROOT}" /bootstrap || exit 1
+  fi
+fi
+
+# bubblewrap stand in for containers without user namespaces
+export BWRAP="${BWRAP:-$HOME/.local/bin/bwrap}"
+
+# Game launches run Steam's reaper with this root's loader and libraries
+export STEAM_GAME_LAUNCH_SHELL="${ROOT%/}/steam-launch-shell"
+
+# Graphics drivers come from this app root unless the host has NVIDIA or asks for its own
+GRAPHICS="${STEAM_PA_GRAPHICS:-auto}"
+if [ "${GRAPHICS}" == "auto" ]; then
+  if [ -e /dev/nvidiactl ]; then
+    GRAPHICS=host
+  else
+    GRAPHICS=bundled
+  fi
+fi
+if [ "${GUEST}" == "0" ] && [ "${GRAPHICS}" == "bundled" ]; then
+  export PRESSURE_VESSEL_GRAPHICS_PROVIDER="${ROOT}"
+fi
+
+# 64 and 32 bit input interposers and fake udev for gamepads
+PRELOAD=""
+if [ "${GUEST}" == "0" ]; then
+  add_preload /usr/lib/selkies_input_interposer.so
+  add_preload /usr/lib/libudev.so.1.0.0-fake /opt/lib/libudev.so.1.0.0-fake
+  add_preload /usr/lib/selkies_input_interposer_32.so
+  add_preload /usr/lib/libudev.so.1.0.0-fake_32 /opt/lib/libudev.so.1.0.0-fake_32
+fi
+if [ -n "${PRELOAD}" ]; then
+  export LD_PRELOAD="${PRELOAD}"
+  if [ -z "${SELKIES_JS_SOCKET_PATH}" ] && [ -n "${XDG_RUNTIME_DIR}" ]; then
+    export SELKIES_JS_SOCKET_PATH="${XDG_RUNTIME_DIR}"
+  fi
+fi
+
+STEAM_ARGS=(-no-cef-sandbox)
+if [ -n "${WAYLAND_DISPLAY}" ]; then
+  STEAM_ARGS+=(--ozone-platform=wayland)
+fi
+
+"${STEAM_DIR}/steam.sh" "${STEAM_ARGS[@]}" "$@" &
+STEAM_PID=$!
+monitor_steam "${STEAM_PID}" &
+wait "${STEAM_PID}"

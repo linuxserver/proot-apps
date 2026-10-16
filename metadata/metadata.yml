@@ -520,6 +520,12 @@ include:
     arch: linux/amd64,linux/arm64
     icon: sqlitebrowser.svg
     description: "DB Browser for SQLite is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite."
+  - name: steam
+    full_name: Steam
+    arch: linux/amd64
+    icon: steam.svg
+    description: "Steam is Valve's game store and launcher, installed into your home directory and run natively in its own Steam Runtime container."
+    disabled: True
   - name: stremio
     full_name: Stremio
     arch: linux/amd64

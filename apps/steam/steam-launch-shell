@@ -1,0 +1,49 @@
+#!/bin/bash
+
+# Steam runs every game as "$STEAM_GAME_LAUNCH_SHELL <command line>", or with
+# "-c" before it when the shell is the default /bin/sh
+# The reaper in that command line is run with this root's loader and libraries
+
+ROOT="$(dirname "$(readlink -f "$0")")"
+ROOT="${ROOT%/}"
+
+if [ "$1" == "-c" ]; then
+  shift
+fi
+if [ "$#" -eq 0 ]; then
+  exec /bin/sh
+fi
+COMMAND="$1"
+shift
+
+# The last launch's command line and environment, for diagnosing a game
+LOG_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/steam-pa"
+if mkdir -p "${LOG_DIR}" 2>/dev/null; then
+  {
+    printf 'command: %s\n' "${COMMAND}"
+    printf 'args:'
+    printf ' [%s]' "$@"
+    printf '\n'
+    env
+  } > "${LOG_DIR}/last-launch.log" 2>/dev/null
+fi
+
+if [[ "${COMMAND}" =~ ([^ ]*/reaper)\ SteamLaunch ]]; then
+  REAPER="${BASH_REMATCH[1]}"
+  case "$(head -c 5 "${REAPER}" 2>/dev/null | od -An -c | tr -d ' ')" in
+    177ELF001)
+      LOADER="${ROOT}/lib/ld-linux.so.2"
+      LIBS="${ROOT}/lib/i386-linux-gnu:${ROOT}/usr/lib/i386-linux-gnu"
+      ;;
+    177ELF002)
+      LOADER="${ROOT}/lib64/ld-linux-x86-64.so.2"
+      LIBS="${ROOT}/lib/x86_64-linux-gnu:${ROOT}/usr/lib/x86_64-linux-gnu"
+      ;;
+  esac
+  if [ -n "${LOADER}" ] && [ -x "${LOADER}" ]; then
+    CHAINED="'${LOADER}' --argv0 '${REAPER}' --library-path '${LIBS}' '${REAPER}' SteamLaunch"
+    COMMAND="${COMMAND/"${REAPER} SteamLaunch"/"${CHAINED}"}"
+  fi
+fi
+
+exec /bin/sh -c "${COMMAND}" "$@"

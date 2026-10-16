@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "Removing icons"
+for SIZE in 16x16 24x24 32x32 48x48 256x256; do
+  rm -f $HOME/.local/share/icons/hicolor/${SIZE}/apps/steam.png
+done
+echo "Removing start menu entry"
+rm -f $HOME/.local/share/applications/steam-pa.desktop
+echo "Removing desktop shortcut"
+rm -f $HOME/Desktop/steam-pa.desktop
+echo "Removing steam-pa launcher"
+rm -f $HOME/.local/bin/steam-pa
+echo "Steam data in ${XDG_DATA_HOME:-$HOME/.local/share}/Steam was left in place"

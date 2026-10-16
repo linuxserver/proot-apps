@@ -1,0 +1,79 @@
+#!/bin/bash
+
+# Bootstrap the 64 bit Steam client into the user's home from Valve's update CDN
+# Pass --force to unpack over an existing install
+set -euo pipefail
+
+STEAM_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/Steam"
+BRANCH="${STEAM_PA_BRANCH-publicbeta}"
+CDN="https://client-update.steamstatic.com"
+PACKAGES=(steam_steamrt64 steam_steamrt_steamrt64 runtime_steamrt_steamrt64)
+
+if [ "${1:-}" != "--force" ] && [ -x "${STEAM_DIR}/steamrt64/steam" ] && [ -d "${STEAM_DIR}/steamrt64/pv-runtime/steam-runtime-steamrt" ]; then
+  echo "Steam is already bootstrapped in ${STEAM_DIR}"
+  exit 0
+fi
+
+if [ -n "${BRANCH}" ]; then
+  MANIFEST="steam_client_${BRANCH}_steamrt64"
+else
+  MANIFEST="steam_client_steamrt64"
+fi
+
+WORK=$(mktemp -d)
+trap 'rm -rf "${WORK}"' EXIT
+
+echo "Fetching ${MANIFEST}"
+curl -fsSL --retry 5 --retry-all-errors --retry-delay 3 \
+  -o "${WORK}/manifest" "${CDN}/${MANIFEST}"
+
+mkdir -p "${STEAM_DIR}"
+for PKG in "${PACKAGES[@]}"; do
+  FILE=""
+  SHA=""
+  SIZE=""
+  read -r FILE SHA SIZE < <(awk -v pkg="\"${PKG}\"" '
+    $1 == pkg { inpkg = 1 }
+    inpkg && $1 == "\"file\"" { gsub(/"/, "", $2); f = $2 }
+    inpkg && $1 == "\"sha2\"" { gsub(/"/, "", $2); s = $2 }
+    inpkg && $1 == "\"size\"" { gsub(/"/, "", $2); z = $2 }
+    inpkg && $1 == "}" { print f, s, z; exit }
+  ' "${WORK}/manifest") || true
+  if [ -z "${FILE}" ] || [ -z "${SHA}" ]; then
+    echo "${PKG} is not in ${MANIFEST}" >&2
+    exit 1
+  fi
+  echo "Downloading ${PKG} ($(( ${SIZE:-0} / 1048576 )) MB)"
+  if [ -t 2 ]; then
+    PROGRESS=(--progress-bar)
+  else
+    PROGRESS=(-s)
+  fi
+  curl -fSL "${PROGRESS[@]}" --retry 5 --retry-all-errors --retry-delay 3 \
+    -o "${WORK}/${PKG}.zip" "${CDN}/${FILE}"
+  echo "Verifying ${PKG}"
+  echo "${SHA}  ${WORK}/${PKG}.zip" | sha256sum -c --quiet
+  echo "Unpacking ${PKG}"
+  unzip -q -o "${WORK}/${PKG}.zip" -d "${STEAM_DIR}" || [ $? -eq 1 ]
+  rm -f "${WORK}/${PKG}.zip"
+done
+
+# Directory entries written with a backslash land as literal names
+find "${STEAM_DIR}" -maxdepth 2 -type d -name '*\\*' -empty -delete
+
+# The packages carry Windows modes, writable by everyone or not executable
+echo "Setting file modes"
+chmod -R go-w "${STEAM_DIR}/steam.sh" "${STEAM_DIR}/steam_msg.sh" "${STEAM_DIR}/steam_subscriber_agreement.txt" \
+  "${STEAM_DIR}/steamrt64" "${STEAM_DIR}/ubuntu12_32" 2>/dev/null || :
+while IFS= read -r -d '' FILE; do
+  case "$(head -c 4 "${FILE}" | od -An -c | tr -d ' ')" in
+    177ELF*|'#!'*) chmod +x "${FILE}" ;;
+  esac
+done < <(find "${STEAM_DIR}/steam.sh" "${STEAM_DIR}/steamrt64" "${STEAM_DIR}/ubuntu12_32" -type f ! -perm -u+x -print0 2>/dev/null)
+
+mkdir -p "${STEAM_DIR}/package"
+if [ -n "${BRANCH}" ]; then
+  echo "${BRANCH}" > "${STEAM_DIR}/package/beta"
+fi
+
+echo "Steam bootstrapped in ${STEAM_DIR}, the client downloads the rest on first launch"

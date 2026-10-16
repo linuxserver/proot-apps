@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start steam inside the app root
+exec /launch --guest "$@"

@@ -1,0 +1,38 @@
+#!/bin/bash
+
+## Desktop and icons install ##
+echo "Adding icons"
+for SIZE in 16x16 24x24 32x32 48x48 256x256; do
+  mkdir -p $HOME/.local/share/icons/hicolor/${SIZE}/apps/
+  cp \
+    /usr/share/icons/hicolor/${SIZE}/apps/steam.png \
+    $HOME/.local/share/icons/hicolor/${SIZE}/apps/
+done
+echo "Adding start menu entry"
+mkdir -p $HOME/.local/share/applications/
+cp \
+  /usr/share/applications/steam-pa.desktop \
+  $HOME/.local/share/applications/
+echo "Adding desktop shortcut"
+mkdir -p $HOME/Desktop
+cp \
+  /usr/share/applications/steam-pa.desktop \
+  $HOME/Desktop/
+chmod +x $HOME/Desktop/steam-pa.desktop
+xdg-mime default steam-pa.desktop x-scheme-handler/steam x-scheme-handler/steamlink >/dev/null 2>&1 || :
+
+## Native launcher, steam runs on the host and only borrows drivers from this root ##
+echo "Adding steam-pa launcher"
+mkdir -p $HOME/.local/bin
+cat > $HOME/.local/bin/steam-pa <<LAUNCHER
+#!/bin/bash
+exec "\$HOME/proot-apps/$(cat /rootfs-name)/launch" "\$@"
+LAUNCHER
+chmod +x $HOME/.local/bin/steam-pa
+
+## Steam client, only on the pass whose output is shown ##
+if [ "$(readlink /proc/$$/fd/1)" == "/dev/null" ]; then
+  exit 0
+fi
+echo "Bootstrapping the Steam client"
+/bootstrap || echo "Steam bootstrap failed, it is retried on first launch"
