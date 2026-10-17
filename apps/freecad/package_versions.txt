@@ -141,7 +141,7 @@ libevdev2                           1.13.4+dfsg-1                         deb
 libevent-2.1-7t64                   2.1.13-stable-1~deb13u1               deb       
 libevent-core-2.1-7t64              2.1.13-stable-1~deb13u1               deb       
 libevent-pthreads-2.1-7t64          2.1.13-stable-1~deb13u1               deb       
-libexpat1                           2.8.3-1~deb13u1                       deb       
+libexpat1                           2.9.0-1~deb13u1                       deb       
 libfabric1                          2.1.0-1.1                             deb       
 libffi8                             3.4.8-2                               deb       
 libfftw3-single3                    3.3.10-2+b1                           deb       
@@ -213,7 +213,7 @@ libjq1                              1.7.1-6+deb13u4                       deb
 libjs-jquery                        3.6.1+dfsg+~3.5.14-1                  deb       
 libjs-jquery-ui                     1.13.2+dfsg-1                         deb       
 libjsoncpp26                        1.9.6-3                               deb       
-libjxl0.11                          0.11.2-0.1~deb13u2                    deb       
+libjxl0.11                          0.11.2-0.1~deb13u3                    deb       
 libjxr0t64                          1.2~git20170615.f752187-5.3           deb       
 libk5crypto3                        1.21.3-5+deb13u1                      deb       
 libkeyutils1                        1.6.3-6                               deb       
@@ -464,7 +464,7 @@ libzopfli1                          1.0.3-3                               deb
 libzstd1                            1.5.7+dfsg-1                          deb       
 libzvbi-common                      0.2.44-1                              deb       
 libzvbi0t64                         0.2.44-1                              deb       
-linux-libc-dev                      6.12.111-1                            deb       
+linux-libc-dev                      6.12.113-1                            deb       
 locales-all                         2.41-12+deb13u4                       deb       
 login                               1:4.16.0-2+really2.41.5-0+deb13u1     deb       
 login.defs                          1:4.17.4-2                            deb       

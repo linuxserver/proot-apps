@@ -197,8 +197,8 @@ libepoxy0                       1.5.10-2                              deb
 libexiv2-28                     0.28.5+dfsg-1                         deb       
 libexiv2-data                   0.28.5+dfsg-1                         deb       
 libexiv2-dev                    0.28.5+dfsg-1                         deb       
-libexpat1                       2.8.3-1~deb13u1                       deb       
-libexpat1-dev                   2.8.3-1~deb13u1                       deb       
+libexpat1                       2.9.0-1~deb13u1                       deb       
+libexpat1-dev                   2.9.0-1~deb13u1                       deb       
 libffi-dev                      3.4.8-2                               deb       
 libffi8                         3.4.8-2                               deb       
 libfftw3-single3                3.3.10-2+b1                           deb       
@@ -321,7 +321,7 @@ libjson-c5                      0.18+ds-1                             deb
 libjson-glib-1.0-0              1.10.6+ds-2                           deb       
 libjson-glib-1.0-common         1.10.6+ds-2                           deb       
 libjson-glib-dev                1.10.6+ds-2                           deb       
-libjxl0.11                      0.11.2-0.1~deb13u2                    deb       
+libjxl0.11                      0.11.2-0.1~deb13u3                    deb       
 libk5crypto3                    1.21.3-5+deb13u1                      deb       
 libkeyutils1                    1.6.3-6                               deb       
 libkmod2                        34.2-2                                deb       
@@ -565,7 +565,7 @@ libzstd-dev                     1.5.7+dfsg-1                          deb
 libzstd1                        1.5.7+dfsg-1                          deb       
 libzvbi-common                  0.2.44-1                              deb       
 libzvbi0t64                     0.2.44-1                              deb       
-linux-libc-dev                  6.12.111-1                            deb       
+linux-libc-dev                  6.12.113-1                            deb       
 locales-all                     2.41-12+deb13u4                       deb       
 login                           1:4.16.0-2+really2.41.5-0+deb13u1     deb       
 login.defs                      1:4.17.4-2                            deb       

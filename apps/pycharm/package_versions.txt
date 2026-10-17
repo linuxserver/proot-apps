@@ -267,8 +267,8 @@ libegl1                                 1.7.0-1+b2                            de
 libelf1t64                              0.192-4                               deb                            
 libepoxy0                               1.5.10-2                              deb                            
 liberror-perl                           0.17030-1                             deb                            
-libexpat1                               2.8.3-1~deb13u1                       deb                            
-libexpat1-dev                           2.8.3-1~deb13u1                       deb                            
+libexpat1                               2.9.0-1~deb13u1                       deb                            
+libexpat1-dev                           2.9.0-1~deb13u1                       deb                            
 libffi8                                 3.4.8-2                               deb                            
 libfftw3-single3                        3.3.10-2+b1                           deb                            
 libfido2-1                              1.15.0-1+b1                           deb                            
@@ -316,7 +316,7 @@ libjq1                                  1.7.1-6+deb13u4                       de
 libjs-jquery                            3.6.1+dfsg+~3.5.14-1                  deb                            
 libjs-sphinxdoc                         8.1.3-5                               deb                            
 libjs-underscore                        1.13.4~dfsg+~1.11.4-3                 deb                            
-libjxl0.11                              0.11.2-0.1~deb13u2                    deb                            
+libjxl0.11                              0.11.2-0.1~deb13u3                    deb                            
 libk5crypto3                            1.21.3-5+deb13u1                      deb                            
 libkeyutils1                            1.6.3-6                               deb                            
 libkmod2                                34.2-2                                deb                            
@@ -482,7 +482,7 @@ libz3-4                                 4.13.3-1                              de
 libzstd1                                1.5.7+dfsg-1                          deb                            
 libzvbi-common                          0.2.44-1                              deb                            
 libzvbi0t64                             0.2.44-1                              deb                            
-linux-libc-dev                          6.12.111-1                            deb                            
+linux-libc-dev                          6.12.113-1                            deb                            
 lite                                    UNKNOWN                               java-archive                   
 locales-all                             2.41-12+deb13u4                       deb                            
 log                                     1.0.0                                 npm                            

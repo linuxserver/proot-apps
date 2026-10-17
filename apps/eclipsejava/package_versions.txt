@@ -300,7 +300,7 @@ libegl1                                                               1.7.0-1+b2
 libelf1t64                                                            0.192-4                               deb                           
 libepoxy0                                                             1.5.10-2                              deb                           
 liberror-perl                                                         0.17030-1                             deb                           
-libexpat1                                                             2.8.3-1~deb13u1                       deb                           
+libexpat1                                                             2.9.0-1~deb13u1                       deb                           
 libffi8                                                               3.4.8-2                               deb                           
 libfftw3-single3                                                      3.3.10-2+b1                           deb                           
 libfido2-1                                                            1.15.0-1+b1                           deb                           
@@ -348,7 +348,7 @@ libjansson4                                                           2.14-2+b3 
 libjbig0                                                              2.1-6.1+b2                            deb                           
 libjpeg62-turbo                                                       1:2.1.5-4                             deb                           
 libjq1                                                                1.7.1-6+deb13u4                       deb                           
-libjxl0.11                                                            0.11.2-0.1~deb13u2                    deb                           
+libjxl0.11                                                            0.11.2-0.1~deb13u3                    deb                           
 libk5crypto3                                                          1.21.3-5+deb13u1                      deb                           
 libkeyutils1                                                          1.6.3-6                               deb                           
 libkmod2                                                              34.2-2                                deb                           
@@ -516,7 +516,7 @@ libz3-4                                                               4.13.3-1  
 libzstd1                                                              1.5.7+dfsg-1                          deb                           
 libzvbi-common                                                        0.2.44-1                              deb                           
 libzvbi0t64                                                           0.2.44-1                              deb                           
-linux-libc-dev                                                        6.12.111-1                            deb                           
+linux-libc-dev                                                        6.12.113-1                            deb                           
 locales-all                                                           2.41-12+deb13u4                       deb                           
 logback-classic                                                       1.6.3                                 java-archive                  
 logback-core                                                          1.6.3                                 java-archive                  
