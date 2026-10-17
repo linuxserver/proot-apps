@@ -16,7 +16,9 @@ RUN \
     libgbm1 \
     libgtk-3-0 && \
   URL=$(curl -sX GET "https://api.github.com/repos/bitwarden/clients/releases" \
-    | jq -r '[.[]| select(.tag_name|startswith("desktop"))][0].assets| .[] |select(.name|endswith("deb")).browser_download_url') && \
+    | jq -r '[.[] | select(.tag_name | startswith("desktop"))][0].assets[] \
+    | select((.name | endswith(".deb")) and (.name | startswith("commercial-") | not)) \
+    | .browser_download_url') && \
   curl -o \
     /tmp/bitwarden.deb -L \
     "${URL}" && \
