@@ -100,7 +100,23 @@ if [ -n "${WAYLAND_DISPLAY}" ]; then
   STEAM_ARGS+=(--ozone-platform=wayland)
 fi
 
-"${STEAM_DIR}/steam.sh" "${STEAM_ARGS[@]}" "$@" &
+# Steam runs its 32-bit reaper on the host side for every launch, including the
+# install script evaluator that bypasses STEAM_GAME_LAUNCH_SHELL; a host without
+# a 32-bit loader gets this root's loader and libraries bound into the client's view
+WRAP=()
+if [ "${GUEST}" == "0" ] && [ ! -e /lib/ld-linux.so.2 ]; then
+  WRAP=("$HOME/.local/bin/proot"
+    -b "${ROOT}/usr/lib/i386-linux-gnu/ld-linux.so.2:/lib/ld-linux.so.2"
+    -b "${ROOT}/usr/lib/i386-linux-gnu:/lib/i386-linux-gnu"
+    -b "${ROOT}/usr/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu")
+  if [ -n "${STEAM_PA_DEBUG}" ]; then
+    mkdir -p "${XDG_CACHE_HOME:-$HOME/.cache}/steam-pa"
+    export PROOT_VERBOSE=1
+    exec 2>>"${XDG_CACHE_HOME:-$HOME/.cache}/steam-pa/proot.log"
+  fi
+fi
+
+"${WRAP[@]}" "${STEAM_DIR}/steam.sh" "${STEAM_ARGS[@]}" "$@" &
 STEAM_PID=$!
 monitor_steam "${STEAM_PID}" &
 wait "${STEAM_PID}"
