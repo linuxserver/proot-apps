@@ -2,658 +2,918 @@ include:
   - name: anki
     full_name: Anki
     arch: linux/amd64
+    tags: education,notes
+    usecase: dev
     icon: anydesk.svg
     description: "Anki is a free and open-source flashcard program."
     disabled: True
   - name: antigravity
     full_name: Google Antigravity
     arch: linux/amd64,linux/arm64
+    tags: ai,development
+    usecase: ai
     icon: antigravity.svg
     description: "Antigravity is an agent first IDE from Google based on VS Code with autonomous coding agents and Gemini built in."
   - name: anydesk
     full_name: AnyDesk 
     arch: linux/amd64
+    tags: remote
+    usecase: dev
     icon: anydesk.svg
     description: "AnyDesk ensures secure and reliable remote desktop connections for IT professionals and on-the-go individuals alike."
   - name: ardour
     full_name: Ardour
     arch: linux/amd64,linux/arm64
+    tags: audio,media
+    usecase: creative
     icon: ardour.svg
     description: "Ardour is an open source, collaborative effort of a worldwide team including musicians, programmers, and professional recording engineers."
   - name: audacity
     full_name: Audacity
     arch: linux/amd64
+    tags: audio,media
+    usecase: creative
     icon: audacity.svg
     description: "Audacity is an easy-to-use, multi-track audio editor and recorder. Developed by a group of volunteers as open source."
   - name: aws-workspaces
     full_name: AWS WorkSpaces Client
     arch: linux/amd64
+    tags: remote
+    usecase: dev
     icon: aws-workspaces.svg
     description: "AWS WorkSpaces client for connecting to Amazon WorkSpaces virtual desktops."
   - name: azahar
     full_name: Azahar
     arch: linux/amd64
+    tags: emulator,game
+    usecase: gaming
     icon: azahar.svg
     description: "Azahar is an open-source Nintendo 3DS emulator based on Citra, focused on accuracy, performance and ease of use."
   - name: beekeeperstudio
     full_name: Beekeeper Studio
     arch: linux/amd64
+    tags: development,database
+    usecase: dev
     icon: beekeeperstudio.svg
     description: "Use Beekeeper Studio to query and manage your relational databases, like MySQL, Postgres, SQLite, and SQL Server."
   - name: bitwarden
     full_name: Bitwarden
     arch: linux/amd64
+    tags: security,privacy
+    usecase: privacy
     icon: bitwarden.svg
     description: "Bitwarden is a secure and free password manager for all of your devices."
   - name: blender
     full_name: Blender
     arch: linux/amd64
+    tags: 3d,image
+    usecase: creative
     icon: blender.svg
     description: "Blender is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality, and computer games."
   - name: brave
     full_name: Brave
     arch: linux/amd64,linux/arm64
+    tags: browser,privacy
+    usecase: privacy
     icon: brave.svg
     description: "Brave is a free and open-source web browser developed by Brave Software, Inc. based on the Chromium web browser. Brave is a privacy-focused browser, which automatically blocks most advertisements and website trackers in its default settings."
   - name: braveorigin
     full_name: Brave Origin
     arch: linux/amd64,linux/arm64
+    tags: browser,privacy
+    usecase: privacy
     icon: braveorigin.svg
     description: "Brave Origin is a minimalist version of Brave that allows users to disable the revenue-generating features that otherwise support Brave as a business."
   - name: cadcraft
     full_name: CADCraft
     arch: linux/amd64,linux/arm64
+    tags: design
+    usecase: creative
     icon: cadcraft.png
     description: "CADCraft is an open source 2D computer aided design and drafting app from ArtCraft with layers, dimensions, hatches and blocks that opens and saves DXF and DWG drawings."
   - name: calibre
     full_name: Calibre
     arch: linux/amd64,linux/arm64
+    tags: media,books
+    usecase: media
     icon: calibre.svg
     description: "Calibre is a powerful and easy to use e-book manager. Users say it's outstanding and a must-have. It'll allow you to do nearly everything and it takes things a step beyond normal e-book software. It's also completely free and open source and great for both casual users and computer experts."
   - name: celluloid
     full_name: Celluloid
     arch: linux/amd64,linux/arm64
+    tags: media,video
+    usecase: media
     icon: celluloid.svg
     description: "Celluloid is a simple GTK+ frontend for mpv. It aims to be easy to use while maintaining high level of configurability."
   - name: cemu
     full_name: Cemu
     arch: linux/amd64
+    tags: emulator,game
+    usecase: gaming
     icon: cemu.png
     description: "Cemu is a Wii U emulator that is able to run most Wii U games and homebrew in a playable state."
   - name: chatgpt
     full_name: ChatGPT
     arch: linux/amd64,linux/arm64
+    tags: ai,chat
+    usecase: ai
     icon: chatgpt.svg
     description: "ChatGPT is the desktop app from OpenAI which includes Codex for running agentic coding tasks on your local projects."
   - name: chrome
     full_name: Google Chrome
     arch: linux/amd64
+    tags: browser
+    usecase: media
     icon: chrome.svg
     description: "Chrome is the official web browser from Google, built to be fast, secure, and customizable."
   - name: chromium
     full_name: Chromium
     arch: linux/amd64,linux/arm64
+    tags: browser
+    usecase: media
     icon: chromium.svg
     description: "Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web."
   - name: claude
     full_name: Claude Desktop
     arch: linux/amd64,linux/arm64
+    tags: ai,development
+    usecase: ai
     icon: claude.svg
     description: "Claude is the desktop app from Anthropic with chat and Claude Code for agentic coding with parallel sessions, visual diff review and an integrated terminal."
   - name: deckcraft
     full_name: DeckCraft
     arch: linux/amd64,linux/arm64
+    tags: design,office
+    usecase: creative
     icon: deckcraft.svg
     description: "DeckCraft is an open source presentation app from ArtCraft with themes, layouts, charts, transitions and a presenter view that opens and saves PPTX files."
   - name: deluge
     full_name: Deluge
     arch: linux/amd64,linux/arm64
+    tags: download
+    usecase: media
     icon: deluge.svg
     description: "Deluge is a lightweight, Free Software, cross-platform BitTorrent client."
   - name: designcraft
     full_name: DesignCraft
     arch: linux/amd64,linux/arm64
+    tags: design,office
+    usecase: creative
     icon: designcraft.svg
     description: "DesignCraft is an open source page layout and publishing app from ArtCraft rebuilt in pure Rust for documents, brochures and print design."
   - name: digikam
     full_name: digiKam
     arch: linux/amd64,linux/arm64
+    tags: image
+    usecase: creative
     icon: digikam.svg
     description: "Professional Photo Management with the Power of Open Source."
   - name: dolphin
     full_name: Dolphin Emulator
     arch: linux/amd64
+    tags: emulator,game
+    usecase: gaming
     icon: dolphin.svg
     description: "Dolphin is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more."
   - name: dosbox
     full_name: DOSBox Staging
     arch: linux/amd64
+    tags: emulator,game
+    usecase: gaming
     icon: dosbox.svg
     description: "DOSBox Staging is a modern continuation of DOSBox with advanced features and improvements for running DOS games and software."
   - name: doublecmd
     full_name: Double Commander
     arch: linux/amd64,linux/arm64
+    tags: utility
+    usecase: productivity
     icon: doublecmd.svg
     description: "Double Commander is a free cross-platform open source file manager with two panels side by side (or one above the other). It is inspired by Total Commander and features some innovative new ideas."
   - name: dreamm
     full_name: DREAMM
     arch: linux/amd64,linux/arm64
+    tags: emulator,game
+    usecase: gaming
     icon: dreamm.svg
     description: "DREAMM is a bespoke emulator for LucasArts games, relying on low-level emulation instead of reverse engineering."
   - name: duckstation
     full_name: DuckStation
     arch: linux/amd64
+    tags: emulator,game
+    usecase: gaming
     icon: duckstation.svg
     description: "DuckStation is a simulator/emulator of the Sony PlayStation console, focusing on playability, speed, and long-term maintainability."
   - name: earth
     full_name: Google Earth Pro
     arch: linux/amd64
+    tags: image
+    usecase: media
     icon: earth.png
     description: "Google Earth Pro on desktop is free for users with advanced feature needs. Import and export GIS data, and go back in time with historical imagery."
   - name: eclipsejava
     full_name: Eclipse IDE
     arch: linux/amd64,linux/arm64
+    tags: development
+    usecase: dev
     icon: eclipsejava.svg
     description: "Eclipse IDE, the essential tools for any Java developer, including a Java IDE, a Git client, XML Editor, Maven and Gradle integration."
   - name: eden
     full_name: Eden
     arch: linux/amd64
+    tags: emulator,game
+    usecase: gaming
     icon: eden.svg
     description: "Eden is an experimental open-source emulator for the Nintendo Switch, built with performance and stability in mind."
   - name: edge
     full_name: Microsoft Edge
     arch: linux/amd64
+    tags: browser
+    usecase: media
     icon: edge.svg
     description: "Microsoft Edge is a cross-platform web browser developed by Microsoft and based on Chromium."
   - name: effectcraft
     full_name: EffectCraft
     arch: linux/amd64,linux/arm64
+    tags: video,design
+    usecase: creative
     icon: effectcraft.svg
     description: "EffectCraft is an open source motion graphics and visual effects compositor from ArtCraft built in pure Rust."
   - name: ferdium
     full_name: Ferdium
     arch: linux/amd64,linux/arm64
+    tags: chat
+    usecase: productivity
     icon: ferdium.svg
     description: "Ferdium is a desktop app that helps you organize how you use your favourite apps by combining them into one application."
   - name: figcraft
     full_name: FigCraft
     arch: linux/amd64,linux/arm64
+    tags: design
+    usecase: creative
     icon: figcraft.svg
     description: "FigCraft is an open source interface design and prototyping app from ArtCraft with frames, vector shapes and text on an infinite canvas, auto layout, components, variants and interactive prototypes."
   - name: filezilla
     full_name: FileZilla
     arch: linux/amd64,linux/arm64
+    tags: download
+    usecase: productivity
     icon: filezilla.svg
     description: "FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface."
   - name: filmcraft
     full_name: FilmCraft
     arch: linux/amd64,linux/arm64
+    tags: video,design
+    usecase: creative
     icon: filmcraft.svg
     description: "FilmCraft is an open source video editor from ArtCraft rebuilt from scratch in Rust with a timeline, clips, transitions and GPU accelerated playback."
   - name: firefox
     full_name: Mozilla Firefox
     arch: linux/amd64,linux/arm64
+    tags: browser
+    usecase: media
     icon: firefox.svg
     description: "Firefox Browser, also known as Mozilla Firefox or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. Firefox uses the Gecko layout engine to render web pages, which implements current and anticipated web standards."
   - name: firefox-dev
     full_name: Firefox Developer Edition
     arch: linux/amd64,linux/arm64
+    tags: browser,development
+    usecase: dev
     icon: firefox-dev.svg
     description: "The browser made for developers, all the latest developer tools in beta in addition to features like the Multi-line Console Editor and WebSocket Inspector. A separate profile and path so you can easily run it alongside Release or Beta Firefox. Preferences tailored for web developers: Browser and remote debugging are enabled by default, as are the dark theme and developer toolbar button."
   - name: flameshot
     full_name: Flameshot
     arch: linux/amd64,linux/arm64
+    tags: image
+    usecase: productivity
     icon: flameshot.svg
     description: "Flameshot is a free and open-source, cross-platform tool to take screenshots with many built-in features to save you time."
   - name: flycast
     full_name: Flycast
     arch: linux/amd64
+    tags: emulator,game
+    usecase: gaming
     icon: flycast.svg
     description: "Flycast is a multi-platform Sega Dreamcast, Naomi, Naomi 2, and Atomiswave emulator derived from reicast."
   - name: franz
     full_name: Franz
     arch: linux/amd64
+    tags: chat
+    usecase: productivity
     icon: franz.svg
     description: "Franz is your messaging app for WhatsApp, Facebook Messenger, Slack, Telegram and many many more."
     disabled: True
   - name: freecad
     full_name: FreeCAD
     arch: linux/amd64,linux/arm64
+    tags: 3d,design
+    usecase: creative
     icon: freecad.svg
     description: "FreeCAD is an open-source parametric 3D modeler made primarily to design real-life objects of any size."
   - name: freeciv
     full_name: Freeciv
     arch: linux/amd64,linux/arm64
+    tags: game
+    usecase: gaming
     icon: freeciv.svg
     description: "Freeciv is a Free and Open Source empire-building strategy game inspired by the history of human civilization."
   - name: freedoom
     full_name: Freedoom
     arch: linux/amd64,linux/arm64
+    tags: game
+    usecase: gaming
     icon: freedoom.png
     description: "The Freedoom project aims to produce three base-game data files (IWADs) for Doom-compatible engines. With it comes the capability to also play the wide range of mods created for Doom by a vibrant community."
   - name: geany
     full_name: Geany
     arch: linux/amd64,linux/arm64
+    tags: development
+    usecase: dev
     icon: geany.svg
     description: "Geany is a powerful, stable and lightweight programmers text editor."
   - name: gimp
     full_name: GIMP
     arch: linux/amd64,linux/arm64
+    tags: image,design
+    usecase: creative
     icon: gimp.svg
     description: "GIMP is a free and open-source raster graphics editor used for image manipulation (retouching) and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. It is extensible by means of plugins, and scriptable."
   - name: gridcraft
     full_name: GridCraft
     arch: linux/amd64,linux/arm64
+    tags: office,utility
+    usecase: productivity
     icon: gridcraft.svg
     description: "GridCraft is an open source native spreadsheet from ArtCraft that opens and saves XLSX workbooks and CSV files with hundreds of worksheet functions, sorting, filtering and charts."
   - name: gui
     full_name: PRoot apps GUI
     arch: linux/amd64,linux/arm64
+    tags: utility
+    usecase: productivity
     icon: gui.svg
     description: "PRoot Apps gui is a gtk helper app to install and remove supported PRoot Apps"
     disabled: True
   - name: handbrake
     full_name: HandBrake
     arch: linux/amd64,linux/arm64
+    tags: video
+    usecase: creative
     icon: handbrake.svg
     description: "HandBrake is an open-source, GPL-licensed, multiplatform, multithreaded video transcoder."
   - name: helium
     full_name: Helium
     arch: linux/amd64,linux/arm64
+    tags: browser,privacy
+    usecase: privacy
     icon: helium.svg
     description: "Helium is a Chromium-based web browser made for people, with love. Privacy-first with unbiased ad-blocking."
   - name: idea
     full_name: IntelliJ IDEA
     arch: linux/amd64,linux/arm64
+    tags: development
+    usecase: dev
     icon: idea.svg
     description: "IntelliJ IDEA Community Edition is an Integrated Development Environment (IDE) for Java and Kotlin designed to maximize developer productivity."
   - name: inkscape
     full_name: Inkscape
     arch: linux/amd64,linux/arm64
+    tags: image,design
+    usecase: creative
     icon: inkscape.svg
     description: "Inkscape is professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers."
   - name: joplin
     full_name: Joplin
     arch: linux/amd64
+    tags: notes
+    usecase: productivity
     icon: joplin.svg
     description: "Joplin is a free, open source note taking and to-do application, which can handle a large number of notes organised into notebooks."
   - name: kdenlive
     full_name: Kdenlive
     arch: linux/amd64
+    tags: video
+    usecase: creative
     icon: kdenlive.svg
     description: "Kdenlive is a powerful free and open source cross-platform video editing program made by the KDE community. Feature rich and production ready."
   - name: keepassxc
     full_name: KeePassXC
     arch: linux/amd64,linux/arm64
+    tags: security,privacy
+    usecase: privacy
     icon: keepassxc.svg
     description: "KeePassXC is a modern, secure, and open-source password manager that stores and manages your most sensitive information."
   - name: kicad
     full_name: KiCad
     arch: linux/amd64,linux/arm64
+    tags: design
+    usecase: creative
     icon: kicad.svg
     description: "KiCad - A Cross Platform and Open Source Electronics Design Automation Suite."
   - name: kodi
     full_name: Kodi
     arch: linux/amd64,linux/arm64
+    tags: media,video
+    usecase: media
     icon: kodi.svg
     description: "Kodi spawned from the love of media. It is media center and entertainment hub that brings all your digital media together into a beautiful and user friendly package. It is 100% free and open source, very customisable and runs on a wide variety of devices. It is supported by a dedicated team of volunteers and a huge community."
   - name: krita
     full_name: Krita
     arch: linux/amd64
+    tags: image,design
+    usecase: creative
     icon: krita.svg
     description: "Krita is a professional FREE and open source painting program. It is made by artists that want to see affordable art tools for everyone."
   - name: ktorrent
     full_name: KTorrent
     arch: linux/amd64,linux/arm64
+    tags: download
+    usecase: media
     icon: ktorrent.svg
     description: "KTorrent is a BitTorrent application by KDE which allows you to download files using the BitTorrent protocol."
   - name: libreoffice
     full_name: LibreOffice
     arch: linux/amd64,linux/arm64
+    tags: office
+    usecase: productivity
     icon: libreoffice.svg
     description: "LibreOffice is a free and powerful office suite, and a successor to OpenOffice.org (commonly known as OpenOffice). Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity."
   - name: librewolf
     full_name: LibreWolf
     arch: linux/amd64,linux/arm64
+    tags: browser,privacy
+    usecase: privacy
     icon: librewolf.svg
     description: "This project is an independent fork of Firefox, with the primary goals of privacy security and user freedom. It is the community run successor to LibreFox."
   - name: lightcraft
     full_name: LightCraft
     arch: linux/amd64,linux/arm64
+    tags: image
+    usecase: creative
     icon: lightcraft.svg
     description: "LightCraft is an open source photo library and raw developer from ArtCraft that catalogs, culls and develops your photos locally."
   - name: lmms
     full_name: LMMS
     arch: linux/amd64,linux/arm64
+    tags: audio,media
+    usecase: creative
     icon: lmms.svg
     description: "LMMS is a free, open source, multiplatform digital audio workstation."
   - name: lmstudio
     full_name: LM Studio
     arch: linux/amd64
+    tags: ai,development
+    usecase: ai
     icon: lmstudio.svg
     description: "LM Studio is a desktop app for discovering, downloading and running local LLMs with a chat interface and an OpenAI compatible local server."
   - name: logisim
     full_name: Logisim-evolution
     arch: linux/amd64
+    tags: education,design
+    usecase: dev
     icon: logisim.svg
     description: "Logisim-evolution is educational software for designing and simulating digital logic circuits."
   - name: lollypop
     full_name: Lollypop
     arch: linux/amd64,linux/arm64
+    tags: audio,media
+    usecase: media
     icon: lollypop.svg
     description: "Lollypop is a lightweight modern music player designed to work excellently on the GNOME desktop environment."
   - name: maltego
     full_name: Maltego
     arch: linux/amd64,linux/arm64
+    tags: security,privacy
+    usecase: privacy
     icon: maltego.svg
     description: "Maltego is link analysis software used for open-source intelligence, forensics and other investigations."
   - name: mame
     full_name: MAME
     arch: linux/amd64
+    tags: emulator,game
+    usecase: gaming
     icon: mame.svg
     description: "MAME is a multi-purpose emulation framework whose purpose is to preserve decades of arcade and computer software history."
   - name: mayo
     full_name: Mayo
     arch: linux/amd64,linux/arm64
+    tags: 3d
+    usecase: creative
     icon: mayo.svg
     description: "Mayo is an open-source 3D CAD viewer and converter based on Open CASCADE Technology and Qt."
   - name: melonds
     full_name: melonDS
     arch: linux/amd64,linux/arm64
+    tags: emulator,game
+    usecase: gaming
     icon: melonds.svg
     description: "melonDS aims at providing fast and accurate Nintendo DS emulation."
   - name: moonlight
     full_name: Moonlight
     arch: linux/amd64,linux/arm64
+    tags: game,remote
+    usecase: gaming
     icon: moonlight.svg
     description: "Moonlight allows you to play your PC games on almost any device, whether you're in another room or miles away from your gaming rig."
   - name: mumble
     full_name: Mumble
     arch: linux/amd64,linux/arm64
+    tags: chat,audio
+    usecase: productivity
     icon: mumble.svg
     description: "Mumble is a free, open source, low latency, high quality voice chat application."
   - name: nextcloud
     full_name: Nextcloud Desktop
     arch: linux/amd64
+    tags: utility
+    usecase: productivity
     icon: nextcloud.svg
     description: "The Nextcloud desktop client keeps photos and documents always up to date, enabling you to work like you always did."
   - name: obs
     full_name: OBS Studio
     arch: linux/amd64
+    tags: media,video
+    usecase: creative
     icon: obs.svg
     description: "OBS Studio is a free and open-source, cross-platform screencasting and streaming app."
   - name: obsidian
     full_name: Obsidian
     arch: linux/amd64
+    tags: notes
+    usecase: productivity
     icon: obsidian.svg
     description: "Obsidian is a note-taking app that lets you create, link, and organize your notes on your device, with hundreds of plugins and themes to customize your workflow."
   - name: onlyoffice
     full_name: ONLYOFFICE
     arch: linux/amd64
+    tags: office
+    usecase: productivity
     icon: onlyoffice.svg
     description: "Create, view and edit documents of any size and complexity. Work with most popular formats: DOCX, ODT, XLSX, ODS, CSV, PPTX, ODP, etc. Deal with multiple files within one and the same window thanks to the tab-based user interface."
   - name: opencloud
     full_name: OpenCloud
     arch: linux/amd64
+    tags: utility
+    usecase: productivity
     icon: opencloud.svg
     description: "The OpenCloud Desktop Client enables file synchronization between a local computer and OpenCloud."
   - name: opencode
     full_name: OpenCode
     arch: linux/amd64
+    tags: ai,development
+    usecase: ai
     icon: opencode.svg
     description: "OpenCode is an open source AI coding agent and the desktop app provides a native GUI with sessions, diffs and terminal access to your projects."
   - name: opera
     full_name: Opera
     arch: linux/amd64
+    tags: browser
+    usecase: media
     icon: opera.svg
     description: "Opera is a multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium, but distinguishes itself from other Chromium-based browsers (Chrome, Edge, etc.) through its user interface and other features."
   - name: orcaslicer
     full_name: OrcaSlicer
     arch: linux/amd64
+    tags: 3d
+    usecase: creative
     icon: orcaslicer.svg
     description: "OrcaSlicer is an open source Next-Gen Slicing Software for Precision 3D Prints."
   - name: parsec
     full_name: Parsec
     arch: linux/amd64
+    tags: game,remote
+    usecase: gaming
     icon: parsec.svg
     description: "Parsec is a remote desktop you'll actually love. Connect to work, games, or projects wherever you are, whenever you want."
   - name: pcsx2
     full_name: PCSX2
     arch: linux/amd64
+    tags: emulator,game
+    usecase: gaming
     icon: pcsx2.png
     description: "PCSX2 is a free and open-source PlayStation 2 emulator that supports a wide range of games with high compatibility."
   - name: pdfcraft
     full_name: PdfCraft
     arch: linux/amd64,linux/arm64
+    tags: pdf
+    usecase: productivity
     icon: pdfcraft.svg
     description: "PdfCraft is an open source PDF workbench from ArtCraft for reading, organizing, combining, splitting and securing PDF files."
   - name: photocraft
     full_name: PhotoCraft
     arch: linux/amd64,linux/arm64
+    tags: image,design
+    usecase: creative
     icon: photocraft.svg
     description: "PhotoCraft is an open source native image editor from ArtCraft with layers, masks, adjustment layers, brushes and type that opens and saves layered PSD and PSB files."
   - name: postman
     full_name: Postman
     arch: linux/amd64,linux/arm64
+    tags: development
+    usecase: dev
     icon: postman.svg
     description: "Postman is an application that allows the testing of web APIs."
   - name: ppsspp
     full_name: PPSSPP
     arch: linux/amd64,linux/arm64
+    tags: emulator,game
+    usecase: gaming
     icon: ppsspp.svg
     description: "PPSSPP is a PSP emulator that can run games in full HD resolution."
   - name: pycharm
     full_name: PyCharm Community Edition
     arch: linux/amd64,linux/arm64
+    tags: development
+    usecase: dev
     icon: pycharm.svg
     description: "PyCharm Community Edition IDE is designed by programmers, for programmers, to provide all the tools you need for productive Python development."
   - name: qbittorrent
     full_name: Qbittorrent
     arch: linux/amd64,linux/arm64
+    tags: download
+    usecase: media
     icon: qbittorrent.svg
     description: "The Qbittorrent project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library."
   - name: remmina
     full_name: Remmina
     arch: linux/amd64,linux/arm64
+    tags: remote
+    usecase: dev
     icon: remmina.svg
     description: "Remmina is a remote desktop client written in GTK, aiming to be useful for system administrators and travellers, who need to work with lots of remote computers in front of either large or tiny screens. Remmina supports multiple network protocols, in an integrated and consistent user interface."
   - name: retroarch
     full_name: RetroArch
     arch: linux/amd64,linux/arm64
+    tags: emulator,game
+    usecase: gaming
     icon: retroarch.svg
     description: "RetroArch is a free and open-source, cross-platform frontend for emulators, game engines, video games, media players and other applications."
   - name: rpcs3
     full_name: RPCS3
     arch: linux/amd64
+    tags: emulator,game
+    usecase: gaming
     icon: rpcs3.svg
     description: "RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++."
   - name: rustdesk
     full_name: RustDesk
     arch: linux/amd64,linux/arm64
+    tags: remote
+    usecase: dev
     icon: rustdesk.svg
     description: "RustDesk is a remote access and remote control software, primarily written in Rust, that enables remote maintenance of computers and other devices."
   - name: scummvm
     full_name: ScummVM
     arch: linux/amd64
+    tags: emulator,game
+    usecase: gaming
     icon: scummvm.svg
     description: "ScummVM allows you to run certain classic graphical adventure and role-playing games, provided you already have their data files."
   - name: shadps4
     full_name: shadPS4
     arch: linux/amd64
+    tags: emulator,game
+    usecase: gaming
     icon: shadps4.svg
     description: "shadPS4 is an early in development PlayStation 4 emulator, this Qt launcher manages downloading and running shadPS4 releases."
     disabled: True
   - name: shortwave
     full_name: Shortwave
     arch: linux/amd64,linux/arm64
+    tags: audio,media
+    usecase: media
     icon: shortwave.svg
     description: "Shortwave is an internet radio player that provides access to a station database with over 30,000 stations."
   - name: shotcut
     full_name: Shotcut
     arch: linux/amd64,linux/arm64
+    tags: video
+    usecase: creative
     icon: shotcut.svg
     description: "Shotcut is a free, open source, cross-platform video editor."
   - name: signal
     full_name: Signal
     arch: linux/amd64
+    tags: chat,privacy
+    usecase: privacy
     icon: signal.svg
     description: "Share text, voice messages, photos, videos, GIFs and files for free."
     disabled: True
   - name: slack
     full_name: Slack
     arch: linux/amd64
+    tags: chat
+    usecase: productivity
     icon: slack.svg
     description: "Slack is a new way to communicate with your team. It's faster, better organized, and more secure than email."
     disabled: True
   - name: soundcraft
     full_name: SoundCraft
     arch: linux/amd64,linux/arm64
+    tags: audio,media
+    usecase: creative
     icon: soundcraft.svg
     description: "SoundCraft is an open source native digital audio workstation from ArtCraft for recording, editing and mixing multitrack audio and MIDI."
   - name: spotify
     full_name: Spotify
     arch: linux/amd64
+    tags: audio,media
+    usecase: media
     icon: spotify.svg
     description: "Spotify is a digital music service that gives you access to millions of songs. YOU MUST LOGIN WITH QR CODE!"
   - name: spotube
     full_name: Spotube
     arch: linux/amd64
+    tags: audio,media
+    usecase: media
     icon: spotube.png
     description: "Spotube is an open source, cross-platform Spotify client compatible across multiple platforms utilizing Spotify's data API and YouTube, Piped.video or JioSaavn as an audio source, eliminating the need for Spotify Premium"
   - name: sqlitebrowser
     full_name: SQLite DB Browser
     arch: linux/amd64,linux/arm64
+    tags: development,database
+    usecase: dev
     icon: sqlitebrowser.svg
     description: "DB Browser for SQLite is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite."
   - name: steam
     full_name: Steam
     arch: linux/amd64
+    tags: game
+    usecase: gaming
     icon: steam.svg
     description: "Steam is Valve's game store and launcher, installed into your home directory and run natively in its own Steam Runtime container."
     disabled: True
   - name: stremio
     full_name: Stremio
     arch: linux/amd64
+    tags: media,video
+    usecase: media
     icon: stremio.svg
     description: "Stremio offers a secure, modern and seamless entertainment experience. With its easy-to-use interface and diverse content library, including 4K HDR support, users can enjoy their favorite movies and TV shows across all their devices."
   - name: tabby
     full_name: Tabby
     arch: linux/amd64,linux/arm64
+    tags: terminal
+    usecase: dev
     icon: tabby.svg
     description: "Tabby is an infinitely customizable cross-platform terminal app for local shells, serial, SSH and Telnet connections."
   - name: telegram
     full_name: Telegram
     arch: linux/amd64
+    tags: chat
+    usecase: productivity
     icon: telegram.svg
     description: "Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed."
   - name: thunderbird
     full_name: Thunderbird
     arch: linux/amd64,linux/arm64
+    tags: email
+    usecase: productivity
     icon: thunderbird.svg
     description: "Thunderbird is free and open-source email client software which also functions as a full personal information manager with a calendar and contactbook, as well as an RSS feed reader, chat client (IRC/XMPP/Matrix), and news client."
   - name: torbrowser
     full_name: Tor Browser
     arch: linux/amd64
+    tags: browser,privacy
+    usecase: privacy
     icon: torbrowser.svg
     description: "Tor is free and open-source software for enabling anonymous communication by directing Internet traffic through a free, worldwide, volunteer overlay network."
   - name: ungoogledchromium
     full_name: Ungoogled Chromium
     arch: linux/amd64
+    tags: browser,privacy
+    usecase: privacy
     icon: ungoogledchromium.svg
     description: "Google Chromium, sans integration with Google."
   - name: unsloth
     full_name: Unsloth
     arch: linux/amd64
+    tags: ai
+    usecase: ai
     icon: unsloth.svg
     description: "Unsloth is an open source desktop app for running and fine tuning LLMs, diffusion and audio models on local hardware."
     disabled: True
   - name: vectorcraft
     full_name: VectorCraft
     arch: linux/amd64,linux/arm64
+    tags: image,design
+    usecase: creative
     icon: vectorcraft.svg
     description: "VectorCraft is a fast open source vector illustration app from ArtCraft written in pure Rust with paths, shapes, text and layers."
   - name: vivaldi
     full_name: Vivaldi
     arch: linux/amd64,linux/arm64
+    tags: browser
+    usecase: media
     icon: vivaldi.svg
     description: "Vivaldi is a freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies."
   - name: vlc
     full_name: VLC media player
     arch: linux/amd64,linux/arm64
+    tags: media,video
+    usecase: media
     icon: vlc.svg
     description: "VLC media player (previously the VideoLAN Client and commonly known as simply VLC) is a free and open-source, portable, cross-platform media player software and streaming media server developed by the VideoLAN project."
   - name: vscode
     full_name: Visual Studio Code
     arch: linux/amd64,linux/arm64
+    tags: development
+    usecase: dev
     icon: vscode.svg
     description: "Visual Studio Code is a source-code editor developed by Microsoft for Windows, Linux and macOS"
   - name: vscodium
     full_name: VSCodium
     arch: linux/amd64,linux/arm64
+    tags: development
+    usecase: dev
     icon: vscodium.svg
     description: "VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code."
   - name: weather
     full_name: GNOME Weather
     arch: linux/amd64,linux/arm64
+    tags: utility
+    usecase: productivity
     icon: weather.svg
     description: "A small application that allows you to monitor the current weather conditions for your city, or anywhere in the world."
   - name: webcord
     full_name: WebCord
     arch: linux/amd64,linux/arm64
+    tags: chat,privacy
+    usecase: privacy
     icon: webcord.png
     description: "WebCord can be summarized as a pack of security and privacy hardenings, Discord features reimplementations, Electron / Chromium / Discord bugs workarounds, stylesheets, internal pages and wrapped https://discord.com page, designed to conform with ToS as much as it is possible."
   - name: wechat
     full_name: WeChat
     arch: linux/amd64
+    tags: chat
+    usecase: productivity
     icon: wechat.svg
     description: "WeChat or Weixin in Chinese is an instant messaging, social media, and mobile payment app developed by Tencent."
   - name: winegui
     full_name: WineGUI
     arch: linux/amd64
+    tags: utility,game
+    usecase: gaming
     icon: winegui.svg
     description: "A user-interface friendly Wine (A compatibility layer capable of running Windows applications under Linux) Manager."
   - name: wordcraft
     full_name: WordCraft
     arch: linux/amd64,linux/arm64
+    tags: office
+    usecase: productivity
     icon: wordcraft.svg
     description: "WordCraft is an open source word processor from ArtCraft with styles, tables, track changes and mail merge that opens and saves DOCX, PDF, ODT, RTF, HTML and Markdown files."
   - name: wpsoffice
     full_name: WPS Office
     arch: linux/amd64
+    tags: office
+    usecase: productivity
     icon: wpsoffice.svg
     description: "WPS Office is a lightweight, feature-rich comprehensive office suite with high compatibility. As a handy and professional office software, WPS Office allows you to edit files in Writer, Presentation, Spreadsheet, and PDF to improve your work efficiency."
   - name: xemu
     full_name: xemu
     arch: linux/amd64
+    tags: emulator,game
+    usecase: gaming
     icon: xemu.svg
     description: "xemu is a low-level, full-system emulator for the original Xbox game console."
   - name: xenia
     full_name: Xenia Edge
     arch: linux/amd64
+    tags: emulator,game
+    usecase: gaming
     icon: xenia.png
     description: "Xenia Edge is a fork of the Xenia Xbox 360 research emulator with additional fixes and enhancements."
   - name: yandex
     full_name: Yandex Browser
     arch: linux/amd64
+    tags: browser
+    usecase: media
     icon: yandex.svg
     description: "Yandex Browser is a freeware web browser developed by the Russian technology corporation Yandex that uses the Blink web browser."
   - name: zen
     full_name: Zen Browser
     arch: linux/amd64,linux/arm64
+    tags: browser,privacy
+    usecase: privacy
     icon: zen.svg
     description: "Zen Browser is a free and open-source fork of Mozilla Firefox with a focus on privacy, customizability and design."
   - name: zim
     full_name: Zim Desktop Wiki
     arch: linux/amd64,linux/arm64
+    tags: notes
+    usecase: productivity
     icon: zim.svg
     description: "Zim is a graphical text editor used to maintain a collection of wiki pages."
   - name: zoom
     full_name: Zoom
     arch: linux/amd64
+    tags: remote,chat
+    usecase: productivity
     icon: zoom.svg
     description: "Zoom is a proprietary videotelephony software program developed by Zoom Video Communications."
   - name: zotero
     full_name: Zotero
     arch: linux/amd64
+    tags: books,notes
+    usecase: dev
     icon: zotero.png
     description: "Zotero is a free, easy-to-use tool to help you collect, organize, annotate, cite, and share research."
