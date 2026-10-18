@@ -142,12 +142,12 @@ class MainWindow(Gtk.ApplicationWindow):
           content = False
       time.sleep(.04)
       self.gridButton(app, content)
-      # If still loading and user searched call it to show
+      # Respect the active search and category filter while loading
       if self.searchEntry != '' and self.searchEntry in app['name']:
         entry = Gtk.Entry()
         entry.set_text(self.searchEntry)
         self.onSearch(entry)
-      elif self.searchEntry == '':
+      elif self.searchEntry == '' and self.catMatch(app['name']):
         # Setup buttons and append to grid
         self.appGrid.append(self.appButton[app['name']])
     # Run a blank search to render everything properly
@@ -285,6 +285,11 @@ class MainWindow(Gtk.ApplicationWindow):
   def selectedCategory(self):
     item = self.catDrop.get_selected_item()
     return item.get_string() if item is not None else 'All Categories'
+
+  # Does an app belong to the currently selected category
+  def catMatch(self, appName):
+    cat = self.selectedCategory()
+    return cat == 'All Categories' or self.appCategory.get(appName, '') == cat
 
   # Process search
   def onSearch(self, entry):
