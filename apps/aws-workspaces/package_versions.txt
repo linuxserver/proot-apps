@@ -347,7 +347,7 @@ libspeexdsp1                    1.2~rc1.2-1.1ubuntu3                     deb
 libsqlite3-0                    3.37.2-2ubuntu0.8                        deb       
 libss2                          1.46.5-2ubuntu1.2                        deb       
 libssh-4                        0.9.6-2ubuntu0.22.04.8                   deb       
-libssl3                         3.0.2-0ubuntu1.29                        deb       
+libssl3                         3.0.2-0ubuntu1.30                        deb       
 libsss-certmap0                 2.6.3-1ubuntu3.9                         deb       
 libsss-idmap0                   2.6.3-1ubuntu3.9                         deb       
 libsss-nss-idmap0               2.6.3-1ubuntu3.9                         deb       

@@ -317,7 +317,7 @@ libss2                              1.46.5-2ubuntu1.2                        deb
 libssh-4                            0.9.6-2ubuntu0.22.04.8                   deb     
 libssh-gcrypt-4                     0.9.6-2ubuntu0.22.04.8                   deb     
 libssl1.1                           1.1.1f-1ubuntu2.24                       deb     
-libssl3                             3.0.2-0ubuntu1.29                        deb     
+libssl3                             3.0.2-0ubuntu1.30                        deb     
 libstdc++6                          12.3.0-1ubuntu1~22.04.3                  deb     
 libswresample3                      7:4.4.2-0ubuntu0.22.04.1                 deb     
 libswscale5                         7:4.4.2-0ubuntu0.22.04.1                 deb     
