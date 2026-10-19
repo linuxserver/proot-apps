@@ -128,7 +128,7 @@ lang                            0.1-r2                   apk
 lcms2                           2.19-r0                  apk                         
 libSvtAv1Enc                    3.1.2-r0                 apk                         
 libapk                          3.0.8-r0                 apk                         
-libarchive                      3.8.5-r0                 apk                         
+libarchive                      3.8.10-r0                apk                         
 libass                          0.17.4-r0                apk                         
 libasyncns                      0.8-r4                   apk                         
 libatomic                       15.2.0-r2                apk                         
