@@ -106,6 +106,19 @@ class MainWindow(Gtk.ApplicationWindow):
     )
     self.search.connect('changed', self.onSearch)
     self.header.pack_end(self.search)
+    # Build the category filter dropdown from the metadata in use
+    self.appCategory = {}
+    categories = []
+    for app in self.appData['include']:
+      if 'category' in app and app['category'] not in categories:
+        categories.append(app['category'])
+      self.appCategory[app['name']] = app.get('category', '')
+    categories.sort()
+    categories.insert(0, 'All Categories')
+    self.catDrop = Gtk.DropDown()
+    self.catDrop.set_model(Gtk.StringList.new(categories))
+    self.catDrop.connect('notify::selected', self.onCategory)
+    self.header.pack_end(self.catDrop)
     self.appButton = {}
     self.logos = {}
     self.logoBoxes = {}
@@ -129,12 +142,12 @@ class MainWindow(Gtk.ApplicationWindow):
           content = False
       time.sleep(.04)
       self.gridButton(app, content)
-      # If still loading and user searched call it to show
+      # Respect the active search and category filter while loading
       if self.searchEntry != '' and self.searchEntry in app['name']:
         entry = Gtk.Entry()
         entry.set_text(self.searchEntry)
         self.onSearch(entry)
-      elif self.searchEntry == '':
+      elif self.searchEntry == '' and self.catMatch(app['name']):
         # Setup buttons and append to grid
         self.appGrid.append(self.appButton[app['name']])
     # Run a blank search to render everything properly
@@ -264,24 +277,29 @@ class MainWindow(Gtk.ApplicationWindow):
     updateButton.connect('clicked', self.prootRun, 'update', app, container)
     removeButton.connect('clicked', self.prootRun, 'remove', app, container)
 
+  # Re-run search when the category dropdown changes
+  def onCategory(self, dropdown, param):
+    self.onSearch(self.search)
+
+  # Selected category from the dropdown or 'All Categories'
+  def selectedCategory(self):
+    item = self.catDrop.get_selected_item()
+    return item.get_string() if item is not None else 'All Categories'
+
+  # Does an app belong to the currently selected category
+  def catMatch(self, appName):
+    cat = self.selectedCategory()
+    return cat == 'All Categories' or self.appCategory.get(appName, '') == cat
+
   # Process search
   def onSearch(self, entry):
     self.searchEntry = entry.get_text()
     self.appGrid.remove_all()
+    cat = self.selectedCategory()
     for appName in list(self.appButton):
-      if entry.get_text() != '':
-        if entry.get_text() in appName:
-          if appName in self.logos:
-            content = self.logos[appName]
-          else:
-            content = False
-          app = next(app for app in self.appData['include'] if app['name'] == appName)
-          self.gridButton(app, content)
-          self.appGrid.append(self.appButton[app['name']])
-        else:
-          if self.appButton[appName].get_parent():
-            self.appGrid.remove(self.appButton[appName])
-      else:
+      nameMatch = entry.get_text() == '' or entry.get_text() in appName
+      catMatch = cat == 'All Categories' or self.appCategory.get(appName, '') == cat
+      if nameMatch and catMatch:
         if appName in self.logos:
           content = self.logos[appName]
         else:
@@ -289,6 +307,9 @@ class MainWindow(Gtk.ApplicationWindow):
         app = next(app for app in self.appData['include'] if app['name'] == appName)
         self.gridButton(app, content)
         self.appGrid.append(self.appButton[app['name']])
+      else:
+        if self.appButton[appName].get_parent():
+          self.appGrid.remove(self.appButton[appName])
 
 # Run app
 class App(Adw.Application):

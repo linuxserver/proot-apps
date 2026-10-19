@@ -87,9 +87,9 @@ proot-apps update firefox
 <details>
   <summary>Click to expand</summary>
 
-| Name | Full Endpoint | Arch | Description |
-| :----: | :----: | :----: |--- |
-{% for app in include %}{% if 'disabled' not in app %}| {{ app.name }} | ghcr.io/{{ env['GITHUB_REPOSITORY']|lower }}:{{ app.name }} | {{ app.arch }} | {{ app.description }}|
+| Name | Full Endpoint | Category | Arch | Description |
+| :----: | :----: | :----: | :----: |--- |
+{% for app in include %}{% if 'disabled' not in app %}| {{ app.name }} | ghcr.io/{{ env['GITHUB_REPOSITORY']|lower }}:{{ app.name }} | {{ app.category }} | {{ app.arch }} | {{ app.description }}|
 {% endif %}{% endfor %}
 
 </details>
@@ -155,6 +155,7 @@ Three are three things needed for an app to work with all build and ingestion lo
   - name - the app name also tied to the folder used previously, should be a single string all lowercase
   - full_name - the display name for the application
   - arch - what arches to build the application for
+  - category - the category the GUI installer groups the application under, the values in use are AI AudioVideo Creative Development Education Game Network Office Science System Utility
   - icon - the icon name for the application
   - description - a blurb explaining the application to the user
   - (optional) disabled - this will only build and push the tag for the application, it will not be advertised in the readme or desktop application
