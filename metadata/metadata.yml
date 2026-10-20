@@ -289,6 +289,12 @@ include:
     category: Creative
     icon: gimp.svg
     description: "GIMP is a free and open-source raster graphics editor used for image manipulation (retouching) and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. It is extensible by means of plugins, and scriptable."
+  - name: godot
+    full_name: Godot Engine
+    arch: linux/amd64,linux/arm64
+    category: Development
+    icon: godot.svg
+    description: "Godot Engine is a free and open source, feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface."
   - name: gridcraft
     full_name: GridCraft
     arch: linux/amd64,linux/arm64
