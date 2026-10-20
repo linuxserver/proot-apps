@@ -46,8 +46,8 @@ gcc-15-base                     15.2.0-16ubuntu1                       deb
 gcc-15-x86-64-linux-gnu         15.2.0-16ubuntu1                       deb          
 gcc-16-base                     16-20260322-1ubuntu1                   deb          
 gcc-x86-64-linux-gnu            4:15.2.0-5ubuntu1                      deb          
-git                             1:2.53.0-1ubuntu1                      deb          
-git-man                         1:2.53.0-1ubuntu1                      deb          
+git                             1:2.53.0-1ubuntu1.1                    deb          
+git-man                         1:2.53.0-1ubuntu1.1                    deb          
 github.com/GehirnInc/crypt      v0.0.0-20230320061759-8cc1b52080c5     go-module    
 github.com/canonical/go-flags   v0.0.0-20230403090104-105d09a091b8     go-module    
 github.com/canonical/pebble     v1.33.1-0.20260928054015-16d571fb31ca  go-module    
@@ -437,7 +437,7 @@ sysvinit-utils                  3.15-5ubuntu1                          deb
 tar                             1.35+dfsg-4ubuntu0.4                   deb          
 ubuntu-keyring                  2023.11.28.1build1                     deb          
 udev                            259.5-0ubuntu3.4                       deb          
-unsloth                         0.1.908-beta                           deb          
+unsloth                         0.1.909-beta                           deb          
 user-session-migration          0.5.1                                  deb          
 util-linux                      2.41.3-3ubuntu2.2                      deb          
 x11-common                      1:7.7+26ubuntu1                        deb          

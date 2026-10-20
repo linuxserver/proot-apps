@@ -441,7 +441,7 @@ libxshmfence1                   1.3-1build4                              deb
 libxslt1.1                      1.1.34-4ubuntu0.22.04.5                  deb       
 libxss1                         1:1.2.3-1build2                          deb       
 libxt6                          1:1.2.1-1                                deb       
-libxtst6                        2:1.2.3-1build4                          deb       
+libxtst6                        2:1.2.3-1ubuntu0.22.04.1                 deb       
 libxv1                          2:1.0.11-1build2                         deb       
 libxvmc1                        2:1.0.12-2build2                         deb       
 libxxf86vm1                     1:1.1.4-1build3                          deb       
