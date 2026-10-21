@@ -300,8 +300,8 @@ libstdc++6                       16-20260322-1ubuntu1                   deb
 libstemmer0d                     3.0.1-1                                deb          
 libsvtav1enc2                    2.3.0+dfsg-1build1                     deb          
 libswresample6                   7:8.0.1-3ubuntu2                       deb          
-libsystemd-shared                259.5-0ubuntu3.4                       deb          
-libsystemd0                      259.5-0ubuntu3.4                       deb          
+libsystemd-shared                259.9-0ubuntu0.1                       deb          
+libsystemd0                      259.9-0ubuntu0.1                       deb          
 libtag2                          2.2.1-3                                deb          
 libtasn1-6                       4.21.0-2                               deb          
 libtdb1                          2:1.4.14+samba4.23.6+dfsg-1ubuntu2.2   deb          
@@ -315,7 +315,7 @@ libtinfo6                        6.6+20251231-1                         deb
 libtsan2                         16-20260322-1ubuntu1                   deb          
 libtwolame0                      0.4.0-2build4                          deb          
 libubsan1                        16-20260322-1ubuntu1                   deb          
-libudev1                         259.5-0ubuntu3.4                       deb          
+libudev1                         259.9-0ubuntu0.1                       deb          
 libunistring5                    1.3-2build1                            deb          
 libunwind8                       1.8.3-0ubuntu1                         deb          
 libuuid1                         2.41.3-3ubuntu2.2                      deb          
@@ -380,7 +380,7 @@ libxrender1                      1:0.9.12-1build1                       deb
 libxshmfence1                    1.3.3-1build1                          deb          
 libxss1                          1:1.2.3-1build4                        deb          
 libxt6t64                        1:1.2.1-1.3build1                      deb          
-libxtst6                         2:1.2.5-1build1                        deb          
+libxtst6                         2:1.2.5-1ubuntu0.1                     deb          
 libxvidcore4                     2:1.3.7-3                              deb          
 libxvmc1                         2:1.0.12-2build4                       deb          
 libxxf86vm1                      1:1.1.4-2                              deb          
@@ -416,11 +416,11 @@ sed                              4.9-2ubuntu1                           deb
 sensible-utils                   0.0.26build1                           deb          
 shared-mime-info                 2.4-5build3                            deb          
 stdlib                           go1.27.1                               go-module    
-systemd                          259.5-0ubuntu3.4                       deb          
+systemd                          259.9-0ubuntu0.1                       deb          
 sysvinit-utils                   3.15-5ubuntu1                          deb          
 tar                              1.35+dfsg-4ubuntu0.4                   deb          
 ubuntu-keyring                   2023.11.28.1build1                     deb          
-udev                             259.5-0ubuntu3.4                       deb          
+udev                             259.9-0ubuntu0.1                       deb          
 user-session-migration           0.5.1                                  deb          
 util-linux                       2.41.3-3ubuntu2.2                      deb          
 x11-common                       1:7.7+26ubuntu1                        deb          
@@ -428,8 +428,8 @@ x11-xkb-utils                    7.7+9build1                            deb
 xdg-desktop-portal               1.21.1+ds-1ubuntu3.1                   deb          
 xdg-utils                        1.2.1-2ubuntu2                         deb          
 xkb-data                         2.46-2                                 deb          
-xserver-common                   2:21.1.22-1ubuntu1.2                   deb          
-xserver-xorg-core                2:21.1.22-1ubuntu1.2                   deb          
+xserver-common                   2:21.1.22-1ubuntu1.3                   deb          
+xserver-xorg-core                2:21.1.22-1ubuntu1.3                   deb          
 xserver-xorg-video-amdgpu        25.0.0-1                               deb          
 xserver-xorg-video-ati           1:22.0.0-1build2                       deb          
 xserver-xorg-video-intel         2:2.99.917+git20210115-1build2         deb          
