@@ -19,13 +19,16 @@ RUN \
     /tmp/codium.deb && \
   echo "**** customize desktop file ****" && \
   sed -i \
+    -e '/^\[Desktop Action/,$d' \
+    -e '/^Actions=/d' \
     -e "/^Exec=/c Exec=/bin/sh -c \"\$HOME\/.local\/bin\/proot-apps run ghcr.io/${REPO}:vscodium %U\"" \
-    -e "s/Name=VSCodium/Name=VSCodium PA/g" \
+    -e "s/^Name=VSCodium$/Name=VSCodium PA/g" \
     -e '/^TryExec=/d' \
-    /usr/share/applications/codium.desktop && \
+    /usr/share/applications/com.visualstudio.CodeOSS.desktop && \
   mv \
-    /usr/share/applications/codium.desktop \
+    /usr/share/applications/com.visualstudio.CodeOSS.desktop \
     /usr/share/applications/codium-pa.desktop && \
+  rm -f /usr/share/applications/com.visualstudio.CodeOSS.UrlHandler.desktop && \
   echo "**** set bin name ****" && \
   echo "codium-pa" > /bin-name && \
   echo "**** cleanup ****" && \
