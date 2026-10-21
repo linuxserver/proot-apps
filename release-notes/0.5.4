@@ -1,0 +1,9 @@
+What's new in this Version:
+
+* Replace the PRoot fork with prebuilt static binaries from proot-next, a Rust reimplementation of PRoot that serves path syscalls through seccomp user notification instead of ptrace stops
+* Releases ship the latest stable proot-next release and every master prerelease ships the proot-next build of the latest commit to its main branch, the binary is verified against its published checksum and is no longer compiled here
+* Optional bwrap support by symlinking bwrap to proot in the install directory, proot-next acts as an unprivileged bubblewrap when called by that name
+* Nested proot and bwrap launches inside apps are served by the running supervisor, so the graphical installer and GTK glycin image loaders run sandboxed inside their guests
+* Apps now run on hosts with Yama ptrace scope 2 and inside containers using the default Docker seccomp profile
+* New apps: CADCraft, DeckCraft, FigCraft, GridCraft, SoundCraft, WordCraft
+* Rename PrintCraft to PdfCraft and install zenity in the craft apps
