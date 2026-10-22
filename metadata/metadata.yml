@@ -611,6 +611,12 @@ include:
     icon: slack.svg
     description: "Slack is a new way to communicate with your team. It's faster, better organized, and more secure than email."
     disabled: True
+  - name: solidcraft
+    full_name: SolidCraft
+    arch: linux/amd64,linux/arm64
+    category: Creative
+    icon: solidcraft.png
+    description: "SolidCraft is an open source parametric 3D CAD application built in Rust with a constraint based sketcher, a parametric feature timeline, components, joints and sheet metal that opens and saves STEP, IGES, 3MF, STL and OBJ files."
   - name: soundcraft
     full_name: SoundCraft
     arch: linux/amd64,linux/arm64
