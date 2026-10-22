@@ -1,11 +1,12 @@
 NAME                                        VERSION                               TYPE                   
+@devcontainers/cli                          0.88.0                                npm                     
 @pondwader/socks5-server                    1.0.10                                npm                     
 @vscode/fs-copyfile                         2.0.0                                 npm                     
 @vscode/sandbox-runtime                     0.0.1                                 npm                     
 Microsoft.PowerShell.PSReadLine             2.4.3                                 dotnet                  
 Microsoft.PowerShell.PSReadLine.Polyfiller  1.0.0.0                               dotnet  (+1 duplicate)  
 Microsoft.PowerShell.Pager                  1.0.0.0                               dotnet                  
-VSCodium                                    1.135.06055                           npm                     
+VSCodium                                    1.140.06880                           npm                     
 adduser                                     3.152                                 deb                     
 adwaita-icon-theme                          48.1-1                                deb                     
 apt                                         3.0.3                                 deb                     
@@ -19,9 +20,9 @@ binutils-common                             2.44-3                              
 binutils-x86-64-linux-gnu                   2.44-3                                deb                     
 bsdutils                                    1:2.41.5-0+deb13u1                    deb                     
 builtin-notebook-renderers                  10.0.0                                npm                     
-ca-certificates                             20250419                              deb                     
+ca-certificates                             20250419+deb13u1                      deb                     
 clojure                                     10.0.0                                npm                     
-codium                                      1.135.06055                           deb                     
+codium                                      1.140.06880                           deb                     
 coffeescript                                10.0.0                                npm                     
 commander                                   12.1.0                                npm                     
 configuration-editing                       10.0.0                                npm                     
@@ -34,7 +35,7 @@ cpp-x86-64-linux-gnu                        4:14.2.0-1                          
 csharp                                      10.0.0                                npm                     
 css                                         10.0.0                                npm                     
 css-language-features                       10.0.0                                npm                     
-curl                                        8.14.1-2+deb13u5                      deb                     
+curl                                        8.14.1-2+deb13u7                      deb                     
 dart                                        10.0.0                                npm                     
 dash                                        0.5.12-12                             deb                     
 dbus-bin                                    1.16.2-2                              deb                     
@@ -98,7 +99,7 @@ jake                                        10.0.0                              
 java                                        10.0.0                                npm                     
 javascript                                  10.0.0                                npm                     
 jq                                          1.7.1-6+deb13u4                       deb                     
-js-debug                                    1.117.0                               npm                     
+js-debug                                    1.140.0                               npm                     
 js-debug-companion                          1.1.3                                 npm                     
 json                                        10.0.0                                npm                     
 json-language-features                      10.0.0                                npm                     
@@ -154,8 +155,8 @@ libcrypt1                                   1:4.4.38-1                          
 libctf-nobfd0                               2.44-3                                deb                     
 libctf0                                     2.44-3                                deb                     
 libcups2t64                                 2.4.10-3+deb13u2                      deb                     
-libcurl3t64-gnutls                          8.14.1-2+deb13u5                      deb                     
-libcurl4t64                                 8.14.1-2+deb13u5                      deb                     
+libcurl3t64-gnutls                          8.14.1-2+deb13u7                      deb                     
+libcurl4t64                                 8.14.1-2+deb13u7                      deb                     
 libdatrie1                                  0.2.13-3+b1                           deb                     
 libdav1d7                                   1.5.1-1                               deb                     
 libdb5.3t64                                 5.3.28+dfsg2-9                        deb                     
@@ -174,7 +175,7 @@ libegl1                                     1.7.0-1+b2                          
 libelf1t64                                  0.192-4                               deb                     
 libepoxy0                                   1.5.10-2                              deb                     
 liberror-perl                               0.17030-1                             deb                     
-libexpat1                                   2.8.3-1~deb13u1                       deb                     
+libexpat1                                   2.9.0-1~deb13u1                       deb                     
 libffi8                                     3.4.8-2                               deb                     
 libfftw3-single3                            3.3.10-2+b1                           deb                     
 libfido2-1                                  1.15.0-1+b1                           deb                     
@@ -221,7 +222,7 @@ libjansson4                                 2.14-2+b3                           
 libjbig0                                    2.1-6.1+b2                            deb                     
 libjpeg62-turbo                             1:2.1.5-4                             deb                     
 libjq1                                      1.7.1-6+deb13u4                       deb                     
-libjxl0.11                                  0.11.2-0.1~deb13u2                    deb                     
+libjxl0.11                                  0.11.2-0.1~deb13u3                    deb                     
 libk5crypto3                                1.21.3-5+deb13u1                      deb                     
 libkeyutils1                                1.6.3-6                               deb                     
 libkmod2                                    34.2-2                                deb                     
@@ -236,7 +237,7 @@ liblocale-gettext-perl                      1.07-7+b1                           
 liblsan0                                    14.2.0-19                             deb                     
 libltdl7                                    2.5.4-4                               deb                     
 liblz4-1                                    1.10.0-4                              deb                     
-liblzma5                                    5.8.1-1+deb13u1                       deb                     
+liblzma5                                    5.8.1-1+deb13u2                       deb                     
 libmd0                                      1.1.0-2+b1                            deb                     
 libmount1                                   2.41.5-0+deb13u1                      deb                     
 libmp3lame0                                 3.100-6+b3                            deb                     
@@ -276,7 +277,7 @@ libpulse0                                   17.0+dfsg1-2+b1                     
 libpulsedsp                                 17.0+dfsg1-2+b1                       deb                     
 libquadmath0                                14.2.0-19                             deb                     
 librav1e0.7                                 0.7.1-9+b2                            deb                     
-librsvg2-2                                  2.60.0+dfsg-1                         deb                     
+librsvg2-2                                  2.60.0+dfsg-1+deb13u1                 deb                     
 librtmp1                                    2.4+20151223.gitfa8646d.1-2+b5        deb                     
 libsamplerate0                              0.2.2-4+b2                            deb                     
 libsasl2-2                                  2.1.28+dfsg1-9                        deb                     
@@ -386,7 +387,7 @@ libz3-4                                     4.13.3-1                            
 libzstd1                                    1.5.7+dfsg-1                          deb                     
 libzvbi-common                              0.2.44-1                              deb                     
 libzvbi0t64                                 0.2.44-1                              deb                     
-linux-libc-dev                              6.12.111-1                            deb                     
+linux-libc-dev                              6.12.113-1                            deb                     
 locales-all                                 2.41-12+deb13u4                       deb                     
 log                                         10.0.0                                npm                     
 login                                       1:4.16.0-2+really2.41.5-0+deb13u1     deb                     

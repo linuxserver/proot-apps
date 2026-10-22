@@ -9,7 +9,7 @@ binutils-common                 2.46-3ubuntu2                          deb
 binutils-x86-64-linux-gnu       2.46-3ubuntu2                          deb                        
 bsdutils                        1:2.41.3-3ubuntu2.2                    deb                        
 bubblewrap                      0.11.1-1ubuntu0.3                      deb                        
-ca-certificates                 20260601~26.04.1                       deb                        
+ca-certificates                 20260816ubuntu0.26.04.1                deb                        
 coreutils                       9.5-1ubuntu2+0.0.0~ubuntu25            deb                        
 coreutils-from-gnu              0.0.0~ubuntu25                         deb                        
 cpp                             4:15.2.0-5ubuntu1                      deb                        

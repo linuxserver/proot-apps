@@ -114,7 +114,7 @@ libblkid1                       2.37.2-4ubuntu3.6                        deb
 libbrotli1                      1.0.9-2build6                            deb       
 libbsd0                         0.11.5-1                                 deb       
 libbz2-1.0                      1.0.8-5ubuntu0.1                         deb       
-libc-ares2                      1.18.1-1ubuntu0.22.04.3                  deb       
+libc-ares2                      1.18.1-1ubuntu0.22.04.4                  deb       
 libc-bin                        2.35-0ubuntu3.15                         deb       
 libc-dev-bin                    2.35-0ubuntu3.15                         deb       
 libc6                           2.35-0ubuntu3.15                         deb       
@@ -270,7 +270,7 @@ libnsl2                         1.3.0-2build2                            deb
 libnspr4                        2:4.35-0ubuntu0.22.04.1                  deb       
 libnss-sss                      2.6.3-1ubuntu3.9                         deb       
 libnss-systemd                  249.11-0ubuntu3.23                       deb       
-libnss3                         2:3.98-0ubuntu0.22.04.4                  deb       
+libnss3                         2:3.98-0ubuntu0.22.04.5                  deb       
 libogg0                         1.3.5-0ubuntu3                           deb       
 libonig5                        6.9.7.1-2build1                          deb       
 libopus0                        1.3.1-0.1build2                          deb       

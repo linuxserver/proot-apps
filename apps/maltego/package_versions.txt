@@ -60,7 +60,7 @@ bookmarks-ui                                            1.0-SNAPSHOT            
 boot                                                    UNKNOWN                                                                       java-archive                    
 branding                                                1.0-SNAPSHOT                                                                  java-archive                    
 bsdutils                                                1:2.41.5-0+deb13u1                                                            deb                             
-ca-certificates                                         20250419                                                                      deb                             
+ca-certificates                                         20250419+deb13u1                                                              deb                             
 ca-certificates-java                                    20240118                                                                      deb                             
 ca-certificates-java                                    UNKNOWN                                                                       java-archive                    
 certificates                                            1.0-SNAPSHOT                                                                  java-archive                    
@@ -378,7 +378,7 @@ liblocale-gettext-perl                                  1.07-7+b1               
 liblsan0                                                14.2.0-19                                                                     deb                             
 libltdl7                                                2.5.4-4                                                                       deb                             
 liblz4-1                                                1.10.0-4                                                                      deb                             
-liblzma5                                                5.8.1-1+deb13u1                                                               deb                             
+liblzma5                                                5.8.1-1+deb13u2                                                               deb                             
 libmd0                                                  1.1.0-2+b1                                                                    deb                             
 libmount1                                               2.41.5-0+deb13u1                                                              deb                             
 libmp3lame0                                             3.100-6+b3                                                                    deb                             

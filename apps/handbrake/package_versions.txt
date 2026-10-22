@@ -9,7 +9,7 @@ binutils                        2.44-3                                deb
 binutils-common                 2.44-3                                deb     
 binutils-x86-64-linux-gnu       2.44-3                                deb     
 bsdutils                        1:2.41.5-0+deb13u1                    deb     
-ca-certificates                 20250419                              deb     
+ca-certificates                 20250419+deb13u1                      deb     
 coreutils                       9.7-3                                 deb     
 cpp                             4:14.2.0-1                            deb     
 cpp-14                          14.2.0-19                             deb     
@@ -204,7 +204,7 @@ liblocale-gettext-perl          1.07-7+b1                             deb
 liblsan0                        14.2.0-19                             deb     
 libltdl7                        2.5.4-4                               deb     
 liblz4-1                        1.10.0-4                              deb     
-liblzma5                        5.8.1-1+deb13u1                       deb     
+liblzma5                        5.8.1-1+deb13u2                       deb     
 liblzo2-2                       2.10-3+b1                             deb     
 libmbedcrypto16                 3.6.6-0.1~deb13u1                     deb     
 libmd0                          1.1.0-2+b1                            deb     

@@ -32,7 +32,7 @@ binutils-x86-64-linux-gnu               2.44-3                                de
 blockmap                                UNKNOWN                               java-archive                   
 bouncy-castle-pgp                       1.81                                  java-archive                   
 bsdutils                                1:2.41.5-0+deb13u1                    deb                            
-ca-certificates                         20250419                              deb                            
+ca-certificates                         20250419+deb13u1                      deb                            
 caffeine                                3.2.2                                 java-archive                   
 carrotsearch-hppc                       0.9.1                                 java-archive                   
 cglib                                   3.3.0                                 java-archive                   
@@ -331,7 +331,7 @@ liblocale-gettext-perl                  1.07-7+b1                             de
 liblsan0                                14.2.0-19                             deb                            
 libltdl7                                2.5.4-4                               deb                            
 liblz4-1                                1.10.0-4                              deb                            
-liblzma5                                5.8.1-1+deb13u1                       deb                            
+liblzma5                                5.8.1-1+deb13u2                       deb                            
 libmd0                                  1.1.0-2+b1                            deb                            
 libmount1                               2.41.5-0+deb13u1                      deb                            
 libmp3lame0                             3.100-6+b3                            deb                            

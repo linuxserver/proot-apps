@@ -35,7 +35,7 @@ brotli-libs                     1.2.0-r1                 apk
 busybox                         1.38.0-r4                apk                         
 busybox-binsh                   1.38.0-r4                apk                         
 bytemuck                        1.25.0                   rust-crate                  
-c-ares                          1.34.8-r0                apk                         
+c-ares                          1.34.9-r0                apk                         
 ca-certificates-bundle          20260611-r0              apk                         
 cairo                           1.18.4-r1                apk                         
 calibre                         9.16.0-r0                apk                         
@@ -227,7 +227,7 @@ libpcre2-16                     10.49-r0                 apk
 libpng                          1.6.59-r0                apk                         
 libproxy                        0.5.12-r0                apk                         
 libpsl                          0.21.5-r3                apk                         
-libpulse                        17.0-r7                  apk                         
+libpulse                        17.0-r9                  apk                         
 librist                         0.2.15-r0                apk                         
 libsasl                         2.1.28-r9                apk                         
 libsharpyuv                     1.6.0-r0                 apk                         
@@ -313,8 +313,8 @@ mpfr4                           4.2.2-r0                 apk
 mpg123-libs                     1.33.7-r0                apk                         
 msgpack                         1.1.2                    python                      
 mtdev                           1.1.7-r0                 apk                         
-musl                            1.2.6-r5                 apk                         
-musl-dev                        1.2.6-r5                 apk                         
+musl                            1.2.6-r6                 apk                         
+musl-dev                        1.2.6-r6                 apk                         
 musl-locales                    0.1.0-r1                 apk                         
 musl-locales-lang               0.1.0-r1                 apk                         
 musl-utils                      1.2.6-r2                 apk                         
@@ -363,9 +363,9 @@ proc-macro2                     1.0.95                   rust-crate
 profiling                       1.0.16                   rust-crate                  
 profiling-procmacros            1.0.16                   rust-crate                  
 psutil                          7.2.2                    python                      
-pulseaudio                      17.0-r7                  apk                         
-pulseaudio-alsa                 17.0-r7                  apk                         
-pulseaudio-lang                 17.0-r7                  apk                         
+pulseaudio                      17.0-r9                  apk                         
+pulseaudio-alsa                 17.0-r9                  apk                         
+pulseaudio-lang                 17.0-r9                  apk                         
 py3-apsw                        3.53.4.0-r0              apk                         
 py3-apsw-pyc                    3.53.4.0-r0              apk                         
 py3-attrs                       26.1.0-r0                apk                         

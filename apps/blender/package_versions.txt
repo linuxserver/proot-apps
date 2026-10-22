@@ -13,7 +13,7 @@ binutils                        2.44-3                                deb
 binutils-common                 2.44-3                                deb                      
 binutils-x86-64-linux-gnu       2.44-3                                deb                      
 bsdutils                        1:2.41.5-0+deb13u1                    deb                      
-ca-certificates                 20250419                              deb                      
+ca-certificates                 20250419+deb13u1                      deb                      
 cattrs                          25.1.1                                python                   
 certifi                         2025.4.26                             python                   
 charset-normalizer              3.4.1                                 python                   
