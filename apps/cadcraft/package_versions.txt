@@ -11,7 +11,7 @@ binutils-x86-64-linux-gnu        2.46-3ubuntu2                          deb
 bsdutils                         1:2.41.3-3ubuntu2.2                    deb          
 bubblewrap                       0.11.1-1ubuntu0.3                      deb          
 ca-certificates                  20260816ubuntu0.26.04.1                deb          
-cadcraft                         0.10.0-1                               deb          
+cadcraft                         0.12.0-1                               deb          
 coreutils                        9.5-1ubuntu2+0.0.0~ubuntu25            deb          
 coreutils-from-gnu               0.0.0~ubuntu25                         deb          
 cpp                              4:15.2.0-5ubuntu1                      deb          
@@ -79,7 +79,7 @@ keyboard-configuration           1.237ubuntu3.1                         deb
 libaa1                           1.4p5-51.1build1                       deb          
 libabsl20260107                  20260107.0-4                           deb          
 libacl1                          2.3.2-2                                deb          
-libadwaita-1-0                   1.9.1-0ubuntu0.1                       deb          
+libadwaita-1-0                   1.9.1-0ubuntu0.2                       deb          
 libaom3                          3.13.1-2ubuntu0.1                      deb          
 libapparmor1                     5.0.2-0ubuntu1~26.04.1                 deb          
 libappstream5                    1.1.2-1                                deb          

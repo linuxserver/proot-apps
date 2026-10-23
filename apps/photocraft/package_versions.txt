@@ -78,7 +78,7 @@ keyboard-configuration           1.237ubuntu3.1                         deb
 libaa1                           1.4p5-51.1build1                       deb          
 libabsl20260107                  20260107.0-4                           deb          
 libacl1                          2.3.2-2                                deb          
-libadwaita-1-0                   1.9.1-0ubuntu0.1                       deb          
+libadwaita-1-0                   1.9.1-0ubuntu0.2                       deb          
 libaom3                          3.13.1-2ubuntu0.1                      deb          
 libapparmor1                     5.0.2-0ubuntu1~26.04.1                 deb          
 libappstream5                    1.1.2-1                                deb          
@@ -406,7 +406,7 @@ openssl                          3.5.5-1ubuntu3.7                       deb
 openssl-provider-legacy          3.5.5-1ubuntu3.7                       deb          
 passwd                           1:4.17.4-2ubuntu3                      deb          
 perl-base                        5.40.1-7ubuntu0.3                      deb          
-photocraft                       0.12.0-1                               deb          
+photocraft                       0.14.0-1                               deb          
 procps                           2:4.0.4-9ubuntu1                       deb          
 pulseaudio                       1:17.0+dfsg1-2ubuntu4                  deb          
 pulseaudio-utils                 1:17.0+dfsg1-2ubuntu4                  deb          
