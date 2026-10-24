@@ -52,7 +52,7 @@ crossbeam-deque                 0.8.6                    rust-crate
 crossbeam-epoch                 0.9.18                   rust-crate    
 crossbeam-queue                 0.3.12                   rust-crate    
 crossbeam-utils                 0.8.21                   rust-crate    
-cups-libs                       2.4.20-r0                apk           
+cups-libs                       2.4.20-r1                apk           
 curl                            8.23.0-r0                apk           
 dbus                            1.16.2-r4                apk           
 dbus-daemon-launch-helper       1.16.2-r4                apk           
@@ -77,15 +77,15 @@ font-noto-math                  2026.10.01-r0            apk
 font-noto-symbols               2026.10.01-r0            apk           
 fontconfig                      2.18.1-r0                apk           
 freetype                        2.14.3-r0                apk           
-fribidi                         1.0.16-r3                apk           
+fribidi                         1.0.17-r0                apk           
 gcc                             15.2.0-r9                apk           
 gdk-pixbuf                      2.44.8-r0                apk           
 gdk-pixbuf-lang                 2.44.8-r0                apk           
 getrandom                       0.3.3                    rust-crate    
 glib                            2.90.0-r0                apk           
 glib-lang                       2.90.0-r0                apk           
-glycin-image-rs                 2.2.3-r0                 apk           
-glycin-svg                      2.2.3-r0                 apk           
+glycin-image-rs                 2.2.4-r0                 apk           
+glycin-svg                      2.2.4-r0                 apk           
 gmp                             6.3.0-r4                 apk           
 gnutls                          3.8.13-r0                apk           
 gobject-introspection           1.86.0-r2                apk           
@@ -144,7 +144,7 @@ libffi                          3.8.0-r0                 apk
 libflac                         1.5.0-r0                 apk           
 libgcc                          15.2.0-r9                apk           
 libgcc-static                   15.2.0-r9                apk           
-libglycin                       2.2.3-r0                 apk           
+libglycin                       2.2.4-r0                 apk           
 libgomp                         15.2.0-r9                apk           
 libhwy                          1.4.0-r1                 apk           
 libice                          1.1.2-r0                 apk           
@@ -156,9 +156,9 @@ libltdl                         2.6.2-r1                 apk
 libmagic                        5.48-r0                  apk           
 libmd                           1.3.0-r0                 apk           
 libmount                        2.42.4-r3                apk           
-libncursesw                     6.6_p20260822-r0         apk           
+libncursesw                     6.6_p20261017-r0         apk           
 libogg                          1.3.6-r0                 apk           
-libpanelw                       6.6_p20260822-r0         apk           
+libpanelw                       6.6_p20261017-r0         apk           
 libpciaccess                    0.19-r0                  apk           
 libpng                          1.6.59-r0                apk           
 libpsl                          0.21.5-r3                apk           
@@ -209,7 +209,7 @@ libxvmc                         1.0.15-r0                apk
 libxxf86vm                      1.1.7-r0                 apk           
 linux-headers                   7.2.1-r0                 apk           
 linux-raw-sys                   0.9.4                    rust-crate    
-llvm23-libs                     23.1.3-r0                apk           
+llvm23-libs                     23.1.4-r0                apk           
 log                             0.4.27                   rust-crate    
 make                            4.4.1-r4                 apk           
 maybe-rayon                     0.1.1                    rust-crate    
@@ -234,7 +234,7 @@ musl-dev                        1.2.6-r6                 apk
 musl-locales                    0.1.0-r1                 apk           
 musl-locales-lang               0.1.0-r1                 apk           
 musl-utils                      1.2.6-r2                 apk           
-ncurses-terminfo-base           6.6_p20260822-r0         apk           
+ncurses-terminfo-base           6.6_p20261017-r0         apk           
 netcat-openbsd                  1.234.1-r0               apk           
 nettle                          3.10.2-r0                apk           
 new_debug_unreachable           1.0.6                    rust-crate    

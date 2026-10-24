@@ -132,8 +132,8 @@ libbinutils                     2.44-3                                deb
 libblas3                        3.12.1-6                              deb       
 libblkid-dev                    2.41.5-0+deb13u1                      deb       
 libblkid1                       2.41.5-0+deb13u1                      deb       
-libbrotli-dev                   1.1.0-2+b7                            deb       
-libbrotli1                      1.1.0-2+b7                            deb       
+libbrotli-dev                   1.1.0-2+deb13u1                       deb       
+libbrotli1                      1.1.0-2+deb13u1                       deb       
 libbsd0                         0.12.2-2                              deb       
 libbz2-1.0                      1.0.8-6                               deb       
 libbz2-dev                      1.0.8-6                               deb       
