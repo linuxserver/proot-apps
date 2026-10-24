@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Removing icon"
-rm -f $HOME/.local/share/icons/hicolor/scalable/apps/ai.opencode.desktop.png
+rm -f $HOME/.local/share/icons/hicolor/scalable/apps/ai.opencode.png
 echo "Removing start menu entry"
 rm -f $HOME/.local/share/applications/opencode-pa.desktop
 echo "Removing desktop shortcut"
