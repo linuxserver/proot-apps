@@ -28,10 +28,10 @@ RUN \
     /usr/lib/x86_64-linux-gnu/libportaudio.so.2 \
     /usr/lib/x86_64-linux-gnu/libportaudio.so && \
   rm -f \
-    /opt/audacity/share/audacity/plug-ins/eq-xml-to-txt-converter.ny \
-    /opt/audacity/share/audacity/plug-ins/rms.ny && \
+    /opt/audacity/share/audacity/nyquist-plug-ins/eq-xml-to-txt-converter.ny \
+    /opt/audacity/share/audacity/nyquist-plug-ins/rms.ny && \
   echo "**** customize desktop file ****" && \
-  DFILE=/opt/audacity/audacity.desktop && \
+  DFILE=$(ls /opt/audacity/*.desktop | head -n1) && \
   DEST=/usr/share/applications/audacity-pa.desktop && \
   DKEEP=$(cat "${DFILE}" |sed '/^\(\Icon=\|Terminal=\|MimeType=\|Categories=\|Type=\|StartupNotify=\)/!d' |awk '!a[$0]++') && \
   echo '[Desktop Entry]' > "${DEST}" && \

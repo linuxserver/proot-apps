@@ -1,6 +1,8 @@
 #!/bin/bash
 echo "Removing icon"
-rm -f $HOME/.local/share/icons/hicolor/scalable/apps/audacity.svg
+rm -f \
+  $HOME/.local/share/icons/hicolor/512x512/apps/audacity4portable.png \
+  $HOME/.local/share/icons/hicolor/scalable/apps/audacity.svg
 echo "Removing start menu entry"
 rm -f $HOME/.local/share/applications/audacity-pa.desktop
 echo "Removing desktop shortcut"
