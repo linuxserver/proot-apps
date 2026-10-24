@@ -2,10 +2,10 @@
 
 ## Desktop and icons install ##
 echo "Adding icon"
-mkdir -p $HOME/.local/share/icons/hicolor/scalable/apps/
+mkdir -p $HOME/.local/share/icons/hicolor/512x512/apps/
 cp \
-  /opt/audacity/usr/share/icons/hicolor/scalable/apps/audacity.svg \
-  $HOME/.local/share/icons/hicolor/scalable/apps/
+  /opt/audacity/share/icons/hicolor/512x512/apps/audacity4portable.png \
+  $HOME/.local/share/icons/hicolor/512x512/apps/
 echo "Adding start menu entry"
 mkdir -p $HOME/.local/share/applications/
 cp \
