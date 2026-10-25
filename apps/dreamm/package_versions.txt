@@ -67,7 +67,7 @@ libavcodec61                    7:7.1.5-0+deb13u1                     deb
 libavutil59                     7:7.1.5-0+deb13u1                     deb     
 libbinutils                     2.44-3                                deb     
 libblkid1                       2.41.5-0+deb13u1                      deb     
-libbrotli1                      1.1.0-2+b7                            deb     
+libbrotli1                      1.1.0-2+deb13u1                       deb     
 libbsd0                         0.12.2-2                              deb     
 libbz2-1.0                      1.0.8-6                               deb     
 libc-bin                        2.41-12+deb13u4                       deb     
