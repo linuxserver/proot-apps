@@ -6,7 +6,7 @@ NAME                                        VERSION                             
 Microsoft.PowerShell.PSReadLine             2.4.3                                 dotnet                  
 Microsoft.PowerShell.PSReadLine.Polyfiller  1.0.0.0                               dotnet  (+1 duplicate)  
 Microsoft.PowerShell.Pager                  1.0.0.0                               dotnet                  
-VSCodium                                    1.140.06880                           npm                     
+VSCodium                                    1.143.17183                           npm                     
 adduser                                     3.152                                 deb                     
 adwaita-icon-theme                          48.1-1                                deb                     
 apt                                         3.0.3                                 deb                     
@@ -22,7 +22,7 @@ bsdutils                                    1:2.41.5-0+deb13u1                  
 builtin-notebook-renderers                  10.0.0                                npm                     
 ca-certificates                             20250419+deb13u1                      deb                     
 clojure                                     10.0.0                                npm                     
-codium                                      1.140.06880                           deb                     
+codium                                      1.143.17183                           deb                     
 coffeescript                                10.0.0                                npm                     
 commander                                   12.1.0                                npm                     
 configuration-editing                       10.0.0                                npm                     

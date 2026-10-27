@@ -106,7 +106,7 @@ libavcodec60                     7:6.1.1-3ubuntu5                   deb        (
 libavutil58                      7:6.1.1-3ubuntu5                   deb        (+1 duplicate)  
 libbinutils                      2.42-4ubuntu2.10                   deb                        
 libblkid1                        2.39.3-9ubuntu6.6                  deb        (+1 duplicate)  
-libbrotli1                       1.1.0-2build2                      deb        (+1 duplicate)  
+libbrotli1                       1.1.0-2ubuntu0.1                   deb        (+1 duplicate)  
 libbsd0                          0.12.1-1build1.1                   deb        (+1 duplicate)  
 libbz2-1.0                       1.0.8-5.1ubuntu0.1                 deb        (+1 duplicate)  
 libc-bin                         2.39-0ubuntu8.9                    deb                        

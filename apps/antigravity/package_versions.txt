@@ -148,7 +148,6 @@ ansi-regex                                         5.0.1                        
 ansi-regex                                         6.0.1                                 npm                    
 ansi-styles                                        4.2.1                                 npm                    
 ansi-styles                                        6.2.1                                 npm                    
-antigravity                                        0.2.0                                 npm                    
 antigravity-code-executor                          0.0.1                                 npm                    
 antigravity-dev-containers                         0.0.1                                 npm                    
 antigravity-remote-openssh                         0.0.1                                 npm                    
@@ -345,6 +344,7 @@ gnupg                                              2.4.7-21+deb13u1             
 gnupg-l10n                                         2.4.7-21+deb13u1                      deb                    
 gnupg2                                             2.4.7-21+deb13u1                      deb                    
 go                                                 1.0.0                                 npm                    
+google-antigravity                                 0.0.1                                 npm                    
 google-auth-library                                10.3.0                                npm                    
 google-logging-utils                               1.1.1                                 npm                    
 gpg                                                2.4.7-21+deb13u1+b5                   deb                    
