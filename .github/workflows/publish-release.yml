@@ -4,33 +4,88 @@ on:
     tags:
       - '*'
       - '!prerelease-*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version to create, for example 0.5.5'
+        required: true
+        type: string
+      ingest_proot:
+        description: 'Only ingest the latest stable proot-next, rebuilds the last release with generated notes'
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
 
 jobs:
   build:
     name: Publish Release
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      RELEASE_TAG: ${{ inputs.version || github.ref_name }}
+      INGEST_PROOT: ${{ inputs.ingest_proot && 'true' || 'false' }}
     steps:
+    # Manual releases create their tag so refuse one that exists, a proot-next ingest rebuilds the last release so it ships nothing else
+    - id: base
+      run: |
+        if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+          if ! [[ "${RELEASE_TAG}" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "Version ${RELEASE_TAG} is not in the form 0.0.0"
+            exit 1
+          fi
+          if gh api repos/${GITHUB_REPOSITORY}/git/ref/tags/${RELEASE_TAG} >/dev/null 2>&1; then
+            echo "Tag ${RELEASE_TAG} already exists"
+            exit 1
+          fi
+        fi
+        if [ "${INGEST_PROOT}" == "true" ]; then
+          LAST_RELEASE=$(gh api repos/${GITHUB_REPOSITORY}/releases/latest -q .tag_name)
+          echo "Rebuilding ${LAST_RELEASE} as ${RELEASE_TAG}"
+          echo "ref=${LAST_RELEASE}" >> $GITHUB_OUTPUT
+        else
+          echo "ref=${GITHUB_SHA}" >> $GITHUB_OUTPUT
+        fi
     - uses: actions/checkout@v4
+      with:
+        ref: ${{ steps.base.outputs.ref }}
     # Releases ship the latest stable proot-next release, built before the release is created so a failed ingest publishes nothing
-    - run: bash ci-scripts/create-releases.sh
+    - id: build
+      run: bash ci-scripts/create-releases.sh
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PROOT_CHANNEL: release
+    - id: notes
+      run: |
+        echo "commit=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+        if [ "${INGEST_PROOT}" == "true" ]; then
+          PROOT_TAG=${{ steps.build.outputs.proot_tag }}
+          {
+            printf 'Bugfix update:\n\n'
+            printf '* Ingest proot-next [%s](https://github.com/selkies-project/proot-next/releases/tag/%s)\n\n' "${PROOT_TAG}" "${PROOT_TAG}"
+            gh release view ${PROOT_TAG} -R selkies-project/proot-next --json body -q .body
+          } > ${RUNNER_TEMP}/release-notes
+        else
+          cp release-notes/current ${RUNNER_TEMP}/release-notes
+        fi
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: ${{ github.ref }}
-        release_name: Release ${{ github.ref }}
-        body_path: release-notes/current
+        tag_name: ${{ env.RELEASE_TAG }}
+        release_name: Release ${{ env.RELEASE_TAG }}
+        commitish: ${{ steps.notes.outputs.commit }}
+        body_path: ${{ runner.temp }}/release-notes
         draft: false
         prerelease: false
     - uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: proot-apps-*
-        tag: ${{ github.ref }}
+        tag: ${{ env.RELEASE_TAG }}
         overwrite: true
         file_glob: true
