@@ -11,7 +11,7 @@ on:
         required: true
         type: string
       ingest_proot:
-        description: 'Only ingest the latest stable proot-next, rebuilds the last release with generated notes'
+        description: 'Only ingest the latest stable proot-next with generated notes, fails if the packaged files changed since the last release'
         required: false
         default: true
         type: boolean
@@ -28,29 +28,29 @@ jobs:
       RELEASE_TAG: ${{ inputs.version || github.ref_name }}
       INGEST_PROOT: ${{ inputs.ingest_proot && 'true' || 'false' }}
     steps:
-    # Manual releases create their tag so refuse one that exists, a proot-next ingest rebuilds the last release so it ships nothing else
-    - id: base
-      run: |
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - run: |
         if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
           if ! [[ "${RELEASE_TAG}" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
             echo "Version ${RELEASE_TAG} is not in the form 0.0.0"
             exit 1
           fi
-          if gh api repos/${GITHUB_REPOSITORY}/git/ref/tags/${RELEASE_TAG} >/dev/null 2>&1; then
+          if git ls-remote --exit-code --tags origin refs/tags/${RELEASE_TAG} >/dev/null; then
             echo "Tag ${RELEASE_TAG} already exists"
             exit 1
           fi
         fi
         if [ "${INGEST_PROOT}" == "true" ]; then
           LAST_RELEASE=$(gh api repos/${GITHUB_REPOSITORY}/releases/latest -q .tag_name)
-          echo "Rebuilding ${LAST_RELEASE} as ${RELEASE_TAG}"
-          echo "ref=${LAST_RELEASE}" >> $GITHUB_OUTPUT
-        else
-          echo "ref=${GITHUB_SHA}" >> $GITHUB_OUTPUT
+          if ! git diff --quiet ${LAST_RELEASE} HEAD -- proot-apps ci-scripts/create-releases.sh; then
+            echo "Packaged files changed since ${LAST_RELEASE}, release with the proot-next option unchecked instead"
+            git diff --stat ${LAST_RELEASE} HEAD -- proot-apps ci-scripts/create-releases.sh
+            exit 1
+          fi
+          echo "Releasing ${LAST_RELEASE} with the latest stable proot-next as ${RELEASE_TAG}"
         fi
-    - uses: actions/checkout@v4
-      with:
-        ref: ${{ steps.base.outputs.ref }}
     # Releases ship the latest stable proot-next release, built before the release is created so a failed ingest publishes nothing
     - id: build
       run: bash ci-scripts/create-releases.sh
@@ -59,7 +59,6 @@ jobs:
         PROOT_CHANNEL: release
     - id: notes
       run: |
-        echo "commit=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
         if [ "${INGEST_PROOT}" == "true" ]; then
           PROOT_TAG=${{ steps.build.outputs.proot_tag }}
           {
@@ -78,7 +77,7 @@ jobs:
       with:
         tag_name: ${{ env.RELEASE_TAG }}
         release_name: Release ${{ env.RELEASE_TAG }}
-        commitish: ${{ steps.notes.outputs.commit }}
+        commitish: ${{ github.sha }}
         body_path: ${{ runner.temp }}/release-notes
         draft: false
         prerelease: false
