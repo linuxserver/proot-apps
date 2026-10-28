@@ -113,7 +113,7 @@ isl26                           0.26-r2                  apk
 itertools                       0.10.5                   rust-crate    
 itertools                       0.14.0                   rust-crate    
 ivf                             0.1.4                    rust-crate    
-jansson                         2.15.0-r0                apk           
+jansson                         2.15.1-r0                apk           
 jq                              1.8.2-r0                 apk           
 lab                             0.11.0                   rust-crate    
 lame-libs                       3.100-r5                 apk           
@@ -268,10 +268,10 @@ profiling-procmacros            1.0.16                   rust-crate
 pulseaudio                      17.0-r9                  apk           
 pulseaudio-alsa                 17.0-r9                  apk           
 pulseaudio-lang                 17.0-r9                  apk           
-pyc                             3.14.9-r2                apk           
-python3                         3.14.9-r2                apk           
-python3-pyc                     3.14.9-r2                apk           
-python3-pycache-pyc0            3.14.9-r2                apk           
+pyc                             3.14.10-r0               apk           
+python3                         3.14.10-r0               apk           
+python3-pyc                     3.14.10-r0               apk           
+python3-pycache-pyc0            3.14.10-r0               apk           
 quote                           1.0.40                   rust-crate    
 rand                            0.9.1                    rust-crate    
 rand_chacha                     0.9.0                    rust-crate    

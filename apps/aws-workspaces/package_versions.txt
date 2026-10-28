@@ -111,7 +111,7 @@ libavc1394-0                    0.5.4-5build2                            deb
 libbasicobjects0                0.6.2-1                                  deb       
 libbinutils                     2.38-4ubuntu2.12                         deb       
 libblkid1                       2.37.2-4ubuntu3.6                        deb       
-libbrotli1                      1.0.9-2build6                            deb       
+libbrotli1                      1.0.9-2ubuntu0.1                         deb       
 libbsd0                         0.11.5-1                                 deb       
 libbz2-1.0                      1.0.8-5ubuntu0.1                         deb       
 libc-ares2                      1.18.1-1ubuntu0.22.04.4                  deb       
@@ -245,7 +245,7 @@ liblocale-gettext-perl          1.07-4build3                             deb
 liblsan0                        12.3.0-1ubuntu1~22.04.3                  deb       
 libltdl7                        2.4.6-15build2                           deb       
 liblz4-1                        1.9.3-2build2                            deb       
-liblzma5                        5.2.5-2ubuntu1.1                         deb       
+liblzma5                        5.2.5-2ubuntu1.2                         deb       
 libmagic-mgc                    1:5.41-3ubuntu0.1                        deb       
 libmagic1                       1:5.41-3ubuntu0.1                        deb       
 libmanette-0.2-0                0.2.6-3build1                            deb       

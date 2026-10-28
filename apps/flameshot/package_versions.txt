@@ -59,7 +59,7 @@ icu-libs                        78.1-r0                  apk
 intel-gmmlib                    22.10.1-r0               apk     
 intel-media-driver              26.2.4-r0                apk     
 isl26                           0.26-r2                  apk     
-jansson                         2.15.0-r0                apk     
+jansson                         2.15.1-r0                apk     
 jq                              1.8.2-r0                 apk     
 kdsingleapplication             1.1.0-r0                 apk     
 kguiaddons                      6.31.0-r0                apk     
@@ -176,10 +176,10 @@ pkgconf                         3.0.10-r0                apk
 pulseaudio                      17.0-r9                  apk     
 pulseaudio-alsa                 17.0-r9                  apk     
 pulseaudio-lang                 17.0-r9                  apk     
-pyc                             3.14.9-r2                apk     
-python3                         3.14.9-r2                apk     
-python3-pyc                     3.14.9-r2                apk     
-python3-pycache-pyc0            3.14.9-r2                apk     
+pyc                             3.14.10-r0               apk     
+python3                         3.14.10-r0               apk     
+python3-pyc                     3.14.10-r0               apk     
+python3-pycache-pyc0            3.14.10-r0               apk     
 qt6-qtbase                      6.11.1-r3                apk     
 qt6-qtbase-wayland              6.11.1-r3                apk     
 qt6-qtbase-x11                  6.11.1-r3                apk     
