@@ -34,9 +34,9 @@ RUN \
     -e "/^Exec=/c Exec=/bin/sh -c \"\$HOME\/.local\/bin\/proot-apps run ghcr.io/${REPO}:solidcraft %U\"" \
     -e "s/^Name=SolidCraft$/Name=SolidCraft PA/g" \
     -e '/^TryExec=/d' \
-    /usr/share/applications/ai.storyteller.solidcraft.desktop && \
+    /usr/share/applications/io.tangencylabs.solidcraft.desktop && \
   mv \
-    /usr/share/applications/ai.storyteller.solidcraft.desktop \
+    /usr/share/applications/io.tangencylabs.solidcraft.desktop \
     /usr/share/applications/solidcraft-pa.desktop && \
   echo "**** set bin name ****" && \
   echo "solidcraft-pa" > /bin-name && \
