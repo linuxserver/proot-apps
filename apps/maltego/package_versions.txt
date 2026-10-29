@@ -806,7 +806,7 @@ txw2                                                    2.2.11                  
 typing                                                  1.0-SNAPSHOT                                                                  java-archive                    
 typing-descriptor                                       1.0-SNAPSHOT                                                                  java-archive                    
 typing-editing                                          1.0-SNAPSHOT                                                                  java-archive                    
-tzdata                                                  2026c-0+deb13u1                                                               deb                             
+tzdata                                                  2026e-0+deb13u1                                                               deb                             
 udev                                                    257.13-1~deb13u1                                                              deb                             
 ui-graph                                                1.0-SNAPSHOT                                                                  java-archive                    
 undertow-core                                           2.2.40.Final                                                                  java-archive                    

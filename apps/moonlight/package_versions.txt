@@ -284,10 +284,10 @@ profiling                       1.0.16                   rust-crate
 pulseaudio                      17.0-r7                  apk                         
 pulseaudio-alsa                 17.0-r7                  apk                         
 pulseaudio-lang                 17.0-r7                  apk                         
-pyc                             3.14.8-r0                apk                         
-python3                         3.14.8-r0                apk                         
-python3-pyc                     3.14.8-r0                apk                         
-python3-pycache-pyc0            3.14.8-r0                apk                         
+pyc                             3.14.10-r1               apk                         
+python3                         3.14.10-r1               apk                         
+python3-pyc                     3.14.10-r1               apk                         
+python3-pycache-pyc0            3.14.10-r1               apk                         
 qt6-qtbase                      6.11.1-r0                apk                         
 qt6-qtbase-wayland              6.11.1-r0                apk                         
 qt6-qtbase-x11                  6.11.1-r0                apk                         

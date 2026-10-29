@@ -435,10 +435,10 @@ pulseaudio-alsa                 17.0-r7                  apk
 pulseaudio-lang                 17.0-r7                  apk                         
 purpose                         6.26.0-r0                apk                         
 purpose-lang                    6.26.0-r0                apk                         
-pyc                             3.14.8-r0                apk                         
-python3                         3.14.8-r0                apk                         
-python3-pyc                     3.14.8-r0                apk                         
-python3-pycache-pyc0            3.14.8-r0                apk                         
+pyc                             3.14.10-r1               apk                         
+python3                         3.14.10-r1               apk                         
+python3-pyc                     3.14.10-r1               apk                         
+python3-pycache-pyc0            3.14.10-r1               apk                         
 qqc2-desktop-style              6.26.0-r0                apk                         
 qqc2-desktop-style-lang         6.26.0-r0                apk                         
 qt6-qt5compat                   6.11.1-r0                apk                         

@@ -439,7 +439,7 @@ typeguard                                 4.3.0                                 
 typing-extensions                         4.12.2                                python       
 typing-extensions                         4.15.0                                python       
 typing-inspection                         0.4.2                                 python       
-tzdata                                    2026c-0+deb13u1                       deb          
+tzdata                                    2026e-0+deb13u1                       deb          
 udev                                      257.13-1~deb13u1                      deb          
 util-linux                                2.41.5-0+deb13u1                      deb          
 websockets                                15.0.1                                python       

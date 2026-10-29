@@ -562,7 +562,7 @@ systemd                             257.13-1~deb13u1                      deb
 sysvinit-utils                      3.14-4                                deb       
 tar                                 1.35+dfsg-3.1                         deb       
 tk8.6-blt2.5                        2.5.3+dfsg-8                          deb       
-tzdata                              2026c-0+deb13u1                       deb       
+tzdata                              2026e-0+deb13u1                       deb       
 udev                                257.13-1~deb13u1                      deb       
 ufolib2                             0.17.1                                python    
 unicode-data                        15.1.0-1                              deb       

@@ -1117,7 +1117,7 @@ tools_taglets                                                         78.3      
 translit                                                              78.3                                  java-archive                  
 tree                                                                  9.10.1                                java-archive                  
 txw2                                                                  4.0.9                                 java-archive                  
-tzdata                                                                2026c-0+deb13u1                       deb                           
+tzdata                                                                2026e-0+deb13u1                       deb                           
 udev                                                                  257.13-1~deb13u1                      deb                           
 util                                                                  12.1.12                               java-archive                  
 util                                                                  9.10.1                                java-archive                  

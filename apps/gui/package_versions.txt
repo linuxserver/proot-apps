@@ -265,11 +265,11 @@ py3-urllib3                     2.7.0-r0                 apk
 py3-urllib3-pyc                 2.7.0-r0                 apk       
 py3-yaml                        6.0.3-r2                 apk       
 py3-yaml-pyc                    6.0.3-r2                 apk       
-pyc                             3.14.8-r0                apk       
+pyc                             3.14.10-r1               apk       
 pygobject                       3.56.3                   python    
-python3                         3.14.8-r0                apk       
-python3-pyc                     3.14.8-r0                apk       
-python3-pycache-pyc0            3.14.8-r0                apk       
+python3                         3.14.10-r1               apk       
+python3-pyc                     3.14.10-r1               apk       
+python3-pycache-pyc0            3.14.10-r1               apk       
 pyyaml                          6.0.3                    python    
 readline                        8.3.3-r1                 apk       
 requests                        2.33.1                   python    

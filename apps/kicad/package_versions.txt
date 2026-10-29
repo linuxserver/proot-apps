@@ -404,11 +404,11 @@ py3-wxpython-lang                         4.2.5-r0                 apk
 py3-wxpython-pyc                          4.2.5-r0                 apk           
 py3-xcffib                                1.12.0-r1                apk           
 py3-xcffib-pyc                            1.12.0-r1                apk           
-pyc                                       3.14.8-r0                apk           
+pyc                                       3.14.10-r1               apk           
 pycparser                                 3.0                      python        
-python3                                   3.14.8-r0                apk           
-python3-pyc                               3.14.8-r0                apk           
-python3-pycache-pyc0                      3.14.8-r0                apk           
+python3                                   3.14.10-r1               apk           
+python3-pyc                               3.14.10-r1               apk           
+python3-pycache-pyc0                      3.14.10-r1               apk           
 rayon                                     1.8.0                    rust-crate    
 rayon-core                                1.12.0                   rust-crate    
 readline                                  8.3.3-r1                 apk           

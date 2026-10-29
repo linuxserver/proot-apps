@@ -52,7 +52,7 @@ i965-va-driver-shaders          2.4.1-2                               deb
 init-system-helpers             1.69~deb13u1                          deb     
 intel-media-va-driver-non-free  25.2.3+ds1-1                          deb     
 iso-codes                       4.18.0-1                              deb     
-joplin                          3.7.21                                deb     
+joplin                          3.7.22                                deb     
 jq                              1.7.1-6+deb13u4                       deb     
 keyboard-configuration          1.242~deb13u1                         deb     
 keytar                          7.9.0                                 npm     
@@ -374,7 +374,7 @@ systemd                         257.13-1~deb13u1                      deb
 sysvinit-utils                  3.14-4                                deb     
 tar                             1.35+dfsg-3.1                         deb     
 tesseract.js-core               7.0.0                                 npm     
-tzdata                          2026c-0+deb13u1                       deb     
+tzdata                          2026e-0+deb13u1                       deb     
 udev                            257.13-1~deb13u1                      deb     
 util-linux                      2.41.5-0+deb13u1                      deb     
 x11-common                      1:7.7+24+deb13u1                      deb     

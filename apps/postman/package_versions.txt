@@ -450,7 +450,7 @@ sysvinit-utils                       3.14-4                                deb
 tar                                  1.35+dfsg-3.1                         deb                     
 tslib                                2.8.1                                 npm     (+1 duplicate)  
 typescript                           5.9.3                                 npm                     
-tzdata                               2026c-0+deb13u1                       deb                     
+tzdata                               2026e-0+deb13u1                       deb                     
 udev                                 257.13-1~deb13u1                      deb                     
 util-linux                           2.41.5-0+deb13u1                      deb                     
 uuid-dev                             2.41.5-0+deb13u1                      deb                     

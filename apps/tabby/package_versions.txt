@@ -428,7 +428,7 @@ tabby-terminal                    1.0.238                               deb
 tar                               1.35+dfsg-3.1                         deb     
 tmp                               0.2.7                                 npm     
 tmp-promise                       3.0.3                                 npm     
-tzdata                            2026c-0+deb13u1                       deb     
+tzdata                            2026e-0+deb13u1                       deb     
 udev                              257.13-1~deb13u1                      deb     
 util-linux                        2.41.5-0+deb13u1                      deb     
 winston                           0.8.3                                 npm     

@@ -1,12 +1,12 @@
 NAME                                        VERSION                               TYPE                   
 @devcontainers/cli                          0.88.0                                npm                     
 @github/copilot                             1.0.73                                npm                     
-@github/copilot-sdk-linux-x64               1.0.23-preview.5                      npm                     
+@github/copilot-sdk-linux-x64               1.0.27-unstable.40031404408.gba6c003  npm                     
 @pondwader/socks5-server                    1.0.10                                npm                     
 @vscode/copilot-typescript-server-plugin    1.0.0                                 npm                     
 @vscode/fs-copyfile                         2.0.0                                 npm                     
 @vscode/sandbox-runtime                     0.0.1                                 npm                     
-Code                                        1.143.1                               npm                     
+Code                                        1.144.0                               npm                     
 Microsoft.PowerShell.PSReadLine             2.4.3                                 dotnet                  
 Microsoft.PowerShell.PSReadLine.Polyfiller  1.0.0.0                               dotnet  (+1 duplicate)  
 Microsoft.PowerShell.Pager                  1.0.0.0                               dotnet                  
@@ -25,11 +25,11 @@ bsdutils                                    1:2.41.5-0+deb13u1                  
 builtin-notebook-renderers                  10.0.0                                npm                     
 ca-certificates                             20250419+deb13u1                      deb                     
 clojure                                     10.0.0                                npm                     
-code                                        1.143.1-1792691907                    deb                     
+code                                        1.144.0-1793133881                    deb                     
 coffeescript                                10.0.0                                npm                     
 commander                                   12.1.0                                npm                     
 configuration-editing                       10.0.0                                npm                     
-copilot-chat                                0.71.0                                npm                     
+copilot-chat                                0.72.0                                npm                     
 coreutils                                   9.7-3                                 deb                     
 cpp                                         10.0.0                                npm                     
 cpp                                         4:14.2.0-1                            deb                     
@@ -115,7 +115,7 @@ js-debug                                    1.140.0                             
 js-debug-companion                          1.1.3                                 npm                     
 json                                        10.0.0                                npm                     
 json-language-features                      10.0.0                                npm                     
-jsts-chat-features                          0.0.4                                 npm                     
+jsts-chat-features                          0.0.6                                 npm                     
 julia                                       10.0.0                                npm                     
 keyboard-configuration                      1.242~deb13u1                         deb                     
 latex                                       10.0.0                                npm                     
@@ -418,7 +418,6 @@ markdown                                    30.0.0                              
 markdown-language-features                  10.0.0                                npm                     
 markdown-math                               10.0.0                                npm                     
 mawk                                        1.3.4.20250131-1                      deb                     
-media-preview                               10.0.0                                npm                     
 merge-conflict                              10.0.0                                npm                     
 mermaid-markdown-features                   10.0.0                                npm                     
 mesa-libgallium                             25.0.7-2+deb13u1                      deb                     
@@ -429,7 +428,7 @@ mount                                       2.41.5-0+deb13u1                    
 ncurses-base                                6.5+20250216-2                        deb                     
 ncurses-bin                                 6.5+20250216-2                        deb                     
 netcat-openbsd                              1.229-1                               deb                     
-node-pty                                    1.2.0-beta.15                         npm                     
+node-pty                                    1.2.0-beta.18                         npm                     
 npm                                         10.0.0                                npm                     
 objective-c                                 10.0.0                                npm                     
 ocl-icd-libopencl1                          2.3.3-1                               deb                     
@@ -464,7 +463,7 @@ search-result                               10.0.0                              
 sed                                         4.9-2+deb13u1                         deb                     
 shaderlab                                   10.0.0                                npm                     
 shared-mime-info                            2.4-5+b2                              deb                     
-shell-quote                                 1.10.0                                npm                     
+shell-quote                                 1.12.0                                npm                     
 shellscript                                 10.0.0                                npm                     
 simple-browser                              10.0.0                                npm                     
 sql                                         10.0.0                                npm                     
@@ -488,7 +487,7 @@ tunnel-forwarding                           10.0.0                              
 typescript                                  10.0.0                                npm                     
 typescript                                  6.0.3                                 npm                     
 typescript-language-features                10.0.0                                npm                     
-tzdata                                      2026c-0+deb13u1                       deb                     
+tzdata                                      2026e-0+deb13u1                       deb                     
 udev                                        257.13-1~deb13u1                      deb                     
 util-linux                                  2.41.5-0+deb13u1                      deb                     
 vb                                          10.0.0                                npm                     

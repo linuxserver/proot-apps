@@ -998,7 +998,7 @@ tunnel-forwarding                                  1.0.0                        
 typescript                                         1.0.0                                 npm                    
 typescript                                         5.9.3                                 npm                    
 typescript-language-features                       1.0.0                                 npm                    
-tzdata                                             2026c-0+deb13u1                       deb                    
+tzdata                                             2026e-0+deb13u1                       deb                    
 udev                                               257.13-1~deb13u1                      deb                    
 ufo                                                1.6.1                                 npm                    
 undici                                             7.9.0                                 npm                    
