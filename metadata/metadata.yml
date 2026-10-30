@@ -1,4 +1,16 @@
 include:
+  - name: 86box
+    full_name: 86Box
+    arch: linux/amd64
+    category: Game
+    icon: 86box.png
+    description: "86Box is a low level x86 emulator that runs older operating systems and software designed for IBM PC systems and compatibles from 1981 through the mid 2000s. The official rom set is bundled with the image."
+  - name: affine
+    full_name: AFFiNE
+    arch: linux/amd64
+    category: Office
+    icon: affine.png
+    description: "AFFiNE is a local first knowledge base that combines documents, whiteboards and databases in one workspace. Write, draw and plan in the same place and optionally sync across devices."
   - name: anki
     full_name: Anki
     arch: linux/amd64
@@ -18,6 +30,18 @@ include:
     category: Network
     icon: anydesk.svg
     description: "AnyDesk ensures secure and reliable remote desktop connections for IT professionals and on-the-go individuals alike."
+  - name: anytype
+    full_name: Anytype
+    arch: linux/amd64
+    category: Office
+    icon: anytype.png
+    description: "Anytype is a local first app for notes, documents and databases built from reusable objects and relations. Your data is encrypted on device and can sync peer to peer across devices."
+  - name: appflowy
+    full_name: AppFlowy
+    arch: linux/amd64
+    category: Office
+    icon: appflowy.svg
+    description: "AppFlowy is an open source notes and project management workspace with documents, databases, boards and calendars that works offline and syncs when you want it to."
   - name: ardour
     full_name: Ardour
     arch: linux/amd64,linux/arm64
@@ -48,6 +72,12 @@ include:
     category: Development
     icon: beekeeperstudio.svg
     description: "Use Beekeeper Studio to query and manage your relational databases, like MySQL, Postgres, SQLite, and SQL Server."
+  - name: bimcraft
+    full_name: BIMCraft
+    arch: linux/amd64
+    category: Creative
+    icon: bimcraft.svg
+    description: "BIMCraft is an open source building information modeling app written in Rust in the spirit of Revit that models walls, floors, roofs, rooms, sheets and schedules and opens and saves IFC files."
   - name: bitwarden
     full_name: Bitwarden
     arch: linux/amd64
@@ -60,6 +90,12 @@ include:
     category: Creative
     icon: blender.svg
     description: "Blender is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality, and computer games."
+  - name: blockbench
+    full_name: Blockbench
+    arch: linux/amd64
+    category: Creative
+    icon: blockbench.png
+    description: "Blockbench is a low poly 3D model editor for creating, texturing and animating models. It supports Minecraft formats and exports to glTF, OBJ and other common formats."
   - name: brave
     full_name: Brave
     arch: linux/amd64,linux/arm64
@@ -72,6 +108,12 @@ include:
     category: Network
     icon: braveorigin.svg
     description: "Brave Origin is a minimalist version of Brave that allows users to disable the revenue-generating features that otherwise support Brave as a business."
+  - name: bruno
+    full_name: Bruno
+    arch: linux/amd64
+    category: Development
+    icon: bruno.png
+    description: "Bruno is an open source API client for exploring and testing APIs. It stores collections as plain files on disk so they can be versioned with git."
   - name: cadcraft
     full_name: CADCraft
     arch: linux/amd64,linux/arm64
@@ -120,6 +162,18 @@ include:
     category: AI
     icon: claude.svg
     description: "Claude is the desktop app from Anthropic with chat and Claude Code for agentic coding with parallel sessions, visual diff review and an integrated terminal."
+  - name: cryptomator
+    full_name: Cryptomator
+    arch: linux/amd64
+    category: Utility
+    icon: cryptomator.svg
+    description: "Cryptomator creates encrypted vaults for files stored in cloud services such as Dropbox, Google Drive and OneDrive so that only you can read them."
+  - name: cursor
+    full_name: Cursor
+    arch: linux/amd64
+    category: AI
+    icon: cursor.png
+    description: "Cursor is an AI code editor based on VS Code with agent driven editing, codebase aware chat and tab completion built in. It is a proprietary editor that needs an account to use the AI features."
   - name: deckcraft
     full_name: DeckCraft
     arch: linux/amd64,linux/arm64
@@ -162,6 +216,12 @@ include:
     category: System
     icon: doublecmd.svg
     description: "Double Commander is a free cross-platform open source file manager with two panels side by side (or one above the other). It is inspired by Total Commander and features some innovative new ideas."
+  - name: drawio
+    full_name: draw.io
+    arch: linux/amd64
+    category: Office
+    icon: drawio.svg
+    description: "draw.io is a desktop diagramming application for flowcharts, network diagrams, UML, mockups and more. It works fully offline and saves diagrams as editable files."
   - name: dreamm
     full_name: DREAMM
     arch: linux/amd64,linux/arm64
@@ -204,6 +264,12 @@ include:
     category: AudioVideo
     icon: effectcraft.svg
     description: "EffectCraft is an open source motion graphics and visual effects compositor from ArtCraft built in pure Rust."
+  - name: feishin
+    full_name: Feishin
+    arch: linux/amd64
+    category: AudioVideo
+    icon: feishin.svg
+    description: "Feishin is a modern music client for self hosted Navidrome and Jellyfin servers. It offers playlists, smart queues and gapless playback through the MPV or web audio backends."
   - name: ferdium
     full_name: Ferdium
     arch: linux/amd64,linux/arm64
@@ -246,6 +312,12 @@ include:
     category: Utility
     icon: flameshot.svg
     description: "Flameshot is a free and open-source, cross-platform tool to take screenshots with many built-in features to save you time."
+  - name: floorp
+    full_name: Floorp
+    arch: linux/amd64
+    category: Network
+    icon: floorp.png
+    description: "Floorp is a Firefox based web browser developed in Japan with a focus on privacy, customization and flexibility. It adds features such as workspaces, a sidebar panel and extensive layout options."
   - name: flycast
     full_name: Flycast
     arch: linux/amd64
@@ -283,6 +355,12 @@ include:
     category: Development
     icon: geany.svg
     description: "Geany is a powerful, stable and lightweight programmers text editor."
+  - name: ghostty
+    full_name: Ghostty
+    arch: linux/amd64
+    category: System
+    icon: ghostty.png
+    description: "Ghostty is a fast, feature rich and native terminal emulator built with GTK4 and libadwaita."
   - name: gimp
     full_name: GIMP
     arch: linux/amd64,linux/arm64
@@ -314,6 +392,12 @@ include:
     category: AudioVideo
     icon: handbrake.svg
     description: "HandBrake is an open-source, GPL-licensed, multiplatform, multithreaded video transcoder."
+  - name: hatchzip
+    full_name: HatchZip
+    arch: linux/amd64
+    category: Utility
+    icon: hatchzip.png
+    description: "HatchZip is an open source archive extractor written in Rust that unpacks zip, 7z, rar, tar and other archives in place so only the extracted files need free disk space."
   - name: helium
     full_name: Helium
     arch: linux/amd64,linux/arm64
@@ -326,12 +410,24 @@ include:
     category: Development
     icon: idea.svg
     description: "IntelliJ IDEA Community Edition is an Integrated Development Environment (IDE) for Java and Kotlin designed to maximize developer productivity."
+  - name: ingetrazo
+    full_name: IngeTrazo
+    arch: linux/amd64
+    category: Creative
+    icon: ingetrazo.svg
+    description: "IngeTrazo is a free SketchUp style push pull 3D modeler for architecture and civil engineering that opens skp and collada files and exports to common CAD formats."
   - name: inkscape
     full_name: Inkscape
     arch: linux/amd64,linux/arm64
     category: Creative
     icon: inkscape.svg
     description: "Inkscape is professional quality vector graphics software which runs on Linux, Mac OS X and Windows desktop computers."
+  - name: jan
+    full_name: Jan
+    arch: linux/amd64
+    category: AI
+    icon: jan.png
+    description: "Jan is an open source chat app that runs large language models locally on your own hardware and can also connect to remote providers."
   - name: joplin
     full_name: Joplin
     arch: linux/amd64
@@ -410,12 +506,24 @@ include:
     category: Education
     icon: logisim.svg
     description: "Logisim-evolution is educational software for designing and simulating digital logic circuits."
+  - name: logseq
+    full_name: Logseq
+    arch: linux/amd64
+    category: Office
+    icon: logseq.png
+    description: "Logseq is a privacy first outliner for note taking and knowledge management. Notes live in plain markdown or org mode files with bidirectional links, graphs and journals."
   - name: lollypop
     full_name: Lollypop
     arch: linux/amd64,linux/arm64
     category: AudioVideo
     icon: lollypop.svg
     description: "Lollypop is a lightweight modern music player designed to work excellently on the GNOME desktop environment."
+  - name: losslesscut
+    full_name: LosslessCut
+    arch: linux/amd64
+    category: AudioVideo
+    icon: losslesscut.svg
+    description: "LosslessCut trims, cuts and merges video and audio files without re encoding so edits are fast and keep the original quality. It also extracts streams and remuxes between containers using ffmpeg."
   - name: maltego
     full_name: Maltego
     arch: linux/amd64,linux/arm64
@@ -524,6 +632,12 @@ include:
     category: Creative
     icon: photocraft.svg
     description: "PhotoCraft is an open source native image editor from ArtCraft with layers, masks, adjustment layers, brushes and type that opens and saves layered PSD and PSB files."
+  - name: pixelorama
+    full_name: Pixelorama
+    arch: linux/amd64
+    category: Creative
+    icon: pixelorama.png
+    description: "Pixelorama is a free and open source pixel art editor built with Godot that supports animation, layers, palettes, custom brushes and export to sprite sheets."
   - name: postman
     full_name: Postman
     arch: linux/amd64,linux/arm64
@@ -566,12 +680,24 @@ include:
     category: Game
     icon: rpcs3.svg
     description: "RPCS3 is an experimental open-source Sony PlayStation 3 emulator and debugger written in C++."
+  - name: ruffle
+    full_name: Ruffle
+    arch: linux/amd64
+    category: Game
+    icon: ruffle.svg
+    description: "Ruffle is a Flash Player emulator written in Rust that plays SWF games and animations on modern systems without the original plugin."
   - name: rustdesk
     full_name: RustDesk
     arch: linux/amd64,linux/arm64
     category: Network
     icon: rustdesk.svg
     description: "RustDesk is a remote access and remote control software, primarily written in Rust, that enables remote maintenance of computers and other devices."
+  - name: rustgis
+    full_name: RustGIS
+    arch: linux/amd64
+    category: Science
+    icon: rustgis.png
+    description: "RustGIS is an open source desktop GIS from the opengeos project written in Rust in the spirit of QGIS that loads vector and raster layers, styles them and runs spatial analysis on GeoJSON, shapefile and GeoTIFF data."
   - name: scummvm
     full_name: ScummVM
     arch: linux/amd64
@@ -660,6 +786,12 @@ include:
     category: System
     icon: tabby.svg
     description: "Tabby is an infinitely customizable cross-platform terminal app for local shells, serial, SSH and Telnet connections."
+  - name: teams
+    full_name: Teams for Linux
+    arch: linux/amd64
+    category: Network
+    icon: teams.png
+    description: "Teams for Linux is an unofficial Microsoft Teams client built with Electron. It wraps the Teams web app as a standalone desktop application with notifications and tray support."
   - name: telegram
     full_name: Telegram
     arch: linux/amd64
@@ -678,6 +810,12 @@ include:
     category: Network
     icon: torbrowser.svg
     description: "Tor is free and open-source software for enabling anonymous communication by directing Internet traffic through a free, worldwide, volunteer overlay network."
+  - name: tracedraw
+    full_name: TraceDraw
+    arch: linux/amd64
+    category: Creative
+    icon: tracedraw.png
+    description: "TraceDraw is an open source vector illustration and page layout app written in Rust in the spirit of CorelDRAW with shapes, curves, text, effects and multi page documents that opens CDR files."
   - name: ungoogledchromium
     full_name: Ungoogled Chromium
     arch: linux/amd64
@@ -697,6 +835,18 @@ include:
     category: Creative
     icon: vectorcraft.svg
     description: "VectorCraft is a fast open source vector illustration app from ArtCraft written in pure Rust with paths, shapes, text and layers."
+  - name: vesktop
+    full_name: Vesktop
+    arch: linux/amd64
+    category: Network
+    icon: vesktop.svg
+    description: "Vesktop is a custom Discord desktop client with Vencord built in. It adds plugins, themes and better screen sharing on Linux."
+  - name: vita3k
+    full_name: Vita3K
+    arch: linux/amd64
+    category: Game
+    icon: vita3k.svg
+    description: "Vita3K is an experimental open source PlayStation Vita emulator. It runs commercial and homebrew Vita titles using a Vulkan or OpenGL renderer."
   - name: vivaldi
     full_name: Vivaldi
     arch: linux/amd64,linux/arm64
@@ -721,6 +871,12 @@ include:
     category: Development
     icon: vscodium.svg
     description: "VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code."
+  - name: warp
+    full_name: Warp
+    arch: linux/amd64
+    category: System
+    icon: warp.png
+    description: "Warp is a modern terminal written in Rust with AI assistance, block based output and collaboration features."
   - name: weather
     full_name: GNOME Weather
     arch: linux/amd64,linux/arm64
@@ -769,12 +925,30 @@ include:
     category: Game
     icon: xenia.png
     description: "Xenia Edge is a fork of the Xenia Xbox 360 research emulator with additional fixes and enhancements."
+  - name: yaak
+    full_name: Yaak
+    arch: linux/amd64
+    category: Development
+    icon: yaak.png
+    description: "Yaak is a desktop API client for interacting with REST, GraphQL, WebSocket, SSE and gRPC services."
   - name: yandex
     full_name: Yandex Browser
     arch: linux/amd64
     category: Network
     icon: yandex.svg
     description: "Yandex Browser is a freeware web browser developed by the Russian technology corporation Yandex that uses the Blink web browser."
+  - name: youtubemusic
+    full_name: YouTube Music
+    arch: linux/amd64
+    category: AudioVideo
+    icon: youtubemusic.svg
+    description: "YouTube Music is a desktop wrapper for the YouTube Music web player with a plugin system. It adds ad blocking, downloads, Discord presence and many other optional features."
+  - name: zed
+    full_name: Zed
+    arch: linux/amd64
+    category: Development
+    icon: zed.png
+    description: "Zed is a high performance multiplayer code editor written in Rust with built in collaboration and AI assistance."
   - name: zen
     full_name: Zen Browser
     arch: linux/amd64,linux/arm64

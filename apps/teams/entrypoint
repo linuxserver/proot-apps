@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Teams for Linux
+/opt/teams-for-linux/teams-for-linux --no-sandbox "$@"

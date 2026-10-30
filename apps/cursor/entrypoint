@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Cursor
+/opt/cursor/usr/share/cursor/cursor --no-sandbox "$@"

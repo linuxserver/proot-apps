@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start 86Box
+/opt/86box/AppRun "$@"

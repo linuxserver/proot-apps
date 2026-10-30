@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- IngeTrazo application icon.
+       SPDX-License-Identifier: GPL-3.0-or-later
+       Copyright (C) 2026 Marco Sumari Tellez and IngeTrazo contributors.
+
+       THE definitive mark (2026-08-08, V11D): a line-drawn cube in
+       elementary Blueberry-500 #3689e6 with Orange-100 #ffc27d nodes on its
+       three near vertices, faces stepped Slate-500 #485a6c / Slate-700
+       #273445 / Black-900 #1a1a1a, on the IngeCAD-family tile with its
+       exact light treatment: 112px footprint (rx 24), vertical gradient
+       Slate-700 -> #171b21, black outer keyline at 45% (keeps the tile
+       visible on dark docks) and white inner highlight at 5%. Every flat
+       colour is an official elementary OS brand shade. Generator:
+       ../../icono-propuestas/gen_n6_variantes.py (v11d).
+
+       KEEP THIS COMMENT INSIDE <svg>. A comment between the XML declaration
+       and the root tag breaks gdk-pixbuf/librsvg format sniffing and GNOME
+       draws an empty grey square in the dock. -->
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#273445"/><stop offset="1" stop-color="#171b21"/></linearGradient></defs><rect x="8" y="8" width="112" height="112" rx="24" fill="url(#bg)"/><rect x="8.5" y="8.5" width="111" height="111" rx="23.5" fill="none" stroke="#000000" stroke-opacity="0.45"/><rect x="9.5" y="9.5" width="109" height="109" rx="22.5" fill="none" stroke="#ffffff" stroke-opacity="0.05"/><polygon points="64.00,64.00 25.89,42.00 64.00,20.00 102.11,42.00" fill="#485a6c"/><polygon points="64.00,64.00 25.89,42.00 25.89,86.00 64.00,108.00" fill="#273445"/><polygon points="64.00,64.00 64.00,108.00 102.11,86.00 102.11,42.00" fill="#1a1a1a"/><polygon points="64.00,20.00 25.89,42.00 25.89,86.00 64.00,108.00 102.11,86.00 102.11,42.00" stroke="#3689e6" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><line x1="64.00" y1="64.00" x2="25.89" y2="42.00" stroke="#3689e6" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><line x1="64.00" y1="64.00" x2="102.11" y2="42.00" stroke="#3689e6" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><line x1="64.00" y1="64.00" x2="64.00" y2="108.00" stroke="#3689e6" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="64.00" cy="20.00" r="7.0" fill="#ffc27d" stroke="#1d2733" stroke-width="2.2"/><circle cx="25.89" cy="86.00" r="7.0" fill="#ffc27d" stroke="#1d2733" stroke-width="2.2"/><circle cx="102.11" cy="86.00" r="7.0" fill="#ffc27d" stroke="#1d2733" stroke-width="2.2"/>
+</svg>

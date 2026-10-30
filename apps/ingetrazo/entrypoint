@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Mirror AppRun env for bundled libs
+[ -z "$QT_QPA_PLATFORM" ] && export QT_QPA_PLATFORM="wayland;xcb"
+export GIO_MODULE_DIR="/opt/ingetrazo/usr/lib/gio/modules"
+
+# Start IngeTrazo
+/opt/ingetrazo/usr/bin/ingetrazo "$@"

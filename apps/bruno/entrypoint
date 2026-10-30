@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Bruno
+/opt/Bruno/bruno --no-sandbox "$@"

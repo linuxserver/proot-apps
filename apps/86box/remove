@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Removing icon"
+rm -f $HOME/.local/share/icons/hicolor/scalable/apps/net.86box.86Box.png
+echo "Removing start menu entry"
+rm -f $HOME/.local/share/applications/86box-pa.desktop
+echo "Removing desktop shortcut"
+rm -f $HOME/Desktop/86box-pa.desktop

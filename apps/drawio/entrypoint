@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start draw.io
+/opt/drawio/drawio --no-sandbox "$@"

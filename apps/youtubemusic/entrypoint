@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start YouTube Music
+"/opt/YouTube Music/youtube-music" --no-sandbox "$@"

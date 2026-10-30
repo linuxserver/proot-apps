@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start AFFiNE
+/opt/affine/usr/lib/affine-electron/AFFiNE --no-sandbox "$@"

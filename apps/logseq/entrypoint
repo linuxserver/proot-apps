@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Logseq
+/opt/logseq/logseq --no-sandbox "$@"

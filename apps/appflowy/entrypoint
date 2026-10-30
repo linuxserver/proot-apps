@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start AppFlowy
+/usr/lib/AppFlowy/AppFlowy "$@"

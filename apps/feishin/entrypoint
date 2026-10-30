@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Feishin
+/opt/feishin/feishin --no-sandbox "$@"

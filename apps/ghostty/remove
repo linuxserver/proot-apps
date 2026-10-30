@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Removing icon"
+rm -f $HOME/.local/share/icons/hicolor/scalable/apps/com.mitchellh.ghostty.png
+echo "Removing start menu entry"
+rm -f $HOME/.local/share/applications/ghostty-pa.desktop
+echo "Removing desktop shortcut"
+rm -f $HOME/Desktop/ghostty-pa.desktop

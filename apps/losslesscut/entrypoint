@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start LosslessCut
+/opt/losslesscut/losslesscut --no-sandbox "$@"

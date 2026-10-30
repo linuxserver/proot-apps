@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <clipPath id="tile"><rect x="8" y="8" width="240" height="240" rx="52"/></clipPath>
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="#1F9D7F"/>
+  <g clip-path="url(#tile)" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="2.5"><path d="M20 0V256M0 20H256"/><path d="M44 0V256M0 44H256"/><path d="M68 0V256M0 68H256"/><path d="M92 0V256M0 92H256"/><path d="M116 0V256M0 116H256"/><path d="M140 0V256M0 140H256"/><path d="M164 0V256M0 164H256"/><path d="M188 0V256M0 188H256"/><path d="M212 0V256M0 212H256"/><path d="M236 0V256M0 236H256"/></g>
+  <path d="M138.0 62.0H200.0" stroke="#17191C" stroke-width="7" stroke-linecap="round"/>
+  <polygon points="187.0,37.0 213.0,37.0 200.0,59.0" fill="#F07A3A" stroke="#17191C" stroke-width="6" stroke-linejoin="round"/>
+  <polygon points="63.0,71.3 157.0,125.6 190.0,137.0 96.0,82.7" fill="#F07A3A" stroke="#17191C" stroke-width="7.0" stroke-linejoin="round"/>
+  <polygon points="123.3,228.7 180.1,195.9 180.1,132.4 151.7,122.5 123.3,165.2" fill="#F4ECD8" stroke="#17191C" stroke-width="7.0" stroke-linejoin="round"/>
+  <polygon points="39.9,180.5 123.3,228.7 123.3,165.2 39.9,117.1" fill="#F4ECD8" stroke="#17191C" stroke-width="7.0" stroke-linejoin="round"/>
+  <polygon points="63.0,71.3 157.0,125.6 124.0,175.1 30.0,120.8" fill="#F07A3A" stroke="#17191C" stroke-width="7.0" stroke-linejoin="round"/>
+  <polygon points="52.2,187.7 69.2,197.5 69.2,159.2 52.2,149.3" fill="#1F9D7F" stroke="#17191C" stroke-width="6" stroke-linejoin="round"/>
+  <polygon points="83.5,187.1 108.1,201.3 108.1,181.6 83.5,167.4" fill="#1F9D7F" stroke="#17191C" stroke-width="6" stroke-linejoin="round"/>
+  <polygon points="162.1,187.7 141.3,199.7 141.3,180.0 162.1,167.9" fill="#1F9D7F" stroke="#17191C" stroke-width="6" stroke-linejoin="round"/>
+</svg>

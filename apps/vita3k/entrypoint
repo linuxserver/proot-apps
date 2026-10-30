@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Vita3K
+/opt/vita3k/AppRun "$@"

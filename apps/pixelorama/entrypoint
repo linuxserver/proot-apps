@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Pixelorama
+/opt/pixelorama/Pixelorama.x86_64 "$@"

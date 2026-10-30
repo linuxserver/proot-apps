@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Blockbench
+/opt/Blockbench/blockbench --no-sandbox "$@"

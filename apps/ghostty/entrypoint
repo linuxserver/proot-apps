@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Ghostty
+/opt/ghostty/AppRun "$@"
