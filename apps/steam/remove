@@ -9,4 +9,11 @@ echo "Removing desktop shortcut"
 rm -f $HOME/Desktop/steam-pa.desktop
 echo "Removing steam-pa launcher"
 rm -f $HOME/.local/bin/steam-pa
+echo "Restoring the Steam reapers"
+STEAM_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/Steam"
+for REAPER in "${STEAM_DIR}/steamrt64/reaper" "${STEAM_DIR}/ubuntu12_32/reaper"; do
+  if [ -f "${REAPER}.steam-pa" ] && grep -q -a '^# steam-pa:' "${REAPER}" 2>/dev/null; then
+    mv -f "${REAPER}.steam-pa" "${REAPER}"
+  fi
+done
 echo "Steam data in ${XDG_DATA_HOME:-$HOME/.local/share}/Steam was left in place"

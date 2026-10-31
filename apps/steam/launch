@@ -2,6 +2,10 @@
 
 # Start Steam natively with this app root as the graphics driver store,
 # or inside the app root with --guest when the host has no glibc
+#
+# STEAM_PA_WRAP picks how the 32 bit reaper finds a loader on a host without one
+#   auto    patch the reapers to run through this root's loader, wrap only if that fails
+#   always  run steam.sh in proot with this root's loader bound in
 
 ROOT="$(dirname "$(readlink -f "$0")")"
 STEAM_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/Steam"
@@ -10,6 +14,78 @@ if [ "${1:-}" == "--guest" ]; then
   GUEST=1
   shift
 fi
+
+REAPER_LOADER="${ROOT}/lib/ld-linux.so.2"
+REAPER_LIBS="${ROOT}/lib/i386-linux-gnu:${ROOT}/usr/lib/i386-linux-gnu"
+REAPERS=("${STEAM_DIR}/steamrt64/reaper" "${STEAM_DIR}/ubuntu12_32/reaper")
+LOG_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/steam-pa"
+REAPER_LOG="${LOG_DIR}/reaper.log"
+mkdir -p "${LOG_DIR}"
+
+# Size Steam expects for a client file, from the installed manifest, empty when unknown
+expected_size() {
+  local REL="${1#"${STEAM_DIR}"/}"
+  grep -a -h -m1 "^${REL}," "${STEAM_DIR}"/package/steam_client_*.installed 2>/dev/null \
+    | head -1 | sed 's/^[^,]*,\([0-9]*\);.*/\1/'
+}
+
+# Replace the 32 bit reapers with a script that runs the saved original through
+# this root's loader and libraries, so the kernel never has to find /lib/ld-linux.so.2.
+# Steam verifies the size of every client file at start and reinstalls on a
+# mismatch, so the script is padded to the size of the original.
+# Returns 1 if a reaper is left unpatched.
+patch_reapers() {
+  local STATUS=0 REAPER REL ORIG SIZE EXPECTED SCRIPT PAD
+  for REAPER in "${REAPERS[@]}"; do
+    [ -f "${REAPER}" ] || continue
+    REL="${REAPER#"${STEAM_DIR}"/}"
+    ORIG="${REAPER}"
+    if head -c 2 "${REAPER}" 2>/dev/null | grep -q '^#!' && grep -q -a '^# steam-pa:' "${REAPER}"; then
+      if grep -q -a -F "exec '${REAPER_LOADER}' " "${REAPER}"; then
+        continue
+      fi
+      # Written for another app root, rebuild from the saved original
+      ORIG="${REAPER}.steam-pa"
+      [ -f "${ORIG}" ] || continue
+    fi
+    case "$(head -c 5 "${ORIG}" 2>/dev/null | od -An -c | tr -d ' ')" in
+      177ELF001) ;;
+      *) continue ;;
+    esac
+    SIZE="$(stat -c %s "${ORIG}")"
+    EXPECTED="$(expected_size "${REAPER}")"
+    if [ -n "${EXPECTED}" ] && [ "${EXPECTED}" != "${SIZE}" ]; then
+      echo "steam-pa: ${REL} is ${SIZE} bytes, Steam expects ${EXPECTED}, left for Steam to repair" >&2
+      STATUS=1
+      continue
+    fi
+    SCRIPT="$(printf '#!/bin/sh\n# steam-pa: the 32 bit reaper, run with the app root loader and libraries\nexec '"'"'%s'"'"' --argv0 "$0" --library-path '"'"'%s'"'"' "$0.steam-pa" "$@"\n#' "${REAPER_LOADER}" "${REAPER_LIBS}")"
+    PAD=$(( SIZE - $(printf '%s' "${SCRIPT}" | wc -c) - 1 ))
+    if [ "${PAD}" -lt 0 ]; then
+      echo "steam-pa: ${REL} is too small to hold the launcher script" >&2
+      STATUS=1
+      continue
+    fi
+    if [ "${ORIG}" == "${REAPER}" ]; then
+      cp -p "${REAPER}" "${REAPER}.steam-pa" || { STATUS=1; continue; }
+    fi
+    if { printf '%s' "${SCRIPT}"; head -c "${PAD}" /dev/zero | tr '\0' '='; printf '\n'; } > "${REAPER}.steam-pa-new" \
+      && chmod 755 "${REAPER}.steam-pa-new" \
+      && mv -f "${REAPER}.steam-pa-new" "${REAPER}"; then
+      echo "steam-pa: ${REL} now runs through this root's 32 bit loader" >&2
+    else
+      rm -f "${REAPER}.steam-pa-new"
+      echo "steam-pa: could not replace ${REL}" >&2
+      STATUS=1
+    fi
+  done
+  return ${STATUS}
+}
+
+# Inode, mtime and size of the reapers, changes when a client update replaces them
+reaper_signature() {
+  stat -c '%i %y %s' "${REAPERS[@]}" 2>/dev/null
+}
 
 # proton games launch through steam and pick up the interposers from here
 write_proton_settings() {
@@ -28,9 +104,16 @@ SETTINGS
 }
 
 monitor_steam() {
+  local SIGNATURE="${REAPER_SIGNATURE}" CURRENT
   while kill -0 "$1" >/dev/null 2>&1; do
     if [ -n "${PRELOAD}" ]; then
       write_proton_settings
+    fi
+    if [ "${PATCH}" == "1" ]; then
+      CURRENT="$(reaper_signature)"
+      if [ "${CURRENT}" != "${SIGNATURE}" ] && patch_reapers 2>>"${REAPER_LOG}"; then
+        SIGNATURE="$(reaper_signature)"
+      fi
     fi
     sleep 1
   done
@@ -64,7 +147,8 @@ fi
 # bubblewrap stand in for containers without user namespaces
 export BWRAP="${BWRAP:-$HOME/.local/bin/bwrap}"
 
-# Game launches run Steam's reaper with this root's loader and libraries
+# Game launches run through this root's launch shell, which logs the command
+# line and chains the reaper through this root's loader when nothing else provides one
 export STEAM_GAME_LAUNCH_SHELL="${ROOT%/}/steam-launch-shell"
 
 # Graphics drivers come from this app root unless the host has NVIDIA or asks for its own
@@ -100,20 +184,44 @@ if [ -n "${WAYLAND_DISPLAY}" ]; then
   STEAM_ARGS+=(--ozone-platform=wayland)
 fi
 
-# Steam runs its 32-bit reaper on the host side for every launch, including the
-# install script evaluator that bypasses STEAM_GAME_LAUNCH_SHELL; a host without
-# a 32-bit loader gets this root's loader and libraries bound into the client's view
+# Steam runs its 32 bit reaper on the host side for every launch, including the
+# install script evaluator that bypasses STEAM_GAME_LAUNCH_SHELL, and the kernel
+# needs the loader named in the reaper to exist. Either the reaper is patched to
+# name this root's loader, or steam.sh runs in proot with the loader bound in.
+PATCH=0
 WRAP=()
-if [ "${GUEST}" == "0" ] && [ ! -e /lib/ld-linux.so.2 ]; then
-  WRAP=("$HOME/.local/bin/proot"
-    -b "${ROOT}/usr/lib/i386-linux-gnu/ld-linux.so.2:/lib/ld-linux.so.2"
-    -b "${ROOT}/usr/lib/i386-linux-gnu:/lib/i386-linux-gnu"
-    -b "${ROOT}/usr/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu")
-  if [ -n "${STEAM_PA_DEBUG}" ]; then
-    mkdir -p "${XDG_CACHE_HOME:-$HOME/.cache}/steam-pa"
-    export PROOT_VERBOSE=1
-    exec 2>>"${XDG_CACHE_HOME:-$HOME/.cache}/steam-pa/proot.log"
+MODE="${STEAM_PA_WRAP:-auto}"
+if [ "${GUEST}" == "0" ]; then
+  if [ "${MODE}" != "always" ] && [ ! -e /lib/ld-linux.so.2 ]; then
+    PATCH=1
+    if ! patch_reapers; then
+      PATCH=0
+      echo "steam-pa: falling back to the proot wrap" >&2
+      MODE=always
+    fi
   fi
+  if [ "${MODE}" == "always" ]; then
+    WRAP=("$HOME/.local/bin/proot"
+      -b "${ROOT}/usr/lib/i386-linux-gnu/ld-linux.so.2:/lib/ld-linux.so.2"
+      -b "${ROOT}/usr/lib/i386-linux-gnu:/lib/i386-linux-gnu"
+      -b "${ROOT}/usr/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu")
+    if [ -n "${STEAM_PA_DEBUG}" ]; then
+      export PROOT_VERBOSE=1
+      exec 2>>"${LOG_DIR}/proot.log"
+    fi
+  fi
+fi
+REAPER_SIGNATURE="$(reaper_signature)"
+
+# Recorded by the launch shell with each game's command line
+if [ "${GUEST}" == "1" ]; then
+  export STEAM_PA_MODE=guest
+elif [ "${#WRAP[@]}" -gt 0 ]; then
+  export STEAM_PA_MODE=proot
+elif [ "${PATCH}" == "1" ]; then
+  export STEAM_PA_MODE=native-patched
+else
+  export STEAM_PA_MODE=native
 fi
 
 "${WRAP[@]}" "${STEAM_DIR}/steam.sh" "${STEAM_ARGS[@]}" "$@" &
