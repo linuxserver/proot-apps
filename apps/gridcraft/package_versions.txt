@@ -62,7 +62,7 @@ gopkg.in/yaml.v2                 v2.4.0                                 go-modul
 gopkg.in/yaml.v3                 v3.0.1                                 go-module    
 gpgv                             2.4.8-4ubuntu3.1                       deb          
 grep                             3.12-1                                 deb          
-gridcraft                        0.13.0-1                               deb          
+gridcraft                        0.14.2-1                               deb          
 gsettings-desktop-schemas        50.0-1ubuntu2                          deb          
 gstreamer1.0-plugins-base        1.28.2-1ubuntu0.1                      deb          
 gstreamer1.0-plugins-good        1.28.2-2ubuntu0.4                      deb          
