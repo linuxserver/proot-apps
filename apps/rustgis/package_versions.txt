@@ -411,7 +411,7 @@ pulseaudio                       1:17.0+dfsg1-2ubuntu4                  deb
 pulseaudio-utils                 1:17.0+dfsg1-2ubuntu4                  deb          
 rpcsvc-proto                     1.4.3-1build1                          deb          
 rust-coreutils                   0.10.0-1ubuntu2~26.04.1                deb          
-rustgis                          0.4.0                                  deb          
+rustgis                          0.5.0                                  deb          
 sed                              4.9-2ubuntu1                           deb          
 sensible-utils                   0.0.26build1                           deb          
 shared-mime-info                 2.4-5build3                            deb          

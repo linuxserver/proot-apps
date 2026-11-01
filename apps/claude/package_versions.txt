@@ -279,7 +279,7 @@ libngtcp2-crypto-gnutls8                1.11.0-1+deb13u1                      de
 libnotify4                              0.8.6-1                               deb                        
 libnpth0t64                             1.8-3                                 deb                        
 libnspr4                                2:4.36-1                              deb                        
-libnss3                                 2:3.110-1+deb13u4                     deb                        
+libnss3                                 2:3.110-1+deb13u5                     deb                        
 libnuma1                                2.0.19-1                              deb                        
 libogg0                                 1.3.5-3+b2                            deb                        
 libonig5                                6.9.9-1+b1                            deb                        
