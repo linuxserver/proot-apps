@@ -22,11 +22,11 @@ RUN \
     mesa-vulkan-drivers \
     xdg-desktop-portal \
     zenity && \
-  TRACEDRAW_VERSION=$(curl -sX GET "https://api.github.com/repos/igtoth/tracedraw/releases/latest" \
+  TRACEDRAW_VERSION=$(curl -sX GET "https://api.github.com/repos/tracedraw/tracedraw/releases/latest" \
     | jq -r '.tag_name') && \
   curl -o \
     /tmp/tracedraw.deb -L \
-    "https://github.com/igtoth/tracedraw/releases/download/${TRACEDRAW_VERSION}/tracedraw_$(echo ${TRACEDRAW_VERSION}| sed 's/^v//g')_amd64.deb" && \
+    "https://github.com/tracedraw/tracedraw/releases/download/${TRACEDRAW_VERSION}/tracedraw_$(echo ${TRACEDRAW_VERSION}| sed 's/^v//g')_amd64.deb" && \
   apt-get install -y --no-install-recommends \
     /tmp/tracedraw.deb && \
   echo "**** customize desktop file ****" && \
