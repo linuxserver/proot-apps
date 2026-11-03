@@ -74,7 +74,7 @@ include:
     description: "Use Beekeeper Studio to query and manage your relational databases, like MySQL, Postgres, SQLite, and SQL Server."
   - name: bimcraft
     full_name: BIMCraft
-    arch: linux/amd64
+    arch: linux/amd64,linux/arm64
     category: Creative
     icon: bimcraft.svg
     description: "BIMCraft is an open source building information modeling app written in Rust in the spirit of Revit that models walls, floors, roofs, rooms, sheets and schedules and opens and saves IFC files."
@@ -536,6 +536,12 @@ include:
     category: Game
     icon: mame.svg
     description: "MAME is a multi-purpose emulation framework whose purpose is to preserve decades of arcade and computer software history."
+  - name: materialcraft
+    full_name: MaterialCraft
+    arch: linux/amd64,linux/arm64
+    category: Creative
+    icon: materialcraft.svg
+    description: "MaterialCraft is an open source native node based procedural material designer from ArtCraft that builds tileable PBR materials from noises, patterns and filters with live 2D and 3D previews and exports texture maps for game engines."
   - name: mayo
     full_name: Mayo
     arch: linux/amd64,linux/arm64
@@ -799,7 +805,7 @@ include:
     description: "Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed."
   - name: texturecraft
     full_name: TextureCraft
-    arch: linux/amd64
+    arch: linux/amd64,linux/arm64
     category: Creative
     icon: texturecraft.svg
     description: "TextureCraft is an open source 3D texture painting app written in Rust that paints PBR texture sets directly on glTF, FBX, COLLADA, USD, OBJ and other meshes with layers, masks and smart materials, bakes mesh maps and exports texture sets for game engines."
