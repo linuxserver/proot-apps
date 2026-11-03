@@ -13,7 +13,7 @@ anstyle                         1.0.11                   rust-crate
 anstyle-parse                   0.2.7                    rust-crate                  
 anstyle-query                   1.1.3                    rust-crate                  
 anyhow                          1.0.98                   rust-crate                  
-aom-libs                        3.15.2-r0                apk                         
+aom-libs                        3.15.3-r0                apk                         
 apk-tools                       3.0.7-r0                 apk                         
 apsw                            3.53.4.0                 python                      
 arg_enum_proc_macro             0.3.4                    rust-crate                  
@@ -100,19 +100,11 @@ fonttools                       4.60.1                   python
 freetype                        2.14.3-r0                apk                         
 fribidi                         1.0.17-r0                apk                         
 gcc                             15.2.0-r9                apk                         
-gdbm                            1.26-r0                  apk                         
 getrandom                       0.3.3                    rust-crate                  
 glib                            2.90.0-r0                apk                         
 glib-lang                       2.90.0-r0                apk                         
 gmp                             6.3.0-r4                 apk                         
-gnupg-dirmngr                   2.5.22-r0                apk                         
-gnupg-gpgconf                   2.5.22-r0                apk                         
-gnupg-keyboxd                   2.5.22-r0                apk                         
 gnutls                          3.8.13-r0                apk                         
-gpg                             2.5.22-r0                apk                         
-gpg-agent                       2.5.22-r0                apk                         
-gpgme                           2.0.1-r1                 apk                         
-gpgsm                           2.5.22-r0                apk                         
 graphene                        1.10.8-r5                apk                         
 graphite2                       1.3.15-r0                apk                         
 gsettings-desktop-schemas       51.0-r0                  apk                         
@@ -158,14 +150,13 @@ lang                            0.1-r2                   apk
 lcms2                           2.19.1-r0                apk                         
 libSvtAv1Enc                    4.2.0-r0                 apk                         
 libapk                          3.0.7-r0                 apk                         
-libassuan                       3.0.2-r0                 apk                         
 libasyncns                      0.8-r5                   apk                         
 libatasmart                     0.19-r4                  apk                         
 libatomic                       15.2.0-r9                apk                         
 libavif                         1.4.2-r0                 apk                         
 libb2                           0.98.1-r3                apk                         
 libblkid                        2.42.4-r3                apk                         
-libblockdev                     3.4.0-r1                 apk                         
+libblockdev                     3.5.0-r0                 apk                         
 libbluray                       1.5.0-r0                 apk                         
 libbsd                          0.12.2-r0                apk                         
 libbytesize                     2.12-r1                  apk                         
@@ -187,7 +178,7 @@ libdvdread                      6.1.3-r2                 apk
 libeconf                        0.8.4-r0                 apk                         
 libelf                          0.195-r0                 apk                         
 libevdev                        1.13.6-r0                apk                         
-libexpat                        2.9.0-r0                 apk                         
+libexpat                        2.10.0-r0                apk                         
 libfdisk                        2.42.4-r3                apk                         
 libffi                          3.8.0-r0                 apk                         
 libflac                         1.5.0-r0                 apk                         
@@ -207,8 +198,6 @@ libintl                         1.0-r0                   apk
 libjpeg-turbo                   3.1.3-r0                 apk                         
 libjpeg-turbo-utils             3.1.3-r0                 apk                         
 libjxl                          0.11.2-r4                apk                         
-libksba                         1.7.0-r0                 apk                         
-libldap                         2.6.15-r0                apk                         
 libltdl                         2.6.2-r1                 apk                         
 libmagic                        5.48-r0                  apk                         
 libmd                           1.3.0-r0                 apk                         
@@ -228,7 +217,6 @@ libproxy                        0.5.12-r0                apk
 libpsl                          0.21.5-r3                apk                         
 libpulse                        17.0-r9                  apk                         
 librist                         0.2.15-r0                apk                         
-libsasl                         2.1.28-r9                apk                         
 libsharpyuv                     1.6.0-r0                 apk                         
 libsm                           1.2.6-r0                 apk                         
 libsndfile                      1.2.2-r3                 apk                         
@@ -328,7 +316,6 @@ nghttp2-libs                    1.70.0-r0                apk
 nom                             7.1.3                    rust-crate                  
 nom                             8.0.0                    rust-crate                  
 noop_proc_macro                 0.3.0                    rust-crate                  
-npth                            1.8-r0                   apk                         
 nspr                            4.38.2-r0                apk                         
 nss                             3.131-r0                 apk                         
 num-bigint                      0.4.6                    rust-crate                  
@@ -352,7 +339,6 @@ pastey                          0.1.0                    rust-crate
 pcaudiolib                      1.3-r0                   apk                         
 pcre2                           10.49-r0                 apk                         
 pillow                          13.0.0                   python                      
-pinentry                        1.3.2-r0                 apk                         
 pixman                          0.46.4-r0                apk                         
 pkgconf                         3.0.10-r0                apk                         
 polkit-noelogind-libs           128-r0                   apk                         
@@ -520,7 +506,6 @@ unicode-ident                   1.0.18                   rust-crate
 unicode-width                   0.2.1                    rust-crate                  
 utf8parse                       0.2.2                    rust-crate                  
 v_frame                         0.3.9                    rust-crate                  
-volume_key                      0.3.12-r9                apk                         
 wayland-libs-client             1.26.0-r0                apk                         
 wayland-libs-cursor             1.26.0-r0                apk                         
 wayland-libs-egl                1.26.0-r0                apk                         

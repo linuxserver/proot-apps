@@ -80,7 +80,7 @@ libdrm                          2.4.134-r0               apk
 libeconf                        0.8.4-r0                 apk     
 libelf                          0.195-r0                 apk     
 libevdev                        1.13.6-r0                apk     
-libexpat                        2.9.0-r0                 apk     
+libexpat                        2.10.0-r0                apk     
 libffi                          3.8.0-r0                 apk     
 libflac                         1.5.0-r0                 apk     
 libgcc                          15.2.0-r9                apk     
