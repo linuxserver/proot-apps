@@ -249,8 +249,8 @@ libpangocairo-1.0-0             1.57.0-1                               deb
 libpangoft2-1.0-0               1.57.0-1                               deb          
 libpcap0.8t64                   1.10.6-1ubuntu1.1                      deb          
 libpciaccess0                   0.18.1-1ubuntu4.1                      deb          
-libpcre2-16-0                   10.46-1build1                          deb          
-libpcre2-8-0                    10.46-1build1                          deb          
+libpcre2-16-0                   10.46-1ubuntu0.1                       deb          
+libpcre2-8-0                    10.46-1ubuntu0.1                       deb          
 libpgm-5.3-0t64                 5.3.128~dfsg-2.1build2                 deb          
 libpixman-1-0                   0.46.4-1                               deb          
 libplutosvg0                    0.0.7-2                                deb          

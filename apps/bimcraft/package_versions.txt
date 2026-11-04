@@ -5,7 +5,7 @@ apt                              3.2.0                                  deb
 base-files                       14ubuntu6.2                            deb          
 base-passwd                      3.6.8                                  deb          
 bash                             5.3-2ubuntu1                           deb          
-bimcraft                         0.9.0-1                                deb          
+bimcraft                         0.10.0-1                               deb          
 binutils                         2.46-3ubuntu2                          deb          
 binutils-common                  2.46-3ubuntu2                          deb          
 binutils-x86-64-linux-gnu        2.46-3ubuntu2                          deb          

@@ -240,7 +240,7 @@ libpango-1.0-0                      1.50.6+ds-2ubuntu1                       deb
 libpangocairo-1.0-0                 1.50.6+ds-2ubuntu1                       deb     
 libpangoft2-1.0-0                   1.50.6+ds-2ubuntu1                       deb     
 libpciaccess0                       0.16-3                                   deb     
-libpcre2-16-0                       10.39-3ubuntu0.1                         deb     
+libpcre2-16-0                       10.39-3ubuntu0.2                         deb     
 libpcre2-8-0                        10.39-3ubuntu0.1                         deb     
 libpcre3                            2:8.39-13ubuntu0.22.04.1                 deb     
 libpgm-5.3-0                        5.3.128~dfsg-2                           deb     

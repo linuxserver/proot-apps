@@ -20,7 +20,10 @@ NAME                                         VERSION                            
 @chenglou/pretext                            0.0.9                                 npm                          
 @connectrpc/connect                          1.6.1                                 npm                          
 @connectrpc/connect-node                     1.6.1                                 npm                          
+@cursor/node-tree-sitter                     0.21.1                                npm        (+1 duplicate)    
+@cursor/parcel-watcher                       2.5.1-cursor                          npm                          
 @cursor/ripgrep                              15.1.0-cursor5                        npm                          
+@cursor/vscode-proxy-agent                   0.42.0                                npm                          
 @dnd-kit/accessibility                       3.1.1                                 npm                          
 @dnd-kit/core                                6.3.1                                 npm                          
 @dnd-kit/sortable                            10.0.0                                npm                          
@@ -96,7 +99,6 @@ NAME                                         VERSION                            
 @opentelemetry/semantic-conventions          1.43.0                                npm                          
 @opentelemetry/sql-common                    0.41.2                                npm                          
 @parcel/watcher                              2.5.1                                 npm                          
-@parcel/watcher                              2.5.1-cursor                          npm                          
 @parcel/watcher-linux-x64-glibc              2.5.1                                 npm                          
 @pkgjs/parseargs                             0.11.0                                npm                          
 @prisma/instrumentation                      6.15.0                                npm                          
@@ -147,7 +149,6 @@ NAME                                         VERSION                            
 @ungap/structured-clone                      1.3.0                                 npm                          
 @vscode/deviceid                             0.1.5                                 npm                          
 @vscode/iconv-lite-umd                       0.7.0                                 npm                          
-@vscode/proxy-agent                          0.42.0                                npm                          
 @vscode/spdlog                               0.15.8                                npm                          
 @vscode/sqlite3                              5.1.12-vscode                         npm                          
 @vscode/sudo-prompt                          9.3.1                                 npm                          
@@ -165,7 +166,7 @@ NAME                                         VERSION                            
 @xterm/addon-webgl                           0.20.0-beta.300                       npm                          
 @xterm/headless                              6.1.0-beta.303                        npm                          
 @xterm/xterm                                 6.1.0-beta.304                        npm                          
-Cursor                                       3.27.22                               npm                          
+Cursor                                       3.28.7                                npm                          
 abort-controller                             3.0.0                                 npm                          
 accepts                                      2.0.0                                 npm                          
 acorn                                        8.18.0                                npm                          
@@ -322,8 +323,8 @@ delayed-stream                               1.0.0                              
 depd                                         2.0.0                                 npm                          
 dequal                                       2.0.3                                 npm                          
 desktop-file-utils                           0.28-1                                deb                          
-detect-libc                                  1.0.3                                 npm        (+12 duplicates)  
-detect-libc                                  2.1.2                                 npm        (+1 duplicate)    
+detect-libc                                  1.0.3                                 npm                          
+detect-libc                                  2.1.2                                 npm        (+13 duplicates)  
 devlop                                       1.1.0                                 npm                          
 diff                                         10.0.0                                npm                          
 diffutils                                    1:3.10-4                              deb                          
@@ -415,8 +416,7 @@ glob                                         7.2.3                              
 go                                           10.0.0                                npm                          
 golang.org/x/sys                             v0.0.0-20220715151400-c0bba94af5f8    go-module                    
 gopd                                         1.2.0                                 npm                          
-graceful-fs                                  4.2.10                                npm                          
-graceful-fs                                  4.2.11                                npm                          
+graceful-fs                                  4.2.11                                npm        (+1 duplicate)    
 gray-matter                                  4.0.3                                 npm                          
 grep                                         3.11-4                                deb                          
 grok                                         0.0.0                                 npm        (+2 duplicates)   
@@ -792,7 +792,7 @@ libzstd1                                     1.5.7+dfsg-1                       
 libzvbi-common                               0.2.44-1                              deb                          
 libzvbi0t64                                  0.2.44-1                              deb                          
 linkify-it                                   3.0.3                                 npm                          
-linux-libc-dev                               6.12.113-1                            deb                          
+linux-libc-dev                               6.12.115-2                            deb                          
 locales-all                                  2.41-12+deb13u4                       deb                          
 lodash                                       4.18.1                                npm                          
 lodash.includes                              4.3.0                                 npm                          
@@ -872,8 +872,7 @@ node                                         24.22.1                            
 node-abi                                     3.47.0                                npm                          
 node-addon-api                               7.1.0                                 npm                          
 node-fetch                                   2.7.0                                 npm                          
-node-gyp-build                               3.9.0                                 npm        (+12 duplicates)  
-node-gyp-build                               4.8.4                                 npm        (+1 duplicate)    
+node-gyp-build                               4.8.4                                 npm        (+14 duplicates)  
 node-ovsx-sign                               1.2.0                                 npm                          
 node-pty                                     1.1.0-beta42                          npm                          
 normalize-path                               3.0.0                                 npm                          
@@ -920,8 +919,7 @@ pg-protocol                                  1.11.0                             
 pg-types                                     2.2.0                                 npm                          
 php                                          10.0.0                                npm                          
 php-language-features                        1.0.0                                 npm                          
-picomatch                                    2.3.1                                 npm                          
-picomatch                                    4.0.5                                 npm                          
+picomatch                                    2.3.1                                 npm        (+1 duplicate)    
 pidusage                                     4.0.1                                 npm                          
 piscina                                      4.9.4                                 npm        (+2 duplicates)   
 pkce-challenge                               5.0.0                                 npm                          
@@ -1069,7 +1067,6 @@ toidentifier                                 1.0.1                              
 token-types                                  4.2.1                                 npm                          
 tough-cookie                                 5.1.2                                 npm                          
 tr46                                         0.0.3                                 npm                          
-tree-sitter                                  0.21.1                                npm        (+1 duplicate)    
 tree-sitter-bash                             0.21.0                                npm        (+1 duplicate)    
 trim-lines                                   3.0.1                                 npm                          
 tslib                                        2.8.1                                 npm                          
@@ -1150,6 +1147,6 @@ yazl                                         2.5.1                              
 zip-stream                                   6.0.1                                 npm                          
 zlib1g                                       1:1.3.dfsg+really1.3.1-1+b1           deb                          
 zod                                          3.25.76                               npm        (+2 duplicates)   
-zod                                          4.6.5                                 npm                          
+zod                                          4.6.7                                 npm                          
 zod-to-json-schema                           3.25.2                                npm                          
 zwitch                                       2.0.4                                 npm                          

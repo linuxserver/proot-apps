@@ -7,8 +7,8 @@ aspell-en                       2018.04.16-0-1                           deb
 base-files                      12ubuntu4.7                              deb       
 base-passwd                     3.5.52build1                             deb       
 bash                            5.1-6ubuntu1.1                           deb       
-bind9-host                      1:9.18.39-0ubuntu0.22.04.7               deb       
-bind9-libs                      1:9.18.39-0ubuntu0.22.04.7               deb       
+bind9-host                      1:9.18.39-0ubuntu0.22.04.8               deb       
+bind9-libs                      1:9.18.39-0ubuntu0.22.04.8               deb       
 binutils                        2.38-4ubuntu2.12                         deb       
 binutils-common                 2.38-4ubuntu2.12                         deb       
 binutils-x86-64-linux-gnu       2.38-4ubuntu2.12                         deb       
