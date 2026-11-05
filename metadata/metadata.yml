@@ -482,6 +482,12 @@ include:
     category: Network
     icon: librewolf.svg
     description: "This project is an independent fork of Firefox, with the primary goals of privacy security and user freedom. It is the community run successor to LibreFox."
+  - name: lichii
+    full_name: Lichii
+    arch: linux/amd64
+    category: Game
+    icon: lichii.png
+    description: "Lichii is a very experimental emulator for the Nintendo Switch and Switch 2."
   - name: lightcraft
     full_name: LightCraft
     arch: linux/amd64,linux/arm64
