@@ -334,8 +334,8 @@ libsndfile1                     1.2.2-4                                deb
 libsndio7.0                     1.10.0-0.2                             deb          
 libsodium23                     1.0.18-2                               deb          
 libsord-0-0                     0.16.20-1                              deb          
-libsoup-3.0-0                   3.6.6-1ubuntu0.1                       deb          
-libsoup-3.0-common              3.6.6-1ubuntu0.1                       deb          
+libsoup-3.0-0                   3.6.6-1ubuntu0.2                       deb          
+libsoup-3.0-common              3.6.6-1ubuntu0.2                       deb          
 libsoxr0                        0.1.3-4.1                              deb          
 libspa-0.2-modules              1.6.2-1ubuntu1.2                       deb          
 libspeex1                       1.2.1-3build1                          deb          

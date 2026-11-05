@@ -30,7 +30,7 @@ ca-certificates-bundle          20261020-r0              apk
 cairo                           1.18.4-r1                apk           
 cairo-gobject                   1.18.4-r1                apk           
 cdparanoia-libs                 10.2-r14                 apk           
-certifi                         2026.2.25                python        
+certifi                         2026.10.23               python        
 cfg-if                          1.0.0                    rust-crate    
 crossbeam-deque                 0.8.3                    rust-crate    
 crossbeam-epoch                 0.9.15                   rust-crate    
@@ -284,8 +284,8 @@ py3-beautifulsoup4              4.15.0-r0                apk
 py3-beautifulsoup4-pyc          4.15.0-r0                apk           
 py3-cairo                       1.28.0-r1                apk           
 py3-cairo-pyc                   1.28.0-r1                apk           
-py3-certifi                     2026.2.25-r1             apk           
-py3-certifi-pyc                 2026.2.25-r1             apk           
+py3-certifi                     2026.10.23-r0            apk           
+py3-certifi-pyc                 2026.10.23-r0            apk           
 py3-curio                       1.6-r4                   apk           
 py3-curio-pyc                   1.6-r4                   apk           
 py3-gobject3                    3.56.3-r0                apk           

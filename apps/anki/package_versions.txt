@@ -41,7 +41,7 @@ c-ares                             1.34.9-r0                apk
 ca-certificates-bundle             20261020-r0              apk           
 cairo                              1.18.4-r1                apk           
 cdparanoia-libs                    10.2-r14                 apk           
-certifi                            2026.2.25                python        
+certifi                            2026.10.23               python        
 cfg-if                             1.0.1                    rust-crate    
 charset-normalizer                 3.4.9                    python        
 cjson                              1.7.19-r1                apk           
@@ -306,8 +306,8 @@ py3-beautifulsoup4                 4.15.0-r0                apk
 py3-beautifulsoup4-pyc             4.15.0-r0                apk           
 py3-blinker                        1.9.0-r1                 apk           
 py3-blinker-pyc                    1.9.0-r1                 apk           
-py3-certifi                        2026.2.25-r1             apk           
-py3-certifi-pyc                    2026.2.25-r1             apk           
+py3-certifi                        2026.10.23-r0            apk           
+py3-certifi-pyc                    2026.10.23-r0            apk           
 py3-charset-normalizer             3.4.9-r0                 apk           
 py3-charset-normalizer-pyc         3.4.9-r0                 apk           
 py3-click                          8.3.3-r1                 apk           
@@ -426,7 +426,7 @@ thiserror                          2.0.12                   rust-crate
 tiff                               4.7.2-r0                 apk           
 tslib                              1.24-r0                  apk           
 typing-extensions                  4.15.0                   python        
-tzdata                             2026e-r0                 apk           
+tzdata                             2026f-r0                 apk           
 unicode-ident                      1.0.18                   rust-crate    
 unicode-width                      0.2.1                    rust-crate    
 urllib3                            2.7.0                    python        
