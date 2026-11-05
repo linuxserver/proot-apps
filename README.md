@@ -166,6 +166,7 @@ proot-apps update firefox
 | ktorrent | ghcr.io/linuxserver/proot-apps:ktorrent | Network | linux/amd64,linux/arm64 | KTorrent is a BitTorrent application by KDE which allows you to download files using the BitTorrent protocol.|
 | libreoffice | ghcr.io/linuxserver/proot-apps:libreoffice | Office | linux/amd64,linux/arm64 | LibreOffice is a free and powerful office suite, and a successor to OpenOffice.org (commonly known as OpenOffice). Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity.|
 | librewolf | ghcr.io/linuxserver/proot-apps:librewolf | Network | linux/amd64,linux/arm64 | This project is an independent fork of Firefox, with the primary goals of privacy security and user freedom. It is the community run successor to LibreFox.|
+| lichii | ghcr.io/linuxserver/proot-apps:lichii | Game | linux/amd64 | Lichii is a very experimental emulator for the Nintendo Switch and Switch 2.|
 | lightcraft | ghcr.io/linuxserver/proot-apps:lightcraft | Creative | linux/amd64,linux/arm64 | LightCraft is an open source photo library and raw developer from ArtCraft that catalogs, culls and develops your photos locally.|
 | lmms | ghcr.io/linuxserver/proot-apps:lmms | AudioVideo | linux/amd64,linux/arm64 | LMMS is a free, open source, multiplatform digital audio workstation.|
 | lmstudio | ghcr.io/linuxserver/proot-apps:lmstudio | AI | linux/amd64 | LM Studio is a desktop app for discovering, downloading and running local LLMs with a chat interface and an OpenAI compatible local server.|
