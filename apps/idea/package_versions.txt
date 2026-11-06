@@ -44,7 +44,7 @@ ant-testutil                            UNKNOWN                                 
 ant-xz                                  1.10.14                                    java-archive                   
 aopalliance                             1.0                                        java-archive                   
 api                                     3.5.2                                      java-archive                   
-apt                                     3.0.3                                      deb                            
+apt                                     3.0.4                                      deb                            
 archetype-catalog                       2.2                                        java-archive                   
 archetype-catalog                       3.2.1                                      java-archive                   
 archetype-common                        2.2                                        java-archive                   
@@ -359,7 +359,7 @@ libabsl20240722                         20240722.0-4                            
 libacl1                                 2.3.2-2+b1                                 deb                            
 libaom3                                 3.12.1-1+deb13u1                           deb                            
 libapparmor1                            4.1.0-1                                    deb                            
-libapt-pkg7.0                           3.0.3                                      deb                            
+libapt-pkg7.0                           3.0.4                                      deb                            
 libasan8                                14.2.0-19                                  deb                            
 libasound2-data                         1.2.14-1+deb13u1                           deb                            
 libasound2-plugins                      1.2.12-2+b1                                deb                            
@@ -859,7 +859,7 @@ tsc-vue1                                1.8.27-eval                             
 tsx                                     4.15.6                                     npm                            
 twig-language-2                         0.9.4                                      npm                            
 typescript                              1.0.0                                      npm                            
-tzdata                                  2026e-0+deb13u1                            deb                            
+tzdata                                  2026f-0+deb13u1                            deb                            
 udev                                    257.13-1~deb13u1                           deb                            
 ui                                      UNKNOWN                                    java-archive  (+1 duplicate)   
 unit-api                                1.0                                        java-archive                   

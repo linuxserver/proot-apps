@@ -5,7 +5,7 @@ adwaita-icon-theme                                      48.1-1                  
 analytics                                               1.0-SNAPSHOT                                                                  java-archive                    
 annotations                                             UNKNOWN                                                                       java-archive                    
 api                                                     1.0-SNAPSHOT                                                                  java-archive                    
-apt                                                     3.0.3                                                                         deb                             
+apt                                                     3.0.4                                                                         deb                             
 archive-mtz                                             1.0-SNAPSHOT                                                                  java-archive                    
 asm                                                     9.2                                                                           java-archive                    
 asm-commons                                             9.2                                                                           java-archive                    
@@ -257,7 +257,7 @@ libabsl20240722                                         20240722.0-4            
 libacl1                                                 2.3.2-2+b1                                                                    deb                             
 libaom3                                                 3.12.1-1+deb13u1                                                              deb                             
 libapparmor1                                            4.1.0-1                                                                       deb                             
-libapt-pkg7.0                                           3.0.3                                                                         deb                             
+libapt-pkg7.0                                           3.0.4                                                                         deb                             
 libasan8                                                14.2.0-19                                                                     deb                             
 libasound2-data                                         1.2.14-1+deb13u1                                                              deb                             
 libasound2-plugins                                      1.2.12-2+b1                                                                   deb                             
@@ -806,7 +806,7 @@ txw2                                                    2.2.11                  
 typing                                                  1.0-SNAPSHOT                                                                  java-archive                    
 typing-descriptor                                       1.0-SNAPSHOT                                                                  java-archive                    
 typing-editing                                          1.0-SNAPSHOT                                                                  java-archive                    
-tzdata                                                  2026e-0+deb13u1                                                               deb                             
+tzdata                                                  2026f-0+deb13u1                                                               deb                             
 udev                                                    257.13-1~deb13u1                                                              deb                             
 ui-graph                                                1.0-SNAPSHOT                                                                  java-archive                    
 undertow-core                                           2.2.40.Final                                                                  java-archive                    

@@ -1,7 +1,7 @@
 NAME                            VERSION                               TYPE                    
 Simple Launcher                 1.1.0.14                              binary  (+5 duplicates)  
 adduser                         3.152                                 deb                      
-apt                             3.0.3                                 deb                      
+apt                             3.0.4                                 deb                      
 attrs                           25.3.0                                python                   
 autocommand                     2.2.2                                 python                   
 autopep8                        2.3.1                                 python                   
@@ -79,7 +79,7 @@ libabsl20240722                 20240722.0-4                          deb
 libacl1                         2.3.2-2+b1                            deb                      
 libaom3                         3.12.1-1+deb13u1                      deb                      
 libapparmor1                    4.1.0-1                               deb                      
-libapt-pkg7.0                   3.0.3                                 deb                      
+libapt-pkg7.0                   3.0.4                                 deb                      
 libasan8                        14.2.0-19                             deb                      
 libasound2-data                 1.2.14-1+deb13u1                      deb                      
 libasound2-plugins              1.2.12-2+b1                           deb                      
@@ -375,7 +375,7 @@ tomli-w                         1.2.0                                 python
 typeguard                       4.3.0                                 python                   
 typing-extensions               4.12.2                                python                   
 typing-extensions               4.14.1                                python                   
-tzdata                          2026e-0+deb13u1                       deb                      
+tzdata                          2026f-0+deb13u1                       deb                      
 udev                            257.13-1~deb13u1                      deb                      
 urllib3                         2.4.0                                 python                   
 util-linux                      2.41.5-0+deb13u1                      deb                      

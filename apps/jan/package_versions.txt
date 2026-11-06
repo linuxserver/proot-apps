@@ -68,7 +68,7 @@ bytecheck                        0.8.3                                          
 bytemuck                         1.25.0                                                   rust-crate    
 byteorder-lite                   0.1.0                                                    rust-crate    
 bytes                            1.12.1                                                   rust-crate    
-ca-certificates                  20260816ubuntu0.26.04.1                                  deb           
+ca-certificates                  20260816ubuntu0.26.04.2                                  deb           
 camino                           1.2.2                                                    rust-crate    
 cap-primitives                   4.0.3                                                    rust-crate    
 cap-std                          4.0.3                                                    rust-crate    

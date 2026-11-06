@@ -9,7 +9,7 @@ binutils                            2.38-4ubuntu2.12                         deb
 binutils-common                     2.38-4ubuntu2.12                         deb     
 binutils-x86-64-linux-gnu           2.38-4ubuntu2.12                         deb     
 bsdutils                            1:2.37.2-4ubuntu3.6                      deb     
-ca-certificates                     20260816ubuntu0.22.04.1                  deb     
+ca-certificates                     20260816ubuntu0.22.04.2                  deb     
 coreutils                           8.32-4.1ubuntu1.4                        deb     
 cpp                                 4:11.2.0-1ubuntu1                        deb     
 cpp-11                              11.4.0-1ubuntu1~22.04.3                  deb     
@@ -149,7 +149,7 @@ libgfortran5                        12.3.0-1ubuntu1~22.04.3                  deb
 libgl1                              1.4.0-1                                  deb     
 libgl1-mesa-dri                     23.2.1-1ubuntu3.1~22.04.4                deb     
 libglapi-mesa                       23.2.1-1ubuntu3.1~22.04.4                deb     
-libglib2.0-0                        2.72.4-0ubuntu2.10                       deb     
+libglib2.0-0                        2.72.4-0ubuntu2.11                       deb     
 libglvnd0                           1.4.0-1                                  deb     
 libglx-mesa0                        23.2.1-1ubuntu3.1~22.04.4                deb     
 libglx0                             1.4.0-1                                  deb     

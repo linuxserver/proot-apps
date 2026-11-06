@@ -37,7 +37,7 @@ antsupportlib                                                         UNKNOWN   
 aopalliance                                                           1.0                                   java-archive                  
 api                                                                   1.1.2                                 java-archive                  
 api                                                                   2.0.18                                java-archive                  
-apt                                                                   3.0.3                                 deb                           
+apt                                                                   3.0.4                                 deb                           
 archetype-catalog                                                     3.2.1                                 java-archive                  
 archetype-common                                                      3.2.1                                 java-archive                  
 archetype-descriptor                                                  3.2.1                                 java-archive                  
@@ -236,7 +236,7 @@ libabsl20240722                                                       20240722.0
 libacl1                                                               2.3.2-2+b1                            deb                           
 libaom3                                                               3.12.1-1+deb13u1                      deb                           
 libapparmor1                                                          4.1.0-1                               deb                           
-libapt-pkg7.0                                                         3.0.3                                 deb                           
+libapt-pkg7.0                                                         3.0.4                                 deb                           
 libasan8                                                              14.2.0-19                             deb                           
 libasound2-data                                                       1.2.14-1+deb13u1                      deb                           
 libasound2-plugins                                                    1.2.12-2+b1                           deb                           
@@ -1117,7 +1117,7 @@ tools_taglets                                                         78.3      
 translit                                                              78.3                                  java-archive                  
 tree                                                                  9.10.1                                java-archive                  
 txw2                                                                  4.0.9                                 java-archive                  
-tzdata                                                                2026e-0+deb13u1                       deb                           
+tzdata                                                                2026f-0+deb13u1                       deb                           
 udev                                                                  257.13-1~deb13u1                      deb                           
 util                                                                  12.1.12                               java-archive                  
 util                                                                  9.10.1                                java-archive                  

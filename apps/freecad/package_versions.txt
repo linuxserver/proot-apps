@@ -1,6 +1,6 @@
 NAME                                VERSION                               TYPE     
 adduser                             3.152                                 deb       
-apt                                 3.0.3                                 deb       
+apt                                 3.0.4                                 deb       
 attrs                               25.3.0                                python    
 base-files                          13.8+deb13u7                          deb       
 base-passwd                         3.6.7                                 deb       
@@ -73,7 +73,7 @@ libamd-comgr2                       6.0+git20231212.4510c28+dfsg-3+b2     deb
 libamdhip64-5                       5.7.1-6+deb13u1                       deb       
 libaom3                             3.12.1-1+deb13u1                      deb       
 libapparmor1                        4.1.0-1                               deb       
-libapt-pkg7.0                       3.0.3                                 deb       
+libapt-pkg7.0                       3.0.4                                 deb       
 libasan8                            14.2.0-19                             deb       
 libasound2-data                     1.2.14-1+deb13u1                      deb       
 libasound2-plugins                  1.2.12-2+b1                           deb       
@@ -562,7 +562,7 @@ systemd                             257.13-1~deb13u1                      deb
 sysvinit-utils                      3.14-4                                deb       
 tar                                 1.35+dfsg-3.1                         deb       
 tk8.6-blt2.5                        2.5.3+dfsg-8                          deb       
-tzdata                              2026e-0+deb13u1                       deb       
+tzdata                              2026f-0+deb13u1                       deb       
 udev                                257.13-1~deb13u1                      deb       
 ufolib2                             0.17.1                                python    
 unicode-data                        15.1.0-1                              deb       
