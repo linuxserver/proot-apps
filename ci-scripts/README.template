@@ -235,3 +235,13 @@ On the administration side the apps can be updated in the folder and the users w
 ```
 proot-apps update all
 ```
+
+## Apps from another registry
+
+Short names like `firefox` are tags of `ghcr.io/linuxserver/proot-apps`. To make them name the apps of a fork or a private registry instead, set `PA_DEFAULT_REPO` to that image:
+
+```
+-e PA_DEFAULT_REPO=registry.example/it/proot-apps
+```
+
+`proot-apps install kind` then installs `registry.example/it/proot-apps:kind`, and the gui app looks for its installed apps under that image. A desktop entry that still runs the image the app was built as, `ghcr.io/<owner>/<repo>:kind`, starts the app of the same name from `PA_DEFAULT_REPO` when that image is not installed. Apps are only fetched from ghcr.io and Docker Hub, so an image of any other registry is installed from a local repo.

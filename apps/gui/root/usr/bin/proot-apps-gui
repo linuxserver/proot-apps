@@ -39,7 +39,7 @@ class MainWindow(Gtk.ApplicationWindow):
     self.repo = 'linuxserver/proot-apps'
     self.metaUrl = 'https://raw.githubusercontent.com/' + self.repo + '/master/metadata/'
     self.searchEntry = ''
-    self.appPath = os.environ['HOME'] + '/proot-apps/ghcr.io_' + self.repo.replace('/','_') + '_'
+    self.defaultRepo = os.environ.get('PA_DEFAULT_REPO', 'ghcr.io/' + self.repo).rstrip('/')
     self.appData = None
     self.logos = {}
     self.css = Gtk.CssProvider()
@@ -54,6 +54,10 @@ class MainWindow(Gtk.ApplicationWindow):
     self.set_child(loading)
     loadMain = threading.Thread(target=self.getAppData, name="LoadMain")
     loadMain.start()
+
+  def appFolder(self, name):
+    image = name if '/' in name and ':' in name else self.defaultRepo + ':' + name
+    return os.environ['HOME'] + '/proot-apps/' + image.replace('/','_').replace(':','_')
 
   # Ingest external metadata
   def getAppData(self):
@@ -190,7 +194,7 @@ class MainWindow(Gtk.ApplicationWindow):
     label.set_text(app['full_name'])
     bContent = Gtk.Box(orientation=Gtk.Orientation.VERTICAL,spacing=10)
     # Indicate an app is installed
-    if os.path.exists(self.appPath + app['name']):
+    if os.path.exists(self.appFolder(app['name'])):
       bContent.add_css_class('installed-button')
     bContent.set_size_request(220, 220)
     bContent.append(self.logoBoxes[app['name']])
@@ -269,7 +273,7 @@ class MainWindow(Gtk.ApplicationWindow):
     installedButtons.append(updateButton)
     installedButtons.append(removeButton)
     uninstalledButtons.append(installButton)
-    if os.path.exists(self.appPath + app['name']):
+    if os.path.exists(self.appFolder(app['name'])):
       container.set_center_widget(installedButtons)
     else:
       container.set_center_widget(uninstalledButtons)

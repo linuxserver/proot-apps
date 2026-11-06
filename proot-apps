@@ -3,6 +3,8 @@
 TYPE=$1
 DEFAULT_GH_USER=REPLACE_USER
 DEFAULT_GH_REPO=REPLACE_REPO
+DEFAULT_REPO=${PA_DEFAULT_REPO:-ghcr.io/${DEFAULT_GH_USER}/${DEFAULT_GH_REPO}}
+DEFAULT_REPO=${DEFAULT_REPO%/}
 
 if [[ ! -z ${LOCALREPO+x} ]] && [[ ! -z ${PA_REPO_FOLDER+x} ]]; then
   ROOT_DIR=$PA_REPO_FOLDER
@@ -512,7 +514,7 @@ nvidia_binds() {
 # If a non docker endpoint is passed assume the default repo
 if [[ ! -z ${2+x} ]]; then
   if ([[ "${2}" != *"/"* ]] || [[ "${2}" != *":"* ]]) && [[ "${2}" != "all" ]]; then
-    IMAGE=ghcr.io/${DEFAULT_GH_USER}/${DEFAULT_GH_REPO}:${2}
+    IMAGE=${DEFAULT_REPO}:${2}
   else
     IMAGE=${2}
   fi
@@ -526,6 +528,12 @@ if [ "${TYPE}" == "run" ]; then
     exit 1
   fi
   IMAGE_FOLDER=$(echo "${IMAGE}"| sed 's|/|_|g'| sed 's|:|_|g')
+  if [ ! -d "$ROOT_DIR/${IMAGE_FOLDER}/" ] && [[ ! -z ${PA_DEFAULT_REPO+x} ]]; then
+    DEFAULT_FOLDER=$(echo "${DEFAULT_REPO}:${IMAGE##*:}"| sed 's|/|_|g'| sed 's|:|_|g')
+    if [ -d "$ROOT_DIR/${DEFAULT_FOLDER}/" ]; then
+      IMAGE_FOLDER=${DEFAULT_FOLDER}
+    fi
+  fi
   if [ ! -d "$ROOT_DIR/${IMAGE_FOLDER}/" ]; then
     echo "${IMAGE} not present on system run install or get first"
     exit 1
@@ -574,7 +582,7 @@ if [ "${TYPE}" == "install" ]; then
   if [[ ! -z ${3+x} ]]; then
     for APP in "${@:2}"; do
       if [[ "${APP}" != *"/"* ]] || [[ "${APP}" != *":"* ]]; then
-        install_app ghcr.io/${DEFAULT_GH_USER}/${DEFAULT_GH_REPO}:${APP}
+        install_app ${DEFAULT_REPO}:${APP}
       else
         install_app "${APP}"
       fi
@@ -608,7 +616,7 @@ if [ "${TYPE}" == "remove" ]; then
   if [[ ! -z ${3+x} ]]; then
     for APP in "${@:2}"; do
       if [[ "${APP}" != *"/"* ]] || [[ "${APP}" != *":"* ]]; then
-        IMAGE=ghcr.io/${DEFAULT_GH_USER}/${DEFAULT_GH_REPO}:${APP}
+        IMAGE=${DEFAULT_REPO}:${APP}
         IMAGE_FOLDER=$(echo "${IMAGE}"| sed 's|/|_|g'| sed 's|:|_|g')
         remove "${IMAGE_FOLDER}"
       else
@@ -644,7 +652,7 @@ if [ "${TYPE}" == "uninstall" ]; then
   if [[ ! -z ${3+x} ]]; then
     for APP in "${@:2}"; do
       if [[ "${APP}" != *"/"* ]] || [[ "${APP}" != *":"* ]]; then 
-        IMAGE=ghcr.io/${DEFAULT_GH_USER}/${DEFAULT_GH_REPO}:${APP}
+        IMAGE=${DEFAULT_REPO}:${APP}
         IMAGE_FOLDER=$(echo "${IMAGE}"| sed 's|/|_|g'| sed 's|:|_|g')
         uninstall "${IMAGE_FOLDER}"
       else
@@ -680,7 +688,7 @@ if [ "${TYPE}" == "update" ]; then
   if [[ ! -z ${3+x} ]]; then
     for APP in "${@:2}"; do
       if [[ "${APP}" != *"/"* ]] || [[ "${APP}" != *":"* ]]; then
-        IMAGE=ghcr.io/${DEFAULT_GH_USER}/${DEFAULT_GH_REPO}:${APP}
+        IMAGE=${DEFAULT_REPO}:${APP}
         IMAGE_FOLDER=$(echo "${IMAGE}"| sed 's|/|_|g'| sed 's|:|_|g')
         update "${IMAGE_FOLDER}"
       else
@@ -716,10 +724,10 @@ if [ "${TYPE}" == "get" ]; then
   if [[ ! -z ${3+x} ]]; then
     for APP in "${@:2}"; do
       if [[ "${APP}" != *"/"* ]] || [[ "${APP}" != *":"* ]]; then
-        IMAGE=ghcr.io/${DEFAULT_GH_USER}/${DEFAULT_GH_REPO}:${APP}
+        IMAGE=${DEFAULT_REPO}:${APP}
         get_app "${IMAGE}"
       else
-        get_app "${IMAGE}"
+        get_app "${APP}"
       fi
       unset SHALAYER
     done
@@ -764,7 +772,7 @@ fi
 # Convert an image folder to the name used on the command line
 completion_name() {
   IMAGE_FOLDER=$1
-  DEFAULT_PREFIX="ghcr.io_${DEFAULT_GH_USER}_${DEFAULT_GH_REPO}_"
+  DEFAULT_PREFIX="$(echo "${DEFAULT_REPO}"| sed 's|/|_|g'| sed 's|:|_|g')_"
   if [[ "${IMAGE_FOLDER}" == "${DEFAULT_PREFIX}"* ]]; then
     # Default repo apps use the short name
     echo "${IMAGE_FOLDER#"${DEFAULT_PREFIX}"}"
@@ -796,6 +804,9 @@ completion_apps() {
   if [[ ! -z ${PA_REPO_FOLDER+x} ]]; then
     completion_folders "${PA_REPO_FOLDER}"
     return 0
+  fi
+  if [[ ! -z ${PA_DEFAULT_REPO+x} ]]; then
+    return 1
   fi
   CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/proot-apps"
   CACHE_FILE="${CACHE_DIR}/completion-apps"
