@@ -92,10 +92,10 @@ ffmpeg-libswscale               9.0.2-r1                 apk
 fftw-single-libs                3.3.11-r0                apk                         
 file                            5.48-r0                  apk                         
 font-liberation                 2.1.5-r2                 apk                         
-font-noto                       2026.10.01-r0            apk                         
-font-noto-common                2026.10.01-r0            apk                         
-font-noto-math                  2026.10.01-r0            apk                         
-font-noto-symbols               2026.10.01-r0            apk                         
+font-noto                       2026.11.01-r0            apk                         
+font-noto-common                2026.11.01-r0            apk                         
+font-noto-math                  2026.11.01-r0            apk                         
+font-noto-symbols               2026.11.01-r0            apk                         
 fontconfig                      2.18.1-r0                apk                         
 fonttools                       4.60.1                   python                      
 freetype                        2.14.3-r0                apk                         
@@ -424,8 +424,8 @@ py3-xdg                         0.28-r7                  apk
 py3-xdg-pyc                     0.28-r7                  apk                         
 py3-xxhash                      3.8.1-r0                 apk                         
 py3-xxhash-pyc                  3.8.1-r0                 apk                         
-py3-zeroconf                    0.151.5-r0               apk                         
-py3-zeroconf-pyc                0.151.5-r0               apk                         
+py3-zeroconf                    0.153.0-r0               apk                         
+py3-zeroconf-pyc                0.153.0-r0               apk                         
 pyc                             3.14.10-r1               apk                         
 pycryptodome                    3.24.1                   python                      
 pygments                        2.21.0                   python                      
@@ -532,7 +532,7 @@ xxhash                          3.8.1                    python
 xz-libs                         5.8.4-r0                 apk                         
 y4m                             0.8.0                    rust-crate                  
 yaml                            0.2.5-r2                 apk                         
-zeroconf                        0.151.5                  python                      
+zeroconf                        0.153.0                  python                      
 zerocopy                        0.8.25                   rust-crate                  
-zlib                            1.3.2-r1                 apk                         
+zlib                            1.4-r0                   apk                         
 zstd-libs                       1.5.7-r2                 apk                         

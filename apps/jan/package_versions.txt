@@ -594,7 +594,7 @@ libxxhash0                       0.8.3-2build1                                  
 libzstd1                         1.5.7+dfsg-3                                             deb           
 libzvbi-common                   0.2.44-1ubuntu2                                          deb           
 libzvbi0t64                      0.2.44-1ubuntu2                                          deb           
-linux-libc-dev                   7.0.0-42.42                                              deb           
+linux-libc-dev                   7.0.0-43.43                                              deb           
 linux-raw-sys                    0.12.1                                                   rust-crate    
 litemap                          0.8.1                                                    rust-crate    
 locales-all                      2.43-2ubuntu2.4                                          deb           
