@@ -264,6 +264,12 @@ include:
     category: AudioVideo
     icon: effectcraft.svg
     description: "EffectCraft is an open source motion graphics and visual effects compositor from ArtCraft built in pure Rust."
+  - name: emacs
+    full_name: GNU Emacs
+    arch: linux/amd64,linux/arm64
+    category: Development
+    icon: emacs.svg
+    description: "GNU Emacs is an extensible, customizable, self-documenting real-time display editor. This app runs the pure GTK build natively on Wayland and switches to the GTK3 X11 build when the session has no Wayland display."
   - name: feishin
     full_name: Feishin
     arch: linux/amd64

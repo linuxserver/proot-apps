@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Use the pure GTK build on Wayland and the GTK3 build on X11, set
+# PA_EMACS_BACKEND to pgtk or x11 to force one
+if [ -z "${PA_EMACS_BACKEND}" ]; then
+  if [[ "${WAYLAND_DISPLAY}" == /* ]] && [ -S "${WAYLAND_DISPLAY}" ]; then
+    PA_EMACS_BACKEND=pgtk
+  elif [ -n "${WAYLAND_DISPLAY}" ] && [ -S "${XDG_RUNTIME_DIR}/${WAYLAND_DISPLAY}" ]; then
+    PA_EMACS_BACKEND=pgtk
+  elif [ -n "${DISPLAY}" ]; then
+    PA_EMACS_BACKEND=x11
+  else
+    PA_EMACS_BACKEND=pgtk
+  fi
+fi
+
+# Start Emacs
+if [ "${PA_EMACS_BACKEND}" == "x11" ]; then
+  GDK_BACKEND=x11 /usr/libexec/emacs-x11/emacs "$@"
+else
+  GDK_BACKEND=wayland /usr/bin/emacs "$@"
+fi
