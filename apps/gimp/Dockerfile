@@ -16,6 +16,7 @@ RUN \
   curl -o \
     /tmp/resynth.tar.gz -L \
     "https://github.com/bootchk/resynthesizer/archive/refs/tags/${RESYNTH_RELEASE}.tar.gz" && \
+  echo "resynthesizer ${RESYNTH_RELEASE}" > /buildout/upstream-versions && \
   cd /tmp && \
   tar -xf resynth.tar.gz && \
   cd resynthesizer-* && \

@@ -52,6 +52,8 @@ RUN \
     -e 's|^Name=Steam$|Name=Steam PA|' \
     /tmp/steam/usr/share/applications/steam.desktop \
     > /usr/share/applications/steam-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "steam-launcher $(dpkg-deb -f /tmp/steam.deb Version)" > /upstream-versions && \
   echo "**** set bin name and rootfs name ****" && \
   echo "steam-pa" > /bin-name && \
   echo "ghcr.io_$(echo "${REPO}" | sed 's|/|_|g')_steam" > /rootfs-name && \

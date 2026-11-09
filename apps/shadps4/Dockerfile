@@ -57,6 +57,9 @@ RUN \
   echo 'Comment=Launcher for shadPS4 emulator' >> "${DEST}" && \
   echo 'Categories=Game;Emulator;' >> "${DEST}" && \
   echo 'StartupWMClass=shadPS4QtLauncher;' >> "${DEST}" && \
+  echo "**** record upstream versions ****" && \
+  echo "shadps4-qtlauncher ${SHADPS4_VERSION}" > /upstream-versions && \
+  echo "shadps4plus-pkg-extractor $(echo "${PKG_URL}" | awk -F/ '{print $(NF-1)}')" >> /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "shadps4-pa" > /bin-name && \
   echo "**** cleanup ****" && \

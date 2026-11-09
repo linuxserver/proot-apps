@@ -26,6 +26,8 @@ RUN \
   echo 'Name=Double Commander PA' >> ${DESKTOP_FILE} && \
   echo 'Icon=doublecmd' >> ${DESKTOP_FILE} && \
   echo 'Exec=/bin/sh -c "$HOME/.local/bin/proot-apps run ghcr.io/'${REPO}':doublecmd %U"' >> ${DESKTOP_FILE} && \
+  echo "**** record upstream versions ****" && \
+  echo "doublecmd ${DOUBLECMD_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "doublecmd-pa" > /bin-name && \
   echo "**** cleanup ****" && \

@@ -15,6 +15,8 @@ RUN \
     libwayland-egl1 \
     libxkbcommon-x11-0 && \
   echo "**** install vita3k ****" && \
+  VITA3K_BUILD=$(curl -sX GET "https://api.github.com/repos/Vita3K/Vita3K/releases/tags/continuous" \
+    | jq -er '.body' | grep -oE 'Vita3K Build: [0-9]+' | awk '{print $3}') && \
   curl -o \
     /tmp/vita3k.app -L \
     "https://github.com/Vita3K/Vita3K/releases/download/continuous/Vita3K-x86_64.AppImage" && \
@@ -39,6 +41,8 @@ RUN \
   echo 'Icon=org.vita3k.vita3k' >> "${DEST}" && \
   echo 'Exec=/bin/sh -c "$HOME/.local/bin/proot-apps run ghcr.io/'${REPO}':vita3k"' >> "${DEST}" && \
   echo 'StartupWMClass=Vita3K' >> "${DEST}" && \
+  echo "**** record upstream versions ****" && \
+  echo "vita3k ${VITA3K_BUILD}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "vita3k-pa" > /bin-name && \
   echo "**** cleanup ****" && \

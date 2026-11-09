@@ -52,6 +52,9 @@ RUN \
   echo 'Icon=net.86box.86Box' >> "${DEST}" && \
   echo 'Exec=/bin/sh -c "$HOME/.local/bin/proot-apps run ghcr.io/'${REPO}':86box"' >> "${DEST}" && \
   echo 'Terminal=false' >> "${DEST}" && \
+  echo "**** record upstream versions ****" && \
+  echo "86box $(echo "${BOX_URL}" | awk -F/ '{print $(NF-1)}')" > /upstream-versions && \
+  echo "86box-roms $(echo "${ROMS_URL}" | awk -F/ '{print $NF}')" >> /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "86box-pa" > /bin-name && \
   echo "**** cleanup ****" && \

@@ -43,6 +43,8 @@ RUN \
   mv \
     /opt/logseq/logseq.desktop \
     /usr/share/applications/logseq-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "logseq ${LOGSEQ_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "logseq-pa" > /bin-name && \
   echo "**** cleanup ****" && \

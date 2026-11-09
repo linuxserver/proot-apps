@@ -17,6 +17,8 @@ RUN \
   echo "**** install duckstation ****" && \
   DUCK_URL=$(curl -sX GET "https://api.github.com/repos/stenzek/duckstation/releases/latest" \
     | jq -er '.assets[] | select(.name == "DuckStation-x64.AppImage") | .browser_download_url') && \
+  DUCK_VERSION=$(curl -sX GET "https://api.github.com/repos/stenzek/duckstation/git/refs/tags/latest" \
+    | jq -er '.object.sha' | cut -c1-12) && \
   curl -o \
     /tmp/duck.app -L \
     "${DUCK_URL}" && \
@@ -40,6 +42,8 @@ RUN \
   echo 'Comment=Fast PlayStation 1 emulator' >> "${DEST}" && \
   echo 'Icon=org.duckstation.DuckStation' >> "${DEST}" && \
   echo 'Exec=/bin/sh -c "$HOME/.local/bin/proot-apps run ghcr.io/'${REPO}':duckstation %U"' >> "${DEST}" && \
+  echo "**** record upstream versions ****" && \
+  echo "duckstation ${DUCK_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "duckstation-pa" > /bin-name && \
   echo "**** cleanup ****" && \

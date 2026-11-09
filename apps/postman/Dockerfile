@@ -33,6 +33,8 @@ RUN \
   echo 'Exec=/bin/sh -c "$HOME/.local/bin/proot-apps run ghcr.io/'${REPO}':postman %U"' >> /usr/share/applications/postman-pa.desktop && \
   echo 'Comment=Postman GUI' >> /usr/share/applications/postman-pa.desktop && \
   echo 'Categories=Development;Code;' >> /usr/share/applications/postman-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "postman $(jq -r '.version' /opt/Postman/app/resources/app/package.json)" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "postman-pa" > /bin-name && \
   echo "**** cleanup ****" && \

@@ -35,6 +35,8 @@ RUN \
   echo 'Name=PyCharm PA' >> ${DESKTOP_FILE} && \
   echo 'Icon=pycharm' >> ${DESKTOP_FILE} && \
   echo 'Exec=/bin/sh -c "$HOME/.local/bin/proot-apps run ghcr.io/'${REPO}':pycharm %U"' >> ${DESKTOP_FILE} && \
+  echo "**** record upstream versions ****" && \
+  echo "pycharm $(jq -r '.version' /opt/pycharm/product-info.json)" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "pycharm-pa" > /bin-name && \
   echo "**** cleanup ****" && \

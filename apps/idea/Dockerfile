@@ -32,6 +32,8 @@ RUN \
   echo 'Name=IntelliJ IDEA PA' >> ${DESKTOP_FILE} && \
   echo 'Icon=idea' >> ${DESKTOP_FILE} && \
   echo 'Exec=/bin/sh -c "$HOME/.local/bin/proot-apps run ghcr.io/'${REPO}':idea %U"' >> ${DESKTOP_FILE} && \
+  echo "**** record upstream versions ****" && \
+  echo "idea $(jq -r '.version' /opt/idea/product-info.json)" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "idea-pa" > /bin-name && \
   echo "**** cleanup ****" && \

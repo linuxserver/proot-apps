@@ -41,6 +41,8 @@ RUN \
   mv \
     /opt/anytype/anytype.desktop \
     /usr/share/applications/anytype-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "anytype ${ANYTYPE_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "anytype-pa" > /bin-name && \
   echo "**** cleanup ****" && \

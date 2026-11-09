@@ -42,6 +42,8 @@ RUN \
   echo 'MimeType=x-scheme-handler/tg;' >> /usr/share/applications/telegram-pa.desktop && \
   echo 'Categories=Chat;Network;InstantMessaging;Qt;' >> /usr/share/applications/telegram-pa.desktop && \
   echo 'Keywords=tg;chat;im;messaging;messenger;sms;tdesktop;' >> /usr/share/applications/telegram-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "telegram ${TELEGRAM_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "telegram-pa" > /bin-name && \
   echo "**** cleanup ****" && \

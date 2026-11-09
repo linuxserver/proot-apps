@@ -48,6 +48,8 @@ RUN \
   mv \
     /opt/orcaslicer/com.orcaslicer.OrcaSlicer.desktop \
     /usr/share/applications/orcaslicer-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "orcaslicer ${ORCASLICER_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "orcaslicer-pa" > /bin-name && \
   echo "**** cleanup ****" && \

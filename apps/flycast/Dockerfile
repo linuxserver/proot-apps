@@ -26,6 +26,8 @@ RUN \
   mv \
     /opt/flycast/flycast.desktop \
     /usr/share/applications/flycast-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "flycast ${FLYCAST_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "flycast-pa" > /bin-name && \
   echo "**** cleanup ****" && \

@@ -30,6 +30,8 @@ RUN \
   tar xf \
     /tmp/ugc.tar.xz -C \
     /opt/ungoogledchromium --strip-components=1 && \
+  echo "**** record upstream versions ****" && \
+  echo "ungoogled-chromium ${UGC_VERSION}" > /upstream-versions && \
   echo "**** customize desktop file ****" && \
   DEST=/usr/share/applications/ungoogledchromium-pa.desktop && \
   echo '[Desktop Entry]' > "${DEST}" && \

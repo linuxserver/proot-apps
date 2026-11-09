@@ -48,6 +48,8 @@ RUN \
   mv \
     /usr/share/applications/net.kuribo64.melonDS.desktop \
     /usr/share/applications/melonds-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "melonds ${MELONDS_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "melonds-pa" > /bin-name && \
   echo "**** cleanup ****" && \

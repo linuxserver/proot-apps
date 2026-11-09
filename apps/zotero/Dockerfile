@@ -32,6 +32,8 @@ RUN \
   mv \
     /opt/zotero/zotero.desktop \
     /usr/share/applications/zotero-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "zotero ${ZOTERO_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "zotero-pa" > /bin-name && \
   echo "**** cleanup ****" && \

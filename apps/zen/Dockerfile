@@ -33,6 +33,8 @@ RUN \
   echo 'Name=Zen PA' >> ${DESKTOP_FILE} && \
   echo 'Icon=zen' >> ${DESKTOP_FILE} && \
   echo 'Exec=/bin/sh -c "$HOME/.local/bin/proot-apps run ghcr.io/'${REPO}':zen %U"' >> ${DESKTOP_FILE} && \
+  echo "**** record upstream versions ****" && \
+  echo "zen ${ZEN_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "zen-pa" > /bin-name && \
   echo "**** cleanup ****" && \

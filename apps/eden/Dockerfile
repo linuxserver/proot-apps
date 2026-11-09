@@ -72,6 +72,7 @@ RUN \
   cd /tmp && \
   git clone https://git.eden-emu.dev/eden-emu/eden.git && \
   cd eden/ && \
+  echo "eden ${EDEN_VERSION}" > /root-out/upstream-versions && \
   echo "**** building eden at ${EDEN_VERSION} ****" && \
   git checkout -f ${EDEN_VERSION} && \
   cmake -B build -GNinja \

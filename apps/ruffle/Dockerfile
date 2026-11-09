@@ -45,6 +45,8 @@ RUN \
   mv \
     /opt/ruffle/extras/rs.ruffle.Ruffle.desktop \
     /usr/share/applications/ruffle-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "ruffle $(echo "${RUFFLE_URL}" | awk -F/ '{print $(NF-1)}')" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "ruffle-pa" > /bin-name && \
   echo "**** cleanup ****" && \

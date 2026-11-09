@@ -37,6 +37,8 @@ RUN \
   echo 'Comment=Experimental Nintendo Switch and Switch 2 emulator' >> "${DEST}" && \
   echo 'Icon=io.github.zortos293.lichii' >> "${DEST}" && \
   echo 'Exec=/bin/sh -c "$HOME/.local/bin/proot-apps run ghcr.io/'${REPO}':lichii %U"' >> "${DEST}" && \
+  echo "**** record upstream versions ****" && \
+  echo "lichii $(echo "${LICHII_URL}" | awk -F/ '{print $(NF-1)}')" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "lichii-pa" > /bin-name && \
   echo "**** cleanup ****" && \

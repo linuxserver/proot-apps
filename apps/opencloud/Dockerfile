@@ -30,6 +30,8 @@ RUN \
   mv \
     /opt/opencloud/opencloud.desktop \
     /usr/share/applications/opencloud-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "opencloud ${OC_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "opencloud-pa" > /bin-name && \
   echo "**** cleanup ****" && \

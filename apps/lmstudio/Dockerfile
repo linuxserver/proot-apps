@@ -13,9 +13,11 @@ RUN \
     libgtk-3-0t64 \
     libnss3 \
     python3-xdg && \
+  LMSTUDIO_URL=$(curl -sIL -o /dev/null -w '%{url_effective}' \
+    "https://lmstudio.ai/download/latest/linux/x64?format=AppImage") && \
   curl -o \
     /tmp/lm.app -L \
-    "https://lmstudio.ai/download/latest/linux/x64?format=AppImage" && \
+    "${LMSTUDIO_URL}" && \
   chmod +x /tmp/lm.app && \
   cd /tmp && \
   ./lm.app --appimage-extract && \
@@ -31,6 +33,8 @@ RUN \
   mv \
     /opt/lm-studio/ai.elementlabs.lmstudio.desktop \
     /usr/share/applications/lmstudio-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "lmstudio $(echo "${LMSTUDIO_URL}" | awk -F/ '{print $(NF-1)}')" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "lmstudio-pa" > /bin-name && \
   echo "**** cleanup ****" && \

@@ -36,6 +36,8 @@ RUN \
   mv \
     /opt/obsidian/md.obsidian.Obsidian.desktop \
     /usr/share/applications/obsidian-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "obsidian ${OBSIDIAN_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "obsidian-pa" > /bin-name && \
   echo "**** cleanup ****" && \

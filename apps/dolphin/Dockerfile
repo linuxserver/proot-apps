@@ -34,6 +34,7 @@ RUN \
   mkdir /root-out && \
   git clone https://github.com/dolphin-emu/dolphin.git /tmp/dolphin && \
   cd /tmp/dolphin && \
+  echo "dolphin ${DOLPHIN_VERSION}" > /root-out/upstream-versions && \
   echo "**** building dolphin at ${DOLPHIN_VERSION} ****" && \
   git checkout -f ${DOLPHIN_VERSION} && \
   git submodule update --init --recursive && \

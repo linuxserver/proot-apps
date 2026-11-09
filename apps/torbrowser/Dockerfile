@@ -47,6 +47,8 @@ RUN \
   echo 'Categories=Network;WebBrowser;Security;' >> /usr/share/applications/torbrowser-pa.desktop && \
   echo 'StartupNotify=true' >> /usr/share/applications/torbrowser-pa.desktop && \
   echo 'StartupWMClass=Tor Browser' >> /usr/share/applications/torbrowser-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "torbrowser $(echo "${URL}" | awk -F/ '{print $(NF-1)}')" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "torbrowser-pa" > /bin-name && \
   echo "**** cleanup ****" && \

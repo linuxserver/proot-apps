@@ -45,6 +45,8 @@ RUN \
     -e "/^Exec=/c Exec=/bin/sh -c \"\$HOME\/.local\/bin\/proot-apps run ghcr.io/${REPO}:godot %f\"" \
     -e "s/^Name=Godot Engine/Name=Godot Engine PA/" \
     /usr/share/applications/godot-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "godot ${GODOT_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "godot-pa" > /bin-name && \
   echo "**** cleanup ****" && \

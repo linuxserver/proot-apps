@@ -48,6 +48,8 @@ RUN \
     -e "s/^Name=Pixelorama$/Name=Pixelorama PA/" \
     -e '/^TryExec=/d' \
     /usr/share/applications/pixelorama-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "pixelorama ${PIXELORAMA_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "pixelorama-pa" > /bin-name && \
   echo "**** cleanup ****" && \

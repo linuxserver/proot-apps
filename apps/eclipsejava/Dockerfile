@@ -28,6 +28,8 @@ RUN \
   echo 'Name=Eclipse Java PA' >> ${DESKTOP_FILE} && \
   echo 'Icon=eclipsejava' >> ${DESKTOP_FILE} && \
   echo 'Exec=/bin/sh -c "$HOME/.local/bin/proot-apps run ghcr.io/'${REPO}':eclipsejava %U"' >> ${DESKTOP_FILE} && \
+  echo "**** record upstream versions ****" && \
+  echo "eclipse-java $(echo "${ECLIPSE_PATH}" | sed 's:/:-:g')" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "eclipsejava-pa" > /bin-name && \
   echo "**** cleanup ****" && \

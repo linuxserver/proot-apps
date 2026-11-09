@@ -38,6 +38,8 @@ RUN \
   mv \
     /opt/cryptomator/org.cryptomator.Cryptomator.desktop \
     /usr/share/applications/cryptomator-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "cryptomator ${CRYPTOMATOR_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "cryptomator-pa" > /bin-name && \
   echo "**** cleanup ****" && \

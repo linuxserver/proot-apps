@@ -38,6 +38,8 @@ RUN \
   echo 'Exec=/bin/sh -c "$HOME/.local/bin/proot-apps run ghcr.io/'${REPO}':rpcs3 %U"' >> "${DEST}" && \
   echo 'Terminal=false' >> "${DEST}" && \
   echo 'Categories=Game;Emulator;' >> "${DEST}" && \
+  echo "**** record upstream versions ****" && \
+  echo "rpcs3 $(basename "${RPCS3_URL}" | sed -E 's/^rpcs3-(.*)_linux64\.AppImage$/\1/')" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "rpcs3-pa" > /bin-name && \
   echo "**** cleanup ****" && \

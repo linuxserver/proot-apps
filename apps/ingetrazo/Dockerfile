@@ -49,6 +49,8 @@ RUN \
   mv \
     /opt/ingetrazo/ingetrazo.desktop \
     /usr/share/applications/ingetrazo-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "ingetrazo ${INGETRAZO_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "ingetrazo-pa" > /bin-name && \
   echo "**** cleanup ****" && \

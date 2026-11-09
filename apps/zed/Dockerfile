@@ -43,6 +43,8 @@ RUN \
   mv \
     /opt/zed/share/applications/dev.zed.Zed.desktop \
     /usr/share/applications/zed-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "zed ${ZED_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "zed-pa" > /bin-name && \
   echo "**** cleanup ****" && \

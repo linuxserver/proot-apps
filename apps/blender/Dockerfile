@@ -45,6 +45,8 @@ RUN \
   mv \
     /opt/blender/blender.desktop \
     /usr/share/applications/blender-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "blender ${BLENDER_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "blender-pa" > /bin-name && \
   echo "**** cleanup ****" && \

@@ -18,6 +18,8 @@ RUN \
   chmod +x /tmp/nextcloud.app && \
   ./nextcloud.app --appimage-extract && \
   mv squashfs-root /opt/nextcloud && \
+  echo "**** record upstream versions ****" && \
+  echo "nextcloud ${NEXTCLOUD_VERSION}" > /upstream-versions && \
   echo "**** customize desktop file ****" && \
   DFILE=/opt/nextcloud/com.nextcloud.desktopclient.nextcloud.desktop && \
   DEST=/usr/share/applications/nextcloud-pa.desktop && \

@@ -30,6 +30,8 @@ RUN \
   rm -f \
     /opt/audacity/share/audacity/nyquist-plug-ins/eq-xml-to-txt-converter.ny \
     /opt/audacity/share/audacity/nyquist-plug-ins/rms.ny && \
+  echo "**** record upstream versions ****" && \
+  echo "audacity ${AUDACITY_VERSION}" > /upstream-versions && \
   echo "**** customize desktop file ****" && \
   DFILE=$(ls /opt/audacity/*.desktop | head -n1) && \
   DEST=/usr/share/applications/audacity-pa.desktop && \

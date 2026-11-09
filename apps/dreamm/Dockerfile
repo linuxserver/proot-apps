@@ -31,6 +31,8 @@ RUN \
   echo 'Name=DREAMM PA' >> ${DESKTOP_FILE} && \
   echo 'Icon=dreamm' >> ${DESKTOP_FILE} && \
   echo 'Exec=/bin/sh -c "$HOME/.local/bin/proot-apps run ghcr.io/'${REPO}':dreamm %U"' >> ${DESKTOP_FILE} && \
+  echo "**** record upstream versions ****" && \
+  echo "dreamm ${DREAMM_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "dreamm-pa" > /bin-name && \ 
   echo "**** cleanup ****" && \

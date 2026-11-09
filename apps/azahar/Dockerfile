@@ -41,6 +41,8 @@ RUN \
   echo 'Categories=Game;Emulator;' >> "${DEST}" && \
   echo 'MimeType=application/x-ctr-3dsx;application/x-ctr-cci;application/x-ctr-cia;application/x-ctr-cxi;' >> "${DEST}" && \
   echo 'Keywords=3DS;Nintendo;' >> "${DEST}" && \
+  echo "**** record upstream versions ****" && \
+  echo "azahar $(echo "${AZAHAR_URL}" | awk -F/ '{print $(NF-1)}')" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "azahar-pa" > /bin-name && \
   echo "**** cleanup ****" && \

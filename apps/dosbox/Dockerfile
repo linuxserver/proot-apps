@@ -36,6 +36,8 @@ RUN \
   echo 'Terminal=false' >> "${DEST}" && \
   echo 'Keywords=dos;gaming;game;games;emulator;' >> "${DEST}" && \
   echo 'Categories=Game;Emulator;' >> "${DEST}" && \
+  echo "**** record upstream versions ****" && \
+  echo "dosbox-staging ${DSTAGING_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "dosbox-pa" > /bin-name && \
   echo "**** cleanup ****" && \

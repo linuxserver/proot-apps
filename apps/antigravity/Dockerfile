@@ -58,6 +58,8 @@ RUN \
   echo 'Exec=/bin/sh -c "$HOME/.local/bin/proot-apps run ghcr.io/'${REPO}':antigravity %U"' >> /usr/share/applications/antigravity-pa.desktop && \
   echo 'Comment=Google Antigravity IDE' >> /usr/share/applications/antigravity-pa.desktop && \
   echo 'Categories=Development;IDE;' >> /usr/share/applications/antigravity-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "antigravity $(echo "${URL}" | awk -F/ '{print $(NF-2)}')" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "antigravity-pa" > /bin-name && \
   echo "**** cleanup ****" && \

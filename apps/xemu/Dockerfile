@@ -39,6 +39,8 @@ RUN \
   echo 'Icon=xemu' >> "${DEST}" && \
   echo 'Categories=Game;Emulator;' >> "${DEST}" && \
   echo 'Keywords=original;xbox;game;console;emulator;xemu;' >> "${DEST}" && \
+  echo "**** record upstream versions ****" && \
+  echo "xemu $(basename "${XEMU_URL}" | sed -E 's/^xemu-(.*)-x86_64\.AppImage$/\1/')" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "xemu-pa" > /bin-name && \
   echo "**** cleanup ****" && \

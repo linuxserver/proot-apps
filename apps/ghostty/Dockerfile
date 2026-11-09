@@ -27,6 +27,8 @@ RUN \
   mv \
     /opt/ghostty/com.mitchellh.ghostty.desktop \
     /usr/share/applications/ghostty-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "ghostty ${GHOSTTY_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "ghostty-pa" > /bin-name && \
   echo "**** cleanup ****" && \

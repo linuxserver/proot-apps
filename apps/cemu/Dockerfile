@@ -60,6 +60,7 @@ RUN \
   cd /tmp && \
   git clone https://github.com/cemu-project/Cemu.git && \
   cd Cemu && \
+  echo "cemu ${CEMU_VERSION}" > /root-out/upstream-versions && \
   echo "**** building cemu at ${CEMU_VERSION} ****" && \
   git checkout -f ${CEMU_VERSION} && \
   git submodule update --init --recursive \

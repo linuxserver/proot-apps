@@ -43,6 +43,8 @@ RUN \
   mv \
     /opt/affine/AFFiNE.desktop \
     /usr/share/applications/affine-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "affine ${AFFINE_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "affine-pa" > /bin-name && \
   echo "**** cleanup ****" && \

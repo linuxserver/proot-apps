@@ -30,6 +30,8 @@ RUN \
   echo 'Icon=floorp' >> ${DESKTOP_FILE} && \
   echo 'Exec=/bin/sh -c "$HOME/.local/bin/proot-apps run ghcr.io/'${REPO}':floorp %U"' >> ${DESKTOP_FILE} && \
   echo 'Categories=Network;WebBrowser;' >> ${DESKTOP_FILE} && \
+  echo "**** record upstream versions ****" && \
+  echo "floorp ${FLOORP_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "floorp-pa" > /bin-name && \
   echo "**** cleanup ****" && \

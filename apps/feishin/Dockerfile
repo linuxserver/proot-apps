@@ -44,6 +44,8 @@ RUN \
   mv \
     /opt/feishin/feishin.desktop \
     /usr/share/applications/feishin-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "feishin ${FEISHIN_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "feishin-pa" > /bin-name && \
   echo "**** cleanup ****" && \

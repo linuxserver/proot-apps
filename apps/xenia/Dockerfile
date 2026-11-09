@@ -39,6 +39,8 @@ RUN \
   echo 'Categories=Game;Emulator;' >> "${DEST}" && \
   echo 'MimeType=application/x-xbox360-executable;application/x-xbox360-iso;' >> "${DEST}" && \
   echo 'StartupWMClass=xenia_edge' >> "${DEST}" && \
+  echo "**** record upstream versions ****" && \
+  echo "xenia-edge ${XENIA_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "xenia-pa" > /bin-name && \
   echo "**** cleanup ****" && \

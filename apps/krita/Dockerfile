@@ -37,6 +37,8 @@ RUN \
   mv \
     /opt/krita/org.kde.krita.desktop \
     /usr/share/applications/krita-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "krita $(echo "${DOWNLOAD_URL}" | awk -F/ '{print $(NF-1)}')" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "krita-pa" > /bin-name && \
   echo "**** cleanup ****" && \

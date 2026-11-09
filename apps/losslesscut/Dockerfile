@@ -42,6 +42,8 @@ RUN \
   mv \
     /opt/losslesscut/losslesscut.desktop \
     /usr/share/applications/losslesscut-pa.desktop && \
+  echo "**** record upstream versions ****" && \
+  echo "losslesscut ${LOSSLESSCUT_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "losslesscut-pa" > /bin-name && \
   echo "**** cleanup ****" && \
