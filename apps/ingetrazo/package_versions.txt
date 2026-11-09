@@ -336,7 +336,7 @@ perl-base                       5.40.1-6+deb13u1                      deb
 procps                          2:4.0.4-9                             deb       
 pulseaudio                      17.0+dfsg1-2+b1                       deb       
 pulseaudio-utils                17.0+dfsg1-2+b1                       deb       
-python                          3.12.15                               binary    
+python                          3.12.16                               binary    
 rpcsvc-proto                    1.4.3-1                               deb       
 sed                             4.9-2+deb13u1                         deb       
 shared-mime-info                2.4-5+b2                              deb       
