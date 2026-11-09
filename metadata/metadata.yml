@@ -704,6 +704,12 @@ include:
     category: Game
     icon: ruffle.svg
     description: "Ruffle is a Flash Player emulator written in Rust that plays SWF games and animations on modern systems without the original plugin."
+  - name: rustconn
+    full_name: RustConn
+    arch: linux/amd64
+    category: Network
+    icon: rustconn.svg
+    description: "RustConn is a GTK4 connection manager for SSH, RDP, VNC, SPICE, MOSH, Telnet, Serial and Kubernetes sessions with embedded Rust clients. This app ships FreeRDP, TigerVNC and virt-viewer as fallback clients."
   - name: rustdesk
     full_name: RustDesk
     arch: linux/amd64,linux/arm64
