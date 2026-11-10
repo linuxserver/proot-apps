@@ -482,7 +482,7 @@ libz3-4                                 4.13.3-1                              de
 libzstd1                                1.5.7+dfsg-1                          deb                            
 libzvbi-common                          0.2.44-1                              deb                            
 libzvbi0t64                             0.2.44-1                              deb                            
-linux-libc-dev                          6.12.115-2                            deb                            
+linux-libc-dev                          6.12.116-1                            deb                            
 lite                                    UNKNOWN                               java-archive                   
 locales-all                             2.41-12+deb13u4                       deb                            
 log                                     1.0.0                                 npm                            
@@ -662,3 +662,4 @@ xz                                      1.10                                  ja
 yaml                                    1.0.0                                 npm                            
 zlib1g                                  1:1.3.dfsg+really1.3.1-1+deb13u1      deb                            
 zlib1g-dev                              1:1.3.dfsg+really1.3.1-1+deb13u1      deb                            
+pycharm                         2025.3                                upstream

@@ -102,7 +102,7 @@ gtk+3.0                         3.24.52-r0               apk
 gtk+3.0-lang                    3.24.52-r0               apk           
 harfbuzz                        14.2.1-r0                apk           
 heck                            0.5.0                    rust-crate    
-hwdata-pci                      0.412-r0                 apk           
+hwdata-pci                      0.413-r0                 apk           
 icu-data-en                     78.1-r0                  apk           
 icu-libs                        78.1-r0                  apk           
 intel-gmmlib                    22.10.1-r0               apk           

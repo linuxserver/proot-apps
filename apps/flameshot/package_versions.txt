@@ -53,7 +53,7 @@ gstreamer-lang                  1.28.7-r0                apk
 gstreamer-ptp-helper            1.28.7-r0                apk     
 harfbuzz                        14.2.1-r0                apk     
 hicolor-icon-theme              0.18-r0                  apk     
-hwdata-pci                      0.412-r0                 apk     
+hwdata-pci                      0.413-r0                 apk     
 icu-data-en                     78.1-r0                  apk     
 icu-libs                        78.1-r0                  apk     
 intel-gmmlib                    22.10.1-r0               apk     
