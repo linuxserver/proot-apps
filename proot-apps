@@ -20,6 +20,18 @@ fi
 
 #### Functions ####
 
+# Print a machine-readable status line when PA_STATUS is set
+pa_status() {
+  if [[ ! -z ${PA_STATUS+x} ]]; then
+    echo "##pa $*"
+  fi
+}
+
+# Whether an app folder holds a finished download
+app_present() {
+  [ -d "$ROOT_DIR/${1}" ] && [ ! -f "$ROOT_DIR/${1}/DOWNLOADING" ]
+}
+
 # Get sha for image to download
 get_blob_sha() {
   MULTIDIGEST=$(curl -s -f --retry 3 --retry-max-time 20 --retry-connrefused \
@@ -120,6 +132,8 @@ function dl_layer() {
     rm -Rf "${ROOT_DIR}/${IMAGE_FOLDER}"
     exit 1
   }
+  # An interrupted download leaves nothing behind
+  trap cleanup INT TERM
   
   if [[ -z ${SHALAYER+x} ]]; then
     if [[ ! -z ${PA_REPO_FOLDER+x} ]] && [[ -z ${LOCALREPO+x} ]]; then
@@ -138,6 +152,11 @@ function dl_layer() {
   fi
 
   # Download layer
+  pa_status phase download
+  PROGRESS=()
+  if [[ ! -z ${PA_STATUS+x} ]]; then
+    PROGRESS=(--progress-bar)
+  fi
   if [[ ! -z ${PA_REPO_FOLDER+x} ]] && [[ -z ${LOCALREPO+x} ]]; then
     echo "Extracting from local repo"
     tar -xf \
@@ -145,14 +164,14 @@ function dl_layer() {
       "${ROOT_DIR}/${IMAGE_FOLDER}/"
   else
     if [[ ! -z ${LOCALREPO+x} ]] && [[ ! -z ${PA_REPO_FOLDER+x} ]]; then
-      curl -f --retry 3 --retry-max-time 20 \
+      curl -f --retry 3 --retry-max-time 20 "${PROGRESS[@]}" \
         -o ${ROOT_DIR}/${IMAGE_FOLDER}/app.tar.gz \
         --location \
         --header "Authorization: Bearer ${TOKEN}" \
         --user-agent "${UA}" \
         "${BLOB_URL}${SHALAYER}" 
     else
-      curl -f --retry 3 --retry-max-time 20 \
+      curl -f --retry 3 --retry-max-time 20 "${PROGRESS[@]}" \
         --location \
         --header "Authorization: Bearer ${TOKEN}" \
         --user-agent "${UA}" \
@@ -169,6 +188,7 @@ function dl_layer() {
 
   # Cleanup
   rm -f "${ROOT_DIR}/${IMAGE_FOLDER}/DOWNLOADING"
+  trap - INT TERM
 }
 
 # Update Icon cache
@@ -190,7 +210,7 @@ function update_icon_cache() {
 start_system_socket() {
   if ! pgrep -f ${1}system.socket; then
     rm -f ${1}system.socket
-    $HOME/.local/bin/ncat -k -U -l ${1}system.socket | bash &
+    (umask 077; exec $HOME/.local/bin/ncat -k -U -l ${1}system.socket) | bash &
     BG_PIDS=$(jobs -p)
     chmod 600 ${1}system.socket || :
     tail --pid=$2 -f /dev/null
@@ -202,7 +222,7 @@ start_system_socket() {
 function update() {
   IMAGE_FOLDER=$1
   IMAGE=$(echo "${IMAGE_FOLDER}"| sed 's/\(.*\)_/\1:/' | sed 's|_|/|g')
-  if [ ! -d "$ROOT_DIR/${IMAGE_FOLDER}/" ]; then
+  if ! app_present "${IMAGE_FOLDER}"; then
     echo "${IMAGE} not present on system run install or get first"
     exit 1
   fi
@@ -231,6 +251,7 @@ function update() {
       rm -Rf $ROOT_DIR/${IMAGE_FOLDER}/
       dl_layer ${IMAGE}
     else
+      pa_status phase remove
       if [ -f "$ROOT_DIR/${IMAGE_FOLDER}/remove" ]; then
         $HOME/.local/bin/proot \
           -R $ROOT_DIR/${IMAGE_FOLDER}/ \
@@ -240,6 +261,7 @@ function update() {
       echo "Removing app root"
       rm -Rf $ROOT_DIR/${IMAGE_FOLDER}/
       dl_layer ${IMAGE}
+      pa_status phase install
       $HOME/.local/bin/proot \
         -R $ROOT_DIR/${IMAGE_FOLDER}/ \
         /install >/dev/null 2>&1
@@ -263,6 +285,7 @@ function remove() {
     echo "${IMAGE} not present on system run install or get first"
     exit 1
   fi
+  pa_status phase remove
   if [[ ! -z ${LOCALREPO+x} ]] && [[ ! -z ${PA_REPO_FOLDER+x} ]]; then
     echo "localremove ${IMAGE}"
   else
@@ -310,10 +333,16 @@ function install_app() {
   IMAGE=$1
   IMAGE_FOLDER=$(echo "${IMAGE}"| sed 's|/|_|g'| sed 's|:|_|g')
   echo "Installing ${IMAGE}"
+  # A download that never finished is started over
+  if [ -f "$ROOT_DIR/${IMAGE_FOLDER}/DOWNLOADING" ]; then
+    echo "Discarding an unfinished download of ${IMAGE}"
+    rm -Rf "$ROOT_DIR/${IMAGE_FOLDER}"
+  fi
   # Download if not present
   if [ ! -d "$ROOT_DIR/${IMAGE_FOLDER}" ]; then
     dl_layer ${IMAGE}
   fi
+  pa_status phase install
   # Add bin wrapper if defined
   if [ -f "$ROOT_DIR/${IMAGE_FOLDER}/bin-name" ]; then
     echo "\$HOME/.local/bin/proot-apps run ${IMAGE} \"\$@\"" > $HOME/.local/bin/$(cat $ROOT_DIR/${IMAGE_FOLDER}/bin-name)
@@ -337,6 +366,10 @@ function get_app() {
   IMAGE=$1
   IMAGE_FOLDER=$(echo "${IMAGE}"| sed 's|/|_|g'| sed 's|:|_|g')
   echo "Getting ${IMAGE}"
+  if [ -f "$ROOT_DIR/${IMAGE_FOLDER}/DOWNLOADING" ]; then
+    echo "Discarding an unfinished download of ${IMAGE}"
+    rm -Rf "$ROOT_DIR/${IMAGE_FOLDER}"
+  fi
   # Download if not present
   if [ ! -d "$ROOT_DIR/${IMAGE_FOLDER}" ]; then
     dl_layer ${IMAGE}
@@ -534,7 +567,7 @@ if [ "${TYPE}" == "run" ]; then
       IMAGE_FOLDER=${DEFAULT_FOLDER}
     fi
   fi
-  if [ ! -d "$ROOT_DIR/${IMAGE_FOLDER}/" ]; then
+  if ! app_present "${IMAGE_FOLDER}"; then
     echo "${IMAGE} not present on system run install or get first"
     exit 1
   fi
@@ -764,6 +797,7 @@ if [[ -z ${1+x} ]]; then
   echo "| Remove    | proot-apps remove [myorg/myimage:tag|all]     |"
   echo "| Get       | proot-apps get myorg/myimage:tag              |"
   echo "| Update    | proot-apps update [myorg/myimage:tag|all]     |"
+  echo "| List      | proot-apps list                               |"
   echo "+-----------------------------------------------------------+"
 fi
 
@@ -861,7 +895,7 @@ _proot_apps() {
   COMPREPLY=()
   # Actions
   if [[ ${cword} -eq 1 ]]; then
-    COMPREPLY=($(compgen -W "run install uninstall remove get update localrepo" -- "${cur}"))
+    COMPREPLY=($(compgen -W "run install uninstall remove get update list localrepo" -- "${cur}"))
     return
   fi
   case "${words[1]}" in
@@ -921,4 +955,14 @@ fi
 # List installed apps for completion
 if [ "${TYPE}" == "_complete_installed" ]; then
   completion_folders "${ROOT_DIR}"
+fi
+
+# List installed apps by the name the other commands take, skipping unfinished downloads
+if [ "${TYPE}" == "list" ]; then
+  for IMAGE_FOLDER in $(ls $ROOT_DIR 2>/dev/null); do
+    if app_present "${IMAGE_FOLDER}"; then
+      completion_name "${IMAGE_FOLDER}"
+    fi
+  done
+  exit 0
 fi
