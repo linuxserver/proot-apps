@@ -1,0 +1,8 @@
+What's new in this Version:
+
+* Set PA_DEFAULT_REPO to make short app names refer to a fork or private registry image, install, remove, uninstall, update, get, run, and bash completion resolve short names against it and the gui app looks for installed apps under it
+* A desktop entry that still runs the image an app was built as falls back to the app of the same name from PA_DEFAULT_REPO when that image is not installed, apps from registries other than ghcr.io and Docker Hub are installed from a local repo
+* Fix get with more than one full image name fetching the first image for every argument
+* Steam is now listed in the apps menu, it runs natively from your home directory and on hosts without a 32 bit loader its reapers are patched to run through the app root loader, set STEAM_PA_WRAP=always to run it in proot instead
+* New apps: 86Box, AFFiNE, Anytype, AppFlowy, BIMCraft, Blockbench, Bruno, Cryptomator, Cursor, draw.io, Feishin, Floorp, Ghostty, HatchZip, IngeTrazo, Jan, Lichii, Logseq, LosslessCut, MaterialCraft, Pixelorama, Ruffle, RustGIS, SolidCraft, Steam, Teams for Linux, TextureCraft, TraceDraw, Vesktop, Vita3K, Warp, Yaak, YouTube Music, Zed
+* Fixes for the Audacity 4 desktop entry and icon, OpenCode pathing, SolidCraft icon names, the VSCodium desktop file name, and TraceDraw after its upstream repo moved
