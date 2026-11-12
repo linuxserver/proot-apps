@@ -299,7 +299,7 @@ libopencv-imgproc410                 4.10.0+dfsg-5                         deb
 libopencv-ml410                      4.10.0+dfsg-5                         deb     
 libopencv-objdetect410               4.10.0+dfsg-5                         deb     
 libopencv-video410                   4.10.0+dfsg-5                         deb     
-libopenexr-3-1-30                    3.1.13-2                              deb     
+libopenexr-3-1-30                    3.2.12-1~deb13u1                      deb     
 libopengl0                           1.7.0-1+b2                            deb     
 libopenjp2-7                         2.5.3-2.1~deb13u2                     deb     
 libopenmpt0t64                       0.7.13-1+b1                           deb     
