@@ -1,5 +1,5 @@
 ARG REPO
-FROM ghcr.io/${REPO}:debian-trixie AS rootfs
+FROM ghcr.io/${REPO}:ubuntu-resolute AS rootfs
 ARG REPO
 
 # Install packages
@@ -7,11 +7,11 @@ RUN \
   echo "**** add RustConn OBS key ****" && \
   install -m 0755 -d /etc/apt/keyrings && \
   curl -fsSL \
-    https://download.opensuse.org/repositories/home:/totoshko88:/rustconn/Debian_13/Release.key \
+    https://download.opensuse.org/repositories/home:/totoshko88:/rustconn/xUbuntu_26.04/Release.key \
     -o /etc/apt/keyrings/rustconn.asc && \
   chmod a+r /etc/apt/keyrings/rustconn.asc && \
   echo "**** add RustConn OBS repository ****" && \
-  echo "deb [signed-by=/etc/apt/keyrings/rustconn.asc] https://download.opensuse.org/repositories/home:/totoshko88:/rustconn/Debian_13/ /" \
+  echo "deb [signed-by=/etc/apt/keyrings/rustconn.asc] https://download.opensuse.org/repositories/home:/totoshko88:/rustconn/xUbuntu_26.04/ /" \
     > /etc/apt/sources.list.d/rustconn.list && \
   echo "**** install packages ****" && \
   apt-get update && \
