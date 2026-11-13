@@ -1,7 +1,7 @@
 NAME                                VERSION                                  TYPE   
 @types/node                         12.20.42                                 npm     
 adduser                             3.118ubuntu5                             deb     
-apt                                 2.4.14                                   deb     
+apt                                 2.4.15ubuntu0.1                          deb     
 base-files                          12ubuntu4.7                              deb     
 base-passwd                         3.5.52build1                             deb     
 bash                                5.1-6ubuntu1.1                           deb     
@@ -53,7 +53,7 @@ keyboard-configuration              1.205ubuntu3                             deb
 libacl1                             2.3.1-1                                  deb     
 libaom3                             3.3.0-1ubuntu0.1                         deb     
 libapparmor1                        3.0.4-2ubuntu2.5                         deb     
-libapt-pkg6.0                       2.4.14                                   deb     
+libapt-pkg6.0                       2.4.15ubuntu0.1                          deb     
 libarchive13                        3.6.0-1ubuntu1.9                         deb     
 libasan6                            11.4.0-1ubuntu1~22.04.3                  deb     
 libasound2                          1.2.6.1-1ubuntu1.2                       deb     
@@ -81,9 +81,9 @@ libbsd0                             0.11.5-1                                 deb
 libbz2-1.0                          1.0.8-5ubuntu0.1                         deb     
 libc-ares2                          1.18.1-1ubuntu0.22.04.4                  deb     
 libc-bin                            2.35-0ubuntu3.15                         deb     
-libc-dev-bin                        2.35-0ubuntu3.15                         deb     
-libc6                               2.35-0ubuntu3.15                         deb     
-libc6-dev                           2.35-0ubuntu3.15                         deb     
+libc-dev-bin                        2.35-0ubuntu3.18                         deb     
+libc6                               2.35-0ubuntu3.18                         deb     
+libc6-dev                           2.35-0ubuntu3.18                         deb     
 libcaca0                            0.99.beta19-2.2ubuntu4.2                 deb     
 libcairo-gobject2                   1.16.0-5ubuntu2.1                        deb     
 libcairo2                           1.16.0-5ubuntu2.1                        deb     
@@ -241,7 +241,7 @@ libpangocairo-1.0-0                 1.50.6+ds-2ubuntu1                       deb
 libpangoft2-1.0-0                   1.50.6+ds-2ubuntu1                       deb     
 libpciaccess0                       0.16-3                                   deb     
 libpcre2-16-0                       10.39-3ubuntu0.2                         deb     
-libpcre2-8-0                        10.39-3ubuntu0.1                         deb     
+libpcre2-8-0                        10.39-3ubuntu0.2                         deb     
 libpcre3                            2:8.39-13ubuntu0.22.04.1                 deb     
 libpgm-5.3-0                        5.3.128~dfsg-2                           deb     
 libpixman-1-0                       0.40.0-1ubuntu0.22.04.1                  deb     
@@ -441,7 +441,7 @@ nodejs                              12.22.9~dfsg-1ubuntu3.6                  deb
 ocl-icd-libopencl1                  2.2.14-3                                 deb     
 openssl                             3.0.2-0ubuntu1.30                        deb     
 passwd                              1:4.8.1-2ubuntu2.2                       deb     
-perl-base                           5.34.0-3ubuntu1.9                        deb     
+perl-base                           5.34.0-3ubuntu1.10                       deb     
 procps                              2:3.3.17-6ubuntu2.1                      deb     
 pulseaudio                          1:15.99.1+dfsg1-1ubuntu2.2               deb     
 pulseaudio-utils                    1:15.99.1+dfsg1-1ubuntu2.2               deb     

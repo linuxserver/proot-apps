@@ -12,7 +12,7 @@ anstyle                           1.0.14                                        
 anstyle-parse                     1.0.0                                                    rust-crate                   
 anstyle-query                     1.1.5                                                    rust-crate                   
 anyhow                            1.0.102                                                  rust-crate                   
-apt                               2.8.3                                                    deb                          
+apt                               2.8.4ubuntu0.1                                           deb                          
 arcstr                            1.2.0                                                    rust-crate                   
 asn1-rs                           0.7.1                                                    rust-crate                   
 asn1-rs-impl                      0.2.0                                                    rust-crate                   
@@ -283,7 +283,7 @@ libamd-comgr2                     6.0+git20231212.4510c28+dfsg-3build2          
 libamdhip64-5                     5.7.1-3                                                  deb                          
 libaom3                           3.8.2-2ubuntu0.2                                         deb                          
 libapparmor1                      4.0.1really4.0.1-0ubuntu0.24.04.9                        deb                          
-libapt-pkg6.0t64                  2.8.3                                                    deb                          
+libapt-pkg6.0t64                  2.8.4ubuntu0.1                                           deb                          
 libarchive13t64                   3.7.2-2ubuntu0.9                                         deb                          
 libargon2-1                       0~20190702+dfsg-4build1                                  deb                          
 libarmadillo12                    1:12.6.7+dfsg-1build2                                    deb                          
@@ -330,10 +330,10 @@ libbs2b0                          3.1.0+dfsg-7build1                            
 libbsd0                           0.12.1-1build1.1                                         deb                          
 libbz2-1.0                        1.0.8-5.1ubuntu0.1                                       deb                          
 libc                              0.2.186                                                  rust-crate                   
-libc-bin                          2.39-0ubuntu8.9                                          deb                          
-libc-dev-bin                      2.39-0ubuntu8.9                                          deb                          
-libc6                             2.39-0ubuntu8.9                                          deb                          
-libc6-dev                         2.39-0ubuntu8.9                                          deb                          
+libc-bin                          2.39-0ubuntu8.12                                         deb                          
+libc-dev-bin                      2.39-0ubuntu8.12                                         deb                          
+libc6                             2.39-0ubuntu8.12                                         deb                          
+libc6-dev                         2.39-0ubuntu8.12                                         deb                          
 libcaca0                          0.99.beta20-4ubuntu0.2                                   deb                          
 libcairo-gobject2                 1.18.0-3build1                                           deb                          
 libcairo2                         1.18.0-3build1                                           deb                          
@@ -947,7 +947,7 @@ libzxing3                         2.2.1-3                                       
 linux-libc-dev                    6.8.0-149.149                                            deb                          
 linux-raw-sys                     0.12.1                                                   rust-crate                   
 litemap                           0.8.1                                                    rust-crate                   
-locales-all                       2.39-0ubuntu8.9                                          deb                          
+locales-all                       2.39-0ubuntu8.12                                         deb                          
 lock_api                          0.4.14                                                   rust-crate                   
 log                               0.4.29                                                   rust-crate                   
 login                             1:4.13+dfsg1-4ubuntu3.2                                  deb                          

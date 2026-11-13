@@ -1,7 +1,7 @@
 NAME                            VERSION                                  TYPE     
 adduser                         3.118ubuntu5                             deb       
 adwaita-icon-theme              41.0-1ubuntu1                            deb       
-apt                             2.4.14                                   deb       
+apt                             2.4.15ubuntu0.1                          deb       
 aspell                          0.60.8-4build1                           deb       
 aspell-en                       2018.04.16-0-1                           deb       
 base-files                      12ubuntu4.7                              deb       
@@ -87,7 +87,7 @@ ldap-utils                      2.5.20+dfsg-0ubuntu0.22.04.1             deb
 libaa1                          1.4p5-50build1                           deb       
 libacl1                         2.3.1-1                                  deb       
 libapparmor1                    3.0.4-2ubuntu2.5                         deb       
-libapt-pkg6.0                   2.4.14                                   deb       
+libapt-pkg6.0                   2.4.15ubuntu0.1                          deb       
 libargon2-1                     0~20171227-0.3                           deb       
 libasan6                        11.4.0-1ubuntu1~22.04.3                  deb       
 libasound2                      1.2.6.1-1ubuntu1.2                       deb       
@@ -116,9 +116,9 @@ libbsd0                         0.11.5-1                                 deb
 libbz2-1.0                      1.0.8-5ubuntu0.1                         deb       
 libc-ares2                      1.18.1-1ubuntu0.22.04.4                  deb       
 libc-bin                        2.35-0ubuntu3.15                         deb       
-libc-dev-bin                    2.35-0ubuntu3.15                         deb       
-libc6                           2.35-0ubuntu3.15                         deb       
-libc6-dev                       2.35-0ubuntu3.15                         deb       
+libc-dev-bin                    2.35-0ubuntu3.18                         deb       
+libc6                           2.35-0ubuntu3.18                         deb       
+libc6-dev                       2.35-0ubuntu3.18                         deb       
 libcaca0                        0.99.beta19-2.2ubuntu4.2                 deb       
 libcairo-gobject2               1.16.0-5ubuntu2.1                        deb       
 libcairo2                       1.16.0-5ubuntu2.1                        deb       
@@ -288,7 +288,7 @@ libpangocairo-1.0-0             1.50.6+ds-2ubuntu1                       deb
 libpangoft2-1.0-0               1.50.6+ds-2ubuntu1                       deb       
 libpath-utils1                  0.6.2-1                                  deb       
 libpciaccess0                   0.16-3                                   deb       
-libpcre2-8-0                    10.39-3ubuntu0.1                         deb       
+libpcre2-8-0                    10.39-3ubuntu0.2                         deb       
 libpcre3                        2:8.39-13ubuntu0.22.04.1                 deb       
 libpcsclite1                    1.9.5-3ubuntu1                           deb       
 libpipewire-0.3-0               0.3.48-1ubuntu3.2                        deb       
@@ -466,7 +466,7 @@ opensc-pkcs11                   0.22.0-1ubuntu2.1                        deb
 openssl                         3.0.2-0ubuntu1.30                        deb       
 passwd                          1:4.8.1-2ubuntu2.2                       deb       
 pcscd                           1.9.5-3ubuntu1                           deb       
-perl-base                       5.34.0-3ubuntu1.9                        deb       
+perl-base                       5.34.0-3ubuntu1.10                       deb       
 pinentry-curses                 1.1.1-1build2                            deb       
 pipewire                        0.3.48-1ubuntu3.2                        deb       
 pipewire-bin                    0.3.48-1ubuntu3.2                        deb       

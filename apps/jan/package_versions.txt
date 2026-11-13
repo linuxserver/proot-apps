@@ -11,7 +11,7 @@ anstyle                          1.0.14                                         
 anstyle-parse                    1.0.0                                                    rust-crate    
 anstyle-query                    1.1.5                                                    rust-crate    
 anyhow                           1.0.104                                                  rust-crate    
-apt                              3.2.0                                                    deb           
+apt                              3.2.1ubuntu0.1                                           deb           
 archive-trait                    0.0.15                                                   rust-crate    
 arcstr                           1.2.0                                                    rust-crate    
 arrayvec                         0.7.8                                                    rust-crate    
@@ -44,7 +44,7 @@ axoasset                         2.0.1                                          
 axoprocess                       0.2.1                                                    rust-crate    
 axotag                           0.3.0                                                    rust-crate    
 axoupdater                       0.10.2                                                   rust-crate    
-base-files                       14ubuntu6.2                                              deb           
+base-files                       14ubuntu6.3                                              deb           
 base-passwd                      3.6.8                                                    deb           
 base64                           0.22.1                                                   rust-crate    
 base64                           0.23.1                                                   rust-crate    
@@ -217,7 +217,7 @@ grep                             3.12-1                                         
 gsettings-desktop-schemas        50.0-1ubuntu2                                            deb           
 gstreamer1.0-plugins-base        1.28.2-1ubuntu0.2                                        deb           
 gstreamer1.0-plugins-good        1.28.2-2ubuntu0.4                                        deb           
-gtk-update-icon-cache            4.22.4+ds-0ubuntu0.1                                     deb           
+gtk-update-icon-cache            4.22.4+ds-0ubuntu0.2                                     deb           
 gzip                             1.14-1~exp2ubuntu1.1                                     deb           
 h2                               0.4.19                                                   rust-crate    
 hashbrown                        0.14.5                                                   rust-crate    
@@ -282,7 +282,7 @@ libacl1                          2.3.2-2                                        
 libaom3                          3.13.1-2ubuntu0.1                                        deb           
 libapparmor1                     5.0.2-0ubuntu1~26.04.1                                   deb           
 libappindicator3-1               12.10.1+20.10.20200706.1-0ubuntu7                        deb           
-libapt-pkg7.0                    3.2.0                                                    deb           
+libapt-pkg7.0                    3.2.1ubuntu0.1                                           deb           
 libasan8                         16-20260322-1ubuntu1                                     deb           
 libasound2-data                  1.2.15.3-1ubuntu1.1                                      deb           
 libasound2-plugins               1.2.12-2build1                                           deb           
@@ -308,11 +308,11 @@ libbrotli1                       1.2.0-3ubuntu0.1                               
 libbsd0                          0.12.2-2build2                                           deb           
 libbz2-1.0                       1.0.8-6ubuntu0.1                                         deb           
 libc                             0.2.189                                                  rust-crate    
-libc-bin                         2.43-2ubuntu2.4                                          deb           
-libc-dev-bin                     2.43-2ubuntu2.4                                          deb           
-libc-gconv-modules-extra         2.43-2ubuntu2.4                                          deb           
-libc6                            2.43-2ubuntu2.4                                          deb           
-libc6-dev                        2.43-2ubuntu2.4                                          deb           
+libc-bin                         2.43-2ubuntu2.7                                          deb           
+libc-dev-bin                     2.43-2ubuntu2.7                                          deb           
+libc-gconv-modules-extra         2.43-2ubuntu2.7                                          deb           
+libc6                            2.43-2ubuntu2.7                                          deb           
+libc6-dev                        2.43-2ubuntu2.7                                          deb           
 libcaca0                         0.99.beta20-6ubuntu2.1                                   deb           
 libcairo-gobject2                1.18.4-3                                                 deb           
 libcairo2                        1.18.4-3                                                 deb           
@@ -456,7 +456,7 @@ libpango-1.0-0                   1.57.0-1                                       
 libpangocairo-1.0-0              1.57.0-1                                                 deb           
 libpangoft2-1.0-0                1.57.0-1                                                 deb           
 libpciaccess0                    0.18.1-1ubuntu4.1                                        deb           
-libpcre2-8-0                     10.46-1build1                                            deb           
+libpcre2-8-0                     10.46-1ubuntu0.1                                         deb           
 libpixman-1-0                    0.46.4-1                                                 deb           
 libpng16-16t64                   1.6.57-1ubuntu0.1                                        deb           
 libproc2-0                       2:4.0.4-9ubuntu1                                         deb           
@@ -597,7 +597,7 @@ libzvbi0t64                      0.2.44-1ubuntu2                                
 linux-libc-dev                   7.0.0-43.43                                              deb           
 linux-raw-sys                    0.12.1                                                   rust-crate    
 litemap                          0.8.1                                                    rust-crate    
-locales-all                      2.43-2ubuntu2.4                                          deb           
+locales-all                      2.43-2ubuntu2.7                                          deb           
 lock_api                         0.4.14                                                   rust-crate    
 log                              0.4.29                                                   rust-crate    
 login                            1:4.16.0-2+really2.41.3-3ubuntu2.2                       deb           

@@ -132,11 +132,11 @@ eudev-libs                                3.2.14-r8                apk
 feedparser                                6.0.14                   python                      
 feedparser-sgmllib                        2.1.0                    python                      
 fern                                      0.7.1                    rust-crate                  
-ffmpeg-libavcodec                         9.0.2-r2                 apk                         
-ffmpeg-libavformat                        9.0.2-r2                 apk                         
-ffmpeg-libavutil                          9.0.2-r2                 apk                         
-ffmpeg-libswresample                      9.0.2-r2                 apk                         
-ffmpeg-libswscale                         9.0.2-r2                 apk                         
+ffmpeg-libavcodec                         9.0.2-r3                 apk                         
+ffmpeg-libavformat                        9.0.2-r3                 apk                         
+ffmpeg-libavutil                          9.0.2-r3                 apk                         
+ffmpeg-libswresample                      9.0.2-r3                 apk                         
+ffmpeg-libswscale                         9.0.2-r3                 apk                         
 fftw-single-libs                          3.3.11-r0                apk                         
 file                                      5.48-r0                  apk                         
 font-liberation                           2.1.5-r2                 apk                         

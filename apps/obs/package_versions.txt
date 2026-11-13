@@ -1,6 +1,6 @@
 NAME                                      VERSION                                    TYPE   
 adduser                                   3.137ubuntu1                               deb     
-apt                                       2.8.3                                      deb     
+apt                                       2.8.4ubuntu0.1                             deb     
 at-spi2-common                            2.52.0-1build1                             deb     
 base-files                                13ubuntu10.5                               deb     
 base-passwd                               3.6.3build1                                deb     
@@ -67,7 +67,7 @@ keyboxd                                   2.4.4-2ubuntu17.6                     
 libacl1                                   2.3.2-1build1.1                            deb     
 libaom3                                   3.8.2-2ubuntu0.2                           deb     
 libapparmor1                              4.0.1really4.0.1-0ubuntu0.24.04.9          deb     
-libapt-pkg6.0t64                          2.8.3                                      deb     
+libapt-pkg6.0t64                          2.8.4ubuntu0.1                             deb     
 libargon2-1                               0~20190702+dfsg-4build1                    deb     
 libasan8                                  14.2.0-4ubuntu2~24.04.1                    deb     
 libasound2-data                           1.2.11-1ubuntu0.3                          deb     
@@ -101,10 +101,10 @@ libbrotli1                                1.1.0-2ubuntu0.1                      
 libbs2b0                                  3.1.0+dfsg-7build1                         deb     
 libbsd0                                   0.12.1-1build1.1                           deb     
 libbz2-1.0                                1.0.8-5.1ubuntu0.1                         deb     
-libc-bin                                  2.39-0ubuntu8.9                            deb     
-libc-dev-bin                              2.39-0ubuntu8.9                            deb     
-libc6                                     2.39-0ubuntu8.9                            deb     
-libc6-dev                                 2.39-0ubuntu8.9                            deb     
+libc-bin                                  2.39-0ubuntu8.12                           deb     
+libc-dev-bin                              2.39-0ubuntu8.12                           deb     
+libc6                                     2.39-0ubuntu8.12                           deb     
+libc6-dev                                 2.39-0ubuntu8.12                           deb     
 libcaca0                                  0.99.beta20-4ubuntu0.2                     deb     
 libcairo-gobject2                         1.18.0-3build1                             deb     
 libcairo2                                 1.18.0-3build1                             deb     
@@ -464,7 +464,7 @@ libzstd1                                  1.5.5+dfsg2-2build1.1                 
 libzvbi-common                            0.2.42-2                                   deb     
 libzvbi0t64                               0.2.42-2                                   deb     
 linux-libc-dev                            6.8.0-149.149                              deb     
-locales-all                               2.39-0ubuntu8.9                            deb     
+locales-all                               2.39-0ubuntu8.12                           deb     
 login                                     1:4.13+dfsg1-4ubuntu3.2                    deb     
 logsave                                   1.47.0-2.4~exp1ubuntu4.1                   deb     
 make                                      4.3-4.1build2                              deb     
