@@ -1,15 +1,15 @@
 #!/bin/bash
 
-# RustConn keeps passwords in the Secret Service (org.freedesktop.secrets):
-# it writes through oo7 and reads through secret-tool. Use the desktop's
-# keyring when the session has one (KWallet on KDE, gnome-keyring where the
-# desktop ships it), otherwise run gnome-keyring for the app's lifetime.
+# RustConn keeps passwords in the desktop's Secret Service
+# (org.freedesktop.secrets): it writes through oo7 and reads through
+# secret-tool. oo7 fails instead of prompting when the default collection is
+# missing or locked (and gives up after 10s), so get it ready before RustConn
+# starts: the create-keyring or unlock dialog shows first, not buried under
+# RustConn's window. Without a Secret Service, use another password backend
+# in RustConn's settings.
 
-# RUSTCONN_DEBUG=1 traces this script and keeps the keyring's output.
-if [ -n "${RUSTCONN_DEBUG}" ]; then
-  set -x
-  KEYRING_LOG=/dev/stderr
-fi
+# RUSTCONN_DEBUG=1 traces this script.
+[ -n "${RUSTCONN_DEBUG}" ] && set -x
 
 SS_DEST=org.freedesktop.secrets
 SS_PATH=/org/freedesktop/secrets
@@ -81,77 +81,12 @@ prepare_libsecret() {
     || echo "rustconn: keyring not ready: ${err:-no answer}" >&2
 }
 
-keyring_readable() {
-  # RustConn reads through secret-tool, which needs an encrypted session.
-  # Open one the way libsecret does (ubuntu-kde's KWallet cannot: it lacks
-  # QCA's OpenSSL plugin, "createDLGroup failed"). The public key is the
-  # DH group's generator, 2, as 128 big-endian bytes.
-  local key reply
-  key="[$(printf 'byte 0x00, %.0s' $(seq 127))byte 0x02]"
-  reply=$(ss --object-path "${SS_PATH}" --method org.freedesktop.Secret.Service.OpenSession \
-    dh-ietf1024-sha256-aes128-cbc-pkcs7 "<@ay ${key}>") || return 1
-  reply=$(grep -o "${SS_PATH}/session/[A-Za-z0-9_]*" <<< "${reply}")
-  [ -n "${reply}" ] && ss --object-path "${reply}" --method org.freedesktop.Secret.Session.Close >/dev/null
-  return 0
-}
-private_bus() {
-  unset DBUS_SESSION_BUS_ADDRESS
-  eval "$(dbus-launch --sh-syntax)"
-  OWN_BUS_PID=${DBUS_SESSION_BUS_PID}
-}
-
-# Session bus: the desktop's, or a private one. Some desktops export an
-# address whose bus is gone (alpine i3), so check that it answers.
-if [ -z "${DBUS_SESSION_BUS_ADDRESS}" ] || ! bus GetId >/dev/null; then
-  private_bus
-fi
-
-# A desktop keyring RustConn cannot read from is no keyring: use our own,
-# on a private bus since the desktop's already holds the Secret Service name.
-if [ -z "${OWN_BUS_PID}" ] && { has_secrets || can_activate_secrets; } && ! keyring_readable; then
-  private_bus
-fi
-
-# Secret Service: the desktop's, or our own gnome-keyring.
-if [ -n "${OWN_BUS_PID}" ] || { ! has_secrets && ! can_activate_secrets; }; then
-  gnome-keyring-daemon --foreground --components=secrets >"${KEYRING_LOG:-/dev/null}" 2>&1 &
-  KEYRING_PID=$!
-  # Wait until it owns the name: asked too early, the bus would start a second
-  # daemon by activation, and the two disagree on the default keyring.
-  for _ in $(seq 300); do
-    has_secrets && break
-    sleep 0.1
-  done
-  has_secrets || echo "rustconn: gnome-keyring-daemon did not come up" >&2
-  # gnome-keyring asks gcr-prompter for its dialogs by D-Bus activation, and
-  # gives up after 25s. The desktop's bus daemon cannot see this rootfs'
-  # service files, and a first start can take longer than that (el + NVIDIA),
-  # so keep one running ourselves; it quits when idle, so respawn it.
-  prompter_loop() {
-    local child
-    trap 'kill "${child}" 2>/dev/null; exit 0' TERM
-    while :; do
-      /usr/libexec/gcr-prompter >/dev/null 2>&1 &
-      child=$!
-      wait "${child}"
-      sleep 1
-    done
-  }
-  prompter_loop &
-  PROMPTER_PID=$!
-  # A prompt asked for before it is on the bus is dismissed or times out.
-  for _ in $(seq 600); do
-    bus NameHasOwner org.gnome.keyring.SystemPrompter | grep -q true && break
-    sleep 0.1
-  done
-fi
-
-# oo7 fails instead of prompting when the default collection is missing or
-# locked (and gives up after 10s), so get the keyring ready before RustConn
-# starts: the create-keyring or unlock dialog shows first, not buried under
-# RustConn's window.
-if uses_libsecret && { has_secrets || can_activate_secrets; }; then
-  if is_kwallet; then
+if uses_libsecret; then
+  if [ -z "${DBUS_SESSION_BUS_ADDRESS}" ] || ! bus GetId >/dev/null; then
+    echo "rustconn: no session bus, so no Secret Service for passwords" >&2
+  elif ! has_secrets && ! can_activate_secrets; then
+    echo "rustconn: the desktop has no Secret Service (${SS_DEST}) for passwords" >&2
+  elif is_kwallet; then
     prepare_kwallet
   else
     prepare_libsecret
@@ -159,11 +94,4 @@ if uses_libsecret && { has_secrets || can_activate_secrets; }; then
 fi
 
 # Start RustConn
-rustconn "$@"
-STATUS=$?
-
-# Stop what we started so proot can exit
-[ -n "${PROMPTER_PID}" ] && kill "${PROMPTER_PID}" 2>/dev/null
-[ -n "${KEYRING_PID}" ] && kill "${KEYRING_PID}" 2>/dev/null
-[ -n "${OWN_BUS_PID}" ] && kill "${OWN_BUS_PID}" 2>/dev/null
-exit ${STATUS}
+exec rustconn "$@"
