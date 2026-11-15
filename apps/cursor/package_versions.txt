@@ -772,7 +772,7 @@ libzstd1                                     1.5.7+dfsg-1                       
 libzvbi-common                               0.2.44-1                              deb                         
 libzvbi0t64                                  0.2.44-1                              deb                         
 linkify-it                                   3.0.3                                 npm                         
-linux-libc-dev                               6.12.116-1                            deb                         
+linux-libc-dev                               6.12.117-1                            deb                         
 locales-all                                  2.41-12+deb13u4                       deb                         
 lodash                                       4.18.1                                npm                         
 lodash.includes                              4.3.0                                 npm                         
