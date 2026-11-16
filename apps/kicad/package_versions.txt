@@ -343,7 +343,7 @@ nettle                                    3.10.2-r0                apk
 nghttp2-libs                              1.70.0-r0                apk           
 nng                                       1.11-r0                  apk           
 nspr                                      4.38.2-r0                apk           
-nss                                       3.124-r0                 apk           
+nss                                       3.133-r0                 apk           
 numactl                                   2.0.19-r0                apk           
 numpy                                     2.4.6                    python        
 once_cell                                 1.18.0                   rust-crate    

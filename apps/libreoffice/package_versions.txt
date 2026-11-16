@@ -341,7 +341,7 @@ nettle                          3.10.2-r0                apk
 nghttp2-libs                    1.70.0-r0                apk                           
 npth                            1.8-r0                   apk                           
 nspr                            4.38.2-r0                apk                           
-nss                             3.124-r0                 apk                           
+nss                             3.133-r0                 apk                           
 numactl                         2.0.19-r0                apk                           
 officebean                      UNKNOWN                  java-archive                  
 oniguruma                       6.9.10-r0                apk                           

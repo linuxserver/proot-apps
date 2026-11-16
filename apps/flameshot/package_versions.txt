@@ -62,7 +62,7 @@ isl26                           0.26-r2                  apk
 jansson                         2.15.1-r0                apk     
 jq                              1.8.2-r0                 apk     
 kdsingleapplication             1.1.0-r0                 apk     
-kguiaddons                      6.31.0-r0                apk     
+kguiaddons                      6.31.0-r1                apk     
 lame-libs                       3.100-r5                 apk     
 lang                            0.1-r2                   apk     
 libapk                          3.0.7-r0                 apk     
@@ -180,11 +180,11 @@ pyc                             3.14.10-r1               apk
 python3                         3.14.10-r1               apk     
 python3-pyc                     3.14.10-r1               apk     
 python3-pycache-pyc0            3.14.10-r1               apk     
-qt6-qtbase                      6.11.1-r3                apk     
-qt6-qtbase-wayland              6.11.1-r3                apk     
-qt6-qtbase-x11                  6.11.1-r3                apk     
-qt6-qtdeclarative               6.11.1-r1                apk     
-qt6-qtsvg                       6.11.1-r0                apk     
+qt6-qtbase                      6.12.0-r0                apk     
+qt6-qtbase-wayland              6.12.0-r0                apk     
+qt6-qtbase-x11                  6.12.0-r0                apk     
+qt6-qtdeclarative               6.12.0-r2                apk     
+qt6-qtsvg                       6.12.0-r0                apk     
 readline                        8.3.3-r1                 apk     
 scanelf                         1.3.9-r1                 apk     
 soxr                            0.1.3-r7                 apk     
