@@ -458,9 +458,9 @@ py3-pycryptodome-pyc                      3.24.1-r0                apk
 py3-pygments                              2.21.0-r0                apk                         
 py3-pygments-pyc                          2.21.0-r0                apk                         
 py3-pyqt6-sip                             13.13.1-r0               apk                         
-py3-pyqt6-webengine                       6.11.0-r0                apk                         
-py3-qt6                                   6.12.0-r0                apk                         
-py3-qt6-pyc                               6.12.0-r0                apk                         
+py3-pyqt6-webengine                       6.140.1-r0               apk                         
+py3-qt6                                   6.12.1-r0                apk                         
+py3-qt6-pyc                               6.12.1-r0                apk                         
 py3-re2                                   2025.11.05-r5            apk                         
 py3-re2-pyc                               2025.11.05-r5            apk                         
 py3-regex                                 2024.11.7-r1             apk                         
@@ -488,9 +488,9 @@ pybind11                                  3.0.4                    python
 pyc                                       3.14.10-r1               apk                         
 pycryptodome                              3.24.1                   python                      
 pygments                                  2.21.0                   python                      
-pyqt6                                     6.12.0                   python                      
+pyqt6                                     6.12.1                   python                      
 pyqt6-sip                                 13.13.1                  python                      
-pyqt6-webengine                           6.11.0                   python                      
+pyqt6-webengine                           6.140.1                  python                      
 python-dateutil                           2.9.0                    python                      
 python3                                   3.14.10-r1               apk                         
 python3-pyc                               3.14.10-r1               apk                         
@@ -510,7 +510,7 @@ qt6-qtserialport                          6.12.0-r0                apk
 qt6-qtsvg                                 6.12.0-r0                apk                         
 qt6-qttools-libs                          6.12.0-r0                apk                         
 qt6-qtwebchannel                          6.12.0-r0                apk                         
-qt6-qtwebengine                           6.140.0_rc-r0            apk                         
+qt6-qtwebengine                           6.140.0-r0               apk                         
 qt6-qtwebsockets-libs                     6.12.0-r0                apk                         
 quote                                     1.0.40                   rust-crate                  
 rand                                      0.9.1                    rust-crate                  

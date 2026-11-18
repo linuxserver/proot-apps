@@ -231,7 +231,7 @@ libisl23                          0.27-1build1                           deb
 libitm1                           16-20260322-1ubuntu1                   deb          
 libjack-jackd2-0                  1.9.22~dfsg-5build1                    deb          
 libjansson4                       2.14-2build4                           deb          
-libjavascriptcoregtk-6.0-1        2.52.6-0ubuntu0.26.04.1                deb          
+libjavascriptcoregtk-6.0-1        2.52.6-0ubuntu0.26.04.2                deb          
 libjbig0                          2.1-6.1ubuntu3                         deb          
 libjpeg-turbo8                    2.1.5-4ubuntu4                         deb          
 libjpeg8                          8c-2ubuntu12                           deb          
@@ -399,7 +399,7 @@ libwayland-client0                1.24.0-2                               deb
 libwayland-cursor0                1.24.0-2                               deb          
 libwayland-egl1                   1.24.0-2                               deb          
 libwayland-server0                1.24.0-2                               deb          
-libwebkitgtk-6.0-4                2.52.6-0ubuntu0.26.04.1                deb          
+libwebkitgtk-6.0-4                2.52.6-0ubuntu0.26.04.2                deb          
 libwebp7                          1.5.0-0.1build1                        deb          
 libwebpdemux2                     1.5.0-0.1build1                        deb          
 libwebpmux3                       1.5.0-0.1build1                        deb          
@@ -488,7 +488,7 @@ python3.14-minimal                3.14.4-1ubuntu0.2                      deb
 readline-common                   8.3-4                                  deb          
 rpcsvc-proto                      1.4.3-1build1                          deb          
 rust-coreutils                    0.10.0-1ubuntu2~26.04.1                deb          
-rustconn                          0.25.2-0                               deb          
+rustconn                          0.25.4-0                               deb          
 sed                               4.9-2ubuntu1                           deb          
 sensible-utils                    0.0.26build1                           deb          
 shared-mime-info                  2.4-5build3                            deb          

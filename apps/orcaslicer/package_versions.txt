@@ -404,7 +404,7 @@ libdw-dev                         0.190-1.1ubuntu0.1                            
 libdw1t64                         0.190-1.1ubuntu0.1                                       deb                          
 libedit2                          3.1-20230828-1build1                                     deb                          
 libegl-dev                        1.7.0-1build1                                            deb                          
-libegl-mesa0                      25.2.8-0ubuntu0.24.04.4                                  deb                          
+libegl-mesa0                      25.2.8-0ubuntu0.24.04.5                                  deb                          
 libegl1                           1.7.0-1build1                                            deb                          
 libelf-dev                        0.190-1.1ubuntu0.1                                       deb                          
 libelf1t64                        0.190-1.1ubuntu0.1                                       deb                          
@@ -435,8 +435,8 @@ libfreetype6                      2.13.2+dfsg-1ubuntu0.2                        
 libfreexl1                        2.0.0-1build2                                            deb                          
 libfribidi0                       1.0.13-3build1                                           deb                          
 libfyba0t64                       4.1.1-11build1                                           deb                          
-libgbm-dev                        25.2.8-0ubuntu0.24.04.4                                  deb                          
-libgbm1                           25.2.8-0ubuntu0.24.04.4                                  deb                          
+libgbm-dev                        25.2.8-0ubuntu0.24.04.5                                  deb                          
+libgbm1                           25.2.8-0ubuntu0.24.04.5                                  deb                          
 libgcc-13-dev                     13.3.0-6ubuntu2~24.04.1                                  deb                          
 libgcc-s1                         14.2.0-4ubuntu2~24.04.1                                  deb                          
 libgcrypt20                       1.10.3-2ubuntu0.2                                        deb                          
@@ -456,7 +456,7 @@ libgif7                           5.2.2-1ubuntu1.2                              
 libgirepository-2.0-0             2.80.0-6ubuntu3.10                                       deb                          
 libgl-dev                         1.7.0-1build1                                            deb                          
 libgl1                            1.7.0-1build1                                            deb                          
-libgl1-mesa-dri                   25.2.8-0ubuntu0.24.04.4                                  deb                          
+libgl1-mesa-dri                   25.2.8-0ubuntu0.24.04.5                                  deb                          
 libgl2ps1.4                       1.4.2+dfsg1-2build1                                      deb                          
 libgles-dev                       1.7.0-1build1                                            deb                          
 libgles1                          1.7.0-1build1                                            deb                          
@@ -471,7 +471,7 @@ libglu1-mesa                      9.0.2-1.1build1                               
 libglu1-mesa-dev                  9.0.2-1.1build1                                          deb                          
 libglvnd0                         1.7.0-1build1                                            deb                          
 libglx-dev                        1.7.0-1build1                                            deb                          
-libglx-mesa0                      25.2.8-0ubuntu0.24.04.4                                  deb                          
+libglx-mesa0                      25.2.8-0ubuntu0.24.04.5                                  deb                          
 libglx0                           1.7.0-1build1                                            deb                          
 libgme0                           0.6.3-7build1                                            deb                          
 libgmp10                          2:6.3.0+dfsg-2ubuntu6.1                                  deb                          
@@ -536,7 +536,7 @@ libisl23                          0.26-3build1.1                                
 libitm1                           14.2.0-4ubuntu2~24.04.1                                  deb                          
 libjack-jackd2-0                  1.9.21~dfsg-3ubuntu3                                     deb                          
 libjansson4                       2.14-2build2                                             deb                          
-libjavascriptcoregtk-4.1-0        2.52.6-0ubuntu0.24.04.1                                  deb                          
+libjavascriptcoregtk-4.1-0        2.52.6-0ubuntu0.24.04.2                                  deb                          
 libjbig-dev                       2.1-6.1ubuntu2                                           deb                          
 libjbig0                          2.1-6.1ubuntu2                                           deb                          
 libjpeg-dev                       8c-2ubuntu11                                             deb                          
@@ -866,7 +866,7 @@ libwayland-cursor0                1.22.0-2.1build1                              
 libwayland-dev                    1.22.0-2.1build1                                         deb                          
 libwayland-egl1                   1.22.0-2.1build1                                         deb                          
 libwayland-server0                1.22.0-2.1build1                                         deb                          
-libwebkit2gtk-4.1-0               2.52.6-0ubuntu0.24.04.1                                  deb                          
+libwebkit2gtk-4.1-0               2.52.6-0ubuntu0.24.04.2                                  deb                          
 libwebp-dev                       1.3.2-0.4build3                                          deb                          
 libwebp7                          1.3.2-0.4build3                                          deb                          
 libwebpdecoder3                   1.3.2-0.4build3                                          deb                          
@@ -975,9 +975,9 @@ md-5                              0.11.0                                        
 media-types                       10.1.0                                                   deb                          
 memchr                            2.8.3                                                    rust-crate                   
 memmap2                           0.9.10                                                   rust-crate                   
-mesa-libgallium                   25.2.8-0ubuntu0.24.04.4                                  deb                          
-mesa-va-drivers                   25.2.8-0ubuntu0.24.04.4                                  deb                          
-mesa-vulkan-drivers               25.2.8-0ubuntu0.24.04.4                                  deb                          
+mesa-libgallium                   25.2.8-0ubuntu0.24.04.5                                  deb                          
+mesa-va-drivers                   25.2.8-0ubuntu0.24.04.5                                  deb                          
+mesa-vulkan-drivers               25.2.8-0ubuntu0.24.04.5                                  deb                          
 miette                            7.6.0                                                    rust-crate                   
 mime                              0.3.17                                                   rust-crate                   
 mime_guess                        2.0.5                                                    rust-crate                   
