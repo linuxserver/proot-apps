@@ -18,8 +18,10 @@ RUN \
   apt-get install -y --no-install-recommends \
     freerdp3-sdl \
     freerdp3-x11 \
+    libglib2.0-bin \
     libopenh264-8 \
     librsvg2-common \
+    libsecret-tools \
     picocom \
     rustconn \
     tigervnc-viewer \
