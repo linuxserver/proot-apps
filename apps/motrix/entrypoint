@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start Motrix
+/opt/Motrix/motrix --no-sandbox "$@"

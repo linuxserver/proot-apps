@@ -536,6 +536,12 @@ include:
     category: AudioVideo
     icon: losslesscut.svg
     description: "LosslessCut trims, cuts and merges video and audio files without re encoding so edits are fast and keep the original quality. It also extracts streams and remuxes between containers using ffmpeg."
+  - name: mailcraft
+    full_name: MailCraft
+    arch: linux/amd64,linux/arm64
+    category: Office
+    icon: mailcraft.svg
+    description: "MailCraft is an open source native mail, calendar and contacts program written in Rust that works with Microsoft 365, Outlook.com and IMAP accounts."
   - name: maltego
     full_name: Maltego
     arch: linux/amd64,linux/arm64
@@ -572,6 +578,12 @@ include:
     category: Game
     icon: moonlight.svg
     description: "Moonlight allows you to play your PC games on almost any device, whether you're in another room or miles away from your gaming rig."
+  - name: motrix
+    full_name: Motrix
+    arch: linux/amd64,linux/arm64
+    category: Network
+    icon: motrix.png
+    description: "Motrix is a full featured download manager that supports HTTP, FTP, BitTorrent and Magnet downloads with up to 64 connections per task, powered by aria2."
   - name: mumble
     full_name: Mumble
     arch: linux/amd64,linux/arm64
