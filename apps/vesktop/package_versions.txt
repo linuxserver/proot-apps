@@ -360,7 +360,7 @@ tar                             1.35+dfsg-3.1                         deb
 tzdata                          2026f-0+deb13u1                       deb     
 udev                            257.13-1~deb13u1                      deb     
 util-linux                      2.41.5-0+deb13u1                      deb     
-vesktop                         1.6.9                                 deb     
+vesktop                         1.7.0                                 deb     
 x11-common                      1:7.7+24+deb13u1                      deb     
 x11-xkb-utils                   7.7+9                                 deb     
 xdg-utils                       1.2.1-2                               deb     
