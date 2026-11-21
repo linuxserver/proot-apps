@@ -2,4 +2,4 @@
 
 # Start OrcaSlicer
 export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
-/opt/orcaslicer/AppRun "$@"
+GDK_BACKEND=x11 /opt/orcaslicer/AppRun "$@"
