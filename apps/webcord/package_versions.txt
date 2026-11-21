@@ -164,8 +164,8 @@ libgmp10                        2:6.3.0+dfsg-3                        deb
 libgnutls30t64                  3.8.9-3+deb13u4                       deb     
 libgomp1                        14.2.0-19                             deb     
 libgpg-error0                   1.51-4                                deb     
-libgpgme11t64                   1.24.2-3                              deb     
-libgpgmepp6t64                  1.24.2-3                              deb     
+libgpgme11t64                   1.24.2-3+deb13u1                      deb     
+libgpgmepp6t64                  1.24.2-3+deb13u1                      deb     
 libgprofng0                     2.44-3                                deb     
 libgraphite2-3                  1.3.14-2+deb13u1                      deb     
 libgsm1                         1.0.22-1+b2                           deb     

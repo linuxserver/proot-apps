@@ -184,7 +184,7 @@ libgssapi-krb5-2                 1.22.1-2ubuntu4.1                      deb
 libgstreamer-gl1.0-0             1.28.2-1ubuntu0.3                      deb          
 libgstreamer-plugins-base1.0-0   1.28.2-1ubuntu0.3                      deb          
 libgstreamer-plugins-extra1.0-0  1.28.2-1ubuntu1.2                      deb          
-libgstreamer1.0-0                1.28.2-1                               deb          
+libgstreamer1.0-0                1.28.2-1ubuntu0.1                      deb          
 libgtk-4-1                       4.22.4+ds-0ubuntu0.2                   deb          
 libgtk-4-common                  4.22.4+ds-0ubuntu0.2                   deb          
 libgudev-1.0-0                   1:238-7build1                          deb          
@@ -388,7 +388,7 @@ libxxhash0                       0.8.3-2build1                          deb
 libzstd1                         1.5.7+dfsg-3                           deb          
 libzvbi-common                   0.2.44-1ubuntu2                        deb          
 libzvbi0t64                      0.2.44-1ubuntu2                        deb          
-linux-libc-dev                   7.0.0-43.43                            deb          
+linux-libc-dev                   7.0.0-44.44                            deb          
 locales-all                      2.43-2ubuntu2.7                        deb          
 login                            1:4.16.0-2+really2.41.3-3ubuntu2.2     deb          
 login.defs                       1:4.17.4-2ubuntu3                      deb          

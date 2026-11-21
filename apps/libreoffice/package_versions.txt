@@ -88,7 +88,7 @@ gnutls                          3.8.14-r0                apk
 gobject-introspection           1.86.0-r1                apk                           
 gpg                             2.4.9-r1                 apk                           
 gpg-agent                       2.4.9-r1                 apk                           
-gpgme                           2.0.1-r1                 apk                           
+gpgme                           2.3.1-r0                 apk                           
 gpgmepp                         2.0.0-r0                 apk                           
 gpgsm                           2.4.9-r1                 apk                           
 graphene                        1.10.8-r5                apk                           
@@ -182,7 +182,7 @@ libexpat                        2.10.0-r0                apk
 libexttextcat                   3.4.6-r0                 apk                           
 libffi                          3.5.2-r1                 apk                           
 libflac                         1.4.3-r2                 apk                           
-libfontenc                      1.1.9-r0                 apk                           
+libfontenc                      1.1.10-r0                apk                           
 libfonts                        1.1.6                    java-archive                  
 libformula                      1.1.7                    java-archive                  
 libfreeaptx                     0.2.2-r0                 apk                           
