@@ -383,11 +383,11 @@ libblkid1                               2.41.5-0+deb13u1                        
 libbrotli1                              1.1.0-2+deb13u1                            deb                            
 libbsd0                                 0.12.2-2                                   deb                            
 libbz2-1.0                              1.0.8-6                                    deb                            
-libc-bin                                2.41-12+deb13u4                            deb                            
-libc-dev-bin                            2.41-12+deb13u4                            deb                            
-libc-l10n                               2.41-12+deb13u4                            deb                            
-libc6                                   2.41-12+deb13u4                            deb                            
-libc6-dev                               2.41-12+deb13u4                            deb                            
+libc-bin                                2.41-12+deb13u5                            deb                            
+libc-dev-bin                            2.41-12+deb13u5                            deb                            
+libc-l10n                               2.41-12+deb13u5                            deb                            
+libc6                                   2.41-12+deb13u5                            deb                            
+libc6-dev                               2.41-12+deb13u5                            deb                            
 libcairo-gobject2                       1.18.4-1+b1                                deb                            
 libcairo2                               1.18.4-1+b1                                deb                            
 libcap-ng0                              0.8.5-4+b1                                 deb                            
@@ -431,7 +431,7 @@ libfido2-1                              1.15.0-1+b1                             
 libflac14                               1.5.0+ds-2                                 deb                            
 libfontconfig1                          2.15.0-2.3                                 deb                            
 libfontenc1                             1:1.1.8-1+b2                               deb                            
-libfreetype6                            2.13.3+dfsg-1+deb13u1                      deb                            
+libfreetype6                            2.13.3+dfsg-1+deb13u2                      deb                            
 libfribidi0                             1.0.16-1                                   deb                            
 libgbm1                                 25.0.7-2+deb13u1                           deb                            
 libgcc-14-dev                           14.2.0-19                                  deb                            
@@ -496,7 +496,7 @@ libmpfr6                                4.2.2-1                                 
 libmpg123-0t64                          1.32.10-1+deb13u1                          deb                            
 libncursesw6                            6.5+20250216-2                             deb                            
 libnettle8t64                           3.10.1-1                                   deb                            
-libnghttp2-14                           1.64.0-1.1+deb13u1                         deb                            
+libnghttp2-14                           1.64.0-1.1+deb13u2                         deb                            
 libnghttp3-9                            1.8.0-1                                    deb                            
 libngtcp2-16                            1.11.0-1+deb13u1                           deb                            
 libngtcp2-crypto-gnutls8                1.11.0-1+deb13u1                           deb                            
@@ -552,7 +552,7 @@ libspeex1                               1.2.1-3                                 
 libspeexdsp1                            1.2.1-3                                    deb                            
 libsqlite3-0                            3.46.1-7+deb13u2                           deb                            
 libssh2-1t64                            1.11.1-1+deb13u2                           deb                            
-libssl3t64                              3.5.7-1~deb13u3                            deb                            
+libssl3t64                              3.5.9-1~deb13u1                            deb                            
 libstdc++6                              14.2.0-19                                  deb                            
 libsvtav1enc2                           2.3.0+dfsg-1                               deb                            
 libswresample5                          7:7.1.5-0+deb13u1                          deb                            
@@ -641,7 +641,7 @@ libzvbi0t64                             0.2.44-1                                
 linux-libc-dev                          6.12.117-1                                 deb                            
 liquibase-core                          4.23.2                                     java-archive                   
 listenablefuture                        9999.0-empty-to-avoid-conflict-with-guava  java-archive                   
-locales-all                             2.41-12+deb13u4                            deb                            
+locales-all                             2.41-12+deb13u5                            deb                            
 log                                     1.0.0                                      npm                            
 logging                                 1.2                                        java-archive                   
 login                                   1:4.16.0-2+really2.41.5-0+deb13u1          deb                            
@@ -744,8 +744,8 @@ openjdk-21-jdk-headless                 21.0.13.1+2-1~deb13u1                   
 openjdk-21-jre                          21.0.13.1+2-1~deb13u1                      deb                            
 openjdk-21-jre-headless                 21.0.13.1+2-1~deb13u1                      deb                            
 openssh-client                          1:10.0p1-7+deb13u4                         deb                            
-openssl                                 3.5.7-1~deb13u3                            deb                            
-openssl-provider-legacy                 3.5.7-1~deb13u3                            deb                            
+openssl                                 3.5.9-1~deb13u1                            deb                            
+openssl-provider-legacy                 3.5.9-1~deb13u1                            deb                            
 org.eclipse.sisu.inject                 0.9.0.M4                                   java-archive                   
 org.eclipse.sisu.plexus                 0.9.0.M4                                   java-archive                   
 org.eclipse.xtext.xbase.lib             2.40.0                                     java-archive                   

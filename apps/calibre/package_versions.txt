@@ -144,7 +144,7 @@ font-noto                                 2026.11.01-r0            apk
 font-noto-common                          2026.11.01-r0            apk                         
 font-noto-math                            2026.11.01-r0            apk                         
 font-noto-symbols                         2026.11.01-r0            apk                         
-fontconfig                                2.18.1-r0                apk                         
+fontconfig                                2.18.4-r0                apk                         
 fonttools                                 4.60.1                   python                      
 freetype                                  2.14.3-r0                apk                         
 fribidi                                   1.0.18-r0                apk                         
@@ -321,7 +321,7 @@ libxv                                     1.0.13-r0                apk
 libxvmc                                   1.0.15-r0                apk                         
 libxxf86vm                                1.1.7-r0                 apk                         
 libxxhash                                 0.8.3-r1                 apk                         
-libyuv                                    0.0.1928-r0              apk                         
+libyuv                                    0.0.1985-r0              apk                         
 libzmq                                    4.3.5-r2                 apk                         
 linux-headers                             7.2.1-r0                 apk                         
 linux-raw-sys                             0.9.4                    rust-crate                  

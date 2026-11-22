@@ -80,7 +80,7 @@ libbs2b0                            3.1.0+dfsg-2.2build1                     deb
 libbsd0                             0.11.5-1                                 deb     
 libbz2-1.0                          1.0.8-5ubuntu0.1                         deb     
 libc-ares2                          1.18.1-1ubuntu0.22.04.4                  deb     
-libc-bin                            2.35-0ubuntu3.15                         deb     
+libc-bin                            2.35-0ubuntu3.18                         deb     
 libc-dev-bin                        2.35-0ubuntu3.18                         deb     
 libc6                               2.35-0ubuntu3.18                         deb     
 libc6-dev                           2.35-0ubuntu3.18                         deb     

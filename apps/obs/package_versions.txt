@@ -483,7 +483,7 @@ ocl-icd-libopencl1                        2.3.2-1build1                         
 openssl                                   3.0.13-0ubuntu3.16                         deb     
 passwd                                    1:4.13+dfsg1-4ubuntu3.2                    deb     
 pci.ids                                   0.0~2024.03.31-1ubuntu0.1                  deb     
-perl-base                                 5.38.2-3.2ubuntu0.6                        deb     
+perl-base                                 5.38.2-3.2ubuntu0.7                        deb     
 pinentry-curses                           1.2.1-3ubuntu5                             deb     
 pipewire                                  1.0.5-1ubuntu3.3                           deb     
 pipewire-bin                              1.0.5-1ubuntu3.3                           deb     

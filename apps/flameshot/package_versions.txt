@@ -34,7 +34,7 @@ font-noto                       2026.11.01-r0            apk
 font-noto-common                2026.11.01-r0            apk     
 font-noto-math                  2026.11.01-r0            apk     
 font-noto-symbols               2026.11.01-r0            apk     
-fontconfig                      2.18.1-r0                apk     
+fontconfig                      2.18.4-r0                apk     
 freetype                        2.14.3-r0                apk     
 fribidi                         1.0.18-r0                apk     
 gcc                             15.2.0-r9                apk     
