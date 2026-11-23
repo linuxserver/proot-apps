@@ -120,8 +120,8 @@ gcr-lang                                  3.41.2-r2                apk
 gdbm                                      1.26-r0                  apk           
 gdk-pixbuf                                2.44.7-r1                apk           
 gdk-pixbuf-lang                           2.44.7-r1                apk           
-glib                                      2.88.1-r1                apk           
-glib-lang                                 2.88.1-r1                apk           
+glib                                      2.88.4-r0                apk           
+glib-lang                                 2.88.4-r0                apk           
 glib-networking                           2.80.1-r2                apk           
 glib-networking-lang                      2.80.1-r2                apk           
 glu                                       9.0.3-r4                 apk           

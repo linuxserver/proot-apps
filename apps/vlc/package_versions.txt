@@ -154,8 +154,8 @@ gdbm                                      1.26-r0                  apk
 gdk-pixbuf                                2.44.7-r1                apk           
 gdk-pixbuf-lang                           2.44.7-r1                apk           
 getrandom                                 0.3.3                    rust-crate    
-glib                                      2.88.1-r1                apk           
-glib-lang                                 2.88.1-r1                apk           
+glib                                      2.88.4-r0                apk           
+glib-lang                                 2.88.4-r0                apk           
 glib-networking                           2.80.1-r2                apk           
 glib-networking-lang                      2.80.1-r2                apk           
 glslang-libs                              1.4.341.0-r0             apk           

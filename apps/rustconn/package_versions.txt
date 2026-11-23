@@ -187,6 +187,8 @@ libgl1                            1.7.0-3                                deb
 libgl1-mesa-dri                   26.0.8-1ubuntu0.3                      deb          
 libgles2                          1.7.0-3                                deb          
 libglib2.0-0t64                   2.88.0-1ubuntu0.1                      deb          
+libglib2.0-bin                    2.88.0-1ubuntu0.1                      deb          
+libglib2.0-data                   2.88.0-1ubuntu0.1                      deb          
 libglvnd0                         1.7.0-3                                deb          
 libglx-mesa0                      26.0.8-1ubuntu0.3                      deb          
 libglx0                           1.7.0-3                                deb          
@@ -316,6 +318,7 @@ libsdl3-ttf0                      3.2.2+ds-1build1                       deb
 libseccomp2                       2.6.0-2ubuntu5                         deb          
 libsecret-1-0                     0.21.7-2build1                         deb          
 libsecret-common                  0.21.7-2build1                         deb          
+libsecret-tools                   0.21.7-2build1                         deb          
 libselinux1                       3.9-4build1                            deb          
 libsemanage-common                3.9-1build1                            deb          
 libsemanage2                      3.9-1build1                            deb          
@@ -488,7 +491,7 @@ python3.14-minimal                3.14.4-1ubuntu0.2                      deb
 readline-common                   8.3-4                                  deb          
 rpcsvc-proto                      1.4.3-1build1                          deb          
 rust-coreutils                    0.10.0-1ubuntu2~26.04.1                deb          
-rustconn                          0.26.0-0                               deb          
+rustconn                          0.26.1-0                               deb          
 sed                               4.9-2ubuntu1                           deb          
 sensible-utils                    0.0.26build1                           deb          
 shared-mime-info                  2.4-5build3                            deb          

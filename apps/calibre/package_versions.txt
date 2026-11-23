@@ -150,8 +150,8 @@ freetype                                  2.14.3-r0                apk
 fribidi                                   1.0.18-r0                apk                         
 gcc                                       15.2.0-r9                apk                         
 getrandom                                 0.3.3                    rust-crate                  
-glib                                      2.90.0-r0                apk                         
-glib-lang                                 2.90.0-r0                apk                         
+glib                                      2.90.1-r0                apk                         
+glib-lang                                 2.90.1-r0                apk                         
 gmp                                       6.3.0-r4                 apk                         
 gnutls                                    3.8.14-r0                apk                         
 google-re2                                1.1.20251105             python                      
@@ -325,7 +325,7 @@ libyuv                                    0.0.1985-r0              apk
 libzmq                                    4.3.5-r2                 apk                         
 linux-headers                             7.2.1-r0                 apk                         
 linux-raw-sys                             0.9.4                    rust-crate                  
-llvm23-libs                               23.1.5-r0                apk                         
+llvm23-libs                               23.1.6-r0                apk                         
 log                                       0.4.27                   rust-crate                  
 lxml                                      6.1.1                    python                      
 make                                      4.4.1-r4                 apk                         
@@ -472,8 +472,8 @@ py3-soupsieve-pyc                         2.7-r1                   apk
 py3-speech-dispatcher                     0.12.1-r5                apk                         
 py3-typing-extensions                     4.16.0-r0                apk                         
 py3-typing-extensions-pyc                 4.16.0-r0                apk                         
-py3-tzdata                                2026.4-r0                apk                         
-py3-tzdata-pyc                            2026.4-r0                apk                         
+py3-tzdata                                2026.6-r0                apk                         
+py3-tzdata-pyc                            2026.6-r0                apk                         
 py3-tzlocal                               5.3.1-r1                 apk                         
 py3-tzlocal-pyc                           5.3.1-r1                 apk                         
 py3-webencodings                          0.5.1-r10                apk                         
@@ -555,7 +555,7 @@ thread_local                              1.1.9                    rust-crate
 tiff                                      4.7.2-r0                 apk                         
 tslib                                     1.24-r0                  apk                         
 typing-extensions                         4.16.0                   python                      
-tzdata                                    2026.4                   python                      
+tzdata                                    2026.6                   python                      
 tzdata                                    2026f-r0                 apk                         
 tzlocal                                   5.3.1                    python                      
 uchardet-libs                             0.0.8-r2                 apk                         

@@ -50,8 +50,8 @@ gdbm                            1.26-r0                  apk
 gdk-pixbuf                      2.44.7-r1                apk     
 gdk-pixbuf-lang                 2.44.7-r1                apk     
 ghostscript-fonts               8.11-r5                  apk     
-glib                            2.88.1-r1                apk     
-glib-lang                       2.88.1-r1                apk     
+glib                            2.88.4-r0                apk     
+glib-lang                       2.88.4-r0                apk     
 glibmm2.66                      2.66.8-r0                apk     
 glycin-image-rs                 2.1.5-r0                 apk     
 glycin-svg                      2.1.5-r0                 apk     
