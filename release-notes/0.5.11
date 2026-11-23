@@ -1,0 +1,6 @@
+What's new in this Version:
+
+* Set PA_STATUS to have install, update, remove, and get print machine readable phase lines and a download progress bar, used by the Selkies application interface to show progress and stages
+* New list command prints installed apps by the name the other commands take, skipping unfinished downloads, and is included in bash completion
+* An interrupted download no longer leaves a partial app root behind, and install or get discard any leftover unfinished download and start over
+* The system socket is created with owner only permissions from the start instead of being restricted after creation
