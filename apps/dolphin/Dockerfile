@@ -1,50 +1,5 @@
 ARG REPO
-FROM ghcr.io/${REPO}:debian-trixie AS build
-
-# Build dolphin
-RUN \
-  echo "**** install build deps ****" && \
-  apt-get update && \
-  apt-get install -y \
-    build-essential \
-    cmake \
-    git \
-    libavcodec-dev \
-    libavformat-dev \
-    libavutil-dev \
-    libcurl4-openssl-dev \
-    libegl1-mesa-dev \
-    libevdev-dev \
-    libpulse-dev \
-    libqt6svg6-dev \
-    libswscale-dev \
-    libudev-dev \
-    libvulkan-dev \
-    libx11-dev \
-    libxi-dev \
-    libxrandr-dev \
-    pkg-config \
-    qt6-base-dev \
-    qt6-base-private-dev \
-    qt6-wayland-dev \
-    qt6-wayland-private-dev && \
-  echo "**** build dolphin ****" && \
-  DOLPHIN_VERSION=$(curl -sL 'https://raw.githubusercontent.com/flathub/org.DolphinEmu.dolphin-emu/refs/heads/master/org.DolphinEmu.dolphin-emu.metainfo.xml' \
-    | awk -F'(<release version="|")' '/release version/ {print $2;exit}') && \
-  mkdir /root-out && \
-  git clone https://github.com/dolphin-emu/dolphin.git /tmp/dolphin && \
-  cd /tmp/dolphin && \
-  echo "dolphin ${DOLPHIN_VERSION}" > /root-out/upstream-versions && \
-  echo "**** building dolphin at ${DOLPHIN_VERSION} ****" && \
-  git checkout -f ${DOLPHIN_VERSION} && \
-  git submodule update --init --recursive && \
-  mkdir build && \
-  cd build && \
-  cmake .. && \
-  make -j$(nproc) && \
-  make install DESTDIR=/root-out
-
-FROM ghcr.io/${REPO}:debian-trixie AS rootfs
+FROM ghcr.io/${REPO}:ubuntu-resolute AS rootfs
 ARG REPO
 
 # Install packages
@@ -52,13 +7,49 @@ RUN \
   echo "**** install packages ****" && \
   apt-get update && \
   apt-get install -y --no-install-recommends \
-    libavcodec61 \
-    libavformat61 \
-    libqt6widgets6 \
-    libswscale8 \
-    libxi6 \
-    qt6-svg-plugins \
-    qt6-wayland && \
+    libopengl0 && \
+  echo "**** install dolphin ****" && \
+  mkdir /tmp/dolphin && \
+  for DOLPHIN_TAG in $(curl -sX GET "https://api.github.com/repos/dolphin-emu/dolphin/tags?per_page=50" \
+    | jq -er '[.[].name | select(test("^[0-9]{4}[a-z]?$"))] | sort | reverse | .[]'); do \
+    if curl -sfIL -o /dev/null "https://dl.dolphin-emu.org/releases/${DOLPHIN_TAG}/dolphin-${DOLPHIN_TAG}-x64.AppImage"; then \
+      DOLPHIN_VERSION="${DOLPHIN_TAG}"; \
+      break; \
+    fi; \
+  done && \
+  curl -fo \
+    /tmp/dolphin/dolphin.app -L \
+    "https://dl.dolphin-emu.org/releases/${DOLPHIN_VERSION}/dolphin-${DOLPHIN_VERSION}-x64.AppImage" && \
+  cd /tmp/dolphin && \
+  chmod +x dolphin.app && \
+  ./dolphin.app --appimage-extract && \
+  mv \
+    squashfs-root \
+    /opt/dolphin && \
+  rm -f \
+    /opt/dolphin/usr/lib/libudev.so* && \
+  mkdir -p /usr/share/icons/hicolor/scalable/apps && \
+  cp \
+    /opt/dolphin/usr/share/icons/hicolor/scalable/apps/dolphin-emu.svg \
+    /usr/share/icons/hicolor/scalable/apps/dolphin-emu.svg && \
+  echo "**** create desktop file ****" && \
+  DEST="/usr/share/applications/dolphin-pa.desktop" && \
+  echo '[Desktop Entry]' > "${DEST}" && \
+  echo 'Version=1.0' >> "${DEST}" && \
+  echo 'Type=Application' >> "${DEST}" && \
+  echo 'Terminal=false' >> "${DEST}" && \
+  echo 'Name=Dolphin Emulator PA' >> "${DEST}" && \
+  echo 'GenericName=Wii/GameCube Emulator' >> "${DEST}" && \
+  echo 'Comment=A Wii/GameCube Emulator' >> "${DEST}" && \
+  echo 'Icon=dolphin-emu' >> "${DEST}" && \
+  echo 'Exec=/bin/sh -c "$HOME/.local/bin/proot-apps run ghcr.io/'${REPO}':dolphin %U"' >> "${DEST}" && \
+  echo 'Categories=Game;Emulator;' >> "${DEST}" && \
+  echo "**** record upstream versions ****" && \
+  echo "dolphin ${DOLPHIN_VERSION}" > /upstream-versions && \
+  echo "**** set bin name ****" && \
+  echo "dolphin-pa" > /bin-name && \
+  echo "**** run without the ptrace tier ****" && \
+  touch /no-ptrace && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \
@@ -66,21 +57,6 @@ RUN \
     /var/lib/apt/lists/* \
     /var/tmp/* \
     /tmp/*
-
-COPY --from=build /root-out /
-
-RUN \
-  echo "**** customize desktop file ****" && \
-  sed -i \
-    -e "/^Exec=/c Exec=/bin/sh -c \"\$HOME\/.local\/bin\/proot-apps run ghcr.io/${REPO}:dolphin %U\"" \
-    -e "s/Name=Dolphin Emulator/Name=Dolphin Emulator PA/g" \
-    -e '/^TryExec=/d' \
-    /usr/local/share/applications/dolphin-emu.desktop && \
-  mv \
-    /usr/local/share/applications/dolphin-emu.desktop \
-    /usr/share/applications/dolphin-pa.desktop && \
-  echo "**** set bin name ****" && \
-  echo "dolphin-pa" > /bin-name
 
 COPY ./entrypoint /entrypoint
 COPY ./install /install

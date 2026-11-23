@@ -51,6 +51,8 @@ RUN \
   echo "cursor $(basename "${URL}" | sed -E 's/^Cursor-([^-]+)-.*/\1/')" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "cursor-pa" > /bin-name && \
+  echo "**** run without the ptrace tier ****" && \
+  touch /no-ptrace && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \

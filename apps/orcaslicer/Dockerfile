@@ -52,6 +52,8 @@ RUN \
   echo "orcaslicer ${ORCASLICER_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "orcaslicer-pa" > /bin-name && \
+  echo "**** run without the ptrace tier ****" && \
+  touch /no-ptrace && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \

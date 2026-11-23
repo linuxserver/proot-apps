@@ -42,6 +42,8 @@ RUN \
   echo "wechat $(awk -F= '/^X-AppImage-Version=/ {print $2}' /usr/share/applications/wechat-pa.desktop)" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "wechat-pa" > /bin-name && \
+  echo "**** run without the ptrace tier ****" && \
+  touch /no-ptrace && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \

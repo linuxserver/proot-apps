@@ -41,6 +41,8 @@ RUN \
   echo "krita $(echo "${DOWNLOAD_URL}" | awk -F/ '{print $(NF-1)}')" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "krita-pa" > /bin-name && \
+  echo "**** run without the ptrace tier ****" && \
+  touch /no-ptrace && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \

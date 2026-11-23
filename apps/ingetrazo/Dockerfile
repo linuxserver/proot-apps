@@ -53,6 +53,8 @@ RUN \
   echo "ingetrazo ${INGETRAZO_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "ingetrazo-pa" > /bin-name && \
+  echo "**** run without the ptrace tier ****" && \
+  touch /no-ptrace && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \

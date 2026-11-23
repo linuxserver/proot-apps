@@ -42,6 +42,8 @@ RUN \
   echo "rpcs3 $(basename "${RPCS3_URL}" | sed -E 's/^rpcs3-(.*)_linux64\.AppImage$/\1/')" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "rpcs3-pa" > /bin-name && \
+  echo "**** run without the ptrace tier ****" && \
+  touch /no-ptrace && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \

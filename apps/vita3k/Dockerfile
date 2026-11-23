@@ -45,6 +45,8 @@ RUN \
   echo "vita3k ${VITA3K_BUILD}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "vita3k-pa" > /bin-name && \
+  echo "**** run without the ptrace tier ****" && \
+  touch /no-ptrace && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \

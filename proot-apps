@@ -77,6 +77,10 @@ function trigger_panel_reload() {
   if [ -f "$HOME/.config/panel-reload" ]; then
     touch "$HOME/.config/panel-reload"
   fi
+  # KDE keeps icon lookups in memory until told the icons changed
+  if [ -n "${DBUS_SESSION_BUS_ADDRESS}" ] && which dbus-send >/dev/null 2>&1; then
+    dbus-send --session --type=signal /KIconLoader org.kde.KIconLoader.iconChanged int32:0 >/dev/null 2>&1 || :
+  fi
   if ls "$HOME"/Desktop/*.desktop >/dev/null 2>&1; then
     (sleep 6; touch "$HOME"/Desktop/*.desktop) >/dev/null 2>&1 &
   fi
@@ -594,6 +598,11 @@ if [ "${TYPE}" == "run" ]; then
   # Let Qt fall back to X11
   if [ "${QT_QPA_PLATFORM}" == "wayland" ]; then
     export QT_QPA_PLATFORM="wayland;xcb"
+  fi
+  # Portable apps (extracted AppImages) run without the ptrace tier, which
+  # stops the app on every signal it handles; PROOT_NO_PTRACE=0 restores it
+  if [ -f "$ROOT_DIR/${IMAGE_FOLDER}/no-ptrace" ]; then
+    export PROOT_NO_PTRACE="${PROOT_NO_PTRACE:-1}"
   fi
   # NVIDIA acceleration
   nvidia_binds "$ROOT_DIR/${IMAGE_FOLDER}"

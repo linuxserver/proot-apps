@@ -42,6 +42,8 @@ RUN \
   echo "cryptomator ${CRYPTOMATOR_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "cryptomator-pa" > /bin-name && \
+  echo "**** run without the ptrace tier ****" && \
+  touch /no-ptrace && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \

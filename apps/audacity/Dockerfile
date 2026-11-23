@@ -41,6 +41,8 @@ RUN \
   echo 'Exec=/bin/sh -c "$HOME/.local/bin/proot-apps run ghcr.io/'${REPO}':audacity %U"' >> "${DEST}" && \
   echo "${DKEEP}" >> "${DEST}" && \
   echo "audacity-pa" > /bin-name && \
+  echo "**** run without the ptrace tier ****" && \
+  touch /no-ptrace && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \

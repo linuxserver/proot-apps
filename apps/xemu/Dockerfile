@@ -43,6 +43,8 @@ RUN \
   echo "xemu $(basename "${XEMU_URL}" | sed -E 's/^xemu-(.*)-x86_64\.AppImage$/\1/')" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "xemu-pa" > /bin-name && \
+  echo "**** run without the ptrace tier ****" && \
+  touch /no-ptrace && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \

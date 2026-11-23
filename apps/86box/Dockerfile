@@ -57,6 +57,8 @@ RUN \
   echo "86box-roms $(echo "${ROMS_URL}" | awk -F/ '{print $NF}')" >> /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "86box-pa" > /bin-name && \
+  echo "**** run without the ptrace tier ****" && \
+  touch /no-ptrace && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \

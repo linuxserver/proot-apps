@@ -40,6 +40,8 @@ RUN \
   echo "obsidian ${OBSIDIAN_VERSION}" > /upstream-versions && \
   echo "**** set bin name ****" && \
   echo "obsidian-pa" > /bin-name && \
+  echo "**** run without the ptrace tier ****" && \
+  touch /no-ptrace && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \

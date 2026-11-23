@@ -1,4 +1,7 @@
 #!/bin/bash
 
+# force xwayland, the qt wayland backend has ui rendering issues
+export QT_QPA_PLATFORM=xcb
+
 # Start Dolphin
-dolphin-emu "$@"
+/opt/dolphin/AppRun "$@"

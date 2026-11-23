@@ -23,12 +23,15 @@ RUN \
   echo "**** customize desktop file ****" && \
   DFILE=/opt/nextcloud/com.nextcloud.desktopclient.nextcloud.desktop && \
   DEST=/usr/share/applications/nextcloud-pa.desktop && \
-  DKEEP=$(cat "${DFILE}" |sed '/^\(\Icon=\|Terminal=\|MimeType=\|Categories=\|Type=\|StartupNotify=\)/!d' |awk '!a[$0]++') && \
+  DKEEP=$(sed -n '/^\[Desktop Entry\]/,/^\[/p' "${DFILE}" |sed '/^\(Terminal=\|MimeType=\|Categories=\|Type=\|StartupNotify=\)/!d' |awk '!a[$0]++') && \
   echo '[Desktop Entry]' > "${DEST}" && \
   echo 'Name=Nextcloud Desktop PA' >> "${DEST}" && \
   echo 'Exec=/bin/sh -c "$HOME/.local/bin/proot-apps run ghcr.io/'${REPO}':nextcloud %U"' >> "${DEST}" && \
+  echo 'Icon=com.nextcloud.desktopclient.nextcloud' >> "${DEST}" && \
   echo "${DKEEP}" >> "${DEST}" && \
   echo "nextcloud-pa" > /bin-name && \
+  echo "**** run without the ptrace tier ****" && \
+  touch /no-ptrace && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \
@@ -37,6 +40,7 @@ RUN \
     /var/tmp/* \
     /tmp/*
 
+COPY /root /
 COPY ./entrypoint /entrypoint
 COPY ./install /install
 COPY ./remove /remove

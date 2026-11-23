@@ -954,6 +954,12 @@ include:
     category: Office
     icon: wpsoffice.svg
     description: "WPS Office is a lightweight, feature-rich comprehensive office suite with high compatibility. As a handy and professional office software, WPS Office allows you to edit files in Writer, Presentation, Spreadsheet, and PDF to improve your work efficiency."
+  - name: xbased
+    full_name: xbased
+    arch: linux/amd64
+    category: Game
+    icon: xbased.png
+    description: "xbased is an emulator for the original Xbox game console."
   - name: xemu
     full_name: xemu
     arch: linux/amd64

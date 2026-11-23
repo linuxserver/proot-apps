@@ -1,4 +1,7 @@
 #!/bin/bash
 
+# sharun strips LD_PRELOAD by default, keep the selkies interposers
+export SHARUN_ALLOW_LD_PRELOAD=1
+
 # Start Eden
-eden "$@"
+/opt/eden/AppRun "$@"
