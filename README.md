@@ -240,6 +240,7 @@ proot-apps update firefox
 | winegui | ghcr.io/linuxserver/proot-apps:winegui | Utility | linux/amd64 | A user-interface friendly Wine (A compatibility layer capable of running Windows applications under Linux) Manager.|
 | wordcraft | ghcr.io/linuxserver/proot-apps:wordcraft | Office | linux/amd64,linux/arm64 | WordCraft is an open source word processor from ArtCraft with styles, tables, track changes and mail merge that opens and saves DOCX, PDF, ODT, RTF, HTML and Markdown files.|
 | wpsoffice | ghcr.io/linuxserver/proot-apps:wpsoffice | Office | linux/amd64 | WPS Office is a lightweight, feature-rich comprehensive office suite with high compatibility. As a handy and professional office software, WPS Office allows you to edit files in Writer, Presentation, Spreadsheet, and PDF to improve your work efficiency.|
+| xbased | ghcr.io/linuxserver/proot-apps:xbased | Game | linux/amd64 | xbased is an emulator for the original Xbox game console.|
 | xemu | ghcr.io/linuxserver/proot-apps:xemu | Game | linux/amd64 | xemu is a low-level, full-system emulator for the original Xbox game console.|
 | xenia | ghcr.io/linuxserver/proot-apps:xenia | Game | linux/amd64 | Xenia Edge is a fork of the Xenia Xbox 360 research emulator with additional fixes and enhancements.|
 | yaak | ghcr.io/linuxserver/proot-apps:yaak | Development | linux/amd64 | Yaak is a desktop API client for interacting with REST, GraphQL, WebSocket, SSE and gRPC services.|
