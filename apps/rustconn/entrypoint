@@ -1,4 +1,97 @@
 #!/bin/bash
 
+# RustConn keeps passwords in the desktop's Secret Service
+# (org.freedesktop.secrets): it writes through oo7 and reads through
+# secret-tool. oo7 fails instead of prompting when the default collection is
+# missing or locked (and gives up after 10s), so get it ready before RustConn
+# starts: the create-keyring or unlock dialog shows first, not buried under
+# RustConn's window. Without a Secret Service, use another password backend
+# in RustConn's settings.
+
+# RUSTCONN_DEBUG=1 traces this script.
+[ -n "${RUSTCONN_DEBUG}" ] && set -x
+
+SS_DEST=org.freedesktop.secrets
+SS_PATH=/org/freedesktop/secrets
+
+bus() {
+  gdbus call --session --timeout 10 --dest org.freedesktop.DBus \
+    --object-path /org/freedesktop/DBus --method "org.freedesktop.DBus.$1" "${@:2}" 2>/dev/null
+}
+ss() {
+  gdbus call --session --timeout 10 --dest "${SS_DEST}" "$@" 2>/dev/null
+}
+has_secrets() {
+  bus NameHasOwner "${SS_DEST}" | grep -q true
+}
+can_activate_secrets() {
+  bus ListActivatableNames | grep -q "'${SS_DEST}'"
+}
+uses_libsecret() {
+  # No settings yet means the default backend, which is libsecret.
+  local conf="${XDG_CONFIG_HOME:-$HOME/.config}/rustconn/config.toml"
+  [ ! -f "${conf}" ] && return 0
+  ! grep -qE '^\s*preferred_backend\s*=' "${conf}" || \
+    grep -qE '^\s*preferred_backend\s*=\s*"lib_?secret"' "${conf}"
+}
+is_kwallet() {
+  # KWallet serves the Secret Service from the connection that also owns
+  # its own name (ksecretd on Plasma 6.3+, kwalletd before).
+  local owner n
+  owner=$(bus GetNameOwner "${SS_DEST}") || return 1
+  for n in org.kde.ksecretd org.kde.kwalletd6 org.kde.kwalletd5; do
+    [ "$(bus GetNameOwner "${n}")" = "${owner}" ] && return 0
+  done
+  return 1
+}
+kwallet_prompt() {
+  # Show a KWallet prompt and wait until it is answered or cancelled.
+  # ksecretd never emits Prompt.Completed; it drops the prompt object instead.
+  local p
+  p=$(grep -o "${SS_PATH}/prompt/[A-Za-z0-9_]*" <<< "$1")
+  [ -z "${p}" ] && return
+  # The argument is GVariant text: "''" is an empty window id.
+  ss --object-path "${p}" --method org.freedesktop.Secret.Prompt.Prompt "''" >/dev/null || return
+  for _ in $(seq "${RUSTCONN_KEYRING_PROMPT_TIMEOUT:-300}"); do
+    gdbus introspect --session --dest "${SS_DEST}" --object-path "${p}" 2>/dev/null \
+      | grep -q org.freedesktop.Secret.Prompt || break
+    sleep 1
+  done
+}
+prepare_kwallet() {
+  local default
+  default=$(ss --object-path "${SS_PATH}" --method org.freedesktop.Secret.Service.ReadAlias default \
+    | grep -o "'${SS_PATH}[^']*'" | tr -d "'")
+  if [ -z "${default}" ] || [ "${default}" = "/" ]; then
+    # Same label and alias oo7 itself would create the wallet with.
+    kwallet_prompt "$(ss --object-path "${SS_PATH}" --method org.freedesktop.Secret.Service.CreateCollection \
+      "{'org.freedesktop.Secret.Collection.Label': <'Default'>}" default)"
+  elif ss --object-path "${default}" --method org.freedesktop.DBus.Properties.Get \
+      org.freedesktop.Secret.Collection Locked | grep -q true; then
+    kwallet_prompt "$(ss --object-path "${SS_PATH}" --method org.freedesktop.Secret.Service.Unlock "['${default}']")"
+  fi
+}
+prepare_libsecret() {
+  # gnome-keyring only lets the connection that asked show a prompt, so let
+  # libsecret do it: storing a marker item in the default collection creates
+  # it if missing and unlocks it if locked, and waits for the user.
+  local err
+  err=$(printf 1 | timeout "${RUSTCONN_KEYRING_PROMPT_TIMEOUT:-300}" secret-tool store \
+    --label="RustConn keyring check" application rustconn key keyring-check 2>&1 >/dev/null) \
+    || echo "rustconn: keyring not ready: ${err:-no answer}" >&2
+}
+
+if uses_libsecret; then
+  if [ -z "${DBUS_SESSION_BUS_ADDRESS}" ] || ! bus GetId >/dev/null; then
+    echo "rustconn: no session bus, so no Secret Service for passwords" >&2
+  elif ! has_secrets && ! can_activate_secrets; then
+    echo "rustconn: the desktop has no Secret Service (${SS_DEST}) for passwords" >&2
+  elif is_kwallet; then
+    prepare_kwallet
+  else
+    prepare_libsecret
+  fi
+fi
+
 # Start RustConn
-rustconn "$@"
+exec rustconn "$@"
