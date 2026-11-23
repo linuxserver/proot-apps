@@ -4,17 +4,19 @@ ARG REPO
 
 # Install packages
 RUN \
+  echo "**** add Signal GPG key ****" && \
+  mkdir -p /etc/apt/keyrings && \
+  curl -o \
+    /etc/apt/keyrings/signal-desktop.asc -L \
+    "https://updates.signal.org/desktop/apt/keys.asc" && \
+  echo "**** add Signal apt repository ****" && \
+  echo \
+    "deb [arch=amd64 signed-by=/etc/apt/keyrings/signal-desktop.asc] https://updates.signal.org/desktop/apt xenial main" > \
+    /etc/apt/sources.list.d/signal-xenial.list && \
   echo "**** install packages ****" && \
   apt-get update && \
-  SIGNAL_DEB=$(curl -sL https://updates.signal.org/desktop/apt/dists/xenial/main/binary-amd64/Packages | \
-    awk -F ': ' '/signal-desktop*.*deb/ {print $2}' | \
-    grep -v '\-beta' | \
-    head -1) && \
-  curl -o \
-    /tmp/signal.deb -L \
-    "https://updates.signal.org/desktop/apt/${SIGNAL_DEB}" && \
-  apt install -y --no-install-recommends \
-    /tmp/signal.deb && \
+  apt-get install -y --no-install-recommends \
+    signal-desktop && \
   echo "**** customize desktop file ****" && \
   sed -i \
     -e "/^Exec=/c Exec=/bin/sh -c \"\$HOME\/.local\/bin\/proot-apps run ghcr.io/${REPO}:signal %U\"" \
