@@ -363,7 +363,7 @@ libspeex1                        1.2.1-2ubuntu2.24.04.1             deb        (
 libspeexdsp1                     1.2.1-1ubuntu3                     deb        (+1 duplicate)  
 libsqlite3-0                     3.45.1-1ubuntu2.9                  deb        (+1 duplicate)  
 libss2                           1.47.0-2.4~exp1ubuntu4.1           deb                        
-libssh-4                         0.10.6-2ubuntu0.5                  deb        (+1 duplicate)  
+libssh-4                         0.10.6-2ubuntu0.6                  deb        (+1 duplicate)  
 libssl3t64                       3.0.13-0ubuntu3.16                 deb        (+1 duplicate)  
 libstdc++6                       14.2.0-4ubuntu2~24.04.1            deb        (+1 duplicate)  
 libstemmer0d                     2.2.0-4build1                      deb                        
@@ -512,7 +512,7 @@ systemd-dev                      255.4-1ubuntu8.19                  deb
 systemd-sysv                     255.4-1ubuntu8.19                  deb                        
 sysvinit-utils                   3.08-6ubuntu3                      deb                        
 tar                              1.35+dfsg-3ubuntu0.4               deb                        
-tzdata                           2026e-0ubuntu0.24.04.1             deb                        
+tzdata                           2026f-0ubuntu0.24.04.1             deb                        
 ubuntu-keyring                   2023.11.28.1                       deb                        
 ubuntu-mono                      24.04-0ubuntu1                     deb                        
 udev                             255.4-1ubuntu8.19                  deb                        

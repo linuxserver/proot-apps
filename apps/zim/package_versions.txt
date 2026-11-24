@@ -192,6 +192,7 @@ py3-xdg-pyc                     0.28-r7                  apk
 pyc                             3.14.10-r1               apk       
 pygobject                       3.56.3                   python    
 python3                         3.14.10-r1               apk       
+python3-ndbm                    3.14.10-r3               apk       
 python3-pyc                     3.14.10-r1               apk       
 python3-pycache-pyc0            3.14.10-r1               apk       
 pyxdg                           0.28                     python    

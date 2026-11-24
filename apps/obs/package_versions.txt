@@ -351,8 +351,8 @@ libsratom-0-0                             0.6.16-1build1                        
 libsrt1.5-gnutls                          1.5.3-1build2                              deb     
 libsrt1.5-openssl                         1.5.3-1build2                              deb     
 libss2                                    1.47.0-2.4~exp1ubuntu4.1                   deb     
-libssh-4                                  0.10.6-2ubuntu0.5                          deb     
-libssh-gcrypt-4                           0.10.6-2ubuntu0.5                          deb     
+libssh-4                                  0.10.6-2ubuntu0.6                          deb     
+libssh-gcrypt-4                           0.10.6-2ubuntu0.6                          deb     
 libssl3t64                                3.0.13-0ubuntu3.16                         deb     
 libstdc++6                                14.2.0-4ubuntu2~24.04.1                    deb     
 libsvtav1enc1d1                           1.7.0+dfsg-2build1                         deb     
@@ -502,7 +502,7 @@ systemd                                   255.4-1ubuntu8.19                     
 systemd-dev                               255.4-1ubuntu8.19                          deb     
 sysvinit-utils                            3.08-6ubuntu3                              deb     
 tar                                       1.35+dfsg-3ubuntu0.4                       deb     
-tzdata                                    2026e-0ubuntu0.24.04.1                     deb     
+tzdata                                    2026f-0ubuntu0.24.04.1                     deb     
 ubuntu-keyring                            2023.11.28.1                               deb     
 udev                                      255.4-1ubuntu8.19                          deb     
 unminimize                                0.2.1                                      deb     

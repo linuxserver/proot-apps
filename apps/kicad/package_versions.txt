@@ -407,6 +407,7 @@ py3-xcffib-pyc                            1.12.0-r1                apk
 pyc                                       3.14.10-r1               apk           
 pycparser                                 3.0                      python        
 python3                                   3.14.10-r1               apk           
+python3-ndbm                              3.14.10-r3               apk           
 python3-pyc                               3.14.10-r1               apk           
 python3-pycache-pyc0                      3.14.10-r1               apk           
 rayon                                     1.8.0                    rust-crate    
