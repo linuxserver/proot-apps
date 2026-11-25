@@ -86,6 +86,23 @@ function trigger_panel_reload() {
   fi
 }
 
+# Replace HOME expansion with real HOME for system on install
+localize_desktop_files() {
+  local exec_path="$HOME/.local/bin/proot-apps"
+  local file fixed
+  # Exec has no reliable quoting, keep the wrapper for homes that need it
+  case "${exec_path}" in
+    *[[:space:]\"\'\\\<\>~\|\&\;\$\*\?\#\(\)\`%]*) return 0 ;;
+  esac
+  for file in "$HOME"/.local/share/applications/*.desktop "$HOME"/Desktop/*.desktop; do
+    [ -f "${file}" ] || continue
+    grep -q '^Exec=/bin/sh -c "\$HOME/\.local/bin/proot-apps run ' "${file}" || continue
+    # rewrite in place so the inode and any trust metadata are kept
+    fixed=$(sed 's#^Exec=/bin/sh -c "\$HOME/\.local/bin/proot-apps run \([^"]*\)"$#Exec='"${exec_path}"' run \1#' "${file}") && \
+      printf '%s\n' "${fixed}" > "${file}"
+  done
+}
+
 # Get registry endpoint and auth
 registry_setup() {
   IMAGE=$1
@@ -275,6 +292,7 @@ function update() {
       $HOME/.local/bin/proot \
         -R $ROOT_DIR/${IMAGE_FOLDER}/ \
         /install
+      localize_desktop_files
     fi
     trigger_panel_reload
   fi
@@ -362,6 +380,7 @@ function install_app() {
   $HOME/.local/bin/proot \
     -R $ROOT_DIR/${IMAGE_FOLDER}/ \
     /install
+  localize_desktop_files
   trigger_panel_reload
 }
 
