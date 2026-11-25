@@ -1,0 +1,8 @@
+What's new in this Version:
+
+* Apps shipped as extracted AppImages run without the ptrace tier, which stopped them on every signal they handle, set PROOT_NO_PTRACE=0 to restore it
+* Install, update, remove, and uninstall signal KDE to refresh its icon cache so app icons show up without logging out
+* Eden, Cemu, and Dolphin are no longer built from source and use the upstream AppImage releases
+* New apps: MailCraft, Motrix, xbased
+* Rebase RustConn to Resolute to fix a startup segfault on Wayland compositors with GPU passthrough
+* Fix the Nextcloud icon and run OrcaSlicer with the X11 backend
