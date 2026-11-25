@@ -136,7 +136,7 @@ libeconf                        0.8.3-r0                 apk
 libelf                          0.195-r0                 apk           
 libepoxy                        1.5.10-r1                apk           
 libexpat                        2.10.0-r0                apk           
-libffi                          3.5.2-r1                 apk           
+libffi                          3.8.1-r0                 apk           
 libflac                         1.4.3-r2                 apk           
 libfreeaptx                     0.2.2-r0                 apk           
 libgcc                          15.2.0-r5                apk           
@@ -312,14 +312,14 @@ py3-soupsieve                   2.7-r1                   apk
 py3-soupsieve-pyc               2.7-r1                   apk           
 py3-typing-extensions           4.15.0-r1                apk           
 py3-typing-extensions-pyc       4.15.0-r1                apk           
-pyc                             3.14.10-r1               apk           
+pyc                             3.14.10-r2               apk           
 pycairo                         1.28.0                   python        
 pygobject                       3.56.3                   python        
 pylast                          5.5.0                    python        
-python3                         3.14.10-r1               apk           
+python3                         3.14.10-r2               apk           
 python3-ndbm                    3.14.10-r3               apk           
-python3-pyc                     3.14.10-r1               apk           
-python3-pycache-pyc0            3.14.10-r1               apk           
+python3-pyc                     3.14.10-r2               apk           
+python3-pycache-pyc0            3.14.10-r2               apk           
 rayon                           1.8.0                    rust-crate    
 rayon-core                      1.12.0                   rust-crate    
 readline                        8.3.3-r1                 apk           
@@ -369,4 +369,4 @@ yt-dlp                          2026.10.21               python
 yt-dlp-core                     2026.10.21-r0            apk           
 yt-dlp-core-pyc                 2026.10.21-r0            apk           
 zlib                            1.4-r0                   apk           
-zstd-libs                       1.5.7-r2                 apk           
+zstd-libs                       1.6.0-r1                 apk           

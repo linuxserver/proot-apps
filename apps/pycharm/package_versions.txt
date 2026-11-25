@@ -22,7 +22,7 @@ asyncapi__react-component               2.6.0                                 ja
 attach_amd64                            UNKNOWN                               binary                         
 attach_x86                              UNKNOWN                               binary                         
 automaton                               1.12-4                                java-archive                   
-base-files                              13.8+deb13u7                          deb                            
+base-files                              13.8+deb13u8                          deb                            
 base-passwd                             3.6.7                                 deb                            
 bash                                    5.2.37-2+b10                          deb                            
 bat                                     1.0.0                                 npm                            

@@ -156,7 +156,7 @@ libeconf                           0.8.3-r0                 apk
 libelf                             0.195-r0                 apk           
 libevdev                           1.13.6-r0                apk           
 libexpat                           2.10.0-r0                apk           
-libffi                             3.5.2-r1                 apk           
+libffi                             3.8.1-r0                 apk           
 libflac                            1.4.3-r2                 apk           
 libgcc                             15.2.0-r5                apk           
 libgcc-static                      15.2.0-r5                apk           
@@ -366,16 +366,16 @@ py3-waitress                       3.0.2-r2                 apk
 py3-waitress-pyc                   3.0.2-r2                 apk           
 py3-werkzeug                       3.1.8-r0                 apk           
 py3-werkzeug-pyc                   3.1.8-r0                 apk           
-pyc                                3.14.10-r1               apk           
+pyc                                3.14.10-r2               apk           
 pyqt6                              6.11.0                   python        
 pyqt6-sip                          13.11.1                  python        
 pyqt6-webengine                    6.11.0                   python        
 pysocks                            1.7.1                    python        
 python-dotenv                      1.2.2                    python        
-python3                            3.14.10-r1               apk           
+python3                            3.14.10-r2               apk           
 python3-ndbm                       3.14.10-r3               apk           
-python3-pyc                        3.14.10-r1               apk           
-python3-pycache-pyc0               3.14.10-r1               apk           
+python3-pyc                        3.14.10-r2               apk           
+python3-pycache-pyc0               3.14.10-r2               apk           
 qt6-qtbase                         6.11.1-r0                apk           
 qt6-qtbase-wayland                 6.11.1-r0                apk           
 qt6-qtbase-x11                     6.11.1-r0                apk           
@@ -460,4 +460,4 @@ xz-libs                            5.8.4-r0                 apk
 y4m                                0.8.0                    rust-crate    
 zerocopy                           0.8.25                   rust-crate    
 zlib                               1.4-r0                   apk           
-zstd-libs                          1.5.7-r2                 apk           
+zstd-libs                          1.6.0-r1                 apk           

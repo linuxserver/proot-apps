@@ -44,7 +44,7 @@ archetype-descriptor                                                  3.2.1     
 asm                                                                   9.10.1                                java-archive                  
 asm                                                                   9.9.1                                 java-archive                  
 at-spi2-common                                                        2.56.2-1+deb13u2                      deb                           
-base-files                                                            13.8+deb13u7                          deb                           
+base-files                                                            13.8+deb13u8                          deb                           
 base-passwd                                                           3.6.7                                 deb                           
 bash                                                                  5.2.37-2+b10                          deb                           
 batik-constants                                                       1.19                                  java-archive                  
@@ -1141,5 +1141,5 @@ xserver-xorg-video-intel                                              2:2.99.917
 xserver-xorg-video-radeon                                             1:22.0.0-1                            deb                           
 xsom                                                                  4.0.9                                 java-archive                  
 xz                                                                    1.12.0                                java-archive                  
-zlib1g                                                                1:1.3.dfsg+really1.3.1-1+b1           deb                           
+zlib1g                                                                1:1.3.dfsg+really1.3.1-1+deb13u1      deb                           
 eclipse-java                    2026-09-R                             upstream

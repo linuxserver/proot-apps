@@ -132,11 +132,11 @@ eudev-libs                                3.2.14-r8                apk
 feedparser                                6.0.14                   python                      
 feedparser-sgmllib                        2.1.0                    python                      
 fern                                      0.7.1                    rust-crate                  
-ffmpeg-libavcodec                         9.0.2-r3                 apk                         
-ffmpeg-libavformat                        9.0.2-r3                 apk                         
-ffmpeg-libavutil                          9.0.2-r3                 apk                         
-ffmpeg-libswresample                      9.0.2-r3                 apk                         
-ffmpeg-libswscale                         9.0.2-r3                 apk                         
+ffmpeg-libavcodec                         9.1-r0                   apk                         
+ffmpeg-libavformat                        9.1-r0                   apk                         
+ffmpeg-libavutil                          9.1-r0                   apk                         
+ffmpeg-libswresample                      9.1-r0                   apk                         
+ffmpeg-libswscale                         9.1-r0                   apk                         
 fftw-single-libs                          3.3.11-r0                apk                         
 file                                      5.48-r0                  apk                         
 font-liberation                           2.1.5-r2                 apk                         
@@ -225,10 +225,10 @@ libdrm                                    2.4.134-r0               apk
 libdvdcss                                 1.4.3-r0                 apk                         
 libdvdnav                                 6.1.1-r1                 apk                         
 libdvdread                                6.1.3-r2                 apk                         
-libeconf                                  0.8.4-r0                 apk                         
+libeconf                                  0.8.8-r0                 apk                         
 libelf                                    0.195-r0                 apk                         
 libevdev                                  1.13.6-r0                apk                         
-libexpat                                  2.10.0-r0                apk                         
+libexpat                                  2.11.0-r0                apk                         
 libfdisk                                  2.42.4-r3                apk                         
 libffi                                    3.8.1-r0                 apk                         
 libflac                                   1.5.0-r0                 apk                         
@@ -267,7 +267,7 @@ libprotobuf-lite                          31.1-r4                  apk
 libprotoc                                 31.1-r4                  apk                         
 libproxy                                  0.5.12-r0                apk                         
 libpsl                                    0.21.5-r3                apk                         
-libpulse                                  17.0-r9                  apk                         
+libpulse                                  17.0-r10                 apk                         
 librist                                   0.2.15-r0                apk                         
 libsharpyuv                               1.6.0-r0                 apk                         
 libsm                                     1.2.6-r0                 apk                         
@@ -369,7 +369,7 @@ nom                                       7.1.3                    rust-crate
 nom                                       8.0.0                    rust-crate                  
 noop_proc_macro                           0.3.0                    rust-crate                  
 nspr                                      4.38.2-r0                apk                         
-nss                                       3.133-r0                 apk                         
+nss                                       3.134-r0                 apk                         
 num-bigint                                0.4.6                    rust-crate                  
 num-derive                                0.4.2                    rust-crate                  
 num-integer                               0.1.46                   rust-crate                  
@@ -403,9 +403,9 @@ profiling-procmacros                      1.0.16                   rust-crate
 protobuf                                  31.1-r4                  apk                         
 protoc                                    31.1-r4                  apk                         
 psutil                                    7.2.2                    python                      
-pulseaudio                                17.0-r9                  apk                         
-pulseaudio-alsa                           17.0-r9                  apk                         
-pulseaudio-lang                           17.0-r9                  apk                         
+pulseaudio                                17.0-r10                 apk                         
+pulseaudio-alsa                           17.0-r10                 apk                         
+pulseaudio-lang                           17.0-r10                 apk                         
 py3-apsw                                  3.53.4.0-r0              apk                         
 py3-apsw-pyc                              3.53.4.0-r0              apk                         
 py3-attrs                                 26.1.0-r0                apk                         
@@ -595,4 +595,4 @@ yaml                                      0.2.7-r0                 apk
 zeroconf                                  0.154.0                  python                      
 zerocopy                                  0.8.25                   rust-crate                  
 zlib                                      1.4-r0                   apk                         
-zstd-libs                                 1.5.7-r2                 apk                         
+zstd-libs                                 1.6.0-r1                 apk                         

@@ -146,7 +146,7 @@ libdrm                          2.4.131-r0               apk
 libeconf                        0.8.3-r0                 apk                         
 libelf                          0.194-r0                 apk                         
 libexpat                        2.10.0-r0                apk                         
-libffi                          3.5.2-r0                 apk                         
+libffi                          3.8.1-r0                 apk                         
 libflac                         1.4.3-r2                 apk                         
 libgcc                          15.2.0-r2                apk                         
 libgomp                         15.2.0-r2                apk                         
@@ -350,4 +350,4 @@ zerocopy                        0.8.25                   rust-crate
 zimg                            3.0.6-r0                 apk                         
 zix-libs                        0.6.2-r0                 apk                         
 zlib                            1.4-r0                   apk                         
-zstd-libs                       1.5.7-r2                 apk                         
+zstd-libs                       1.6.0-r1                 apk                         

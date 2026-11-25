@@ -163,7 +163,7 @@ libdrm                           2.4.134-r0               apk
 libeconf                         0.8.3-r0                 apk                         
 libelf                           0.195-r0                 apk                         
 libexpat                         2.10.0-r0                apk                         
-libffi                           3.5.2-r1                 apk                         
+libffi                           3.8.1-r0                 apk                         
 libflac                          1.4.3-r2                 apk                         
 libgcc                           15.2.0-r5                apk                         
 libgcc-static                    15.2.0-r5                apk                         
@@ -327,11 +327,11 @@ py3-pillow-pyc                   12.2.0-r0                apk
 py3-simplejson                   3.20.1-r1                apk                         
 py3-simplejson-pyc               3.20.1-r1                apk                         
 pybluez                          0.23                     python                      
-pyc                              3.14.10-r1               apk                         
-python3                          3.14.10-r1               apk                         
+pyc                              3.14.10-r2               apk                         
+python3                          3.14.10-r2               apk                         
 python3-ndbm                     3.14.10-r3               apk                         
-python3-pyc                      3.14.10-r1               apk                         
-python3-pycache-pyc0             3.14.10-r1               apk                         
+python3-pyc                      3.14.10-r2               apk                         
+python3-pycache-pyc0             3.14.10-r2               apk                         
 quote                            1.0.40                   rust-crate                  
 radium                           0.7.0                    rust-crate                  
 rand                             0.9.1                    rust-crate                  
@@ -413,4 +413,4 @@ zerocopy                         0.8.25                   rust-crate
 zimg                             3.0.6-r0                 apk                         
 zix-libs                         0.8.0-r0                 apk                         
 zlib                             1.4-r0                   apk                         
-zstd-libs                        1.5.7-r2                 apk                         
+zstd-libs                        1.6.0-r1                 apk                         

@@ -4,7 +4,7 @@ adwaita-icon-theme              48.1-1                                deb
 apt                             3.0.4                                 deb       
 at-spi2-common                  2.56.2-1+deb13u2                      deb       
 at-spi2-core                    2.56.2-1+deb13u2                      deb       
-base-files                      13.8+deb13u7                          deb       
+base-files                      13.8+deb13u8                          deb       
 base-passwd                     3.6.7                                 deb       
 bash                            5.2.37-2+b10                          deb       
 binutils                        2.44-3                                deb       
@@ -561,8 +561,8 @@ libxxhash0                      0.8.3-2                               deb
 libyaml-0-2                     0.2.5-2                               deb       
 libyuv0                         0.0.1904.20250204-1                   deb       
 libz3-4                         4.13.3-1                              deb       
-libzstd-dev                     1.5.7+dfsg-1                          deb       
-libzstd1                        1.5.7+dfsg-1                          deb       
+libzstd-dev                     1.5.7+dfsg-1+deb13u1                  deb       
+libzstd1                        1.5.7+dfsg-1+deb13u1                  deb       
 libzvbi-common                  0.2.44-1                              deb       
 libzvbi0t64                     0.2.44-1                              deb       
 linux-libc-dev                  6.12.118-1                            deb       
