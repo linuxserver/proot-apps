@@ -230,7 +230,7 @@ libpam0g                                  1.5.3-5ubuntu5.7                   deb
 libpango-1.0-0                            1.52.1+ds-1build1                  deb     
 libpangocairo-1.0-0                       1.52.1+ds-1build1                  deb     
 libpangoft2-1.0-0                         1.52.1+ds-1build1                  deb     
-libpcap0.8t64                             1.10.4-4.1ubuntu3.1                deb     
+libpcap0.8t64                             1.10.4-4.1ubuntu3.2                deb     
 libpciaccess0                             0.17-3ubuntu0.24.04.3              deb     
 libpcre2-16-0                             10.42-4ubuntu2.2                   deb     
 libpcre2-8-0                              10.42-4ubuntu2.2                   deb     

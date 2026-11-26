@@ -342,7 +342,7 @@ libsoup2.4-1                    2.74.2-3ubuntu0.10                       deb
 libsoup2.4-common               2.74.2-3ubuntu0.10                       deb       
 libsoxr0                        0.1.3-4build2                            deb       
 libspa-0.2-modules              0.3.48-1ubuntu3.2                        deb       
-libspeex1                       1.2~rc1.2-1.1ubuntu3                     deb       
+libspeex1                       1.2~rc1.2-1.1ubuntu3.1                   deb       
 libspeexdsp1                    1.2~rc1.2-1.1ubuntu3                     deb       
 libsqlite3-0                    3.37.2-2ubuntu0.8                        deb       
 libss2                          1.46.5-2ubuntu1.2                        deb       
@@ -436,7 +436,7 @@ libxml2                         2.9.13+dfsg-1ubuntu0.14                  deb
 libxmu6                         2:1.1.3-3                                deb       
 libxpm4                         1:3.5.12-1ubuntu0.22.04.4                deb       
 libxrandr2                      2:1.5.2-1build1                          deb       
-libxrender1                     1:0.9.10-1build4                         deb       
+libxrender1                     1:0.9.10-1ubuntu0.22.04.1                deb       
 libxshmfence1                   1.3-1build4                              deb       
 libxslt1.1                      1.1.34-4ubuntu0.22.04.5                  deb       
 libxss1                         1:1.2.3-1build2                          deb       
