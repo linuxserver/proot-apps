@@ -146,7 +146,7 @@ libegl-mesa0                     26.0.8-1ubuntu0.3                      deb
 libegl1                          1.7.0-3                                deb          
 libelf1t64                       0.194-4                                deb          
 libepoxy0                        1.5.10-2build1                         deb          
-libexpat1                        2.7.4-1ubuntu0.2                       deb          
+libexpat1                        2.7.4-1ubuntu0.3                       deb          
 libext2fs2t64                    1.47.2-3ubuntu4                        deb          
 libffi8                          3.5.2-4                                deb          
 libfftw3-single3                 3.3.10-2fakesync1build3                deb          
@@ -180,7 +180,7 @@ libgprofng0                      2.46-3ubuntu2                          deb
 libgraphene-1.0-0                1.10.8-5build1                         deb          
 libgraphite2-3                   1.3.14-11ubuntu1.1                     deb          
 libgsm1                          1.0.23-2                               deb          
-libgssapi-krb5-2                 1.22.1-2ubuntu4.1                      deb          
+libgssapi-krb5-2                 1.22.1-2ubuntu4.3                      deb          
 libgstreamer-gl1.0-0             1.28.2-1ubuntu0.3                      deb          
 libgstreamer-plugins-base1.0-0   1.28.2-1ubuntu0.3                      deb          
 libgstreamer-plugins-extra1.0-0  1.28.2-1ubuntu1.2                      deb          
@@ -211,11 +211,11 @@ libjson-c5                       0.18+ds-3                              deb
 libjson-glib-1.0-0               1.10.8+ds-2                            deb          
 libjson-glib-1.0-common          1.10.8+ds-2                            deb          
 libjxl0.11                       0.11.1-6ubuntu4.2                      deb          
-libk5crypto3                     1.22.1-2ubuntu4.1                      deb          
+libk5crypto3                     1.22.1-2ubuntu4.3                      deb          
 libkeyutils1                     1.6.3-6ubuntu3                         deb          
 libkmod2                         34.2-2ubuntu2                          deb          
-libkrb5-3                        1.22.1-2ubuntu4.1                      deb          
-libkrb5support0                  1.22.1-2ubuntu4.1                      deb          
+libkrb5-3                        1.22.1-2ubuntu4.3                      deb          
+libkrb5support0                  1.22.1-2ubuntu4.3                      deb          
 liblcms2-2                       2.17-1ubuntu0.2                        deb          
 libldap-common                   2.6.10+dfsg-1ubuntu5                   deb          
 libldap2                         2.6.10+dfsg-1ubuntu5                   deb          
@@ -290,7 +290,7 @@ libsoup-3.0-0                    3.6.6-1ubuntu0.3                       deb
 libsoup-3.0-common               3.6.6-1ubuntu0.3                       deb          
 libsoxr0                         0.1.3-4.1                              deb          
 libspa-0.2-modules               1.6.2-1ubuntu1.3                       deb          
-libspeex1                        1.2.1-3build1                          deb          
+libspeex1                        1.2.1-3ubuntu0.26.04.1                 deb          
 libspeexdsp1                     1.2.1-3build1                          deb          
 libsqlite3-0                     3.46.1-9ubuntu0.4                      deb          
 libss2                           1.47.2-3ubuntu4                        deb          
@@ -310,7 +310,7 @@ libthai0                         0.1.30-1                               deb
 libtheora1                       1.2.0+dfsg-6                           deb          
 libtheoradec2                    1.2.0+dfsg-6                           deb          
 libtheoraenc2                    1.2.0+dfsg-6                           deb          
-libtiff6                         4.7.0-3ubuntu5                         deb          
+libtiff6                         4.7.0-3ubuntu5.1                       deb          
 libtinfo6                        6.6+20251231-1                         deb          
 libtsan2                         16-20260322-1ubuntu1                   deb          
 libtwolame0                      0.4.0-2build4                          deb          
@@ -366,7 +366,7 @@ libxdmcp6                        1:1.1.5-2                              deb
 libxext6                         2:1.3.4-1build3                        deb          
 libxfixes3                       1:6.0.0-2build2                        deb          
 libxfont2                        1:2.0.6-2ubuntu0.2                     deb          
-libxi6                           2:1.8.2-2                              deb          
+libxi6                           2:1.8.2-2ubuntu0.26.04.1               deb          
 libxinerama1                     2:1.1.4-3build2                        deb          
 libxkbcommon-x11-0               1.13.1-1                               deb          
 libxkbcommon0                    1.13.1-1                               deb          
@@ -376,7 +376,7 @@ libxmlb2                         0.3.24-2                               deb
 libxmu6                          2:1.1.3-4                              deb          
 libxpm4                          1:3.5.17-1ubuntu0.26.04.2              deb          
 libxrandr2                       2:1.5.4-1build1                        deb          
-libxrender1                      1:0.9.12-1build1                       deb          
+libxrender1                      1:0.9.12-1ubuntu0.26.04.1              deb          
 libxshmfence1                    1.3.3-1build1                          deb          
 libxss1                          1:1.2.3-1build4                        deb          
 libxt6t64                        1:1.2.1-1.3build1                      deb          
@@ -414,7 +414,7 @@ rust-coreutils                   0.10.0-1ubuntu2~26.04.1                deb
 sed                              4.9-2ubuntu1                           deb          
 sensible-utils                   0.0.26build1                           deb          
 shared-mime-info                 2.4-5build3                            deb          
-solidcraft                       0.49.1-1                               deb          
+solidcraft                       0.50.0-1                               deb          
 stdlib                           go1.27.3                               go-module    
 systemd                          259.9-0ubuntu0.1                       deb          
 sysvinit-utils                   3.15-5ubuntu1                          deb          

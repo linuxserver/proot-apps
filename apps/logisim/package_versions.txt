@@ -367,8 +367,8 @@ linux-libc-dev                     6.12.118-1                            deb
 locales-all                        2.41-12+deb13u5                       deb             
 login                              1:4.16.0-2+really2.41.5-0+deb13u1     deb             
 login.defs                         1:4.17.4-2                            deb             
-logisim-evolution                  5.0.0                                 deb             
-logisim-evolution                  5.0.0-all                             java-archive    
+logisim-evolution                  5.1.0                                 deb             
+logisim-evolution                  5.1.0-all                             java-archive    
 make                               4.4.1-2                               deb             
 mawk                               1.3.4.20250131-1                      deb             
 mesa-libgallium                    25.0.7-2+deb13u1                      deb             
@@ -393,8 +393,8 @@ pulseaudio-utils                   17.0+dfsg1-2+b1                       deb
 rpcsvc-proto                       1.4.3-1                               deb             
 sed                                4.9-2+deb13u1                         deb             
 shared-mime-info                   2.4-5+b2                              deb             
-slf4j-api                          2.0.19                                java-archive    
-slf4j-simple                       2.0.19                                java-archive    
+slf4j-api                          2.0.20                                java-archive    
+slf4j-simple                       2.0.20                                java-archive    
 sqv                                1.3.0-3+b2                            deb             
 swing-checkbox-tree                1.0.2                                 java-archive    
 swingx-action                      1.6.8                                 java-archive    
