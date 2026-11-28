@@ -5,9 +5,9 @@ apt                              3.2.1ubuntu0.1                         deb
 base-files                       14ubuntu6.3                            deb          
 base-passwd                      3.6.8                                  deb          
 bash                             5.3-2ubuntu1                           deb          
-binutils                         2.46-3ubuntu2                          deb          
-binutils-common                  2.46-3ubuntu2                          deb          
-binutils-x86-64-linux-gnu        2.46-3ubuntu2                          deb          
+binutils                         2.46-3ubuntu2.1                        deb          
+binutils-common                  2.46-3ubuntu2.1                        deb          
+binutils-x86-64-linux-gnu        2.46-3ubuntu2.1                        deb          
 bsdutils                         1:2.41.3-3ubuntu2.2                    deb          
 bubblewrap                       0.11.1-1ubuntu0.3                      deb          
 ca-certificates                  20260816ubuntu0.26.04.2                deb          
@@ -93,7 +93,7 @@ libavahi-common-data             0.8-18ubuntu1.1                        deb
 libavahi-common3                 0.8-18ubuntu1.1                        deb          
 libavcodec62                     7:8.0.1-3ubuntu2                       deb          
 libavutil60                      7:8.0.1-3ubuntu2                       deb          
-libbinutils                      2.46-3ubuntu2                          deb          
+libbinutils                      2.46-3ubuntu2.1                        deb          
 libblkid1                        2.41.3-3ubuntu2.2                      deb          
 libbrotli1                       1.2.0-3ubuntu0.1                       deb          
 libbsd0                          0.12.2-2build2                         deb          
@@ -114,8 +114,8 @@ libcodec2-1.2                    1.2.0-4                                deb
 libcolord2                       1.4.8-3                                deb          
 libcom-err2                      1.47.2-3ubuntu4                        deb          
 libcrypt1                        1:4.5.1-1                              deb          
-libctf-nobfd0                    2.46-3ubuntu2                          deb          
-libctf0                          2.46-3ubuntu2                          deb          
+libctf-nobfd0                    2.46-3ubuntu2.1                        deb          
+libctf0                          2.46-3ubuntu2.1                        deb          
 libcups2t64                      2.4.16-1ubuntu1.3                      deb          
 libcurl3t64-gnutls               8.18.0-1ubuntu2.8                      deb          
 libcurl4t64                      8.18.0-1ubuntu2.8                      deb          
@@ -166,7 +166,7 @@ libgmp10                         2:6.3.0+dfsg-5ubuntu2                  deb
 libgnutls30t64                   3.8.12-2ubuntu1.1                      deb          
 libgomp1                         16-20260322-1ubuntu1                   deb          
 libgpg-error0                    1.58-2                                 deb          
-libgprofng0                      2.46-3ubuntu2                          deb          
+libgprofng0                      2.46-3ubuntu2.1                        deb          
 libgraphene-1.0-0                1.10.8-5build1                         deb          
 libgraphite2-3                   1.3.14-11ubuntu1.1                     deb          
 libgsm1                          1.0.23-2                               deb          
@@ -261,7 +261,7 @@ libsemanage2                     3.9-1build1                            deb
 libsensors-config                1:3.6.2-2build1                        deb          
 libsensors5                      1:3.6.2-2build1                        deb          
 libsepol2                        3.9-2                                  deb          
-libsframe3                       2.46-3ubuntu2                          deb          
+libsframe3                       2.46-3ubuntu2.1                        deb          
 libsharpyuv0                     1.5.0-0.1build1                        deb          
 libshine3                        3.1.1-3build1                          deb          
 libsm6                           2:1.2.6-1build1                        deb          
@@ -409,4 +409,4 @@ xserver-xorg-video-radeon        1:22.0.0-1build2                       deb
 zenity                           4.2.1-1                                deb          
 zenity-common                    4.2.1-1                                deb          
 zlib1g                           1:1.3.dfsg+really1.3.1-1ubuntu3.2      deb          
-xbased                          1.2.15                                upstream
+xbased                          1.2.16                                upstream
